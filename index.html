@@ -12,6 +12,7 @@
 <style>
   :root { --color-accent: var(--color-neutral-900); --color-accent-2: var(--color-neutral-900); --color-accent-100: var(--color-neutral-100); --color-accent-800: var(--color-neutral-800); }
   body { margin: 0; }
+  .plate { filter: none; }
   a { text-decoration: none; }
   a:hover { opacity: 0.7; }
 </style>
@@ -34,15 +35,15 @@
 
   <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
     <section style="position: relative; height: 88vh; min-height: 620px; display: flex; align-items: center; justify-content: center; text-align: center;">
-      <img src="https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85/https://media-production.lp-cdn.com/media/9ee492b0-18a3-42ea-919d-38ee41749424" alt="Featured Eastside property" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;"/>
+      <video src="./assets/home-hero-video.mp4" autoPlay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;"></video>
       <div style="position: absolute; inset: 0; background: rgba(20,19,17,{{ heroDarkness }});"></div>
       <div style="position: relative; max-width: 900px; margin: 0 auto; padding: 0 var(--space-6); color: #fdfdfc;">
         <div style="font-size: 12px; letter-spacing: 0.25em; text-transform: uppercase; opacity: 0.9; margin-bottom: var(--space-4);">Your Local Real Estate Resource</div>
         <h1 style="font-size: clamp(44px, 8vw, 92px); margin: 0 0 var(--space-4); color: #fdfdfc;">Jack Macdonald</h1>
         <div style="font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85; margin-bottom: var(--space-6);">Local Insight &middot; Steady Communication &middot; Concierge Care</div>
         <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; justify-content: center;">
-          <a href="#" onClick="{{ goTo.services }}" class="btn" style="background: #fdfdfc; color: #201f1d; border-color: #fdfdfc;">Search Homes</a>
-          <a href="#" onClick="{{ goTo.contact }}" class="btn" style="border: 1px solid #fdfdfc; color: #fdfdfc;">Home Valuation</a>
+          <a href="#" onClick="{{ goTo.services }}" class="btn" style="background: #fdfdfc; color: #201f1d; border-color: #fdfdfc; white-space: nowrap;">Search Homes</a>
+          <a href="#" onClick="{{ goTo.contact }}" class="btn" style="border: 1px solid #fdfdfc; color: #fdfdfc; white-space: nowrap;">Home Valuation</a>
         </div>
       </div>
     </section>
