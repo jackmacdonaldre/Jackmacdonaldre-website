@@ -1,0 +1,22 @@
+[
+  { "topic": "What does it actually cost to sell a home in your area?", "target_keywords": ["cost to sell a home", "closing costs for sellers"], "notes": "Write generally about typical categories of cost without stating specific percentages as universal fact." },
+  { "topic": "First-time homebuyer's guide: what to expect from start to close", "target_keywords": ["first time homebuyer guide", "how to buy your first home"], "notes": "Step-by-step overview: pre-approval, search, offer, inspection, closing." },
+  { "topic": "5 signs it might be time to sell your home", "target_keywords": ["when to sell your home", "signs you should sell"], "notes": "Lifestyle and market-readiness signals, written generally." },
+  { "topic": "How to prepare your home for showings", "target_keywords": ["prepare home for showing", "staging tips"], "notes": "Practical, actionable checklist." },
+  { "topic": "Renting vs buying: how to think through the decision", "target_keywords": ["rent vs buy", "should I buy a home"], "notes": "Balanced, factors-based framework rather than a definitive answer." },
+  { "topic": "What happens during a home inspection", "target_keywords": ["home inspection process", "what to expect home inspection"], "notes": "Step-by-step, reduces buyer anxiety." },
+  { "topic": "Common mistakes first-time sellers make", "target_keywords": ["home selling mistakes", "mistakes selling your house"], "notes": "Educational, builds trust." },
+  { "topic": "How long does it actually take to buy a home?", "target_keywords": ["how long to buy a home", "home buying timeline"], "notes": "General timeline overview from search to close." },
+  { "topic": "Questions to ask before hiring a real estate agent", "target_keywords": ["questions to ask real estate agent", "how to choose an agent"], "notes": "Positions Jack as the transparent, trustworthy choice." },
+  { "topic": "Understanding pre-approval vs pre-qualification", "target_keywords": ["pre-approval vs pre-qualification", "mortgage pre-approval explained"], "notes": "Clarifies a commonly confused topic; keep general." },
+  { "topic": "What to know before making an offer in a competitive market", "target_keywords": ["how to make a competitive offer", "buying in a hot market"], "notes": "General strategy discussion, no specific market stats stated as fact." },
+  { "topic": "A neighborhood guide: what to consider beyond the house itself", "target_keywords": ["choosing a neighborhood", "what to look for in a neighborhood"], "notes": "Schools, commute, amenities, general framework." },
+  { "topic": "How to read a home appraisal", "target_keywords": ["home appraisal explained", "what is a home appraisal"], "notes": "Educational, demystifies the process." },
+  { "topic": "Downsizing: what to think through before you sell", "target_keywords": ["downsizing your home", "selling to downsize"], "notes": "Useful for an often-overlooked seller segment." },
+  { "topic": "What repairs are worth doing before you sell?", "target_keywords": ["repairs before selling house", "should I renovate before selling"], "notes": "General ROI framework, avoid specific dollar promises." },
+  { "topic": "Understanding closing day: what actually happens", "target_keywords": ["closing day home purchase", "what happens at closing"], "notes": "Step by step walkthrough, reduces anxiety for first-timers." },
+  { "topic": "Moving with kids/pets: a practical checklist", "target_keywords": ["moving checklist family", "moving with pets tips"], "notes": "Lifestyle-adjacent content, good for shares." },
+  { "topic": "How interest rates affect your home search (general concepts)", "target_keywords": ["how interest rates affect buying a home"], "notes": "Explain the concept generally without quoting specific current rates as fact." },
+  { "topic": "What to look for on a listing photo vs in person", "target_keywords": ["evaluating listing photos", "what listing photos don't show"], "notes": "Practical buyer-education content." },
+  { "topic": "Working with a real estate agent: what they actually do for you", "target_keywords": ["what does a real estate agent do", "value of a real estate agent"], "notes": "Value-of-service post, good for building trust in Jack's role." }
+]

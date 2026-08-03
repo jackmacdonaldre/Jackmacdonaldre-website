@@ -1,0 +1,14 @@
+{
+  "name": "blog-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Claude-powered blog post generator for Jack Macdonald real estate site.",
+  "scripts": {
+    "publish": "node scripts/generate-and-publish.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "marked": "^13.0.2"
+  }
+}

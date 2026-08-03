@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+<link rel="stylesheet" href="./_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/styles.css">
+<script src="./_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/_ds_bundle.js"></script>
+<script src="./doc-page.js"></script>
+<style>
+  doc-page:not(:defined) { visibility: hidden; }
+  .bg-guide h1, .bg-guide h2, .bg-guide h3 { font-weight: var(--font-heading-weight); }
+  .bg-guide p { text-align: justify; }
+  .step { break-inside: avoid; display: grid; grid-template-columns: 56px 1fr; gap: var(--space-4); margin-bottom: var(--space-5); }
+  .step-num { font-family: var(--font-heading); font-size: 30px; color: var(--color-accent); }
+  .glossary dt { font-family: var(--font-heading); font-size: 17px; margin-top: var(--space-3); }
+  .glossary dd { margin: 4px 0 0; color: var(--color-text); }
+  .checklist { list-style: none; padding: 0; margin: 0; }
+  .checklist li { display: flex; gap: var(--space-3); align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--color-divider); break-inside: avoid; }
+  .checklist li::before { content: ''; flex: 0 0 16px; width: 16px; height: 16px; border: 1px solid var(--color-accent); margin-top: 2px; }
+</style>
+</helmet>
+
+<div class="bg-guide">
+<doc-page margin="0.85in">
+
+  <div slot="header" style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--color-divider); padding-bottom: 8px; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600);">
+    <span>Macdonald Group</span>
+    <span>The Buyer's Guide</span>
+  </div>
+  <div slot="footer" style="display: flex; justify-content: space-between; border-top: 1px solid var(--color-divider); padding-top: 8px; font-size: 11px; color: var(--color-neutral-600);">
+    <span>Jack Macdonald &middot; REALTOR&reg; &middot; (425) 941-6998</span>
+    <span>macdonaldgrouprealestate.com</span>
+  </div>
+
+  <div style="text-align: center; margin-bottom: var(--space-8);">
+    <div style="font-size: 12px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: var(--space-3);">Macdonald Group</div>
+    <h1 style="font-size: 46px; margin: 0 0 var(--space-3);">The Buyer's Guide</h1>
+    <p style="text-align: center; max-width: 480px; margin: 0 auto; color: var(--color-neutral-700);">A clear, step-by-step companion to buying a home on the Eastside &mdash; from first search to closing day.</p>
+  </div>
+  <div class="hr"></div>
+
+  <h2 style="margin-top: var(--space-6);">The Home Buying Process</h2>
+  <div style="margin-top: var(--space-5);">
+    <div class="step"><div class="step-num">01</div><div><h3 style="margin: 0 0 4px;">Get Pre-Approved</h3><p style="margin: 0;">Meet with a lender to understand your budget and get a pre-approval letter. This tells you what you can comfortably spend and shows sellers you're a serious buyer.</p></div></div>
+    <div class="step"><div class="step-num">02</div><div><h3 style="margin: 0 0 4px;">Define Your Priorities</h3><p style="margin: 0;">List the must-haves versus the nice-to-haves &mdash; location, schools, commute, size, and style &mdash; so we can search efficiently.</p></div></div>
+    <div class="step"><div class="step-num">03</div><div><h3 style="margin: 0 0 4px;">Search With a Strategy</h3><p style="margin: 0;">I'll set you up with a tailored search and flag new listings early, including ones that fit your criteria before they're widely seen.</p></div></div>
+    <div class="step"><div class="step-num">04</div><div><h3 style="margin: 0 0 4px;">Tour Homes</h3><p style="margin: 0;">We'll visit properties together. I'll point out things worth noting &mdash; condition, layout, resale potential &mdash; that aren't always obvious on a first walk-through.</p></div></div>
+    <div class="step"><div class="step-num">05</div><div><h3 style="margin: 0 0 4px;">Make an Offer</h3><p style="margin: 0;">Once you find the right home, we'll build a competitive offer strategy based on current market conditions and comparable sales.</p></div></div>
+    <div class="step"><div class="step-num">06</div><div><h3 style="margin: 0 0 4px;">Inspection &amp; Due Diligence</h3><p style="margin: 0;">A home inspection and any needed specialty reviews happen during this window, giving you a chance to negotiate or, if needed, walk away.</p></div></div>
+    <div class="step"><div class="step-num">07</div><div><h3 style="margin: 0 0 4px;">Final Loan Approval</h3><p style="margin: 0;">Your lender finalizes underwriting. This is a good time to avoid new credit activity or large purchases.</p></div></div>
+    <div class="step"><div class="step-num">08</div><div><h3 style="margin: 0 0 4px;">Closing Day</h3><p style="margin: 0;">Sign your final paperwork, transfer funds, and get your keys. Congratulations &mdash; the home is yours.</p></div></div>
+  </div>
+
+  <div style="break-before: page;"></div>
+  <h2 style="margin-top: var(--space-2);">Financing Basics</h2>
+  <p>Most buyers finance their purchase with a mortgage. Here's a quick primer on the terms you'll hear most often from your lender.</p>
+  <dl class="glossary">
+    <dt>Pre-Approval</dt><dd>A lender's written estimate of how much you can borrow, based on a review of your income, credit, and assets.</dd>
+    <dt>Down Payment</dt><dd>The portion of the purchase price you pay upfront, typically 3&ndash;20% depending on the loan program.</dd>
+    <dt>Earnest Money</dt><dd>A deposit made with your offer to show good faith, credited toward your purchase at closing.</dd>
+    <dt>Appraisal</dt><dd>An independent estimate of a home's value, required by lenders to confirm the loan amount is supported by the property.</dd>
+    <dt>Closing Costs</dt><dd>Fees beyond the purchase price &mdash; loan origination, title, escrow, and recording &mdash; typically 2&ndash;5% of the loan amount.</dd>
+    <dt>Contingency</dt><dd>A condition in your offer (inspection, financing, appraisal) that must be satisfied for the contract to remain binding.</dd>
+    <dt>Escrow</dt><dd>A neutral third party that holds funds and documents until all conditions of the sale are met.</dd>
+    <dt>Title Insurance</dt><dd>A policy protecting you and your lender against defects in the property's ownership history.</dd>
+  </dl>
+
+  <div style="break-before: page;"></div>
+  <h2 style="margin-top: var(--space-2);">Buyer's Checklist</h2>
+  <p>Keep this list handy as you prepare to search and make an offer.</p>
+  <ul class="checklist">
+    <li>Get pre-approved and know your comfortable price range</li>
+    <li>Save for your down payment and closing costs</li>
+    <li>List your must-haves and deal-breakers</li>
+    <li>Research neighborhoods, schools, and commute times</li>
+    <li>Set up an alert for new listings that match your criteria</li>
+    <li>Line up a trusted inspector before you're under contract</li>
+    <li>Avoid large purchases or new credit while in escrow</li>
+    <li>Review your closing disclosure carefully before signing</li>
+    <li>Do a final walk-through before closing day</li>
+    <li>Set up utilities and change your address ahead of move-in</li>
+  </ul>
+
+  <div class="hr" style="margin-top: var(--space-8);"></div>
+  <div style="text-align: center; margin-top: var(--space-6);">
+    <h3 style="margin: 0 0 4px;">Ready to start your search?</h3>
+    <p style="text-align: center; max-width: 460px; margin: 0 auto; color: var(--color-neutral-700);">I'm happy to answer questions and help you take the next step, whenever you're ready.</p>
+    <div style="margin-top: var(--space-3); font-size: 14px;">Jack Macdonald &middot; (425) 941-6998 &middot; Macdonald Group of Compass</div>
+  </div>
+
+</doc-page>
+</div>
+
+</x-dc>
+</body>
+</html>
