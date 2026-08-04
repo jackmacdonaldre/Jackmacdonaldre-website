@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="./_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/styles.css">
+<script src="./_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/_ds_bundle.js"></script>
+</helmet>
+<!--
+  MODULAR MAP PLACEHOLDER — isolated on purpose so it can be swapped for a
+  real map provider without touching the rest of the site.
+  TODO integration:
+    1. Replace the checkerboard background + dot pins below with a real map
+       (Google Maps JS API, Mapbox GL, or your IDX vendor's map widget).
+    2. Pins currently position from listing.mapX/mapY (0-100 placeholder
+       percentages). Swap for real listing.lat/listing.lng.
+    3. API key / env var needed depends on provider, e.g.
+       GOOGLE_MAPS_API_KEY or MAPBOX_ACCESS_TOKEN.
+    4. "Draw your own search area" button below is disabled — wire it to
+       your map provider's drawing library if it supports one.
+-->
+<div style="position: relative; width: 100%; height: 420px; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--color-divider); background-image: linear-gradient(45deg, var(--color-neutral-100) 25%, transparent 25%), linear-gradient(-45deg, var(--color-neutral-100) 25%, transparent 25%), linear-gradient(45deg, transparent 75%, var(--color-neutral-100) 75%), linear-gradient(-45deg, transparent 75%, var(--color-neutral-100) 75%); background-size: 44px 44px; background-position: 0 0, 0 22px, 22px -22px, -22px 0; background-color: var(--color-neutral-50, var(--color-bg));">
+  <div style="position: absolute; top: var(--space-3); left: var(--space-3); background: var(--color-bg); border: 1px solid var(--color-divider); border-radius: var(--radius-sm); padding: var(--space-2) var(--space-3); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600);">Map preview — sample pins, connect a map provider</div>
+  <button type="button" disabled="{{ true }}" class="btn btn-ghost" style="position: absolute; top: var(--space-3); right: var(--space-3); font-size: 11px; opacity: 0.7;">Draw Search Area</button>
+  <sc-for list="{{ pins }}" as="pin" hint-placeholder-count="10">
+    <div title="{{ pin.title }}" style="position: absolute; left: {{ pin.left }}; top: {{ pin.top }}; transform: translate(-50%,-50%); width: 16px; height: 16px; border-radius: 50%; background: var(--color-accent-500); border: 2px solid #fdfdfc; box-shadow: var(--shadow-sm); cursor: pointer;"></div>
+  </sc-for>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;listings&quot;: {&quot;editor&quot;: null, &quot;tsType&quot;: &quot;Listing[]&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    // listings: pass an array of listing objects from properties-data.js
+    // (or a single-item array for a property detail page's mini-map).
+    const listings = this.props.listings || [];
+    const pins = listings.map(l => ({
+      title: (l.address || '') + (l.price ? ' — $' + Number(l.price).toLocaleString() : ''),
+      left: (l.mapX != null ? l.mapX : 50) + '%',
+      top: (l.mapY != null ? l.mapY : 50) + '%'
+    }));
+    return { pins };
+  }
+}
+
+</script>
+</body>
+</html>
