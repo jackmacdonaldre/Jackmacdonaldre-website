@@ -27,7 +27,7 @@
   .nbhd-card:hover .nbhd-name { color: var(--color-accent-700); }
   .timeline-item:not(:last-child)::after { content: '→'; margin-left: var(--space-3); color: var(--color-accent-500); font-size: 13px; }
   .social-link { transition: color 0.25s ease, transform 0.25s ease; display: inline-block; }
-  .social-link:hover { color: var(--color-accent-700); transform: translateX(3px); opacity: 1; }
+  .menu-link:hover { color: var(--color-accent-700) !important; }
   @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   .fade-up { animation: fadeUp 0.8s ease both; }
   .diff-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
@@ -49,15 +49,32 @@
 
 <div style="background: var(--color-bg); min-height: 100vh; width: 100%;">
 
-  <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between;">
-    <a href="#" onClick="{{ goHome }}" style="display: flex; align-items: center; gap: var(--space-3);">
+  <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
+    <div style="display: flex; align-items: center; gap: 28px;">
+      <a href="#" onClick="{{ goTo.about }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
+      <a href="#" onClick="{{ goTo.services }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
+    </div>
+    <a href="#" onClick="{{ goHome }}" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
       <img src="./assets/mg-logo-horiz-black.png" alt="Macdonald Group" style="height: 28px; width: auto; display: block;">
     </a>
-    <div style="display: flex; align-items: center; gap: var(--space-6);">
-      <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="4">
-        <a href="#" onClick="{{ item.onClick }}" style="color: {{ item.color }}; border-bottom: 1px solid {{ item.border }}; padding-bottom: 2px; font-size: 14px;">{{ item.label }}</a>
-      </sc-for>
+    <div style="display: flex; align-items: center; gap: var(--space-5);">
       <a href="tel:4259416998" class="btn btn-secondary">(425) 941-6998</a>
+      <button type="button" onClick="{{ toggleMenu }}" aria-label="Open menu" style="background: none; border: none; cursor: pointer; padding: 4px; display: flex; flex-direction: column; gap: 5px;">
+        <span style="width: 26px; height: 1px; background: #201f1d;"></span>
+        <span style="width: 26px; height: 1px; background: #201f1d;"></span>
+        <span style="width: 26px; height: 1px; background: #201f1d;"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-overlay" style="position: fixed; inset: 0; z-index: 200; background: rgba(253,253,252,0.97); opacity: {{ menuOpen }} ? 1 : 0; visibility: {{ menuVisibility }}; transition: opacity 0.45s ease; pointer-events: {{ menuPointerEvents }};">
+    <button type="button" onClick="{{ toggleMenu }}" aria-label="Close menu" style="position: absolute; top: var(--space-5); right: var(--space-6); background: none; border: none; cursor: pointer; font-size: 28px; line-height: 1; color: #201f1d; font-family: var(--font-body);">&times;</button>
+    <div style="height: 100%; display: flex; align-items: center; justify-content: flex-end; padding: var(--space-8) calc(var(--space-8) * 1.5);">
+      <nav style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-4); text-align: right;">
+        <sc-for list="{{ menuItems }}" as="item" hint-placeholder-count="7">
+          <a href="#" onClick="{{ item.onClick }}" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: {{ item.color }}; transform: translateY({{ menuAnimOffset }}); opacity: {{ menuOpen }}; transition: transform 0.5s ease {{ item.delay }}, opacity 0.5s ease {{ item.delay }}, color 0.25s ease;">{{ item.label }}</a>
+        </sc-for>
+      </nav>
     </div>
   </div>
 
@@ -889,6 +906,13 @@ class Component extends DCLogic {
       color: view === it.key ? '#201f1d' : 'var(--color-neutral-600)',
       border: view === it.key ? '#201f1d' : 'transparent'
     }));
+    const menuOpen = !!this.state.menuOpen;
+    const menuItems = items.map((it, i) => ({
+      label: it.label,
+      onClick: (e) => { e.preventDefault(); this.setState({ menuOpen: false }); this.go(it.key); },
+      color: view === it.key ? 'var(--color-accent-700)' : '#201f1d',
+      delay: (i * 0.04) + 's'
+    }));
 
     const goTo = {
       home: (e) => { e.preventDefault(); this.go('home'); },
@@ -1139,6 +1163,12 @@ class Component extends DCLogic {
         setImgRef: (el) => { if (el && el.src !== m.photo) el.src = m.photo; }
       })),
       navItems,
+      menuItems,
+      menuOpen,
+      menuVisibility: menuOpen ? 'visible' : 'hidden',
+      menuPointerEvents: menuOpen ? 'auto' : 'none',
+      menuAnimOffset: menuOpen ? '0px' : '12px',
+      toggleMenu: (e) => { e.preventDefault(); this.setState(s => ({ menuOpen: !s.menuOpen })); },
       goTo,
       goHome: (e) => { e.preventDefault(); this.go('home'); },
       services,
