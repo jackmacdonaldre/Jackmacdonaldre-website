@@ -1,0 +1,23 @@
+{
+  "_instructions": "Each topic is used once then marked 'published'. Add more topics anytime — just copy the format below.",
+  "topics": [
+    { "topic": "Living in Bridle Trails: A Neighborhood Guide", "city": "Bellevue", "neighborhood": "Bridle Trails", "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Somerset Bellevue Real Estate Guide", "city": "Bellevue", "neighborhood": "Somerset", "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Education Hill Homes: What Buyers Should Know", "city": "Bellevue", "neighborhood": "Education Hill", "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Downtown Redmond Neighborhood Guide", "city": "Redmond", "neighborhood": "Downtown Redmond", "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Klahanie Community Guide", "city": "Sammamish", "neighborhood": "Klahanie", "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Finn Hill Homes for Sale: Neighborhood Overview", "city": "Kirkland", "neighborhood": "Finn Hill", "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Bellevue vs Kirkland: Which Is Right for You?", "city": "Bellevue", "neighborhood": null, "type": "comparison", "status": "queued" },
+    { "topic": "Moving to Bellevue from California: A Practical Guide", "city": "Bellevue", "neighborhood": null, "type": "relocation_guide", "status": "queued" },
+    { "topic": "Bellevue School District Guide for Home Buyers", "city": "Bellevue", "neighborhood": null, "type": "buyer_guide", "status": "queued" },
+    { "topic": "Cost of Living in Bellevue: What to Expect", "city": "Bellevue", "neighborhood": null, "type": "relocation_guide", "status": "queued" },
+    { "topic": "First-Time Home Buying on the Eastside: Step by Step", "city": "Eastside", "neighborhood": null, "type": "buyer_guide", "status": "queued" },
+    { "topic": "Best Coffee Shops in Bellevue", "city": "Bellevue", "neighborhood": null, "type": "lifestyle_guide", "status": "queued" },
+    { "topic": "Best Hiking Trails Near Issaquah", "city": "Issaquah", "neighborhood": null, "type": "lifestyle_guide", "status": "queued" },
+    { "topic": "Dog Parks in Redmond: A Local's List", "city": "Redmond", "neighborhood": null, "type": "lifestyle_guide", "status": "queued" },
+    { "topic": "Bellevue Farmers Market Guide", "city": "Bellevue", "neighborhood": null, "type": "lifestyle_guide", "status": "queued" },
+    { "topic": "Seller's Guide: Preparing Your Eastside Home for Market", "city": "Eastside", "neighborhood": null, "type": "seller_guide", "status": "queued" },
+    { "topic": "What Woodinville Living Is Really Like", "city": "Woodinville", "neighborhood": null, "type": "neighborhood_guide", "status": "queued" },
+    { "topic": "Bothell Real Estate: An Honest Overview for Buyers", "city": "Bothell", "neighborhood": null, "type": "neighborhood_guide", "status": "queued" }
+  ]
+}
