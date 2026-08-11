@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meet the Macdonald Group | Bellevue &amp; Eastside Real Estate Team</title>
+<meta name="description" content="Meet the Macdonald Group of Compass, brokers and specialists serving Bellevue, Kirkland, Redmond, and the greater Eastside with concierge-level service.">
+<link rel="canonical" href="https://jackmacdonaldre.com/team/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jack Macdonald | Macdonald Group of Compass">
+<meta property="og:title" content="Meet the Macdonald Group | Bellevue &amp; Eastside Real Estate Team">
+<meta property="og:description" content="Meet the Macdonald Group of Compass, brokers and specialists serving Bellevue, Kirkland, Redmond, and the greater Eastside with concierge-level service.">
+<meta property="og:url" content="https://jackmacdonaldre.com/team/">
+<meta property="og:image" content="https://jackmacdonaldre.com/assets/team-group-photo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Meet the Macdonald Group | Bellevue &amp; Eastside Real Estate Team">
+<meta name="twitter:description" content="Meet the Macdonald Group of Compass, brokers and specialists serving Bellevue, Kirkland, Redmond, and the greater Eastside with concierge-level service.">
+<link rel="stylesheet" href="../_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/styles.css">
+<style>
+  body { margin: 0; }
+  .btn { white-space: nowrap; }
+  .plate { filter: none; overflow: hidden; }
+  .plate img { transition: transform 0.6s ease; }
+  .plate:hover img { transform: scale(1.04); }
+  a { text-decoration: none; color: var(--color-accent-700); }
+  a:hover { opacity: 0.7; }
+  .card { transition: box-shadow 0.3s ease, transform 0.3s ease; }
+  .card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+  .svc-card:hover .svc-title { color: var(--color-accent-700); }
+  .nbhd-card .plate { transition: box-shadow 0.35s ease; cursor: pointer; }
+  .nbhd-card:hover .plate { box-shadow: var(--shadow-md); }
+  .nbhd-card:hover .plate img { transform: scale(1.05); }
+  .nbhd-card .nbhd-name { transition: color 0.3s ease; }
+  .nbhd-card:hover .nbhd-name { color: var(--color-accent-700); }
+  .timeline-item:not(:last-child)::after { content: '\2192'; margin-left: var(--space-3); color: var(--color-accent-500); font-size: 13px; }
+  .social-link { transition: color 0.25s ease, transform 0.25s ease; display: inline-block; }
+  .menu-link:hover { color: var(--color-accent-700) !important; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+  .fade-up { animation: fadeUp 0.8s ease both; }
+  .diff-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
+  .stat-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
+  .nav-overlay { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.45s ease, visibility 0.45s ease; }
+  .nav-overlay.open { opacity: 1; visibility: visible; pointer-events: auto; }
+  .nav-overlay .menu-link { transform: translateY(14px); opacity: 0; transition: transform 0.5s ease, opacity 0.5s ease, color 0.25s ease; }
+  .nav-overlay.open .menu-link { transform: translateY(0); opacity: 1; }
+  @media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
+  @media (max-width: 900px) { .split-grid { grid-template-columns: 1fr !important; } }
+  @media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
+</style>
+</head>
+<body>
+
+<div style="background: var(--color-bg); min-height: 100vh; width: 100%;">
+
+  <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
+    <div style="display: flex; align-items: center; gap: 28px;">
+      <a href="../about/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
+      <a href="../services/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
+    </div>
+    <a href="../" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
+      <img src="../assets/mg-logo-horiz-black.png" alt="Macdonald Group | Compass" style="height: 28px; width: auto; display: block;">
+    </a>
+    <div style="display: flex; align-items: center; gap: var(--space-5);">
+      <a href="tel:4259416998" class="btn btn-secondary" style="white-space: nowrap;">(425) 941-6998</a>
+      <button type="button" id="menu-open" aria-label="Open menu" style="background: none; border: none; cursor: pointer; padding: 4px; display: flex; flex-direction: column; gap: 5px;">
+        <span style="width: 26px; height: 1px; background: #201f1d;"></span>
+        <span style="width: 26px; height: 1px; background: #201f1d;"></span>
+        <span style="width: 26px; height: 1px; background: #201f1d;"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-overlay" id="nav-overlay" style="position: fixed; inset: 0; z-index: 200; background: rgba(253,253,252,0.97);">
+    <button type="button" id="menu-close" aria-label="Close menu" style="position: absolute; top: var(--space-5); right: var(--space-6); background: none; border: none; cursor: pointer; font-size: 28px; line-height: 1; color: #201f1d; font-family: var(--font-body);">&times;</button>
+    <div style="height: 100%; display: flex; align-items: center; justify-content: flex-end; padding: var(--space-8) calc(var(--space-8) * 1.5);">
+      <nav style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-4); text-align: right;">
+        <a href="../" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.00s;">Home</a>
+        <a href="../blog/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.04s;">Blog</a>
+        <a href="../services/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.08s;">Services</a>
+        <a href="../search.html" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.12s;">Properties</a>
+        <a href="../about/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.16s;">About</a>
+        <a href="../team/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.20s;">Team</a>
+        <a href="../contact/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.24s;">Contact</a>
+      </nav>
+    </div>
+  </div>
+
+    <section style="position: relative; padding: 160px var(--space-6) var(--space-8); text-align: center; overflow: hidden;">
+      <img src="https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85/https://media-production.lp-cdn.com/media/9ee492b0-18a3-42ea-919d-38ee41749424" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
+      <div style="position: absolute; inset: 0; background: rgba(20,19,17,0.72);"></div>
+      <div style="position: relative;">
+        <img src="../assets/mg-logo-vert-white.png" alt="Macdonald Group" style="height: 48px; width: auto; margin: 0 auto var(--space-4); display: block;">
+        <h6 style="color: var(--color-neutral-400);">The Team</h6>
+        <h1 class="fade-up" style="margin-top: var(--space-2); color: #fdfdfc;">Meet the Macdonald Group</h1>
+      </div>
+    </section>
+
+    <section class="split-grid" style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-8); align-items: center;">
+      <figure class="plate" style="margin: 0;">
+        <img src="../assets/team-group-photo.jpg" alt="The Macdonald Group team" style="width: 100%; display: block;">
+      </figure>
+      <p>We combine decades of real estate experience with strategic marketing and concierge-level service to help clients succeed across Seattle and the Eastside. From first walkthrough to closing day, we're by your side with clear guidance and a plan built around your goals.</p>
+    </section>
+
+    <section style="max-width: 1000px; margin: 0 auto; padding: 0 var(--space-6) var(--space-8);">
+      <h6 style="text-align: center; margin-bottom: var(--space-6);">The Brokers</h6>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: var(--space-8);">
+        <div style="text-align: center;">
+          <figure class="plate" style="margin: 0 0 var(--space-4);">
+            <img src="../assets/jack-team-photo.png" alt="Jack Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
+          </figure>
+          <div class="card-title" style="font-size: 19px;">Jack Macdonald</div>
+          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Broker</span><br>
+          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
+        </div>
+        <div style="text-align: center;">
+          <figure class="plate" style="margin: 0 0 var(--space-4);">
+            <img src="../assets/stephen-team-photo.jpg" alt="Stephen Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
+          </figure>
+          <div class="card-title" style="font-size: 19px;">Stephen Macdonald</div>
+          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Broker</span><br>
+          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
+        </div>
+        <div style="text-align: center;">
+          <figure class="plate" style="margin: 0 0 var(--space-4);">
+            <img src="../assets/april-team-photo.jpg" alt="April Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
+          </figure>
+          <div class="card-title" style="font-size: 19px;">April Macdonald</div>
+          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">House Prep Specialist</span><br>
+          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
+        </div>
+        <div style="text-align: center;">
+          <figure class="plate" style="margin: 0 0 var(--space-4);">
+            <img src="../assets/jaelyn-team-photo.jpg" alt="Jaelyn Krafsky" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
+          </figure>
+          <div class="card-title" style="font-size: 19px;">Jaelyn Krafsky</div>
+          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Executive Assistant</span><br>
+          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
+        </div>
+        <div style="text-align: center;">
+          <figure class="plate" style="margin: 0 0 var(--space-4);">
+            <img src="../assets/hannah-team-photo.jpg" alt="Hannah Holser" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
+          </figure>
+          <div class="card-title" style="font-size: 19px;">Hannah Holser</div>
+          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Intern / Broker</span><br>
+          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr" style="max-width: 1300px; margin-left: auto; margin-right: auto;"></div>
+
+    <section style="max-width: 1200px; margin: 0 auto; padding: var(--space-8) var(--space-6);">
+      <h6 style="text-align: center;">What Clients Say</h6>
+      <h2 style="text-align: center; margin: var(--space-2) 0 var(--space-8);">Success Stories</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-4);">
+        <div class="card">
+          <p class="card-body" style="font-style: italic;">&ldquo;Jack worked closely with us through every detail of preparing, listing, and selling our home. We were genuinely thankful for the care he brought to the whole process.&rdquo;</p>
+          <div class="card-meta" style="margin-top: var(--space-2);">Home Seller, Eastside</div>
+        </div>
+        <div class="card">
+          <p class="card-body" style="font-style: italic;">&ldquo;From start to finish the process was professional and stress-free, with responsiveness and attention to detail at every step.&rdquo;</p>
+          <div class="card-meta" style="margin-top: var(--space-2);">Home Buyer, Bellevue</div>
+        </div>
+        <div class="card">
+          <p class="card-body" style="font-style: italic;">&ldquo;This was our third time working with the Macdonald Group, and we wouldn’t want to work with anyone else.&rdquo;</p>
+          <div class="card-meta" style="margin-top: var(--space-2);">Repeat Client</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="max-width: 900px; margin: 0 auto; padding: var(--space-4) var(--space-6) var(--space-8); text-align: center;">
+      <h2 style="margin: 0 0 var(--space-2);">Our Mission is Simple</h2>
+      <p style="max-width: 560px; margin: 0 auto var(--space-6);">To make your real estate experience feel effortless &mdash; and even enjoyable &mdash; every step of the way.</p>
+      <a href="../contact/" class="btn btn-primary">Get In Touch</a>
+    </section>
+
+  <footer style="background: var(--color-neutral-900); color: var(--color-neutral-300); padding: var(--space-8) var(--space-6) var(--space-6);">
+    <div style="max-width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-6);">
+      <div>
+        <img src="../assets/mg-logo-vert-white.png" alt="Macdonald Group" style="height: 64px; width: auto; display: block; margin-bottom: var(--space-3);">
+        <div style="font-family: var(--font-heading); color: #fdfdfc; font-size: 19px; margin-bottom: var(--space-2);">JACK MACDONALD</div>
+        <div style="font-size: 13px; line-height: 1.9;">Macdonald Group of Compass<br>700 110th Ave NE, Ste 270, Bellevue, WA 98004</div>
+      </div>
+      <div style="font-size: 13px; line-height: 1.9;">(425) 941-6998<br>License #21022645</div>
+      <div style="display: flex; gap: var(--space-3); align-items: flex-start; flex-wrap: wrap;">
+        <a href="https://www.instagram.com/jackmacdonaldre/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Instagram</a>
+        <a href="https://www.linkedin.com/in/jack-macdonald-992878180/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">LinkedIn</a>
+        <a href="https://www.compass.com/agents/jack-macdonald/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Compass</a>
+        <a href="https://www.facebook.com/jack.macdonald.31521301/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Facebook</a>
+        <a href="../dmca.html" style="font-size: 12px; color: var(--color-neutral-300);">DMCA Notice</a>
+      </div>
+    </div>
+    <div style="max-width: 1300px; margin: var(--space-6) auto 0; border-top: 1px solid var(--color-neutral-800); padding-top: var(--space-4); font-size: 11px; color: var(--color-neutral-500); line-height: 1.7;">
+      &copy; 2026 Jack Macdonald &middot; Macdonald Group of Compass. Equal Housing Opportunity.<br>
+      The listing information on this website is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. See our <a href="../dmca.html" style="color: var(--color-neutral-400);">DMCA Notice</a> for copyright infringement claims.
+    </div>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var ov = document.getElementById('nav-overlay');
+  var op = document.getElementById('menu-open');
+  var cl = document.getElementById('menu-close');
+  if (op) op.addEventListener('click', function () { ov.classList.add('open'); });
+  if (cl) cl.addEventListener('click', function () { ov.classList.remove('open'); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') ov.classList.remove('open'); });
+})();
+</script>
+</body>
+</html>
+   <title>Meet the Macdonald Group | Bellevue &amp; Eastside Real Estate Team</title></title>
+  </head>
