@@ -15,7 +15,9 @@
       "city": "Bellevue",
       "neighborhood": "Somerset",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "somerset-bellevue-homes-for-sale-neighborhood-guide",
+      "published_date": "2026-08-11"
     },
     {
       "topic": "Education Hill Homes for Sale: What Buyers Should Know",
