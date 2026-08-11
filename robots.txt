@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+Sitemap: https://jackmacdonaldre.com/sitemap.xml
