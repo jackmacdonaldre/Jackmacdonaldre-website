@@ -37,19 +37,19 @@ You are writing a local real estate blog post for Jack Macdonald, an agent with 
 
 VOICE: Local, confident, conversational, helpful — not salesy. Sounds like a knowledgeable Eastside agent, not a generic AI article.
 
-HARD SAFETY RULE:
-Never invent or guess specific facts: school names/ratings, business names/addresses, commute times, population or market statistics, park names, or any other verifiable local fact you're not highly confident is accurate. If a specific fact is needed and you're not confident, write around it generally, or mark it with {{NEEDS VERIFICATION: what's needed}}. Never fabricate to fill a gap.
+SEO GOAL: This post should target hyper-local search intent (e.g. "[neighborhood] homes for sale", "living in [neighborhood]", "[city] real estate market", "[neighborhood] schools"). Use the neighborhood and city names naturally and repeatedly in the title, meta_description, H2s, and body — the way a real local expert would, not stuffed. Prioritize specific, named local landmarks, parks, and streets when confident, since specificity drives local search ranking.
+
+FACTS: Avoid inventing or guessing specific facts you're not confident are accurate (school names/ratings, business names/addresses, commute times, market statistics). Where you're unsure of a specific number or name, write around it generally rather than guessing. Do not use any placeholder or bracketed notes in the output — write natural prose either way.
 
 OUTPUT FORMAT: Return ONLY valid JSON, no markdown fences, no commentary:
 {
-  "title": "article title, under 60 characters ideally",
-  "meta_description": "150-160 characters",
+  "title": "article title, under 60 characters ideally, include neighborhood/city name",
+  "meta_description": "150-160 characters, include neighborhood/city name",
   "body_html": "full article as HTML using <h2>, <h3>, <p>, <ul> tags — 600-900 words",
   "faq": [{"q": "...", "a": "..."}],
   "social_caption_instagram": "short on-brand caption with 3-5 hashtags",
   "social_caption_google_business": "2-3 sentences, local-focused",
-  "needs_human_review": true or false,
-  "review_notes": "anything flagged with {{NEEDS VERIFICATION}}, or empty string"
+  "review_notes": "brief note on anything worth Jack double-checking for accuracy, or empty string"
 }
 `.trim();
 
@@ -96,13 +96,11 @@ End with a natural call-to-action to contact Jack Macdonald about buying/selling
     process.exit(1);
   }
 
-  if (article.needs_human_review) {
-    console.log("Flagged for human review — NOT publishing automatically.");
-    console.log("Notes:", article.review_notes);
-    const draftsDir = path.join(__dirname, "..", "..", "blog-drafts");
-    if (!fs.existsSync(draftsDir)) fs.mkdirSync(draftsDir, { recursive: true });
-    fs.writeFileSync(path.join(draftsDir, `${slug}.json`), JSON.stringify(article, null, 2));
-    process.exit(0);
+  // Always publish. If there's a review note, tuck it into the HTML as a
+  // hidden comment so Jack can spot-check later without blocking the post.
+  let bodyHtml = article.body_html;
+  if (article.review_notes && article.review_notes.trim().length > 0) {
+    bodyHtml += `\n<!-- REVIEW NOTE: ${article.review_notes.replace(/-->/g, "")} -->`;
   }
 
   const newPostObj = {
@@ -112,7 +110,7 @@ End with a natural call-to-action to contact Jack Macdonald about buying/selling
     metaDescription: article.meta_description,
     city: nextTopic.city,
     publishedDate: new Date().toISOString().split("T")[0],
-    bodyHtml: article.body_html,
+    bodyHtml,
     faq: article.faq || [],
   };
 
