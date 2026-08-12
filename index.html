@@ -100,7 +100,7 @@
         <h1 style="font-size: clamp(50px, 9.2vw, 108px); margin: 0 0 var(--space-4); color: #fdfdfc; letter-spacing: -0.01em;">Macdonald Group</h1>
         <p style="font-family: var(--font-heading); font-size: clamp(16px, 2vw, 20px); font-style: italic; opacity: 0.92; margin: 0 0 var(--space-6); max-width: 560px; margin-left: auto; margin-right: auto;">Real estate guided by local expertise, strategy, and trust.</p>
         <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; justify-content: center;">
-          <a href="#" onClick="{{ goTo.properties }}" class="btn" style="background: #fdfdfc; color: #201f1d; border-color: #fdfdfc; white-space: nowrap;">Search Homes</a>
+          <a href="/search.html" class="btn" style="background: #fdfdfc; color: #201f1d; border-color: #fdfdfc; white-space: nowrap;">Search Homes</a>
           <a href="#" onClick="{{ goTo.contact }}" class="btn" style="border: 1px solid #fdfdfc; color: #fdfdfc; white-space: nowrap;">Home Valuation</a>
         </div>
       </div>
@@ -927,6 +927,7 @@ class Component extends DCLogic {
   }
 
   go(view) {
+  if (view === 'properties') { window.location.href = '/search.html'; return; }
     this.setState({ view });
     window.scrollTo(0, 0);
   }
