@@ -47,11 +47,11 @@ const SYSTEM_PROMPT = "You are helping Jack Macdonald, a real estate agent with 
   "When discussing local areas, focus on details that actually matter to buyers and sellers: commute, housing stock, walkability, lot sizes, traffic patterns, schools where appropriate, amenities, price differences, lifestyle, construction age, neighborhood feel, and common compromises. Naming specific streets, parks, and landmarks is good when you are confident they are accurate, since that is what makes an article feel locally grounded instead of generic.\n" +
   "Use headings that sound like real questions or useful topics a person would actually ask, not generic SEO headings. Keep paragraphs relatively short and readable. Do not overuse bullet points, only use them when they genuinely make information easier to understand. Write for a person researching a real decision, not for a search engine.\n" +
   "Throughout, ask yourself: would a reader learn something here they would not get from a generic real estate website. If the answer is no, make that section more specific, practical, or insightful.\n\n" +
-  "FORMATTING RULE: Never use a hyphen, en dash, or em dash anywhere in the output, not in sentences, titles, or lists. Rewrite around them instead.\n\n" +
+  "FORMATTING RULE: Never use a hyphen, en dash, or em dash to join words or clauses, not in sentences, titles, or lists. Rewrite around them instead. The one exception is official highway or route names like I-90, I-405, or SR-520, which should keep their normal hyphen.\n\n" +
   "OUTPUT FORMAT: Return ONLY valid JSON, no markdown fences, no commentary: " +
-  "{\"title\": \"article title, under 60 characters ideally, include neighborhood or city name, no dashes\", " +
-  "\"meta_description\": \"150-160 characters, include neighborhood or city name, no dashes\", " +
-  "\"body_html\": \"full article as HTML using h2, h3, p, ul tags, no dashes anywhere, length should fit the topic naturally rather than hit a target word count\", " +
+  "{\"title\": \"article title, under 60 characters ideally, include neighborhood or city name, no dashes except in highway names\", " +
+  "\"meta_description\": \"150-160 characters, include neighborhood or city name, no dashes except in highway names\", " +
+  "\"body_html\": \"full article as HTML using h2, h3, p, ul tags, no dashes anywhere except highway names, length should fit the topic naturally rather than hit a target word count\", " +
   "\"faq\": [{\"q\": \"...\", \"a\": \"...\"}], " +
   "\"social_caption_instagram\": \"short caption with 3-5 hashtags, no dashes\", " +
   "\"social_caption_google_business\": \"2-3 sentences, local focused, no dashes\", " +
@@ -64,7 +64,7 @@ Content type: ${nextTopic.type}
 City: ${nextTopic.city}
 Neighborhood: ${nextTopic.neighborhood || "N/A"}
 
-Remember: educate first, no sales pitch or call to action at the end, no dashes anywhere. Write like Jack is actually explaining this to someone in person, not marketing to them.`;
+Remember: educate first, no sales pitch or call to action at the end, no dashes anywhere except highway or route names like I-90. Write like Jack is actually explaining this to someone in person, not marketing to them.`;
 
 (async () => {
   const response = await fetch("https://api.anthropic.com/v1/messages", {
@@ -98,8 +98,14 @@ Remember: educate first, no sales pitch or call to action at the end, no dashes 
     process.exit(1);
   }
 
-  const stripDashes = (str) =>
-    typeof str === "string" ? str.replace(/\s*[-\u2013\u2014]\s*/g, ", ") : str;
+  // Strip dashes used as word/clause joiners, but preserve highway or route
+  // references like I-90, I-405, or SR-520 which should keep their hyphen.
+  const stripDashes = (str) => {
+    if (typeof str !== "string") return str;
+    const protectedStr = str.replace(/\b([A-Za-z]{1,3})-(\d{2,4})\b/g, (m, letters, nums) => `${letters}\u00a7HWY\u00a7${nums}`);
+    const stripped = protectedStr.replace(/\s*[-\u2013\u2014]\s*/g, ", ");
+    return stripped.replace(/\u00a7HWY\u00a7/g, "-");
+  };
 
   article.title = stripDashes(article.title);
   article.meta_description = stripDashes(article.meta_description);
