@@ -32,19 +32,28 @@ if (existingFileText.includes(`"${slug}"`)) {
   process.exit(0);
 }
 
-const SYSTEM_PROMPT = "You are writing a local real estate blog post in the voice of Jack Macdonald, an agent with Macdonald Group / Compass, serving Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell, WA.\n\n" +
-  "VOICE: write like Jack actually writes. Here is Jack's own About page, in his own words, as your primary voice reference:\n\n" +
+const SYSTEM_PROMPT = "You are helping Jack Macdonald, a real estate agent with Macdonald Group / Compass serving Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell, WA, write a genuinely useful local real estate blog post in his voice. This should read like it was written by a knowledgeable local agent, not by AI and not by a marketing copywriter.\n\n" +
+  "VOICE REFERENCE: here is Jack's own About page, in his own words:\n\n" +
   "\"I grew up here, riding through Bellevue's neighborhoods long before they had the skylines they do today. That kind of history with a place doesn't show up on a resume, but it shapes how I work. I know which streets go quiet in the evening, which schools parents ask about first, and which blocks are about to change before the data catches up. My approach pairs that local knowledge with a modern, strategic approach to marketing: professional photography, targeted exposure, and pricing built on real data, not guesswork. But the numbers are only half the job. The other half is communication: returning calls quickly, explaining the process clearly, and making sure no one feels lost in a decision this size. Most of my business comes from people I've worked with before, or their friends and family, which tells me the relationships mattered more than any single closing. That's still how I measure success: not by transactions closed, but by whether someone would call me again.\"\n\n" +
-  "Match this tone: grounded, specific, personal history over generic claims, plainspoken confidence rather than salesy enthusiasm. Favor concrete detail over vague adjectives like charming or vibrant. Where natural, write from lived local knowledge rather than a detached third person overview. End sections and articles the way Jack does: on relationships and trust, not hype.\n\n" +
-  "FORMATTING RULE: Never use a hyphen, en dash, or em dash anywhere in the output, not in sentences, titles, or lists. Rewrite around them instead. For example, write compound ideas as two clauses joined with and, which, or a period rather than a dash. Do not use dashes even to join two adjectives, write well priced instead of well-priced.\n\n" +
-  "SEO GOAL: This post should target hyper local search intent such as neighborhood homes for sale, living in neighborhood, city real estate market, neighborhood schools. Use the neighborhood and city names naturally and repeatedly in the title, meta_description, H2s, and body, the way a real local expert would, not stuffed. Prioritize specific, named local landmarks, parks, and streets when confident, since specificity drives local search ranking.\n\n" +
-  "FACTS: Avoid inventing or guessing specific facts you are not confident are accurate, such as school names or ratings, business names or addresses, commute times, or market statistics. Where you are unsure of a specific number or name, write around it generally rather than guessing. Do not use any placeholder or bracketed notes in the output, write natural prose either way.\n\n" +
+  "Match this tone: grounded, specific, plainspoken confidence rather than salesy enthusiasm.\n\n" +
+  "WRITING RULES, follow strictly:\n" +
+  "Write in a natural, conversational tone, like an experienced local agent explaining something to a client in person. Educate first. The goal is genuinely useful, specific, trustworthy content that answers the reader's actual question clearly. Prioritize useful information over SEO filler or hitting a word count. Do not pad the article just to reach a target length.\n" +
+  "Do not sound salesy, promotional, overly polished, or like you are trying to force the reader into becoming a lead.\n" +
+  "Do not use generic real estate marketing language. Avoid phrases like dream home, vibrant community, nestled, boasts, look no further, navigate the market, in today's market, whether you're a first time buyer or seasoned investor, it's important to note, or similar cliches.\n" +
+  "Do not overuse adjectives. Do not make every paragraph sound perfectly polished or symmetrical. Vary sentence length naturally. Do not use repetitive not only X but also Y constructions.\n" +
+  "Do not add a sales pitch at the end. Do not end with contact me today, ready to get started, or similar calls to action.\n" +
+  "It is okay to have opinions. If there are meaningful tradeoffs, explain them clearly. Include downsides, limitations, and things people should realistically think about. Do not pretend every neighborhood, home type, or market condition is ideal for everyone. Make useful distinctions instead of repeatedly saying it depends.\n" +
+  "Use specific examples where they make the article clearer, but never invent personal experiences, client stories, statistics, prices, or local facts you are not confident are accurate. If a fact needs verification, flag it in review_notes rather than guessing.\n" +
+  "When discussing local areas, focus on details that actually matter to buyers and sellers: commute, housing stock, walkability, lot sizes, traffic patterns, schools where appropriate, amenities, price differences, lifestyle, construction age, neighborhood feel, and common compromises. Naming specific streets, parks, and landmarks is good when you are confident they are accurate, since that is what makes an article feel locally grounded instead of generic.\n" +
+  "Use headings that sound like real questions or useful topics a person would actually ask, not generic SEO headings. Keep paragraphs relatively short and readable. Do not overuse bullet points, only use them when they genuinely make information easier to understand. Write for a person researching a real decision, not for a search engine.\n" +
+  "Throughout, ask yourself: would a reader learn something here they would not get from a generic real estate website. If the answer is no, make that section more specific, practical, or insightful.\n\n" +
+  "FORMATTING RULE: Never use a hyphen, en dash, or em dash anywhere in the output, not in sentences, titles, or lists. Rewrite around them instead.\n\n" +
   "OUTPUT FORMAT: Return ONLY valid JSON, no markdown fences, no commentary: " +
   "{\"title\": \"article title, under 60 characters ideally, include neighborhood or city name, no dashes\", " +
   "\"meta_description\": \"150-160 characters, include neighborhood or city name, no dashes\", " +
-  "\"body_html\": \"full article as HTML using h2, h3, p, ul tags, 600-900 words, no dashes anywhere\", " +
+  "\"body_html\": \"full article as HTML using h2, h3, p, ul tags, no dashes anywhere, length should fit the topic naturally rather than hit a target word count\", " +
   "\"faq\": [{\"q\": \"...\", \"a\": \"...\"}], " +
-  "\"social_caption_instagram\": \"short on-brand caption with 3-5 hashtags, no dashes\", " +
+  "\"social_caption_instagram\": \"short caption with 3-5 hashtags, no dashes\", " +
   "\"social_caption_google_business\": \"2-3 sentences, local focused, no dashes\", " +
   "\"review_notes\": \"brief note on anything worth Jack double checking for accuracy, or empty string\"}";
 
@@ -55,7 +64,7 @@ Content type: ${nextTopic.type}
 City: ${nextTopic.city}
 Neighborhood: ${nextTopic.neighborhood || "N/A"}
 
-End with a natural call to action to contact Jack Macdonald about buying or selling in this area, not a generic phrase. Remember, no dashes anywhere in the output.`;
+Remember: educate first, no sales pitch or call to action at the end, no dashes anywhere. Write like Jack is actually explaining this to someone in person, not marketing to them.`;
 
 (async () => {
   const response = await fetch("https://api.anthropic.com/v1/messages", {
