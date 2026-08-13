@@ -9,12 +9,16 @@ if (!ANTHROPIC_API_KEY) {
 
 const QUEUE_PATH = path.join(__dirname, "..", "content", "topics-queue.json");
 const POSTS_DATA_PATH = path.join(__dirname, "..", "..", "blog-posts-data.js");
+const LOW_QUEUE_THRESHOLD = 5;
 
 const queueData = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
 const nextTopic = queueData.topics.find((t) => t.status === "queued");
 
 if (!nextTopic) {
   console.log("No queued topics remain. Add more to content/topics-queue.json. Exiting without publishing.");
+  if (process.env.GITHUB_ENV) {
+    fs.appendFileSync(process.env.GITHUB_ENV, "QUEUE_EMPTY=true\n");
+  }
   process.exit(0);
 }
 
@@ -153,7 +157,10 @@ Remember: educate first, no sales pitch or call to action at the end, no dashes 
   nextTopic.published_date = new Date().toISOString().split("T")[0];
   fs.writeFileSync(QUEUE_PATH, JSON.stringify(queueData, null, 2));
 
+  const remainingCount = queueData.topics.filter((t) => t.status === "queued").length;
+
   console.log(`Published to blog-posts-data.js: ${slug}`);
+  console.log(`Topics remaining in queue: ${remainingCount}`);
   console.log("Instagram caption:", article.social_caption_instagram);
   console.log("Google Business caption:", article.social_caption_google_business);
 
@@ -161,6 +168,10 @@ Remember: educate first, no sales pitch or call to action at the end, no dashes 
   if (process.env.GITHUB_ENV) {
     fs.appendFileSync(process.env.GITHUB_ENV, `NEW_POST_TITLE=${article.title}\n`);
     fs.appendFileSync(process.env.GITHUB_ENV, `NEW_POST_URL=https://jackmacdonaldre.com/blog/${slug}/\n`);
+    fs.appendFileSync(process.env.GITHUB_ENV, `REMAINING_TOPICS=${remainingCount}\n`);
+    if (remainingCount <= LOW_QUEUE_THRESHOLD) {
+      fs.appendFileSync(process.env.GITHUB_ENV, "LOW_QUEUE_WARNING=true\n");
+    }
   }
 })();
 
