@@ -33,7 +33,9 @@
       "city": "Redmond",
       "neighborhood": "Downtown Redmond",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "downtown-redmond-condos-and-homes-neighborhood-guide",
+      "published_date": "2026-08-13"
     },
     {
       "topic": "Klahanie Homes for Sale: Community Guide",

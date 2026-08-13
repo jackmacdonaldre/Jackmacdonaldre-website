@@ -13,39 +13,12 @@
 <meta property="og:url" content="https://jackmacdonaldre.com/blog/">
 <meta property="og:image" content="https://jackmacdonaldre.com/assets/twilight-listing-photo.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Eastside Real Estate Blog | Neighborhood Guides &amp; Market Updates">
-<meta name="twitter:description" content="Neighborhood guides, market updates, and Eastside real estate insight from Jack Macdonald of Macdonald Group of Compass, serving Bellevue and the Eastside.">
 <link rel="stylesheet" href="../_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/styles.css">
 <style>
 body { margin: 0; }
 .btn { white-space: nowrap; }
-.plate { filter: none; overflow: hidden; }
-.plate img { transition: transform 0.6s ease; }
-.plate:hover img { transform: scale(1.04); }
 a { text-decoration: none; color: var(--color-accent-700); }
 a:hover { opacity: 0.7; }
-.card { transition: box-shadow 0.3s ease, transform 0.3s ease; }
-.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
-.svc-card:hover .svc-title { color: var(--color-accent-700); }
-.nbhd-card .plate { transition: box-shadow 0.35s ease; cursor: pointer; }
-.nbhd-card:hover .plate { box-shadow: var(--shadow-md); }
-.nbhd-card:hover .plate img { transform: scale(1.05); }
-.nbhd-card .nbhd-name { transition: color 0.3s ease; }
-.nbhd-card:hover .nbhd-name { color: var(--color-accent-700); }
-.timeline-item:not(:last-child)::after { content: '\2192'; margin-left: var(--space-3); color: var(--color-accent-500); font-size: 13px; }
-.social-link { transition: color 0.25s ease, transform 0.25s ease; display: inline-block; }
-.menu-link:hover { color: var(--color-accent-700) !important; }
-@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-.fade-up { animation: fadeUp 0.8s ease both; }
-.diff-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
-.stat-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
-.nav-overlay { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.45s ease, visibility 0.45s ease; }
-.nav-overlay.open { opacity: 1; visibility: visible; pointer-events: auto; }
-.nav-overlay .menu-link { transform: translateY(14px); opacity: 0; transition: transform 0.5s ease, opacity 0.5s ease, color 0.25s ease; }
-.nav-overlay.open .menu-link { transform: translateY(0); opacity: 1; }
-@media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
-@media (max-width: 900px) { .split-grid { grid-template-columns: 1fr !important; } }
-@media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
 </style>
 </head>
 <body>
@@ -54,34 +27,14 @@ a:hover { opacity: 0.7; }
 
 <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
 <div style="display: flex; align-items: center; gap: 28px;">
-<a href="../about/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
-<a href="../services/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
+<a href="../about/" style="font-size: 13px; color: var(--color-neutral-700);">About</a>
+<a href="../services/" style="font-size: 13px; color: var(--color-neutral-700);">Services</a>
 </div>
 <a href="../" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
 <img src="../assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
 </a>
 <div style="display: flex; align-items: center; gap: var(--space-5);">
-<a href="tel:4259416998" class="btn btn-secondary" style="white-space: nowrap;">(425) 941-6998</a>
-<button type="button" id="menu-open" aria-label="Open menu" style="background: none; border: none; cursor: pointer; padding: 4px; display: flex; flex-direction: column; gap: 5px;">
-<span style="width: 26px; height: 1px; background: #201f1d;"></span>
-<span style="width: 26px; height: 1px; background: #201f1d;"></span>
-<span style="width: 26px; height: 1px; background: #201f1d;"></span>
-</button>
-</div>
-</div>
-
-<div class="nav-overlay" id="nav-overlay" style="position: fixed; inset: 0; z-index: 200; background: rgba(253,253,252,0.97);">
-<button type="button" id="menu-close" aria-label="Close menu" style="position: absolute; top: var(--space-5); right: var(--space-6); background: none; border: none; cursor: pointer; font-size: 28px; line-height: 1; color: #201f1d; font-family: var(--font-body);">&times;</button>
-<div style="height: 100%; display: flex; align-items: center; justify-content: flex-end; padding: var(--space-8) calc(var(--space-8) * 1.5);">
-<nav style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-4); text-align: right;">
-<a href="../" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.00s;">Home</a>
-<a href="../blog/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.04s;">Blog</a>
-<a href="../services/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.08s;">Services</a>
-<a href="../search.html" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.12s;">Properties</a>
-<a href="../about/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.16s;">About</a>
-<a href="../team/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.20s;">Team</a>
-<a href="../contact/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.24s;">Contact</a>
-</nav>
+<a href="tel:4259416998" class="btn btn-secondary">(425) 941-6998</a>
 </div>
 </div>
 
@@ -95,22 +48,28 @@ a:hover { opacity: 0.7; }
 
 <section style="max-width: 820px; margin: 0 auto; padding: 0 var(--space-6) 120px;">
 <article style="padding: calc(var(--space-8) * 0.9) 0; border-bottom: 1px solid var(--color-divider);">
-<div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 12, 2026 &middot; Redmond</div>
+<div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 13, 2026 &middot; Redmond</div>
+<h2 style="margin: 0 0 var(--space-3); font-size: clamp(26px, 3.2vw, 36px);"><a href="../blog/downtown-redmond-condos-and-homes-neighborhood-guide/" style="color: var(--color-text);">Downtown Redmond Homes and Condos Neighborhood Guide</a></h2>
+<p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-4);">Thinking about buying or selling in Downtown Redmond WA? Jack Macdonald shares what living here actually looks like, from condos to commutes.</p>
+<a href="../blog/downtown-redmond-condos-and-homes-neighborhood-guide/" class="btn btn-ghost" style="padding-left: 0;">Read the Guide &rarr;</a>
+</article>
+<article style="padding: calc(var(--space-8) * 0.9) 0; border-bottom: 1px solid var(--color-divider);">
+<div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 12, 2026 &middot; Bellevue</div>
 <h2 style="margin: 0 0 var(--space-3); font-size: clamp(26px, 3.2vw, 36px);"><a href="../blog/education-hill-homes-for-sale-what-buyers-should-know/" style="color: var(--color-text);">Education Hill Homes for Sale: What Buyers Should Know</a></h2>
 <p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-4);">Thinking about buying a home on Education Hill in Redmond WA? Local agent Jack Macdonald shares what makes this neighborhood worth a closer look.</p>
 <a href="../blog/education-hill-homes-for-sale-what-buyers-should-know/" class="btn btn-ghost" style="padding-left: 0;">Read the Guide &rarr;</a>
 </article>
 <article style="padding: calc(var(--space-8) * 0.9) 0; border-bottom: 1px solid var(--color-divider);">
 <div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 11, 2026 &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-3); font-size: clamp(26px, 3.2vw, 36px);"><a href="../blog/living-in-bridle-trails-a-neighborhood-guide/" style="color: var(--color-text);">Living in Bridle Trails, Bellevue: A Neighborhood Guide</a></h2>
-<p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-4);">Thinking about living in Bridle Trails? Discover what makes this Bellevue neighborhood special — from forested trails to top schools and the local real estate market.</p>
-<a href="../blog/living-in-bridle-trails-a-neighborhood-guide/" class="btn btn-ghost" style="padding-left: 0;">Read the Guide &rarr;</a>
-</article>
-<article style="padding: calc(var(--space-8) * 0.9) 0; border-bottom: 1px solid var(--color-divider);">
-<div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 11, 2026 &middot; Bellevue</div>
 <h2 style="margin: 0 0 var(--space-3); font-size: clamp(26px, 3.2vw, 36px);"><a href="../blog/somerset-bellevue-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">Somerset Bellevue Homes for Sale: Neighborhood Guide</a></h2>
 <p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-4);">Thinking about buying a home in Somerset Bellevue? Jack Macdonald shares what makes this neighborhood stand out, from the schools to the views to the streets.</p>
 <a href="../blog/somerset-bellevue-homes-for-sale-neighborhood-guide/" class="btn btn-ghost" style="padding-left: 0;">Read the Guide &rarr;</a>
+</article>
+<article style="padding: calc(var(--space-8) * 0.9) 0; border-bottom: 1px solid var(--color-divider);">
+<div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 11, 2026 &middot; Bellevue</div>
+<h2 style="margin: 0 0 var(--space-3); font-size: clamp(26px, 3.2vw, 36px);"><a href="../blog/living-in-bridle-trails-a-neighborhood-guide/" style="color: var(--color-text);">Living in Bridle Trails, Bellevue: A Neighborhood Guide</a></h2>
+<p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-4);">Thinking about living in Bridle Trails? Discover what makes this Bellevue neighborhood special — from forested trails to top schools and the local real estate market.</p>
+<a href="../blog/living-in-bridle-trails-a-neighborhood-guide/" class="btn btn-ghost" style="padding-left: 0;">Read the Guide &rarr;</a>
 </article>
 <article style="padding: calc(var(--space-8) * 0.9) 0; border-bottom: 1px solid var(--color-divider);">
 <div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-3);">August 4, 2026 &middot; Bellevue</div>
@@ -142,16 +101,5 @@ The listing information on this website is provided through IDX from Northwest M
 </div>
 </footer>
 </div>
-
-<script>
-(function () {
-var ov = document.getElementById('nav-overlay');
-var op = document.getElementById('menu-open');
-var cl = document.getElementById('menu-close');
-if (op) op.addEventListener('click', function () { ov.classList.add('open'); });
-if (cl) cl.addEventListener('click', function () { ov.classList.remove('open'); });
-document.addEventListener('keydown', function (e) { if (e.key === 'Escape') ov.classList.remove('open'); });
-})();
-</script>
 </body>
 </html>
