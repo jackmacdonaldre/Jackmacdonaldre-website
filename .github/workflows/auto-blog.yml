@@ -28,6 +28,12 @@ jobs:
       - name: Generate blog pages and update sitemap
         run: node auto-blog-system/scripts/generate-blog-pages.js
 
+      - name: Send notification email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL: jack@macdonaldgroupre.com
+        run: node auto-blog-system/scripts/send-notification.js
+
       - name: Commit and push if changes exist
         run: |
           git config user.name "auto-blog-bot"
