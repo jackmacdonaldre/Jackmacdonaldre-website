@@ -42,7 +42,9 @@
       "city": "Sammamish",
       "neighborhood": "Klahanie",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "klahanie-homes-for-sale-community-guide",
+      "published_date": "2026-08-13"
     },
     {
       "topic": "Finn Hill Homes for Sale: Neighborhood Overview",
