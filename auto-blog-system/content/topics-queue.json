@@ -51,7 +51,9 @@
       "city": "Kirkland",
       "neighborhood": "Finn Hill",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "finn-hill-homes-for-sale-neighborhood-overview",
+      "published_date": "2026-08-14"
     },
     {
       "topic": "West Bellevue Homes for Sale: Neighborhood Guide",
