@@ -60,7 +60,9 @@
       "city": "Bellevue",
       "neighborhood": "West Bellevue",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "west-bellevue-homes-for-sale-neighborhood-guide",
+      "published_date": "2026-08-17"
     },
     {
       "topic": "Newport Hills Bellevue: Neighborhood Guide for Buyers",
