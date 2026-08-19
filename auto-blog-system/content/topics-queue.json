@@ -69,7 +69,9 @@
       "city": "Bellevue",
       "neighborhood": "Newport Hills",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "newport-hills-bellevue-neighborhood-guide-for-buyers",
+      "published_date": "2026-08-19"
     },
     {
       "topic": "Sammamish Plateau Homes for Sale: Neighborhood Guide",
