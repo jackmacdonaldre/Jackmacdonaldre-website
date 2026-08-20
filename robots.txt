@@ -4,4 +4,40 @@ Disallow: /blog-drafts/
 Disallow: /auto-blog-system/
 Disallow: /uploads/
 
+User-agent: GPTBot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: CCBot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
 Sitemap: https://jackmacdonaldre.com/sitemap.xml
