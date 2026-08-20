@@ -77,6 +77,15 @@ function buildPostHtml(post) {
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     about: { "@type": "Place", name: post.city || "Bellevue, WA" },
   });
+    const faqJsonLd = Array.isArray(post.faq) && post.faq.length > 0 ? JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faq.map((item) => ({
+                  "@type": "Question",
+                  name: item.q,
+                  acceptedAnswer: { "@type": "Answer", text: item.a },
+          })),
+    }) : "";
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -105,6 +114,7 @@ a:hover { opacity: 0.7; }
 <script type="application/ld+json">
 ${jsonLd}
 </script>
+${faqJsonLd ? `<script type="application/ld+json">\n${faqJsonLd}\n</script>` : ""}
 </head>
 <body>
 
