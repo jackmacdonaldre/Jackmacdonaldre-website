@@ -78,7 +78,9 @@
       "city": "Sammamish",
       "neighborhood": "Sammamish Plateau",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "sammamish-plateau-homes-for-sale-neighborhood-guide",
+      "published_date": "2026-08-21"
     },
     {
       "topic": "Juanita Kirkland Homes for Sale: Neighborhood Guide",
