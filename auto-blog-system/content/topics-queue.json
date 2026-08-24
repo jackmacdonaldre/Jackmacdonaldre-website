@@ -87,7 +87,9 @@
       "city": "Kirkland",
       "neighborhood": "Juanita",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "juanita-kirkland-homes-for-sale-neighborhood-guide",
+      "published_date": "2026-08-24"
     },
     {
       "topic": "Bellevue vs Kirkland: Which Eastside City Is Right for You?",
