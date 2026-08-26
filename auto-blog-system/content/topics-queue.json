@@ -96,7 +96,9 @@
       "city": "Bellevue",
       "neighborhood": null,
       "type": "comparison",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "bellevue-vs-kirkland-which-eastside-city-is-right-for-you",
+      "published_date": "2026-08-26"
     },
     {
       "topic": "Redmond vs Sammamish: Comparing Two Eastside Suburbs",
