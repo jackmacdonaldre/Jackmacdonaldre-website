@@ -105,7 +105,9 @@
       "city": "Redmond",
       "neighborhood": null,
       "type": "comparison",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "redmond-vs-sammamish-comparing-two-eastside-suburbs",
+      "published_date": "2026-08-28"
     },
     {
       "topic": "Moving to Bellevue from California: A Practical Guide",
