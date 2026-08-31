@@ -114,7 +114,9 @@
       "city": "Bellevue",
       "neighborhood": null,
       "type": "relocation_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "moving-to-bellevue-from-california-a-practical-guide",
+      "published_date": "2026-08-31"
     },
     {
       "topic": "Relocating to the Eastside for a Tech Job: What to Know",
