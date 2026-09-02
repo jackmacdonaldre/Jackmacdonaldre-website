@@ -11,7 +11,7 @@ if (!IDX_ACCESS_KEY) {
 const TEAM_AGENT_IDS = ['1186410', '121277198'];
 
 (async () => {
-  const response = await fetch("https://api.idxbroker.com/clients/soldpending?interval=87600&startDatetime=2010-01-01+00:00:00&dateType=dateAdded", {
+  const response = await fetch("https://api.idxbroker.com/clients/soldpending", {
     method: "GET",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
