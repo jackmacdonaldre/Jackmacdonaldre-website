@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T21:56:49.361Z",
-  "count": 36,
+  "generatedAt": "2026-09-02T23:22:16.008Z",
+  "count": 42,
   "listings": [
     {
       "acres": "0.131",
@@ -190,7 +190,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 51,
+      "viewCount": 52,
       "vtCount": 0
     },
     {
@@ -2787,6 +2787,161 @@
       "zip4": "5202"
     },
     {
+      "acres": "0.003",
+      "address": "10324 Delphi Road SW 15",
+      "advanced": {
+        "make": "FLEETWOOD",
+        "model": "COUNTRY MANOR",
+        "skirt": [
+          "Wood"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "taxYear": 2025,
+        "bodyType": [
+          "Double Wide"
+        ],
+        "parkName": "Delphi Mobile Home Park",
+        "saleType": "MLS",
+        "bathrooms": "1.75",
+        "styleCode": "21 - Manuf-Double Wide",
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "possession": [
+          "Closing"
+        ],
+        "showMapLink": "yes",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "onMarketDate": "2025-08-06T00:00:00+00:00",
+        "powerCompany": "Puget Sound Energy",
+        "sewerCompany": "Community Septic",
+        "bedroomsUpper": "0",
+        "structureType": [
+          "Manufactured House"
+        ],
+        "bathsFullUpper": "0",
+        "bathsHalfUpper": "0",
+        "cableConnected": "Xfinity",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "Seattle Works Real Estate",
+        "landLeaseAmount": 715,
+        "numberOfShowers": "2",
+        "seniorExemption": "no",
+        "taxAnnualAmount": 820.97,
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "mlsLotSizeSource": "TCR",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 1188,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "internetConnected": "Xfinity",
+        "spaceRentIncludes": [
+          "Sewer",
+          "Water"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "numberOfHomesInPark": "30",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "TCR",
+        "calculatedSquareFootage": "1188",
+        "squareFootageUnfinished": "0",
+        "specialListingConditions": [
+          "None"
+        ],
+        "manufacturedAfter06151976": "yes",
+        "manufacturedHomeParkApprovedForSale": "yes"
+      },
+      "bedrooms": 3,
+      "cityID": 34455,
+      "cityName": "Olympia",
+      "countyID": 2212,
+      "countyName": "Thurston",
+      "dateAdded": "2025-08-06T18:40:46+00:00",
+      "dateModified": "2025-09-28T11:04:42+00:00",
+      "detailsURL": "b045/2414683",
+      "detailsUrlSlug": "10324-Delphi-Road-SW-15-Olympia",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2414683/10324-Delphi-Road-SW-15-Olympia",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/083f/f380ee01387c6ba985f15fbccaaced68/b045",
+          "sizes": [],
+          "caption": "Delphi Remodeled Home"
+        },
+        "totalCount": 1
+      },
+      "latitude": 46.938128,
+      "listingAgentID": "121277198",
+      "listingID": "2414683",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$144,500",
+      "longitude": -123.012708,
+      "mediaData": [],
+      "mlsPhotoCount": 22,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 144500,
+      "priceData": {
+        "value": {
+          "raw": 144500,
+          "formatted": "$144,500"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Residential",
+      "remarksConcat": "Newly remodeled 3 bed, 2 bath double-wide in Tumwater! This home features a dream layout with a new kitchen, updated flooring, fresh blinds, and renovated bathrooms with quartz showers. Stainless steel appliances add a modern touch. Located in the quiet Delphi Mobile Home Park, it offers a spacious yard, large storage shed, and two parking spots. Just 15 minutes to Olympia and in the Tumwater School District. Lot rent is $715/month. Move-in ready and packed with upgrades—start your next chapter here!",
+      "rntLse": "neither",
+      "rntLsePrice": 144500,
+      "sellingAgentID": "132962215",
+      "sellingOfficeID": "121679104",
+      "soldDate": "2025-08-28T00:00:00+00:00",
+      "soldPrice": 144500,
+      "sqFt": 0,
+      "state": "Washington",
+      "streetName": "Delphi Road SW",
+      "streetNumber": "10324",
+      "subdivision": "Delphi",
+      "threeQuarterBaths": 1,
+      "totalBaths": 2,
+      "unitNumber": "15",
+      "viewCount": 0,
+      "vtCount": 0
+    },
+    {
       "acres": "0.362",
       "address": "1564 Hillside Drive SE",
       "advanced": {
@@ -2964,161 +3119,6 @@
       "viewCount": 5,
       "vtCount": 0,
       "zip4": "4811"
-    },
-    {
-      "acres": "0.003",
-      "address": "10324 Delphi Road SW 15",
-      "advanced": {
-        "make": "FLEETWOOD",
-        "model": "COUNTRY MANOR",
-        "skirt": [
-          "Wood"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "taxYear": 2025,
-        "bodyType": [
-          "Double Wide"
-        ],
-        "parkName": "Delphi Mobile Home Park",
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "21 - Manuf-Double Wide",
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "possession": [
-          "Closing"
-        ],
-        "showMapLink": "yes",
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "onMarketDate": "2025-08-06T00:00:00+00:00",
-        "powerCompany": "Puget Sound Energy",
-        "sewerCompany": "Community Septic",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "cableConnected": "Xfinity",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "buyerOfficeName": "Seattle Works Real Estate",
-        "landLeaseAmount": 715,
-        "numberOfShowers": "2",
-        "seniorExemption": "no",
-        "taxAnnualAmount": 820.97,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "mlsLotSizeSource": "TCR",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1188,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "internetConnected": "Xfinity",
-        "spaceRentIncludes": [
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "numberOfHomesInPark": "30",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "TCR",
-        "calculatedSquareFootage": "1188",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedAfter06151976": "yes",
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 34455,
-      "cityName": "Olympia",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-08-06T18:40:46+00:00",
-      "dateModified": "2025-09-28T11:04:42+00:00",
-      "detailsURL": "b045/2414683",
-      "detailsUrlSlug": "10324-Delphi-Road-SW-15-Olympia",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2414683/10324-Delphi-Road-SW-15-Olympia",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/083f/f380ee01387c6ba985f15fbccaaced68/b045",
-          "sizes": [],
-          "caption": "Delphi Remodeled Home"
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938128,
-      "listingAgentID": "121277198",
-      "listingID": "2414683",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$144,500",
-      "longitude": -123.012708,
-      "mediaData": [],
-      "mlsPhotoCount": 22,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 144500,
-      "priceData": {
-        "value": {
-          "raw": 144500,
-          "formatted": "$144,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Newly remodeled 3 bed, 2 bath double-wide in Tumwater! This home features a dream layout with a new kitchen, updated flooring, fresh blinds, and renovated bathrooms with quartz showers. Stainless steel appliances add a modern touch. Located in the quiet Delphi Mobile Home Park, it offers a spacious yard, large storage shed, and two parking spots. Just 15 minutes to Olympia and in the Tumwater School District. Lot rent is $715/month. Move-in ready and packed with upgrades—start your next chapter here!",
-      "rntLse": "neither",
-      "rntLsePrice": 144500,
-      "sellingAgentID": "132962215",
-      "sellingOfficeID": "121679104",
-      "soldDate": "2025-08-28T00:00:00+00:00",
-      "soldPrice": 144500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Delphi Road SW",
-      "streetNumber": "10324",
-      "subdivision": "Delphi",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "15",
-      "viewCount": 0,
-      "vtCount": 0
     },
     {
       "acres": "0.132",
@@ -5330,6 +5330,204 @@
       "vtCount": 0
     },
     {
+      "acres": "0",
+      "address": "10324 Delphi Road SW 8",
+      "advanced": {
+        "make": "GUERDON",
+        "roof": [
+          "Composition"
+        ],
+        "model": "KINGSWOOD",
+        "skirt": [
+          "Aluminum"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "viewYN": "no",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2024,
+        "bodyType": [
+          "Double Wide"
+        ],
+        "firptayn": "no",
+        "flooring": [
+          "Carpet"
+        ],
+        "parkName": "Delphi Mobile Home Park",
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "carportYN": "no",
+        "coolingYN": "no",
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Sold"
+        ],
+        "styleCode": "21 - Manuf-Double Wide",
+        "inclusions": [
+          "Sewer",
+          "Water"
+        ],
+        "livingArea": 0,
+        "possession": [
+          "Closing"
+        ],
+        "fireplaceYN": "no",
+        "petsAllowed": [
+          "Subj to Restrictions"
+        ],
+        "showMapLink": "yes",
+        "energySource": "Electric",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "442 - Black Hills",
+        "onMarketDate": "2024-06-14T00:00:00+00:00",
+        "parkingTotal": 2,
+        "waterfrontYN": "no",
+        "bedroomsUpper": "0",
+        "openParkingYN": "1",
+        "structureType": [
+          "Manufactured House"
+        ],
+        "bathsFullUpper": "0",
+        "bathsHalfUpper": "0",
+        "buyerFinancing": [
+          "Other"
+        ],
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "BHGRE- Northwest Home Team",
+        "fireplacesTotal": 0,
+        "landLeaseAmount": 650,
+        "livingAreaUnits": [
+          "Square Feet"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 614.44,
+        "bedroomsPossible": 2,
+        "exteriorFeatures": [
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Wall to Wall Carpet"
+        ],
+        "sellerDisclosure": "Provided",
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "lotSizeSquareFeet": 0,
+        "openParkingSpaces": 2,
+        "seniorCommunityYN": "no",
+        "spaceRentIncludes": [
+          "Sewer",
+          "Water"
+        ],
+        "highSchoolDistrict": [
+          "Tumwater"
+        ],
+        "thirdPartyApproval": "None",
+        "numberOfHomesInPark": "30",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "public records",
+        "calculatedSquareFootage": "1294",
+        "irrigationWaterRightsYN": "no",
+        "squareFootageUnfinished": "0",
+        "landLeaseAmountFrequency": [
+          "Monthly"
+        ],
+        "nwmSquareFootageFinished": 0,
+        "specialListingConditions": [
+          "None"
+        ],
+        "manufacturedHomeParkAmenities": [
+          "Common Area"
+        ]
+      },
+      "bedrooms": 2,
+      "cityID": 34455,
+      "cityName": "Olympia",
+      "countyID": 2212,
+      "countyName": "Thurston",
+      "dateAdded": "2024-06-21T19:05:30+00:00",
+      "dateModified": "2024-08-07T15:57:08+00:00",
+      "detailsURL": "b045/2251787",
+      "detailsUrlSlug": "10324-Delphi-Road-SW-8-Olympia-98512",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2251787/10324-Delphi-Road-SW-8-Olympia-98512",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Manufactured In Park",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/aca8/8aca74411ab4cfa89b1fe11d478a50a8/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 46.938111,
+      "listingAgentID": "121277198",
+      "listingID": "2251787",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$142,000",
+      "longitude": -123.01271,
+      "mediaData": [],
+      "mlsPhotoCount": 20,
+      "mlsPtID": 4,
+      "ohCount": 0,
+      "parentPtID": 7,
+      "partialBaths": 0,
+      "price": 142000,
+      "priceData": {
+        "value": {
+          "raw": 142000,
+          "formatted": "$142,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Manufactured In Park",
+      "remarksConcat": "Newly remodeled mobile home in Tumwater! Experience your dream layoput in this delightful 2-bedroom, 2-bath double-wide home. The property boasts numerous upgrades, including a new kitchen, updated flooring, fresh blinds, new windows, renovated bathrooms with quarts in the shower, and stainless steel appliances. Located in the serene Delphi Mobile Home Park, this home also features a large storage shed, great yard space, and two parking spots. Conveniently situated just 15 minutes from Olympia and within the Tumwater School District. Lot rent $650/month. Begin your next chapter in this move-in ready gem!",
+      "rntLse": "neither",
+      "rntLsePrice": 142000,
+      "sellingAgentID": "112755370",
+      "sellingOfficeID": "86236862",
+      "soldDate": "2024-08-06T00:00:00+00:00",
+      "soldPrice": 142000,
+      "sqFt": "1,294",
+      "state": "Washington",
+      "streetName": "Delphi Road SW",
+      "streetNumber": "10324",
+      "subdivision": "Delphi",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "unitNumber": "8",
+      "viewCount": 4,
+      "vtCount": 0,
+      "yearBuilt": 1993,
+      "zipcode": "98512"
+    },
+    {
       "acres": "0.17",
       "address": "21322 2nd Drive SE",
       "advanced": {
@@ -5516,6 +5714,241 @@
       "totalBaths": 3,
       "viewCount": 8,
       "vtCount": 0
+    },
+    {
+      "acres": "0",
+      "address": "10324 SW Delphi Road 21",
+      "advanced": {
+        "make": "KSTN",
+        "roof": [
+          "Composition"
+        ],
+        "model": "28/48",
+        "skirt": [
+          "Wood"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "viewYN": "no",
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "90%+ High Efficiency"
+        ],
+        "taxYear": 2024,
+        "bodyType": [
+          "Double Wide"
+        ],
+        "firptayn": "no",
+        "flooring": [
+          "Vinyl",
+          "Carpet"
+        ],
+        "parkName": "Delphi Mobile Home Park",
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "carportYN": "no",
+        "coolingYN": "no",
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Sold"
+        ],
+        "styleCode": "21 - Manuf-Double Wide",
+        "appliances": [
+          "Dishwasher(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "inclusions": [
+          "Dishwashers",
+          "Microwaves",
+          "Refrigerators",
+          "StovesRanges",
+          "Sewer",
+          "Water"
+        ],
+        "livingArea": 0,
+        "possession": [
+          "Closing"
+        ],
+        "concessions": [
+          "Yes"
+        ],
+        "fireplaceYN": "no",
+        "petsAllowed": [
+          "Subj to Restrictions"
+        ],
+        "showMapLink": "yes",
+        "waterSource": [
+          "Community"
+        ],
+        "energySource": "Electric",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "442 - Black Hills",
+        "onMarketDate": "2024-05-30T00:00:00+00:00",
+        "parkingTotal": 3,
+        "powerCompany": "PSE",
+        "waterfrontYN": "no",
+        "bedroomsUpper": "0",
+        "openParkingYN": "1",
+        "structureType": [
+          "Manufactured House"
+        ],
+        "bathsFullUpper": "0",
+        "bathsHalfUpper": "0",
+        "buyerFinancing": [
+          "Conventional"
+        ],
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "LISTINGS.COM",
+        "fireplacesTotal": 0,
+        "landLeaseAmount": 650,
+        "livingAreaUnits": [
+          "Square Feet"
+        ],
+        "numberOfShowers": "2",
+        "storageLocation": "Behind home",
+        "taxAnnualAmount": 921.65,
+        "bedroomsPossible": 3,
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "exteriorFeatures": [
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Wall to Wall Carpet"
+        ],
+        "sellerDisclosure": "Provided",
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "lotSizeSquareFeet": 0,
+        "openParkingSpaces": 3,
+        "seniorCommunityYN": "no",
+        "spaceRentIncludes": [
+          "Sewer",
+          "Water"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchoolDistrict": [
+          "Tumwater"
+        ],
+        "thirdPartyApproval": "None",
+        "numberOfHomesInPark": "30",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "County Records",
+        "calculatedSquareFootage": "1344",
+        "irrigationWaterRightsYN": "no",
+        "squareFootageUnfinished": "0",
+        "landLeaseAmountFrequency": [
+          "Monthly"
+        ],
+        "manufacturedHomeFeatures": [
+          "Bath Off Primary"
+        ],
+        "nwmSquareFootageFinished": 0,
+        "specialListingConditions": [
+          "None"
+        ],
+        "idxMustRemovePrimaryPhotoYN": "false",
+        "manufacturedHomeParkAmenities": [
+          "Common Area"
+        ],
+        "manufacturedHomeParkApprovedForSale": "yes"
+      },
+      "bedrooms": 3,
+      "cityID": 34455,
+      "cityName": "Olympia",
+      "countyID": 2212,
+      "countyName": "Thurston",
+      "dateAdded": "2024-05-30T00:00:00+00:00",
+      "dateModified": "2024-07-10T19:01:09+00:00",
+      "detailsURL": "b045/2243041",
+      "detailsUrlSlug": "10324-SW-Delphi-Road-21-Olympia-98512",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2243041/10324-SW-Delphi-Road-21-Olympia-98512",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Manufactured In Park",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f97c/c79ffac68f5b69d66f44ea3b7dbdecb9/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 46.938111,
+      "listingAgentID": "121277198",
+      "listingID": "2243041",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$137,500",
+      "longitude": -123.01271,
+      "mediaData": [],
+      "mlsPhotoCount": 20,
+      "mlsPtID": 4,
+      "ohCount": 0,
+      "parentPtID": 7,
+      "partialBaths": 0,
+      "price": 137500,
+      "priceData": {
+        "value": {
+          "raw": 144395,
+          "formatted": "$144,395"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Manufactured In Park",
+      "remarksConcat": "Newly remodeled mobile home in Tumwater! Experience a tranquil lifestyle in this delightful 3-bedroom, 2-bath double-wide home. The property boasts numerous upgrades, including a new kitchen, updated flooring, fresh blinds, new windows, renovated bathrooms with quarts in the shower, and stainless steel appliances. Located in the serene Delphi Mobile Home Park, this home also features a large storage shed, great yard space, and two parking spots. Conveniently situated just 15 minutes from Olympia and within the Tumwater School District. Lot rent $650/month. Begin your next chapter in this move-in ready gem!",
+      "rntLse": "neither",
+      "rntLsePrice": 137500,
+      "sellingAgentID": "100344989",
+      "sellingOfficeID": "1005547",
+      "soldDate": "2024-07-08T00:00:00+00:00",
+      "soldPrice": 144395,
+      "sqFt": "1,344",
+      "state": "Washington",
+      "streetDirection": "SW",
+      "streetName": "Delphi Road",
+      "streetNumber": "10324",
+      "subdivision": "Delphi",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "unitNumber": "21",
+      "viewCount": 4,
+      "vtCount": 0,
+      "yearBuilt": 2011,
+      "zipcode": "98512"
     },
     {
       "acres": "1.66",
@@ -6100,6 +6533,454 @@
       "vtCount": 0
     },
     {
+      "acres": "4.661",
+      "address": "1540 Maple Lane 12",
+      "advanced": {
+        "make": "MODL",
+        "roof": [
+          "Metal"
+        ],
+        "model": "70/14",
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "viewYN": "no",
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Ductless HP-Mini Split"
+        ],
+        "taxYear": 2023,
+        "bodyType": [
+          "Single Wide"
+        ],
+        "firptayn": "no",
+        "flooring": [
+          "Vinyl"
+        ],
+        "parkName": "Horseshoe Acres",
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "carportYN": "no",
+        "coolingYN": "no",
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Sold"
+        ],
+        "styleCode": "20 - Manuf-Single Wide",
+        "appliances": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "inclusions": [
+          "Dishwashers",
+          "Dryers",
+          "Microwaves",
+          "Refrigerators",
+          "StovesRanges",
+          "Washers"
+        ],
+        "livingArea": 0,
+        "possession": [
+          "Closing"
+        ],
+        "fireplaceYN": "no",
+        "petsAllowed": [
+          "Subj to Restrictions"
+        ],
+        "showMapLink": "yes",
+        "waterSource": [
+          "Community"
+        ],
+        "energySource": "Electric",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "330 - Kent",
+        "onMarketDate": "2024-02-08T00:00:00+00:00",
+        "parkingTotal": 2,
+        "waterfrontYN": "no",
+        "openParkingYN": "1",
+        "structureType": [
+          "Manufactured House"
+        ],
+        "buyerFinancing": [
+          "Cash"
+        ],
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "Icon Group",
+        "landLeaseAmount": 825,
+        "livingAreaUnits": [
+          "Square Feet"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 93.12,
+        "bedroomsPossible": 2,
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "exteriorFeatures": [
+          "Metal/Vinyl"
+        ],
+        "mlsLotSizeSource": "KCR",
+        "sellerDisclosure": "Provided",
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "lotSizeSquareFeet": 203041,
+        "openParkingSpaces": 2,
+        "seniorCommunityYN": "yes",
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Kent"
+        ],
+        "thirdPartyApproval": "None",
+        "mobileHomeRemainsYN": "yes",
+        "numberOfHomesInPark": "37",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "mlsSquareFootageSource": "KCR",
+        "calculatedSquareFootage": "980",
+        "irrigationWaterRightsYN": "no",
+        "squareFootageUnfinished": "0",
+        "landLeaseAmountFrequency": [
+          "Monthly"
+        ],
+        "manufacturedHomeFeatures": [
+          "Patio/Porch/Deck"
+        ],
+        "nwmSquareFootageFinished": 0,
+        "specialListingConditions": [
+          "None"
+        ],
+        "idxMustRemovePrimaryPhotoYN": "false",
+        "manufacturedHomeParkAmenities": [
+          "Clubhouse"
+        ],
+        "manufacturedHomeParkApprovedForSale": "yes"
+      },
+      "bedrooms": 2,
+      "cityID": 24024,
+      "cityName": "Kent",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2024-02-08T23:51:25+00:00",
+      "dateModified": "2024-04-27T15:39:08+00:00",
+      "detailsURL": "b045/2197988",
+      "detailsUrlSlug": "1540-Maple-Lane-12-Kent-98030",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2197988/1540-Maple-Lane-12-Kent-98030",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Manufactured In Park",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fa9c/c9af4d113d6ad972e55aabf61d3a4af0/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.365164,
+      "listingAgentID": "121277198",
+      "listingID": "2197988",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$109,500",
+      "longitude": -122.225257,
+      "mediaData": [],
+      "mlsPhotoCount": 21,
+      "mlsPtID": 4,
+      "ohCount": 0,
+      "parentPtID": 7,
+      "partialBaths": 0,
+      "price": 109500,
+      "priceBeforeReduction": 119500,
+      "priceData": {
+        "value": {
+          "raw": 95000,
+          "formatted": "$95,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "priceReductionDate": "2024-03-05T18:31:28+00:00",
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Manufactured In Park",
+      "remarksConcat": "Immerse yourself in the peaceful atmosphere of Horseshoe Acres, a charming 55+ community nestled beside the tranquil river. This 2 bed/2 bath mobile home has been recently remodeled, featuring exquisite quartz countertops, stainless steel appliances, stylish luxury vinyl flooring, new double-pane windows, like-new washer and dryer, and a spacious, upgraded interior. Step outside onto the covered deck, ideal for unwinding, or utilize the secure storage shed, perfect for storing gardening equipment or creating a cozy workshop area. Enjoy the surrounding nature with beautiful rose bushes, blueberry shrubs, and cherry trees all around the community. Close to downtown Kent, public transportation, and several shops and restaurants.",
+      "rntLse": "neither",
+      "rntLsePrice": 109500,
+      "sellingAgentID": "114076727",
+      "sellingOfficeID": "115621095",
+      "soldDate": "2024-04-26T00:00:00+00:00",
+      "soldPrice": 95000,
+      "sqFt": "980",
+      "state": "Washington",
+      "streetName": "Maple Lane",
+      "streetNumber": "1540",
+      "subdivision": "Kent",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "unitNumber": "12",
+      "viewCount": 3,
+      "vtCount": 0,
+      "yearBuilt": 1981,
+      "zipcode": "98030"
+    },
+    {
+      "acres": "0",
+      "address": "23800 SE Tiger Mountain Road 10",
+      "advanced": {
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "viewYN": "no",
+        "cooling": [
+          "Central A/C"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2023,
+        "bodyType": [
+          "Double Wide"
+        ],
+        "firptayn": "no",
+        "flooring": [
+          "Vinyl",
+          "Vinyl Plank"
+        ],
+        "parkName": "Tiger Mountain Senior Mobile Home",
+        "saleType": "MLS",
+        "bathrooms": "1.75",
+        "carportYN": "no",
+        "coolingYN": "yes",
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Sold"
+        ],
+        "styleCode": "21 - Manuf-Double Wide",
+        "appliances": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove/Range",
+          "Washer"
+        ],
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "inclusions": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "StoveRange",
+          "Washer"
+        ],
+        "livingArea": 0,
+        "otherRooms": [
+          "Kitchen Without Eating Space",
+          "Living Room"
+        ],
+        "possession": [
+          "Closing"
+        ],
+        "fireplaceYN": "no",
+        "lotFeatures": [
+          "Paved",
+          "Secluded"
+        ],
+        "petsAllowed": [
+          "Subj to Restrictions"
+        ],
+        "showMapLink": "yes",
+        "waterSource": [
+          "Shared Well"
+        ],
+        "energySource": "Electric",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "500 - East Side/South of I-90",
+        "onMarketDate": "2023-09-20T00:00:00+00:00",
+        "powerCompany": "PSE",
+        "sewerCompany": "Septic",
+        "waterCompany": "Well",
+        "waterfrontYN": "no",
+        "openParkingYN": null,
+        "structureType": [
+          "Manufactured House"
+        ],
+        "buyerFinancing": [
+          "Cash"
+        ],
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "Windermere Real Estate/East",
+        "landLeaseAmount": 825,
+        "livingAreaUnits": [
+          "Square Feet"
+        ],
+        "numberOfShowers": "2",
+        "bedroomsPossible": 1,
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "foundationDetails": [
+          "See Remarks"
+        ],
+        "lotSizeSquareFeet": 0,
+        "seniorCommunityYN": "yes",
+        "appliancesIncluded": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove/Range",
+          "Washer"
+        ],
+        "highSchoolDistrict": [
+          "Issaquah"
+        ],
+        "thirdPartyApproval": "None",
+        "numberOfHomesInPark": "67",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "mlsSquareFootageSource": "Seller",
+        "calculatedSquareFootage": "1000",
+        "irrigationWaterRightsYN": "no",
+        "squareFootageUnfinished": "0",
+        "landLeaseAmountFrequency": [
+          "Monthly"
+        ],
+        "manufacturedHomeFeatures": [
+          "Patio/Porch/Deck"
+        ],
+        "nwmSquareFootageFinished": 0,
+        "specialListingConditions": [
+          "None"
+        ],
+        "idxMustRemovePrimaryPhotoYN": "false",
+        "manufacturedHomeParkAmenities": [
+          "Common Area"
+        ]
+      },
+      "bedrooms": 1,
+      "cityID": 22860,
+      "cityName": "Issaquah",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2023-09-20T22:12:49+00:00",
+      "dateModified": "2024-01-31T00:39:10+00:00",
+      "detailsURL": "b045/2163273",
+      "detailsUrlSlug": "23800-SE-Tiger-Mountain-Road-10-Issaquah-98027",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2163273/23800-SE-Tiger-Mountain-Road-10-Issaquah-98027",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Manufactured In Park",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f3ee/ee3fcb7030ea2d2880960ac0372bf7e5/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.476206,
+      "listingAgentID": "121277198",
+      "listingID": "2163273",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$87,500",
+      "longitude": -122.023649,
+      "mediaData": [],
+      "mlsPhotoCount": 24,
+      "mlsPtID": 4,
+      "ohCount": 0,
+      "parentPtID": 7,
+      "partialBaths": 1,
+      "price": 87500,
+      "priceBeforeReduction": 94850,
+      "priceData": {
+        "value": {
+          "raw": 87500,
+          "formatted": "$87,500"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "priceReductionDate": "2023-11-28T01:25:26+00:00",
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Manufactured In Park",
+      "remarksConcat": "Newly remodeled and turnkey opportunity in the serene Tiger Mountain Senior Mobile Home Park of Issaquah! This beautiful residence offers 1000 square feet of comfortable living space, featuring 1 bedroom and 2 baths. Step inside and be greeted by the stylish vinyl flooring that flows seamlessly throughout the home. Primary bedroom used to be two bedrooms and could be converted back. Large windows provide natural light throughout, and the spacious covered porch offers the perfect opportunity to unwind and enjoy the fresh mountain air. Nestled in Tiger Mountain, this home offers the best of both worlds - privacy and quick access to downtown, parks, and more, making everyday living a breeze.",
+      "rntLse": "neither",
+      "rntLsePrice": 87500,
+      "sellingAgentID": "1170760",
+      "sellingOfficeID": "1000452",
+      "soldDate": "2024-01-30T00:00:00+00:00",
+      "soldPrice": 87500,
+      "sqFt": "1,000",
+      "state": "Washington",
+      "streetDirection": "SE",
+      "streetName": "Tiger Mountain Road",
+      "streetNumber": "23800",
+      "subdivision": "Issaquah",
+      "threeQuarterBaths": 1,
+      "totalBaths": 2,
+      "unitNumber": "10",
+      "viewCount": 1,
+      "vtCount": 0,
+      "yearBuilt": 1963,
+      "zipcode": "98027"
+    },
+    {
       "acres": "0.175",
       "address": "10134 14th Avenue S",
       "advanced": {
@@ -6278,6 +7159,467 @@
       "totalBaths": 3,
       "viewCount": 0,
       "vtCount": 0
+    },
+    {
+      "acres": "0",
+      "address": "10324 SW Delphi Road 29",
+      "advanced": {
+        "make": "Goldenwest",
+        "roof": [
+          "Composition"
+        ],
+        "model": "Goldenwest",
+        "skirt": [
+          "Vinyl"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "viewYN": "no",
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2023,
+        "bodyType": [
+          "Double Wide"
+        ],
+        "firptayn": "no",
+        "flooring": [
+          "Carpet"
+        ],
+        "parkName": "Delphi Mobile Home Park",
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "carportYN": "no",
+        "coolingYN": "no",
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Sold"
+        ],
+        "styleCode": "21 - Manuf-Double Wide",
+        "appliances": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove/Range",
+          "Washer"
+        ],
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "inclusions": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "StoveRange",
+          "Washer"
+        ],
+        "livingArea": 0,
+        "possession": [
+          "Closing"
+        ],
+        "fireplaceYN": "no",
+        "petsAllowed": [
+          "Subj to Restrictions"
+        ],
+        "showMapLink": "yes",
+        "waterSource": [
+          "Community"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "442 - Black Hills",
+        "onMarketDate": "2023-09-22T00:00:00+00:00",
+        "parkingTotal": 2,
+        "waterfrontYN": "no",
+        "openParkingYN": "1",
+        "structureType": [
+          "Manufactured House"
+        ],
+        "buyerFinancing": [
+          "Conventional"
+        ],
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "RE/MAX Advantage",
+        "landLeaseAmount": 580,
+        "livingAreaUnits": [
+          "Square Feet"
+        ],
+        "numberOfShowers": "2",
+        "seniorExemption": "no",
+        "storageLocation": "Backyard",
+        "taxAnnualAmount": 681,
+        "bedroomsPossible": 3,
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "exteriorFeatures": [
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Wall to Wall Carpet"
+        ],
+        "numberOfBathtubs": "2",
+        "sellerDisclosure": "Provided",
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "lotSizeSquareFeet": 0,
+        "openParkingSpaces": 2,
+        "seniorCommunityYN": "no",
+        "appliancesIncluded": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove/Range",
+          "Washer"
+        ],
+        "highSchoolDistrict": [
+          "Tumwater"
+        ],
+        "thirdPartyApproval": "None",
+        "numberOfHomesInPark": "30",
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "mlsSquareFootageSource": "Seller",
+        "calculatedSquareFootage": "1188",
+        "irrigationWaterRightsYN": "no",
+        "squareFootageUnfinished": "0",
+        "landLeaseAmountFrequency": [
+          "Monthly"
+        ],
+        "nwmSquareFootageFinished": 0,
+        "specialListingConditions": [
+          "None"
+        ],
+        "manufacturedAfter06151976": "yes",
+        "manufacturedHomeParkAmenities": [
+          "Common Area"
+        ]
+      },
+      "bedrooms": 3,
+      "cityID": 34455,
+      "cityName": "Olympia",
+      "countyID": 2212,
+      "countyName": "Thurston",
+      "dateAdded": "2023-09-24T04:36:51+00:00",
+      "dateModified": "2023-11-06T19:22:10+00:00",
+      "detailsURL": "b045/2163519",
+      "detailsUrlSlug": "10324-SW-Delphi-Road-29-Olympia-98512",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2163519/10324-SW-Delphi-Road-29-Olympia-98512",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Manufactured In Park",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c418/814c339e5ed333e281d7435307f724b5/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 46.938106,
+      "listingAgentID": "121277198",
+      "listingID": "2163519",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$114,500",
+      "longitude": -123.012695,
+      "mediaData": [],
+      "mlsPhotoCount": 18,
+      "mlsPtID": 4,
+      "ohCount": 0,
+      "parentPtID": 7,
+      "partialBaths": 0,
+      "price": 114500,
+      "priceData": {
+        "value": {
+          "raw": 117000,
+          "formatted": "$117,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Manufactured In Park",
+      "remarksConcat": "Welcome to this charming manufactured home in the heart of Olympia, Washington! With 1,188 square feet of well-designed living space, this home features 3 bedrooms, 2 bathrooms. In the primary suite you'll find a walk-in closet and en-suite full bathroom complete with soaking tub. This lot is unique and has a large open grass area behind the home. Nestled in Delphi Mobile Home Park, conveniently located just 15 minutes from Olympia and situated within the Tumwater School District. Start your next chapter in this move-in ready home!",
+      "rntLse": "neither",
+      "rntLsePrice": 114500,
+      "sellingAgentID": "89392448",
+      "sellingOfficeID": "120097808",
+      "soldDate": "2023-11-01T00:00:00+00:00",
+      "soldPrice": 117000,
+      "sqFt": "1,188",
+      "state": "Washington",
+      "streetDirection": "SW",
+      "streetName": "Delphi Road",
+      "streetNumber": "10324",
+      "subdivision": "Delphi",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "unitNumber": "29",
+      "viewCount": 0,
+      "vtCount": 0,
+      "yearBuilt": 1999,
+      "zipcode": "98512"
+    },
+    {
+      "acres": "0",
+      "address": "10324 Delphi Road SW 10",
+      "advanced": {
+        "make": "MODULINE",
+        "roof": [
+          "Composition"
+        ],
+        "model": "ARDMORE",
+        "skirt": [
+          "Aluminum"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "viewYN": "no",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2023,
+        "bodyType": [
+          "Double Wide"
+        ],
+        "firptayn": "no",
+        "flooring": [
+          "Vinyl Plank",
+          "Carpet"
+        ],
+        "parkName": "Delphi Mobile Home Park",
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "carportYN": "no",
+        "coolingYN": "no",
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Sold"
+        ],
+        "styleCode": "21 - Manuf-Double Wide",
+        "appliances": [
+          "Dishwasher",
+          "Refrigerator",
+          "Stove/Range"
+        ],
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "inclusions": [
+          "Dishwasher",
+          "Refrigerator",
+          "StoveRange",
+          "Sewer",
+          "Water"
+        ],
+        "livingArea": 0,
+        "otherRooms": [
+          "Dining Room",
+          "Entry",
+          "Family Room",
+          "Kitchen Without Eating Space",
+          "Living Room",
+          "Utility Room"
+        ],
+        "possession": [
+          "Closing"
+        ],
+        "fireplaceYN": "no",
+        "petsAllowed": [
+          "Subj to Restrictions"
+        ],
+        "showMapLink": "yes",
+        "waterSource": [
+          "Community"
+        ],
+        "energySource": "Electric",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "442 - Black Hills",
+        "onMarketDate": "2023-09-07T00:00:00+00:00",
+        "parkingTotal": 2,
+        "waterfrontYN": "no",
+        "openParkingYN": "1",
+        "structureType": [
+          "Manufactured House"
+        ],
+        "buyerFinancing": [
+          "Cash"
+        ],
+        "elevationUnits": [
+          "Feet"
+        ],
+        "buyerOfficeName": "COMPASS",
+        "excludedItemsYN": "no",
+        "landLeaseAmount": 580,
+        "livingAreaUnits": [
+          "Square Feet"
+        ],
+        "numberOfShowers": "2",
+        "seniorExemption": "no",
+        "storageLocation": "Left of Home",
+        "taxAnnualAmount": 634,
+        "bedroomsPossible": 3,
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "exteriorFeatures": [
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Wall to Wall Carpet"
+        ],
+        "mlsLotSizeSource": "County Records",
+        "numberOfBathtubs": "2",
+        "sellerDisclosure": "Provided",
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "foundationDetails": [
+          "Tie Down"
+        ],
+        "lotSizeSquareFeet": 0,
+        "openParkingSpaces": 2,
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "seniorCommunityYN": "no",
+        "spaceRentIncludes": [
+          "Sewer",
+          "Water"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher",
+          "Refrigerator",
+          "Stove/Range"
+        ],
+        "highSchoolDistrict": [
+          "Tumwater"
+        ],
+        "thirdPartyApproval": "None",
+        "numberOfHomesInPark": "30",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "mlsSquareFootageSource": "seller",
+        "calculatedSquareFootage": "1680",
+        "irrigationWaterRightsYN": "no",
+        "squareFootageUnfinished": "0",
+        "landLeaseAmountFrequency": [
+          "Monthly"
+        ],
+        "manufacturedHomeFeatures": [
+          "Bath Off Primary"
+        ],
+        "nwmSquareFootageFinished": 0,
+        "specialListingConditions": [
+          "None"
+        ],
+        "manufacturedAfter06151976": "yes",
+        "manufacturedHomeParkAmenities": [
+          "Common Area"
+        ]
+      },
+      "bedrooms": 3,
+      "cityID": 34455,
+      "cityName": "Olympia",
+      "countyID": 2212,
+      "countyName": "Thurston",
+      "dateAdded": "2023-09-08T16:33:52+00:00",
+      "dateModified": "2023-11-01T18:19:11+00:00",
+      "detailsURL": "b045/2158335",
+      "detailsUrlSlug": "10324-Delphi-Road-SW-10-Olympia-98512",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2158335/10324-Delphi-Road-SW-10-Olympia-98512",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Manufactured In Park",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a074/470a11ea76a261da6db324ed5c66892a/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 46.938106,
+      "listingAgentID": "121277198",
+      "listingID": "2158335",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$145,000",
+      "longitude": -123.012695,
+      "mediaData": [],
+      "mlsPhotoCount": 20,
+      "mlsPtID": 4,
+      "ohCount": 0,
+      "parentPtID": 7,
+      "partialBaths": 0,
+      "price": 145000,
+      "priceData": {
+        "value": {
+          "raw": 155000,
+          "formatted": "$155,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Manufactured Home",
+      "propType": "Manufactured In Park",
+      "remarksConcat": "Newly remodeled mobile home in Tumwater! Enjoy a quiet lifestyle in this charming 3 bed, 2 bath double-wide home. Upgrades include a new kitchen, flooring, blinds, gutters, and bathrooms. Nestled in Delphi Mobile Home Park with features including an additional bonus room/den, stainless steel appliances, storage shed and two parking spots. Conveniently located 15 minutes to Olympia and in the Tumwater School District. Start your next chapter in this move-in ready home!",
+      "rntLse": "neither",
+      "rntLsePrice": 145000,
+      "sellingAgentID": "121277198",
+      "sellingOfficeID": "91866779",
+      "soldDate": "2023-10-27T00:00:00+00:00",
+      "soldPrice": 155000,
+      "sqFt": "1,680",
+      "state": "Washington",
+      "streetName": "Delphi Road SW",
+      "streetNumber": "10324",
+      "subdivision": "Delphi",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "unitNumber": "10",
+      "viewCount": 23,
+      "vtCount": 0,
+      "yearBuilt": 1988,
+      "zipcode": "98512"
     }
   ]
 }
