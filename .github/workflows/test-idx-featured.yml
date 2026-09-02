@@ -1,0 +1,16 @@
+name: Test IDX Featured Listings
+
+on:
+  workflow_dispatch:
+jobs:
+  test-featured:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+        - name: Run IDX featured listings test
+          run: node idx-integration/scripts/test-featured.js
+          env:
+            IDX_ACCESS_KEY: ${{ secrets.IDX_ACCESS_KEY }}
