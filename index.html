@@ -862,7 +862,8 @@ class Component extends DCLogic {
     infoSubmitted: false,
     mortgage: { downPercent: 20, rate: 6.5, termYears: 30 },
     statsProgress: 0,
-    testimonialIndex: 0
+    testimonialIndex: 0,
+      homeTestimonialIndex: 0
   };
 
   statsRef = (el) => {
@@ -900,6 +901,20 @@ class Component extends DCLogic {
   nextTestimonial = () => {
     this.setState(s => ({ testimonialIndex: (s.testimonialIndex + 1) % this.servicesTestimonials.length }));
   };
+
+    prevHomeTestimonial = () => {
+      this.setState(s => ({ homeTestimonialIndex: (s.homeTestimonialIndex - 1 + this.homeTestimonials.length) % this.homeTestimonials.length }));
+    };
+
+    nextHomeTestimonial = () => {
+      this.setState(s => ({ homeTestimonialIndex: (s.homeTestimonialIndex + 1) % this.homeTestimonials.length }));
+    };
+
+    homeTestimonials = [
+      { quote: "Jack worked closely with us through every detail of preparing, listing, and selling our home. We were genuinely thankful for the care he brought to the whole process.", name: "Home Seller, Eastside" },
+      { quote: "From start to finish the process was professional and stress-free, with responsiveness and attention to detail at every step.", name: "Home Buyer, Bellevue" },
+      { quote: "This was our third time working with the Macdonald Group, and we wouldn't want to work with anyone else.", name: "Repeat Client" }
+    ];
 
   servicesTestimonials = [
     { quote: "If you're searching for a trustworthy Bellevue Realtor, Jack Macdonald is as good as it gets. His market knowledge, communication, and integrity made the entire process seamless. Jack is an exceptional negotiator. He'll be our Realtor for life.", name: 'Client, Bellevue' },
@@ -1268,6 +1283,9 @@ class Component extends DCLogic {
       activeTestimonial: this.servicesTestimonials[this.state.testimonialIndex],
       prevTestimonial: this.prevTestimonial,
       nextTestimonial: this.nextTestimonial,
+      activeHomeTestimonial: this.homeTestimonials[this.state.homeTestimonialIndex],
+        prevHomeTestimonial: this.prevHomeTestimonial,
+        nextHomeTestimonial: this.nextHomeTestimonial,
       propCategories,
       propFilters: this.state.propFilters,
       cityOptions,
