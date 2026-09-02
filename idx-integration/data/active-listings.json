@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T01:42:30.638Z",
+  "generatedAt": "2026-09-02T21:56:48.381Z",
   "count": 10,
   "listings": [
     {
@@ -588,7 +588,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 143,
+      "viewCount": 145,
       "vtCount": 0
     },
     {
@@ -985,7 +985,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 55,
+      "viewCount": 56,
       "vtCount": 1,
       "zip4": "5402"
     },
@@ -1323,7 +1323,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 18,
+      "viewCount": 19,
       "vtCount": 0
     },
     {
