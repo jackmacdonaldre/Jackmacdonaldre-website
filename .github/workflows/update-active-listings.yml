@@ -25,7 +25,8 @@ jobs:
         env:        
           IDX_ACCESS_KEY: ${{ secrets.IDX_ACCESS_KEY }}
         run: node idx-integration/scripts/generate-sold-listings.js
-        run: |
+      - name: Commit and push if changes exist        
+              run: |
           git config user.name "idx-listings-bot"
           git config user.email "idx-listings-bot@users.noreply.github.com"
           git add -A
