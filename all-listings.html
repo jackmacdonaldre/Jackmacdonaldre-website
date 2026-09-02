@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>All Listings | Jack Macdonald - Macdonald Group</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse all active, pending, and sold listings from Jack Macdonald and the Macdonald Group at Compass.">
+  <link rel="canonical" href="https://jackmacdonaldre.com/all-listings.html">
+  <link rel="stylesheet" href="./_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/styles.css">
+  </head>
+  <body style="margin: 0;">
+  <div style="padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--color-divider);">
+  <a href="/">Macdonald Group</a>
+  <a href="/" class="btn btn-ghost">Back to Home</a>
+  </div>
+  <div style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6) 0; text-align: center;">
+  <h6 style="font-size: 11px;">All Listings</h6>
+  <h2 style="margin-top: var(--space-2); font-size: clamp(32px, 3.8vw, 44px);">Active, Pending and Sold</h2>
+</div>
+<div id="listings-root"></div>
+<div style="background: #201d1a; color: #fdfdfc; padding: 40px 24px; margin-top: 60px; text-align: center;">
+<div style="font-size: 13px;">Jack Macdonald - Macdonald Group of Compass. Equal Housing Opportunity.</div>
+</div>
+<script>
+  (function () {
+  function el(tag, props, children) {
+    var e = document.createElement(tag);
+if (props) {
+Object.keys(props).forEach(function (k) {
+  if (k === 'style') { e.style.cssText = props[k]; }
+else if (k === 'text') { e.textContent = props[k]; }
+else { e.setAttribute(k, props[k]); }
+});
+}
+(children || []).forEach(function (c) { e.appendChild(c); });
+return e;
+  }
+function formatPrice(n) {
+  if (typeof n === 'string' && n.charAt(0) === '$') { return n; }
+n = Number(n) || 0;
+return '$' + n.toLocaleString('en-US');
+}
+function firstImageUrl(listing) {
+  var img = listing.image;
+if (!img) return '';
+  var first = img['0'] || img[0];
+return (first && first.url) ? first.url : '';
+}
+function statsLine(listing) {
+  var parts = [];
+if (listing.bedrooms) parts.push(listing.bedrooms + ' bd');
+if (listing.totalBaths) parts.push(listing.totalBaths + ' ba');
+if (listing.sqFt) parts.push(listing.sqFt + ' sqft');
+return parts.join(' - ');
+}
+function buildCard(listing, badgeLabel, badgeColor) {
+  var price = formatPrice(listing.listingPrice);
+var address = listing.address || listing.displayAddress || '';
+var city = listing.cityName || '';
+var photo = firstImageUrl(listing);
+var link = listing.fullDetailsURL || 'https://jackmacdonaldre.idxbroker.com/idx/search';
+var stats = statsLine(listing);
+var card = el('div', { class: 'card', style: 'padding: 0; overflow: hidden;' });
+var imgWrap = el('div', { style: 'position: relative; background: var(--color-neutral-200);' });
+if (photo) {
+imgWrap.appendChild(el('img', { src: photo, style: 'width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block;' }));
+}
+imgWrap.appendChild(el('span', { class: 'tag', style: 'position: absolute; top: var(--space-3); left: var(--space-3); background: ' + badgeColor + '; color: #fff;', text: badgeLabel }));
+card.appendChild(imgWrap);
+var body = el('div', { style: 'padding: var(--space-5);' });
+body.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: 22px; margin-bottom: 4px;', text: price }));
+body.appendChild(el('div', { style: 'font-size: 14px; color: var(--color-neutral-700); margin-bottom: var(--space-2);', text: address + (city ? ', ' + city : '') }));
+  if (stats) {
+  body.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-600); margin-bottom: var(--space-3);', text: stats }));
+  }
+  body.appendChild(el('a', { href: link, target: '_blank', rel: 'noopener', class: 'btn btn-secondary btn-block', text: 'View Details' }));
+  card.appendChild(body);
+  return card;
+}
+function buildSection(title, listings, badgeLabel, badgeColor) {
+  var section = el('section', { style: 'max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6);' });
+section.appendChild(el('h2', { style: 'text-align: center; margin-bottom: var(--space-6); font-size: clamp(26px, 3vw, 34px);', text: title }));
+if (!listings.length) {
+section.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-600);', text: 'None right now.' }));
+return section;
+}
+var grid = el('div', { style: 'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-6);' });
+listings.forEach(function (l) { grid.appendChild(buildCard(l, badgeLabel, badgeColor)); });
+section.appendChild(grid);
+return section;
+}
+var root = document.getElementById('listings-root');
+Promise.all([
+  fetch('/idx-integration/data/active-listings.json').then(function (r) { return r.json(); }).catch(function () { return { listings: [] }; }),
+fetch('/idx-integration/data/sold-listings.json').then(function (r) { return r.json(); }).catch(function () { return { listings: [] }; })
+]).then(function (results) {
+  var activePending = results[0].listings || [];
+var sold = results[1].listings || [];
+var active = activePending.filter(function (l) { return (l.propStatus || '') === 'Active'; });
+  var pending = activePending.filter(function (l) { return (l.propStatus || '') === 'Pending'; });
+  root.innerHTML = '';
+  root.appendChild(buildSection('Active Listings', active, 'Active', '#2f7d4f'));
+root.appendChild(buildSection('Pending Listings', pending, 'Pending', '#c8792a'));
+root.appendChild(buildSection('Sold Listings', sold, 'Sold', '#6b5b4a'));
+                                                  });
+                                               })();
+</script>
+  </body>
+</html>
+  </html>
