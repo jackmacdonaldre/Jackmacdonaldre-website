@@ -1440,7 +1440,7 @@ class Component extends DCLogic {
     }
     fetch('/idx-integration/data/active-listings.json')
     .then(function (r) { return r.json(); })
-    .then(function (data) { render(data.listings || []); })
+    .then(function (data) { var listings = data.listings || []; var attempts = 0; var intervalId = setInterval(function () { attempts++; render(listings); if (attempts > 15) clearInterval(intervalId); }, 300); })
     .catch(function () {});
   })();
     
