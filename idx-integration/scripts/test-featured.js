@@ -28,7 +28,7 @@ if (!IDX_ACCESS_KEY) {
     process.exit(0);
     }
 
-    if (Array.isArray(data)) {
+    if (data && data.data && typeof data.data === 'object' && !Array.isArray(data.data)) {    data = Object.values(data.data);  }  if (Array.isArray(data)) {    data.sort((a, b) => (Number(b.listingPrice) || 0) - (Number(a.listingPrice) || 0));
     console.log("Number of listings returned:", data.length);
     data.forEach((listing, i) => {
     console.log(
