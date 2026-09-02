@@ -153,23 +153,8 @@
       </div>
     </section>
 
-    <sc-if value="{{ featuredListing }}" hint-placeholder-val="{{ true }}">
-      <section style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6) calc(var(--space-8) * 1.3);">
-        <div style="text-align: center; margin-bottom: var(--space-6);">
-          <h6 style="font-size: 11px;">Featured Property</h6>
-        </div>
-        <figure class="plate" style="margin: 0 0 calc(var(--space-8) * 0.9);">
-          <image-slot id="{{ featuredListing.photoId }}" src="./assets/listing-l15-hero.jpg" placeholder="{{ featuredListing.address }} photo" shape="rect" style="width: 100%; aspect-ratio: 21/9; display: block;"></image-slot>
-        </figure>
-        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
-          <h2 style="margin: 0 0 var(--space-3); font-size: clamp(32px, 3.6vw, 42px);">{{ featuredListing.name }}</h2>
-          <div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-6);">{{ featuredListing.cityLine }}</div>
-          <p style="font-family: var(--font-heading); font-style: italic; font-size: 19px; line-height: 1.6; color: var(--color-neutral-800); margin-bottom: var(--space-6);">A stately Bellevue retreat set behind manicured grounds, with soaring windows and space to entertain in every season.</p>
-          <a href="#" onClick="{{ featuredListing.viewClick }}" class="btn btn-ghost">Explore Residence →</a>
-        </div>
-      </section>
-    </sc-if>
 
+    
     <sc-if value="{{ showTestimonials }}" hint-placeholder-val="{{ true }}">
       <section style="max-width: 900px; margin: 0 auto; padding: var(--space-6) var(--space-6) calc(var(--space-8) * 1.3); text-align: center;">
         <h6 style="font-size: 11px;">What Clients Say</h6>
