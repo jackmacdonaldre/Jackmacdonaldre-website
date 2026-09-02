@@ -213,7 +213,7 @@
       </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: var(--space-6);">
         <sc-for list="{{ neighborhoods }}" as="n" hint-placeholder-count="6">
-          <a href="#" onClick="{{ goTo.properties }}" class="nbhd-card" style="display: block; color: inherit;">
+          <a href="{{ n.idxUrl }}" target="_blank" rel="noopener" class="nbhd-card" style="display: block; color: inherit;">
             <figure class="plate" style="margin: 0;">
               <image-slot id="{{ n.photoId }}" src="{{ n.photoSrc }}" placeholder="{{ n.name }} photo" shape="rect" style="width: 100%; aspect-ratio: 4/3; display: block;"></image-slot>
             </figure>
@@ -1084,12 +1084,12 @@ class Component extends DCLogic {
       { title: 'Local Market Expertise', line: 'Born and raised on the Eastside.' }
     ];
     const neighborhoods = [
-      { name: 'Bellevue', photoId: 'nbhd-bellevue', photoSrc: './assets/nbhd-bellevue.jpg' },
-      { name: 'Kirkland', photoId: 'nbhd-kirkland', photoSrc: './assets/nbhd-kirkland.jpg' },
-      { name: 'Redmond', photoId: 'nbhd-redmond', photoSrc: './assets/nbhd-redmond.jpg' },
-      { name: 'Issaquah', photoId: 'nbhd-issaquah', photoSrc: './assets/nbhd-issaquah.jpg' },
-      { name: 'Sammamish', photoId: 'nbhd-sammamish', photoSrc: './assets/nbhd-sammamish.jpg' },
-      { name: 'Bothell', photoId: 'nbhd-bothell', photoSrc: './assets/nbhd-bothell.jpg' }
+      { name: 'Bellevue', photoId: 'nbhd-bellevue', photoSrc: './assets/nbhd-bellevue.jpg', idxUrl: 'https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&ccz=city&pt=1&city[]=3453' },
+      { name: 'Kirkland', photoId: 'nbhd-kirkland', photoSrc: './assets/nbhd-kirkland.jpg', idxUrl: 'https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&ccz=city&pt=1&city[]=24426' },
+      { name: 'Redmond', photoId: 'nbhd-redmond', photoSrc: './assets/nbhd-redmond.jpg', idxUrl: 'https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&ccz=city&pt=1&city[]=38785' },
+      { name: 'Issaquah', photoId: 'nbhd-issaquah', photoSrc: './assets/nbhd-issaquah.jpg', idxUrl: 'https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&ccz=city&pt=1&city[]=22860' },
+      { name: 'Sammamish', photoId: 'nbhd-sammamish', photoSrc: './assets/nbhd-sammamish.jpg', idxUrl: 'https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&ccz=city&pt=1&city[]=41182' },
+      { name: 'Bothell', photoId: 'nbhd-bothell', photoSrc: './assets/nbhd-bothell.jpg', idxUrl: 'https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&ccz=city&pt=1&city[]=5067' }
     ];
 
     // ---- Blog computed values ----
