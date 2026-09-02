@@ -111,7 +111,7 @@
         <h6 style="font-size: 11px;">Current Listings</h6>
         <h2 style="margin-top: var(--space-2); font-size: clamp(32px, 3.8vw, 44px);">Active &amp; Pending Listings</h2>
       </div>
-      <div class="active-listings-spacer" style="min-height: 200px;"></div>
+      <div id="active-listings-container" style="min-height: 200px;"></div>
     </section>
     
 
@@ -1386,4 +1386,62 @@ class Component extends DCLogic {
 
 </script>
 <div id="ai-search-widget-container" style="position: absolute; z-index: 50; display: none;"></div>  <script>  (function () {    var injected = false;    function isHomePage() { return location.pathname === '/' || location.pathname === ''; }    function reposition() {      if (!isHomePage()) return;      var container = document.getElementById('ai-search-widget-container');      var spacer = document.querySelector('.ai-search-spacer');      if (!container || !spacer) return;      var rect = spacer.getBoundingClientRect();      var scrollY = window.scrollY || document.documentElement.scrollTop;      container.style.position = 'absolute';      container.style.top = (rect.top + scrollY) + 'px';      container.style.left = rect.left + 'px';      container.style.width = rect.width + 'px';      container.style.display = 'block';      if (!injected && container.children.length === 0) {        injected = true;        var s = document.createElement('script');        s.async = false;        s.charset = 'UTF-8';        s.type = 'text/javascript';        s.id = 'idxwidgetsrc-169744';        s.src = '//jackmacdonaldre.idxbroker.com/idx/widgets/169744';        container.appendChild(s);      }    }    var attempts = 0;    var intervalId = setInterval(function () {      attempts++;      reposition();      if (attempts > 25) clearInterval(intervalId);    }, 200);    window.addEventListener('resize', reposition);  })();  </script>  </body>
-</html>
+<script>
+  (function () {
+    function el(tag, props, children) {
+      var e = document.createElement(tag);
+      if (props) {
+        Object.keys(props).forEach(function (k) {
+          if (k === 'style') { e.style.cssText = props[k]; }
+          else if (k === 'text') { e.textContent = props[k]; }
+          else { e.setAttribute(k, props[k]); }
+        });
+      }
+      (children || []).forEach(function (c) { e.appendChild(c); });
+      return e;
+    }
+    function formatPrice(n) {
+      n = Number(n) || 0;
+      return '$' + n.toLocaleString('en-US');
+    }
+    function buildCard(listing, featured) {
+      var price = formatPrice(listing.listingPrice);
+      var address = listing.address || '';
+      var city = listing.cityName || '';
+      var cardStyle = featured
+      ? 'padding: var(--space-6); text-align: center; margin-bottom: var(--space-8); border: 1px solid var(--color-divider); border-radius: var(--radius-md);'
+        : 'padding: var(--space-5); border: 1px solid var(--color-divider); border-radius: var(--radius-md);';
+      var card = el('div', { style: cardStyle });
+      if (featured) {
+        card.appendChild(el('div', { style: 'font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: var(--space-2);', text: 'Featured Listing' }));
+      }
+      card.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: ' + (featured ? '40px' : '22px') + '; margin-bottom: 4px;', text: price }));
+      card.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-700); margin-bottom: var(--space-3);', text: address + (city ? ', ' + city : '') }));
+      card.appendChild(el('a', { href: 'https://jackmacdonaldre.idxbroker.com/idx/search', style: 'display: inline-block;', class: featured ? 'btn btn-primary' : 'btn btn-secondary btn-block', text: 'View Details' }));
+      return card;
+    }
+    function render(listings) {
+      var container = document.getElementById('active-listings-container');
+      if (!container) return;
+      container.innerHTML = '';
+      container.style.minHeight = '';
+      if (!listings || !listings.length) {
+        container.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-700);', text: 'No active listings right now. Check back soon.' }));
+        return;
+      }
+      container.appendChild(buildCard(listings[0], true));
+      if (listings.length > 1) {
+        var grid = el('div', { style: 'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-6);' });
+        for (var i = 1; i < listings.length; i++) {
+          grid.appendChild(buildCard(listings[i], false));
+        }
+        container.appendChild(grid);
+      }
+    }
+    fetch('/idx-integration/data/active-listings.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) { render(data.listings || []); })
+    .catch(function () {});
+  })();
+    
+</script></html>
