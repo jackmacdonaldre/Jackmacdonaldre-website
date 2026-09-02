@@ -11,7 +11,11 @@ if (!IDX_ACCESS_KEY) {
 const TEAM_AGENT_IDS = ['1186410', '121277198'];
 
 (async () => {
-  const response = await fetch("https://api.idxbroker.com/clients/soldpending", {
+  var now = new Date();
+    var pad = function (v) { return String(v).padStart(2, '0'); };
+    var startDatetime = now.getUTCFullYear() + '-' + pad(now.getUTCMonth() + 1) + '-' + pad(now.getUTCDate()) + '+' + pad(now.getUTCHours()) + ':' + pad(now.getUTCMinutes()) + ':' + pad(now.getUTCSeconds());
+    var soldUrl = "https://api.idxbroker.com/clients/soldpending?interval=17520&startDatetime=" + startDatetime + "&dateType=dateAdded";
+  const response = await fetch(soldUrl, {
     method: "GET",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
