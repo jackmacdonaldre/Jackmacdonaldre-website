@@ -123,7 +123,9 @@
       "city": "Eastside",
       "neighborhood": null,
       "type": "relocation_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "relocating-to-the-eastside-for-a-tech-job-what-to-know",
+      "published_date": "2026-09-02"
     },
     {
       "topic": "Bellevue School District Guide for Home Buyers",
