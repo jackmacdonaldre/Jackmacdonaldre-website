@@ -1461,13 +1461,20 @@ function firstImageUrl(listing) {
         return;
       }
       container.appendChild(buildCard(listings[0], true));
-      if (listings.length > 1) {
-        var grid = el('div', { style: 'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-6);' });
-        for (var i = 1; i < listings.length; i++) {
-          grid.appendChild(buildCard(listings[i], false));
-        }
-        container.appendChild(grid);
-      }
+      var GRID_CAP = 8;
+            if (listings.length > 1) {
+                      var gridItems = listings.slice(1, 1 + GRID_CAP);
+                      var grid = el('div', { style: 'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-6);' });
+                      for (var i = 0; i < gridItems.length; i++) {
+                                  grid.appendChild(buildCard(gridItems[i], false));
+                      }
+                      container.appendChild(grid);
+            }
+            if (listings.length > 1 + GRID_CAP) {
+                      var moreWrap = el('div', { style: 'text-align: center; margin-top: var(--space-8);' });
+                      moreWrap.appendChild(el('a', { href: '/all-listings.html', class: 'btn btn-secondary', text: 'See More Listings' }));
+                      container.appendChild(moreWrap);
+            }
     }
     fetch('/idx-integration/data/active-listings.json')
     .then(function (r) { return r.json(); })
