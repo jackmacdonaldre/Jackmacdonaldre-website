@@ -1435,8 +1435,11 @@ function firstImageUrl(listing) {
         imgWrap.appendChild(el('img', { src: photo, style: 'width: 100%; aspect-ratio: ' + (featured ? '21/9' : '4/3') + '; object-fit: cover; display: block;' }));
       }
       if (featured) {
-        imgWrap.appendChild(el('span', { class: 'tag', style: 'position: absolute; top: var(--space-3); left: var(--space-3); background: var(--color-accent-700); color: #fff;', text: 'Featured Listing' }));
+        imgWrap.appendChild(el('span', { class: 'tag', style: 'position: absolute; top: var(--space-3); right: var(--space-3); background: var(--color-accent-700); color: #fff;', text: 'Featured Listing' }));
       }
+      var statusLabel = listing.propStatus || 'Active';
+      var statusColor = statusLabel === 'Pending' ? '#c8792a' : '#2f7d4f';
+      imgWrap.appendChild(el('span', { class: 'tag', style: 'position: absolute; top: var(--space-3); left: var(--space-3); background: ' + statusColor + '; color: #fff;', text: statusLabel }));
       card.appendChild(imgWrap);
       var body = el('div', { style: featured ? 'padding: var(--space-6); text-align: center;' : 'padding: var(--space-5);' });
       body.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: ' + (featured ? '36px' : '22px') + '; margin-bottom: 4px;', text: price }));
