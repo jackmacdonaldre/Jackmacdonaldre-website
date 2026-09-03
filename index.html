@@ -1484,4 +1484,30 @@ function firstImageUrl(listing) {
     .catch(function () {});
   })();
     
+(function () {
+  var attempts = 0;
+  var intervalId2 = setInterval(function () {
+    attempts++;
+    var vid = document.getElementById('home-hero-video');
+    if (vid) {
+      vid.muted = true;
+      vid.defaultMuted = true;
+      vid.playsInline = true;
+      vid.setAttribute('muted', '');
+      var p = vid.play();
+      if (p && p.catch) { p.catch(function () {}); }
+      clearInterval(intervalId2);
+    }
+    if (attempts > 25) { clearInterval(intervalId2); }
+  }, 200);
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) {
+      var vid2 = document.getElementById('home-hero-video');
+      if (vid2 && vid2.paused) {
+        var p2 = vid2.play();
+        if (p2 && p2.catch) { p2.catch(function () {}); }
+      }
+    }
+  });
+})();
 </script></html>
