@@ -110,27 +110,26 @@ var root = document.getElementById('listings-root');
       { price: 2800000, address: '16920 Southeast Licorice Way', city: 'Renton, WA 98059', beds: 4, baths: 5, sqft: '4,190' },
       { price: 2580000, address: '8245 Northeast 8th Street', city: 'Medina, WA 98039', beds: 4, baths: 3, sqft: '3,586' }
       ];
-    function buildNotableCard(sale) {
-      var card = el('div', { class: 'card', style: 'padding: 0; overflow: hidden;' });
-      var top = el('div', { style: 'background: linear-gradient(135deg, #2a2622, #4a4238); padding: var(--space-6) var(--space-5); text-align: center;' });
-      top.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: 26px; color: #fdfdfc;', text: formatPrice(sale.price) }));
-      card.appendChild(top);
-      var body = el('div', { style: 'padding: var(--space-5); text-align: center;' });
-      body.appendChild(el('div', { style: 'font-size: 14px; color: var(--color-neutral-700); margin-bottom: var(--space-2);', text: sale.address + ', ' + sale.city }));
-      if (sale.beds) {
-        body.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-600); margin-bottom: var(--space-3);', text: sale.beds + ' bd · ' + sale.baths + ' ba · ' + sale.sqft + ' sqft' }));
-      }
-      card.appendChild(body);
-      return card;
-    }
+function buildNotableCard(sale) {
+  var row = el('div', { style: 'display: flex; align-items: center; justify-content: space-between; padding: var(--space-5) 0; border-bottom: 1px solid var(--color-divider); gap: var(--space-4); flex-wrap: wrap;' });
+  var left = el('div', {});
+  left.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: 19px; margin-bottom: 2px;', text: sale.address + ', ' + sale.city }));
+  if (sale.beds) {
+    left.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-600);', text: sale.beds + ' bd \u00b7 ' + sale.baths + ' ba \u00b7 ' + sale.sqft + ' sqft' }));
+  }
+  row.appendChild(left);
+  row.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: 22px; color: var(--color-accent-700); white-space: nowrap;', text: formatPrice(sale.price) }));
+  return row;
+}
     function buildNotableSection() {
-      var section = el('section', { style: 'max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); background: #f7f5f1;' });
+      var section = el('section', { style: 'max-width: 900px; margin: 0 auto; padding: var(--space-8) var(--space-6); background: #f7f5f1;' });
       section.appendChild(el('h6', { style: 'text-align: center; font-size: 11px;', text: "Stephen Macdonald" }));
-      section.appendChild(el('h2', { style: 'text-align: center; margin-bottom: var(--space-2); font-size: clamp(26px, 3vw, 34px);', text: 'Notable Sales' }));
-      section.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-600); max-width: 600px; margin: 0 auto var(--space-6);', text: "A selection of Stephen's past transactions across the Eastside. Courtesy of NWMLS." }));
-      var grid = el('div', { style: 'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-6);' });
-      NOTABLE_SALES.forEach(function (s) { grid.appendChild(buildNotableCard(s)); });
-      section.appendChild(grid);
+      section.appendChild(el('h2', { style: 'text-align: center; margin-bottom: var(--space-2); font-size: clamp(26px, 3vw, 34px);', text: 'A Track Record Built Over 30+ Years' }));
+      section.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-600); max-width: 620px; margin: 0 auto var(--space-8);', text: "Managing broker of the Macdonald Group, Stephen has represented buyers and sellers across Seattle and the Eastside for more than three decades." }));
+      section.appendChild(el('h6', { style: 'text-align: center; font-size: 11px; letter-spacing: 0.1em; margin-bottom: var(--space-2);', text: 'NOTABLE TRANSACTIONS' }));
+      var list = el('div', { style: 'border-top: 1px solid var(--color-divider);' });
+      NOTABLE_SALES.forEach(function (s) { list.appendChild(buildNotableCard(s)); });
+      section.appendChild(list);
       return section;
     }
 Promise.all([
