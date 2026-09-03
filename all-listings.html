@@ -120,7 +120,6 @@ var root = document.getElementById('listings-root');
       if (sale.beds) {
         body.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-600); margin-bottom: var(--space-3);', text: sale.beds + ' bd · ' + sale.baths + ' ba · ' + sale.sqft + ' sqft' }));
       }
-      body.appendChild(el('a', { href: 'https://www.compass.com/agents/stephenmacdonald/', target: '_blank', rel: 'noopener', class: 'btn btn-secondary btn-block', text: 'View Full Listing' }));
       card.appendChild(body);
       return card;
     }
@@ -141,7 +140,7 @@ fetch('/idx-integration/data/sold-listings.json').then(function (r) { return r.j
   var activePending = results[0].listings || [];
 var sold = results[1].listings || [];
   sold = sold.concat(NOTABLE_SALES.map(function (s) {
-    return { listingPrice: s.price, address: s.address, cityName: s.city, bedrooms: s.beds, totalBaths: s.baths, sqFt: s.sqft, fullDetailsURL: 'https://www.compass.com/agents/stephenmacdonald/', propStatus: 'Sold' };
+    return { listingPrice: s.price, address: s.address, cityName: s.city, bedrooms: s.beds, totalBaths: s.baths, sqFt: s.sqft, fullDetailsURL: '/team/', propStatus: 'Sold' };
   }));
 var active = activePending.filter(function (l) { return (l.propStatus || '') === 'Active'; });
   var pending = activePending.filter(function (l) { return (l.propStatus || '') === 'Pending'; });
