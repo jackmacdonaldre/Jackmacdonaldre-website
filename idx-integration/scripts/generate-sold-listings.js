@@ -11,6 +11,7 @@ if (!IDX_ACCESS_KEY) {
 const TEAM_AGENT_IDS = ['1186410', '121277198'];
 const CHUNK_HOURS = 720;
 const CHUNK_COUNT = 60;
+const NOTABLE_HOUSE_NUMBERS = ['16434', '3654', '500', '11710', '20040', '2208', '13246', '7112', '8601', '1830', '7930', '4445', '7860', '11631', '16920', '8245'];
 
 function pad(v) {
   return String(v).padStart(2, '0');
@@ -68,7 +69,7 @@ async function fetchChunk(startDatetime) {
  var listings = allListings.filter(function (l) {
    var status = (l.propStatus || l.idxStatus || '').toString().toLowerCase();
    var agentMatch = TEAM_AGENT_IDS.indexOf(String(l.listingAgentID)) !== -1;
-   return status.indexOf('sold') !== -1 && agentMatch;
+   var houseNum = ((l.address || l.displayAddress || '').match(/^\d+/) || [''])[0]; var addressMatch = NOTABLE_HOUSE_NUMBERS.indexOf(houseNum) !== -1; return status.indexOf('sold') !== -1 && (agentMatch || addressMatch);
  });
 
  listings.sort(function (a, b) {
