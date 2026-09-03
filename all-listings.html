@@ -140,6 +140,9 @@ fetch('/idx-integration/data/sold-listings.json').then(function (r) { return r.j
 ]).then(function (results) {
   var activePending = results[0].listings || [];
 var sold = results[1].listings || [];
+  sold = sold.concat(NOTABLE_SALES.map(function (s) {
+    return { listingPrice: s.price, address: s.address, cityName: s.city, bedrooms: s.beds, totalBaths: s.baths, sqFt: s.sqft, fullDetailsURL: 'https://www.compass.com/agents/stephenmacdonald/', propStatus: 'Sold' };
+  }));
 var active = activePending.filter(function (l) { return (l.propStatus || '') === 'Active'; });
   var pending = activePending.filter(function (l) { return (l.propStatus || '') === 'Pending'; });
   root.innerHTML = '';
