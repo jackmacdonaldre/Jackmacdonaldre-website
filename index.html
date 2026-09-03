@@ -48,6 +48,7 @@
   @media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
   @media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
   @media (max-width: 640px) { .nav-links-left { width: 0; overflow: hidden; margin: 0 !important; padding: 0 !important; } .nav-phone-btn { display: none !important; } }
+  @media (max-width: 700px) { .mobile-stack { grid-template-columns: 1fr !important; } .mobile-2col { grid-template-columns: repeat(2,1fr) !important; } }
 </style>
 </helmet>
 
@@ -110,7 +111,7 @@
     </section>
     <div class="hr" style="max-width: 1300px; margin-left: auto; margin-right: auto;"></div>
 
-    <section style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 0.85fr 1.15fr; gap: var(--space-8); align-items: center;">
+    <section class="mobile-stack" style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 0.85fr 1.15fr; gap: var(--space-8); align-items: center;">
       <figure class="plate" style="margin: 0;">
         <img src="./assets/jack-welcome-photo.png" alt="Jack Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
       </figure>
@@ -451,7 +452,7 @@
       <section style="max-width: 1300px; margin: 100px auto 0; padding: 0 var(--space-6);">
         <a href="#" onClick="{{ goTo.properties }}" class="btn btn-ghost" style="padding-left: 0; font-size: 13px;">← Back to Properties</a>
       </section>
-      <section style="max-width: 1300px; margin: var(--space-4) auto 0; padding: 0 var(--space-6); display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-3);">
+      <section class="mobile-stack" style="max-width: 1300px; margin: var(--space-4) auto 0; padding: 0 var(--space-6); display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-3);">
         <image-slot id="{{ detail.photoIdMain }}" src="{{ detail.photoSrcMain }}" placeholder="Main photo" shape="rect" style="width: 100%; aspect-ratio: 16/10; display: block; border-radius: var(--radius-md);"></image-slot>
         <div style="display: grid; grid-template-rows: 1fr 1fr; gap: var(--space-3);">
           <image-slot id="{{ detail.photoId2 }}" src="{{ detail.photoSrc2 }}" placeholder="Photo 2" shape="rect" style="width: 100%; height: 100%; display: block; border-radius: var(--radius-md);"></image-slot>
@@ -459,7 +460,7 @@
         </div>
       </section>
 
-      <section style="max-width: 1300px; margin: var(--space-8) auto 0; padding: 0 var(--space-6) 120px; display: grid; grid-template-columns: 1.6fr 1fr; gap: var(--space-8); align-items: start;">
+      <section class="mobile-stack" style="max-width: 1300px; margin: var(--space-8) auto 0; padding: 0 var(--space-6) 120px; display: grid; grid-template-columns: 1.6fr 1fr; gap: var(--space-8); align-items: start;">
         <div>
           <div style="display: flex; align-items: baseline; gap: var(--space-4); flex-wrap: wrap;">
             <h1 style="margin: 0;">{{ detail.priceLabel }}</h1>
@@ -467,7 +468,7 @@
           </div>
           <h6 style="margin-top: var(--space-2);">{{ detail.address }}, {{ detail.city }}{{ detail.neighborhoodSuffix }}</h6>
 
-          <div style="display: grid; grid-template-columns: repeat(4,1fr); gap: var(--space-4); margin: var(--space-6) 0; text-align: center;">
+          <div class="mobile-2col" style="display: grid; grid-template-columns: repeat(4,1fr); gap: var(--space-4); margin: var(--space-6) 0; text-align: center;">
             <div><div style="font-family: var(--font-heading); font-size: 22px;">{{ detail.beds }}</div><div style="font-size: 11px; text-transform: uppercase; color: var(--color-neutral-600);">Beds</div></div>
             <div><div style="font-family: var(--font-heading); font-size: 22px;">{{ detail.baths }}</div><div style="font-size: 11px; text-transform: uppercase; color: var(--color-neutral-600);">Baths</div></div>
             <div><div style="font-family: var(--font-heading); font-size: 22px;">{{ detail.sqftLabel }}</div><div style="font-size: 11px; text-transform: uppercase; color: var(--color-neutral-600);">Sq Ft</div></div>
@@ -502,7 +503,7 @@
           <h6 style="margin-top: var(--space-6);">Location</h6>
           <dc-import name="PropertyMapSearch" listings="{{ detail.mapListing }}" hint-size="100%,320px"></dc-import>
 
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-6); margin-top: var(--space-6);">
+          <div class="mobile-stack" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-6); margin-top: var(--space-6);">
             <div>
               <h6>Schools <span style="font-weight: 400; font-size: 11px; color: var(--color-neutral-500); text-transform: none;">(sample — connect a schools API)</span></h6>
               <div style="font-size: 14px; color: var(--color-neutral-700); line-height: 2;">
@@ -606,7 +607,7 @@
         <div style="margin-top: var(--space-4); font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-400);">Jack Macdonald · Bellevue Native · Compass</div>
       </div>
     </section>
-    <section style="padding: var(--space-8) var(--space-6) calc(var(--space-8) * 1.2); max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: var(--space-8); align-items: start;">
+    <section class="mobile-stack" style="padding: var(--space-8) var(--space-6) calc(var(--space-8) * 1.2); max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: var(--space-8); align-items: start;">
       <div>
         <figure class="plate" style="margin: 0;">
           <img src="./assets/jack-sunset.png" alt="Jack Macdonald outdoors at sunset" style="width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block;">
@@ -679,7 +680,7 @@
         <h1 class="fade-up" style="margin-top: var(--space-2); color: #fdfdfc;">Let's Talk Real Estate.</h1>
       </div>
     </section>
-    <section style="padding: var(--space-8) var(--space-6) 120px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8);">
+    <section class="mobile-stack" style="padding: var(--space-8) var(--space-6) 120px; max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8);">
       <div>
         <p style="max-width: 440px;">Whether you're buying, selling, or just exploring your options on the Eastside, I'd love to hear from you. I typically respond within 24 hours.</p>
         <div style="display: flex; flex-direction: column; gap: var(--space-4); font-size: 15px; margin-top: var(--space-4);">
@@ -722,7 +723,7 @@
       </div>
     </section>
 
-    <section style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-8); align-items: center;">
+    <section class="mobile-stack" style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-8); align-items: center;">
       <figure class="plate" style="margin: 0;">
         <img src="./assets/team-group-photo.jpg" alt="The Macdonald Group team" style="width: 100%; display: block;">
       </figure>
@@ -776,7 +777,7 @@
         <h1 style="margin-top: var(--space-2); color: #fdfdfc;">The Buyer's Guide</h1>
       </div>
     </section>
-    <section style="max-width: 900px; margin: 0 auto; padding: var(--space-8) var(--space-6) 120px; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: start;">
+    <section class="mobile-stack" style="max-width: 900px; margin: 0 auto; padding: var(--space-8) var(--space-6) 120px; display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: start;">
       <div>
         <h6>What's Inside</h6>
         <h2 style="margin-top: var(--space-2);">Everything you need to buy with confidence.</h2>
