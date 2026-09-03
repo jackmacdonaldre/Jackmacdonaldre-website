@@ -47,11 +47,13 @@
   .stat-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
   @media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
   @media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
+  @media (max-width: 640px) { .nav-links-left { display: none !important; } }
 </style>
 </helmet>
 
+  
 <template id="__bundler_thumbnail">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
   <rect width="300" height="300" fill="#201f1d"/>
   <g stroke="#b68235" stroke-width="6" fill="none" stroke-linejoin="round">
     <polygon points="150,70 245,150 245,230 55,230 55,150"/>
@@ -63,7 +65,7 @@
 <div style="background: var(--color-bg); min-height: 100vh; width: 100%;">
 
   <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
-    <div style="display: flex; align-items: center; gap: 28px;">
+      <div class="nav-links-left" style="display: flex; align-items: center; gap: 28px;">
       <a href="#" onClick="{{ goTo.about }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
       <a href="#" onClick="{{ goTo.services }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
     </div>
