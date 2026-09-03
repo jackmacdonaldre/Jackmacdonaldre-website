@@ -47,7 +47,7 @@
   .stat-cell:not(:first-child) { border-left: 1px solid var(--color-divider); }
   @media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
   @media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
-  @media (max-width: 640px) { .nav-links-left { display: none !important; } }
+  @media (max-width: 640px) { .nav-links-left { width: 0; overflow: hidden; margin: 0 !important; padding: 0 !important; } .nav-phone-btn { display: none !important; } }
 </style>
 </helmet>
 
@@ -73,7 +73,7 @@
 <img src="./assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
     </a>
     <div style="display: flex; align-items: center; gap: var(--space-5);">
-      <a href="tel:4259416998" class="btn btn-secondary">(425) 941-6998</a>
+      <a href="tel:4259416998" class="btn btn-secondary nav-phone-btn">(425) 941-6998</a>
       <button type="button" onClick="{{ toggleMenu }}" aria-label="Open menu" style="background: none; border: none; cursor: pointer; padding: 4px; display: flex; flex-direction: column; gap: 5px;">
         <span style="width: 26px; height: 1px; background: #201f1d;"></span>
         <span style="width: 26px; height: 1px; background: #201f1d;"></span>
