@@ -90,6 +90,50 @@ section.appendChild(grid);
 return section;
 }
 var root = document.getElementById('listings-root');
+    var NOTABLE_SALES = [
+      { price: 5900000, address: '16434 246th Avenue Northeast', city: 'Woodinville, WA 98077', beds: 6, baths: 9, sqft: '11,935' },
+      { price: 5000000, address: '3654 Fairweather Lane', city: 'Medina, WA 98039', beds: 3, baths: 3, sqft: '2,560' },
+      { price: 4800000, address: '500 106th Avenue Northeast, Unit 4105', city: 'Bellevue, WA 98004', beds: 2, baths: 3, sqft: '3,403' },
+      { price: 4400000, address: '11710 Northeast 45th Street', city: 'Kirkland, WA 98033', beds: 5, baths: 4, sqft: '4,144' },
+      { price: 3600000, address: '20040 156th Avenue Northeast', city: 'Woodinville, WA 98072', beds: 4, baths: 5, sqft: '4,200' },
+      { price: 3600000, address: '2208 West Lake Sammamish Parkway Northeast', city: 'Redmond, WA 98052', beds: 4, baths: 6, sqft: '5,660' },
+      { price: 3550000, address: '13246 Woodinville - Redmond Road Northeast', city: 'Redmond, WA 98052', beds: 4, baths: 5, sqft: '6,924' },
+      { price: 3520000, address: '20040 156th Avenue Northeast', city: 'Woodinville, WA 98072', beds: 4, baths: 5, sqft: '4,200' },
+      { price: 3400000, address: '7112 204th Drive Northeast', city: 'Redmond, WA 98053', beds: 4, baths: 6, sqft: '5,860' },
+      { price: 3400000, address: '8601 Northeast 19th Place', city: 'Clyde Hill, WA 98004', beds: 4, baths: 4, sqft: '3,650' },
+      { price: 3250000, address: '7112 204th Drive Northeast', city: 'Redmond, WA 98053', beds: 4, baths: 6, sqft: '5,860' },
+      { price: 3150000, address: '1830 West Lake Sammamish Parkway Southeast', city: 'Bellevue, WA 98008', beds: 4, baths: 4, sqft: '5,250' },
+      { price: 3118500, address: '7930 Northeast 32nd Street', city: 'Medina, WA 98039', beds: null, baths: null, sqft: null },
+      { price: 3105000, address: '4445 143rd Place Northeast', city: 'Bellevue, WA 98007', beds: 5, baths: 3, sqft: '3,848' },
+      { price: 2950000, address: '7860 132nd Avenue Northeast', city: 'Redmond, WA 98052', beds: 5, baths: 4, sqft: '4,030' },
+      { price: 2870000, address: '11631 Northeast 45th Street', city: 'Kirkland, WA 98033', beds: 5, baths: 5, sqft: '4,020' },
+      { price: 2800000, address: '16920 Southeast Licorice Way', city: 'Renton, WA 98059', beds: 4, baths: 5, sqft: '4,190' },
+      { price: 2580000, address: '8245 Northeast 8th Street', city: 'Medina, WA 98039', beds: 4, baths: 3, sqft: '3,586' }
+      ];
+    function buildNotableCard(sale) {
+      var card = el('div', { class: 'card', style: 'padding: 0; overflow: hidden;' });
+      var top = el('div', { style: 'background: linear-gradient(135deg, #2a2622, #4a4238); padding: var(--space-6) var(--space-5); text-align: center;' });
+      top.appendChild(el('div', { style: 'font-family: var(--font-heading); font-size: 26px; color: #fdfdfc;', text: formatPrice(sale.price) }));
+      card.appendChild(top);
+      var body = el('div', { style: 'padding: var(--space-5); text-align: center;' });
+      body.appendChild(el('div', { style: 'font-size: 14px; color: var(--color-neutral-700); margin-bottom: var(--space-2);', text: sale.address + ', ' + sale.city }));
+      if (sale.beds) {
+        body.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-600); margin-bottom: var(--space-3);', text: sale.beds + ' bd · ' + sale.baths + ' ba · ' + sale.sqft + ' sqft' }));
+      }
+      body.appendChild(el('a', { href: 'https://www.compass.com/agents/stephenmacdonald/', target: '_blank', rel: 'noopener', class: 'btn btn-secondary btn-block', text: 'View Full Listing' }));
+      card.appendChild(body);
+      return card;
+    }
+    function buildNotableSection() {
+      var section = el('section', { style: 'max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); background: #f7f5f1;' });
+      section.appendChild(el('h6', { style: 'text-align: center; font-size: 11px;', text: "Stephen Macdonald" }));
+      section.appendChild(el('h2', { style: 'text-align: center; margin-bottom: var(--space-2); font-size: clamp(26px, 3vw, 34px);', text: 'Notable Sales' }));
+      section.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-600); max-width: 600px; margin: 0 auto var(--space-6);', text: "A selection of Stephen's past transactions across the Eastside. Courtesy of NWMLS." }));
+      var grid = el('div', { style: 'display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-6);' });
+      NOTABLE_SALES.forEach(function (s) { grid.appendChild(buildNotableCard(s)); });
+      section.appendChild(grid);
+      return section;
+    }
 Promise.all([
   fetch('/idx-integration/data/active-listings.json').then(function (r) { return r.json(); }).catch(function () { return { listings: [] }; }),
 fetch('/idx-integration/data/sold-listings.json').then(function (r) { return r.json(); }).catch(function () { return { listings: [] }; })
@@ -102,6 +146,7 @@ var active = activePending.filter(function (l) { return (l.propStatus || '') ===
   root.appendChild(buildSection('Active Listings', active, 'Active', '#2f7d4f'));
 root.appendChild(buildSection('Pending Listings', pending, 'Pending', '#c8792a'));
 root.appendChild(buildSection('Sold Listings', sold, 'Sold', '#6b5b4a'));
+  root.appendChild(buildNotableSection());
                                                   });
                                                })();
 </script>
