@@ -132,7 +132,9 @@
       "city": "Bellevue",
       "neighborhood": null,
       "type": "buyer_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "bellevue-school-district-guide-for-home-buyers",
+      "published_date": "2026-09-04"
     },
     {
       "topic": "Lake Washington School District Boundaries: A Buyer's Guide",
