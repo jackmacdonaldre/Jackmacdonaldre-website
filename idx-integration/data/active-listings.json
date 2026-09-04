@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T00:37:43.322Z",
-  "count": 10,
+  "generatedAt": "2026-09-04T03:50:31.294Z",
+  "count": 13,
   "listings": [
     {
       "acres": "0.417",
@@ -988,6 +988,406 @@
       "viewCount": 57,
       "vtCount": 1,
       "zip4": "5402"
+    },
+    {
+      "acres": "0.14",
+      "address": "4089 Rockaway Beach Road NE",
+      "advanced": {
+        "levels": [
+          "Multi/Split"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "aduBeds": "1",
+        "taxYear": 2026,
+        "aduBaths": "1",
+        "saleType": "MLS",
+        "bathrooms": "3.25",
+        "styleCode": "15 - Multi Level",
+        "highSchool": [
+          "Bainbridge Isl"
+        ],
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Sloped,Terraces",
+        "vegetation": [
+          "Garden Space"
+        ],
+        "showMapLink": "yes",
+        "listingTerms": [
+          "Cash",
+          "Conventional",
+          "FHA",
+          "VA Loan"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "onMarketDate": "2026-07-22T00:00:00+00:00",
+        "powerCompany": "PSE",
+        "sewerCompany": "COBI",
+        "siteFeatures": [
+          "Cable TV",
+          "Deck",
+          "Fenced-Partially",
+          "Patio",
+          "Propane",
+          "Rooftop Deck"
+        ],
+        "titleCompany": "Rainier Title",
+        "waterCompany": "COBI",
+        "bathsFullMain": "0",
+        "bathsHalfMain": "1",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "4",
+        "coveredSpaces": 2,
+        "entryLocation": "Lower",
+        "structureType": [
+          "House"
+        ],
+        "bathsFullLower": "0",
+        "bathsFullUpper": "2",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "cableConnected": "Xfinity",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "2",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "excludedItemsYN": "no",
+        "leasedEquipment": "propane tank",
+        "seniorExemption": "no",
+        "taxAnnualAmount": 11389,
+        "waterHeaterType": "Gas",
+        "elementarySchool": [
+          "Capt Johnston Blakel"
+        ],
+        "mlsLotSizeSource": "County Records",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 3147,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "internetConnected": "Xfinity",
+        "mainLevelBedrooms": 0,
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Double Oven",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "yearBuiltEffective": 2003,
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Propane"
+        ],
+        "waterHeaterLocation": "First floor closet",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Woodward Mid"
+        ],
+        "bathsThreeQuarterMain": "0",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "1",
+        "mlsSquareFootageSource": "County Records",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "3147",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ]
+      },
+      "bedrooms": 4,
+      "cityID": 2331,
+      "cityName": "Bainbridge Island",
+      "countyID": 1064,
+      "countyName": "Kitsap",
+      "dateAdded": "2026-07-23T00:47:34+00:00",
+      "dateModified": "2026-09-03T15:43:11+00:00",
+      "detailsURL": "b045/2557974",
+      "detailsUrlSlug": "4089-Rockaway-Beach-Road-NE-Bainbridge-Island",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2557974/4089-Rockaway-Beach-Road-NE-Bainbridge-Island",
+      "halfBaths": 1,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d82b/b28db7453c1c5d35ec9cd8c1f977f913/b045",
+          "sizes": [],
+          "caption": "Stunning views of the Seattle skyline"
+        },
+        "1": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/de0a/a0ed90a85683735aa7f4e14fd32a1fcf/b045",
+          "sizes": [],
+          "caption": "Beautiful contemporary home on Bainbridge Island"
+        },
+        "2": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a9e3/3e9ab3559ba2bb446119274b22c9227e/b045",
+          "sizes": [],
+          "caption": "Sweeping views of the Puget Sound from the patio."
+        },
+        "3": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5154/451543874ce7b0d209531f66de72badb/b045",
+          "sizes": [],
+          "caption": "Exterior shot of this striking architecture"
+        },
+        "4": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/69d1/1d9658c85ce609a5950b36e5f8522b99/b045",
+          "sizes": [],
+          "caption": "Bright entry way"
+        },
+        "5": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/62f2/2f26a5cb42c1b1a8dd8f1c6f32cc7fb5/b045",
+          "sizes": [],
+          "caption": "Stunning lounge area as you enter"
+        },
+        "6": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f22d/d22fd8e38e9479061e200de207ed9b04/b045",
+          "sizes": [],
+          "caption": "Concrete wall by the base of the stairs showcasing this home's one-of-a-kind character"
+        },
+        "7": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ae65/56ea44ba4a0488370df5978e06db30f9/b045",
+          "sizes": [],
+          "caption": "Living room with picturesque windows framing the surrounding nature"
+        },
+        "8": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4164/4614a1406481d2d5ff89dd772dfcc8b4/b045",
+          "sizes": [],
+          "caption": "Spacious living room with a cozy fireplace"
+        },
+        "9": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/07f4/4f703df9057f328825ff74b6b75b1e73/b045",
+          "sizes": [],
+          "caption": "Bar seats with a gorgeous view"
+        },
+        "10": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1430/0341649e8da5070744d22c6c17ffbf60/b045",
+          "sizes": [],
+          "caption": "Chef's kitchen with the dreamiest views of Seattle, the Cascades, and the Puget Sound"
+        },
+        "11": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ef93/39fece5537c52eb3e2c954b0a334f53b/b045",
+          "sizes": [],
+          "caption": "These views are hard to beat!"
+        },
+        "12": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dc30/03cd7a4c745d53400720a962a0208633/b045",
+          "sizes": [],
+          "caption": "Chef's kitchen with Wolf appliances"
+        },
+        "13": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7477/77470f83db3559402d69909b04e7d6bc/b045",
+          "sizes": [],
+          "caption": "Pristine kitchen that flows perfectly into the dining room"
+        },
+        "14": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dedc/cdeda0212f0b3212d1204522350dee91/b045",
+          "sizes": [],
+          "caption": "Dining room with water views"
+        },
+        "15": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9a0e/e0a953495f62d5c32cdabda9a6c78920/b045",
+          "sizes": [],
+          "caption": "Office/lounge space"
+        },
+        "16": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/89d3/3d9828348e6d85d5498ce7aafccdaef2/b045",
+          "sizes": [],
+          "caption": "Beautiful custom bookshelf"
+        },
+        "17": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/64f8/8f46c8b1062d41b2ee2bb7d517e20f99/b045",
+          "sizes": [],
+          "caption": "Primary bedroom with incredible views"
+        },
+        "18": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0894/4980d8a3521cbdee67e7e808673bafa5/b045",
+          "sizes": [],
+          "caption": "Primary bath suite"
+        },
+        "19": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9fbd/dbf94b7393667c30f24ff12b8e2c03b3/b045",
+          "sizes": [],
+          "caption": "Brand new shower and a gorgeous bathtub"
+        },
+        "20": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a921/129abdbff87a1293884cefdb4e88eee7/b045",
+          "sizes": [],
+          "caption": "Landing space outside the primary with stunning views"
+        },
+        "21": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dbd0/0dbdc929594f99ee64b78a31aa831367/b045",
+          "sizes": [],
+          "caption": "Covered deck on the top floor with views of the Sound and Mt. Baker"
+        },
+        "22": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c1d9/9d1c0e65d9d8a4162b9b5424b5e29c10/b045",
+          "sizes": [],
+          "caption": "Expansive view deck with a retractable awning to enjoy the views year round."
+        },
+        "23": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6a35/53a6e1c077860875da156ccf72ef051f/b045",
+          "sizes": [],
+          "caption": "Gorgeous!"
+        },
+        "24": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/468c/c864237dd676e6b2e7c02e878a00cdf5/b045",
+          "sizes": [],
+          "caption": "Second floor bedroom"
+        },
+        "25": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/312b/b213344a5594b98cc87ae3c83a30af8c/b045",
+          "sizes": [],
+          "caption": "2nd floor full bathroom"
+        },
+        "26": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3656/656322e87a88b3753a5ed17aae0cb4de/b045",
+          "sizes": [],
+          "caption": "Second floor bedroom"
+        },
+        "27": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/51b0/0b1551d34dcf458d3d17c864d07e6fd3/b045",
+          "sizes": [],
+          "caption": "Bright office space with water views"
+        },
+        "28": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/acb3/3bcaab74d16e3cd1229998ee86b24dd1/b045",
+          "sizes": [],
+          "caption": "Nature-filled courtyard that connects the ADU with the main home"
+        },
+        "29": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/21dd/dd1229686b4512e0a7ed3ad9a6f84d52/b045",
+          "sizes": [],
+          "caption": "Sauna and cold-plunge tub to support health and wellness"
+        },
+        "30": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5269/9625e403cecfc3d07cef3e62db20b83f/b045",
+          "sizes": [],
+          "caption": "ADU main floor studio"
+        },
+        "31": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/257e/e752f75a1e80d9961fd8164853a2d3b9/b045",
+          "sizes": [],
+          "caption": "ADU with a retractable TV screen to transform into a movie theater"
+        },
+        "32": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1a71/17a1483c8a8a629aeaa763fccfb8e125/b045",
+          "sizes": [],
+          "caption": "ADU Bedroom"
+        },
+        "33": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3ef5/5fe35286ee33f323f469d40e35f3e4c6/b045",
+          "sizes": [],
+          "caption": "ADU 3/4 bathroom"
+        },
+        "34": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/59c8/8c95018da53be471ab1fbc648c3b4095/b045",
+          "sizes": [],
+          "caption": "ADU loft space with water views"
+        },
+        "35": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8160/0618d9b91bbd9d8d997b5a045289c94d/b045",
+          "sizes": [],
+          "caption": "ADU deck outside of the loft space"
+        },
+        "36": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f019/910fb9e3fa6210271b25054329075d91/b045",
+          "sizes": [],
+          "caption": "Large elevator that travels to all four floors of the main home, making this home wheelchair friendly and easily accesible"
+        },
+        "37": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b915/519b173992bfcf68f3233f0e100a4ef4/b045",
+          "sizes": [],
+          "caption": "Beautiful home surrounded by nature"
+        },
+        "38": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5afb/bfa5d7d1875ec656409c8d9c1c88761a/b045",
+          "sizes": [],
+          "caption": "The coveted Rockaway Beach!"
+        },
+        "39": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fc44/44cffe5f1318623a02b662c58db94d70/b045",
+          "sizes": [],
+          "caption": "Less than a minute walk to Rockaway Beach Park!"
+        },
+        "totalCount": 40
+      },
+      "latitude": 47.600306,
+      "listingAgentID": "151078377",
+      "listingID": "2557974",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$1,850,000",
+      "longitude": -122.499947,
+      "mediaData": {
+        "oh": [
+          {
+            "id": "161459515",
+            "text": "",
+            "starts": "2026-09-06T13:00:00+00:00",
+            "expires": "2026-09-06T16:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-09-03T15:55:18+00:00",
+            "freeFormDate": "September 6th, 2026",
+            "freeFormTime": "1:00 pm to 4:00 pm",
+            "listingID": "2557974",
+            "startTime": 1788699600
+          }
+        ]
+      },
+      "mlsPhotoCount": 40,
+      "mlsPtID": 1,
+      "ohCount": 1,
+      "parentPtID": 1,
+      "partialBaths": 2,
+      "price": 1850000,
+      "priceData": {
+        "value": {
+          "raw": 1850000,
+          "formatted": "$1,850,000"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "propStatus": "Active",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Set beside Bainbridge Island’s coveted Rockaway Beach with sweeping water views, this one-of-a-kind residence is built around its scenery. Walls of glass and an open, multi-level layout draw in views of Seattle, Puget Sound, the Cascades, and passing ferries. A sculptural staircase and elevator serve as the home's connective core, channeling daylight through every level and linking the spaces with ease. Outside, the top deck invites slow mornings with coffee and eagle sightings overhead, while Rockaway Beach Park sits just steps away. Watch for porpoises and orcas passing through the Sound, or head down to paddle out to Blakely Rock on a calm afternoon. A private sauna and cold plunge add a spa-like retreat to daily life. The ADU studio and loft, accessible via third floor walkway or via the main courtyard,  offers independence and flexibility, ready to serve as a guest suite, hangout, rental, or home office. As evening falls, the Seattle skyline comes alive across the water, a view that changes with every hour of the day. Stellar views, thoughtful design, and a location that speaks for itself, this is ideal Bainbridge Island living.",
+      "rntLse": "neither",
+      "rntLsePrice": 1850000,
+      "sqFt": "3,147",
+      "state": "Washington",
+      "streetName": "Rockaway Beach Road NE",
+      "streetNumber": "4089",
+      "subdivision": "Bainbridge Island",
+      "threeQuarterBaths": 1,
+      "totalBaths": 4,
+      "viewCount": 38,
+      "vtCount": 0,
+      "zip4": "2159"
     },
     {
       "acres": "0.138",
@@ -2701,6 +3101,608 @@
       "vtCount": 1
     },
     {
+      "acres": "0.001",
+      "address": "141 Parfitt Way SW A-15",
+      "advanced": {
+        "coOp": "no",
+        "offers": "Seller intends to review offers upon receipt",
+        "taxYear": 2026,
+        "saleType": "MLS",
+        "viewFrom": "See Remarks",
+        "bathrooms": "0",
+        "styleCode": "45 - Moorage",
+        "possession": [
+          "Closing"
+        ],
+        "showMapLink": "yes",
+        "buildingName": "Winslow Wharf Marina",
+        "dwellingType": "Attached",
+        "listingTerms": [
+          "Cash"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "onMarketDate": "2026-04-02T00:00:00+00:00",
+        "sewerCompany": "HOA",
+        "titleCompany": "AGLTG",
+        "waterCompany": "HOA",
+        "bathsFullMain": "0",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "structureType": [
+          "Dock"
+        ],
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "seniorExemption": "no",
+        "taxAnnualAmount": 1827.6,
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 0,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "floorNumberOfUnit": "0",
+        "mainLevelBedrooms": 0,
+        "otherDuesOrFeesYN": "yes",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "numberOfAccessStairs": "0",
+        "unitsInBuildingTotal": "0",
+        "bathsThreeQuarterMain": "0",
+        "associationFeeIncludes": [
+          "Common Area Maintenance",
+          "Sewer",
+          "Trash",
+          "Water"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "commonPropertyFeatures": [
+          "Dock",
+          "Gated Entry",
+          "High Speed Int Avail",
+          "Laundry Room",
+          "Moorage",
+          "Security Gate"
+        ],
+        "mlsSquareFootageSource": "NA",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "0",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "numberOfUnitsInCommunity": 0,
+        "specialListingConditions": [
+          "None"
+        ]
+      },
+      "bedrooms": 0,
+      "cityID": 2331,
+      "cityName": "Bainbridge Island",
+      "countyID": 1064,
+      "countyName": "Kitsap",
+      "dateAdded": "2026-04-02T22:38:56+00:00",
+      "dateModified": "2026-04-03T12:04:19+00:00",
+      "detailsURL": "b045/2501767",
+      "detailsUrlSlug": "141-Parfitt-Way-SW-A-15-Bainbridge-Island",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 0,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2501767/141-Parfitt-Way-SW-A-15-Bainbridge-Island",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8ce3/3ec8945e62ebd1241e5433bdebd5e730/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "1": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/26fc/cf621f303ff62fc474286104ea72eaa2/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "2": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5b57/75b57170a88f4049c0a7bcdfbdd1194d/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "3": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/13a8/8a313edba1797173787389b67cea3e1e/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "4": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2e7b/b7e2faba139bc6c160eb25bc950bbbad/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "5": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/583e/e385839ab487379f951b9b7dc3fb98e1/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "6": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f3d7/7d3f6845e28eee2a50a44da60a44e9c2/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "7": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ed15/51def45db071103a3726462acad89d7a/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "8": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9512/21594fee1431390b9f8a851c6a67c205/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "9": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5dc2/2cd5583cdf6526cdd0c6f2d3156ae687/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "10": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b267/762bf34e98b27008b1df1eee5071e420/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "11": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bbc0/0cbb6e55b5ed8fbfc79d78d9e3d9b8f7/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "12": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3fcc/ccf36487c72d68a7414b6fd92a5acac3/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "13": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8079/9708dd2161ab3bd3aad34bc17ec6914e/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "14": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e2d0/0d2eab885ca138fe75f2b33674a817c2/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "15": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2d0c/c0d24ead29da5ae4c723f40e7c785564/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "16": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fa2d/d2afbc149c4fbbefc16219e4c11ef93a/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "17": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f624/426f825283b1c588d1ad4cede75ef93d/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "18": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e17c/c71e6ee49caf261280fc2183578bf56c/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "19": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a987/789a869aff8351a7ab7ee886c90f7522/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "20": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f2a8/8a2f97f303c94ff260252bf11be76942/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "21": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0e3d/d3e02fe3c51802e45d6f13c2550a38b7/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "22": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cf06/60fcba13a7080d43f1537107cc5e356e/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "23": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c137/731c92cc78cc12bf530403d97c1cf022/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "24": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bc56/65cb7d22e70b0ed0f19dc2a88c446dfb/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 25
+      },
+      "latitude": 47.621943,
+      "listingAgentID": "151078377",
+      "listingID": "2501767",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$260,000",
+      "longitude": -122.521598,
+      "mediaData": [],
+      "mlsPhotoCount": 25,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 0,
+      "price": 260000,
+      "priceData": {
+        "value": {
+          "raw": 260000,
+          "formatted": "$260,000"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "propStatus": "Active",
+      "propSubType": "Boat Slip",
+      "propType": "Residential",
+      "remarksConcat": "Don't miss your chance to own Slip A-15 at Winslow Wharf Marina, one of Puget Sound's most coveted moorages. This 42' x 14.6' outside slip includes a 4-foot overhang allowance to accommodate vessels up to 46' LOA. Just steps from all that downtown Winslow has to offer, the location is truly unbeatable. Currently rented month-to-month, it's a turnkey investment generating immediate income while you hold a premium piece of Pacific Northwest waterfront. This slip comes with full marina amenities including bathrooms with showers, laundry, WiFi, 30 & 50 amp hookups, on-site management, and an on-site Chandlery. Opportunities like this at Winslow Wharf are rare, get in before the season starts!",
+      "rntLse": "neither",
+      "rntLsePrice": 260000,
+      "sqFt": 0,
+      "state": "Washington",
+      "streetName": "Parfitt Way SW",
+      "streetNumber": "141",
+      "subdivision": "Winslow",
+      "threeQuarterBaths": 0,
+      "totalBaths": 0,
+      "unitNumber": "A-15",
+      "viewCount": 51,
+      "vtCount": 0
+    },
+    {
+      "acres": "0",
+      "address": "1707 Boylston Avenue 206",
+      "advanced": {
+        "coOp": "no",
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "taxYear": 2025,
+        "saleType": "MLS",
+        "viewFrom": "Unit",
+        "bathrooms": "1",
+        "storageNo": "206",
+        "styleCode": "30 - Condo (1 Level)",
+        "possession": [
+          "Closing"
+        ],
+        "showMapLink": "yes",
+        "buildingName": "Seventeen 07 Condo",
+        "dwellingType": "Attached",
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "onMarketDate": "2026-03-13T00:00:00+00:00",
+        "powerCompany": "PSE",
+        "sewerCompany": "HOA",
+        "titleCompany": "Rainier Title",
+        "unitFeatures": [
+          "Insulated Windows"
+        ],
+        "waterCompany": "HOA",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "busLineNearby": "yes",
+        "entryLocation": "Main",
+        "structureType": [
+          "Condominium"
+        ],
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "numberOfShowers": "1",
+        "seniorExemption": "no",
+        "storageLocation": "Basement",
+        "taxAnnualAmount": 2077.09,
+        "applianceHookups": [
+          "Cooking-Electric",
+          "Dryer-Electric",
+          "Washer"
+        ],
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 395,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "floorNumberOfUnit": "2",
+        "mainLevelBedrooms": 0,
+        "otherDuesOrFeesYN": "yes",
+        "appliancesIncluded": [
+          "Microwave(s)"
+        ],
+        "yearBuiltEffective": 1995,
+        "powerProductionType": [
+          "Electric"
+        ],
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "greenEnergyEfficient": [
+          "Insulated Windows"
+        ],
+        "numberOfAccessStairs": "1",
+        "unitsInBuildingTotal": "36",
+        "bathsThreeQuarterMain": "0",
+        "associationFeeIncludes": [
+          "Earthquake Insurance",
+          "Sewer",
+          "Trash",
+          "Water"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "commonPropertyFeatures": [
+          "Elevator",
+          "Exercise Room",
+          "Gated Entry",
+          "High Speed Int Avail",
+          "Laundry Room",
+          "Lobby Entrance",
+          "Security Gate"
+        ],
+        "mlsSquareFootageSource": "Realist",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "395",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "numberOfUnitsInCommunity": 36,
+        "specialListingConditions": [
+          "None"
+        ]
+      },
+      "bedrooms": 0,
+      "cityID": 41973,
+      "cityName": "Seattle",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-03-13T18:37:43+00:00",
+      "dateModified": "2026-09-03T15:46:11+00:00",
+      "detailsURL": "b045/2480367",
+      "detailsUrlSlug": "1707-Boylston-Avenue-206-Seattle",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2480367/1707-Boylston-Avenue-206-Seattle",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/06fe/ef6003f5ae09c2ea16cd4fec2fd07688/b045",
+          "sizes": [],
+          "caption": "Building entrance"
+        },
+        "1": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/92f7/7f29a0894636d6988d884c20a0da8e5b/b045",
+          "sizes": [],
+          "caption": "Kitchen space"
+        },
+        "2": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f801/108f1241acd6338df661031526334dcd/b045",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "3": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/25da/ad52c5913ced5911798eca75fe25a2b4/b045",
+          "sizes": [],
+          "caption": "Living space"
+        },
+        "4": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0be1/1eb0e8a40f3e323507b2106c5f36930e/b045",
+          "sizes": [],
+          "caption": "Cozy couch next to the bright window"
+        },
+        "5": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c8a7/7a8c64ec693e2a813c3f53fc9d3ee224/b045",
+          "sizes": [],
+          "caption": "Bedding and living space"
+        },
+        "6": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1e77/77e176b6c95de80ee7cd9b2e6076f944/b045",
+          "sizes": [],
+          "caption": "Bed"
+        },
+        "7": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9046/6409a0d9ca0b44e841c91414ce6b36dc/b045",
+          "sizes": [],
+          "caption": "TV area"
+        },
+        "8": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/beea/aeeb3bfd4ca95c886be2b2a3d36050b5/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "9": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/79db/bd978577e153cc8721fa64d7a4f66fe3/b045",
+          "sizes": [],
+          "caption": "Desk space for working"
+        },
+        "10": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a338/833a299c4d57545ddbcd0f2ad1c9baca/b045",
+          "sizes": [],
+          "caption": "In-unit washer and dryer"
+        },
+        "11": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/46b0/0b641c3ba7d0c1696f5ec4f8bd18a807/b045",
+          "sizes": [],
+          "caption": "Full bathroom"
+        },
+        "12": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d63d/d36d001c7ed80a4b32094e9309fa10e0/b045",
+          "sizes": [],
+          "caption": "Community gym space"
+        },
+        "13": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/326d/d623e7637eff9c6b39949624d73c9e0e/b045",
+          "sizes": [],
+          "caption": "Gym in building"
+        },
+        "14": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cefe/efecb0332b8d659630d21f37cd9f97e0/b045",
+          "sizes": [],
+          "caption": "Lounge area"
+        },
+        "15": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e4f6/6f4e8aaddfc45b93446ccdbda6a8224e/b045",
+          "sizes": [],
+          "caption": "Building lounge area"
+        },
+        "16": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c999/999cc25e7c2e88407dac8fd3b6f8a281/b045",
+          "sizes": [],
+          "caption": "Workout equipment"
+        },
+        "17": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f7e8/8e7f2927ac381b2204264878ee853459/b045",
+          "sizes": [],
+          "caption": "Designated storage unit"
+        },
+        "18": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/65f9/9f56386e681444155baf54277b44e2ed/b045",
+          "sizes": [],
+          "caption": "Yoga/dance studio"
+        },
+        "19": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e527/725e66aa43da1b3fb558c59fd5e04713/b045",
+          "sizes": [],
+          "caption": "Dog wash station"
+        },
+        "20": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f11b/b11f52e7989c5bbf26b2cb5b2f67991d/b045",
+          "sizes": [],
+          "caption": "Hallway when you enter the building"
+        },
+        "21": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8ae3/3ea87ea684ec66ca91e8de828d337ee8/b045",
+          "sizes": [],
+          "caption": "Sauna"
+        },
+        "22": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/47bc/cb74dd90c215dbf316d900c77df4841f/b045",
+          "sizes": [],
+          "caption": "Building exterior"
+        },
+        "23": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fee7/7eefdf9e97662ba0ccd3d84049562087/b045",
+          "sizes": [],
+          "caption": "Building exterior"
+        },
+        "24": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e15c/c51e7ac0013b92f5405507c9c89e4644/b045",
+          "sizes": [],
+          "caption": "Building exterior"
+        },
+        "25": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a52d/d25a9da9f322e148dd57808b6d03fc43/b045",
+          "sizes": [],
+          "caption": "Building exterior"
+        },
+        "totalCount": 26
+      },
+      "latitude": 47.61664,
+      "listingAgentID": "151078377",
+      "listingID": "2480367",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$239,999",
+      "longitude": -122.323759,
+      "mediaData": {
+        "oh": [
+          {
+            "id": "159372613",
+            "text": "",
+            "starts": "2026-09-05T12:00:00+00:00",
+            "expires": "2026-09-05T14:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-09-03T15:55:14+00:00",
+            "freeFormDate": "September 5th, 2026",
+            "freeFormTime": "12:00 pm to 2:00 pm",
+            "listingID": "2480367",
+            "startTime": 1788609600
+          }
+        ]
+      },
+      "mlsPhotoCount": 26,
+      "mlsPtID": 1,
+      "ohCount": 1,
+      "parentPtID": 1,
+      "partialBaths": 0,
+      "price": 239999,
+      "priceBeforeReduction": 242999,
+      "priceData": {
+        "value": {
+          "raw": 239999,
+          "formatted": "$239,999"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "priceReductionDate": "2026-05-28T17:58:20+00:00",
+      "propStatus": "Active",
+      "propSubType": "Condominium",
+      "propType": "Residential",
+      "remarksConcat": "Quintessential Capitol Hill living starts here at Seventeen07. This chic condo sits right in the heart of Seattle's most electric neighborhood, where incredible restaurants, night-life, and shops are just steps away. The smart and intentional layout is designed to make every inch count, plus, the home comes complete with an in-unit washer/dryer for every day convenience. Cool off with A/C in the summer, and explore extensive building amenities: gym, yoga room, sauna, lounge, designated storage unit, and a dog wash station. All just one block from Seattle Central, 10 min to light rail, and 20 min to SLU and Downtown. This is city life, perfected.",
+      "rntLse": "neither",
+      "rntLsePrice": 239999,
+      "sqFt": 0,
+      "state": "Washington",
+      "streetName": "Boylston Avenue",
+      "streetNumber": "1707",
+      "subdivision": "Capitol Hill",
+      "threeQuarterBaths": 0,
+      "totalBaths": 1,
+      "unitNumber": "206",
+      "viewCount": 169,
+      "vtCount": 0,
+      "zip4": "2203"
+    },
+    {
       "acres": "0.158",
       "address": "8915 Wilkensen Road SE 9A",
       "advanced": {
@@ -2956,7 +3958,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "9A",
-      "viewCount": 23,
+      "viewCount": 26,
       "vtCount": 0
     },
     {
@@ -3267,7 +4269,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "65",
-      "viewCount": 36,
+      "viewCount": 37,
       "vtCount": 0
     }
   ]
