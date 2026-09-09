@@ -150,7 +150,9 @@
       "city": "Bellevue",
       "neighborhood": null,
       "type": "relocation_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "cost-of-living-in-bellevue-what-to-expect",
+      "published_date": "2026-09-09"
     },
     {
       "topic": "First-Time Home Buying on the Eastside: Step by Step",
