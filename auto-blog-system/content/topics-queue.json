@@ -177,7 +177,9 @@
       "city": "Bellevue",
       "neighborhood": null,
       "type": "lifestyle_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "best-coffee-shops-in-bellevue-wa",
+      "published_date": "2026-09-16"
     },
     {
       "topic": "Best Hiking Trails Near Issaquah",
