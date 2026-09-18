@@ -186,7 +186,9 @@
       "city": "Issaquah",
       "neighborhood": null,
       "type": "lifestyle_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "best-hiking-trails-near-issaquah",
+      "published_date": "2026-09-18"
     },
     {
       "topic": "Dog Parks in Redmond, WA: A Local's List",
