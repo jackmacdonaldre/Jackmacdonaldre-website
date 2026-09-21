@@ -195,7 +195,9 @@
       "city": "Redmond",
       "neighborhood": null,
       "type": "lifestyle_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "dog-parks-in-redmond-wa-a-local-s-list",
+      "published_date": "2026-09-21"
     },
     {
       "topic": "Bellevue Farmers Market Guide",
