@@ -1,6 +1,7 @@
-// Generates a real, indexable /blog/{slug}/ page for every post in blog-posts-data.js
-// that doesn't already have one, then rebuilds blog/index.html and sitemap.xml to
-// include them. Run this after generate-blog.js in the auto-blog workflow so every
+// Generates a real, indexable /blog/{slug}/ page for every post in blog-posts-data.js,
+// then rebuilds blog/index.html and sitemap.xml to include them. Every page is
+// rebuilt on every run (not just new ones) so template, schema, and "related guides"
+// improvements apply to older posts too. Run this after generate-blog.js in the auto-blog workflow so every
 // scheduled post gets its own URL automatically — no manual steps required.
 
 const fs = require("fs");
@@ -57,7 +58,25 @@ function buildFaqSection(faq) {
   return `\n<h2 style="margin-top: calc(var(--space-8) * 1.1);">Common Questions</h2>\n${items}\n`;
 }
 
-function buildPostHtml(post) {
+function pickRelated(post, allPosts, n = 3) {
+  const others = (allPosts || []).filter((p) => p.slug && p.slug !== post.slug && p.slug !== "welcome-to-the-blog");
+  const sameCity = others.filter((p) => p.city && p.city === post.city);
+  const rest = others.filter((p) => !(p.city && p.city === post.city));
+  const byDate = (a, b) => new Date(b.publishedDate) - new Date(a.publishedDate);
+  return [...sameCity.sort(byDate), ...rest.sort(byDate)].slice(0, n);
+}
+
+function buildRelatedSection(related) {
+  if (!related.length) return "";
+  const items = related
+    .map(
+      (p) => `<li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="../${p.slug}/" style="font-size: 18px;">${escapeHtml(p.title)}</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">${escapeHtml(p.city || "")}</div></li>`
+    )
+    .join("\n");
+  return `\n<h2 style="margin-top: calc(var(--space-8) * 1.1);">More Eastside Guides</h2>\n<ul style="list-style: none; padding: 0; margin: 0;">\n${items}\n</ul>\n`;
+}
+
+function buildPostHtml(post, allPosts = []) {
   const title = escapeHtml(post.title);
   const desc = escapeHtml(post.metaDescription);
   const city = escapeHtml(post.city || "");
@@ -65,17 +84,47 @@ function buildPostHtml(post) {
   const url = `${SITE_URL}/blog/${post.slug}/`;
   const bodyHtml = stripReviewNote(post.bodyHtml);
   const faqSection = buildFaqSection(post.faq);
+  const relatedSection = buildRelatedSection(pickRelated(post, allPosts));
   const jsonLd = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
     datePublished: post.publishedDate,
-    dateModified: post.publishedDate,
-    author: { "@type": "Person", name: "Jack Macdonald", url: `${SITE_URL}/about/` },
-    publisher: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass" },
+    dateModified: post.updatedDate || post.publishedDate,
+    author: {
+      "@type": "Person",
+      name: "Jack Macdonald",
+      jobTitle: "REALTOR",
+      url: `${SITE_URL}/about/`,
+      image: `${SITE_URL}/assets/jack-sunset.png`,
+      worksFor: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass" },
+      sameAs: [
+        "https://www.instagram.com/jackmacdonaldre/",
+        "https://www.linkedin.com/in/jack-macdonald-992878180/",
+        "https://www.compass.com/agents/jack-macdonald/",
+      ],
+    },
+    publisher: {
+      "@type": "RealEstateOrganization",
+      name: "Macdonald Group of Compass",
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png` },
+      address: { "@type": "PostalAddress", streetAddress: "700 110th Ave NE, Ste 270", addressLocality: "Bellevue", addressRegion: "WA", postalCode: "98004", addressCountry: "US" },
+      telephone: "+1-425-941-6998",
+    },
+    image: `${SITE_URL}/assets/nbhd-bellevue.jpg`,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    about: { "@type": "Place", name: post.city || "Bellevue, WA" },
+    about: { "@type": "Place", name: `${post.city || "Bellevue"}, WA` },
+  });
+  const breadcrumbJsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+      { "@type": "ListItem", position: 3, name: post.title, item: url },
+    ],
   });
     const faqJsonLd = Array.isArray(post.faq) && post.faq.length > 0 ? JSON.stringify({
           "@context": "https://schema.org",
@@ -115,6 +164,9 @@ a:hover { opacity: 0.7; }
 ${jsonLd}
 </script>
 ${faqJsonLd ? `<script type="application/ld+json">\n${faqJsonLd}\n</script>` : ""}
+<script type="application/ld+json">
+${breadcrumbJsonLd}
+</script>
 </head>
 <body>
 
@@ -145,6 +197,7 @@ ${faqJsonLd ? `<script type="application/ld+json">\n${faqJsonLd}\n</script>` : "
 ${bodyHtml}
 </div>
 ${faqSection}
+${relatedSection}
 <div class="card" style="margin-top: calc(var(--space-8) * 1.1); padding: var(--space-6); text-align: center;">
 <h2 style="margin: 0 0 var(--space-3); font-size: 26px;">Thinking about a move on the Eastside?</h2>
 <p style="max-width: 460px; margin: 0 auto var(--space-6); line-height: 1.65;">Browse current listings across the Eastside, or reach out and we'll talk through your specific situation.</p>
@@ -168,6 +221,7 @@ ${faqSection}
 <a href="https://www.linkedin.com/in/jack-macdonald-992878180/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">LinkedIn</a>
 <a href="https://www.compass.com/agents/jack-macdonald/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Compass</a>
 <a href="https://www.facebook.com/jack.macdonald.31521301/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Facebook</a>
+<a href="../../blog/" style="font-size: 12px; color: var(--color-neutral-300);">Blog</a>
 <a href="../../dmca.html" style="font-size: 12px; color: var(--color-neutral-300);">DMCA Notice</a>
 </div>
 </div>
@@ -312,21 +366,19 @@ function main() {
     if (!post.slug) continue;
     const postDir = path.join(BLOG_DIR, post.slug);
     const postFile = path.join(postDir, "index.html");
-    if (fs.existsSync(postFile)) continue;
-
+    const isNew = !fs.existsSync(postFile);
     fs.mkdirSync(postDir, { recursive: true });
-    fs.writeFileSync(postFile, buildPostHtml(post));
-    createdCount++;
-    console.log(`Created page: blog/${post.slug}/index.html`);
+    fs.writeFileSync(postFile, buildPostHtml(post, posts));
+    if (isNew) {
+      createdCount++;
+      console.log(`Created page: blog/${post.slug}/index.html`);
+    }
   }
+  console.log(`Rebuilt ${posts.filter((p) => p.slug).length} post pages (${createdCount} new).`);
 
-  if (createdCount > 0) {
-    fs.writeFileSync(BLOG_INDEX_PATH, buildBlogIndexHtml(posts));
-    console.log("Rebuilt blog/index.html with all posts.");
-    updateSitemap(posts);
-  } else {
-    console.log("No new blog pages needed — everything already has a URL.");
-  }
+  fs.writeFileSync(BLOG_INDEX_PATH, buildBlogIndexHtml(posts));
+  console.log("Rebuilt blog/index.html with all posts.");
+  updateSitemap(posts);
 }
 
 main();
