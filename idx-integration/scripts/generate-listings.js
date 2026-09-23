@@ -32,6 +32,8 @@ if (!IDX_ACCESS_KEY) {
     listings = raw;
     }
 
+          listings = listings.filter((l) => (l.propSubType || '').toString().toLowerCase().indexOf('manufactured') === -1);
+
     listings.sort((a, b) => (Number(b.listingPrice) || 0) - (Number(a.listingPrice) || 0));
 
     const output = {
