@@ -69,7 +69,7 @@ async function fetchChunk(startDatetime) {
  var listings = allListings.filter(function (l) {
    var status = (l.propStatus || l.idxStatus || '').toString().toLowerCase();
    var agentMatch = TEAM_AGENT_IDS.indexOf(String(l.listingAgentID)) !== -1;
-   var houseNum = ((l.address || l.displayAddress || '').match(/^\d+/) || [''])[0]; var addressMatch = NOTABLE_HOUSE_NUMBERS.indexOf(houseNum) !== -1; return status.indexOf('sold') !== -1 && (agentMatch || addressMatch);
+   var houseNum = ((l.address || l.displayAddress || '').match(/^\d+/) || [''])[0]; var addressMatch = NOTABLE_HOUSE_NUMBERS.indexOf(houseNum) !== -1; var isManufactured = (l.propSubType || '').toString().toLowerCase().indexOf('manufactured') !== -1; return status.indexOf('sold') !== -1 && (agentMatch || addressMatch) && !isManufactured;
  });
 
  listings.sort(function (a, b) {
