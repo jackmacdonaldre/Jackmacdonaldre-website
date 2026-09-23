@@ -209,10 +209,23 @@
       "published_date": "2026-09-23"
     },
     {
+      "topic": "Rose Hill Kirkland Schools: Which Elementary, Middle, and High School Feeds Each Street",
+      "city": "Kirkland",
+      "neighborhood": "Rose Hill",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
       "topic": "Best Parks in Kirkland, WA for Families",
       "city": "Kirkland",
       "neighborhood": null,
       "type": "lifestyle_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Issaquah School District Guide for Home Buyers",
+      "city": "Issaquah",
+      "type": "school_guide",
       "status": "queued"
     },
     {
@@ -223,6 +236,25 @@
       "status": "queued"
     },
     {
+      "topic": "Northshore School District Guide for Home Buyers in Bothell and Woodinville",
+      "city": "Bothell",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "What Woodinville Living Is Really Like",
+      "city": "Woodinville",
+      "neighborhood": null,
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Choice Schools and Tech Schools in Lake Washington School District: How Admission Works",
+      "city": "Redmond",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
       "topic": "When Is the Best Time to Sell a House on the Eastside?",
       "city": "Eastside",
       "neighborhood": null,
@@ -230,9 +262,9 @@
       "status": "queued"
     },
     {
-      "topic": "What Woodinville Living Is Really Like",
-      "city": "Woodinville",
-      "neighborhood": null,
+      "topic": "Houghton Kirkland Homes for Sale: Neighborhood Guide",
+      "city": "Kirkland",
+      "neighborhood": "Houghton",
       "type": "neighborhood_guide",
       "status": "queued"
     },
@@ -244,6 +276,12 @@
       "status": "queued"
     },
     {
+      "topic": "Bellevue School District Boundaries: How to Check Which Schools a Home Is Assigned To",
+      "city": "Bellevue",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
       "topic": "Living Near Microsoft Redmond Campus: Best Nearby Neighborhoods",
       "city": "Redmond",
       "neighborhood": null,
@@ -251,10 +289,234 @@
       "status": "queued"
     },
     {
+      "topic": "Issaquah Highlands Homes for Sale: Neighborhood Guide",
+      "city": "Issaquah",
+      "neighborhood": "Issaquah Highlands",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
       "topic": "New Construction Homes on the Eastside: What to Know",
       "city": "Eastside",
       "neighborhood": null,
       "type": "buyer_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Lake Hills Bellevue Homes for Sale: What Buyers Should Know",
+      "city": "Bellevue",
+      "neighborhood": "Lake Hills",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "How to Price Your Home to Sell in Bellevue",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Redmond Ridge Homes for Sale: Community Guide",
+      "city": "Redmond",
+      "neighborhood": "Redmond Ridge",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Buying a Home Near Top Rated Schools in Sammamish: Lake Washington vs Issaquah District",
+      "city": "Sammamish",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Crossroads Bellevue: Neighborhood Guide for Buyers",
+      "city": "Bellevue",
+      "neighborhood": "Crossroads",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Kirkland vs Redmond: Which Eastside City Fits You?",
+      "city": "Kirkland",
+      "type": "comparison",
+      "status": "queued"
+    },
+    {
+      "topic": "Totem Lake Kirkland Homes and Condos: What Buyers Should Know",
+      "city": "Kirkland",
+      "neighborhood": "Totem Lake",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Downsizing on the Eastside: Selling a Family Home and Buying Smaller",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Canyon Park and North Creek Bothell: Neighborhood Guide",
+      "city": "Bothell",
+      "neighborhood": "Canyon Park",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Bellevue Condos vs Townhomes: Which Makes More Sense to Buy",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Pine Lake Sammamish Homes for Sale: Neighborhood Guide",
+      "city": "Sammamish",
+      "neighborhood": "Pine Lake",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Moving to Kirkland: A Practical Relocation Guide",
+      "city": "Kirkland",
+      "type": "relocation_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Factoria and Eastgate Bellevue: Neighborhood Guide for Buyers",
+      "city": "Bellevue",
+      "neighborhood": "Factoria",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "How Property Taxes Work in King County for Eastside Homeowners",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Market Street and Norkirk Kirkland: Living Near Downtown Kirkland",
+      "city": "Kirkland",
+      "neighborhood": "Norkirk",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Issaquah vs Sammamish: Comparing Two Eastside Cities",
+      "city": "Issaquah",
+      "type": "comparison",
+      "status": "queued"
+    },
+    {
+      "topic": "Overlake and Grass Lawn Redmond: Neighborhood Guide",
+      "city": "Redmond",
+      "neighborhood": "Overlake",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "What Happens After Your Offer Is Accepted in Washington State",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Woodinville Wine Country: Living Near the Tasting Rooms",
+      "city": "Woodinville",
+      "type": "lifestyle_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Squak Mountain and Issaquah Neighborhoods Near Downtown: Buyer Guide",
+      "city": "Issaquah",
+      "neighborhood": "Squak Mountain",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Should You Buy Before You Sell on the Eastside?",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Kingsgate Kirkland Homes for Sale: Neighborhood Guide",
+      "city": "Kirkland",
+      "neighborhood": "Kingsgate",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Moving to Redmond: A Practical Relocation Guide",
+      "city": "Redmond",
+      "type": "relocation_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Wilburton and the Bellevue Spring District: What Is Changing",
+      "city": "Bellevue",
+      "neighborhood": "Wilburton",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Best Beaches and Waterfront Parks on Lake Washington's Eastside",
+      "city": "Kirkland",
+      "type": "lifestyle_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Trossachs and Sahalee: Sammamish Neighborhoods for Larger Lots",
+      "city": "Sammamish",
+      "neighborhood": "Sahalee",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Newcastle WA Homes for Sale: An Honest Overview",
+      "city": "Newcastle",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Home Inspection on the Eastside: What Buyers Commonly Find in 1970s and 1980s Homes",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Bothell vs Woodinville: Which Fits Your Life Better?",
+      "city": "Bothell",
+      "type": "comparison",
+      "status": "queued"
+    },
+    {
+      "topic": "Best Neighborhoods in Redmond for Families",
+      "city": "Redmond",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Selling a House With Tenants in Washington State: What Owners Should Know",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Light Rail on the Eastside: Which Neighborhoods the 2 Line Changes",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Best Neighborhoods in Bellevue for Families",
+      "city": "Bellevue",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Best Neighborhoods in Kirkland for Families",
+      "city": "Kirkland",
+      "type": "neighborhood_guide",
       "status": "queued"
     }
   ]
