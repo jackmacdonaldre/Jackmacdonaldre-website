@@ -1,19 +1,24 @@
 {
-  "generatedAt": "2026-09-18T04:02:40.479Z",
-  "count": 128,
+  "generatedAt": "2026-09-23T20:08:00.605Z",
+  "count": 117,
   "listings": [
     {
-      "acres": "0.158",
-      "address": "8915 Wilkensen Road SE 9A",
+      "acres": "0.069",
+      "address": "2112 N 64th Street",
       "advanced": {
         "roof": [
           "Composition"
         ],
         "view": [
-          "Mountains"
+          "Lake",
+          "Territorial"
+        ],
+        "block": "53",
+        "sewer": [
+          "Sewer Connected"
         ],
         "levels": [
-          "One"
+          "Two"
         ],
         "offers": "Seller intends to review offers upon receipt",
         "cooling": [
@@ -23,199 +28,523 @@
           "US"
         ],
         "heating": [
-          "90%+ High Efficiency"
+          "Ductless",
+          "Forced Air"
         ],
-        "bodyType": [
-          "Double Wide"
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "Daylight",
+          "Finished"
         ],
         "flooring": [
+          "Engineered Hardwood",
+          "Slate",
           "Vinyl",
-          "Carpet"
+          "Vinyl Plank"
         ],
-        "parkName": "Yelm MHP & Storage",
         "saleType": "MLS",
-        "bathrooms": "2",
-        "styleCode": "21 - Manuf-Double Wide",
+        "bathrooms": "3.25",
+        "lotNumber": "4-5",
+        "styleCode": "18 - 2 Stories w/Bsmnt",
         "appliances": [
           "Dishwasher",
+          "Disposal",
           "Dryer",
           "Microwave",
           "Refrigerator",
           "Stove(s)/Range(s)",
           "Washer"
         ],
+        "gasCompany": "Puget Sound Energy",
+        "highSchool": [
+          "Roosevelt High"
+        ],
         "inclusions": [
           "Dishwasher(s)",
           "Dryer(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Sewer",
-          "Stove(s)/Range(s)",
-          "Washer(s)",
-          "Water"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "waterSource": [
-          "Community"
-        ],
-        "listingTerms": [
-          "Cash",
-          "Chattel"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "453 - Yelm/Rainier",
-        "onMarketDate": "2026-05-01T00:00:00+00:00",
-        "powerCompany": "Puget Sound Energy",
-        "sewerCompany": "Septic, Included in Park Rent",
-        "waterCompany": "Included in Park Rent",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 895,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "exteriorFeatures": [
-          "Wood"
-        ],
-        "mlsLotSizeSource": "Public Records",
-        "numberOfBathtubs": "2",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1848,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "foundationDetails": [
-          "Slab"
-        ],
-        "internetConnected": "Comcast/Xfinity",
-        "lotSizeSquareFeet": 6860,
-        "openParkingSpaces": 2,
-        "spaceRentIncludes": [
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Dryer(s)",
+          "Garbage Disposal",
+          "Leased Equipment",
           "Microwave(s)",
           "Refrigerator(s)",
           "Stove(s)/Range(s)",
           "Washer(s)"
         ],
-        "highSchoolDistrict": [
-          "Yelm"
+        "livingArea": 3110,
+        "possession": [
+          "Closing"
         ],
-        "numberOfHomesInPark": "31",
+        "topography": "Partial Slope",
+        "lotFeatures": [
+          "Curbs",
+          "Paved",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "buildingName": "Burns & Atkinsons Add",
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "705 - Ballard/Greenlake",
+        "onMarketDate": "2026-06-05T00:00:00+00:00",
+        "parkingTotal": 4,
+        "powerCompany": "Seattle City Light",
+        "sewerCompany": "Seattle Public Utilities",
+        "siteFeatures": [
+          "Cable TV",
+          "Deck",
+          "Fenced-Partially",
+          "Gas Available",
+          "Patio"
+        ],
+        "titleCompany": "WFG Title - Janet Miller",
+        "waterCompany": "Seattle Public Utilities",
+        "waterfrontYN": "no",
+        "bathsFullMain": "0",
+        "bathsHalfMain": "1",
+        "bedroomsLower": "1",
+        "bedroomsUpper": "2",
+        "busLineNearby": "yes",
+        "coveredSpaces": 4,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "1",
+        "bathsFullUpper": "1",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "cableConnected": "Xfinity",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "2",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "excludedItemsYN": "no",
+        "fireplacesLower": "1",
+        "fireplacesTotal": 3,
+        "leasedEquipment": "None",
+        "numberOfShowers": "3",
+        "parkingFeatures": [
+          "Attached Carport",
+          "Attached Garage"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 18752.2,
+        "waterHeaterType": "Gas",
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Green Lake"
+        ],
+        "exteriorFeatures": [
+          "Wood",
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Second Kitchen",
+          "Bath Off Primary",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Fireplace",
+          "Loft",
+          "Pantry",
+          "Skylight(s)",
+          "Vaulted Ceiling(s)",
+          "Walk-In Closet(s)",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "King County Records",
+        "numberOfBathtubs": "2",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 3110,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Electric",
+          "Gas"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "internetConnected": "Xfinity",
+        "lotSizeSquareFeet": 3000,
+        "mainLevelBedrooms": 1,
+        "otherDuesOrFeesYN": "no",
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "shortTermRentalYN": "yes",
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "architecturalStyle": [
+          "Craftsman"
+        ],
+        "highSchoolDistrict": [
+          "Seattle"
+        ],
+        "yearBuiltEffective": 1997,
+        "zoningJurisdiction": "City",
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "Garage",
         "allowedUseCaseGroups": [
           "IDX"
         ],
-        "greenEnergyEfficient": [
-          "Double Pane Windows"
+        "middleOrJuniorSchool": [
+          "Eckstein Mid"
         ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "calculatedSquareFootage": "1848",
+        "bathsThreeQuarterMain": "0",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "1",
+        "garbageServiceProvider": "Seattle Public Utilities",
+        "mlsSquareFootageSource": "King County Records",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "3110",
+        "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
-        "manufacturedHomeFeatures": [
-          "Double Pane Windows",
-          "Jetted/Soaking Tub",
-          "Landscaped"
-        ],
+        "effectiveYearBuiltSource": "Public Records",
         "specialListingConditions": [
           "None"
-        ]
+        ],
+        "commonInterestCommunityYN": "no"
       },
-      "bedrooms": 3,
-      "cityID": 52909,
-      "cityName": "Yelm",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2026-05-01T20:20:51+00:00",
-      "dateModified": "2026-09-09T00:44:10+00:00",
-      "detailsURL": "b045/2514168",
-      "detailsUrlSlug": "8915-Wilkensen-Road-SE-9A-Yelm-98597",
+      "bedrooms": 4,
+      "cityID": 41973,
+      "cityName": "Seattle",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-06-05T23:50:46+00:00",
+      "dateModified": "2026-09-18T23:20:11+00:00",
+      "detailsURL": "b045/2522704",
+      "detailsUrlSlug": "2112-N-64th-Street-Seattle-98103",
       "displayAddress": "y",
       "featured": "y",
       "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2514168/8915-Wilkensen-Road-SE-9A-Yelm-98597",
-      "halfBaths": 0,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2522704/2112-N-64th-Street-Seattle-98103",
+      "halfBaths": 1,
       "idxID": "b045",
       "idxPropType": "Residential",
       "idxStatus": "sold",
       "image": {
         "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8c01/10c8827ef2a6836eec3f7d4c9433917c/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/57de/ed751866d9cddc4950d271ca0d8d5db7/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Classic Craftsman Charm in Green Lake — Elegant 3-story Seattle home featuring dark slate siding, white architectural trim, manicured landscaping, covered porch, and attached 2-car garage and covered parking."
         },
         "totalCount": 1
       },
-      "latitude": 46.958765,
-      "listingAgentID": "121277198",
-      "listingID": "2514168",
+      "latitude": 47.675385,
+      "listingAgentID": "1186410",
+      "listingID": "2522704",
       "listingOfficeID": "91866779",
-      "listingPrice": "$169,990",
-      "longitude": -122.591988,
+      "listingPrice": "$2,250,000",
+      "longitude": -122.332673,
       "mediaData": [],
-      "mlsPhotoCount": 23,
+      "mlsPhotoCount": 40,
       "mlsPtID": 1,
       "ohCount": 0,
       "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 169990,
-      "priceBeforeReduction": 179990,
+      "partialBaths": 2,
+      "price": 2250000,
+      "priceBeforeReduction": 2325000,
       "priceData": {
         "value": {
-          "raw": 155000,
-          "formatted": "$155,000"
+          "raw": 2200000,
+          "formatted": "$2,200,000"
         },
         "type": "sold",
         "label": "Sold For",
         "field": "soldPrice"
       },
-      "priceReductionDate": "2026-07-13T19:57:34+00:00",
+      "priceReductionDate": "2026-07-22T21:44:56+00:00",
       "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
+      "propSubType": "Single Family Residence",
       "propType": "Residential",
-      "remarksConcat": "Beautifully updated home in North Yelm featuring a bright, open-concept layout and modern finishes throughout. The spacious kitchen offers crisp white cabinetry, quartz-style countertops, a large center island, and stainless steel appliances, flowing seamlessly into the dining and living areas with abundant natural light and durable wood-style flooring. The home includes generously sized bedrooms and an upgraded primary bathroom highlighted by a freestanding soaking tub and separate shower, creating a subtle spa-like feel. A dedicated in-home laundry space and fresh, neutral tones throughout add to the home’s clean, move-in-ready appeal. Outside, enjoy a large, level yard with room to garden, play, or expand, along with a welcoming front deck perfect for relaxing. Home also has a brand new 40 year roof. Situated on a quiet lot with convenient access to local amenities, schools, and a quick commute to JBLM. Lot rent is $895/ month.",
+      "remarksConcat": "Stunning lake views, versatile living spaces, and an unbeatable walkable lifestyle! Location, location, location! A rare opportunity ideally positioned in one of Seattle's sought-after neighborhoods. This home offers easy access to I-5, biking and jogging paths, dog walking, sports fields, boutique coffee shops, restaurants and shopping. A welcoming covered porch and high ceilings greet you as you enter the main level featuring an elegant formal living and dining room, a beautifully updated kitchen with captivating lake views, and a spacious family room opening to an entertainment deck overlooking the water. A bedroom, laundry and powder room complete this level. Upstairs, a generous bonus room opens to an expansive view deck showcasing panoramic lake vistas and Seattle sunsets. The lovely primary suite has vaulted ceilings, abundant natural light, a custom walk-in closet, and a beautifully remodeled spa-inspired bath with freestanding tub. An additional bedroom with ensuite bath completes the upper level. The lower level provides incredible flexibility with its large living area and fireplace, kitchenette, bedroom, full bath, and its own private access to the garage and backyard. This space is ideal for guests, multigenerational living, extended stays, or income producing rental. Complete with a two-car garage, this dreamy home is just steps from Green Lake with its charming neighborhood shops, restaurants and all that makes this vibrant Seattle community so desirable.",
       "rntLse": "neither",
-      "rntLsePrice": 169990,
-      "sellingAgentID": "1206887",
-      "sellingOfficeID": "1002222",
-      "soldDate": "2026-09-08T00:00:00+00:00",
-      "soldPrice": 155000,
-      "sqFt": 0,
+      "rntLsePrice": 2250000,
+      "sellingAgentID": "52539986",
+      "sellingOfficeID": "1001102",
+      "soldDate": "2026-09-18T00:00:00+00:00",
+      "soldPrice": 2200000,
+      "sqFt": "3,110",
       "state": "Washington",
-      "streetName": "Wilkensen Road SE",
-      "streetNumber": "8915",
-      "subdivision": "Yelm",
+      "streetDirection": "N",
+      "streetName": "64th Street",
+      "streetNumber": "2112",
+      "subdivision": "Green Lake",
+      "threeQuarterBaths": 1,
+      "totalBaths": 4,
+      "viewCount": 68,
+      "vtCount": 0,
+      "yearBuilt": 1997,
+      "zip4": "5402",
+      "zipcode": "98103"
+    },
+    {
+      "acres": "0.234",
+      "address": "14009 145th Avenue SE",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "sewer": [
+          "Septic Tank"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Hardwood",
+          "Carpet"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "1.5",
+        "styleCode": "12 - 2 Story",
+        "appliances": [
+          "Dishwasher",
+          "Dryer",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "highSchool": [
+          "Buyer To Verify"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 1440,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "lotFeatures": [
+          "Curbs",
+          "Paved"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "350 - Renton/Highlands",
+        "onMarketDate": "2026-06-25T00:00:00+00:00",
+        "parkingTotal": 3,
+        "siteFeatures": [
+          "Fenced-Fully",
+          "Patio",
+          "RV Parking"
+        ],
+        "titleCompany": "Stewart Title",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "2",
+        "coveredSpaces": 1,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "1",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 1,
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "RV Parking"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 6718.21,
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Buyer To Verify"
+        ],
+        "exteriorFeatures": [
+          "Wood"
+        ],
+        "interiorFeatures": [
+          "Fireplace"
+        ],
+        "mlsLotSizeSource": "KCR",
+        "sellerDisclosure": "Exempt",
+        "buildingAreaTotal": 1440,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Wood Burning"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 10200,
+        "mainLevelBedrooms": 2,
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Renton"
+        ],
+        "buildingInformation": [
+          "Attached/Zero Lot Line"
+        ],
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas",
+          "Wood"
+        ],
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Buyer To Verify"
+        ],
+        "bathsThreeQuarterMain": "0",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "KCR",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "1440",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 4,
+      "cityID": 38960,
+      "cityName": "Renton",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-06-25T19:58:42+00:00",
+      "dateModified": "2026-09-17T23:50:11+00:00",
+      "detailsURL": "b045/2535319",
+      "detailsUrlSlug": "14009-145th-Avenue-SE-Renton-98059",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2535319/14009-145th-Avenue-SE-Renton-98059",
+      "halfBaths": 1,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6e17/71e6d32ce45dca0bfb1e607970b1756a/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.477025,
+      "listingAgentID": "121277198",
+      "listingID": "2535319",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$625,000",
+      "longitude": -122.147271,
+      "mediaData": [],
+      "mlsPhotoCount": 31,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 625000,
+      "priceBeforeReduction": 649759,
+      "priceData": {
+        "value": {
+          "raw": 625000,
+          "formatted": "$625,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "priceReductionDate": "2026-08-19T01:23:38+00:00",
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Welcome home to this light-filled 4-bedroom retreat in the East Renton Highlands, where modern updates, flexible living spaces, and an expansive backyard come together in one of Renton's most established neighborhoods. Set on a generous, fully fenced lot, this beautifully updated home offers the space, privacy, and convenience that make everyday living easy. Inside, natural light fills the inviting living spaces, creating a warm and welcoming atmosphere. The spacious living room, complete with a cozy fireplace, flows seamlessly into the updated kitchen featuring white shaker cabinetry, quartz countertops, stainless steel appliances, and modern finishes. Updated flooring, refreshed bathrooms, and thoughtful improvements throughout provide both style and functionality. The versatile four-bedroom layout offers flexibility for a variety of lifestyles, whether you're accommodating guests, working from home, or simply looking for extra space. Step outside to an expansive backyard with endless possibilities for entertaining, gardening, recreation, or relaxing in your own private outdoor retreat. Conveniently located near parks, trails, shopping, dining, and major commuter routes, with easy access to Newcastle, Issaquah, and downtown Renton, this home offers the perfect balance of everyday convenience, neighborhood charm, and outdoor living.",
+      "rntLse": "neither",
+      "rntLsePrice": 625000,
+      "sellingAgentID": "1183997",
+      "sellingOfficeID": "1000506",
+      "soldDate": "2026-09-17T00:00:00+00:00",
+      "soldPrice": 625000,
+      "sqFt": "1,440",
+      "state": "Washington",
+      "streetName": "145th Avenue SE",
+      "streetNumber": "14009",
+      "subdivision": "Renton",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "unitNumber": "9A",
-      "viewCount": 34,
+      "viewCount": 54,
       "vtCount": 0,
-      "yearBuilt": 2000,
-      "zipcode": "98597"
+      "yearBuilt": 1969,
+      "zipcode": "98059"
     },
     {
       "acres": "0.131",
@@ -503,10 +832,483 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 60,
+      "viewCount": 63,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98055"
+    },
+    {
+      "acres": "0.187",
+      "address": "9220 NE 191st Street",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller will review offers on Offer Review Date (or sooner)",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2026,
+        "basement": [
+          "None"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "1.75",
+        "styleCode": "10 - 1 Story",
+        "appliances": [
+          "Dishwasher",
+          "Refrigerator",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchool": [
+          "Bothell Hs"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "livingArea": 1218,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "lotFeatures": [
+          "Curbs",
+          "Paved",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "610 - Southeast Snohomish",
+        "onMarketDate": "2026-07-09T00:00:00+00:00",
+        "parkingTotal": 6,
+        "powerCompany": "PSE",
+        "sewerCompany": "City of Bothell",
+        "siteFeatures": [
+          "Fenced-Fully",
+          "Patio",
+          "RV Parking"
+        ],
+        "titleCompany": "Stewart Title",
+        "waterCompany": "City of Bothell",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "coveredSpaces": 2,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 0,
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "RV Parking"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 7739.8,
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Westhill Elem"
+        ],
+        "exteriorFeatures": [
+          "Wood"
+        ],
+        "interiorFeatures": [
+          "Ceiling Fan(s)"
+        ],
+        "mlsLotSizeSource": "KCR",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Exempt",
+        "buildingAreaTotal": 1218,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "lotSizeSquareFeet": 8125,
+        "mainLevelBedrooms": 3,
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchoolDistrict": [
+          "Northshore"
+        ],
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "powerProductionType": [
+          "Electric"
+        ],
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Canyon Park Middle School"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "Appraisal",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "1218",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "specialListingConditions": [
+          "None"
+        ]
+      },
+      "bedrooms": 3,
+      "cityID": 5067,
+      "cityName": "Bothell",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-07-09T22:17:26+00:00",
+      "dateModified": "2026-09-07T11:05:24+00:00",
+      "detailsURL": "b045/2551156",
+      "detailsUrlSlug": "9220-NE-191st-Street-Bothell-98011",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2551156/9220-NE-191st-Street-Bothell-98011",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a02e/e20a4f09bc914de3d429f3416b1676c9/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.766866,
+      "listingAgentID": "121277198",
+      "listingID": "2551156",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$695,000",
+      "longitude": -122.216948,
+      "mediaData": [],
+      "mlsPhotoCount": 38,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 695000,
+      "priceData": {
+        "value": {
+          "raw": 750000,
+          "formatted": "$750,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "For investors, flippers, and anyone looking to build serious sweat equity, this one checks all the boxes. This 3-bedroom, 1.75-bath rambler is a true blank canvas in an incredible Bothell location with outstanding upside. Major exterior improvements completed in 2023 include a new roof with new roof sheathing, new gutters, exterior paint, and deck repairs. The property also features RV/trailer parking, a functional floor plan, spacious living areas, a two-car garage, and a large fully fenced backyard, making it the perfect value-add opportunity. Ideally located just minutes from downtown Bothell, Woodinville wine country, I-405, shopping, dining, parks, and top-rated Northshore schools. Sold AS-IS, this is an exceptional opportunity for a fix-and-flip, rental, or long-term investment. Bring your contractor, your vision, and unlock this property's full potential.",
+      "rntLse": "neither",
+      "rntLsePrice": 695000,
+      "sellingAgentID": "1181076",
+      "sellingOfficeID": "68855861",
+      "soldDate": "2026-08-07T00:00:00+00:00",
+      "soldPrice": 750000,
+      "sqFt": "1,218",
+      "state": "Washington",
+      "streetDirection": "NE",
+      "streetName": "191st Street",
+      "streetNumber": "9220",
+      "subdivision": "West Hill",
+      "threeQuarterBaths": 1,
+      "totalBaths": 2,
+      "viewCount": 12,
+      "vtCount": 0,
+      "yearBuilt": 1964,
+      "zip4": "2223",
+      "zipcode": "98011"
+    },
+    {
+      "acres": "0.181",
+      "address": "12625 NE 133rd Place",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Multi/Split"
+        ],
+        "offers": "Seller will review offers on Offer Review Date (or sooner)",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2026,
+        "basement": [
+          "Finished"
+        ],
+        "flooring": [
+          "Vinyl Plank"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "2.5",
+        "styleCode": "14 - Split Entry",
+        "appliances": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "highSchool": [
+          "Juanita High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 2140,
+        "possession": [
+          "Closing"
+        ],
+        "lotFeatures": [
+          "Curbs",
+          "Paved",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "600 - Juanita/Woodinville",
+        "onMarketDate": "2026-07-09T00:00:00+00:00",
+        "parkingTotal": 6,
+        "siteFeatures": [
+          "Deck",
+          "Fenced-Fully",
+          "Gas Available"
+        ],
+        "titleCompany": "Stewart Title",
+        "waterfrontYN": "no",
+        "bathsFullMain": "0",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "1",
+        "bedroomsUpper": "3",
+        "coveredSpaces": 2,
+        "entryLocation": "Split",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "1",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 1,
+        "fireplacesUpper": "1",
+        "numberOfShowers": "3",
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 9284.24,
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Muir Elem"
+        ],
+        "exteriorFeatures": [
+          "Metal/Vinyl"
+        ],
+        "interiorFeatures": [
+          "Dbl Pane/Storm Window",
+          "Fireplace"
+        ],
+        "mlsLotSizeSource": "County Records",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Exempt",
+        "buildingAreaTotal": 2140,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Electric"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 7875,
+        "mainLevelBedrooms": 0,
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Lake Washington"
+        ],
+        "yearBuiltEffective": 1978,
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "powerProductionType": [
+          "Electric"
+        ],
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Kamiakin Middle"
+        ],
+        "bathsThreeQuarterMain": "0",
+        "bathsThreeQuarterLower": "1",
+        "bathsThreeQuarterUpper": "1",
+        "mlsSquareFootageSource": "County Records",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "2140",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ]
+      },
+      "bedrooms": 4,
+      "cityID": 24426,
+      "cityName": "Kirkland",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-07-09T22:17:22+00:00",
+      "dateModified": "2026-09-03T11:04:48+00:00",
+      "detailsURL": "b045/2546086",
+      "detailsUrlSlug": "12625-NE-133rd-Place-Kirkland-98034",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2546086/12625-NE-133rd-Place-Kirkland-98034",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ef02/20fe24c35a267f5b0c1e4c3756493e31/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.719824,
+      "listingAgentID": "121277198",
+      "listingID": "2546086",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$1,295,000",
+      "longitude": -122.171232,
+      "mediaData": [],
+      "mlsPhotoCount": 34,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 2,
+      "price": 1295000,
+      "priceData": {
+        "value": {
+          "raw": 1300000,
+          "formatted": "$1,300,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "This stunning home recently underwent a $250,000+ transformation, creating a space where luxury design meets everyday functionality. Step inside to a light-filled living room anchored by a striking floor-to-ceiling fireplace. The open layout flows seamlessly into the dining area and updated kitchen, creating the perfect space for everyday living and entertaining. Upstairs, you'll find spacious bedrooms, including a private primary suite with a beautifully remodeled ensuite featuring a walk-in shower and designer finishes. The additional bathrooms have been thoughtfully updated with custom tile, quartz countertops, and modern fixtures. Downstairs offers a spacious, versatile family/bonus room, an additional bedroom and bathroom, and direct access to the oversized two-car garage. Outside, enjoy a fully-fenced backyard with a large paver patio, mature landscaping, and plenty of space to entertain or unwind. Ideally located just minutes from Totem Lake Village, parks, EvergreenHealth, major tech employers, shopping, dining, and I-405. This move-in-ready home combines timeless design, exceptional craftsmanship, and an unbeatable location within the award-winning Lake Washington School District.",
+      "rntLse": "neither",
+      "rntLsePrice": 1295000,
+      "sellingAgentID": "1234047",
+      "sellingOfficeID": "1005915",
+      "soldDate": "2026-08-03T00:00:00+00:00",
+      "soldPrice": 1300000,
+      "sqFt": "2,140",
+      "state": "Washington",
+      "streetDirection": "NE",
+      "streetName": "133rd Place",
+      "streetNumber": "12625",
+      "subdivision": "Kingsgate",
+      "threeQuarterBaths": 2,
+      "totalBaths": 3,
+      "viewCount": 20,
+      "vtCount": 0,
+      "yearBuilt": 1978,
+      "zip4": "5408",
+      "zipcode": "98034"
     },
     {
       "acres": "0.138",
@@ -784,7 +1586,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 19,
+      "viewCount": 20,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98055"
@@ -1046,7 +1848,7 @@
       "subdivision": "Squak Mountain",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 22,
+      "viewCount": 23,
       "vtCount": 0,
       "yearBuilt": 1971,
       "zipcode": "98027"
@@ -1565,178 +2367,11 @@
       "subdivision": "East Renton",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 75,
+      "viewCount": 78,
       "vtCount": 0,
       "yearBuilt": 1954,
       "zip4": "8570",
       "zipcode": "98027"
-    },
-    {
-      "acres": "0",
-      "address": "32501 NE 50th Street 37",
-      "advanced": {
-        "make": "BUDD",
-        "model": "60SVC-12",
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "90%+ High Efficiency",
-          "Ductless"
-        ],
-        "bodyType": [
-          "Single Wide"
-        ],
-        "parkName": "Carnation Mobile Haven",
-        "saleType": "MLS",
-        "bathrooms": "1",
-        "styleCode": "20 - Manuf-Single Wide",
-        "appliances": [
-          "Dishwasher",
-          "Microwave",
-          "Stove(s)/Range(s)"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "listingTerms": [
-          "Cash",
-          "Chattel"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "550 - Redmond/Carnation",
-        "onMarketDate": "2026-01-29T00:00:00+00:00",
-        "powerCompany": "PSE",
-        "sewerCompany": "Carnation Mobiile Haven LLC",
-        "waterCompany": "Carnation Mobiile Haven LLC",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 735,
-        "numberOfShowers": "1",
-        "seniorExemption": "no",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 720,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "lotSizeSquareFeet": 0,
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Riverview"
-        ],
-        "numberOfHomesInPark": "42",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Seller",
-        "calculatedSquareFootage": "720",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 2,
-      "cityID": 7367,
-      "cityName": "Carnation",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2026-01-30T04:08:01+00:00",
-      "dateModified": "2026-07-09T11:03:19+00:00",
-      "detailsURL": "b045/2472903",
-      "detailsUrlSlug": "32501-NE-50th-Street-37-Carnation-98014",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2472903/32501-NE-50th-Street-37-Carnation-98014",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/57ab/ba75941a4af538ab177261b54b6e4316/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.650561,
-      "listingAgentID": "121277198",
-      "listingID": "2472903",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$117,500",
-      "longitude": -121.906194,
-      "mediaData": [],
-      "mlsPhotoCount": 20,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 117500,
-      "priceData": {
-        "value": {
-          "raw": 125000,
-          "formatted": "$125,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Discover this beautifully updated manufactured home in the heart of Carnation, where comfort meets convenience. Featuring 2 bedrooms and 1 bathroom, this home has been thoughtfully remodeled with modern finishes, including new flooring, a fully upgraded kitchen and bathrooms, new windows, a water heater, and fresh paint throughout. The open-concept design floods the space with natural light, creating an inviting atmosphere perfect for entertaining or relaxing. Enjoy the serenity of the neighborhood while staying just minutes from shops, restaurants, parks, and local amenities. Lot rent is $735/month. Don’t miss your chance to call this charming home your own!",
-      "rntLse": "neither",
-      "rntLsePrice": 117500,
-      "sellingAgentID": "121277198",
-      "sellingOfficeID": "91866779",
-      "soldDate": "2026-06-08T00:00:00+00:00",
-      "soldPrice": 125000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "NE",
-      "streetName": "50th Street",
-      "streetNumber": "32501",
-      "subdivision": "Carnation",
-      "threeQuarterBaths": 0,
-      "totalBaths": 1,
-      "unitNumber": "37",
-      "viewCount": 28,
-      "vtCount": 0,
-      "yearBuilt": 1969,
-      "zipcode": "98014"
     },
     {
       "acres": "0.196",
@@ -1985,213 +2620,10 @@
       "subdivision": "Federal Way",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 1,
+      "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 1978,
       "zipcode": "98023"
-    },
-    {
-      "address": "10324 Delphi Road SW 1",
-      "advanced": {
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "bodyType": [
-          "Double Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "parkName": "Delphi Mobile Home Park",
-        "saleType": "MLS",
-        "bathrooms": "2",
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher",
-          "Microwave",
-          "Refrigerator",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Sewer",
-          "Stove(s)/Range(s)",
-          "Water"
-        ],
-        "livingArea": 0,
-        "otherRooms": [
-          "Entry",
-          "Kitchen With Eating Space",
-          "Living Room",
-          "Utility Room"
-        ],
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Corner Lot"
-        ],
-        "petsAllowed": [
-          "See Remarks"
-        ],
-        "waterSource": [
-          "Shared Well"
-        ],
-        "listingTerms": [
-          "Conventional"
-        ],
-        "mlsAreaMajor": "442 - Black Hills",
-        "onMarketDate": "2026-01-06T00:00:00+00:00",
-        "powerCompany": "Puget Sound Energy",
-        "sewerCompany": "Community Shared Septic",
-        "waterCompany": "Community Shared Well",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 730,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "numberOfBathtubs": "2",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1344,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "foundationDetails": [
-          "Tie Down"
-        ],
-        "openParkingSpaces": 2,
-        "spaceRentIncludes": [
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Tumwater"
-        ],
-        "numberOfHomesInPark": "30",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Builder",
-        "calculatedSquareFootage": "1344",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "See Remarks"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 34455,
-      "cityName": "Olympia",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2026-01-06T21:24:29+00:00",
-      "dateModified": "2026-06-22T11:04:24+00:00",
-      "detailsURL": "b045/2463954",
-      "detailsUrlSlug": "10324-Delphi-Road-SW-1-Olympia-98512",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2463954/10324-Delphi-Road-SW-1-Olympia-98512",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e94c/c49e923c883ee99280f0f4679847328a/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938128,
-      "listingAgentID": "121277198",
-      "listingID": "2463954",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$149,500",
-      "longitude": -123.012708,
-      "mediaData": [],
-      "mlsPhotoCount": 31,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 149500,
-      "priceBeforeReduction": 154500,
-      "priceData": {
-        "value": {
-          "raw": 149500,
-          "formatted": "$149,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "priceReductionDate": "2026-04-06T22:15:27+00:00",
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Experience modern comfort in this fully renovated 3-bedroom, 2-bath double-wide home nestled in the peaceful Delphi Mobile Home Park. The spacious backyard is perfect for entertaining, play, or relaxing outdoors. Recent updates include new flooring, fresh paint, stylish blinds, a new water heater, updated toilets and light fixtures, and a standout kitchen featuring stainless steel appliances, plus much more. Both bathrooms offer elegant quartz showers, creating a spa-like feel. Conveniently located just 15 minutes from Olympia and within the desirable Tumwater School District. Lot rent is $730/month. Move-in ready and thoughtfully updated—this home truly checks all the boxes.",
-      "rntLse": "neither",
-      "rntLsePrice": 149500,
-      "sellingAgentID": "75113400",
-      "sellingOfficeID": "1003647",
-      "soldDate": "2026-05-22T00:00:00+00:00",
-      "soldPrice": 149500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Delphi Road SW",
-      "streetNumber": "10324",
-      "subdivision": "Delphi",
-      "threeQuarterBaths": 0,
-      "totalBaths": 2,
-      "unitNumber": "1",
-      "viewCount": 97,
-      "vtCount": 0,
-      "yearBuilt": 1990,
-      "zip4": "9355",
-      "zipcode": "98512"
     },
     {
       "acres": "0.202",
@@ -2471,7 +2903,7 @@
       "subdivision": "Lake Hills",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 42,
+      "viewCount": 43,
       "vtCount": 0,
       "yearBuilt": 1957,
       "zip4": "4949",
@@ -3014,7 +3446,7 @@
       "subdivision": "Kent",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 13,
+      "viewCount": 14,
       "vtCount": 0,
       "yearBuilt": 2003,
       "zip4": "7418",
@@ -3559,7 +3991,7 @@
       "subdivision": "Leschi",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 101,
+      "viewCount": 102,
       "vtCount": 0,
       "yearBuilt": 1907,
       "zip4": "6439",
@@ -3820,7 +4252,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A",
-      "viewCount": 41,
+      "viewCount": 42,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -4096,7 +4528,7 @@
       "subdivision": "Dutch Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 18,
+      "viewCount": 20,
       "vtCount": 0,
       "yearBuilt": 2011,
       "zip4": "9014",
@@ -6300,7 +6732,7 @@
       "subdivision": "Westwood",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 120,
+      "viewCount": 121,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98106"
@@ -6786,7 +7218,7 @@
       "subdivision": "Burien",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 40,
+      "viewCount": 41,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -7292,213 +7724,6 @@
       "yearBuilt": 1922,
       "zip4": "3136",
       "zipcode": "98118"
-    },
-    {
-      "acres": "0",
-      "address": "10324 Delphi Road SW 17",
-      "advanced": {
-        "make": "Goldenwest",
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "model": "Oakwood",
-        "skirt": [
-          "Vinyl"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2025,
-        "bodyType": [
-          "Double Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "parkName": "Delphi Mobile Home Park",
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "waterSource": [
-          "Shared Well"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "442 - Black Hills",
-        "onMarketDate": "2025-09-30T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "Puget Sound Energy",
-        "sewerCompany": "Community Septic",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "cableConnected": "Xfinity",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 715,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 1007.55,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "exteriorFeatures": [
-          "Wood Products"
-        ],
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1296,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "internetConnected": "Xfinity",
-        "lotSizeSquareFeet": 0,
-        "openParkingSpaces": 2,
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Tumwater"
-        ],
-        "numberOfHomesInPark": "30",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Thurston County Records",
-        "calculatedSquareFootage": "1296",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedAfter06151976": "yes",
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 34455,
-      "cityName": "Olympia",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-09-30T22:51:53+00:00",
-      "dateModified": "2026-01-12T12:03:28+00:00",
-      "detailsURL": "b045/2439257",
-      "detailsUrlSlug": "10324-Delphi-Road-SW-17-Olympia-98512",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2439257/10324-Delphi-Road-SW-17-Olympia-98512",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4e3d/d3e4bb33ee443a935c7c952f756fc5a1/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938128,
-      "listingAgentID": "121277198",
-      "listingID": "2439257",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$159,500",
-      "longitude": -123.012708,
-      "mediaData": [],
-      "mlsPhotoCount": 24,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 159500,
-      "priceBeforeReduction": 165500,
-      "priceData": {
-        "value": {
-          "raw": 159500,
-          "formatted": "$159,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "priceReductionDate": "2025-11-19T17:51:35+00:00",
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Experience modern comfort in this fully renovated 3-bedroom, 2-bath double-wide nestled in the peaceful Delphi Mobile Home Park. Enjoy a spacious backyard—perfect for entertaining, playing, or relaxing outdoors. Recent upgrades include refreshed siding, new flooring, stylish blinds, and a showstopping kitchen with stainless steel appliances. Both bathrooms feature elegant quartz showers. Conveniently located just 15 minutes from Olympia and within the sought-after Tumwater School District. Lot rent is $715/month. Move-in ready and beautifully updated—this home has all the features you’ve been waiting for!",
-      "rntLse": "neither",
-      "rntLsePrice": 159500,
-      "sellingAgentID": "121277198",
-      "sellingOfficeID": "91866779",
-      "soldDate": "2025-12-12T00:00:00+00:00",
-      "soldPrice": 159500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Delphi Road SW",
-      "streetNumber": "10324",
-      "subdivision": "Delphi",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "17",
-      "viewCount": 6,
-      "vtCount": 0,
-      "yearBuilt": 1998,
-      "zip4": "9355",
-      "zipcode": "98512"
     },
     {
       "acres": "0.097",
@@ -8346,215 +8571,6 @@
       "zipcode": "98146"
     },
     {
-      "acres": "0.003",
-      "address": "10324 Delphi Road SW 14",
-      "advanced": {
-        "make": "Goldenwest",
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "model": "Winterhaven",
-        "skirt": [
-          "Wood"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2025,
-        "bodyType": [
-          "Double Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank"
-        ],
-        "parkName": "Delphi Mobile Home Park",
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Sewer",
-          "Stove(s)/Range(s)",
-          "Water"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "waterSource": [
-          "Shared Well"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "442 - Black Hills",
-        "onMarketDate": "2025-08-06T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "Puget Sound Energy",
-        "sewerCompany": "Community Septic",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "cableConnected": "Xfinity",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 715,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Carport"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 849.21,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "exteriorFeatures": [
-          "Wood Products"
-        ],
-        "mlsLotSizeSource": "TCR",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1296,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "internetConnected": "Xfinity",
-        "lotSizeSquareFeet": 114,
-        "spaceRentIncludes": [
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Tumwater"
-        ],
-        "numberOfHomesInPark": "30",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "TCR",
-        "calculatedSquareFootage": "1296",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedAfter06151976": "yes",
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 34455,
-      "cityName": "Olympia",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-08-06T18:40:46+00:00",
-      "dateModified": "2025-12-11T12:04:19+00:00",
-      "detailsURL": "b045/2414567",
-      "detailsUrlSlug": "10324-Delphi-Road-SW-14-Olympia-98512",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2414567/10324-Delphi-Road-SW-14-Olympia-98512",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c0b1/1b0c91b8b0de1fa2404578cab47ca3a9/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938128,
-      "listingAgentID": "121277198",
-      "listingID": "2414567",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$149,750",
-      "longitude": -123.012708,
-      "mediaData": [],
-      "mlsPhotoCount": 25,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 149750,
-      "priceData": {
-        "value": {
-          "raw": 149750,
-          "formatted": "$149,750"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Enjoy modern comfort in this fully renovated 3 bed, 2 bath double-wide in quiet Delphi Mobile Home Park. Updates include new roofs on home and shed, updated siding, new flooring, blinds, and a stunning kitchen with stainless steel appliances. Both bathrooms feature quartz showers. Just 15 minutes to Olympia and located in the desirable Tumwater School District. Lot rent is $715/month. Move-in ready with all the stylish updates you’re looking for!",
-      "rntLse": "neither",
-      "rntLsePrice": 149750,
-      "sellingAgentID": "1211810",
-      "sellingOfficeID": "53859436",
-      "soldDate": "2025-11-10T00:00:00+00:00",
-      "soldPrice": 149750,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Delphi Road SW",
-      "streetNumber": "10324",
-      "subdivision": "Delphi",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "14",
-      "viewCount": 2,
-      "vtCount": 0,
-      "yearBuilt": 1997,
-      "zipcode": "98512"
-    },
-    {
       "acres": "0.097",
       "address": "1240 SW 124th Street 6C",
       "advanced": {
@@ -9076,7 +9092,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "6C",
-      "viewCount": 2,
+      "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -9897,7 +9913,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "10A",
-      "viewCount": 34,
+      "viewCount": 35,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -10904,7 +10920,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "8C",
-      "viewCount": 9,
+      "viewCount": 10,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -11433,215 +11449,6 @@
       "zipcode": "98144"
     },
     {
-      "acres": "0.003",
-      "address": "10324 Delphi Road SW 15",
-      "advanced": {
-        "make": "FLEETWOOD",
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "model": "COUNTRY MANOR",
-        "skirt": [
-          "Wood"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2025,
-        "bodyType": [
-          "Double Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank"
-        ],
-        "parkName": "Delphi Mobile Home Park",
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Sewer",
-          "Stove(s)/Range(s)",
-          "Water"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "waterSource": [
-          "Shared Well"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "442 - Black Hills",
-        "onMarketDate": "2025-08-06T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "Puget Sound Energy",
-        "sewerCompany": "Community Septic",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "cableConnected": "Xfinity",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 715,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Carport"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 820.97,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "exteriorFeatures": [
-          "Wood Products"
-        ],
-        "mlsLotSizeSource": "TCR",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1188,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "internetConnected": "Xfinity",
-        "lotSizeSquareFeet": 114,
-        "spaceRentIncludes": [
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Tumwater"
-        ],
-        "numberOfHomesInPark": "30",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "TCR",
-        "calculatedSquareFootage": "1188",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedAfter06151976": "yes",
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 34455,
-      "cityName": "Olympia",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-08-06T18:40:46+00:00",
-      "dateModified": "2025-09-28T11:04:42+00:00",
-      "detailsURL": "b045/2414683",
-      "detailsUrlSlug": "10324-Delphi-Road-SW-15-Olympia-98512",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2414683/10324-Delphi-Road-SW-15-Olympia-98512",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/083f/f380ee01387c6ba985f15fbccaaced68/b045",
-          "sizes": [],
-          "caption": "Delphi Remodeled Home"
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938128,
-      "listingAgentID": "121277198",
-      "listingID": "2414683",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$144,500",
-      "longitude": -123.012708,
-      "mediaData": [],
-      "mlsPhotoCount": 22,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 144500,
-      "priceData": {
-        "value": {
-          "raw": 144500,
-          "formatted": "$144,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Newly remodeled 3 bed, 2 bath double-wide in Tumwater! This home features a dream layout with a new kitchen, updated flooring, fresh blinds, and renovated bathrooms with quartz showers. Stainless steel appliances add a modern touch. Located in the quiet Delphi Mobile Home Park, it offers a spacious yard, large storage shed, and two parking spots. Just 15 minutes to Olympia and in the Tumwater School District. Lot rent is $715/month. Move-in ready and packed with upgrades—start your next chapter here!",
-      "rntLse": "neither",
-      "rntLsePrice": 144500,
-      "sellingAgentID": "132962215",
-      "sellingOfficeID": "121679104",
-      "soldDate": "2025-08-28T00:00:00+00:00",
-      "soldPrice": 144500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Delphi Road SW",
-      "streetNumber": "10324",
-      "subdivision": "Delphi",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "15",
-      "viewCount": 0,
-      "vtCount": 0,
-      "yearBuilt": 1996,
-      "zipcode": "98512"
-    },
-    {
       "acres": "0.362",
       "address": "1564 Hillside Drive SE",
       "advanced": {
@@ -11913,7 +11720,7 @@
       "subdivision": "Issaquah",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 6,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1967,
       "zip4": "4811",
@@ -14120,7 +13927,7 @@
       "subdivision": "Cougar Mountain",
       "threeQuarterBaths": 0,
       "totalBaths": 4,
-      "viewCount": 13,
+      "viewCount": 14,
       "vtCount": 0,
       "yearBuilt": 1979,
       "zip4": "5912",
@@ -14398,239 +14205,6 @@
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
-    },
-    {
-      "acres": "0",
-      "address": "10324 SW Delphi Road 11",
-      "advanced": {
-        "make": "DISCOVERY",
-        "roof": [
-          "Composition"
-        ],
-        "skirt": [
-          "Wood"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2024,
-        "bodyType": [
-          "Double Wide"
-        ],
-        "flooring": [
-          "Carpet"
-        ],
-        "parkName": "Delphi Mobile Home",
-        "saleType": "MLS",
-        "bathrooms": "2",
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Sewer",
-          "Stove(s)/Range(s)",
-          "Water"
-        ],
-        "livingArea": 0,
-        "otherRooms": [
-          "Kitchen With Eating Space",
-          "Living Room",
-          "Utility Room"
-        ],
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Paved"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "waterSource": [
-          "Shared Well"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "442 - Black Hills",
-        "onMarketDate": "2025-01-10T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "Puget Sound Energy",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Other"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 680,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "storageLocation": "Shed in backyard",
-        "taxAnnualAmount": 791,
-        "bedroomsPossible": 3,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "exteriorFeatures": [
-          "Wood Products"
-        ],
-        "numberOfBathtubs": "2",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1512,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "lotSizeSquareFeet": 0,
-        "openParkingSpaces": 2,
-        "spaceRentIncludes": [
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Tumwater"
-        ],
-        "numberOfHomesInPark": "30",
-        "powerProductionType": [
-          "Electric"
-        ],
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "calculatedSquareFootage": "1512",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "manufacturedHomeFeatures": [
-          "Bath Off Primary"
-        ],
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedHomeParkAmenities": [
-          "Common Area"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 34455,
-      "cityName": "Olympia",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-01-11T00:08:06+00:00",
-      "dateModified": "2025-07-04T11:03:14+00:00",
-      "detailsURL": "b045/2320894",
-      "detailsUrlSlug": "10324-SW-Delphi-Road-11-Olympia-98512",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2320894/10324-SW-Delphi-Road-11-Olympia-98512",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cc1f/f1cc2b5b83120525a5ad7c1bc3736590/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938111,
-      "listingAgentID": "121277198",
-      "listingID": "2320894",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$149,999",
-      "longitude": -123.01271,
-      "mediaData": [],
-      "mlsPhotoCount": 20,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 149999,
-      "priceBeforeReduction": 158500,
-      "priceData": {
-        "value": {
-          "raw": 138500,
-          "formatted": "$138,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "priceReductionDate": "2025-03-31T23:38:10+00:00",
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Newly remodeled mobile home in Tumwater! Enjoy a quiet lifestyle in this charming 3 bedroom, 2 bathroom double-wide home. Upgrades include a new kitchen, flooring, and bathrooms. Nestled in Delphi Mobile Home Park with features including stainless steel appliances, storage shed, and two parking spots. Conveniently located 15 minutes to Olympia and in the Tumwater School District. Lot rent is $680 a month. Start your next chapter in this move-in-ready home!",
-      "rntLse": "neither",
-      "rntLsePrice": 149999,
-      "sellingAgentID": "68402840",
-      "sellingOfficeID": "1003453",
-      "soldDate": "2025-06-03T00:00:00+00:00",
-      "soldPrice": 138500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "SW",
-      "streetName": "Delphi Road",
-      "streetNumber": "10324",
-      "subdivision": "Olympia",
-      "threeQuarterBaths": 0,
-      "totalBaths": 2,
-      "unitNumber": "11",
-      "viewCount": 53,
-      "vtCount": 0,
-      "yearBuilt": 2006,
-      "zip4": "9355",
-      "zipcode": "98512"
     },
     {
       "acres": "0.063",
@@ -15192,7 +14766,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "8B",
-      "viewCount": 9,
+      "viewCount": 10,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -15700,7 +15274,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "4C",
-      "viewCount": 0,
+      "viewCount": 1,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -16524,7 +16098,7 @@
       "subdivision": "Bridle Trails",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 23,
+      "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 1983,
       "zip4": "3150",
@@ -17086,412 +16660,6 @@
       "zipcode": "98146"
     },
     {
-      "address": "32501 NE 50th Street 25",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "Heat Pump"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2024,
-        "bodyType": [
-          "Double Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "parkName": "Carnation Mobile Haven",
-        "saleType": "MLS",
-        "bathrooms": "2",
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "See Remarks",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 0,
-        "otherRooms": [
-          "Kitchen With Eating Space",
-          "Living Room",
-          "Utility Room"
-        ],
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Paved"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "mlsAreaMajor": "550 - Redmond/Carnation",
-        "onMarketDate": "2025-01-09T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "PSE",
-        "sewerCompany": "City of Carnation",
-        "waterCompany": "City of Carnation",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Conventional"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 750,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "bedroomsPossible": 2,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "mlsLotSizeSource": "Public Records",
-        "numberOfBathtubs": "2",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1000,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "openParkingSpaces": 2,
-        "spaceRentIncludes": [
-          "See Remarks"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Riverview"
-        ],
-        "numberOfHomesInPark": "42",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "calculatedSquareFootage": "1000",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "manufacturedHomeFeatures": [
-          "Bath Off Primary"
-        ],
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedAfter06151976": "yes",
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 2,
-      "cityID": 7367,
-      "cityName": "Carnation",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2025-01-09T22:12:50+00:00",
-      "dateModified": "2025-07-02T22:49:10+00:00",
-      "detailsURL": "b045/2320888",
-      "detailsUrlSlug": "32501-NE-50th-Street-25-Carnation-98014",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2320888/32501-NE-50th-Street-25-Carnation-98014",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cca6/6acca3dd7819ca0194e1d98899ed4e00/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.650561,
-      "listingAgentID": "121277198",
-      "listingID": "2320888",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$149,500",
-      "longitude": -121.906194,
-      "mediaData": [],
-      "mlsPhotoCount": 23,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 149500,
-      "priceData": {
-        "value": {
-          "raw": 149500,
-          "formatted": "$149,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "This beautifully remodeled manufactured home, nestled in the heart of Carnation, offers a perfect blend of comfort and tranquility within a welcoming community. This 2 bedroom / 2 bathroom home boasts modern upgrades including new flooring, kitchen, bathroom, water heater, windows, and fresh paint throughout. The open-concept layout allows natural light to flow through, creating a perfect space for hosting or relaxing. Enjoy the peaceful surroundings with the added convenience of being only minutes from nearby shops, restaurants, parks, and other amenities. Lot rent is $750 a month. This is an opportunity you don’t want to miss!",
-      "rntLse": "neither",
-      "rntLsePrice": 149500,
-      "sellingAgentID": "121277198",
-      "sellingOfficeID": "91866779",
-      "soldDate": "2025-04-18T00:00:00+00:00",
-      "soldPrice": 149500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "NE",
-      "streetName": "50th Street",
-      "streetNumber": "32501",
-      "subdivision": "Carnation",
-      "threeQuarterBaths": 0,
-      "totalBaths": 2,
-      "unitNumber": "25",
-      "viewCount": 14,
-      "vtCount": 0,
-      "yearBuilt": 1968,
-      "zipcode": "98014"
-    },
-    {
-      "acres": "0",
-      "address": "8915 Wilkensen Road SE 3A",
-      "advanced": {
-        "make": "KSTN",
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "country": [
-          "US"
-        ],
-        "taxYear": 2024,
-        "bodyType": [
-          "Single Wide"
-        ],
-        "parkName": "Yelm MHP & Storage",
-        "saleType": "MLS",
-        "bathrooms": "1",
-        "styleCode": "20 - Manuf-Single Wide",
-        "appliances": [
-          "Dryer(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "inclusions": [
-          "Dryer(s)",
-          "Garbage",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Sewer",
-          "Stove(s)/Range(s)",
-          "Washer(s)",
-          "Water"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "See Remarks"
-        ],
-        "waterSource": [
-          "Community"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "453 - Yelm/Rainier",
-        "onMarketDate": "2025-01-17T00:00:00+00:00",
-        "parkingTotal": 2,
-        "sewerCompany": "Park",
-        "waterCompany": "Park",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Other"
-        ],
-        "cableConnected": "Comcast/Xfinity",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 750,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "numberOfShowers": "1",
-        "parkingFeatures": [
-          "Carport"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 407,
-        "bedroomsPossible": 1,
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 374,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "internetConnected": "Comcast/Xfinity",
-        "lotSizeSquareFeet": 0,
-        "spaceRentIncludes": [
-          "Garbage",
-          "Sewer",
-          "Water"
-        ],
-        "appliancesIncluded": [
-          "Dryer(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "highSchoolDistrict": [
-          "Yelm"
-        ],
-        "numberOfHomesInPark": "31",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "calculatedSquareFootage": "374",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedHomeParkAmenities": [
-          "Common Area",
-          "RV Parking"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 1,
-      "cityID": 52909,
-      "cityName": "Yelm",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-01-18T01:08:47+00:00",
-      "dateModified": "2025-05-08T11:03:12+00:00",
-      "detailsURL": "b045/2322769",
-      "detailsUrlSlug": "8915-Wilkensen-Road-SE-3A-Yelm-98597",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2322769/8915-Wilkensen-Road-SE-3A-Yelm-98597",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c294/492cde5c1a58bf43182433191988ffc4/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.958765,
-      "listingAgentID": "121277198",
-      "listingID": "2322769",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$70,000",
-      "longitude": -122.591988,
-      "mediaData": [],
-      "mlsPhotoCount": 18,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 70000,
-      "priceData": {
-        "value": {
-          "raw": 70000,
-          "formatted": "$70,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Experience the freedom of minimalist living with this thoughtfully designed tiny home. Every square inch is maximized for comfort, style, and functionality! The Kitchen has ample cabinets, counters, and all the appliances stay - including the Laundry Machines. Additional living space added with a sunroom not included in the square footage. There is a 1 Car Carport that also has an enclosed storage area. Outside of the carport is another space for a 2nd car. This property has quick access to Longmire Park and downtown Yelm.",
-      "rntLse": "neither",
-      "rntLsePrice": 70000,
-      "sellingAgentID": "114354072",
-      "sellingOfficeID": "109373762",
-      "soldDate": "2025-04-07T00:00:00+00:00",
-      "soldPrice": 70000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Wilkensen Road SE",
-      "streetNumber": "8915",
-      "subdivision": "Yelm",
-      "threeQuarterBaths": 0,
-      "totalBaths": 1,
-      "unitNumber": "3A",
-      "viewCount": 23,
-      "vtCount": 0,
-      "yearBuilt": 2012,
-      "zipcode": "98597"
-    },
-    {
       "acres": "0.076",
       "address": "13887 Chain Lake Road",
       "advanced": {
@@ -18037,7 +17205,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "7C",
-      "viewCount": 28,
+      "viewCount": 29,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98146"
@@ -18333,214 +17501,6 @@
       "zipcode": "98146"
     },
     {
-      "address": "32501 NE 50th Street 24",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "90%+ High Efficiency"
-        ],
-        "taxYear": 2024,
-        "bodyType": [
-          "Single Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "parkName": "Carnation Mobile Haven",
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "20 - Manuf-Single Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "See Remarks",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Paved"
-        ],
-        "petsAllowed": [
-          "Subj to Restrictions"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "mlsAreaMajor": "550 - Redmond/Carnation",
-        "onMarketDate": "2025-02-04T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "PSE",
-        "sewerCompany": "City of Carnation",
-        "waterCompany": "City of Carnation",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Cash"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 750,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "storageLocation": "Driveway",
-        "bedroomsPossible": 2,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "interiorFeatures": [
-          "Wall to Wall Carpet"
-        ],
-        "mlsLotSizeSource": "Public Records",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 924,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "openParkingSpaces": 2,
-        "spaceRentIncludes": [
-          "See Remarks"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Riverview"
-        ],
-        "numberOfHomesInPark": "42",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "calculatedSquareFootage": "924",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 2,
-      "cityID": 7367,
-      "cityName": "Carnation",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2025-02-05T14:02:29+00:00",
-      "dateModified": "2025-04-21T11:03:25+00:00",
-      "detailsURL": "b045/2329080",
-      "detailsUrlSlug": "32501-NE-50th-Street-24-Carnation-98014",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2329080/32501-NE-50th-Street-24-Carnation-98014",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a3ed/de3a26e9e3097f15431378854da29d20/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.650561,
-      "listingAgentID": "121277198",
-      "listingID": "2329080",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$137,500",
-      "longitude": -121.906194,
-      "mediaData": [],
-      "mlsPhotoCount": 30,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 137500,
-      "priceData": {
-        "value": {
-          "raw": 135000,
-          "formatted": "$135,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Discover this beautifully remodeled manufactured home located in the heart of Carnation. Thoughtfully upgraded, this 2-bedroom, 2-bathroom gem features stylish new flooring, a modern kitchen, updated bathrooms, energy-efficient windows, a new water heater, and fresh paint throughout. The bright and airy open-concept design invites natural light, creating a warm and inviting space perfect for entertaining or unwinding. Nestled in serene surroundings, you'll still enjoy the convenience of being just minutes from shops, restaurants, parks, and more. With a lot rent of $750 per month, this is an opportunity you won’t want to miss!",
-      "rntLse": "neither",
-      "rntLsePrice": 137500,
-      "sellingAgentID": "1192348",
-      "sellingOfficeID": "1000679",
-      "soldDate": "2025-03-21T00:00:00+00:00",
-      "soldPrice": 135000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "NE",
-      "streetName": "50th Street",
-      "streetNumber": "32501",
-      "subdivision": "Carnation",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "24",
-      "viewCount": 10,
-      "vtCount": 0,
-      "yearBuilt": 1968,
-      "zipcode": "98014"
-    },
-    {
       "address": "1240 SW 124th Street 6A",
       "advanced": {
         "coOp": "no",
@@ -18824,163 +17784,6 @@
       "zipcode": "98146"
     },
     {
-      "acres": "0",
-      "address": "1502 W Yelm Avenue 11",
-      "advanced": {
-        "make": "MODL",
-        "skirt": [
-          "Aluminum"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "country": [
-          "US"
-        ],
-        "bodyType": [
-          "Double Wide"
-        ],
-        "parkName": "Sunrise Vista Ardmore",
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "21 - Manuf-Double Wide",
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subj to Restrictions"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "453 - Yelm/Rainier",
-        "onMarketDate": "2025-01-16T00:00:00+00:00",
-        "powerCompany": "PSE",
-        "sewerCompany": "Septic",
-        "waterCompany": "City of Yelm",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Conventional"
-        ],
-        "cableConnected": "Comcast",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 775,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "bedroomsPossible": 3,
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1120,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "internetConnected": "Comcast/Xfinity",
-        "lotSizeSquareFeet": 0,
-        "highSchoolDistrict": [
-          "Yelm"
-        ],
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "County Record",
-        "calculatedSquareFootage": "1120",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 3,
-      "cityID": 52909,
-      "cityName": "Yelm",
-      "countyID": 2212,
-      "countyName": "Thurston",
-      "dateAdded": "2025-01-18T01:08:50+00:00",
-      "dateModified": "2025-04-14T11:03:21+00:00",
-      "detailsURL": "b045/2322773",
-      "detailsUrlSlug": "1502-W-Yelm-Avenue-11-Yelm-98597",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2322773/1502-W-Yelm-Avenue-11-Yelm-98597",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fd0c/c0df4325a7a37adb0fbb92d1180bbd1e/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.953938,
-      "listingAgentID": "121277198",
-      "listingID": "2322773",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$167,500",
-      "longitude": -122.624823,
-      "mediaData": [],
-      "mlsPhotoCount": 27,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 167500,
-      "priceData": {
-        "value": {
-          "raw": 167500,
-          "formatted": "$167,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "Welcome to this beautifully remodeled 3-bed, 2-bath manufactured home in the all-ages community of Sunrise Vista. Thoughtfully updated with modern finishes, this home features brand-new flooring, a stylish kitchen with SS appliances, refreshed bathrooms, upgraded windows, and fresh paint throughout. The bright, open-concept layout is perfect for both entertaining and everyday living, with plenty of natural light creating a warm, inviting atmosphere. Step outside to enjoy the fully fenced backyard—ideal for pets, play, or peaceful relaxation. The property also includes a covered carport with an attached storage area for added convenience. This move-in-ready home offers exceptional value and comfort. Don’t miss your chance to make it yours!",
-      "rntLse": "neither",
-      "rntLsePrice": 167500,
-      "sellingAgentID": "90152884",
-      "sellingOfficeID": "115079979",
-      "soldDate": "2025-03-14T00:00:00+00:00",
-      "soldPrice": 167500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "W",
-      "streetName": "Yelm Avenue",
-      "streetNumber": "1502",
-      "subdivision": "Yelm",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "11",
-      "viewCount": 11,
-      "vtCount": 0,
-      "yearBuilt": 1992,
-      "zipcode": "98597"
-    },
-    {
       "acres": "0.067",
       "address": "9931 14th Avenue S B-5",
       "advanced": {
@@ -19247,7 +18050,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 4,
       "unitNumber": "B-5",
-      "viewCount": 27,
+      "viewCount": 28,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -19541,7 +18344,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-1",
-      "viewCount": 11,
+      "viewCount": 13,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -20342,7 +19145,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "B",
-      "viewCount": 27,
+      "viewCount": 28,
       "vtCount": 0,
       "yearBuilt": 1926,
       "zipcode": "98199"
@@ -20874,7 +19677,7 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 26,
+      "viewCount": 27,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98199"
@@ -23730,7 +22533,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-3",
-      "viewCount": 13,
+      "viewCount": 14,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -23980,7 +22783,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-3",
-      "viewCount": 8,
+      "viewCount": 9,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -24273,226 +23076,6 @@
       "zipcode": "98146"
     },
     {
-      "address": "32501 NE 50th Street 38",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "Central A/C"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "90%+ High Efficiency"
-        ],
-        "taxYear": 2024,
-        "bodyType": [
-          "Single Wide"
-        ],
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "parkName": "Carnation Mobile Haven",
-        "saleType": "MLS",
-        "bathrooms": "1",
-        "mlsStatus": [
-          "Sold"
-        ],
-        "styleCode": "20 - Manuf-Single Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "highSchool": [
-          "Cedarcrest High"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "See Remarks",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Negotiable"
-        ],
-        "lotFeatures": [
-          "Paved"
-        ],
-        "petsAllowed": [
-          "Subj to Restrictions"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "mlsAreaMajor": "550 - Redmond/Carnation",
-        "onMarketDate": "2024-09-12T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "PSE",
-        "sewerCompany": "City of Carnation",
-        "waterCompany": "City of carnation",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "busLineNearby": "yes",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Cash"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 750,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "numberOfShowers": "1",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "bedroomsPossible": 2,
-        "elementarySchool": [
-          "Carnation Elem"
-        ],
-        "interiorFeatures": [
-          "Wall to Wall Carpet"
-        ],
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 768,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "openParkingSpaces": 2,
-        "spaceRentIncludes": [
-          "See Remarks"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "highSchoolDistrict": [
-          "Riverview"
-        ],
-        "numberOfHomesInPark": "42",
-        "waterHeaterLocation": "Exterior",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Tolt Mid"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Seller",
-        "calculatedSquareFootage": "768",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "manufacturedHomeFeatures": [
-          "Patio/Porch/Deck"
-        ],
-        "specialListingConditions": [
-          "None"
-        ],
-        "manufacturedHomeParkApprovedForSale": "yes"
-      },
-      "bedrooms": 2,
-      "cityID": 7367,
-      "cityName": "Carnation",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2024-09-12T23:22:50+00:00",
-      "dateModified": "2025-01-12T12:03:16+00:00",
-      "detailsURL": "b045/2288730",
-      "detailsUrlSlug": "32501-NE-50th-Street-38-Carnation-98014",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2288730/32501-NE-50th-Street-38-Carnation-98014",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/45ef/fe549443e63bca6173bd2e50bbe82d09/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.650561,
-      "listingAgentID": "121277198",
-      "listingID": "2288730",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$109,500",
-      "longitude": -121.906194,
-      "mediaData": [],
-      "mlsPhotoCount": 17,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 109500,
-      "priceBeforeReduction": 114500,
-      "priceData": {
-        "value": {
-          "raw": 109500,
-          "formatted": "$109,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "priceReductionDate": "2024-10-04T23:56:35+00:00",
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "This beautifully remodeled manufactured home, nestled in the heart of Carnation, offers a perfect blend of comfort and tranquility within a welcoming 55+ community.  This 2 bedroom / 1 bathroom home boasts modern upgrades including new flooring, kitchen, bathroom, water heater, furnace, carpet, roof, and fresh paint throughout. The open-concept layout allows natural light to flow through, creating a perfect space for hosting or relaxing. Enjoy the peaceful surroundings with the added convenience of being only minutes from nearby shops, restaurants, parks, and other amenities. Lot rent is $750 a month. This is an opportunity you don’t want to miss!",
-      "rntLse": "neither",
-      "rntLsePrice": 109500,
-      "sellingAgentID": "121277198",
-      "sellingOfficeID": "91866779",
-      "soldDate": "2024-12-12T00:00:00+00:00",
-      "soldPrice": 109500,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "NE",
-      "streetName": "50th Street",
-      "streetNumber": "32501",
-      "subdivision": "Carnation",
-      "threeQuarterBaths": 0,
-      "totalBaths": 1,
-      "unitNumber": "38",
-      "viewCount": 3,
-      "vtCount": 0,
-      "yearBuilt": 1978,
-      "zipcode": "98014"
-    },
-    {
       "acres": "0.429",
       "address": "9937 14th Avenue S A-2",
       "advanced": {
@@ -24742,7 +23325,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-2",
-      "viewCount": 5,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -25009,206 +23592,11 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "A",
-      "viewCount": 2,
+      "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 2008,
       "zip4": "4955",
       "zipcode": "98118"
-    },
-    {
-      "acres": "0",
-      "address": "6780 E State Rte 106 34",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "country": [
-          "US"
-        ],
-        "bodyType": [
-          "Double Wide"
-        ],
-        "parkName": "Robinhood Village",
-        "saleType": "MLS",
-        "bathrooms": "2",
-        "mlsStatus": [
-          "Sold"
-        ],
-        "styleCode": "21 - Manuf-Double Wide",
-        "appliances": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Paved",
-          "Secluded"
-        ],
-        "petsAllowed": [
-          "See Remarks"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "173 - South Shore Hood Canal",
-        "onMarketDate": "2024-08-15T00:00:00+00:00",
-        "parkingTotal": 2,
-        "powerCompany": "Mason County PUD",
-        "sewerCompany": "Private",
-        "waterCompany": "Mason County PUD",
-        "waterfrontYN": "no",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Manufactured House"
-        ],
-        "bathsFullUpper": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Conventional"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "fireplacesTotal": 0,
-        "landLeaseAmount": 625,
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "bedroomsPossible": 3,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1152,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "lotSizeSquareFeet": 0,
-        "openParkingSpaces": 2,
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Hood Canal #404"
-        ],
-        "firstRightOfRefusal": "no",
-        "numberOfHomesInPark": "25",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "calculatedSquareFootage": "1152",
-        "squareFootageUnfinished": "0",
-        "landLeaseAmountFrequency": [
-          "Monthly"
-        ],
-        "specialListingConditions": [
-          "None"
-        ]
-      },
-      "bedrooms": 3,
-      "cityID": 47408,
-      "cityName": "Union",
-      "countyID": 757,
-      "countyName": "Mason",
-      "dateAdded": "2024-08-15T20:36:26+00:00",
-      "dateModified": "2024-12-13T12:04:13+00:00",
-      "detailsURL": "b045/2277784",
-      "detailsUrlSlug": "6780-E-State-Rte-106-34-Union-98592",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2277784/6780-E-State-Rte-106-34-Union-98592",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/71ee/ee171aa1e776d341da696a2db5a5174d/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.34849,
-      "listingAgentID": "121277198",
-      "listingID": "2277784",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$128,500",
-      "longitude": -123.076278,
-      "mediaData": [],
-      "mlsPhotoCount": 30,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 128500,
-      "priceBeforeReduction": 138500,
-      "priceData": {
-        "value": {
-          "raw": 132000,
-          "formatted": "$132,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "priceReductionDate": "2024-09-19T00:42:56+00:00",
-      "propStatus": "Sold",
-      "propSubType": "Manufactured Home",
-      "propType": "Residential",
-      "remarksConcat": "This beautifully remodeled 3-bedroom, 2-bath double-wide home is located in the highly sought-after Robin Hood Village, an all-age community nestled in a serene forested area above the Robin Hood Resort on Hood Canal. The extensive renovation features new flooring, interior/exterior paint, windows, kitchen, stainless steel appliances, bathrooms, baseboard heating, siding, drywall, plumbing, deck, and a new roof. This unit offers ample parking and exceptional privacy. The area is a haven for outdoor enthusiasts, with activities like sightseeing, kayaking, hiking, golfing, oyster picking, crabbing, clamming, fishing, and more. Lot rent is $625 per month. Welcome home!",
-      "rntLse": "neither",
-      "rntLsePrice": 128500,
-      "sellingAgentID": "1195549",
-      "sellingOfficeID": "2971397",
-      "soldDate": "2024-11-12T00:00:00+00:00",
-      "soldPrice": 132000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "E",
-      "streetName": "State Rte 106",
-      "streetNumber": "6780",
-      "subdivision": "Union",
-      "threeQuarterBaths": 0,
-      "totalBaths": 2,
-      "unitNumber": "34",
-      "viewCount": 1,
-      "vtCount": 0,
-      "yearBuilt": 1978,
-      "zipcode": "98592"
     },
     {
       "acres": "19.43",
@@ -25444,7 +23832,7 @@
       "subdivision": "Union Hill",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 19,
+      "viewCount": 20,
       "vtCount": 0,
       "yearBuilt": 1921,
       "zipcode": "98053"
@@ -25919,7 +24307,7 @@
       "subdivision": "Woodinville",
       "threeQuarterBaths": 1,
       "totalBaths": 5,
-      "viewCount": 64,
+      "viewCount": 65,
       "vtCount": 0,
       "yearBuilt": 1992,
       "zipcode": "98052"
@@ -27498,7 +25886,7 @@
       "subdivision": "Ballard",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 24,
+      "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 1903,
       "zipcode": "98117"
@@ -27507,6 +25895,9 @@
       "advanced": {
         "mlsStatus": [
           "Sold"
+        ],
+        "structureType": [
+          "Manufactured House"
         ]
       },
       "cityID": 34455,
@@ -27824,7 +26215,7 @@
       "subdivision": "Bothell",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 8,
+      "viewCount": 9,
       "vtCount": 0,
       "yearBuilt": 1976,
       "zipcode": "98021"
@@ -28129,7 +26520,7 @@
       "subdivision": "Mill Creek Country Club",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 21,
+      "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 1992,
       "zipcode": "98012"
@@ -28138,6 +26529,9 @@
       "advanced": {
         "mlsStatus": [
           "Sold"
+        ],
+        "structureType": [
+          "Manufactured House"
         ],
         "idxMustRemovePrimaryPhotoYN": "false"
       },
@@ -29267,7 +27661,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 3,
       "unitNumber": "2131",
-      "viewCount": 49,
+      "viewCount": 50,
       "vtCount": 0,
       "yearBuilt": 1993,
       "zipcode": "98027"
@@ -29558,6 +27952,9 @@
       "advanced": {
         "mlsStatus": [
           "Sold"
+        ],
+        "structureType": [
+          "Manufactured House"
         ],
         "idxMustRemovePrimaryPhotoYN": "false"
       },
@@ -29901,7 +28298,7 @@
       "subdivision": "Sammamish",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 23,
+      "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 1990,
       "zipcode": "98074"
@@ -30187,6 +28584,9 @@
       "advanced": {
         "mlsStatus": [
           "Sold"
+        ],
+        "structureType": [
+          "Manufactured House"
         ],
         "idxMustRemovePrimaryPhotoYN": "false"
       },
@@ -31819,6 +30219,9 @@
       "advanced": {
         "mlsStatus": [
           "Sold"
+        ],
+        "structureType": [
+          "Manufactured House"
         ]
       },
       "cityID": 34455,
@@ -31875,6 +30278,9 @@
       "advanced": {
         "mlsStatus": [
           "Sold"
+        ],
+        "structureType": [
+          "Manufactured House"
         ]
       },
       "cityID": 34455,
@@ -31926,465 +30332,6 @@
       "soldPrice": 155000,
       "viewCount": 23,
       "vtCount": 0
-    },
-    {
-      "acres": "0.43",
-      "address": "7930 NE 32nd Street",
-      "advanced": {
-        "view": [
-          "See Remarks"
-        ],
-        "sewer": [
-          "On Property"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "country": [
-          "US"
-        ],
-        "taxYear": 2023,
-        "saleType": "MLS",
-        "gasStatus": "Available",
-        "mlsStatus": [
-          "Sold"
-        ],
-        "styleCode": "40 - Res-Less thn 1 Ac",
-        "utilities": [
-          "Natural Gas Available",
-          "Electricity Connected"
-        ],
-        "highSchool": [
-          "Bellevue High"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "See Remarks"
-        ],
-        "topography": "Level,Rolling",
-        "lotFeatures": [
-          "Secluded"
-        ],
-        "possibleUse": [
-          "Residential"
-        ],
-        "waterSource": [
-          "Available",
-          "On Property"
-        ],
-        "zoningClass": "Residential",
-        "improvements": "Dwelling,Fenced-Partially,Garage",
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "520 - Bellevue/West of 405",
-        "onMarketDate": "2023-08-24T00:00:00+00:00",
-        "restrictions": "Unknown",
-        "titleCompany": "Stuart Title",
-        "waterfrontYN": "no",
-        "structureType": [
-          "Unspecified"
-        ],
-        "buyerFinancing": [
-          "Cash"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "parkingFeatures": [
-          "Garage"
-        ],
-        "roadInformation": "Privately Maintained",
-        "roadOnWhichSide": "Left",
-        "seniorExemption": "yes",
-        "taxAnnualAmount": 20023,
-        "elementarySchool": [
-          "Medina Elem"
-        ],
-        "mlsLotSizeSource": "Public Records",
-        "propertyFeatures": "Lightly Treed",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 0,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "electricityStatus": "On Property",
-        "waterJurisdiction": "Bellevue",
-        "highSchoolDistrict": [
-          "Bellevue"
-        ],
-        "roadResponsibility": [
-          "Private Maintained Road"
-        ],
-        "zoningJurisdiction": "City",
-        "firstRightOfRefusal": "no",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Chinook Mid"
-        ],
-        "squareFootageFinished": 0,
-        "calculatedSquareFootage": "0",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ]
-      },
-      "cityID": 29550,
-      "cityName": "Medina",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2023-08-25T16:37:53+00:00",
-      "dateModified": "2023-09-25T15:38:09+00:00",
-      "detailsURL": "b045/2149467",
-      "detailsUrlSlug": "7930-NE-32nd-Street-Medina-98039",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2149467/7930-NE-32nd-Street-Medina-98039",
-      "idxID": "b045",
-      "idxPropType": "Land",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1536/63512a1415661c3ea5faa28d1ab22aff/b045",
-          "sizes": [],
-          "caption": "Evergreen Point Prime Development Opportunity. Your Canvas, Your Story!"
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.638919,
-      "listingAgentID": "1186410",
-      "listingID": "2149467",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$3,150,000",
-      "longitude": -122.234023,
-      "mediaData": [],
-      "mlsPhotoCount": 10,
-      "mlsPtID": 7,
-      "ohCount": 0,
-      "parentPtID": 6,
-      "partialBaths": 0,
-      "price": 3150000,
-      "priceData": {
-        "value": {
-          "raw": 3118500,
-          "formatted": "$3,118,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Land",
-      "propType": "Land",
-      "remarksConcat": "Evergreen Point Prime Development Opportunity. Your Canvas, Your Story! This is a prized 18730 SF level, estate lot with mature landscaping nestled in sought-after Medina. Buyers will have the rare opportunity to renew an existing 2,100 SF, 4 bed, 3 bath original home with its walls of windows and vaulted ceilings or construct their new masterpiece. Convenience meets luxury with seamless access to downtown Bellevue, Kirkland, Redmond and Seattle.",
-      "rntLse": "neither",
-      "rntLsePrice": 3150000,
-      "sellingAgentID": "64227873",
-      "sellingOfficeID": "1005123",
-      "soldDate": "2023-09-22T00:00:00+00:00",
-      "soldPrice": 3118500,
-      "sqFt": "18,730",
-      "state": "Washington",
-      "streetDirection": "NE",
-      "streetName": "32nd Street",
-      "streetNumber": "7930",
-      "subdivision": "Medina",
-      "totalBaths": 0,
-      "viewCount": 6,
-      "vtCount": 0,
-      "zipcode": "98039"
-    },
-    {
-      "acres": "0.027",
-      "address": "129 1st Place SW 3",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "levels": [
-          "Three Or More"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "Ductless HP-Mini Split"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Ductless HP-Mini Split"
-        ],
-        "taxYear": 2023,
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "saleType": "MLS",
-        "viewFrom": "Unit",
-        "bathrooms": "2.75",
-        "furnished": [
-          "Unfurnished"
-        ],
-        "mlsStatus": [
-          "Sold"
-        ],
-        "styleCode": "34 - Condo (3 Levels)",
-        "appliances": [
-          "Dishwasher",
-          "Disposal",
-          "Microwave",
-          "Refrigerator",
-          "Stove/Range"
-        ],
-        "highSchool": [
-          "Mount Rainier High"
-        ],
-        "inclusions": [
-          "Dishwasher",
-          "GarbageDisposal",
-          "Microwave",
-          "Refrigerator",
-          "StoveRange"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Curbs",
-          "Paved",
-          "Sidewalk"
-        ],
-        "petsAllowed": [
-          "Subj to Restrictions"
-        ],
-        "buildingName": "Sapphire on Normandy Road Live Work Condominium",
-        "dwellingType": "Attached",
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "130 - Burien/Normandy Park",
-        "onMarketDate": "2023-07-27T00:00:00+00:00",
-        "parkingTotal": 3,
-        "storiesTotal": 3,
-        "titleCompany": "Chicago - Caitlin Roberts",
-        "unitFeatures": [
-          "Balcony/Deck/Patio",
-          "End Unit",
-          "Insulated Windows",
-          "Primary Bath",
-          "Sprinkler System",
-          "Walk-in Closet"
-        ],
-        "waterfrontYN": "no",
-        "bathsFullMain": "0",
-        "bathsHalfMain": "1",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "2",
-        "busLineNearby": "yes",
-        "entryLocation": "Main",
-        "structureType": [
-          "Multi Family"
-        ],
-        "associationFee": 100,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "1",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "1",
-        "busRouteNumber": "165",
-        "buyerFinancing": [
-          "Conventional"
-        ],
-        "commonInterest": [
-          "Condominium"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "laundryFeatures": [
-          "Electric Dryer Hookup",
-          "Washer Hookup"
-        ],
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "newConstruction": "Completed",
-        "numberOfShowers": "1",
-        "parkingFeatures": [
-          "Off Street",
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 0,
-        "waterHeaterType": "Electric",
-        "applianceHookups": [
-          "Cooking-Electric",
-          "Dryer-Electric",
-          "Washer"
-        ],
-        "bedroomsPossible": 2,
-        "elementarySchool": [
-          "Marvista Elem"
-        ],
-        "exteriorFeatures": [
-          "Cement/Concrete"
-        ],
-        "interiorFeatures": [
-          "Wall to Wall Carpet",
-          "Balcony/Deck/Patio",
-          "Cooking-Electric",
-          "Dryer-Electric",
-          "Washer",
-          "Water Heater"
-        ],
-        "mlsLotSizeSource": "Public Records",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Not Provided",
-        "buildingAreaTotal": 1750,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "communityFeatures": [
-          "Fire Sprinklers",
-          "Outside Entry"
-        ],
-        "floorNumberOfUnit": "1",
-        "lotSizeSquareFeet": 1155,
-        "mainLevelBedrooms": 0,
-        "shortTermRentalYN": "no",
-        "appliancesIncluded": [
-          "Dishwasher",
-          "Garbage Disposal",
-          "Microwave",
-          "Refrigerator",
-          "Stove/Range"
-        ],
-        "architecturalStyle": [
-          "Contemporary"
-        ],
-        "highSchoolDistrict": [
-          "Highline"
-        ],
-        "yearBuiltEffective": 2023,
-        "firstRightOfRefusal": "no",
-        "parkingSpaceNumbers": "D, E, F",
-        "powerProductionType": [
-          "Electric"
-        ],
-        "waterHeaterLocation": "Closet",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "greenEnergyEfficient": [
-          "Insulated Windows"
-        ],
-        "middleOrJuniorSchool": [
-          "Sylvester Mid"
-        ],
-        "numberOfAccessStairs": "0",
-        "unitsInBuildingTotal": "3",
-        "bathsThreeQuarterMain": "0",
-        "associationFeeIncludes": [
-          "Common Area Maintenance"
-        ],
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "1",
-        "commonPropertyFeatures": [
-          "Fire Sprinklers",
-          "Outside Entry"
-        ],
-        "mlsSquareFootageSource": "Public Records",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "1750",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "numberOfUnitsInCommunity": 3,
-        "specialListingConditions": [
-          "None"
-        ]
-      },
-      "bedrooms": 2,
-      "cityID": 33166,
-      "cityName": "Normandy Park",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2023-07-27T22:21:03+00:00",
-      "dateModified": "2023-09-20T20:15:10+00:00",
-      "detailsURL": "b045/2143711",
-      "detailsUrlSlug": "129-1st-Place-SW-3-Normandy-Park-98166",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2143711/129-1st-Place-SW-3-Normandy-Park-98166",
-      "halfBaths": 2,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b94c/c49b73c5be66a365ae4b550a5ce69921/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.440826,
-      "listingAgentID": "1186410",
-      "listingID": "2143711",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$679,500",
-      "longitude": -122.336692,
-      "mediaData": [],
-      "mlsPhotoCount": 13,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 3,
-      "price": 679500,
-      "priceData": {
-        "value": {
-          "raw": 675000,
-          "formatted": "$675,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Condominium",
-      "propType": "Residential",
-      "remarksConcat": "Unique opportunity in Normandy Park- NEW CONSTRUCTION LIVE /WORK Condo. This premiere corner unit is a spacious light filled 2 bedroom, 2.5 bath unit. It boasts an open concept living space with beautiful LVP flooring throughout. Enjoy your meals from the chef’s kitchen with quartz countertops, stainless steel appliances and breakfast bar or relax in your bright living space. The lower level has separate entry to open space w/powder room. Amazing parking, street visibility, convenience & walking score. The commercial or residential space can be used personally or leased out separately or together. All located close to shops, amenities, freeways & airport. Square Footage: 480 Sq Ft Commercial with 1,270 Sq Ft Residential.",
-      "rntLse": "neither",
-      "rntLsePrice": 679500,
-      "sellingAgentID": "1187326",
-      "sellingOfficeID": "1000100",
-      "soldDate": "2023-09-20T00:00:00+00:00",
-      "soldPrice": 675000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "1st Place SW",
-      "streetNumber": "129",
-      "subdivision": "Normandy Park",
-      "threeQuarterBaths": 1,
-      "totalBaths": 4,
-      "unitNumber": "3",
-      "viewCount": 7,
-      "vtCount": 0,
-      "yearBuilt": 2023,
-      "zipcode": "98166"
     }
   ]
 }
