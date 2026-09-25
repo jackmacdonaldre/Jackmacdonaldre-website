@@ -213,7 +213,9 @@
       "city": "Kirkland",
       "neighborhood": "Rose Hill",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "rose-hill-kirkland-schools-which-elementary-middle-and-high-school-feeds-each-street",
+      "published_date": "2026-09-25"
     },
     {
       "topic": "Best Parks in Kirkland, WA for Families",
