@@ -6,7 +6,10 @@ const { factCheckArticle } = require("./fact-check");
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!ANTHROPIC_API_KEY) {
   console.error("Missing ANTHROPIC_API_KEY environment variable.");
-  process.exit(1);
+  if (process.env.GITHUB_ENV) {
+    fs.appendFileSync(process.env.GITHUB_ENV, "POST_FAILED=true\nFAILURE_REASON=The ANTHROPIC_API_KEY secret is missing from the GitHub repo, so no post could be written.\n");
+  }
+  process.exit(0);
 }
 
 const QUEUE_PATH = path.join(__dirname, "..", "content", "topics-queue.json");
@@ -29,6 +32,14 @@ if (!fs.existsSync(POSTS_DATA_PATH)) {
   process.exit(1);
 }
 const existingFileText = fs.readFileSync(POSTS_DATA_PATH, "utf8");
+
+// Backup run (a few hours after the main run): only publish if today's post
+// is missing, e.g. because the Anthropic API was down during the main run.
+const today = new Date().toISOString().split("T")[0];
+if (process.env.CATCHUP_RUN === "true" && existingFileText.includes(`"publishedDate":"${today}"`)) {
+  console.log("Backup run: today's post is already live, nothing to do.");
+  process.exit(0);
+}
 const slug = slugify(nextTopic.topic);
 
 if (existingFileText.includes(`"${slug}"`)) {
@@ -73,55 +84,84 @@ Neighborhood: ${nextTopic.neighborhood || "N/A"}
 
 Remember: educate first, no sales pitch or call to action at the end, zero dashes of any kind, not even hyphens in compound words. Write like Jack is actually explaining this to someone in person, not marketing to them.`;
 
+// Records a line for later workflow steps (the notification email).
+function setEnv(name, value) {
+  if (process.env.GITHUB_ENV) {
+    fs.appendFileSync(process.env.GITHUB_ENV, `${name}=${String(value).replace(/[\r\n]+/g, " ")}\n`);
+  }
+}
+
+// Asks Claude for the article, retrying a few times if the API has a hiccup or
+// the reply isn't valid JSON. Returns null only if every attempt fails.
+async function writeArticle() {
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      const response = await fetch("https://api.anthropic.com/v1/messages", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-api-key": ANTHROPIC_API_KEY,
+          "anthropic-version": "2023-06-01",
+        },
+        body: JSON.stringify({
+          model: "claude-sonnet-4-6",
+          max_tokens: 6000,
+          system: SYSTEM_PROMPT,
+          messages: [{ role: "user", content: USER_PROMPT }],
+        }),
+      });
+      if (!response.ok) throw new Error(`Claude API error ${response.status}: ${(await response.text()).slice(0, 300)}`);
+      const data = await response.json();
+      const rawText = (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("");
+      const cleaned = rawText.replace(/```json|```/g, "");
+      const parsed = JSON.parse(cleaned.slice(cleaned.indexOf("{"), cleaned.lastIndexOf("}") + 1));
+      if (!parsed.title || !parsed.body_html) throw new Error("Draft was missing a title or body");
+      return parsed;
+    } catch (err) {
+      console.error(`Writing attempt ${attempt} failed:`, err.message);
+      if (attempt < 4) await new Promise((r) => setTimeout(r, attempt * 30000));
+    }
+  }
+  return null;
+}
+
 (async () => {
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": ANTHROPIC_API_KEY,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-6",
-      max_tokens: 4000,
-      system: SYSTEM_PROMPT,
-      messages: [{ role: "user", content: USER_PROMPT }],
-    }),
-  });
-
-  if (!response.ok) {
-    console.error("Claude API error:", response.status, await response.text());
-    process.exit(1);
+  const article = await writeArticle();
+  if (!article) {
+    // Nothing could be written at all, so tell Jack right away instead of failing silently.
+    console.error("Could not get a usable draft after 4 attempts. The topic stays queued.");
+    setEnv("POST_FAILED", "true");
+    setEnv("FAILURE_REASON", `The writing step could not produce the post "${nextTopic.topic}" after 4 tries (Anthropic API problem). The topic is still queued. A backup run later today tries again automatically, and if that also fails, the next scheduled run will. You can also run it manually from the GitHub Actions tab.`);
+    process.exit(0);
   }
 
-  const data = await response.json();
-  const rawText = data.content.find((b) => b.type === "text")?.text || "";
-
-  let article;
-  try {
-    const cleaned = rawText.replace(/```json|```/g, "");
-    article = JSON.parse(cleaned.slice(cleaned.indexOf("{"), cleaned.lastIndexOf("}") + 1));
-  } catch (err) {
-    console.error("Failed to parse Claude's response as JSON. Skipping this run.", err);
-    process.exit(1);
-  }
-
-  // Fact check BEFORE publishing (see fact-check.js). If the check can't run at
-  // all, nothing is published and the topic stays queued for the next run.
-  let factCheck;
+  // Fact check BEFORE publishing (see fact-check.js). Jack's rule: the post
+  // ALWAYS goes out on schedule. If the check can't run, publish the draft
+  // anyway and email Jack a clear warning listing what needs a look.
+  let factCheck = null;
+  let factSummary;
   try {
     factCheck = await factCheckArticle(ANTHROPIC_API_KEY, article, nextTopic);
   } catch (err) {
-    console.error("Fact check failed, so this post was NOT published. The topic stays queued for the next run.", err);
-    process.exit(1);
+    console.error("Fact check could not run. Publishing anyway and flagging it for Jack.", err);
   }
-  article.title = factCheck.title;
-  article.meta_description = factCheck.meta_description;
-  article.body_html = factCheck.body_html;
-  article.faq = factCheck.faq;
-  const corrected = factCheck.changes.filter((c) => c.action === "corrected").length;
-  const generalized = factCheck.changes.length - corrected;
-  const factSummary = `Fact checked by ${factCheck.method}: ${factCheck.claims_checked} claims checked, ${corrected} corrected, ${generalized} made general or removed.`;
+  if (factCheck) {
+    article.title = factCheck.title;
+    article.meta_description = factCheck.meta_description;
+    article.body_html = factCheck.body_html;
+    article.faq = factCheck.faq;
+    const corrected = factCheck.changes.filter((c) => c.action === "corrected").length;
+    const generalized = factCheck.changes.length - corrected;
+    factSummary = `Fact checked by ${factCheck.method}: ${factCheck.claims_checked} claims checked, ${corrected} corrected, ${generalized} made general or removed.`;
+    if (factCheck.method !== "web search") {
+      setEnv("FACT_CHECK_CONCERN", "The web search fact check was unavailable, so a stricter backup check was used instead. It removed uncertain details rather than verifying them. Worth a quick read.");
+    }
+  } else {
+    factCheck = { changes: [] };
+    factSummary = "FACT CHECK COULD NOT RUN. This post was published without verification.";
+    const notes = (article.review_notes || "").trim();
+    setEnv("FACT_CHECK_CONCERN", "The automatic fact check could not run, so this post went live without it. Please read it and reply if anything looks off." + (notes ? ` Things the writer itself was unsure about: ${notes}` : ""));
+  }
   console.log(factSummary);
   factCheck.changes.forEach((c) => console.log(` * ${c.action}: ${c.what} (${c.source})`));
 
@@ -186,6 +226,8 @@ Remember: educate first, no sales pitch or call to action at the end, zero dashe
     fs.appendFileSync(process.env.GITHUB_ENV, `NEW_POST_URL=https://jackmacdonaldre.com/blog/${slug}/\n`);
     fs.appendFileSync(process.env.GITHUB_ENV, `REMAINING_TOPICS=${remainingCount}\n`);
     fs.appendFileSync(process.env.GITHUB_ENV, `FACT_CHECK_SUMMARY=${factSummary.replace(/\n/g, " ")}\n`);
+    const unverified = factCheck.changes.filter((c) => c.action !== "corrected").map((c) => c.what).slice(0, 8).join("; ");
+    if (unverified) fs.appendFileSync(process.env.GITHUB_ENV, `FACT_CHECK_UNVERIFIED=${unverified.replace(/[\r\n]+/g, " ")}\n`);
     if (remainingCount <= LOW_QUEUE_THRESHOLD) {
       fs.appendFileSync(process.env.GITHUB_ENV, "LOW_QUEUE_WARNING=true\n");
     }

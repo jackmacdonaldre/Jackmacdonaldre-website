@@ -14,7 +14,12 @@ const queueEmpty = process.env.QUEUE_EMPTY === "true";
 const apiKey = process.env.RESEND_API_KEY;
 const to = process.env.NOTIFY_EMAIL || "jack@macdonaldgroupre.com";
 
-if (!title && !queueEmpty) {
+const postFailed = process.env.POST_FAILED === "true" || process.env.JOB_STATUS === "failure";
+const failureReason = process.env.FAILURE_REASON || "Something in the publishing workflow broke before the post could go live. Check the latest run in the GitHub Actions tab, or ask Claude to look.";
+const concern = process.env.FACT_CHECK_CONCERN;
+const unverified = process.env.FACT_CHECK_UNVERIFIED;
+
+if (!title && !queueEmpty && !postFailed) {
   console.log("Nothing to notify about this run — skipping email.");
   process.exit(0);
 }
@@ -25,6 +30,13 @@ if (!apiKey) {
 }
 
 function buildEmail() {
+  if (postFailed) {
+    return {
+      subject: "Action needed: today's blog post did not publish",
+      html: `<p><strong>Today's scheduled blog post did not go live.</strong></p><p>${failureReason}</p>`,
+    };
+  }
+
   if (queueEmpty) {
     return {
       subject: "Action needed: your blog topic queue is empty",
@@ -34,8 +46,14 @@ function buildEmail() {
   }
 
   let html = `<p>A new post just went live on your site:</p><p><strong>${title}</strong></p><p><a href="${url}">${url}</a></p>`;
+  if (concern) {
+    html = `<p style="padding: 12px; background: #fff4e5; border: 1px solid #f0b35b;"><strong>Please review:</strong> ${concern}</p>` + html;
+  }
   if (process.env.FACT_CHECK_SUMMARY) {
     html += `<p style="color: #555;">${process.env.FACT_CHECK_SUMMARY}</p>`;
+  }
+  if (unverified) {
+    html += `<p style="color: #555;">Details the fact check could not verify, so it made them general or removed them: ${unverified}</p>`;
   }
 
   if (lowQueueWarning) {
@@ -43,7 +61,7 @@ function buildEmail() {
   }
 
   return {
-    subject: `New blog post published: ${title}`,
+    subject: `${concern ? "Please review: " : ""}New blog post published: ${title}`,
     html,
   };
 }
