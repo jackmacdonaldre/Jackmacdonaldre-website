@@ -40,4 +40,48 @@ Disallow: /blog-drafts/
 Disallow: /auto-blog-system/
 Disallow: /uploads/
 
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /blog-drafts/
+Disallow: /auto-blog-system/
+Disallow: /uploads/
+
 Sitemap: https://jackmacdonaldre.com/sitemap.xml
+
+# Plain text guide to this site for AI assistants: https://jackmacdonaldre.com/llms.txt
