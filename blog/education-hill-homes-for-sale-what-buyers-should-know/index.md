@@ -15,9 +15,9 @@ I have been working the Eastside market for a long time, and Education Hill is o
 
 ## What the Streets Actually Feel Like
 
-Education Hill rises up from the flats of Redmond with views that catch you off guard if you are not expecting them. The terrain gives the neighborhood a distinct sense of place. Streets like Education Hill Drive NE and the blocks surrounding Grass Lawn Park have a quieter residential feel that does not always match what buyers expect when they hear Redmond. Most people associate Redmond with tech campuses and new construction. Education Hill is something else. It is older tree cover, established lots, and a mix of ramblers, split levels, and updated Craftsman style homes that reflect decades of real use.
+Education Hill rises up from the flats of Redmond with views that catch you off guard if you are not expecting them. The terrain gives the neighborhood a distinct sense of place. The residential streets off 166th Ave NE and the blocks surrounding Hartman Park have a quieter residential feel that does not always match what buyers expect when they hear Redmond. Most people associate Redmond with tech campuses and new construction. Education Hill is something else. It is older tree cover, established lots, and a mix of ramblers, split levels, and updated Craftsman style homes that reflect decades of real use.
 
-Grass Lawn Park is one of the anchors here. It is a large, well used park with athletic fields, a community center, and open space that draws families from across the area. If you have kids who play any kind of organized sport, you will probably spend time there regardless of where you live in Redmond. Living within walking distance of it is a genuine quality of life upgrade, not a marketing line.
+Hartman Park is one of the anchors here. It is a 40 acre park with baseball and turf fields, tennis and pickleball courts, trails, and the Redmond Pool, and it draws families from across the area. If you have kids who play any kind of organized sport, you will probably spend time there regardless of where you live in Redmond. Living within walking distance of it is a genuine quality of life upgrade, not a marketing line.
 
 ## Schools and Why They Drive Demand
 
@@ -49,7 +49,7 @@ If you are thinking about buying or selling on Education Hill and want to talk t
 
 ### What makes Education Hill in Redmond a popular neighborhood for families?
 
-Education Hill is served by the Lake Washington School District, which has a strong reputation across the Eastside. The neighborhood also has direct access to Grass Lawn Park, generous lot sizes relative to other Eastside areas, and a quieter residential feel that appeals to families who want space without moving far from Redmond's core.
+Education Hill is served by the Lake Washington School District, which has a strong reputation across the Eastside. The neighborhood is also home to Hartman Park, generous lot sizes relative to other Eastside areas, and a quieter residential feel that appeals to families who want space without moving far from Redmond's core.
 
 ### How competitive is the real estate market on Education Hill?
 

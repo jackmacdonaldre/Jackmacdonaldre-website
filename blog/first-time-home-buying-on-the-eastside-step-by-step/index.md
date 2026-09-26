@@ -61,7 +61,7 @@ Once a seller accepts your offer, you're in what's called the mutual acceptance 
 
 A few things to be careful about during this stretch: do not make any large purchases on credit, do not change jobs if you can avoid it, and do not move money around between accounts in ways that will be hard to document. Lenders reverify your financial situation right before closing, and changes that affect your debt to income ratio or deposit history can create last minute problems.
 
-You'll also do a final walkthrough of the home, typically in the day or two before closing. This is to confirm the property is in the agreed, upon condition, not a time to negotiate new items. If something has changed since inspection, that's the time to flag it.
+You'll also do a final walkthrough of the home, typically in the day or two before closing. This is to confirm the property is in the agreed upon condition, not a time to negotiate new items. If something has changed since inspection, that's the time to flag it.
 
 ## A Few Things Nobody Tells You Until After
 
@@ -79,7 +79,7 @@ At minimum, you need your down payment plus closing costs plus some cushion left
 
 ### Do I need 20 percent down to buy on the Eastside?
 
-No, but it helps in competitive situations. Conventional loans allow as little as 5 percent down, and there are programs with lower thresholds. That said, many Eastside homes fall into jumbo loan territory, which typically requires 20 percent. And in multiple, offer situations, a larger down payment does signal financial strength to sellers. If 20 percent is not realistic right now, that doesn't disqualify you, but you should understand how your offer might be perceived in a competitive situation.
+No, but it helps in competitive situations. Conventional loans allow as little as 3 percent down for qualifying first time buyers, and FHA allows 3.5 percent. That said, many Eastside homes fall into jumbo loan territory, which typically requires 20 percent. And in multiple offer situations, a larger down payment does signal financial strength to sellers. If 20 percent is not realistic right now, that doesn't disqualify you, but you should understand how your offer might be perceived in a competitive situation.
 
 ### How long does it usually take from starting the process to closing?
 

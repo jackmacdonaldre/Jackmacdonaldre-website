@@ -11,7 +11,7 @@ Web page: https://jackmacdonaldre.com/blog/finn-hill-homes-for-sale-neighborhood
 
 Finn Hill is one of those neighborhoods that doesn't always come up first when people start searching in Kirkland, partly because it sits on the northern edge of the city and doesn't have the same name recognition as Juanita or Totem Lake. But it's a substantial residential area, and for buyers who do their homework, it often offers more space and more tree cover than neighborhoods closer to downtown Kirkland at a lower price per square foot.
 
-The neighborhood occupies a ridge above the east side of Lake Washington, roughly between Juanita to the south and Kenmore and Bothell to the north. It's a mostly residential area with little commercial development inside it, which is a feature for some buyers and a frustration for others depending on what you're looking for day to day.
+The neighborhood occupies a ridge on the northeast side of Lake Washington, with the lake to the south and west, Juanita to the east, and Kenmore to the north. It's a mostly residential area with little commercial development inside it, which is a feature for some buyers and a frustration for others depending on what you're looking for day to day.
 
 ## What the Housing Stock Looks Like
 
@@ -27,25 +27,25 @@ Finn Hill falls within the Lake Washington School District, which is consistentl
 
 ## What the Commute Looks Like
 
-This is where Finn Hill requires an honest conversation. If you're commuting to Seattle, you're looking at a meaningful drive. Getting down to I 405 and then over SR 520 or across the 520 bridge can take 30 to 50 minutes in morning traffic, sometimes more. There's no light rail station nearby, and the bus connections from this part of Kirkland are limited compared to areas closer to transit corridors.
+This is where Finn Hill requires an honest conversation. If you're commuting to Seattle, you're looking at a meaningful drive. Getting down to I 405 and then over SR 520 or across the 520 bridge can take a long time in morning traffic, so test drive the route at your actual commute hour. There's no light rail station nearby, and the bus connections from this part of Kirkland are limited compared to areas closer to transit corridors.
 
 If you work in Kirkland, Redmond, or Bothell, the picture is much better. The drive to the Redmond tech campuses or to downtown Kirkland is manageable, and Bothell is practically next door. Finn Hill tends to work well for people whose jobs are on the Eastside rather than people making a daily run into Seattle.
 
 ## Finn Hill Park and Getting Outside
 
-One of the genuinely underappreciated things about this neighborhood is the trail access. Finn Hill Park is a forested city park with walking and running trails that feel removed from the surrounding suburbs. It's not a manicured park with soccer fields and picnic tables. It's quiet, wooded, and good for people who want to step into trees without driving somewhere first.
+One of the genuinely underappreciated things about this neighborhood is the trail access. Big Finn Hill Park is a 220 acre King County park with about 9.5 miles of forested trails that feel removed from the surrounding suburbs. There are ballfields, a playground, and a picnic shelter on the east side, but most of the park is quiet woods. It's quiet, wooded, and good for people who want to step into trees without driving somewhere first.
 
-The neighborhood is also within reasonable distance of Saint Edward State Park on the lake, which is a significant piece of land with trails, a historic building, and waterfront access. You're not on the water living in Finn Hill, but you can get to the lake without much effort.
+The neighborhood is also within reasonable distance of Saint Edward State Park on the lake, which is a significant piece of land with trails, a historic building, and waterfront access. Most Finn Hill homes aren't on the water, but you can get to the lake without much effort.
 
 ## Walkability and Day to Day Errands
 
-Finn Hill is not a walkable neighborhood for most daily errands. There's a QFC at the Juanita Village shopping center nearby and some additional retail around Totem Lake, but you're going to drive for groceries, coffee, and most other things. The streets are designed for cars, and the topography makes walking to commercial areas impractical for most residents.
+Finn Hill is not a walkable neighborhood for most daily errands. There's a QFC on Juanita Drive NE in the Inglewood area of Finn Hill, plus more retail around Juanita Village and Totem Lake, but you're going to drive for groceries, coffee, and most other things. The streets are designed for cars, and the topography makes walking to commercial areas impractical for most residents.
 
 If walkability is a priority, this is a real tradeoff to think about. It's not a dealbreaker for everyone, but it's not something to gloss over either.
 
 ## How Finn Hill Compares to Juanita
 
-Juanita is the neighborhood directly to the south, and it's a useful comparison point. Juanita has more commercial activity, is closer to Juanita Beach Park on the lake, and tends to have smaller lots with homes in a similar age range. Finn Hill generally offers larger lots and more tree coverage, but you give up proximity to the water and to the retail corridor along 98th Avenue.
+Juanita is the neighborhood directly to the east, and it's a useful comparison point. Juanita has more commercial activity, is closer to Juanita Beach Park on the lake, and tends to have smaller lots with homes in a similar age range. Finn Hill generally offers larger lots and more tree coverage, but you give up proximity to the water and to the retail corridor along 98th Avenue.
 
 Price per square foot between the two neighborhoods tends to be fairly close, though specific streets and view lots can shift things considerably in either direction. The choice between them usually comes down to whether you want to be closer to the lake and walkable retail versus more space and a quieter setting up on the hill.
 
@@ -59,7 +59,7 @@ It's not the right fit for someone who wants to walk to dinner or be close to do
 
 ### Is Finn Hill part of Kirkland or is it its own city?
 
-Finn Hill is part of the city of Kirkland. It was annexed by Kirkland in 2011 along with several other neighborhoods, including Juanita and Kingsgate. Before that annexation it was unincorporated King County.
+Finn Hill is part of the city of Kirkland. It was annexed by Kirkland in 2011 along with North Juanita and Kingsgate. Before that annexation it was unincorporated King County.
 
 ### What school district serves Finn Hill?
 
@@ -67,11 +67,11 @@ Finn Hill is in the Lake Washington School District. Finn Hill Middle School is 
 
 ### How long is the commute from Finn Hill to Seattle?
 
-Plan for 40 to 55 minutes in typical morning traffic heading into Seattle, depending on exactly where you're going. The drive involves getting to I 405 and then crossing via SR 520 or I 90, both of which see significant congestion during peak hours. Eastside commutes to Redmond or Bellevue are considerably shorter.
+Plan for a long drive in typical morning traffic heading into Seattle, and test the route at your actual commute hour before you buy. The drive involves getting to I 405 and then crossing via SR 520 or I 90, both of which see significant congestion during peak hours. Eastside commutes to Redmond or Bellevue are considerably shorter.
 
 ### Are there homes with lake views in Finn Hill?
 
-Some homes on the western slopes of Finn Hill have views of Lake Washington, and those properties typically command a premium. True waterfront doesn't exist in this neighborhood since it sits on a ridge above the lake rather than on the shoreline.
+Some homes on the western slopes of Finn Hill have views of Lake Washington, and those properties typically command a premium. Finn Hill does include some Lake Washington shoreline, so true waterfront homes exist here, but they are rare and priced accordingly.
 
 ### What's the typical lot size in Finn Hill?
 

@@ -11,27 +11,27 @@ People moving here from other parts of the country often have one of two reactio
 
 ## Housing Is the Big Number
 
-There is no way around it. Housing is where Bellevue separates itself from most of the country, and even from most of the Pacific Northwest. As of mid 2025, median home prices in Bellevue sit somewhere in the range of $1.4 to $1.7 million depending on the neighborhood, with areas like West Bellevue and parts of the Bridle Trails corridor running significantly higher. East Bellevue and parts closer to Factoria tend to come in closer to the lower end of that range, but that is still a high floor.
+There is no way around it. Housing is where Bellevue separates itself from most of the country, and even from most of the Pacific Northwest. As of August 2026, the median single family sale price in Bellevue was about $1.8 million according to NWMLS data, with areas like West Bellevue and parts of the Bridle Trails corridor running significantly higher. East Bellevue and parts closer to Factoria tend to come in closer to the lower end of that range, but that is still a high floor.
 
 Condos and townhomes fill some of the gap. There is a real condo market in downtown Bellevue and along the Spring District area, and prices there can range from the mid $500s for a smaller one bedroom up into the seven figures for newer high rise units. Townhomes in the $800k to $1.1 million range are relatively common in the central and south Bellevue areas.
 
-Renting is not cheap either. A one bedroom apartment in a newer building downtown will typically run $2,200 to $2,800 per month. Two bedrooms in most parts of Bellevue run $2,800 to $3,500, sometimes more in recently constructed buildings. If you are relocating and renting first while you figure out neighborhoods, budget accordingly.
+Renting is not cheap either. A one bedroom apartment in a newer building downtown will typically run around $3,000 per month or more; RentCafe put the average downtown one bedroom at about $3,070 in August 2026. Two bedrooms in most parts of Bellevue run $2,800 to $3,500, sometimes more in recently constructed buildings. If you are relocating and renting first while you figure out neighborhoods, budget accordingly.
 
 ## Washington Has No State Income Tax
 
-This is genuinely meaningful if you are coming from California, Oregon, New York, or most other states. Washington does not tax personal income. For a household earning $200,000 or more, that can represent a substantial difference in take home pay compared to what you were used to.
+This is genuinely meaningful if you are coming from California, Oregon, New York, or most other states. Washington does not currently tax wage income. A new 9.9 percent tax on income above $1 million was signed in March 2026, but it does not start until 2028, faces a legal challenge, and would not touch most households. For a household earning $200,000 or more, that can represent a substantial difference in take home pay compared to what you were used to.
 
-The tradeoff is that Washington funds itself largely through sales tax, and Bellevue's combined state and local sales tax rate is around 10.2 percent. You will feel that at the register, especially on big purchases. There is also a capital gains tax on gains above $250,000 from the sale of stocks and other assets, though real estate sales are currently excluded from that tax.
+The tradeoff is that Washington funds itself largely through sales tax, and Bellevue's combined state and local sales tax rate is 10.3 percent. You will feel that at the register, especially on big purchases. There is also a 7 percent capital gains tax on long term gains from stocks and other assets above an inflation adjusted standard deduction ($278,000 for 2025), plus an extra 2.9 percent on gains above $1 million, though real estate sales are excluded from that tax.
 
-Property taxes in Bellevue are not particularly low. On a $1.5 million home, annual property taxes are likely to run somewhere in the $12,000 to $15,000 range, depending on the specific parcel and any applicable exemptions. That is worth factoring into your monthly budget if you are comparing the true cost of ownership against renting.
+Property taxes in Bellevue are not particularly low. On a $1.5 million home, annual property taxes are likely to run somewhere around $11,000 to $12,000, depending on the specific parcel and any applicable exemptions. Bellevue's most common levy rate in 2025 was about $7.33 per $1,000 of assessed value. That is worth factoring into your monthly budget if you are comparing the true cost of ownership against renting.
 
 ## Day to Day Expenses
 
-Groceries in the Bellevue area run noticeably higher than the national average. QFC and Safeway are the most common conventional supermarkets. Whole Foods has a presence in the area. Trader Joe's locations in Bellevue and Redmond tend to be a bit more accessible on price. H Mart in Factoria and 99 Ranch Market in nearby Bellevue or Redmond are excellent and often more affordable for produce, meat, and pantry staples, particularly if you cook Asian cuisine regularly.
+Groceries in the Bellevue area run noticeably higher than the national average. QFC and Safeway are the most common conventional supermarkets. Whole Foods has a presence in the area. Trader Joe's locations in Bellevue and Redmond tend to be a bit more accessible on price. H Mart in downtown Bellevue is excellent and often more affordable for produce, meat, and pantry staples, particularly if you cook Asian cuisine regularly.
 
-Dining out is expensive. A sit down dinner for two at a mid range restaurant in downtown Bellevue or around Bellevue Square will easily run $80 to $120 before tip. The Bravern area and some of the newer restaurant openings around the Spring District skew even higher. You can eat well for less if you explore Factoria, parts of the Eastgate area, or the strip malls along Bel, Red Road, which have a lot of good independent and ethnic restaurants at friendlier prices.
+Dining out is expensive. A sit down dinner for two at a mid range restaurant in downtown Bellevue or around Bellevue Square will easily run $80 to $120 before tip. The Bravern area and some of the newer restaurant openings around the Spring District skew even higher. You can eat well for less if you explore Factoria, parts of the Eastgate area, or the strip malls along Bel Red Road, which have a lot of good independent and ethnic restaurants at friendlier prices.
 
-Utilities are relatively reasonable by the standards of a high cost city. Seattle City Light and PSE serve different parts of the area, and electricity bills for a typical single family home tend to run $100 to $180 per month depending on the season and the size of the home. Natural gas adds another $50 to $150 in winter months. Water and sewer are set by the city and are not unusually high.
+Utilities are relatively reasonable by the standards of a high cost city. Puget Sound Energy provides electricity in Bellevue, and electricity bills for a typical single family home tend to run $100 to $180 per month depending on the season and the size of the home. Natural gas adds another $50 to $150 in winter months. Water and sewer are set by the city and are not unusually high.
 
 Childcare costs are a real factor for families with young kids. Full time daycare in Bellevue can run $2,000 to $2,500 per month per child at licensed centers. In home nannies are higher. This is one of the areas that surprises people the most if they are moving from a lower cost region.
 
@@ -39,7 +39,7 @@ Childcare costs are a real factor for families with young kids. Full time daycar
 
 Most people in Bellevue own a car, and most households own two. The city is built around driving, and while that is slowly changing with the East Link light rail extension bringing rail access to Bellevue and Redmond, for now a car is close to essential for most daily routines outside of downtown.
 
-Gas prices in the Seattle metro area consistently run 30 to 60 cents per gallon above the national average. Parking downtown is metered and not cheap, though it is more manageable than downtown Seattle. If you work in Seattle and are commuting across the lake, tolls on SR 520 add up over a month, running roughly $5 to $6 per trip depending on the time of day and your payment method.
+Gas prices in Washington have recently run about $1 per gallon above the national average (AAA, September 2026). Parking downtown is metered and not cheap, though it is more manageable than downtown Seattle. If you work in Seattle and are commuting across the lake, tolls on SR 520 add up over a month, with the weekday peak toll at $4.90 per trip with a Good To Go pass, less off peak, and $2 more per trip if you pay by mail.
 
 The new light rail link changes the calculus somewhat for people working near downtown Seattle or near a station. If your office is close to a station on both ends, it is genuinely convenient and eliminates the toll and the bridge traffic stress. For everyone else, the commute math still usually involves a car at some point.
 
@@ -57,7 +57,7 @@ This is a rough illustration, not financial advice. A dual income household earn
 
 * Mortgage payment (principal and interest at current rates): approximately $7,000 to $8,000
 
-* Property taxes and homeowner's insurance: approximately $1,300 to $1,500
+* Property taxes and homeowner's insurance: approximately $1,000 to $1,300
 
 * Groceries for a family of four: approximately $1,000 to $1,400
 
@@ -69,7 +69,7 @@ This is a rough illustration, not financial advice. A dual income household earn
 
 * Utilities: $300 to $500
 
-That is a significant monthly outflow, and it does not leave enormous room after taxes even at $300,000 in household income. People make it work, often because income growth in the tech sector outpaces the cost of living increases over time, but it is worth being clear, eyed about the numbers before you move.
+That is a significant monthly outflow, and it does not leave enormous room after taxes even at $300,000 in household income. People make it work, often because income growth in the tech sector outpaces the cost of living increases over time, but it is worth being clear eyed about the numbers before you move.
 
 ## Common Questions
 
@@ -83,7 +83,7 @@ For high earners, yes, meaningfully so. Someone earning $250,000 in California m
 
 ### What are property taxes like on a typical Bellevue home?
 
-On a home assessed around $1.5 million, expect annual property taxes somewhere in the $12,000 to $15,000 range. Rates vary by parcel and can shift with levy changes, so it is worth pulling the actual tax record for any specific property you are considering rather than estimating.
+On a home assessed around $1.5 million, expect annual property taxes somewhere around $11,000 to $12,000, based on Bellevue's most common 2025 levy rate of about $7.33 per $1,000. Rates vary by parcel and can shift with levy changes, so it is worth pulling the actual tax record for any specific property you are considering rather than estimating.
 
 ### How much does childcare cost in Bellevue?
 

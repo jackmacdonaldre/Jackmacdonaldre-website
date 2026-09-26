@@ -13,23 +13,23 @@ I'm not a coffee reviewer, but I spend a lot of time in these neighborhoods and 
 
 ## Downtown Bellevue
 
-The downtown core is dense enough now that you have real options within a few blocks of each other. **Caffe Ladro** has a location near the Lincoln Square area and draws a mix of office workers and people just off the Bellevue Transit Center. It's a Pacific Northwest small chain with consistent quality and a calm enough atmosphere that you can actually sit and work without feeling like you need to clear out.
+The downtown core is dense enough now that you have real options within a few blocks of each other. **Caffe Ladro** has a location at 333 108th Avenue NE, a short walk from the Bellevue Transit Center, and draws a mix of office workers and people just off the Bellevue Transit Center. It's a Pacific Northwest small chain with consistent quality and a calm enough atmosphere that you can actually sit and work without feeling like you need to clear out.
 
-**Storyville Coffee** is the one that gets mentioned most often when people are looking for something a step above the usual. They source carefully and take the craft seriously. The space inside Bellevue Square is better than you'd expect for a mall setting. If you're spending time downtown and want something worth paying attention to, that's the one.
+**Mercurys Coffee** opened a downtown shop at City Center Bellevue on 108th Avenue NE in late 2024. It's an Eastside company that roasts its own coffee, and it opens early on weekdays, which makes it an easy stop before work.
 
-There's also a **Seattle's Best** presence and various hotel lobby options, but those are more about convenience than experience.
+There are also plenty of Starbucks locations and various hotel lobby options, but those are more about convenience than experience.
 
 ## Crossroads and the Eastside Middle Belt
 
-Crossroads is one of the more interesting parts of Bellevue to watch right now. The neighborhood has a lot of cultural and culinary diversity that downtown doesn't quite have, and the coffee reflects that. **Panera** and chain options are there, but locals tend to gravitate toward smaller spots.
+Crossroads is one of the more interesting parts of Bellevue to watch right now. The neighborhood has a lot of cultural and culinary diversity that downtown doesn't quite have, and the coffee reflects that. Chain options are there, but locals tend to gravitate toward smaller spots.
 
-**Hood Famous Cafe and Bar** is technically focused on ube desserts and Filipino American food, but they do espresso drinks and the combination of a genuinely good latte with something from their case is worth knowing about. It's one of those places that feels specific to this part of the country rather than generic.
+Crossroads' smaller spots change often, so it's worth walking the shopping center and the nearby plazas to see what's open now rather than relying on an old list.
 
 If you're in the Crossroads area regularly, the Crossroads Shopping Center itself has changed a lot and draws a community crowd in a way that the downtown mall doesn't. Coffee there tends to be tied to errands and social time rather than a destination visit.
 
 ## Bellevue's Quieter Pockets: Somerset, Factoria, and Points South
 
-This is where the chain dependence is most noticeable. Somerset and the Factoria area are primarily residential, and the coffee options are mostly tied to grocery store plazas and drive throughs. There are Starbucks locations, a Dutch Bros, and similar. If you live in this part of Bellevue and want something more independent, you're generally driving north toward downtown or east toward Issaquah.
+This is where the chain dependence is most noticeable. Somerset and the Factoria area are primarily residential, and the coffee options are mostly tied to grocery store plazas and drive throughs. There are Starbucks locations and similar chain options. If you live in this part of Bellevue and want something more independent, you're generally driving north toward downtown or east toward Issaquah.
 
 That's not a knock on the area. It's just a real thing to know if your morning coffee routine matters to you.
 
@@ -43,9 +43,9 @@ A few shops just outside Bellevue's city limits get used by Bellevue residents r
 
 **Zoka Coffee** has a Kirkland location on Central Way that draws people from the south end of Kirkland and occasionally from north Bellevue. Their roasting operation is taken seriously and it shows in the cup.
 
-**Mercurys Coffee** has multiple Eastside locations including Redmond and Kirkland, and it's a locally grown chain that actually maintains quality across its stores. It fills a useful middle ground between the pure independents and the national brands.
+**Mercurys Coffee** has multiple Eastside locations, including two in Bellevue itself (a roastery and bakery on NE 20th Street and the downtown City Center shop) plus several in Redmond and Kirkland, and it's a locally grown chain that actually maintains quality across its stores. It fills a useful middle ground between the pure independents and the national brands.
 
-**Herkimer Coffee**, originally a Seattle roaster, is worth knowing if you're on the north end of Bellevue near the Bellevue and Kirkland border.
+**Herkimer Coffee** is a Seattle roaster worth knowing about, but all of its cafes are in Seattle (Phinney Ridge, Ravenna, and downtown), so it's a trip across the lake rather than a neighborhood stop.
 
 ## A Note on How This Connects to Neighborhood Choice
 
@@ -57,11 +57,11 @@ It's a small thing on paper, but small daily routines add up. It's worth thinkin
 
 ### Is there a good independent coffee shop walkable from downtown Bellevue?
 
-Yes. Storyville Coffee inside Bellevue Square and Caffe Ladro near the Lincoln Square area are both walkable from the core of downtown. If you live or work near Bellevue Way or Main Street, you're in reasonable reach of both without needing to drive.
+Yes. Mercurys at City Center Bellevue and Caffe Ladro on 108th Avenue NE are both walkable from the core of downtown. If you live or work near Bellevue Way or Main Street, you're in reasonable reach of both without needing to drive.
 
 ### Does Bellevue have any locally roasted coffee options?
 
-A few. Storyville does their own roasting. Zoka based in Seattle with a Kirkland location nearby, is a legitimate roaster worth knowing. Mercurys is Eastside grown and roasts in house. You're not limited to what comes off a national supply chain.
+A few. Mercurys has a roastery and bakery right in Bellevue on NE 20th Street. Zoka based in Seattle with a Kirkland location nearby, is a legitimate roaster worth knowing. Mercurys is Eastside grown and roasts in house. You're not limited to what comes off a national supply chain.
 
 ### What parts of Bellevue have the fewest coffee options within walking distance?
 
@@ -73,6 +73,6 @@ Seattle has more density of independent shops, especially in neighborhoods like 
 
 ### Are there coffee shops in Bellevue with good space for remote work?
 
-Storyville in Bellevue Square and Caffe Ladro both have seating that works reasonably well for working. Some of the chain locations have more square footage but less atmosphere. The independent shops on the Eastside tend to be smaller, so arriving at an off peak time helps if you need reliable seating.
+Caffe Ladro and the downtown Mercurys are the independent options to try first, but check the seating before planning a long work session. Some of the chain locations have more square footage but less atmosphere. The independent shops on the Eastside tend to be smaller, so arriving at an off peak time helps if you need reliable seating.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/

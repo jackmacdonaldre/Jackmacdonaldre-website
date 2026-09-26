@@ -11,7 +11,7 @@ One of the first things I hear from families relocating to the Eastside is some 
 
 ## What Lake Washington School District Actually Covers
 
-Lake Washington School District, often abbreviated LWSD, is one of the largest districts in Washington State. It covers Kirkland, Redmond, and most of Sammamish, along with parts of Woodinville, Kenmore, and some unincorporated King County areas. What it does not cover is the city of Bellevue itself. Bellevue has its own district: Bellevue School District. These are two entirely separate districts, and buyers sometimes conflate them because the geography of the Eastside can feel like one continuous suburban area.
+Lake Washington School District, often abbreviated LWSD, is one of the largest districts in Washington State. It covers almost all of Kirkland and Redmond and the northern part of Sammamish, along with parts of Woodinville, a small part of Bellevue, and some unincorporated King County areas. Most of Bellevue is in its own district: Bellevue School District. These are two entirely separate districts, and buyers sometimes conflate them because the geography of the Eastside can feel like one continuous suburban area.
 
 If a listing says it feeds into LWSD, that home is almost certainly in Kirkland, Redmond, or Sammamish rather than Bellevue proper. This matters because the two districts have different reputations, different test score profiles, and different school assignment processes.
 
@@ -19,21 +19,21 @@ If a listing says it feeds into LWSD, that home is almost certainly in Kirkland,
 
 Buying into LWSD does not guarantee your child attends any particular school. The district draws attendance boundaries for its elementary, middle, and high schools, and those lines do not always follow obvious geographic logic. Two houses on the same street can feed into different elementary schools. A neighborhood that looks like it should be in one high school's catchment might actually pull to another.
 
-The high schools in LWSD include Juanita, Kirkland, Lake Washington, Redmond, and Eastlake, among others. Each has a distinct feel, a different student population size, and different extracurricular strengths. Some families have preferences among these. If that matters to you, look up the specific parcel before you write an offer, not after.
+LWSD has four comprehensive high schools: Juanita, Lake Washington, Redmond, and Eastlake, plus choice high schools such as Tesla STEM High School and International Community School. Each has a distinct feel, a different student population size, and different extracurricular strengths. Some families have preferences among these. If that matters to you, look up the specific parcel before you write an offer, not after.
 
 LWSD publishes an online boundary lookup tool on its website where you can enter a home address and see exactly which schools serve that address. Use it. Do not rely on what a listing agent tells you, what Zillow shows, or what the sellers say. School boundary data in real estate databases is frequently outdated.
 
 ## The Parts of LWSD That Buyers Compete For Most
 
-Within LWSD, the homes that see the most buyer interest from families are generally in the Redmond and Sammamish portions of the district. The Rose Hill area of Kirkland, which feeds into Lake Washington High School, also gets consistent attention. Sammamish in particular attracts buyers who want newer construction, larger lots, and strong school assignment results, though the tradeoff is distance. Getting in and out of Sammamish during peak commute hours on Issaquah, Pine Lake Road or via I 90 to SR 520 can be genuinely frustrating.
+Within LWSD, the homes that see the most buyer interest from families are generally in the Redmond and Sammamish portions of the district. The Rose Hill area of Kirkland, which feeds into Lake Washington High School, also gets consistent attention. Sammamish in particular attracts buyers who want newer construction, larger lots, and strong school assignment results, though the tradeoff is distance. Getting in and out of Sammamish during peak commute hours on Issaquah Pine Lake Road or out to I 90 or SR 520 can be genuinely frustrating.
 
 Redmond's neighborhoods near Education Hill are popular with families for similar reasons, and they tend to be a bit more accessible to Microsoft and other tech campuses than Sammamish. The housing stock there skews toward homes built in the 1980s and 1990s, so buyers should factor in potential updating costs.
 
 ## Open Enrollment and What It Actually Means
 
-LWSD does offer open enrollment, which allows families to apply for a spot at a school outside their assigned attendance area. The catch is that open enrollment seats are limited, not guaranteed, and assigned by lottery or availability after resident students are placed. Buying a home specifically planning to open enroll your child elsewhere is a gamble that does not always pay off. Most families I talk to are better served by buying in the boundary they actually want rather than banking on open enrollment.
+LWSD does allow in district transfer requests, which it calls variances, so families can apply for a spot at a school outside their assigned attendance area. The catch is that approval depends entirely on space, and for the 2026 to 2027 school year the district lists many schools, including Lake Washington, Redmond, and Eastlake high schools, as closed to transfers. Buying a home specifically planning to open enroll your child elsewhere is a gamble that does not always pay off. Most families I talk to are better served by buying in the boundary they actually want rather than banking on open enrollment.
 
-There are some specialized programs within LWSD, including language immersion programs at certain elementary schools, that draw families from across the district through a separate application process. If one of those programs is a priority for your family, the home's attendance boundary matters less, since those programs are not boundary based. But they are also competitive and have waitlists.
+There are some specialized programs within LWSD, including choice schools and a Spanish English dual language program at Einstein Elementary in Redmond, that draw families from across the district through a separate lottery application process. If one of those programs is a priority for your family, the home's attendance boundary matters less, since those programs are not boundary based. But they are also competitive and have waitlists.
 
 ## How Boundary Uncertainty Affects Home Values
 

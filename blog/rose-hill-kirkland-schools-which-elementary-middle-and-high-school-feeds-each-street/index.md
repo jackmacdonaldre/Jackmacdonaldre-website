@@ -7,15 +7,15 @@ Published: September 25, 2026
 Area: Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/rose-hill-kirkland-schools-which-elementary-middle-and-high-school-feeds-each-street/
 
-One of the most common questions I get from buyers looking at Rose Hill is some version of: "Which school does this house actually go to?" It sounds simple, but Rose Hill sits in a spot where the boundaries are a little less intuitive than people expect. The neighborhood feeds into two different school districts depending on where exactly you are, and even within the same district, elementary boundaries cut through the area in ways that aren't obvious from a map.
+One of the most common questions I get from buyers looking at Rose Hill is some version of: "Which school does this house actually go to?" It sounds simple, but Rose Hill sits in a spot where the boundaries are a little less intuitive than people expect. The whole neighborhood is in the Lake Washington School District, but even within the district, elementary boundaries cut through the area in ways that aren't obvious from a map.
 
 This guide is meant to help you get oriented before you start seriously narrowing down streets. Use it as a starting point, then verify your specific address directly with the district before making any decisions based on school boundaries.
 
-## Two Districts, One Neighborhood
+## One District: Lake Washington
 
-Rose Hill is served primarily by the **Lake Washington School District**, which covers most of Kirkland. However, the southern and western edges of Rose Hill can fall into the **Bellevue School District** depending on exactly where a home sits. This matters a lot because those are two meaningfully different districts with different elementary school assignments, different middle and high school paths, and different reputations.
+Rose Hill is served primarily by the **Lake Washington School District**, which covers most of Kirkland. A very small part of Kirkland is in the **Bellevue School District**, which is why you sometimes hear that Rose Hill straddles two districts, but Rose Hill itself sits north of Kirkland's Bridle Trails neighborhood, and even Franklin Elementary, right across from Bridle Trails State Park, is a Lake Washington school.
 
-The rough dividing line runs near NE 24th Street and points west toward 116th Ave NE, but it is not a clean street by street split. If you are looking at homes near the southern edge of Rose Hill, closer to Bridle Trails State Park or the Bellevue border, checking the district boundary for your specific address is not optional. The Lake Washington and Bellevue district lines here are close enough that two houses on the same block can sometimes differ.
+NE 24th Street is in Bellevue, well south of Rose Hill, so it is not a dividing line for this neighborhood. Rose Hill runs from I 405 east to the Redmond city limits, with Totem Lake to the north and Kirkland's Bridle Trails neighborhood to the south. The lines that really matter inside Rose Hill are the elementary school attendance areas, and two houses on the same block can sometimes differ, so check the specific address.
 
 ## Lake Washington School District: The Path for Most Rose Hill Homes
 
@@ -23,27 +23,27 @@ For the majority of Rose Hill, here is how the school progression works.
 
 ### Elementary School
 
-Most of Rose Hill feeds into **Rose Hill Elementary**, which sits right in the neighborhood on 132nd Ave NE. It is a straightforward walk or short drive for most families in the area, and that proximity is one of the things buyers with young kids genuinely appreciate about this part of Kirkland.
+Rose Hill has two elementary schools inside the neighborhood: **Rose Hill Elementary**, at 8110 128th Ave NE, and **Mark Twain Elementary**, at 9525 130th Ave NE in North Rose Hill. Which one serves a home depends on the attendance boundary, and a few homes near the edges may be assigned to other nearby Lake Washington elementaries. It is a straightforward walk or short drive for most families in the area, and that proximity is one of the things buyers with young kids genuinely appreciate about this part of Kirkland.
 
-A smaller section of Rose Hill, generally toward the northern edges near Totem Lake and 132nd Ave NE further north, may feed into **Muir Elementary** instead. Muir is also in the Lake Washington district but serves a slightly different boundary area. If you are looking at homes north of NE 116th Street or in that transitional zone near Totem Lake, confirm which elementary applies to your specific address.
+You may also see **Muir Elementary** mentioned, but Muir is north of Totem Lake at 14012 132nd Ave NE and feeds the Juanita High School path. If you are looking at homes near the northern edge of Rose Hill toward Totem Lake, confirm which elementary applies to your specific address.
 
 ### Middle School
 
-Students from Rose Hill Elementary typically move on to **Kamiakin Middle School** in Kirkland. Kamiakin is well regarded within the district and draws from several Rose Hill area elementary schools, so the transition tends to be reasonably social since kids from nearby streets arrive together.
+Since the district's middle school boundary changes took effect in the 2024 to 2025 school year, the whole Rose Hill Elementary attendance area goes to **Rose Hill Middle School**, which is actually just over the line in Redmond at 13505 NE 75th St. Rose Hill Middle also draws from the Franklin, Audubon, and Rush Elementary areas, so kids from nearby streets arrive together. The Mark Twain Elementary attendance area feeds **Kirkland Middle School** instead. Both middle schools feed Lake Washington High.
 
-Students from the Muir Elementary boundary in Rose Hill will follow a different middle school path, generally feeding into **Finn Hill Middle School**. Finn Hill is newer and sits further north near Juanita, so if you are coming from the northern edge of Rose Hill, that is worth knowing in terms of commute and community.
+Muir Elementary students go on to **Kamiakin Middle School** or **Finn Hill Middle School**, both in the Juanita High School path. If a home near the northern edge of Rose Hill turns out to be assigned outside the usual Rose Hill schools, that is worth knowing in terms of commute and community.
 
 ### High School
 
-For most of Rose Hill in the Lake Washington district, the assigned high school is **Lake Washington High School** in Kirkland. It is one of the district's larger schools and has strong academic programs. Some Rose Hill addresses, depending on exactly where they fall, may instead be assigned to **Juanita High School**. Juanita is smaller in student population and tends to have a slightly different culture, and some families actively prefer it for that reason.
+For most of Rose Hill in the Lake Washington district, the assigned high school is **Lake Washington High School** in Kirkland. It is one of the district's larger schools and has strong academic programs. The elementary and middle schools that serve Rose Hill all feed Lake Washington High, but if you are near the Totem Lake edge of the neighborhood, confirm the high school for that exact address, since the **Juanita High School** path starts just to the north. Juanita is smaller in student population and tends to have a slightly different culture, and some families actively prefer it for that reason.
 
-The Lake Washington district does allow for some intra district open enrollment, meaning families can request a transfer to a different school within the district. It is not guaranteed and depends on capacity, but it is worth asking about if your assigned school is not your first choice.
+The Lake Washington district does allow in district transfer requests, which it calls variances, but they depend entirely on space, and for the 2026 to 2027 school year the district lists Lake Washington High and Rose Hill Middle as closed to transfers. It is not guaranteed and depends on capacity, but it is worth asking about if your assigned school is not your first choice.
 
-## If Your Address Falls in the Bellevue School District
+## What About the Bellevue School District?
 
-Homes in the southern fringe of Rose Hill that land in the Bellevue School District follow a completely different path. Elementary school would likely be **Sherwood Forest Elementary** or possibly **Phantom Lake Elementary**, depending on exact location. Middle school would be **Tillicum Middle School**, and high school would be **Interlake High School**.
+Rose Hill homes are in Lake Washington, not the Bellevue School District, so you should not expect a Bellevue school assignment here. If you are also shopping in Bellevue, keep in mind its schools follow their own feeder paths. For example, **Sherwood Forest Elementary** feeds **Highland Middle School** and **Interlake High School**, while **Phantom Lake Elementary** is in the **Sammamish High School** path.
 
-The Bellevue district is consistently ranked among the top districts in Washington state, so landing in Bellevue SD is not a downside for most buyers. But it does change the social path your kids follow, and since most of Rose Hill feeds Lake Washington, children in the Bellevue district pocket of Rose Hill may end up at different schools than their immediate neighbors.
+The Bellevue district is consistently ranked among the top districts in Washington state, so landing in Bellevue SD is not a downside for most buyers. But it does change the social path your kids follow, and since Rose Hill is in Lake Washington, a Bellevue home a few miles south puts your kids on a completely different school path.
 
 ## How to Check Your Specific Address
 
@@ -55,7 +55,7 @@ Real estate listings sometimes include school information, but it can be outdate
 
 Yes, but it is more nuanced than people expect. The Lake Washington and Bellevue districts are both strong, so being in one versus the other is not a straightforward better or worse answer. What buyers tend to care about most is predictability and consistency: knowing which school their child will attend and being able to plan around it.
 
-Within Rose Hill's Lake Washington portion, homes that feed directly to Rose Hill Elementary tend to price with a slight premium over otherwise comparable homes in the district, partly because of the proximity to the school and partly because the elementary is well liked by families in the area. Whether that premium is worth paying depends entirely on where you are in life and what you plan to do with the house long term.
+Within Rose Hill, some buyers are willing to pay more to be close to the elementary school their kids will attend, though there is no published data showing a consistent price premium for one Rose Hill attendance area over another. Whether that premium is worth paying depends entirely on where you are in life and what you plan to do with the house long term.
 
 One thing to watch: school boundaries can change. The Lake Washington district has adjusted boundaries in the past as enrollment shifts, so what is true today may not be true in five years. If you are buying specifically for a school, that is worth keeping in mind.
 
@@ -63,19 +63,19 @@ One thing to watch: school boundaries can change. The Lake Washington district h
 
 ### Is Rose Hill in the Lake Washington or Bellevue School District?
 
-Most of Rose Hill falls in the Lake Washington School District. However, homes near the southern edge of the neighborhood, particularly south of NE 24th Street closer to the Bellevue border, may fall in the Bellevue School District. You need to check your specific address using each district's online lookup tool to be certain.
+Rose Hill is in the Lake Washington School District. A very small part of Kirkland is in the Bellevue School District, but Rose Hill sits north of Kirkland's Bridle Trails neighborhood, and NE 24th Street is in Bellevue, well south of Rose Hill. You need to check your specific address using each district's online lookup tool to be certain.
 
 ### What elementary school does Rose Hill feed into?
 
-Most Rose Hill addresses in the Lake Washington district are assigned to Rose Hill Elementary on 132nd Ave NE. Homes on the northern edge of the neighborhood near Totem Lake may feed into Muir Elementary instead. Homes in the Bellevue School District portion of Rose Hill would go to Sherwood Forest or Phantom Lake Elementary depending on location.
+Rose Hill has two elementary schools in the neighborhood: Rose Hill Elementary at 8110 128th Ave NE and Mark Twain Elementary at 9525 130th Ave NE. Which one serves a home, or whether a home near the edges is assigned to another nearby Lake Washington elementary, depends on the exact address, so check the School and Bus Finder at lwsd.org.
 
 ### Does Rose Hill go to Lake Washington High School or Juanita High School?
 
-Most Rose Hill addresses in the Lake Washington district are assigned to Lake Washington High School. Some addresses, depending on where they fall in the boundary, are assigned to Juanita High School instead. The district's address lookup at lwsd.org will tell you which applies to a specific home.
+Most Rose Hill addresses in the Lake Washington district are assigned to Lake Washington High School. If a home near the Totem Lake edge is assigned to a school outside the Rose Hill area, its path could lead to Juanita High School instead, so confirm the specific address. The district's address lookup at lwsd.org will tell you which applies to a specific home.
 
 ### Can I request a different school if I don't like my assigned one?
 
-The Lake Washington School District has an open enrollment process that allows families to request a transfer to a different school within the district. Approval depends on available space at the requested school and is not guaranteed. It is worth asking the district about directly if your assigned school is not your preference.
+The Lake Washington School District has an open enrollment process that allows families to request a transfer to a different school within the district. Approval depends on available space at the requested school and is not guaranteed, and for the 2026 to 2027 school year the district lists Lake Washington High and Rose Hill Middle as closed to transfers. It is worth asking the district about directly if your assigned school is not your preference.
 
 ### Do school boundaries in Rose Hill change over time?
 
@@ -83,6 +83,6 @@ Yes, both the Lake Washington and Bellevue districts have adjusted boundaries in
 
 ### Does being in the Bellevue School District affect home values differently than Lake Washington?
 
-Not in a simple, predictable way. Both are well regarded districts, and buyers in the area generally know that. The more common effect on value is proximity to a specific school, how a particular elementary is perceived locally, and whether the school path aligns with what a buyer is looking for. Neither district assignment is a significant penalty in this part of Kirkland.
+Not in a simple, predictable way. Both are well regarded districts, and buyers in the area generally know that. The more common effect on value is proximity to a specific school, how a particular elementary is perceived locally, and whether the school path aligns with what a buyer is looking for. Rose Hill itself is in the Lake Washington district, so for homes here the real question is which Lake Washington schools an address feeds.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/

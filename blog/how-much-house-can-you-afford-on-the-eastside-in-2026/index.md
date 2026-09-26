@@ -35,9 +35,9 @@ The Eastside is not one market. Bellevue proper, especially west of I 405 near d
 
 * **Sammamish:** Large lots and newer construction attract families, but prices have followed demand. Most detached homes run $1.2 million and up.
 
-* **Issaquah and Maple Valley:** More price relief, especially east of I 90. You can find detached homes with more square footage in the $800,000 to $1.1 million range, though commute tradeoffs are real.
+* **Issaquah and Maple Valley:** Maple Valley offers real price relief, with an August 2026 NWMLS median house price around $755,000. Issaquah runs higher, with a median house price around $1.4 million that month. Commute tradeoffs are real in both.
 
-* **Bothell and Woodinville:** Some of the better entry points on the Eastside perimeter. Detached homes in the $800,000 to $1.1 million range are more common than in Bellevue or Kirkland.
+* **Bothell and Woodinville:** Bothell is one of the better entry points on the Eastside perimeter, with an August 2026 NWMLS median house price around $1.1 million. Woodinville runs higher, closer to $1.4 million, reflecting its larger lots.
 
 These are general ranges, not current listings, and they shift with inventory and season. But they give you a realistic frame for where your number needs to land.
 
@@ -45,7 +45,7 @@ These are general ranges, not current listings, and they shift with inventory an
 
 On the Eastside, the down payment conversation is more complicated than just hitting 20 percent. A 20 percent down payment on a $1.2 million home is $240,000. That is a significant amount of liquid capital, and a lot of buyers, including well paid tech workers who are relatively new to the area, don't have that sitting in a checking account.
 
-There are legitimate options below 20 percent. Conventional loans allow as little as 5 percent down on primary residences, though you will pay private mortgage insurance until you reach 20 percent equity. Jumbo loans, which kick in above the conforming loan limit (currently $766,550 for a single family home in King County as of my last check, though this adjusts annually), have stricter requirements. Many jumbo lenders want 20 percent down and stronger reserves.
+There are legitimate options below 20 percent. Conventional loans allow as little as 3 percent down on primary residences for first time buyers and certain programs (5 percent for most other buyers), though you will pay private mortgage insurance until you reach 20 percent equity. Jumbo loans, which kick in above the conforming loan limit ($1,063,750 for a single family home in King County for 2026, though this adjusts annually), have stricter requirements. Many jumbo lenders want 20 percent down and stronger reserves.
 
 One pattern I see regularly: buyers come in with a solid income but limited down payment. They can qualify for the payment, but the loan program options narrow. If you are in that position, talking to a lender before you start touring is worth doing, not to get preapproved necessarily, but just to understand what programs you actually qualify for.
 
@@ -53,15 +53,15 @@ One pattern I see regularly: buyers come in with a solid income but limited down
 
 A rough rule of thumb is that most buyers stay comfortable borrowing between 3 and 4 times their gross annual household income. At 4 times, payments get tight and there is less room for property taxes, maintenance, or anything unexpected.
 
-On the Eastside, property taxes on a $1.2 million home typically run somewhere between $10,000 and $14,000 per year depending on the city and school district levies. That is $850 to $1,150 per month on top of your mortgage principal and interest. Add homeowner's insurance and potentially HOA fees if you are buying in a planned community, and the gap between what a lender approves and what feels manageable in daily life becomes clearer.
+On the Eastside, property taxes on a $1.2 million home typically run somewhere between $9,000 and $13,000 per year depending on the city and school district levies (Bellevue's most common 2025 rate was about $7.33 per $1,000 of assessed value, or roughly $8,800 on a $1.2 million home). That is roughly $750 to $1,100 per month on top of your mortgage principal and interest. Add homeowner's insurance and potentially HOA fees if you are buying in a planned community, and the gap between what a lender approves and what feels manageable in daily life becomes clearer.
 
-A household income of around $250,000 to $300,000 per year puts buyers in realistic territory for the $1 million to $1.3 million range with a meaningful down payment. At $200,000 household income, the math is tight at those prices, and Bothell, Woodinville, or eastern Issaquah become more sensible anchors for a search.
+A household income of around $250,000 to $300,000 per year puts buyers in realistic territory for the $1 million to $1.3 million range with a meaningful down payment. At $200,000 household income, the math is tight at those prices, and Bothell, Maple Valley, or condos and townhomes closer in become more sensible anchors for a search.
 
 ## The Condo Option Worth Taking Seriously
 
 Condos on the Eastside get overlooked by buyers who have their heart set on a detached home, but they are worth understanding as a real entry point. In Bellevue's downtown core and along the 116th corridor, condos can be found in the $500,000 to $900,000 range depending on size and building. Kirkland's waterfront and downtown areas have condos too, though pricing there reflects the location premium.
 
-The tradeoff is HOA fees, which in newer buildings with amenities can run $600 to $1,000 per month. That eats into affordability in a way that doesn't show up in the purchase price. Run the full monthly cost number before assuming a condo is automatically more affordable than a townhome or small detached house in a more suburban location.
+The tradeoff is HOA fees, which in newer high rise buildings with amenities can run $800 per month and often well over $1,000. That eats into affordability in a way that doesn't show up in the purchase price. Run the full monthly cost number before assuming a condo is automatically more affordable than a townhome or small detached house in a more suburban location.
 
 ## What Actually Makes the Eastside Worth the Price to Most Buyers
 
@@ -79,11 +79,11 @@ The Eastside is expensive. It has been for years, and nothing on the horizon sug
 
 ### What counts as a jumbo loan on the Eastside and why does it matter?
 
-A jumbo loan is any mortgage above the conforming loan limit, which in King County is currently $766,550 for a single family home (this adjusts annually, so confirm the current limit with your lender). Because most homes on the Eastside exceed that threshold, a lot of buyers end up in jumbo loan territory without realizing it. Jumbo loans typically require a 20 percent down payment, stronger credit scores, and more cash reserves than conventional conforming loans. This is a meaningful practical difference, not just paperwork.
+A jumbo loan is any mortgage above the conforming loan limit, which in King County is $1,063,750 for a single family home in 2026 (this adjusts annually, so confirm the current limit with your lender). Because many Eastside purchases need a loan above that amount, a lot of buyers end up in jumbo loan territory without realizing it. Keep in mind the limit applies to the loan, not the price, so with 20 percent down you can stay conforming on a purchase up to roughly $1.33 million. Jumbo loans typically require a 20 percent down payment, stronger credit scores, and more cash reserves than conventional conforming loans. This is a meaningful practical difference, not just paperwork.
 
 ### Are there first time buyer programs that work at Eastside price points?
 
-Most first time buyer assistance programs have income caps and purchase price limits that make them difficult to use in Bellevue or Kirkland, where median home prices exceed $1 million. The Washington State Housing Finance Commission does offer programs, but you'll want to check their current limits against actual Eastside prices. Bothell, Woodinville, and eastern Issaquah sometimes fall within those limits, which is another reason buyers on a tighter budget look there first.
+Most first time buyer assistance programs have income caps, and some (like ARCH's East King County program) also cap the purchase price, which makes them harder to use in Bellevue or Kirkland, where median home prices exceed $1 million. The Washington State Housing Finance Commission does offer programs, but you'll want to check their current limits against actual Eastside prices. Condos, townhomes, and lower priced areas are where those programs are most usable, which is another reason buyers on a tighter budget look there first.
 
 ### How much should I have in reserves after closing on an Eastside home?
 
@@ -95,6 +95,6 @@ It depends on where you work and what you actually use day to day. If your offic
 
 ### How much do property taxes vary across Eastside cities?
 
-Meaningfully. Effective property tax rates across King County cities tend to cluster between roughly 0.8 and 1.1 percent of assessed value, but the specific rate in your area depends on the city, the school district levies in effect, and any special levies voters have approved. The difference between a 0.85 percent rate and a 1.1 percent rate on a $1.2 million home is about $3,000 per year, which is roughly $250 per month. It is worth asking your agent or lender to pull the actual tax history on any home you are seriously considering.
+Meaningfully. Effective property tax rates across King County cities tend to cluster between roughly 0.75 and 1.1 percent of assessed value (Bellevue sits near the low end, at about $7.33 per $1,000 in 2025), but the specific rate in your area depends on the city, the school district levies in effect, and any special levies voters have approved. The difference between a 0.85 percent rate and a 1.1 percent rate on a $1.2 million home is about $3,000 per year, which is roughly $250 per month. It is worth asking your agent or lender to pull the actual tax history on any home you are seriously considering.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/

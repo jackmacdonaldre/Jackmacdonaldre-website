@@ -11,11 +11,11 @@ Every few weeks I talk to someone who's made the move from California, or is ser
 
 ## The Tax Picture Is Real, But It's More Complicated Than People Think
 
-Washington has no state income tax. For someone coming from California, where the top marginal rate can hit 13.3%, that's a significant change. On a $200,000 salary, the difference is meaningful enough that it factors into a lot of relocation decisions, and employers here know it too.
+Washington has no state income tax on wages today. (A 9.9 percent tax on income above $1 million was signed in March 2026, but it does not start until 2028 and faces a legal challenge.) For someone coming from California, where the top marginal rate can hit 13.3%, that's a significant change. On a $200,000 salary, the difference is meaningful enough that it factors into a lot of relocation decisions, and employers here know it too.
 
-What you give up is a relatively low sales tax rate. Washington's combined state and local sales tax in Bellevue runs around 10.2%. California's base rate is lower, though it adds up depending on the county. Property taxes in Washington are lower than California in some ways and comparable in others, but the assessment structure is different enough that you shouldn't assume either direction without running actual numbers on a specific home.
+What you give up is a relatively low sales tax rate. Washington's combined state and local sales tax in Bellevue is 10.3%. California's base rate is lower, though it adds up depending on the county. Property taxes in Washington are lower than California in some ways and comparable in others, but the assessment structure is different enough that you shouldn't assume either direction without running actual numbers on a specific home.
 
-The other thing California transplants sometimes miss: Washington has a capital gains tax now on gains above $250,000 on certain assets, passed in 2021 and upheld by the state Supreme Court in 2023. It doesn't apply to real estate sales, but if you're selling stock or other assets as part of your move, worth knowing before you assume it's a fully no income tax state in every dimension.
+The other thing California transplants sometimes miss: Washington has a 7 percent capital gains tax on long term gains from certain assets above an inflation adjusted standard deduction ($278,000 for 2025), with an extra 2.9 percent on gains above $1 million starting with 2025. It passed in 2021 and was upheld by the state Supreme Court in 2023. It doesn't apply to real estate sales, but if you're selling stock or other assets as part of your move, worth knowing before you assume it's a fully no income tax state in every dimension.
 
 ## What Your Housing Budget Actually Gets You Here
 
@@ -53,7 +53,7 @@ Californians often brace for brutal winters. What they actually get is grey. Oct
 
 The summers are genuinely exceptional. June through September is often clear, dry, and comfortable in the 70s. The first summer almost always converts people. The question is whether they can stay converted through February.
 
-Seasonal Affective Disorder is a real thing here, and people talk about it openly. If you've relied on sunlight for mood regulation and have never lived through a long Pacific Northwest winter, it's worth going in clear, eyed. Light therapy lamps are not a quirky wellness trend here, they're just a thing people use.
+Seasonal Affective Disorder is a real thing here, and people talk about it openly. If you've relied on sunlight for mood regulation and have never lived through a long Pacific Northwest winter, it's worth going in clear eyed. Light therapy lamps are not a quirky wellness trend here, they're just a thing people use.
 
 ## The Tech Economy Shapes Everything
 
@@ -71,15 +71,13 @@ It also matters for resale value. Homes in top rated school districts hold value
 
 ## Practical Things People Wish They'd Known Earlier
 
-Car tabs cost more here than most places. Washington's vehicle excise tax, combined with local levies, produces registration fees that regularly surprise new residents.
+Car tabs cost more here than most places. Sound Transit's regional motor vehicle excise tax (1.1 percent of your vehicle's depreciated value), combined with other state and local fees, produces registration fees that regularly surprise new residents.
 
 Home inspection matters more than in some markets. A meaningful portion of the housing stock in parts of Bellevue was built in the 1970s and 1980s, and deferred maintenance can be hidden under renovation. Don't skip it to compete on an offer.
 
 The offer process here has historically been competitive in a way that requires some strategy. Multiple offers and escalation clauses are common in the spring market. If you're used to making lowball offers in a slower California market, the approach needs to adjust.
 
 Most Californians also underestimate how much of daily life here happens outdoors in ways that require gear rather than just showing up. Trail running, kayaking, skiing at Snoqualmie Pass (about 45 minutes from Bellevue on I 90), hiking in the Cascades. The outdoor access is a legitimate quality of life asset, and people who engage with it tend to adapt to the weather much better than people who don't.
-
-## FAQ
 
 ## Common Questions
 

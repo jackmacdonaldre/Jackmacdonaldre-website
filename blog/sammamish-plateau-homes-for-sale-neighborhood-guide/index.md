@@ -31,7 +31,7 @@ The Plateau covers a lot of ground, and not all of it feels the same.
 
 **Pine Lake** is a mid Plateau area centered around Pine Lake itself, with some homes that back to the water or are close enough to use the park there. It's a mix of older and newer construction and tends to be a bit more affordable than some of the newer build neighborhoods.
 
-**Talia, Evans Creek Reserve, and similar newer communities** in the northern part of the city sit closer to Redmond. These developments from the 2000s and 2010s have more contemporary finishes and tend to be priced higher. The tradeoff is that you're farther from the southern retail clusters and closer to the Redmond commute corridors.
+**Newer communities** in the northern part of the city sit closer to Redmond. These developments from the 2000s and 2010s have more contemporary finishes and tend to be priced higher. The tradeoff is that you're farther from the southern retail clusters and closer to the Redmond commute corridors.
 
 **Inglewood Hill Road area** is worth mentioning for buyers who want something that feels a bit more rural. There are larger parcels out there, some with acreage, and it's a different feel from the dense subdivisions closer to the city center.
 
@@ -39,7 +39,7 @@ The Plateau covers a lot of ground, and not all of it feels the same.
 
 Schools drive a lot of the demand on the Plateau, so it's worth being precise about this rather than just saying the schools are good.
 
-Most of Sammamish is served by the Lake Washington School District, which includes Eastlake High School and Skyline High School depending on where you live. Both rank well, and the district overall has a strong reputation in the region. The southern neighborhoods around Klahanie feed into the Issaquah School District instead, which is also well regarded. Either way, you're in solid district territory, but the specific school your kids would attend depends on the address, and it's worth confirming that before you fall in love with a particular house.
+Sammamish is split mainly between two districts. The northern part is in the Lake Washington School District, whose high school on the Plateau is Eastlake High School. Much of the southern part, including Klahanie and Trossachs, is in the Issaquah School District, which includes Skyline High School in Sammamish. A small area on the east edge is in the Snoqualmie Valley School District. All of them have strong reputations in the region. Either way, you're in solid district territory, but the specific school your kids would attend depends on the address, and it's worth confirming that before you fall in love with a particular house.
 
 ## Commuting Off the Plateau
 
@@ -55,7 +55,7 @@ Buyers who choose the Plateau are usually making a conscious decision to priorit
 
 The things you give up: you will drive everywhere. Groceries, coffee, dinner, kids' activities, all of it involves getting in the car. The Town Center has been developing slowly and has added some options, but it's not a substitute for real urban walkability. And if you value proximity to Seattle for weekend life as much as weekday work, the Plateau puts some distance between you and that.
 
-Price is the other honest variable. The Plateau commands a premium because of the schools and the housing quality, but the per, square, foot cost has come down meaningfully from the peaks of a few years ago. Compared to Bellevue or Kirkland, you generally get more house for the money. Compared to Issaquah just to the south, the gap is smaller, but Sammamish tends to run slightly higher because of the Lake Washington district schools in much of the city.
+Price is the other honest variable. The Plateau commands a premium because of the schools and the housing quality, but pricing has moved around since the 2022 peak, so lean on recent comparable sales rather than headlines. Compared to Bellevue or Kirkland, you generally get more house for the money. Compared to Issaquah just to the south, the gap is smaller, and it varies a lot by neighborhood and home.
 
 ## A Few Practical Details That Actually Matter
 

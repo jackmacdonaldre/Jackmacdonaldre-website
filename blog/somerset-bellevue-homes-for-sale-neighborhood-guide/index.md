@@ -15,13 +15,13 @@ I've been through these neighborhoods more times than I can count, and Somerset 
 
 ## The Homes in Somerset
 
-The housing stock in Somerset leans toward mid century and early 1980s construction, with a mix of split levels, traditional two story homes, and some more contemporary builds that have come in on the larger lots over the past decade or so. Lot sizes tend to be bigger than what you find in neighborhoods closer to downtown Bellevue, which is part of the draw for families who want space for a yard, a garden, or just some separation between themselves and their neighbors.
+The housing stock in Somerset leans toward homes built from the early 1960s through the late 1970s, with a mix of split levels, traditional two story homes, and some more contemporary builds that have come in on the larger lots over the past decade or so. Lot sizes tend to be bigger than what you find in neighborhoods closer to downtown Bellevue, which is part of the draw for families who want space for a yard, a garden, or just some separation between themselves and their neighbors.
 
 Many of the homes have been updated over the years, but the neighborhood still has a settled, established feel rather than the freshly constructed look you get in newer Issaquah or Sammamish developments. If you're coming from somewhere like Redmond or Kirkland and want more square footage without crossing into the far east suburbs, Somerset is often worth a serious look.
 
-## Somerset Hill Park and Getting Outside
+## Parks, Greenbelts, and Getting Outside
 
-Somerset Hill Park is the anchor green space for the neighborhood, and it gets real use. The trails connect into a broader network that lets you get out on foot without jumping in a car, which matters more than people give it credit for when they're deciding where to live. On weekends you'll find families with kids, people walking dogs, and the occasional runner who figured out that the elevation here makes for a harder workout than it looks on a map.
+The city greenbelts around Somerset, including the Somerset Greenbelts, Forest Hill Park, and the nearby Coal Creek Natural Area, are the anchor green space for the neighborhood, and they get real use. The trails connect into a broader network that lets you get out on foot without jumping in a car, which matters more than people give it credit for when they're deciding where to live. On weekends you'll find families with kids, people walking dogs, and the occasional runner who figured out that the elevation here makes for a harder workout than it looks on a map.
 
 The parks and trail access, combined with the views, are the two things I hear people mention most when they describe why they moved to Somerset and why they've stayed.
 
@@ -31,7 +31,7 @@ Somerset falls within the Bellevue School District, which is one of the stronger
 
 ## Getting Around from Somerset
 
-The location on the southeast side of Bellevue puts you close to I 90, which is a real practical advantage. Seattle is accessible without having to thread through downtown Bellevue traffic. Eastgate and the broader Bellevue grid are nearby, and Issaquah is a reasonable drive east if you need it. The trade, off is that this part of Bellevue is more car dependent than neighborhoods closer to the Spring District or downtown core. That's worth knowing going in rather than discovering later.
+The location on the southeast side of Bellevue puts you close to I 90, which is a real practical advantage. Seattle is accessible without having to thread through downtown Bellevue traffic. Eastgate and the broader Bellevue grid are nearby, and Issaquah is a reasonable drive east if you need it. The tradeoff is that this part of Bellevue is more car dependent than neighborhoods closer to the Spring District or downtown core. That's worth knowing going in rather than discovering later.
 
 ## What the Somerset Real Estate Market Looks Like
 

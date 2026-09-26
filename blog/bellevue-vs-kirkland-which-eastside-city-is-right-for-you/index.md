@@ -15,7 +15,7 @@ Let me walk through the real differences, not the chamber of commerce version.
 
 Bellevue has changed dramatically in the last fifteen years. Downtown Bellevue is a real urban core now, with high rise condos, a growing office market, and the kind of density that would have seemed improbable when I was growing up here. If you want walkable access to restaurants, shopping at Bellevue Square, and light rail via the East Link extension, that downtown corridor delivers it. Outside of downtown, though, most of Bellevue is still quiet residential neighborhoods on larger lots, and the contrast between those two versions of the city can be jarring if you have not spent much time here.
 
-Kirkland has a different character. It is more horizontal, more consistently residential, and the waterfront along Lake Washington gives the city a genuine sense of place that does not depend on new construction. Downtown Kirkland around Lake Street is walkable in the way a small town is walkable: coffee shops, restaurants, a Saturday farmers market, and access to the water. It has not developed a high rise core, and most long term Kirkland residents seem to prefer it that way.
+Kirkland has a different character. It is more horizontal, more consistently residential, and the waterfront along Lake Washington gives the city a genuine sense of place that does not depend on new construction. Downtown Kirkland around Lake Street is walkable in the way a small town is walkable: coffee shops, restaurants, a Wednesday farmers market at Marina Park in summer, and access to the water. It has not developed a high rise core, and most long term Kirkland residents seem to prefer it that way.
 
 Neither of these is better. They are answering different questions about how you want to live.
 
@@ -31,7 +31,7 @@ That said, both cities have appreciated significantly over the past decade, and 
 
 If you are working in Seattle, the math is different for each city. From Bellevue, you have I 90 and SR 520 as options, and East Link light rail now adds a car free alternative that was not there before. Bellevue to downtown Seattle by train is genuinely fast if you live or work near a station.
 
-Kirkland does not have light rail access yet, and the cross lake commute from Kirkland relies on SR 520. Traffic on 520 heading into Seattle in the morning can be significant, and the express lanes do not run in the Kirkland direction the same way they help other corridors. If you are commuting to Seattle every day and do not want to drive, Bellevue is the cleaner option right now.
+Kirkland does not have light rail access yet, and the cross lake commute from Kirkland relies on SR 520. Traffic on 520 heading into Seattle in the morning can be significant, and the SR 520 bridge is tolled, which adds real cost if you drive it every day. If you are commuting to Seattle every day and do not want to drive, Bellevue is the cleaner option right now.
 
 If you are working somewhere on the Eastside, the calculus shifts. Kirkland is centrally located for getting to Redmond, Bellevue, or Bothell without fighting as much traffic, and the drive times to major tech campuses in Redmond are often quite manageable depending on exactly where you land.
 
@@ -47,7 +47,7 @@ Bellevue School District has one of the strongest reputations in the state, and 
 
 Lake Washington School District, which serves most of Kirkland, is also a strong district. It is not an afterthought. Individual schools within both districts vary, and I would encourage any buyer with kids to look at the specific schools serving a given address rather than treating the district name as the whole story.
 
-One nuance worth knowing: parts of Kirkland, particularly in the Finn Hill area, are served by Northshore School District rather than Lake Washington. If school district matters to your decision, verify which district covers the specific neighborhood you are considering.
+One nuance worth knowing: Lake Washington School District covers almost all of Kirkland, including schools on Finn Hill, but district lines do not always follow city limits. If school district matters to your decision, verify which district covers the specific neighborhood you are considering.
 
 ## Who Each City Tends to Suit
 
@@ -69,7 +69,7 @@ Most people who ask me this question already know, at some level, which city fit
 
 ### Does Kirkland have light rail access?
 
-Not currently. Kirkland was considered for the light rail expansion but is not part of the East Link line that serves Bellevue and Redmond. There are longer term plans that include parts of the Kirkland corridor, but for now, commuting from Kirkland to Seattle means driving or taking a bus, and most people drive via SR 520.
+Not currently. The 2 Line serves Bellevue and Redmond but not Kirkland. Sound Transit's longer term plans include a South Kirkland to Issaquah light rail line with a 2041 target, and a Stride bus rapid transit station at NE 85th and I 405 in Kirkland is under construction, but for now, commuting from Kirkland to Seattle means driving or taking a bus, and most people drive via SR 520.
 
 ### Is Bellevue School District really that much better than Lake Washington School District?
 
@@ -77,7 +77,7 @@ Both are strong districts by any objective measure. Bellevue SD has a slightly s
 
 ### Which city has better access to outdoor recreation?
 
-They are different rather than one being better. Kirkland has easier, more integrated lake access and a good trail network including the Cross Kirkland Corridor, which runs through the middle of the city on a former rail line. Bellevue has Bellevue Downtown Park, Mercer Slough, and proximity to Cougar Mountain and Chinahua Mountain Regional Wildland Park. If lake swimming and kayaking are important to your daily life, Kirkland is the clearer choice.
+They are different rather than one being better. Kirkland has easier, more integrated lake access and a good trail network including the Cross Kirkland Corridor, which runs through the middle of the city on a former rail line. Bellevue has Bellevue Downtown Park, Mercer Slough, and proximity to Cougar Mountain Regional Wildland Park. If lake swimming and kayaking are important to your daily life, Kirkland is the clearer choice.
 
 ### Can you get more house for your money in Kirkland compared to Bellevue?
 
@@ -85,6 +85,6 @@ Generally yes, though it depends heavily on the specific neighborhoods you are c
 
 ### Are there parts of Bellevue that feel more like Kirkland, or vice versa?
 
-Yes. The residential neighborhoods in the north end of Bellevue, like Lake Hills and Crossroads, feel quieter and more suburban than downtown Bellevue, and they are priced more accessibly. Totem Lake in north Kirkland is more commercial and less charming than downtown Kirkland or Juanita. Both cities have internal variety, so it is worth spending time in the specific neighborhoods you are considering rather than forming an impression from the city center alone.
+Yes. The residential neighborhoods in east Bellevue, like Lake Hills and Crossroads, feel quieter and more suburban than downtown Bellevue, and they are priced more accessibly. Totem Lake in north Kirkland is more commercial and less charming than downtown Kirkland or Juanita. Both cities have internal variety, so it is worth spending time in the specific neighborhoods you are considering rather than forming an impression from the city center alone.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/

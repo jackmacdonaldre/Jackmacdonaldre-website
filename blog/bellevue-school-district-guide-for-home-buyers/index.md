@@ -15,15 +15,15 @@ Let me walk through what's actually useful to know.
 
 ## What BSD Actually Covers
 
-Bellevue School District doesn't map cleanly onto the city of Bellevue. It covers parts of Bellevue, Redmond, Kirkland, Sammamish, and Issaquah, and even small pockets of Newcastle. This surprises a lot of buyers who assume a Bellevue address automatically means BSD. It doesn't.
+Bellevue School District doesn't map cleanly onto the city of Bellevue. It covers most of Bellevue plus Clyde Hill, Medina, Hunts Point, Yarrow Point, and Beaux Arts, along with portions of Issaquah, Kirkland, Newcastle, and Redmond. This surprises a lot of buyers who assume a Bellevue address automatically means BSD. It doesn't.
 
 The reverse is also true: some homes with Redmond or Kirkland mailing addresses fall inside BSD boundaries. So the only reliable way to confirm which district and which school serve a specific property is to use the BSD boundary tool on the district's website and enter the actual address. Don't go by neighborhood name, don't go by the listing description, and don't go by what the neighbors say. Check the address directly.
 
 ## How the Schools Are Organized
 
-BSD runs a standard K through 5 elementary, 6 through 8 middle, and 9 through 12 high school structure. There are five comprehensive high schools: Bellevue, Newport, Sammamish, Interlake, and Skyline. Each serves a defined geographic zone, and which high school your address feeds into matters to a lot of families.
+BSD runs a standard K through 5 elementary, 6 through 8 middle, and 9 through 12 high school structure. There are four comprehensive high schools: Bellevue, Interlake, Newport, and Sammamish. Skyline High School, which buyers sometimes lump in, is in the Issaquah School District. Each serves a defined geographic zone, and which high school your address feeds into matters to a lot of families.
 
-Beyond the neighborhood schools, BSD has a handful of choice and specialty programs that draw applicants from across the district. International School is probably the most well known, offering an IB curriculum starting in elementary school. Admission is competitive and not guaranteed by address. Interlake has a Science, Technology, Engineering, and Math focus that draws students districtwide. These programs are worth knowing about if you have specific educational goals for your kids, but they're separate from your neighborhood assignment and shouldn't be the primary reason you buy in a particular zone.
+Beyond the neighborhood schools, BSD has a handful of choice and specialty programs that draw applicants from across the district. International School is probably the most well known. It serves grades 6 through 12 with its own rigorous curriculum that includes years of French, and admission is by lottery for students who live in the district, so it is not guaranteed by address. Interlake offers the International Baccalaureate program and is the high school home of the district's advanced learning program, which draws qualifying students from across the district. These programs are worth knowing about if you have specific educational goals for your kids, but they're separate from your neighborhood assignment and shouldn't be the primary reason you buy in a particular zone.
 
 ## Are All the Schools Equally Strong?
 
@@ -63,9 +63,9 @@ If you're cross shopping BSD against Lake Washington School District or Issaquah
 
 No, and this is one of the most common misconceptions buyers run into. City limits and school district boundaries don't match up. Some Bellevue addresses fall in Lake Washington School District or even Issaquah School District. The only reliable way to confirm is to enter the specific property address into the BSD boundary locator on the district's official website.
 
-### What are the five high schools in BSD and does it matter which one a home feeds into?
+### What are the four high schools in BSD and does it matter which one a home feeds into?
 
-The five comprehensive high schools are Bellevue, Newport, Sammamish, Interlake, and Skyline. It does matter to many buyers, and Newport in particular tends to draw the most attention from families. That attention is reflected in home prices in that zone. Whether the differences in outcomes between the high schools justify the price premium is something each family has to decide for themselves, but they're all functioning well resourced schools.
+The four comprehensive high schools are Bellevue, Interlake, Newport, and Sammamish. Skyline is an Issaquah School District school. It does matter to many buyers, and Newport in particular tends to draw the most attention from families. That attention is reflected in home prices in that zone. Whether the differences in outcomes between the high schools justify the price premium is something each family has to decide for themselves, but they're all functioning well resourced schools.
 
 ### Can I choose a different school within BSD than my address is assigned to?
 

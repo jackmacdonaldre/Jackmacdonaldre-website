@@ -15,7 +15,7 @@ So here's what I'd tell you if we were sitting down over coffee before you start
 
 When people say "the Eastside," they mean everything east of Lake Washington: Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, Bothell, and a handful of smaller areas in between. These places look adjacent on a map but feel meaningfully different to live in. Prices vary. Commute times vary. The age of the housing stock varies. What you give up and what you get changes quite a bit depending on which one you land in.
 
-Microsoft's main campus is in Redmond. Amazon has been expanding in Bellevue aggressively. Google and Meta are in Kirkland. If you know your campus, start your search anchored to it, because traffic on the Eastside can be genuinely bad during peak hours, and the difference between a 10 minute drive and a 40 minute drive matters more than it sounds when you're doing it twice a day.
+Microsoft's main campus is in Redmond. Amazon has been expanding in Bellevue aggressively. Google has a large campus in Kirkland, and Meta's Eastside offices are in Redmond and Bellevue. If you know your campus, start your search anchored to it, because traffic on the Eastside can be genuinely bad during peak hours, and the difference between a 10 minute drive and a 40 minute drive matters more than it sounds when you're doing it twice a day.
 
 ## What the commute actually looks like
 
@@ -33,7 +33,7 @@ Bellevue has changed a lot in the last decade. Downtown Bellevue now has real de
 
 ### Kirkland
 
-Kirkland has a downtown right on Lake Washington that feels genuinely walkable, with restaurants and coffee shops along the waterfront. The neighborhoods behind downtown get hilly fast, which affects everything from lot size to how much sun you get. It's a popular landing spot for people at Google and Meta given the office locations there. Housing ranges from older ramblers to newer construction, and pricing sits below Bellevue but not by a huge margin in the desirable parts.
+Kirkland has a downtown right on Lake Washington that feels genuinely walkable, with restaurants and coffee shops along the waterfront. The neighborhoods behind downtown get hilly fast, which affects everything from lot size to how much sun you get. It's a popular landing spot for people at Google given the campus there. Housing ranges from older ramblers to newer construction, and pricing sits below Bellevue but not by a huge margin in the desirable parts.
 
 ### Redmond
 
@@ -41,7 +41,7 @@ Redmond is quieter than Bellevue and Kirkland. Redmond Town Center gives it a re
 
 ### Sammamish and Issaquah
 
-These two are the most suburban of the group, in the way that word usually means: larger lots, newer homes, good schools, less walkability, and more driving for everything. Sammamish in particular has grown extremely fast and the infrastructure hasn't always kept pace, so traffic on Sahalee Way or at the 228th interchange can be genuinely frustrating. Issaquah has more of a defined old town core and sits against the Cougar Mountain and Tiger Mountain open space, which is a real draw if you hike or mountain bike. Prices in both cities are lower than Bellevue, which is why families with school age kids often end up there.
+These two are the most suburban of the group, in the way that word usually means: larger lots, newer homes, good schools, less walkability, and more driving for everything. Sammamish in particular has grown extremely fast and the infrastructure hasn't always kept pace, so traffic on Sahalee Way or along 228th Avenue can be genuinely frustrating. Issaquah has more of a defined old town core and sits against the Cougar Mountain and Tiger Mountain open space, which is a real draw if you hike or mountain bike. Prices in both cities are lower than Bellevue, which is why families with school age kids often end up there.
 
 ### Woodinville and Bothell
 
@@ -55,7 +55,7 @@ That said, the rental market on the Eastside is also tight and not cheap, so ren
 
 ## What prices look like and what that means for your search
 
-Single family homes in Bellevue and Kirkland regularly sell in the $1.5 million to $2.5 million range and above in desirable pockets. Redmond is somewhat lower. Sammamish and Issaquah often have more entry points in the $1 million to $1.5 million range for a house with a real yard. Condos in Bellevue's downtown core start lower but can still run well over $700,000 for something reasonably sized.
+Per Redfin, the median sale price across all home types was about $1.56 million in Bellevue and $1.49 million in Sammamish in August 2026, with Redmond around $1.34 million and Kirkland around $1.31 million over the summer. Single family homes in the desirable pockets of Bellevue and Kirkland typically sell well above those medians, and Sammamish and Issaquah are where many buyers look for a house with a real yard at a lower price point. Condos in Bellevue's downtown core start lower, though anything reasonably sized is still a significant price point.
 
 Tech compensation packages often look very strong on paper, but a lot of that compensation is in equity that vests over time rather than cash in hand today. Lenders care about your base salary and documented income, so if your total comp includes a large RSU component, have that conversation with a mortgage lender before you set your budget rather than after you've fallen in love with something.
 
@@ -79,7 +79,7 @@ It depends on how often you're actually required on site and what you do in your
 
 ### How does the East Link light rail change the equation for Eastside buyers?
 
-The 2 Line now connects Redmond Technology Station through downtown Redmond, Overlake, Bellevue, and across Lake Washington to Mercer Island and Seattle. For people who work in Seattle but want to live on the Eastside, or vice versa, this is a real option. It also changes how I'd think about living in central Bellevue specifically, since the walkable downtown area around the Bellevue Transit Center becomes more useful if you're using transit regularly. That said, the Eastside is still largely car dependent outside of these corridors.
+The 2 Line now runs from downtown Redmond through Marymoor Village, Redmond Technology, Overlake Village, and Bellevue, then across Lake Washington through Mercer Island and Judkins Park into Seattle, where it continues north toward Lynnwood. For people who work in Seattle but want to live on the Eastside, or vice versa, this is a real option. It also changes how I'd think about living in central Bellevue specifically, since the walkable downtown area around Bellevue Downtown Station becomes more useful if you're using transit regularly. That said, the Eastside is still largely car dependent outside of these corridors.
 
 ### Is it realistic to buy a home on the Eastside with a typical tech salary?
 

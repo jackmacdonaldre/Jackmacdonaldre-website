@@ -17,17 +17,17 @@ If you are thinking about buying a condo or home in Downtown Redmond, or if you 
 
 Downtown Redmond is primarily a condo and townhome market, which sets it apart from the single family neighborhoods you find further east toward Redmond Ridge or south toward Sammamish. If you are coming from a house and considering a move into the urban core, that shift in housing type is real and worth thinking through carefully.
 
-The condo buildings here range from older mid rise construction to newer developments with modern finishes, rooftop decks, and underground parking. Some buildings sit right on Redmond Way or Cleveland Street, which puts you a short walk from dining and the Saturday Redmond Farmers Market. Others are tucked a few blocks back, which trades some convenience for a bit more quiet.
+The condo buildings here range from older mid rise construction to newer developments with modern finishes, rooftop decks, and underground parking. Some buildings sit right on Redmond Way or Cleveland Street, which puts you a short walk from dining and not far from the Redmond Saturday Market on Willows Road NE, which runs Saturdays from May through October. Others are tucked a few blocks back, which trades some convenience for a bit more quiet.
 
 Townhomes do exist in and just around Downtown Redmond, and they tend to attract buyers who want the walkability of the urban core without giving up a garage or a small outdoor space. Inventory on those moves quickly, and well priced units rarely sit long.
 
 ## Living Here Day to Day
 
-One of the things I always tell buyers considering Downtown Redmond is to think about what they actually do on a weekday morning versus a Saturday. On a weekday, the proximity to the Redmond Transit Center and the SR 520 corridor matters a lot. Microsoft's main campus is close enough that many residents walk or take a short shuttle. Amazon and other tech employers in the broader Eastside corridor are also well connected from here.
+One of the things I always tell buyers considering Downtown Redmond is to think about what they actually do on a weekday morning versus a Saturday. On a weekday, the proximity to the Redmond Transit Center and the SR 520 corridor matters a lot. Microsoft's main campus is a short drive or a quick 2 Line light rail ride from the Downtown Redmond station. Amazon and other tech employers in the broader Eastside corridor are also well connected from here.
 
 On a Saturday, you are a short walk from Marymoor Park, which is one of the best parks in the region by almost any measure. Whether you have a dog, a bike, or you just want to watch a concert on the lawn, Marymoor draws people from all over the Eastside. Having that in your backyard is not something you fully appreciate until you live here.
 
-The Burke Gilman Trail runs through the area as well, connecting Downtown Redmond to Kirkland and beyond for cyclists and walkers. That trail is a real amenity, not a checkbox. I have talked to buyers who made it a deciding factor.
+The Redmond Central Connector, part of the Eastrail network, runs through downtown and ties into the Sammamish River Trail, which leads toward the Burke Gilman Trail in Bothell, for cyclists and walkers. That trail is a real amenity, not a checkbox. I have talked to buyers who made it a deciding factor.
 
 ## Schools and Families in Downtown Redmond
 
@@ -51,7 +51,7 @@ Reach out directly. I return calls and I answer questions without the runaround.
 
 ### Is Downtown Redmond a good place to buy a condo?
 
-Downtown Redmond offers genuine walkability, proximity to major employers like Microsoft, and access to Marymoor Park and the Burke Gilman Trail. For buyers who want an urban lifestyle on the Eastside without being in Bellevue or Seattle, it is one of the stronger options in the region. The key is understanding the specific building you are buying into, including HOA health and financials, not just the neighborhood overall.
+Downtown Redmond offers genuine walkability, proximity to major employers like Microsoft, and access to Marymoor Park, the Sammamish River Trail, and the Redmond Central Connector. For buyers who want an urban lifestyle on the Eastside without being in Bellevue or Seattle, it is one of the stronger options in the region. The key is understanding the specific building you are buying into, including HOA health and financials, not just the neighborhood overall.
 
 ### What is the commute like from Downtown Redmond to Seattle or Bellevue?
 

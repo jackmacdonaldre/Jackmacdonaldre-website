@@ -15,31 +15,31 @@ Redmond has a real downtown, which matters more than people realize until they h
 
 Redmond is also where Microsoft is headquartered, and the employment presence there shapes the city in real ways: housing demand, commute patterns, the general density of tech workers in every coffee shop. If you or your partner works at Microsoft or somewhere nearby in the Overlake corridor, Redmond is the obvious choice on commute logic alone.
 
-The housing stock in Redmond is more varied. You will find older ramblers and split, levels from the 1970s and 1980s alongside newer townhomes and condos. Lot sizes tend to be smaller than Sammamish, especially closer to downtown. The tradeoff is that you are buying into a more established, walkable urban grid rather than a quieter cul de sac neighborhood.
+The housing stock in Redmond is more varied. You will find older ramblers and split levels from the 1970s and 1980s alongside newer townhomes and condos. Lot sizes tend to be smaller than Sammamish, especially closer to downtown. The tradeoff is that you are buying into a more established, walkable urban grid rather than a quieter cul de sac neighborhood.
 
 ## What Sammamish Actually Feels Like
 
-Sammamish is almost entirely a car dependent suburb, and there is no point pretending otherwise. There is no real downtown. Most of the commercial activity is spread across strip style centers anchored by things like Costco or QFC. If that sounds like a criticism, it is also just an accurate description of a place that a lot of families genuinely love, because the tradeoff is space, quiet, and neighborhoods that feel intentionally residential rather than transitional.
+Sammamish is almost entirely a car dependent suburb, and there is no point pretending otherwise. There is no real downtown. Most of the commercial activity is spread across strip style centers anchored by grocery stores like QFC. If that sounds like a criticism, it is also just an accurate description of a place that a lot of families genuinely love, because the tradeoff is space, quiet, and neighborhoods that feel intentionally residential rather than transitional.
 
-The housing in Sammamish is mostly newer, a lot of it built in the 1990s through the 2010s, which means you get larger floor plans, more consistent finishes, and bigger lots on average. Many neighborhoods sit on the plateau with views of the Cascades or the Olympics on a clear day. Plateau Park, Beaver Lake, and the area around Sahalee are the kinds of places where buyers specifically ask to stay within a few blocks when they find the right street. That neighborhood loyalty is real.
+The housing in Sammamish is mostly newer, a lot of it built in the 1990s through the 2010s, which means you get larger floor plans, more consistent finishes, and bigger lots on average. Many neighborhoods sit on the plateau with views of the Cascades or the Olympics on a clear day. Pine Lake, Beaver Lake, and the area around Sahalee are the kinds of places where buyers specifically ask to stay within a few blocks when they find the right street. That neighborhood loyalty is real.
 
-Sammamish consistently ranks among the safest cities in Washington, which is something parents with young kids mention often. The school options under the Lake Washington School District are strong throughout the city, though specific school assignments depend on where exactly you land.
+Sammamish consistently ranks among the safest cities in Washington, which is something parents with young kids mention often. Sammamish is split between school districts: roughly the north end is Lake Washington School District, most of the south is Issaquah School District, and a small eastern area is Snoqualmie Valley, so the district and specific schools depend on where exactly you land.
 
 ## The Commute Question
 
-This is where the two cities diverge most sharply for a lot of buyers. Redmond sits right at the edge of SR 520 access and is directly connected to the Microsoft and Overlake tech corridor. The Redmond Technology light rail station opened in 2024, which gives downtown Redmond a direct link to Bellevue and Seattle without touching I 405 or SR 520 at all during rush hour. That is not a small thing.
+This is where the two cities diverge most sharply for a lot of buyers. Redmond sits right at the edge of SR 520 access and is directly connected to the Microsoft and Overlake tech corridor. Light rail reached Redmond Technology Station in 2024 and downtown Redmond in May 2025, and since the 2 Line opened across Lake Washington in March 2026, downtown Redmond has a direct train link to Bellevue and Seattle that skips I 405 and SR 520 traffic entirely. That is not a small thing.
 
-Sammamish has no light rail and no freeway running through it. Getting off the plateau during peak hours means sitting on SR 202 or SE 8th Street in Bellevue, depending on which direction you are heading. Commutes to Seattle or Bellevue from Sammamish can be genuinely painful during rush hour, and that is one of the honest downsides people figure out after they move there. If you work from home most of the week, it matters less. If you commute daily, factor it in seriously.
+Sammamish has no light rail and no freeway running through it. Getting off the plateau during peak hours means sitting on Sahalee Way toward SR 202, East Lake Sammamish Parkway, or the roads down to I 90, depending on which direction you are heading. Commutes to Seattle or Bellevue from Sammamish can be genuinely painful during rush hour, and that is one of the honest downsides people figure out after they move there. If you work from home most of the week, it matters less. If you commute daily, factor it in seriously.
 
 ## Price Differences and What You Get for the Money
 
-Both cities are expensive. That said, Sammamish tends to run slightly higher on a per, square, foot basis for single family homes, partly because the inventory skews larger and newer. A 2,500 square foot home on a quarter acre lot in Sammamish will generally cost more than a comparable footprint in most Redmond neighborhoods, though Redmond's proximity to downtown and the light rail has tightened that gap in recent years.
+Both cities are expensive. That said, Sammamish homes skew larger and newer, so the overall median sale price there tends to run higher. Per Redfin, the August 2026 median sale price was about $1.49 million in Sammamish versus about $1.34 million in Redmond, though price per square foot comparisons swing a lot by neighborhood and home type.
 
 Redmond offers more entry points if budget is a constraint, partly because of the townhome and condo inventory near downtown. Those do not exist in Sammamish in any meaningful way. So if someone's ceiling is somewhere in the lower range for the Eastside, Redmond has options that Sammamish simply does not.
 
 ## Schools
 
-Both cities fall under the Lake Washington School District, which is consistently strong. This is one area where the comparison is genuinely close. Elementary school assignments differ by address, and families with specific school preferences should look up boundaries before committing to a neighborhood rather than assuming the city name tells the whole story. The overall district performance is high in both cities.
+Redmond is served almost entirely by Lake Washington School District, while Sammamish is split between Lake Washington in the north and Issaquah School District in most of the south, with a small area in Snoqualmie Valley. Both main districts are consistently strong, so this is one area where the comparison is genuinely close. Elementary school assignments differ by address, and families with specific school preferences should look up boundaries before committing to a neighborhood rather than assuming the city name tells the whole story. The overall district performance is high in both cities.
 
 ## Who Each City Actually Suits
 
@@ -69,6 +69,6 @@ Both are in King County, so the framework is similar. Exact rates vary by levy d
 
 ### Are there meaningful differences in lot sizes between the two cities?
 
-Yes. Sammamish neighborhoods, particularly those built in the 1990s and 2000s, commonly sit on lots of 7,000 to 12,000 square feet or larger. Redmond lots closer to downtown or in older neighborhoods can be notably smaller, sometimes under 5,000 square feet for older homes. If outdoor space matters to you, this is worth paying attention to when filtering listings.
+Yes. Sammamish neighborhoods, particularly those built in the 1990s and 2000s, commonly sit on lots of 7,000 to 12,000 square feet or larger. Redmond lots closer to downtown can be notably smaller, especially for newer townhomes and small lot homes. If outdoor space matters to you, this is worth paying attention to when filtering listings.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/

@@ -9,9 +9,9 @@ Web page: https://jackmacdonaldre.com/blog/west-bellevue-homes-for-sale-neighbor
 
 ## West Bellevue Is Not One Thing
 
-When people say they want to buy in West Bellevue, I always ask what they actually mean by that. The area west of I 405 covers a lot of ground, and the neighborhoods inside it feel genuinely different from each other. Medina and Clyde Hill are old money, large lots, lake access. Beaux Arts is a tiny incorporated village. West Lake Sammamish and the streets near Enatai feel more like a mix of original ramblers and newer teardown rebuilds. Knowing which pocket you are actually targeting matters a lot, both for what you will pay and what you will get.
+When people say they want to buy in West Bellevue, I always ask what they actually mean by that. The area west of I 405 covers a lot of ground, and the neighborhoods inside it feel genuinely different from each other. Medina and Clyde Hill are old money, large lots, lake access. Beaux Arts is a tiny incorporated village. Enatai and the streets around it feel more like a mix of original ramblers and newer teardown rebuilds. Knowing which pocket you are actually targeting matters a lot, both for what you will pay and what you will get.
 
-This guide focuses on the broader West Bellevue area, which most buyers and agents loosely define as Bellevue west of I 405 and south of SR 520. That includes neighborhoods like Enatai, West Lake Sammamish Parkway corridor, parts of Vuecrest, and streets that border Medina and Clyde Hill without quite being in them.
+This guide focuses on the broader West Bellevue area, which most buyers and agents loosely define as Bellevue west of I 405 and south of SR 520. That includes neighborhoods like Enatai, parts of Vuecrest, and streets that border Medina and Clyde Hill without quite being in them.
 
 ## What the Housing Stock Actually Looks Like
 
@@ -23,7 +23,7 @@ Newer construction in this area tends toward larger square footage and modern fi
 
 ## Schools and How Buyers Usually Think About Them
 
-West Bellevue falls within the Bellevue School District, which is consistently one of the strongest in the state. Most families moving here with kids are aware of that before they call me. What they ask about more specifically is feeder school assignments, since those vary by exact address. Enatai Elementary, Newport High School, and Chinook Middle School cover a significant portion of West Bellevue. The reputation of the elementary schools draws a lot of families to specific streets.
+West Bellevue falls within the Bellevue School District, which is consistently one of the strongest in the state. Most families moving here with kids are aware of that before they call me. What they ask about more specifically is feeder school assignments, since those vary by exact address. Bellevue High School serves most of West Bellevue, and Enatai Elementary serves the Enatai area, but elementary and middle school assignments vary by address. The reputation of the elementary schools draws a lot of families to specific streets.
 
 I would just flag that school assignments can change, and with the growth happening in the area, boundaries occasionally get redrawn. If a specific school assignment is the deciding factor for you, verify it directly with the Bellevue School District before you close, not just at the start of your search.
 
@@ -37,7 +37,7 @@ Walkability is lower than downtown Bellevue or Kirkland's waterfront area. Most 
 
 ## What Buyers Often Get Wrong About This Area
 
-The biggest misconception I run into is that West Bellevue is all one price point. People see Medina and Clyde Hill on a map and assume everything nearby carries the same premium. It does not. There are streets in West Bellevue where homes sell in the low to mid $2 million range, and there are streets a mile away with a Medina address where you are starting at $5 million or more. The label matters less than the specific street and lot.
+The biggest misconception I run into is that West Bellevue is all one price point. People see Medina and Clyde Hill on a map and assume everything nearby carries the same premium. It does not. There are streets in West Bellevue where homes sell in the low to mid $2 million range, and there are streets a mile away with a Medina address where prices typically run far higher. The label matters less than the specific street and lot.
 
 The second thing buyers get wrong is assuming that a larger lot automatically means more flexibility to build or expand. West Bellevue has some meaningful setback requirements and critical area ordinances, particularly near the lake and around natural drainage features. If you are buying with a plan to add an ADU, expand the footprint, or rebuild entirely, get a conversation started with a local land use consultant or architect before you are in a committed position on a specific property. Finding out after closing that the lot has constraints you did not expect is an expensive surprise.
 
@@ -57,11 +57,11 @@ The market here tends to be less volatile than some other Eastside areas because
 
 ### What neighborhoods are included in West Bellevue?
 
-West Bellevue generally refers to the area west of I 405 and south of SR 520. That includes Enatai, areas bordering Medina and Clyde Hill, Vuecrest, and streets along the West Lake Sammamish Parkway corridor. Medina and Clyde Hill are technically separate cities, though many buyers lump them together with West Bellevue when they are searching.
+West Bellevue generally refers to the area west of I 405 and south of SR 520. That includes Enatai, areas bordering Medina and Clyde Hill, and Vuecrest. Medina and Clyde Hill are technically separate cities, though many buyers lump them together with West Bellevue when they are searching.
 
 ### What schools serve West Bellevue?
 
-Most of West Bellevue is served by the Bellevue School District. Common assignments include Enatai Elementary, Chinook Middle School, and Newport High School, though exact assignments depend on your specific address. School boundaries do occasionally change, so confirm directly with the district.
+Most of West Bellevue is served by the Bellevue School District. Bellevue High School serves most of West Bellevue, and Enatai Elementary serves the Enatai area, though exact elementary and middle school assignments depend on your specific address. School boundaries do occasionally change, so confirm directly with the district.
 
 ### Is West Bellevue walkable?
 

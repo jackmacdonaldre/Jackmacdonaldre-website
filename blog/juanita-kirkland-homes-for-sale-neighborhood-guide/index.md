@@ -7,19 +7,19 @@ Published: August 24, 2026
 Area: Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/
 
-A lot of buyers stumble onto Juanita while looking at Kirkland broadly and then get a little fixated on it. That happens for a reason. It sits along the northern edge of Lake Washington, it has an actual sandy beach park that locals genuinely use, and the housing is more varied than you might expect for a waterfront, adjacent neighborhood. But it's worth slowing down and understanding what you're actually buying into before the lakefront appeal takes over your decision, making.
+A lot of buyers stumble onto Juanita while looking at Kirkland broadly and then get a little fixated on it. That happens for a reason. It sits along the northern edge of Lake Washington, it has an actual sandy beach park that locals genuinely use, and the housing is more varied than you might expect for a waterfront adjacent neighborhood. But it's worth slowing down and understanding what you're actually buying into before the lakefront appeal takes over your decision making.
 
 ## Where Juanita Actually Is
 
-Juanita is in the north end of Kirkland, roughly bounded by 100th Avenue NE on the west, NE 132nd Street toward the north, and the Lake Washington shoreline on the east. Juanita Drive NE is the main road that runs along the water and connects the neighborhood down toward downtown Kirkland. It doesn't feel like a suburb that happens to be near a lake. The lake is genuinely present here, visually and socially.
+Juanita is in the north end of Kirkland. The city's neighborhood plan has it running from NE 145th Street on the north to I 405 and Totem Lake on the east, with the lower slope of Finn Hill, roughly along 91st Avenue NE, on the west, and it wraps around Juanita Bay on Lake Washington. Juanita Drive NE is a main road through the neighborhood that runs north along the water toward Finn Hill and Kenmore, while 98th Avenue NE and Market Street connect you south toward downtown Kirkland. It doesn't feel like a suburb that happens to be near a lake. The lake is genuinely present here, visually and socially.
 
-Juanita Bay Park sits at the southern end of the neighborhood and is one of the better urban wetland parks in the area for birdwatching and quiet walks. Juanita Beach Park, further north on the shoreline, has a swimming beach, boat launch, picnic areas, and a grassy lawn that gets crowded on summer weekends. These aren't afterthoughts. They're real amenities that shape daily life in the neighborhood.
+Juanita Bay Park sits at the southern end of the neighborhood and is one of the better urban wetland parks in the area for birdwatching and quiet walks. Juanita Beach Park, further north on the shoreline, has a lifeguarded swimming beach in summer, a launch for hand carried boats like kayaks and paddleboards, picnic areas, and a grassy lawn that gets crowded on summer weekends. These aren't afterthoughts. They're real amenities that shape daily life in the neighborhood.
 
 ## What the Housing Stock Actually Looks Like
 
 This is where Juanita gets interesting and a little complicated. There's no single type of home here.
 
-The older parts of the neighborhood, particularly closer to the lake, have ranch style homes and split, levels from the 1960s and 1970s. A lot of these sit on good sized lots, sometimes with mature trees and older landscaping. Some have been updated thoughtfully. Others are essentially original and priced accordingly. Buyers who want a project can find one here, but you have to look carefully because condition varies a lot block to block.
+The older parts of the neighborhood, particularly closer to the lake, have ranch style homes and split levels from the 1960s and 1970s. A lot of these sit on good sized lots, sometimes with mature trees and older landscaping. Some have been updated thoughtfully. Others are essentially original and priced accordingly. Buyers who want a project can find one here, but you have to look carefully because condition varies a lot block to block.
 
 Further inland, especially up the hill on the western side, you start to see more 1980s and 1990s construction, some newer infill townhomes, and a mix of lot sizes. The farther you get from the water, the more the neighborhood starts to feel like general Kirkland rather than specifically Juanita.
 
@@ -35,19 +35,19 @@ That said, pricing in Kirkland overall is not modest. You're still firmly in the
 
 Juanita is reasonably positioned for a few different commute directions, but it depends on where you're going.
 
-For Bellevue and the Eastside generally, you're looking at taking NE 116th Street or Juanita Drive to connect to I 405, which is a workable drive depending on the time of day but will feel familiar to anyone who has dealt with 405 traffic. For Seattle, the options include driving to a park and ride and taking a bus, or heading down to one of the ferry, adjacent routes, though Juanita isn't particularly close to a ferry terminal. It's not a terrible Seattle commute but it's not easy either.
+For Bellevue and the Eastside generally, you're looking at taking NE 116th Street or Juanita Drive to connect to I 405, which is a workable drive depending on the time of day but will feel familiar to anyone who has dealt with 405 traffic. For Seattle, the options include driving to a park and ride and taking a bus across SR 520, or driving to a 2 Line light rail station in Bellevue or Redmond. It's not a terrible Seattle commute but it's not easy either.
 
 For Redmond and the tech campuses along SR 520, Juanita is actually fairly well positioned if you're willing to take surface streets. Totem Lake is just a few minutes away, and from there you can access 405 or cut over toward Redmond fairly efficiently.
 
 ## Schools
 
-Juanita is served by Lake Washington School District, which consistently performs well and is one of the reasons the broader Kirkland and Redmond area attracts families. Juanita High School is the neighborhood's own high school and has a strong reputation locally. Elementary and middle school assignments depend on your specific address, so it's worth verifying that during your search rather than assuming.
+Juanita is served by Lake Washington School District, which consistently performs well and is one of the reasons the broader Kirkland and Redmond area attracts families. Juanita High School sits in the neighborhood and has a strong reputation locally. School assignments, including high school, depend on your specific address, so it's worth verifying that during your search rather than assuming.
 
 ## The Honest Tradeoffs
 
-Juanita Beach Park is great, but public beach access on summer weekends means traffic and parking pressure on Juanita Drive NE. If you're on or near that corridor, that's a real seasonal consideration, not a deal, breaker for most people but worth knowing about.
+Juanita Beach Park is great, but public beach access on summer weekends means traffic and parking pressure on Juanita Drive NE. If you're on or near that corridor, that's a real seasonal consideration, not a deal breaker for most people but worth knowing about.
 
-The older housing stock means you're more likely to encounter deferred maintenance issues, older electrical panels, original windows, and PLCS or cast iron plumbing depending on the home's age. Inspection matters here. Don't skip it or treat it casually on a 1960s home with a fresh coat of paint.
+The older housing stock means you're more likely to encounter deferred maintenance issues, older electrical panels, original windows, and galvanized or cast iron plumbing depending on the home's age. Inspection matters here. Don't skip it or treat it casually on a 1960s home with a fresh coat of paint.
 
 Walkability is limited compared to downtown Kirkland. There's a QFC nearby and some local services, but Juanita is fundamentally a car dependent neighborhood for most daily errands. If walkability is important to your daily life, downtown Kirkland or Totem Lake closer to the new development is a better fit.
 

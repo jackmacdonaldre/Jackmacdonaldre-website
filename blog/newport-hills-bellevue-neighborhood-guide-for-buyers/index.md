@@ -9,13 +9,13 @@ Web page: https://jackmacdonaldre.com/blog/newport-hills-bellevue-neighborhood-g
 
 ## Where Newport Hills Sits and Why It Gets Overlooked
 
-Newport Hills occupies a stretch of south Bellevue that a lot of buyers drive through without really stopping to think about. It sits roughly between I 90 to the north and the Renton border to the south, with Lake Washington Boulevard running along its western edge and Coal Creek Parkway cutting through the eastern side. It is close enough to downtown Bellevue to matter but far enough away that prices have historically stayed a step below what you see in Bellevue's more talked about neighborhoods.
+Newport Hills occupies a stretch of south Bellevue that a lot of buyers drive through without really stopping to think about. It sits south of Factoria and I 90, with I 405 along its western edge, Coal Creek Parkway wrapping around its north and east sides, and its southern edge near SE 69th Street. It is close enough to downtown Bellevue to matter but far enough away that prices have historically stayed a step below what you see in Bellevue's more talked about neighborhoods.
 
 That positioning is both the appeal and the thing buyers need to think through honestly before committing.
 
 ## What the Housing Stock Actually Looks Like
 
-Most of Newport Hills was built in the 1960s and 1970s, with some pockets of infill from later decades. You are looking primarily at single story and split level homes on decent sized lots, many of them in the 8,000 to 12,000 square foot range. Garages are almost always attached. Yards tend to be usable rather than just decorative.
+Most of Newport Hills was built in the 1960s and 1970s, with some pockets of infill from later decades. You are looking primarily at single story and split level homes on decent sized lots, though lot size varies quite a bit from street to street. Garages are almost always attached. Yards tend to be usable rather than just decorative.
 
 The architectural style is pretty understated. These are not the craftsman bungalows you find in Kirkland's older neighborhoods or the newer construction you see in Issaquah Highlands. They are solidly built midcentury homes that have been updated to varying degrees. Some have been renovated extensively. Others are still on their original kitchens and bathrooms and represent a project for the right buyer.
 
@@ -23,7 +23,7 @@ Lot sizes and the age of the homes mean buyers should pay attention to a few thi
 
 ## The Commute Reality
 
-This is where Newport Hills genuinely earns points. I 90 access is fast from most parts of the neighborhood, which makes this one of the better positioned areas in Bellevue for people who commute toward Seattle or toward the Eastside tech campuses. The 2 South Bellevue Park and Ride is close by, which means if you are a transit commuter you have real options.
+This is where Newport Hills genuinely earns points. I 90 access is fast from most parts of the neighborhood, which makes this one of the better positioned areas in Bellevue for people who commute toward Seattle or toward the Eastside tech campuses. The Newport Hills Park and Ride sits right by I 405, and South Bellevue Station on the 2 Line is a short drive away, which means if you are a transit commuter you have real options.
 
 Getting to downtown Bellevue by car takes around 10 to 15 minutes depending on traffic and exactly where in the neighborhood you start. Mercer Island is just across the bridge, which matters if you have connections there. Renton is accessible without going back to a freeway.
 
@@ -31,13 +31,13 @@ The one thing to be aware of is that surface street traffic on Coal Creek Parkwa
 
 ## Schools in Newport Hills
 
-Newport Hills feeds into the Bellevue School District, which is one of the strongest public school districts in Washington state. Elementary school is Newport Hills Elementary, which sits right inside the neighborhood. Middle and high school assignments put most students at Tyee Middle School and Newport High School.
+Newport Hills feeds into the Bellevue School District, which is one of the strongest public school districts in Washington state. The elementary school in the neighborhood is Newport Heights Elementary, and Newport High School serves Newport Hills. Middle school assignments vary, so confirm the exact address with the district's school locator.
 
 Newport High School has a solid reputation and a long history in south Bellevue. If schools are a primary decision factor for your family, the district overall is a significant draw for this area.
 
 ## Walkability and Day to Day Life
 
-Newport Hills has a small commercial core at the intersection of SE 72nd Street and 119th Avenue SE, anchored by a QFC grocery store and a handful of local businesses. For a suburban neighborhood, that is genuinely useful. Being able to walk to a full grocery store is not something every Bellevue neighborhood can claim.
+Newport Hills has a small commercial core, the Newport Hills Shopping Center at 119th Avenue SE and SE 60th Street, with a handful of local businesses. For a suburban neighborhood, that is genuinely useful. Being able to walk to a few local businesses is not something every Bellevue neighborhood can claim.
 
 Beyond that core, the neighborhood is not particularly walkable in the way that someone coming from an urban background might hope. You will drive to most restaurants, most errands beyond the basics, and most of what Bellevue's broader retail and dining scene has to offer. That is worth being honest about.
 
@@ -69,7 +69,7 @@ For the right buyer, that is exactly the point.
 
 ### What school district serves Newport Hills in Bellevue?
 
-Newport Hills is in the Bellevue School District. The neighborhood elementary school is Newport Hills Elementary. Most students feed into Tyee Middle School and Newport High School for upper grades.
+Newport Hills is in the Bellevue School District. The elementary school in the neighborhood is Newport Heights Elementary, and Newport High School serves Newport Hills. Confirm the exact address with the district's school locator, especially for middle school.
 
 ### How old are most homes in Newport Hills?
 
@@ -77,7 +77,7 @@ The majority of Newport Hills homes were built in the 1960s and 1970s. Some have
 
 ### Is Newport Hills walkable?
 
-Partially. There is a QFC grocery store and some nearby businesses within walking distance for many residents, which is genuinely useful. Beyond that, most errands and dining require a car. The Coal Creek Trail access is a strong point for outdoor recreation without needing to drive.
+Partially. The Newport Hills Shopping Center has a handful of local businesses within walking distance for many residents, which is genuinely useful. Beyond that, most errands and dining require a car. The Coal Creek Trail access is a strong point for outdoor recreation without needing to drive.
 
 ### How does Newport Hills compare in price to other Bellevue neighborhoods?
 
@@ -85,6 +85,6 @@ Newport Hills is generally priced below Bellevue's more prominent neighborhoods 
 
 ### What is the commute like from Newport Hills?
 
-I 90 access is one of the neighborhood's genuine strengths. Seattle, Mercer Island, and the Eastside tech corridors are all reasonably accessible. The South Bellevue Park and Ride is nearby for transit commuters. Coal Creek Parkway can back up during peak hours, so it is worth checking your specific route at rush hour.
+I 90 access is one of the neighborhood's genuine strengths. Seattle, Mercer Island, and the Eastside tech corridors are all reasonably accessible. The Newport Hills Park and Ride by I 405 is nearby for transit commuters, and South Bellevue Station on the 2 Line is a short drive away. Coal Creek Parkway can back up during peak hours, so it is worth checking your specific route at rush hour.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
