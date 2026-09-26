@@ -6,6 +6,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { cleanPost } = require("./no-dashes");
 
 const ROOT = path.join(__dirname, "..", "..");
 const POSTS_DATA_PATH = path.join(ROOT, "blog-posts-data.js");
@@ -42,7 +43,8 @@ function loadPosts() {
   // literals (unquoted keys). Both are valid JS, so evaluate as JS rather than JSON.
   const posts = new Function(`"use strict"; return (${match[1]});`)();
   if (!Array.isArray(posts)) throw new Error("Parsed POSTS is not an array.");
-  return posts;
+  // Safety net: pages never show a dash, even if one slips into the data.
+  return posts.map(cleanPost);
 }
 
 function buildFaqSection(faq) {
@@ -181,7 +183,7 @@ ${breadcrumbJsonLd}
 <img src="../../assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
 </a>
 <div style="display: flex; align-items: center; gap: var(--space-5);">
-<a href="tel:4259416998" class="btn btn-secondary">(425) 941-6998</a>
+<a href="tel:4259416998" class="btn btn-secondary">425.941.6998</a>
 </div>
 </div>
 
@@ -215,7 +217,7 @@ ${relatedSection}
 <div style="font-family: var(--font-heading); color: #fdfdfc; font-size: 19px; margin-bottom: var(--space-2);">JACK MACDONALD</div>
 <div style="font-size: 13px; line-height: 1.9;">Macdonald Group of Compass<br>700 110th Ave NE, Ste 270, Bellevue, WA 98004</div>
 </div>
-<div style="font-size: 13px; line-height: 1.9;">(425) 941-6998<br>License #21022645</div>
+<div style="font-size: 13px; line-height: 1.9;">425.941.6998<br>License #21022645</div>
 <div style="display: flex; gap: var(--space-3); align-items: flex-start; flex-wrap: wrap;">
 <a href="https://www.instagram.com/jackmacdonaldre/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Instagram</a>
 <a href="https://www.linkedin.com/in/jack-macdonald-992878180/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">LinkedIn</a>
@@ -289,7 +291,7 @@ a:hover { opacity: 0.7; }
 <img src="../assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
 </a>
 <div style="display: flex; align-items: center; gap: var(--space-5);">
-<a href="tel:4259416998" class="btn btn-secondary">(425) 941-6998</a>
+<a href="tel:4259416998" class="btn btn-secondary">425.941.6998</a>
 </div>
 </div>
 
@@ -312,7 +314,7 @@ ${articles}
 <div style="font-family: var(--font-heading); color: #fdfdfc; font-size: 19px; margin-bottom: var(--space-2);">JACK MACDONALD</div>
 <div style="font-size: 13px; line-height: 1.9;">Macdonald Group of Compass<br>700 110th Ave NE, Ste 270, Bellevue, WA 98004</div>
 </div>
-<div style="font-size: 13px; line-height: 1.9;">(425) 941-6998<br>License #21022645</div>
+<div style="font-size: 13px; line-height: 1.9;">425.941.6998<br>License #21022645</div>
 <div style="display: flex; gap: var(--space-3); align-items: flex-start; flex-wrap: wrap;">
 <a href="https://www.instagram.com/jackmacdonaldre/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Instagram</a>
 <a href="https://www.linkedin.com/in/jack-macdonald-992878180/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">LinkedIn</a>

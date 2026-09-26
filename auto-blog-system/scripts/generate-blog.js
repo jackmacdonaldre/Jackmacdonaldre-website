@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { cleanText, cleanHtml } = require("./no-dashes");
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!ANTHROPIC_API_KEY) {
@@ -52,14 +53,14 @@ const SYSTEM_PROMPT = "You are helping Jack Macdonald, a real estate agent with 
   "Use headings that sound like real questions or useful topics a person would actually ask, not generic SEO headings. Keep paragraphs relatively short and readable. Do not overuse bullet points, only use them when they genuinely make information easier to understand. Write for a person researching a real decision, not for a search engine.\n" +
   "Throughout, ask yourself: would a reader learn something here they would not get from a generic real estate website. If the answer is no, make that section more specific, practical, or insightful.\n\n" +
   "VARIETY REQUIREMENT: This blog publishes several posts a week over a long stretch of time, so avoid falling into a repeatable template that would read as mass produced. Do not open every article with a sentence shaped like X sits in, X occupies, or X is one of those neighborhoods that, vary the opening approach instead, sometimes starting with a concrete detail, a scene, a real question a buyer actually asks, or a direct claim about the topic. Do not default to the same fixed set of sections in the same order every time, such as overview, housing stock, schools, commute, walkability, comparison to a nearby area, who it suits, and a market summary, instead choose whichever four to seven angles genuinely fit this specific topic, skip any that would feel like filler here, and let the structure vary noticeably from one article to the next. In the FAQ, vary which topics the questions cover across different articles rather than defaulting to the same handful such as school district, commute time, walkability, and price every time. Most importantly, never end the article with a line asking if the reader is thinking about moving, ready to buy, or similar, and never end by inviting the reader to browse listings or reach out, even indirectly or softly worded, end when the content naturally ends, on a real observation, not on any version of a call to action.\n\n" +
-  "FORMATTING RULE: Never use an em dash or en dash anywhere, and never use a hyphen with spaces around it to join clauses. Rewrite those sentences with commas, periods, or parentheses instead. Normal hyphenated compound words are fine and should keep their hyphen, for example single-family, first-time, off-leash, step-by-step, 30-year, pre-approval, and highway names like I-90, I-405, or SR-520.\n\n" +
+  "FORMATTING RULE, ZERO DASHES: Never use any dash character anywhere, not a hyphen, not an en dash, not an em dash, in the title, meta description, article, FAQ, or captions. This includes compound words: write single family, first time buyer, off leash, step by step, 30 year, move in ready, and use closed forms where normal like preapproval and nonwaterfront. Write highways as I 90, I 405, SR 520. Write ranges with the word to, like 3 to 4 bedrooms or 1970s to 1980s. Rewrite any sentence that would need a dash using commas, periods, or parentheses instead.\n\n" +
   "OUTPUT FORMAT: Return ONLY valid JSON, no markdown fences, no commentary: " +
-  "{\"title\": \"article title, under 60 characters ideally, include neighborhood or city name, no em dashes or en dashes\", " +
-  "\"meta_description\": \"150-160 characters, include neighborhood or city name, no em dashes or en dashes\", " +
-  "\"body_html\": \"full article as HTML using h2, h3, p, ul tags, no em dashes or en dashes, length should fit the topic naturally rather than hit a target word count\", " +
+  "{\"title\": \"article title, under 60 characters ideally, include neighborhood or city name, no dashes of any kind\", " +
+  "\"meta_description\": \"150 to 160 characters, include neighborhood or city name, no dashes of any kind\", " +
+  "\"body_html\": \"full article as HTML using h2, h3, p, ul tags, no dashes of any kind, length should fit the topic naturally rather than hit a target word count\", " +
   "\"faq\": [{\"q\": \"...\", \"a\": \"...\"}], " +
-  "\"social_caption_instagram\": \"short caption with 3-5 hashtags, no em dashes\", " +
-  "\"social_caption_google_business\": \"2-3 sentences, local focused, no em dashes\", " +
+  "\"social_caption_instagram\": \"short caption with 3 to 5 hashtags, no dashes\", " +
+  "\"social_caption_google_business\": \"2 to 3 sentences, local focused, no dashes\", " +
   "\"review_notes\": \"brief note on anything worth Jack double checking for accuracy, or empty string\"}";
 
 const USER_PROMPT = `Write the article now.
@@ -69,7 +70,7 @@ Content type: ${nextTopic.type}
 City: ${nextTopic.city}
 Neighborhood: ${nextTopic.neighborhood || "N/A"}
 
-Remember: educate first, no sales pitch or call to action at the end, no em dashes or en dashes (normal hyphenated words like single-family are fine). Write like Jack is actually explaining this to someone in person, not marketing to them.`;
+Remember: educate first, no sales pitch or call to action at the end, zero dashes of any kind, not even hyphens in compound words. Write like Jack is actually explaining this to someone in person, not marketing to them.`;
 
 (async () => {
   const response = await fetch("https://api.anthropic.com/v1/messages", {
@@ -103,21 +104,12 @@ Remember: educate first, no sales pitch or call to action at the end, no em dash
     process.exit(1);
   }
 
-  // Remove em/en dashes and spaced hyphens used to join clauses, replacing them
-  // with commas. Hyphens INSIDE words (single-family, first-time, I-90) are kept.
-  // (An earlier version replaced every hyphen, which produced "First, Time" and
-  // "off, leash" in titles that showed up in Google results.)
-  const stripDashes = (str) => {
-    if (typeof str !== "string") return str;
-    return str
-      .replace(/\s*[\u2013\u2014]\s*/g, ", ")
-      .replace(/\s+-{1,2}\s+/g, ", ")
-      .replace(/,\s*,/g, ",");
-  };
+  // Zero dashes, enforced in code as a backup to the prompt (see no-dashes.js).
+  const stripDashes = cleanText;
 
   article.title = stripDashes(article.title);
   article.meta_description = stripDashes(article.meta_description);
-  article.body_html = stripDashes(article.body_html);
+  article.body_html = cleanHtml(article.body_html);
   article.social_caption_instagram = stripDashes(article.social_caption_instagram);
   article.social_caption_google_business = stripDashes(article.social_caption_google_business);
   if (Array.isArray(article.faq)) {
