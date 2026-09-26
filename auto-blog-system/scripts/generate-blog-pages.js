@@ -146,6 +146,7 @@ function buildPostHtml(post, allPosts = []) {
 <title>${title} | Jack Macdonald, Macdonald Group</title>
 <meta name="description" content="${desc}">
 <link rel="canonical" href="${url}">
+<link rel="alternate" type="text/markdown" href="${url}index.md">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Jack Macdonald | Macdonald Group of Compass">
 <meta property="og:title" content="${title} | Jack Macdonald, Macdonald Group">
@@ -236,6 +237,100 @@ The listing information on this website is provided through IDX from Northwest M
 </body>
 </html>
 `;
+}
+
+
+// ---------- AI / LLM readable files (llms.txt, llms-full.txt, per post index.md) ----------
+// llms.txt is a plain text map of the site for AI assistants (ChatGPT, Claude,
+// Perplexity, etc.). Each post also gets a clean Markdown copy at /blog/{slug}/index.md.
+
+function decodeEntities(str) {
+  return String(str || "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&rsquo;|&lsquo;/g, "'")
+    .replace(/&ldquo;|&rdquo;/g, '"');
+}
+
+function htmlToMarkdown(html) {
+  let md = stripReviewNote(html)
+    .replace(/<h2[^>]*>([\s\S]*?)<\/h2>/gi, "\n\n## $1\n\n")
+    .replace(/<h3[^>]*>([\s\S]*?)<\/h3>/gi, "\n\n### $1\n\n")
+    .replace(/<h4[^>]*>([\s\S]*?)<\/h4>/gi, "\n\n#### $1\n\n")
+    .replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, "\n* $1")
+    .replace(/<\/?(ul|ol)[^>]*>/gi, "\n")
+    .replace(/<(strong|b)[^>]*>([\s\S]*?)<\/\1>/gi, "**$2**")
+    .replace(/<(em|i)[^>]*>([\s\S]*?)<\/\1>/gi, "*$2*")
+    .replace(/<a [^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, "[$2]($1)")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<p[^>]*>([\s\S]*?)<\/p>/gi, "\n\n$1\n\n")
+    .replace(/<[^>]+>/g, "");
+  md = decodeEntities(md);
+  return md.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+function buildPostMarkdown(post) {
+  const url = `${SITE_URL}/blog/${post.slug}/`;
+  const faq = Array.isArray(post.faq) && post.faq.length
+    ? "\n\n## Common Questions\n\n" + post.faq.map((f) => `### ${f.q}\n\n${f.a}`).join("\n\n")
+    : "";
+  return `# ${post.title}
+
+> ${post.metaDescription}
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: ${formatDate(post.publishedDate)}
+Area: ${post.city || "Eastside"}, Washington
+Web page: ${url}
+
+${htmlToMarkdown(post.bodyHtml)}${faq}
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website ${SITE_URL}/
+`;
+}
+
+const SITE_SUMMARY = `# Jack Macdonald | Macdonald Group of Compass
+
+> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell on the Eastside of Seattle, Washington. This site publishes local neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
+
+Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washington license 21022645.
+
+## Main pages
+
+* [Home](${SITE_URL}/): overview of Jack Macdonald and Macdonald Group of Compass
+* [About Jack](${SITE_URL}/about/): background, local roots in Bellevue, and approach
+* [Seller services](${SITE_URL}/services/): pricing, marketing, and negotiation for Eastside sellers
+* [Buyer's guide](${SITE_URL}/buyers-guide/): the home buying process on the Eastside
+* [Team](${SITE_URL}/team/): the Macdonald Group team
+* [Contact](${SITE_URL}/contact/): phone, office, and message form
+* [Blog](${SITE_URL}/blog/): all local guides`;
+
+function sortedPosts(posts) {
+  return [...posts].filter((p) => p.slug).sort((a, b) => new Date(b.publishedDate) - new Date(a.publishedDate));
+}
+
+function buildLlmsTxt(posts) {
+  const list = sortedPosts(posts)
+    .map((p) => `* [${p.title}](${SITE_URL}/blog/${p.slug}/index.md): ${p.metaDescription}`)
+    .join("\n");
+  return `${SITE_SUMMARY}
+
+## Eastside real estate guides (Markdown)
+
+${list}
+
+## Optional
+
+* [All guides in one file](${SITE_URL}/llms-full.txt)
+* [Sitemap](${SITE_URL}/sitemap.xml)
+`;
+}
+
+function buildLlmsFullTxt(posts) {
+  return `${SITE_SUMMARY}\n\n` + sortedPosts(posts).map(buildPostMarkdown).join("\n\n* * *\n\n");
 }
 
 function buildBlogIndexHtml(posts) {
@@ -371,6 +466,7 @@ function main() {
     const isNew = !fs.existsSync(postFile);
     fs.mkdirSync(postDir, { recursive: true });
     fs.writeFileSync(postFile, buildPostHtml(post, posts));
+    fs.writeFileSync(path.join(postDir, "index.md"), buildPostMarkdown(post));
     if (isNew) {
       createdCount++;
       console.log(`Created page: blog/${post.slug}/index.html`);
@@ -381,6 +477,10 @@ function main() {
   fs.writeFileSync(BLOG_INDEX_PATH, buildBlogIndexHtml(posts));
   console.log("Rebuilt blog/index.html with all posts.");
   updateSitemap(posts);
+
+  fs.writeFileSync(path.join(ROOT, "llms.txt"), buildLlmsTxt(posts));
+  fs.writeFileSync(path.join(ROOT, "llms-full.txt"), buildLlmsFullTxt(posts));
+  console.log("Rebuilt llms.txt, llms-full.txt, and Markdown copies of every post.");
 }
 
 main();
