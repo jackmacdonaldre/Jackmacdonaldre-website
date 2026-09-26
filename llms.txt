@@ -1,0 +1,48 @@
+# Jack Macdonald | Macdonald Group of Compass
+
+> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell on the Eastside of Seattle, Washington. This site publishes local neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
+
+Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washington license 21022645.
+
+## Main pages
+
+* [Home](https://jackmacdonaldre.com/): overview of Jack Macdonald and Macdonald Group of Compass
+* [About Jack](https://jackmacdonaldre.com/about/): background, local roots in Bellevue, and approach
+* [Seller services](https://jackmacdonaldre.com/services/): pricing, marketing, and negotiation for Eastside sellers
+* [Buyer's guide](https://jackmacdonaldre.com/buyers-guide/): the home buying process on the Eastside
+* [Team](https://jackmacdonaldre.com/team/): the Macdonald Group team
+* [Contact](https://jackmacdonaldre.com/contact/): phone, office, and message form
+* [Blog](https://jackmacdonaldre.com/blog/): all local guides
+
+## Eastside real estate guides (Markdown)
+
+* [Rose Hill Kirkland School Boundaries: Which Schools Serve Which Streets](https://jackmacdonaldre.com/blog/rose-hill-kirkland-schools-which-elementary-middle-and-high-school-feeds-each-street/index.md): A street level guide to elementary, middle, and high school boundaries in Rose Hill, Kirkland. Know which schools serve your address before you buy.
+* [Bellevue Farmers Market: What to Know Before You Go](https://jackmacdonaldre.com/blog/bellevue-farmers-market-guide/index.md): A practical guide to the Bellevue Farmers Market from a local who actually goes. What to expect, when to arrive, and what makes it worth the trip.
+* [Dog Parks in Redmond, WA: A Local's Guide](https://jackmacdonaldre.com/blog/dog-parks-in-redmond-wa-a-local-s-list/index.md): A real look at Redmond's best dog parks and off leash areas, what they're actually like, where they're located, and what to know before you go.
+* [Best Hiking Trails Near Issaquah, WA](https://jackmacdonaldre.com/blog/best-hiking-trails-near-issaquah/index.md): A local's guide to the best hiking trails near Issaquah, WA, from Cougar Mountain to Tiger Mountain and everything in between.
+* [The Best Coffee Shops in Bellevue, WA Worth Knowing](https://jackmacdonaldre.com/blog/best-coffee-shops-in-bellevue-wa/index.md): A local real estate agent's honest guide to the best coffee shops in Bellevue, WA, by neighborhood, from downtown to Crossroads and beyond.
+* [How Much House Can You Afford on the Eastside in 2026](https://jackmacdonaldre.com/blog/how-much-house-can-you-afford-on-the-eastside-in-2026/index.md): A realistic look at Eastside WA affordability in 2026: what income, down payment, and rates actually mean for your buying power in Bellevue, Kirkland, and beyond.
+* [First Time Home Buying on the Eastside: A Real Step by Step Guide](https://jackmacdonaldre.com/blog/first-time-home-buying-on-the-eastside-step-by-step/index.md): A practical, honest guide to buying your first home on the Eastside of Seattle, from financing basics to closing day, written by a local Bellevue area agent.
+* [Cost of Living in Bellevue WA: What to Actually Expect](https://jackmacdonaldre.com/blog/cost-of-living-in-bellevue-what-to-expect/index.md): Thinking about relocating to Bellevue? Here is an honest breakdown of what housing, groceries, taxes, and daily expenses actually look like.
+* [Lake Washington School District Boundaries: A Buyer's Guide](https://jackmacdonaldre.com/blog/lake-washington-school-district-boundaries-a-buyer-s-guide/index.md): Buying a home in Bellevue or nearby? Here's what you need to know about Lake Washington School District boundaries before you make an offer.
+* [Bellevue School District Guide for Home Buyers](https://jackmacdonaldre.com/blog/bellevue-school-district-guide-for-home-buyers/index.md): A practical guide to Bellevue School District for home buyers, covering boundaries, school quality, what the data means, and how BSD shapes the market.
+* [Relocating to the Eastside for a Tech Job: What to Know](https://jackmacdonaldre.com/blog/relocating-to-the-eastside-for-a-tech-job-what-to-know/index.md): Moving to the Eastside of Seattle for a tech job? Here's what actually matters about neighborhoods, commutes, housing, and tradeoffs before you decide.
+* [Moving to Bellevue from California: What to Actually Expect](https://jackmacdonaldre.com/blog/moving-to-bellevue-from-california-a-practical-guide/index.md): Thinking about relocating from California to Bellevue, WA? Here's what actually changes, from taxes to weather to housing costs, explained plainly.
+* [Redmond vs. Sammamish: An Honest Eastside Comparison](https://jackmacdonaldre.com/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/index.md): Redmond and Sammamish are both popular Eastside suburbs, but they suit different buyers. Here is what actually differs between the two.
+* [Bellevue vs Kirkland: Which Eastside City Fits You?](https://jackmacdonaldre.com/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/index.md): Comparing Bellevue and Kirkland as places to live on the Eastside. Real differences in housing, commute, feel, and tradeoffs to help you decide.
+* [Juanita Kirkland: What to Know Before You Buy](https://jackmacdonaldre.com/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/index.md): Thinking about Juanita in Kirkland? Here's an honest look at the housing stock, waterfront access, schools, commute, and what makes this neighborhood worth knowing.
+* [Buying on the Sammamish Plateau: What to Know First](https://jackmacdonaldre.com/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/index.md): A real local guide to Sammamish Plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area.
+* [Newport Hills Bellevue: What Buyers Should Know](https://jackmacdonaldre.com/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/index.md): A real look at Newport Hills in Bellevue for buyers. Housing stock, commute, schools, tradeoffs, and what makes this neighborhood different from nearby areas.
+* [West Bellevue Neighborhoods: What Buyers Should Know](https://jackmacdonaldre.com/blog/west-bellevue-homes-for-sale-neighborhood-guide/index.md): A local agent's honest guide to West Bellevue homes, neighborhoods, price ranges, schools, and what buyers often get wrong about this part of the city.
+* [Finn Hill Kirkland: What the Neighborhood Is Actually Like](https://jackmacdonaldre.com/blog/finn-hill-homes-for-sale-neighborhood-overview/index.md): Thinking about Finn Hill in Kirkland? Here's what the neighborhood is actually like, from housing stock and schools to commute times and tradeoffs.
+* [Klahanie Homes for Sale: A Real Buyers Guide](https://jackmacdonaldre.com/blog/klahanie-homes-for-sale-community-guide/index.md): Thinking about buying in Klahanie, Sammamish? Here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market.
+* [Downtown Redmond Homes and Condos Neighborhood Guide](https://jackmacdonaldre.com/blog/downtown-redmond-condos-and-homes-neighborhood-guide/index.md): Thinking about buying or selling in Downtown Redmond WA? Jack Macdonald shares what living here actually looks like, from condos to commutes.
+* [Education Hill Homes for Sale: What Buyers Should Know](https://jackmacdonaldre.com/blog/education-hill-homes-for-sale-what-buyers-should-know/index.md): Thinking about buying a home on Education Hill in Redmond WA? Local agent Jack Macdonald shares what makes this neighborhood worth a closer look.
+* [Somerset Bellevue Homes for Sale: Neighborhood Guide](https://jackmacdonaldre.com/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/index.md): Thinking about buying a home in Somerset Bellevue? Jack Macdonald shares what makes this neighborhood stand out, from the schools to the views to the streets.
+* [Living in Bridle Trails, Bellevue: A Neighborhood Guide](https://jackmacdonaldre.com/blog/living-in-bridle-trails-a-neighborhood-guide/index.md): Thinking about living in Bridle Trails? Discover what makes this Bellevue neighborhood special, from forested trails to top schools and the local real estate market.
+* [Welcome to the Blog](https://jackmacdonaldre.com/blog/welcome-to-the-blog/index.md): Market updates, neighborhood guides, and local insight from Jack Macdonald and the Macdonald Group, serving Bellevue and the greater Eastside.
+
+## Optional
+
+* [All guides in one file](https://jackmacdonaldre.com/llms-full.txt)
+* [Sitemap](https://jackmacdonaldre.com/sitemap.xml)
