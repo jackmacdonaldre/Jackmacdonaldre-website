@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { cleanText, cleanHtml } = require("./no-dashes");
+const { factCheckArticle } = require("./fact-check");
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!ANTHROPIC_API_KEY) {
@@ -98,11 +99,31 @@ Remember: educate first, no sales pitch or call to action at the end, zero dashe
 
   let article;
   try {
-    article = JSON.parse(rawText.replace(/```json|```/g, "").trim());
+    const cleaned = rawText.replace(/```json|```/g, "");
+    article = JSON.parse(cleaned.slice(cleaned.indexOf("{"), cleaned.lastIndexOf("}") + 1));
   } catch (err) {
     console.error("Failed to parse Claude's response as JSON. Skipping this run.", err);
     process.exit(1);
   }
+
+  // Fact check BEFORE publishing (see fact-check.js). If the check can't run at
+  // all, nothing is published and the topic stays queued for the next run.
+  let factCheck;
+  try {
+    factCheck = await factCheckArticle(ANTHROPIC_API_KEY, article, nextTopic);
+  } catch (err) {
+    console.error("Fact check failed, so this post was NOT published. The topic stays queued for the next run.", err);
+    process.exit(1);
+  }
+  article.title = factCheck.title;
+  article.meta_description = factCheck.meta_description;
+  article.body_html = factCheck.body_html;
+  article.faq = factCheck.faq;
+  const corrected = factCheck.changes.filter((c) => c.action === "corrected").length;
+  const generalized = factCheck.changes.length - corrected;
+  const factSummary = `Fact checked by ${factCheck.method}: ${factCheck.claims_checked} claims checked, ${corrected} corrected, ${generalized} made general or removed.`;
+  console.log(factSummary);
+  factCheck.changes.forEach((c) => console.log(` * ${c.action}: ${c.what} (${c.source})`));
 
   // Zero dashes, enforced in code as a backup to the prompt (see no-dashes.js).
   const stripDashes = cleanText;
@@ -119,10 +140,9 @@ Remember: educate first, no sales pitch or call to action at the end, zero dashe
     }));
   }
 
-  let bodyHtml = article.body_html;
-  if (article.review_notes && article.review_notes.trim().length > 0) {
-    bodyHtml += `\n<!-- REVIEW NOTE: ${article.review_notes.replace(/-->/g, "")} -->`;
-  }
+  // Invisible record of the fact check, kept in the page source only.
+  const changeLog = factCheck.changes.map((c) => `${c.action}: ${c.what} (${c.source})`).join("; ");
+  const bodyHtml = article.body_html + `\n<!-- FACT CHECK ${new Date().toISOString().slice(0, 10)}: ${factSummary} ${changeLog} -->`.replace(/-->(?!$)/g, "");
 
   const newPostObj = {
     id: `post-${Date.now()}`,
@@ -165,6 +185,7 @@ Remember: educate first, no sales pitch or call to action at the end, zero dashe
     fs.appendFileSync(process.env.GITHUB_ENV, `NEW_POST_TITLE=${article.title}\n`);
     fs.appendFileSync(process.env.GITHUB_ENV, `NEW_POST_URL=https://jackmacdonaldre.com/blog/${slug}/\n`);
     fs.appendFileSync(process.env.GITHUB_ENV, `REMAINING_TOPICS=${remainingCount}\n`);
+    fs.appendFileSync(process.env.GITHUB_ENV, `FACT_CHECK_SUMMARY=${factSummary.replace(/\n/g, " ")}\n`);
     if (remainingCount <= LOW_QUEUE_THRESHOLD) {
       fs.appendFileSync(process.env.GITHUB_ENV, "LOW_QUEUE_WARNING=true\n");
     }

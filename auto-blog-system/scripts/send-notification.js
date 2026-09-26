@@ -34,6 +34,9 @@ function buildEmail() {
   }
 
   let html = `<p>A new post just went live on your site:</p><p><strong>${title}</strong></p><p><a href="${url}">${url}</a></p>`;
+  if (process.env.FACT_CHECK_SUMMARY) {
+    html += `<p style="color: #555;">${process.env.FACT_CHECK_SUMMARY}</p>`;
+  }
 
   if (lowQueueWarning) {
     html += `<p style="margin-top: 16px; color: #b45309;">Heads up: only ${remaining} topic${remaining === "1" ? "" : "s"} left in your queue. Add more to auto-blog-system/content/topics-queue.json soon so posts don't stop.</p>`;
