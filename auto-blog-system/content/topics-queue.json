@@ -222,7 +222,9 @@
       "city": "Kirkland",
       "neighborhood": null,
       "type": "lifestyle_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "best-parks-in-kirkland-wa-for-families",
+      "published_date": "2026-09-28"
     },
     {
       "topic": "Issaquah School District Guide for Home Buyers",
