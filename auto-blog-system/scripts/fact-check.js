@@ -24,7 +24,7 @@ const RULES =
   "4. Do not add new facts unless you verified them.\n" +
   "5. Zero dashes: never use any dash character (no hyphen, en dash, or em dash) in any text you write. Write single family, off leash, I 90, SR 520, 3 to 4.\n" +
   "6. Prices, medians, rates and limits change. Only keep a number if a reliable source from the last 12 months supports it, and say roughly when (for example as of summer 2026). Otherwise make it general.\n\n" +
-  "Return ONLY valid JSON, no markdown fences, no commentary before or after, in exactly this shape: " +
+  "When you are done, put the final result between <final_json> and </final_json> tags, as valid JSON with no markdown fences, in exactly this shape: " +
   "{\"title\": \"...\", \"meta_description\": \"...\", \"body_html\": \"...\", \"faq\": [{\"q\": \"...\", \"a\": \"...\"}], " +
   "\"claims_checked\": <number of specific claims you checked>, " +
   "\"changes\": [{\"what\": \"short description of the claim\", \"action\": \"corrected\" | \"made general\" | \"removed\", \"source\": \"URL or 'not verifiable'\"}]}";
@@ -52,10 +52,45 @@ async function callClaude(apiKey, body) {
   if (!res.ok) throw new Error(`API ${res.status}: ${(await res.text()).slice(0, 500)}`);
   const data = await res.json();
   const text = (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("");
-  const start = text.indexOf("{");
-  const end = text.lastIndexOf("}");
-  if (start < 0 || end < 0) throw new Error("No JSON in fact check response");
-  return JSON.parse(text.slice(start, end + 1));
+  return extractJson(text);
+}
+
+// Pulls the result JSON out of the reply. With web search on, the reply mixes
+// commentary and citations with the JSON, so prefer the <final_json> tags, then
+// fall back to finding a balanced {...} block that parses and looks like an article.
+function extractJson(text) {
+  const tagged = text.match(/<final_json>([\s\S]*?)<\/final_json>/);
+  if (tagged) {
+    try { return JSON.parse(tagged[1].replace(/```json|```/g, "").trim()); } catch (e) { /* fall through */ }
+  }
+  const candidates = [];
+  for (let start = text.indexOf("{"); start !== -1; start = text.indexOf("{", start + 1)) {
+    let depth = 0, inStr = false, esc = false;
+    for (let i = start; i < text.length; i++) {
+      const ch = text[i];
+      if (inStr) {
+        if (esc) esc = false;
+        else if (ch === "\\") esc = true;
+        else if (ch === '"') inStr = false;
+        continue;
+      }
+      if (ch === '"') inStr = true;
+      else if (ch === "{") depth++;
+      else if (ch === "}") {
+        depth--;
+        if (depth === 0) {
+          try {
+            const obj = JSON.parse(text.slice(start, i + 1));
+            if (obj && typeof obj.body_html === "string") candidates.push(obj);
+          } catch (e) { /* not valid JSON, keep looking */ }
+          break;
+        }
+      }
+    }
+  }
+  if (!candidates.length) throw new Error("No article JSON in fact check response");
+  // The final answer is usually the last complete article object in the reply.
+  return candidates[candidates.length - 1];
 }
 
 function validate(original, checked) {
