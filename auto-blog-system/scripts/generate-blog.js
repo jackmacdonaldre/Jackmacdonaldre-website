@@ -36,8 +36,10 @@ const existingFileText = fs.readFileSync(POSTS_DATA_PATH, "utf8");
 // Backup run (a few hours after the main run): only publish if today's post
 // is missing, e.g. because the Anthropic API was down during the main run.
 const today = new Date().toISOString().split("T")[0];
-if (process.env.CATCHUP_RUN === "true" && existingFileText.includes(`"publishedDate":"${today}"`)) {
-  console.log("Backup run: today's post is already live, nothing to do.");
+if ((process.env.CATCHUP_RUN === "true" || process.env.GITHUB_EVENT_NAME === "schedule") && existingFileText.includes(`"publishedDate":"${today}"`)) {
+  // Scheduled runs never publish twice in one day (GitHub often starts them hours late,
+  // after a manual run already published). Manual runs always publish.
+  console.log("Scheduled run: today's post is already live, nothing to do.");
   process.exit(0);
 }
 const slug = slugify(nextTopic.topic);
