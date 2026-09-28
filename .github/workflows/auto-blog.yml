@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# Runs queue one at a time, so a late main run and the backup run never overlap.
+concurrency:
+  group: auto-blog
+  cancel-in-progress: false
+
 jobs:
   generate-and-publish:
     runs-on: ubuntu-latest
