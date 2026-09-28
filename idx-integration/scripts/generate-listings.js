@@ -32,7 +32,7 @@ if (!IDX_ACCESS_KEY) {
     listings = raw;
     }
 
-          listings = listings.filter((l) => (l.propSubType || '').toString().toLowerCase().indexOf('manufactured') === -1);
+          var EXCLUDED_LISTING_IDS = ['2577547']; listings = listings.filter((l) => (l.propSubType || '').toString().toLowerCase().indexOf('manufactured') === -1 && EXCLUDED_LISTING_IDS.indexOf(String(l.listingID)) === -1);
 
     listings.sort((a, b) => (Number(b.listingPrice) || 0) - (Number(a.listingPrice) || 0));
 
