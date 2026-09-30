@@ -230,7 +230,9 @@
       "topic": "Issaquah School District Guide for Home Buyers",
       "city": "Issaquah",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "issaquah-school-district-guide-for-home-buyers",
+      "published_date": "2026-09-30"
     },
     {
       "topic": "Seller's Guide: Preparing Your Eastside Home for Market",
