@@ -1,7 +1,317 @@
 {
-  "generatedAt": "2026-09-28T21:13:02.353Z",
-  "count": 118,
+  "generatedAt": "2026-10-02T04:57:33.628Z",
+  "count": 119,
   "listings": [
+    {
+      "acres": "0.417",
+      "address": "4651 171st Avenue SE",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Hardwood",
+          "Carpet"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "3.25",
+        "lotNumber": "18",
+        "styleCode": "12 - 2 Story",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "gasCompany": "PSE",
+        "highSchool": [
+          "Issaquah High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Leased Equipment",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 3710,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level,Partial Slope,Rolling",
+        "vegetation": [
+          "Wooded"
+        ],
+        "lotFeatures": [
+          "Adjacent to Public Land",
+          "Cul-De-Sac",
+          "Curbs",
+          "Dead End Street",
+          "Paved",
+          "Secluded",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "buildingName": "Vuemont Vista",
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "500 - East Side/South of I-90",
+        "onMarketDate": "2026-08-07T00:00:00+00:00",
+        "parkingTotal": 3,
+        "powerCompany": "Puget Sound Energy",
+        "sewerCompany": "City of Bellevue",
+        "siteFeatures": [
+          "Cable TV",
+          "Deck",
+          "Fenced-Partially",
+          "Gas Available",
+          "High Speed Internet",
+          "Hot Tub/Spa",
+          "Patio",
+          "Sprinkler System"
+        ],
+        "titleCompany": "Stewart Title",
+        "waterCompany": "City of Bellevue",
+        "waterfrontYN": "no",
+        "bathsFullMain": "0",
+        "bathsHalfMain": "1",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "3",
+        "busLineNearby": "no",
+        "coveredSpaces": 3,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 27,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "2",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "cableConnected": "Xfinity",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "2",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 3,
+        "fireplacesUpper": "1",
+        "leasedEquipment": "None",
+        "numberOfShowers": "3",
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 16943.84,
+        "waterHeaterType": "Gas",
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Cougar Ridge Elem"
+        ],
+        "exteriorFeatures": [
+          "Brick",
+          "Wood"
+        ],
+        "interiorFeatures": [
+          "Second Primary Bedroom",
+          "Bath Off Primary",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Fireplace",
+          "Fireplace (Primary Bedroom)",
+          "French Doors",
+          "Security System",
+          "Skylight(s)",
+          "Walk-In Closet(s)",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "KCR",
+        "numberOfBathtubs": "2",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 3710,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "communityFeatures": [
+          "CC Rs"
+        ],
+        "fireplaceFeatures": [
+          "Gas",
+          "Wood Burning"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "internetConnected": "Xfinity",
+        "lotSizeSquareFeet": 18144,
+        "mainLevelBedrooms": 0,
+        "otherDuesOrFeesYN": "no",
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "architecturalStyle": [
+          "Traditional"
+        ],
+        "highSchoolDistrict": [
+          "Issaquah"
+        ],
+        "yearBuiltEffective": 1991,
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "Garage",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Cougar Mountain Middle"
+        ],
+        "bathsThreeQuarterMain": "0",
+        "associationFeeIncludes": [
+          "Common Area Maintenance",
+          "See Remarks"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "garbageServiceProvider": "Republic Services",
+        "mlsSquareFootageSource": "KCR",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "3710",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 4,
+      "cityID": 3453,
+      "cityName": "Bellevue",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-08-07T18:04:39+00:00",
+      "dateModified": "2026-09-30T23:58:20+00:00",
+      "detailsURL": "b045/2565872",
+      "detailsUrlSlug": "4651-171st-Avenue-SE-Bellevue-98006",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2565872/4651-171st-Avenue-SE-Bellevue-98006",
+      "halfBaths": 1,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/26f0/0f626aab09206f6c695feefe05d8b0b5/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.562943,
+      "listingAgentID": "1186410",
+      "listingID": "2565872",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$2,374,888",
+      "longitude": -122.11207,
+      "mediaData": [],
+      "mlsPhotoCount": 40,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 2,
+      "price": 2374888,
+      "priceData": {
+        "value": {
+          "raw": 2250000,
+          "formatted": "$2,250,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Gracefully elevated on a private cul-de-sac, this majestic Lakemont residence blends timeless architecture with exceptional livability. Situated on an oversized private lot, this thoughtfully designed flowing floor-plan is equally suited for grand entertaining and intimate everyday living. A dramatic two-story entry welcomes you inside, where soaring ceilings and Palladian windows fill the formal living room with natural light. The formal living and dining rooms, a private office, and a spacious family room with fireplace create inviting gathering spaces. The chef's kitchen with center island and informal dining area open seamlessly to an expansive entertainment deck overlooking the serene surroundings. The versatile layout features a second staircase leading to a private 4th bedroom with ensuite bath on its own level, ideal for guests, multigenerational living, or a bonus retreat. Continue upstairs to the luxurious primary suite, a true sanctuary, offering a sitting room with fireplace, a beautifully renovated spa-inspired bath with soaking tub, oversized shower, and walk-in closet. Two more spacious bedrooms and an updated full bath complete this level.  Outdoor living shines here with a large entertainment deck, BBQ area, hot tub, play space, and arboretum-like setting that provides a peaceful \"in the woods\" experience just minutes from shopping, I-90, and sought-after Cougar Ridge Elementary. 3-car garage, and many updates complete this exceptional Lakemont home.",
+      "rntLse": "neither",
+      "rntLsePrice": 2374888,
+      "sellingAgentID": "58251978",
+      "sellingOfficeID": "89047995",
+      "soldDate": "2026-09-30T00:00:00+00:00",
+      "soldPrice": 2250000,
+      "sqFt": "3,710",
+      "state": "Washington",
+      "streetName": "171st Avenue SE",
+      "streetNumber": "4651",
+      "subdivision": "Bellevue",
+      "threeQuarterBaths": 1,
+      "totalBaths": 4,
+      "viewCount": 28,
+      "vtCount": 0,
+      "yearBuilt": 1991,
+      "zipcode": "98006"
+    },
     {
       "acres": "0.219",
       "address": "12604 177th Place SE",
@@ -540,7 +850,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 72,
+      "viewCount": 76,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
@@ -783,7 +1093,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 59,
+      "viewCount": 61,
       "vtCount": 0,
       "yearBuilt": 1969,
       "zipcode": "98059"
@@ -1828,7 +2138,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 21,
+      "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98055"
@@ -2331,7 +2641,7 @@
       "subdivision": "Redmond",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 42,
+      "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 1968,
       "zip4": "4124",
@@ -2609,7 +2919,7 @@
       "subdivision": "East Renton",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 82,
+      "viewCount": 83,
       "vtCount": 0,
       "yearBuilt": 1954,
       "zip4": "8570",
@@ -2862,7 +3172,7 @@
       "subdivision": "Federal Way",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 2,
+      "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 1978,
       "zipcode": "98023"
@@ -3145,7 +3455,7 @@
       "subdivision": "Lake Hills",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 45,
+      "viewCount": 46,
       "vtCount": 0,
       "yearBuilt": 1957,
       "zip4": "4949",
@@ -3688,7 +3998,7 @@
       "subdivision": "Kent",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 15,
+      "viewCount": 17,
       "vtCount": 0,
       "yearBuilt": 2003,
       "zip4": "7418",
@@ -3960,7 +4270,7 @@
       "subdivision": "Poulsbo",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 43,
+      "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 1936,
       "zip4": "9530",
@@ -4233,7 +4543,7 @@
       "subdivision": "Leschi",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 102,
+      "viewCount": 103,
       "vtCount": 0,
       "yearBuilt": 1907,
       "zip4": "6439",
@@ -4494,7 +4804,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A",
-      "viewCount": 42,
+      "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -5028,7 +5338,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "A",
-      "viewCount": 21,
+      "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -5864,7 +6174,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "G132",
-      "viewCount": 5,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "9037",
@@ -6430,7 +6740,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 3,
       "unitNumber": "1",
-      "viewCount": 23,
+      "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 1942,
       "zip4": "1526",
@@ -6974,7 +7284,7 @@
       "subdivision": "Westwood",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 122,
+      "viewCount": 123,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98106"
@@ -7460,7 +7770,7 @@
       "subdivision": "Burien",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 41,
+      "viewCount": 43,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -7705,7 +8015,7 @@
       "subdivision": "Brighton",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 1,
+      "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98118"
@@ -7962,7 +8272,7 @@
       "subdivision": "Brighton",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 6,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1922,
       "zip4": "3136",
@@ -8808,7 +9118,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "1C",
-      "viewCount": 2,
+      "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -9084,7 +9394,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "6C",
-      "viewCount": 65,
+      "viewCount": 67,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -9578,7 +9888,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "1B",
-      "viewCount": 0,
+      "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -10156,7 +10466,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "10A",
-      "viewCount": 35,
+      "viewCount": 36,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -10687,7 +10997,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "B",
-      "viewCount": 0,
+      "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -10892,7 +11202,7 @@
       "subdivision": "Burien",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 2,
+      "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -12246,7 +12556,7 @@
       "subdivision": "Trossachs",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 10,
+      "viewCount": 12,
       "vtCount": 0,
       "yearBuilt": 2004,
       "zip4": "5908",
@@ -12528,7 +12838,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "3C",
-      "viewCount": 14,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -13357,7 +13667,7 @@
       "subdivision": "Mill Creek",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 1,
+      "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 1992,
       "zipcode": "98012"
@@ -15257,7 +15567,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "B",
-      "viewCount": 10,
+      "viewCount": 11,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5812",
@@ -15802,7 +16112,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "1",
-      "viewCount": 66,
+      "viewCount": 68,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98031"
@@ -16049,7 +16359,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "C",
-      "viewCount": 13,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5812",
@@ -17173,7 +17483,7 @@
       "subdivision": "Monroe",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 29,
+      "viewCount": 31,
       "vtCount": 0,
       "yearBuilt": 2022,
       "zip4": "7700",
@@ -17453,7 +17763,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "7C",
-      "viewCount": 29,
+      "viewCount": 30,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98146"
@@ -17743,7 +18053,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "A",
-      "viewCount": 19,
+      "viewCount": 20,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -18026,7 +18336,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "6A",
-      "viewCount": 49,
+      "viewCount": 50,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146"
@@ -18592,7 +18902,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-1",
-      "viewCount": 13,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -18879,7 +19189,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "A",
-      "viewCount": 16,
+      "viewCount": 17,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98146"
@@ -19132,7 +19442,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "B",
-      "viewCount": 30,
+      "viewCount": 35,
       "vtCount": 0,
       "yearBuilt": 1926,
       "zipcode": "98199"
@@ -19672,7 +19982,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "F8",
-      "viewCount": 9,
+      "viewCount": 12,
       "vtCount": 0,
       "yearBuilt": 1979,
       "zipcode": "98034"
@@ -19925,7 +20235,7 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 27,
+      "viewCount": 30,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98199"
@@ -20182,7 +20492,7 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 20,
+      "viewCount": 21,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98199"
@@ -20468,7 +20778,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "B",
-      "viewCount": 15,
+      "viewCount": 16,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98146"
@@ -21095,7 +21405,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "4105",
-      "viewCount": 41,
+      "viewCount": 42,
       "vtCount": 0,
       "yearBuilt": 2009,
       "zipcode": "98004"
@@ -21375,7 +21685,7 @@
       "subdivision": "East Hill",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 19,
+      "viewCount": 20,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98031"
@@ -22503,7 +22813,7 @@
       "subdivision": "East Woodinville",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 5,
+      "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 1979,
       "zipcode": "98077"
@@ -23031,7 +23341,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-3",
-      "viewCount": 10,
+      "viewCount": 11,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -23573,7 +23883,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-2",
-      "viewCount": 7,
+      "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108"
@@ -23840,7 +24150,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "A",
-      "viewCount": 3,
+      "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2008,
       "zip4": "4955",
@@ -24823,7 +25133,7 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 6,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1926,
       "zipcode": "98119"
@@ -26195,7 +26505,7 @@
       "sellingOfficeID": "86236862",
       "soldDate": "2024-08-06T00:00:00+00:00",
       "soldPrice": 142000,
-      "viewCount": 4,
+      "viewCount": 5,
       "vtCount": 0
     },
     {
@@ -26768,7 +27078,7 @@
       "subdivision": "Mill Creek Country Club",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 22,
+      "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 1992,
       "zipcode": "98012"
@@ -28191,7 +28501,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 4,
       "unitNumber": "1",
-      "viewCount": 24,
+      "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 2023,
       "zipcode": "98166"
@@ -29509,7 +29819,7 @@
       "subdivision": "Bridle Trails",
       "threeQuarterBaths": 0,
       "totalBaths": 5,
-      "viewCount": 6,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 2020,
       "zipcode": "98033"
@@ -30235,7 +30545,7 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 4,
+      "viewCount": 5,
       "vtCount": 0,
       "yearBuilt": 1931,
       "zipcode": "98199"
@@ -30458,7 +30768,7 @@
       "streetNumber": "3020",
       "subdivision": "Magnolia",
       "totalBaths": 0,
-      "viewCount": 0,
+      "viewCount": 1,
       "vtCount": 0,
       "yearBuilt": 1931,
       "zipcode": "98199"
@@ -30519,7 +30829,7 @@
       "sellingOfficeID": "120097808",
       "soldDate": "2023-11-01T00:00:00+00:00",
       "soldPrice": 117000,
-      "viewCount": 1,
+      "viewCount": 2,
       "vtCount": 0
     },
     {
@@ -30578,7 +30888,7 @@
       "sellingOfficeID": "91866779",
       "soldDate": "2023-10-27T00:00:00+00:00",
       "soldPrice": 155000,
-      "viewCount": 23,
+      "viewCount": 24,
       "vtCount": 0
     }
   ]
