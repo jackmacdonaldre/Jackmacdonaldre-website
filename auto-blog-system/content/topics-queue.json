@@ -239,7 +239,9 @@
       "city": "Eastside",
       "neighborhood": null,
       "type": "seller_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "seller-s-guide-preparing-your-eastside-home-for-market",
+      "published_date": "2026-10-02"
     },
     {
       "topic": "Northshore School District Guide for Home Buyers in Bothell and Woodinville",
