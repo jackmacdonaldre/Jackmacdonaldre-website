@@ -281,7 +281,12 @@
       "viewCount": 181,
       "vtCount": 0,
       "yearBuilt": 2026,
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.321",
@@ -783,7 +788,12 @@
       "viewCount": 21,
       "vtCount": 1,
       "yearBuilt": 1956,
-      "zipcode": "98028"
+      "zipcode": "98028",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.14",
@@ -1283,7 +1293,12 @@
       "vtCount": 0,
       "yearBuilt": 2003,
       "zip4": "2159",
-      "zipcode": "98110"
+      "zipcode": "98110",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.194",
@@ -1714,7 +1729,12 @@
       "viewCount": 9,
       "vtCount": 1,
       "yearBuilt": 1975,
-      "zipcode": "98052"
+      "zipcode": "98052",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.138",
@@ -2150,7 +2170,12 @@
       "viewCount": 36,
       "vtCount": 0,
       "yearBuilt": 2026,
-      "zipcode": "98055"
+      "zipcode": "98055",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.138",
@@ -2624,7 +2649,12 @@
       "viewCount": 42,
       "vtCount": 0,
       "yearBuilt": 2026,
-      "zipcode": "98055"
+      "zipcode": "98055",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.094",
@@ -3075,7 +3105,12 @@
       "viewCount": 8,
       "vtCount": 1,
       "yearBuilt": 1928,
-      "zipcode": "98115"
+      "zipcode": "98115",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.13",
@@ -3538,7 +3573,12 @@
       "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 2005,
-      "zipcode": "98038"
+      "zipcode": "98038",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.065",
@@ -3960,7 +4000,12 @@
       "viewCount": 0,
       "vtCount": 0,
       "yearBuilt": 1924,
-      "zipcode": "98126"
+      "zipcode": "98126",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.065",
@@ -4377,7 +4422,12 @@
       "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 1924,
-      "zipcode": "98126"
+      "zipcode": "98126",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.029",
@@ -4748,7 +4798,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2026,
-      "zipcode": "98126"
+      "zipcode": "98126",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.21",
@@ -5152,7 +5207,12 @@
       "viewCount": 6,
       "vtCount": 1,
       "yearBuilt": 1950,
-      "zipcode": "98203"
+      "zipcode": "98203",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.001",
@@ -5484,7 +5544,12 @@
       "viewCount": 1,
       "vtCount": 0,
       "yearBuilt": 2015,
-      "zipcode": "98110"
+      "zipcode": "98110",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0",
@@ -5862,7 +5927,12 @@
       "vtCount": 0,
       "yearBuilt": 1965,
       "zip4": "2203",
-      "zipcode": "98122"
+      "zipcode": "98122",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     }
   ]
 }

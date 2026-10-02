@@ -1,0 +1,11 @@
+{
+  "_instructions": "Who listed each property, shown on every listing card (NWMLS rule: listing firm on every IDX listing, and from Oct 15 2026 the listing broker's name and contact as prominent as any contact button). Office and agent IDs come from IDX Broker. Fill in name and phone for each agent ID; leave null to show the firm only.",
+  "offices": {
+    "91866779": "Compass"
+  },
+  "agents": {
+    "1186410": { "name": null, "phone": null },
+    "121277198": { "name": null, "phone": null },
+    "151078377": { "name": null, "phone": null }
+  }
+}
