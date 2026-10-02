@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 24, 2026
+Topic: Neighborhood guides
 Area: Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/
 

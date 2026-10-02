@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 21, 2026
+Topic: Neighborhood guides
 Area: Redmond, Washington
 Web page: https://jackmacdonaldre.com/blog/dog-parks-in-redmond-wa-a-local-s-list/
 

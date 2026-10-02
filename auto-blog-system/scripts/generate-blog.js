@@ -2,6 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const { cleanText, cleanHtml } = require("./no-dashes");
 const { factCheckArticle } = require("./fact-check");
+const { classifyTopic } = require("./taxonomy");
+const { loadPosts } = require("./posts-data");
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!ANTHROPIC_API_KEY) {
@@ -36,7 +38,9 @@ const existingFileText = fs.readFileSync(POSTS_DATA_PATH, "utf8");
 // Backup run (a few hours after the main run): only publish if today's post
 // is missing, e.g. because the Anthropic API was down during the main run.
 const today = new Date().toISOString().split("T")[0];
-if ((process.env.CATCHUP_RUN === "true" || process.env.GITHUB_EVENT_NAME === "schedule") && existingFileText.includes(`"publishedDate":"${today}"`)) {
+// Monthly market update posts don't count: they publish on their own schedule.
+const regularPostToday = loadPosts().some((p) => p.publishedDate === today && p.topic !== "market-reports");
+if ((process.env.CATCHUP_RUN === "true" || process.env.GITHUB_EVENT_NAME === "schedule") && regularPostToday) {
   // Scheduled runs never publish twice in one day (GitHub often starts them hours late,
   // after a manual run already published). Manual runs always publish.
   console.log("Scheduled run: today's post is already live, nothing to do.");
@@ -192,6 +196,8 @@ async function writeArticle() {
     title: article.title,
     metaDescription: article.meta_description,
     city: nextTopic.city,
+    // Blog organization (topic + area tags), assigned automatically from the queue entry.
+    ...classifyTopic(nextTopic),
     publishedDate: new Date().toISOString().split("T")[0],
     bodyHtml,
     faq: article.faq || [],

@@ -1,5 +1,5 @@
 {
-  "_instructions": "Each topic is used once then marked 'published'. Add more topics anytime — just copy the format below.",
+  "_instructions": "Each topic is used once then marked 'published'. Only 'queued' topics publish, top to bottom. Optional 'areas' (bellevue, redmond, kirkland, issaquah, sammamish, north-bend, fall-city, eastside) sets the area tags; otherwise the city decides. The topic comes from 'type'.",
   "topics": [
     {
       "topic": "Living in Bridle Trails: A Neighborhood Guide",
@@ -244,6 +244,128 @@
       "published_date": "2026-10-02"
     },
     {
+      "topic": "Issaquah Highlands Homes for Sale: Neighborhood Guide",
+      "city": "Issaquah",
+      "neighborhood": "Issaquah Highlands",
+      "type": "neighborhood_guide",
+      "status": "queued",
+      "areas": [
+        "issaquah"
+      ]
+    },
+    {
+      "topic": "Why Eastside Homes Don't Sell (and What to Change Before Relisting)",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "North Bend, WA: What Living and Buying Here Is Really Like",
+      "city": "North Bend",
+      "neighborhood": null,
+      "type": "neighborhood_guide",
+      "areas": [
+        "north-bend"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "How to Price Your Eastside Home in Today's Market",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Redmond Ridge Homes for Sale: Community Guide",
+      "city": "Redmond",
+      "neighborhood": "Redmond Ridge",
+      "type": "neighborhood_guide",
+      "status": "queued",
+      "areas": [
+        "redmond"
+      ]
+    },
+    {
+      "topic": "What It Costs to Sell a Home in Washington State",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Fall City, WA: What Living and Buying Here Is Really Like",
+      "city": "Fall City",
+      "neighborhood": null,
+      "type": "neighborhood_guide",
+      "areas": [
+        "fall-city"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Best Time of Year to Sell on the Eastside",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Talus and Squak Mountain, Issaquah: Neighborhood Guide",
+      "city": "Issaquah",
+      "neighborhood": "Talus and Squak Mountain",
+      "type": "neighborhood_guide",
+      "areas": [
+        "issaquah"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Downsizing on the Eastside: Where Sellers Go Next",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Selling Rural and Acreage Homes in North Bend or Fall City",
+      "city": "North Bend",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "north-bend",
+        "fall-city"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Education Hill, Redmond: Neighborhood Guide",
+      "city": "Redmond",
+      "neighborhood": "Education Hill",
+      "type": "neighborhood_guide",
+      "areas": [
+        "redmond"
+      ],
+      "status": "on_hold",
+      "note": "On hold for Jack: /blog/education-hill-homes-for-sale-what-buyers-should-know/ already covers Education Hill. Set status to queued to publish a second guide anyway."
+    },
+    {
       "topic": "Northshore School District Guide for Home Buyers in Bothell and Woodinville",
       "city": "Bothell",
       "type": "school_guide",
@@ -267,7 +389,8 @@
       "city": "Eastside",
       "neighborhood": null,
       "type": "seller_guide",
-      "status": "queued"
+      "status": "superseded",
+      "note": "Replaced by \"Best Time of Year to Sell on the Eastside\" (moved to the front of the queue, Oct 2026)."
     },
     {
       "topic": "Houghton Kirkland Homes for Sale: Neighborhood Guide",
@@ -297,13 +420,6 @@
       "status": "queued"
     },
     {
-      "topic": "Issaquah Highlands Homes for Sale: Neighborhood Guide",
-      "city": "Issaquah",
-      "neighborhood": "Issaquah Highlands",
-      "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
       "topic": "New Construction Homes on the Eastside: What to Know",
       "city": "Eastside",
       "neighborhood": null,
@@ -321,14 +437,8 @@
       "topic": "How to Price Your Home to Sell in Bellevue",
       "city": "Bellevue",
       "type": "seller_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Redmond Ridge Homes for Sale: Community Guide",
-      "city": "Redmond",
-      "neighborhood": "Redmond Ridge",
-      "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "superseded",
+      "note": "Replaced by \"How to Price Your Eastside Home in Today's Market\" (moved to the front of the queue, Oct 2026)."
     },
     {
       "topic": "Buying a Home Near Top Rated Schools in Sammamish: Lake Washington vs Issaquah District",
@@ -360,7 +470,8 @@
       "topic": "Downsizing on the Eastside: Selling a Family Home and Buying Smaller",
       "city": "Bellevue",
       "type": "seller_guide",
-      "status": "queued"
+      "status": "superseded",
+      "note": "Replaced by \"Downsizing on the Eastside: Where Sellers Go Next\" (moved to the front of the queue, Oct 2026)."
     },
     {
       "topic": "Canyon Park and North Creek Bothell: Neighborhood Guide",
@@ -438,7 +549,8 @@
       "city": "Issaquah",
       "neighborhood": "Squak Mountain",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "superseded",
+      "note": "Replaced by \"Talus and Squak Mountain, Issaquah: Neighborhood Guide\" (moved to the front of the queue, Oct 2026)."
     },
     {
       "topic": "Should You Buy Before You Sell on the Eastside?",

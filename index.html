@@ -17,6 +17,7 @@
   <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Jack Macdonald","image":"https://jackmacdonaldre.com/assets/jack-sunset.png","url":"https://jackmacdonaldre.com/","telephone":"+1-425-941-6998","address":{"@type":"PostalAddress","streetAddress":"700 110th Ave NE, Ste 270","addressLocality":"Bellevue","addressRegion":"WA","postalCode":"98004","addressCountry":"US"},"areaServed":["Bellevue","Kirkland","Redmond","Sammamish","Issaquah","Woodinville","Bothell"],"worksFor":{"@type":"Organization","name":"Macdonald Group at Compass"}}
   </script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jackmacdonaldre.com/"}]}</script>
 </head>
 <body>
 <x-dc>
@@ -945,6 +946,9 @@ class Component extends DCLogic {
 
   go(view) {
   if (view === 'properties') { window.location.href = 'https://jackmacdonaldre.idxbroker.com/idx/search'; return; }
+  if (view === 'areas') { window.location.href = '/areas/'; return; }
+  if (view === 'reports') { window.location.href = '/market-reports/'; return; }
+  if (view === 'news') { window.location.href = '/blog/'; return; }
     this.setState({ view });
     window.scrollTo(0, 0);
   }
@@ -972,6 +976,8 @@ class Component extends DCLogic {
     const view = this.state.view;
     const items = [
       { key: 'home', label: 'Home' },
+      { key: 'areas', label: 'Areas' },
+      { key: 'reports', label: 'Market Reports' },
       { key: 'news', label: 'Blog' },
       { key: 'services', label: 'Services' },
       { key: 'properties', label: 'Properties' },
@@ -1429,7 +1435,12 @@ function firstImageUrl(listing) {
       if (listing.sqFt) parts.push(listing.sqFt + ' sqft');
       return parts.join(' · ');
     }
-    function buildCard(listing, featured) {
+    function attributionLine(listing) {
+  var a = listing.attribution || {};
+  if (!a.firm) return 'Listing courtesy of the listing brokerage via NWMLS';
+  return 'Listing courtesy of ' + (a.agentName ? a.agentName + ', ' : '') + a.firm + (a.agentPhone ? ' (' + a.agentPhone + ')' : '');
+}
+function buildCard(listing, featured) {
       var price = formatPrice(listing.listingPrice);
       var address = listing.address || listing.displayAddress || '';
       var city = listing.cityName || '';
@@ -1454,6 +1465,7 @@ function firstImageUrl(listing) {
       if (stats) {
         body.appendChild(el('div', { style: 'font-size: 13px; color: var(--color-neutral-600); margin-bottom: var(--space-3);', text: stats }));
       }
+      body.appendChild(el('div', { style: 'font-size: 12px; color: var(--color-neutral-600); margin-bottom: var(--space-3);', text: attributionLine(listing) }));
       body.appendChild(el('a', { href: link, target: '_blank', rel: 'noopener', class: featured ? 'btn btn-primary' : 'btn btn-secondary btn-block', text: 'View Details' }));
       card.appendChild(body);
       return card;

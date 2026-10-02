@@ -1,34 +1,53 @@
 name: Update Active Listings
 
+# NWMLS / NAR IDX policy expects listing data to be refreshed at least every
+# 12 hours, so this runs twice a day (about 12am and 12pm Pacific).
 on:
   schedule:
-    - cron: "0 0 * * 5"
+    - cron: "7 7,19 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-listings
+  cancel-in-progress: false
+
 jobs:
   update-listings:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
+      # Each step keeps the last good file if the IDX API has a bad moment, so one
+      # failed call never blanks the listings on the site or blocks the other file.
       - name: Generate listings JSON
+        id: active
+        continue-on-error: true
         env:
           IDX_ACCESS_KEY: ${{ secrets.IDX_ACCESS_KEY }}
         run: node idx-integration/scripts/generate-listings.js
       - name: Generate sold listings JSON
-        env:        
+        id: sold
+        continue-on-error: true
+        env:
           IDX_ACCESS_KEY: ${{ secrets.IDX_ACCESS_KEY }}
         run: node idx-integration/scripts/generate-sold-listings.js
-      - name: Commit and push if changes exist        
+      - name: Rebuild area pages with current listings
+        run: node auto-blog-system/scripts/generate-blog-pages.js
+      - name: Commit and push if changes exist
+        env:
+          GIT_BOT_NAME: idx-listings-bot
+          GIT_BOT_EMAIL: idx-listings-bot@users.noreply.github.com
+        run: '.github/scripts/commit-and-push.sh "Update active listings"'
+      - name: Fail the run if a listings call failed
+        if: steps.active.outcome == 'failure' || steps.sold.outcome == 'failure'
         run: |
-          git config user.name "idx-listings-bot"
-          git config user.email "idx-listings-bot@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "Update active listings"
-          git push
+          echo "Active listings step: ${{ steps.active.outcome }} / Sold listings step: ${{ steps.sold.outcome }}"
+          echo "The last good data was kept on the site. See the step logs above for the IDX API error."
+          exit 1

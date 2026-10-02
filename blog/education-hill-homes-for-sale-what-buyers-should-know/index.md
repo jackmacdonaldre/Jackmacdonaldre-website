@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 12, 2026
-Area: Bellevue, Washington
+Topic: Neighborhood guides
+Area: Redmond, Washington
 Web page: https://jackmacdonaldre.com/blog/education-hill-homes-for-sale-what-buyers-should-know/
 
 ## Education Hill in Redmond: A Neighborhood That Earns Its Reputation

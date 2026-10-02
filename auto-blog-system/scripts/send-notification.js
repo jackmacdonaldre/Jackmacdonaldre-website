@@ -14,7 +14,10 @@ const queueEmpty = process.env.QUEUE_EMPTY === "true";
 const apiKey = process.env.RESEND_API_KEY;
 const to = process.env.NOTIFY_EMAIL || "jack@macdonaldgroupre.com";
 
-const postFailed = process.env.POST_FAILED === "true" || process.env.JOB_STATUS === "failure";
+const postFailed = process.env.POST_FAILED === "true" || process.env.REPORT_FAILED === "true" || process.env.JOB_STATUS === "failure";
+const isReports = process.env.NOTIFY_KIND === "market-reports";
+// Several posts at once (monthly market updates): "Title|url;;Title|url"
+const postList = (process.env.NEW_POSTS_LIST || "").split(";;").filter(Boolean).map((x) => x.split("|"));
 const failureReason = process.env.FAILURE_REASON || "Something in the publishing workflow broke before the post could go live. Check the latest run in the GitHub Actions tab, or ask Claude to look.";
 const concern = process.env.FACT_CHECK_CONCERN;
 const unverified = process.env.FACT_CHECK_UNVERIFIED;
@@ -32,8 +35,8 @@ if (!apiKey) {
 function buildEmail() {
   if (postFailed) {
     return {
-      subject: "Action needed: today's blog post did not publish",
-      html: `<p><strong>Today's scheduled blog post did not go live.</strong></p><p>${failureReason}</p>`,
+      subject: isReports || process.env.REPORT_FAILED === "true" ? "Action needed: this month's market reports did not publish" : "Action needed: today's blog post did not publish",
+      html: `<p><strong>${isReports || process.env.REPORT_FAILED === "true" ? "This month's market reports did not update." : "Today's scheduled blog post did not go live."}</strong></p><p>${failureReason}</p>`,
     };
   }
 
@@ -46,6 +49,10 @@ function buildEmail() {
   }
 
   let html = `<p>A new post just went live on your site:</p><p><strong>${title}</strong></p><p><a href="${url}">${url}</a></p>`;
+  if (isReports) {
+    html = `<p>Your monthly market reports were refreshed: <a href="${url}">${url}</a></p>` +
+      (postList.length ? `<p>New posts published:</p><ul>${postList.map(([t, u]) => `<li><a href="${u}">${t}</a></li>`).join("")}</ul>` : "");
+  }
   if (concern) {
     html = `<p style="padding: 12px; background: #fff4e5; border: 1px solid #f0b35b;"><strong>Please review:</strong> ${concern}</p>` + html;
   }

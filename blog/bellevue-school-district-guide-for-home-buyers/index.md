@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 4, 2026
+Topic: Schools and family
 Area: Bellevue, Washington
 Web page: https://jackmacdonaldre.com/blog/bellevue-school-district-guide-for-home-buyers/
 

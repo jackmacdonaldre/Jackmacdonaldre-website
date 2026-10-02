@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 31, 2026
+Topic: Relocation
 Area: Bellevue, Washington
 Web page: https://jackmacdonaldre.com/blog/moving-to-bellevue-from-california-a-practical-guide/
 

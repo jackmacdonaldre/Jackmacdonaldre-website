@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T04:57:33.628Z",
+  "generatedAt": "2026-10-02T23:33:49.433Z",
   "count": 119,
   "listings": [
     {
@@ -307,10 +307,15 @@
       "subdivision": "Bellevue",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 28,
+      "viewCount": 30,
       "vtCount": 0,
       "yearBuilt": 1991,
-      "zipcode": "98006"
+      "zipcode": "98006",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.219",
@@ -552,7 +557,12 @@
       "vtCount": 0,
       "yearBuilt": 1968,
       "zip4": "6610",
-      "zipcode": "98059"
+      "zipcode": "98059",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.069",
@@ -854,7 +864,12 @@
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
-      "zipcode": "98103"
+      "zipcode": "98103",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.234",
@@ -1093,10 +1108,15 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 61,
+      "viewCount": 63,
       "vtCount": 0,
       "yearBuilt": 1969,
-      "zipcode": "98059"
+      "zipcode": "98059",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.131",
@@ -1387,7 +1407,12 @@
       "viewCount": 63,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98055"
+      "zipcode": "98055",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.187",
@@ -1614,7 +1639,12 @@
       "vtCount": 0,
       "yearBuilt": 1964,
       "zip4": "2223",
-      "zipcode": "98011"
+      "zipcode": "98011",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.181",
@@ -1860,7 +1890,12 @@
       "vtCount": 0,
       "yearBuilt": 1978,
       "zip4": "5408",
-      "zipcode": "98034"
+      "zipcode": "98034",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.138",
@@ -2141,7 +2176,12 @@
       "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98055"
+      "zipcode": "98055",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.368",
@@ -2403,7 +2443,12 @@
       "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 1971,
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.27",
@@ -2641,11 +2686,16 @@
       "subdivision": "Redmond",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 44,
+      "viewCount": 45,
       "vtCount": 0,
       "yearBuilt": 1968,
       "zip4": "4124",
-      "zipcode": "98052"
+      "zipcode": "98052",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.847",
@@ -2923,7 +2973,12 @@
       "vtCount": 0,
       "yearBuilt": 1954,
       "zip4": "8570",
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.196",
@@ -3175,7 +3230,12 @@
       "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 1978,
-      "zipcode": "98023"
+      "zipcode": "98023",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.202",
@@ -3459,7 +3519,12 @@
       "vtCount": 0,
       "yearBuilt": 1957,
       "zip4": "4949",
-      "zipcode": "98008"
+      "zipcode": "98008",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "2.565",
@@ -3732,7 +3797,12 @@
       "vtCount": 0,
       "yearBuilt": 2021,
       "zip4": "9498",
-      "zipcode": "98045"
+      "zipcode": "98045",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.131",
@@ -4002,7 +4072,12 @@
       "vtCount": 0,
       "yearBuilt": 2003,
       "zip4": "7418",
-      "zipcode": "98042"
+      "zipcode": "98042",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "13.87",
@@ -4274,7 +4349,12 @@
       "vtCount": 0,
       "yearBuilt": 1936,
       "zip4": "9530",
-      "zipcode": "98370"
+      "zipcode": "98370",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.076",
@@ -4547,7 +4627,12 @@
       "vtCount": 0,
       "yearBuilt": 1907,
       "zip4": "6439",
-      "zipcode": "98122"
+      "zipcode": "98122",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.104",
@@ -4807,7 +4892,12 @@
       "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "1.31",
@@ -5084,7 +5174,12 @@
       "vtCount": 0,
       "yearBuilt": 2011,
       "zip4": "9014",
-      "zipcode": "98290"
+      "zipcode": "98290",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.087",
@@ -5341,7 +5436,12 @@
       "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.088",
@@ -5634,7 +5734,12 @@
       "viewCount": 95,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.04",
@@ -5892,7 +5997,12 @@
       "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98118"
+      "zipcode": "98118",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0",
@@ -6178,7 +6288,12 @@
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "9037",
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.159",
@@ -6482,7 +6597,12 @@
       "vtCount": 0,
       "yearBuilt": 1980,
       "zip4": "4213",
-      "zipcode": "98028"
+      "zipcode": "98028",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.105",
@@ -6744,7 +6864,12 @@
       "vtCount": 0,
       "yearBuilt": 1942,
       "zip4": "1526",
-      "zipcode": "98106"
+      "zipcode": "98106",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.105",
@@ -7030,7 +7155,12 @@
       "vtCount": 0,
       "yearBuilt": 1942,
       "zip4": "1526",
-      "zipcode": "98106"
+      "zipcode": "98106",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.057",
@@ -7287,7 +7417,12 @@
       "viewCount": 123,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98106"
+      "zipcode": "98106",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.04",
@@ -7527,7 +7662,12 @@
       "viewCount": 10,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98118"
+      "zipcode": "98118",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.094",
@@ -7773,7 +7913,12 @@
       "viewCount": 43,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.041",
@@ -8018,7 +8163,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98118"
+      "zipcode": "98118",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0",
@@ -8276,7 +8426,12 @@
       "vtCount": 0,
       "yearBuilt": 1922,
       "zip4": "3136",
-      "zipcode": "98118"
+      "zipcode": "98118",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -8550,7 +8705,12 @@
       "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.804",
@@ -8842,7 +9002,12 @@
       "vtCount": 0,
       "yearBuilt": 1990,
       "zip4": "4728",
-      "zipcode": "98053"
+      "zipcode": "98053",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.132",
@@ -9121,7 +9286,12 @@
       "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -9397,7 +9567,12 @@
       "viewCount": 67,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -9648,7 +9823,12 @@
       "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.069",
@@ -9891,7 +10071,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.119",
@@ -10181,7 +10366,12 @@
       "viewCount": 9,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.116",
@@ -10466,10 +10656,15 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "10A",
-      "viewCount": 36,
+      "viewCount": 38,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.057",
@@ -10741,11 +10936,16 @@
       "subdivision": "Victory Heights",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 8,
+      "viewCount": 9,
       "vtCount": 0,
       "yearBuilt": 1947,
       "zip4": "5202",
-      "zipcode": "98125"
+      "zipcode": "98125",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.058",
@@ -11000,7 +11200,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.081",
@@ -11205,7 +11410,12 @@
       "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.098",
@@ -11478,7 +11688,12 @@
       "viewCount": 12,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.058",
@@ -11758,10 +11973,15 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "10B",
-      "viewCount": 10,
+      "viewCount": 11,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.04",
@@ -12001,7 +12221,12 @@
       "vtCount": 0,
       "yearBuilt": 1919,
       "zip4": "5812",
-      "zipcode": "98144"
+      "zipcode": "98144",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.362",
@@ -12279,7 +12504,12 @@
       "vtCount": 0,
       "yearBuilt": 1967,
       "zip4": "4811",
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.132",
@@ -12560,7 +12790,12 @@
       "vtCount": 0,
       "yearBuilt": 2004,
       "zip4": "5908",
-      "zipcode": "98075"
+      "zipcode": "98075",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -12841,7 +13076,12 @@
       "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.075",
@@ -13112,7 +13352,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.098",
@@ -13382,7 +13627,12 @@
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5202",
-      "zipcode": "98125"
+      "zipcode": "98125",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.22",
@@ -13670,7 +13920,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 1992,
-      "zipcode": "98012"
+      "zipcode": "98012",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.022",
@@ -13913,7 +14168,12 @@
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5202",
-      "zipcode": "98125"
+      "zipcode": "98125",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "2.207",
@@ -14209,7 +14469,12 @@
       "vtCount": 0,
       "yearBuilt": 1978,
       "zip4": "6620",
-      "zipcode": "98034"
+      "zipcode": "98034",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "1.312",
@@ -14487,7 +14752,12 @@
       "vtCount": 0,
       "yearBuilt": 1979,
       "zip4": "5912",
-      "zipcode": "98006"
+      "zipcode": "98006",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.136",
@@ -14761,7 +15031,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.063",
@@ -15044,7 +15319,12 @@
       "viewCount": 11,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.066",
@@ -15326,7 +15606,12 @@
       "viewCount": 10,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.025",
@@ -15571,7 +15856,12 @@
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5812",
-      "zipcode": "98144"
+      "zipcode": "98144",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.105",
@@ -15835,7 +16125,12 @@
       "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.083",
@@ -16112,10 +16407,15 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "1",
-      "viewCount": 68,
+      "viewCount": 69,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98031"
+      "zipcode": "98031",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.029",
@@ -16363,7 +16663,12 @@
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5812",
-      "zipcode": "98144"
+      "zipcode": "98144",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.99",
@@ -16660,7 +16965,12 @@
       "vtCount": 0,
       "yearBuilt": 1983,
       "zip4": "3150",
-      "zipcode": "98007"
+      "zipcode": "98007",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.226",
@@ -16934,7 +17244,12 @@
       "vtCount": 0,
       "yearBuilt": 1955,
       "zip4": "1116",
-      "zipcode": "98006"
+      "zipcode": "98006",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.058",
@@ -17215,7 +17530,12 @@
       "viewCount": 36,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.076",
@@ -17487,7 +17807,12 @@
       "vtCount": 0,
       "yearBuilt": 2022,
       "zip4": "7700",
-      "zipcode": "98272"
+      "zipcode": "98272",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.09",
@@ -17766,7 +18091,12 @@
       "viewCount": 30,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.119",
@@ -18053,10 +18383,15 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "A",
-      "viewCount": 20,
+      "viewCount": 21,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "address": "1240 SW 124th Street 6A",
@@ -18339,7 +18674,12 @@
       "viewCount": 50,
       "vtCount": 0,
       "yearBuilt": 2025,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.067",
@@ -18611,7 +18951,12 @@
       "viewCount": 28,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.076",
@@ -18905,7 +19250,12 @@
       "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.137",
@@ -19192,7 +19542,12 @@
       "viewCount": 17,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.036",
@@ -19445,7 +19800,12 @@
       "viewCount": 35,
       "vtCount": 0,
       "yearBuilt": 1926,
-      "zipcode": "98199"
+      "zipcode": "98199",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.036",
@@ -19703,10 +20063,15 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "B",
-      "viewCount": 29,
+      "viewCount": 30,
       "vtCount": 0,
       "yearBuilt": 1926,
-      "zipcode": "98199"
+      "zipcode": "98199",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "4.622",
@@ -19985,7 +20350,12 @@
       "viewCount": 12,
       "vtCount": 0,
       "yearBuilt": 1979,
-      "zipcode": "98034"
+      "zipcode": "98034",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.045",
@@ -20235,10 +20605,15 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 30,
+      "viewCount": 32,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98199"
+      "zipcode": "98199",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.045",
@@ -20495,7 +20870,12 @@
       "viewCount": 21,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98199"
+      "zipcode": "98199",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.069",
@@ -20781,7 +21161,12 @@
       "viewCount": 16,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "address": "4524 S 218th Street",
@@ -21049,7 +21434,12 @@
       "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 2006,
-      "zipcode": "98032"
+      "zipcode": "98032",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "2.43",
@@ -21405,10 +21795,15 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "4105",
-      "viewCount": 42,
+      "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 2009,
-      "zipcode": "98004"
+      "zipcode": "98004",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.088",
@@ -21685,10 +22080,15 @@
       "subdivision": "East Hill",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 20,
+      "viewCount": 21,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98031"
+      "zipcode": "98031",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.128",
@@ -21982,7 +22382,12 @@
       "viewCount": 12,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.429",
@@ -22239,7 +22644,12 @@
       "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.429",
@@ -22528,7 +22938,12 @@
       "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "10.74",
@@ -22816,7 +23231,12 @@
       "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 1979,
-      "zipcode": "98077"
+      "zipcode": "98077",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.429",
@@ -23094,7 +23514,12 @@
       "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.429",
@@ -23344,7 +23769,12 @@
       "viewCount": 11,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.058",
@@ -23631,7 +24061,12 @@
       "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98146"
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.429",
@@ -23886,7 +24321,12 @@
       "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98108"
+      "zipcode": "98108",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.028",
@@ -24154,7 +24594,12 @@
       "vtCount": 0,
       "yearBuilt": 2008,
       "zip4": "4955",
-      "zipcode": "98118"
+      "zipcode": "98118",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "19.43",
@@ -24393,7 +24838,12 @@
       "viewCount": 21,
       "vtCount": 0,
       "yearBuilt": 1921,
-      "zipcode": "98053"
+      "zipcode": "98053",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "19.43",
@@ -24569,7 +25019,12 @@
       "totalBaths": 0,
       "viewCount": 2,
       "vtCount": 0,
-      "zipcode": "98053"
+      "zipcode": "98053",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "2.23",
@@ -24868,7 +25323,12 @@
       "viewCount": 65,
       "vtCount": 0,
       "yearBuilt": 1992,
-      "zipcode": "98052"
+      "zipcode": "98052",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.062",
@@ -25136,7 +25596,12 @@
       "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1926,
-      "zipcode": "98119"
+      "zipcode": "98119",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.197",
@@ -25433,7 +25898,12 @@
       "vtCount": 0,
       "yearBuilt": 2003,
       "zip4": "4405",
-      "zipcode": "98033"
+      "zipcode": "98033",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -25707,7 +26177,12 @@
       "viewCount": 43,
       "vtCount": 0,
       "yearBuilt": 2024,
-      "zipcode": "98031"
+      "zipcode": "98031",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.172",
@@ -25963,7 +26438,12 @@
       "viewCount": 19,
       "vtCount": 0,
       "yearBuilt": 1957,
-      "zipcode": "98008"
+      "zipcode": "98008",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -26180,7 +26660,12 @@
       "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1903,
-      "zipcode": "98117"
+      "zipcode": "98117",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.097",
@@ -26447,7 +26932,12 @@
       "viewCount": 26,
       "vtCount": 0,
       "yearBuilt": 1903,
-      "zipcode": "98117"
+      "zipcode": "98117",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "advanced": {
@@ -26506,7 +26996,12 @@
       "soldDate": "2024-08-06T00:00:00+00:00",
       "soldPrice": 142000,
       "viewCount": 5,
-      "vtCount": 0
+      "vtCount": 0,
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.17",
@@ -26776,7 +27271,12 @@
       "viewCount": 9,
       "vtCount": 0,
       "yearBuilt": 1976,
-      "zipcode": "98021"
+      "zipcode": "98021",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.29",
@@ -27081,7 +27581,12 @@
       "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 1992,
-      "zipcode": "98012"
+      "zipcode": "98012",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "advanced": {
@@ -27140,8 +27645,13 @@
       "sellingOfficeID": "1005547",
       "soldDate": "2024-07-08T00:00:00+00:00",
       "soldPrice": 144395,
-      "viewCount": 4,
-      "vtCount": 0
+      "viewCount": 5,
+      "vtCount": 0,
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "1.66",
@@ -27414,7 +27924,12 @@
       "viewCount": 12,
       "vtCount": 0,
       "yearBuilt": 1995,
-      "zipcode": "98033"
+      "zipcode": "98033",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.595",
@@ -27664,7 +28179,12 @@
       "viewCount": 19,
       "vtCount": 1,
       "yearBuilt": 2002,
-      "zipcode": "98014"
+      "zipcode": "98014",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.186",
@@ -27923,7 +28443,12 @@
       "viewCount": 6,
       "vtCount": 0,
       "yearBuilt": 1918,
-      "zipcode": "98056"
+      "zipcode": "98056",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "11.63",
@@ -28222,7 +28747,12 @@
       "viewCount": 51,
       "vtCount": 0,
       "yearBuilt": 1993,
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.04",
@@ -28504,7 +29034,12 @@
       "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 2023,
-      "zipcode": "98166"
+      "zipcode": "98166",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "advanced": {
@@ -28566,7 +29101,12 @@
       "soldDate": "2024-04-26T00:00:00+00:00",
       "soldPrice": 95000,
       "viewCount": 4,
-      "vtCount": 0
+      "vtCount": 0,
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.571",
@@ -28859,7 +29399,12 @@
       "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 1990,
-      "zipcode": "98074"
+      "zipcode": "98074",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.02",
@@ -29136,7 +29681,12 @@
       "viewCount": 5,
       "vtCount": 0,
       "yearBuilt": 2023,
-      "zipcode": "98166"
+      "zipcode": "98166",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "advanced": {
@@ -29198,7 +29748,12 @@
       "soldDate": "2024-01-30T00:00:00+00:00",
       "soldPrice": 87500,
       "viewCount": 3,
-      "vtCount": 0
+      "vtCount": 0,
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "1.004",
@@ -29508,7 +30063,12 @@
       "viewCount": 16,
       "vtCount": 0,
       "yearBuilt": 2019,
-      "zipcode": "98072"
+      "zipcode": "98072",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.506",
@@ -29819,10 +30379,15 @@
       "subdivision": "Bridle Trails",
       "threeQuarterBaths": 0,
       "totalBaths": 5,
-      "viewCount": 7,
+      "viewCount": 8,
       "vtCount": 0,
       "yearBuilt": 2020,
-      "zipcode": "98033"
+      "zipcode": "98033",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.175",
@@ -30085,7 +30650,12 @@
       "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 2023,
-      "zipcode": "98168"
+      "zipcode": "98168",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.922",
@@ -30321,7 +30891,12 @@
       "viewCount": 1,
       "vtCount": 0,
       "yearBuilt": 1998,
-      "zipcode": "98027"
+      "zipcode": "98027",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.118",
@@ -30548,7 +31123,12 @@
       "viewCount": 5,
       "vtCount": 0,
       "yearBuilt": 1931,
-      "zipcode": "98199"
+      "zipcode": "98199",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "acres": "0.118",
@@ -30771,7 +31351,12 @@
       "viewCount": 1,
       "vtCount": 0,
       "yearBuilt": 1931,
-      "zipcode": "98199"
+      "zipcode": "98199",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "advanced": {
@@ -30830,7 +31415,12 @@
       "soldDate": "2023-11-01T00:00:00+00:00",
       "soldPrice": 117000,
       "viewCount": 2,
-      "vtCount": 0
+      "vtCount": 0,
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     },
     {
       "advanced": {
@@ -30889,7 +31479,12 @@
       "soldDate": "2023-10-27T00:00:00+00:00",
       "soldPrice": 155000,
       "viewCount": 24,
-      "vtCount": 0
+      "vtCount": 0,
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
     }
   ]
 }

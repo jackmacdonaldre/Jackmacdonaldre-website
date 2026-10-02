@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 28, 2026
+Topic: Schools and family
 Area: Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/best-parks-in-kirkland-wa-for-families/
 

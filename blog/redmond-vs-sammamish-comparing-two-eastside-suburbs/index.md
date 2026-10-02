@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 28, 2026
-Area: Redmond, Washington
+Topic: Neighborhood guides
+Area: Redmond, Sammamish, Washington
 Web page: https://jackmacdonaldre.com/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/
 
 This question comes up a lot, usually from buyers who have narrowed their search to the Eastside and are trying to figure out where to plant a flag. Both cities are well regarded, both have good schools, and both have seen serious price appreciation over the past decade. But they are genuinely different places to live, and the differences are not just cosmetic.
