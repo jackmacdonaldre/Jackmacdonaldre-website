@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 26, 2026
-Area: Bellevue, Washington
+Topic: Neighborhood guides
+Area: Bellevue, Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/
 
 This is probably the most common question I get from buyers relocating to the Eastside who have done some initial research and narrowed things down to two cities. Both are good. Both are expensive. And they are different enough that the choice genuinely matters depending on what you actually want out of where you live.

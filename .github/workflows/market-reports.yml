@@ -1,0 +1,57 @@
+name: Monthly market reports
+
+# Refreshes /market-reports/{area}/ from Redfin Data Center data and publishes
+# one "{Area} Market Update: {Month Year}" post per area, once per month.
+# Main run on the 3rd. Redfin's release date moves around (Sept 2026 data came
+# out Sept 3, the next release is scheduled for Oct 8), so the 10th and 17th
+# runs catch a late release. A run with no new data changes nothing and sends
+# no email, so the extra runs are harmless.
+on:
+  schedule:
+    - cron: "0 15 3 * *"
+    - cron: "0 15 10 * *"
+    - cron: "0 15 17 * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild the report copy even if Redfin has no new data"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-reports
+  cancel-in-progress: false
+
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Download Redfin city data
+        run: node auto-blog-system/scripts/fetch-market-data.js
+      - name: Write reports and monthly posts (numbers checked against the data)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_REPORTS: ${{ github.event.inputs.force == 'true' && 'true' || '' }}
+        run: node auto-blog-system/scripts/publish-market-reports.js
+      - name: Rebuild pages, sitemap and llms files
+        run: node auto-blog-system/scripts/generate-blog-pages.js
+      - name: Commit and push if changes exist
+        env:
+          GIT_BOT_NAME: auto-blog-bot
+          GIT_BOT_EMAIL: auto-blog-bot@users.noreply.github.com
+        run: '.github/scripts/commit-and-push.sh "Monthly market reports"'
+      - name: Send notification email
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL: jack@macdonaldgroupre.com
+        run: node auto-blog-system/scripts/send-notification.js

@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 13, 2026
+Topic: Neighborhood guides
 Area: Sammamish, Washington
 Web page: https://jackmacdonaldre.com/blog/klahanie-homes-for-sale-community-guide/
 

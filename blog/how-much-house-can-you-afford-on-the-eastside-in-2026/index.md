@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 14, 2026
+Topic: Buying
 Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/how-much-house-can-you-afford-on-the-eastside-in-2026/
 

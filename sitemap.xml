@@ -25,36 +25,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jackmacdonaldre.com/blog/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://jackmacdonaldre.com/blog/education-hill-homes-for-sale-what-buyers-should-know/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://jackmacdonaldre.com/blog/living-in-bridle-trails-a-neighborhood-guide/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://jackmacdonaldre.com/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://jackmacdonaldre.com/blog/welcome-to-the-blog/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://jackmacdonaldre.com/team/</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,148 +42,388 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/downtown-redmond-condos-and-homes-neighborhood-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/klahanie-homes-for-sale-community-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/finn-hill-homes-for-sale-neighborhood-overview/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/west-bellevue-homes-for-sale-neighborhood-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/moving-to-bellevue-from-california-a-practical-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/relocating-to-the-eastside-for-a-tech-job-what-to-know/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/bellevue-school-district-guide-for-home-buyers/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/lake-washington-school-district-boundaries-a-buyer-s-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/cost-of-living-in-bellevue-what-to-expect/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/first-time-home-buying-on-the-eastside-step-by-step/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/how-much-house-can-you-afford-on-the-eastside-in-2026/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/best-coffee-shops-in-bellevue-wa/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/best-hiking-trails-near-issaquah/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/dog-parks-in-redmond-wa-a-local-s-list/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/bellevue-farmers-market-guide/</loc>
-<lastmod>2026-09-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/rose-hill-kirkland-schools-which-elementary-middle-and-high-school-feeds-each-street/</loc>
-<lastmod>2026-09-25</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/best-parks-in-kirkland-wa-for-families/</loc>
-<lastmod>2026-09-28</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/issaquah-school-district-guide-for-home-buyers/</loc>
-<lastmod>2026-09-30</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://jackmacdonaldre.com/blog/seller-s-guide-preparing-your-eastside-home-for-market/</loc>
-<lastmod>2026-10-02</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/fall-city-market-update-october-2026/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/north-bend-market-update-october-2026/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/issaquah-market-update-october-2026/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/kirkland-market-update-october-2026/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/redmond-market-update-october-2026/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/bellevue-market-update-october-2026/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/seller-s-guide-preparing-your-eastside-home-for-market/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/issaquah-school-district-guide-for-home-buyers/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/best-parks-in-kirkland-wa-for-families/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/rose-hill-kirkland-schools-which-elementary-middle-and-high-school-feeds-each-street/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/bellevue-farmers-market-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/dog-parks-in-redmond-wa-a-local-s-list/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/best-hiking-trails-near-issaquah/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/best-coffee-shops-in-bellevue-wa/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/how-much-house-can-you-afford-on-the-eastside-in-2026/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/first-time-home-buying-on-the-eastside-step-by-step/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/cost-of-living-in-bellevue-what-to-expect/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/lake-washington-school-district-boundaries-a-buyer-s-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/bellevue-school-district-guide-for-home-buyers/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/relocating-to-the-eastside-for-a-tech-job-what-to-know/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/moving-to-bellevue-from-california-a-practical-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/west-bellevue-homes-for-sale-neighborhood-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/finn-hill-homes-for-sale-neighborhood-overview/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/klahanie-homes-for-sale-community-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/downtown-redmond-condos-and-homes-neighborhood-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/education-hill-homes-for-sale-what-buyers-should-know/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/living-in-bridle-trails-a-neighborhood-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/welcome-to-the-blog/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/topic/neighborhood-guides/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/topic/market-reports/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/topic/buying/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/topic/selling/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/topic/relocation/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/topic/schools-and-family/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/bellevue/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/redmond/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/kirkland/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/issaquah/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/sammamish/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/north-bend/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/fall-city/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/blog/area/eastside/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/bellevue/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/redmond/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/kirkland/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/issaquah/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/north-bend/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/fall-city/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/market-reports/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/bellevue/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/redmond/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/kirkland/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/issaquah/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/sammamish/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/north-bend/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/fall-city/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jackmacdonaldre.com/areas/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

@@ -1,0 +1,86 @@
+{
+  "areas": {
+    "bellevue": {
+      "title": "Bellevue Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-02",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-08-31",
+      "window": "June to August 2026",
+      "commentary": {
+        "summary": "Bellevue's median single family sale price was $1.76 million for June to August 2026, down 7.6% from the same months last year. 307 single family homes sold (9.7% fewer than a year ago), and the median home spent 16 days on the market.",
+        "selling": "At 2.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.8% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (16 days at the median versus 7), so build that into your timeline.",
+        "buying": "At 2.7 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.8% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "redmond": {
+      "title": "Redmond Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-02",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-08-31",
+      "window": "June to August 2026",
+      "commentary": {
+        "summary": "Redmond's median single family sale price was $1.50 million for June to August 2026, down 5.0% from the same months last year. 102 single family homes sold (15.0% fewer than a year ago), and the median home spent 21 days on the market.",
+        "selling": "At 2.4 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.0% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (21 days at the median versus 10), so build that into your timeline.",
+        "buying": "At 2.4 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.0% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "kirkland": {
+      "title": "Kirkland Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-02",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-08-31",
+      "window": "June to August 2026",
+      "commentary": {
+        "summary": "Kirkland's median single family sale price was $1.51 million for June to August 2026, down 3.9% from the same months last year. 263 single family homes sold (11.9% more than a year ago), and the median home spent 20 days on the market.",
+        "selling": "At 2.9 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.8% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (20 days at the median versus 10), so build that into your timeline.",
+        "buying": "At 2.9 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.8% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "issaquah": {
+      "title": "Issaquah Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-02",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-08-31",
+      "window": "June to August 2026",
+      "commentary": {
+        "summary": "Issaquah's median single family sale price was $1.62 million for June to August 2026, up 8.0% from the same months last year. 70 single family homes sold (7.7% more than a year ago), and the median home spent 16 days on the market.",
+        "selling": "At 2.5 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.0% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (16 days at the median versus 9), so build that into your timeline.",
+        "buying": "At 2.5 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.0% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are higher than a year ago, so waiting has not been cheaper lately.",
+        "method": "template"
+      }
+    },
+    "north-bend": {
+      "title": "North Bend Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-02",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-08-31",
+      "window": "June to August 2026",
+      "commentary": {
+        "summary": "North Bend's median single family sale price was $1.29 million for June to August 2026, down 3.6% from the same months last year. 31 single family homes sold (11.4% fewer than a year ago), and the median home spent 9 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.",
+        "selling": "At 2.0 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.6% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are selling faster than a year ago (9 days at the median versus 14).",
+        "buying": "At 2.0 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.6% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "fall-city": {
+      "title": "Fall City Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-02",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-08-31",
+      "window": "June to August 2026",
+      "commentary": {
+        "summary": "Fall City's median single family sale price was $760,000 for June to August 2026. 7 single family homes sold, and the median home spent 20 days on the market. With this few sales, one or two homes can swing the median a long way, so read it as a rough guide, not a trend.",
+        "selling": "At 3.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.0% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (20 days at the median versus 5), so build that into your timeline.",
+        "buying": "At 3.2 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.0% of list price, so there is room to negotiate, especially on homes that have been on the market a while.",
+        "method": "template"
+      }
+    }
+  },
+  "dataEnd": "2026-08-31",
+  "redfinLastUpdated": "2026-09-03",
+  "lastRun": "2026-10-02",
+  "lastPostsMonth": "2026-10"
+}
