@@ -247,7 +247,9 @@
       "topic": "Northshore School District Guide for Home Buyers in Bothell and Woodinville",
       "city": "Bothell",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville",
+      "published_date": "2026-10-05"
     },
     {
       "topic": "What Woodinville Living Is Really Like",
