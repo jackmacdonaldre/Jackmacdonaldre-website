@@ -256,7 +256,9 @@
       "city": "Woodinville",
       "neighborhood": null,
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "what-woodinville-living-is-really-like",
+      "published_date": "2026-10-07"
     },
     {
       "topic": "Choice Schools and Tech Schools in Lake Washington School District: How Admission Works",
