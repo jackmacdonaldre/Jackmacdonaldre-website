@@ -1,11 +1,13 @@
 // One-off live check (temporary branch, read only, submits nothing).
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 (async () => {
-  for (const p of ["/", "/buyers-guide/", "/contact/"]) {
-    const t = await (await fetch("https://jackmacdonaldre.com" + p + "?n=" + Date.now())).text();
-    const forms = t.match(/<form[\s\S]{0,400}?>[\s\S]{0,200}/g) || [];
-    console.log(`\n== ${p} length=${t.length} forms=${forms.length} has_netlify_word=${/netlify/i.test(t)}`);
-    forms.forEach((f) => console.log("  ", f.replace(/\s+/g, " ").slice(0, 400)));
-    const body = t.indexOf("<body");
-    console.log("   BODY START:", t.slice(body, body + 400).replace(/\s+/g, " "));
+  let t = "";
+  for (let i = 0; i < 30; i++) {
+    t = await (await fetch("https://jackmacdonaldre.com/?n=" + Date.now())).text();
+    if (t.includes("if (view === 'contact') { window.location.href = '/contact/'")) break;
+    console.log("waiting for deploy...", i + 1); await sleep(20000);
   }
+  console.log(t.includes("if (view === 'contact') { window.location.href = '/contact/'") ? "PASS contact buttons now open /contact/" : "FAIL fix not live yet");
+  const c = await (await fetch("https://jackmacdonaldre.com/contact/?n=" + Date.now())).text();
+  console.log(/<form[^>]*name='contact'/.test(c) && !/data-netlify/.test(c) ? "PASS /contact/ form is Netlify-processed" : "CHECK /contact/ form markup");
 })();
