@@ -5,19 +5,20 @@
   },
   "agents": {
     "1186410": {
-      "name": null,
-      "phone": null
+      "name": "Stephen Macdonald, Managing Broker",
+      "phone": "425.941.7325"
     },
     "121277198": {
-      "name": null,
-      "phone": null
+      "name": "Jack Macdonald, Licensed Broker",
+      "phone": "425.941.6998"
     },
     "151078377": {
       "name": null,
-      "phone": null
+      "phone": null,
+      "note": "Not on the team. Listings hidden permanently (confirmed by Jack, Oct 12 2026)."
     }
   },
-  "_featured_instructions": "Only listings by these agent IDs appear in the site's featured listings. 1186410 and 121277198 are the team IDs already used for sold listings (Jack and Stephen Macdonald, names still to be confirmed by Jack). 151078377 is hidden until Jack confirms who it is (NWMLS Oct 15 2026 rules).",
+  "_featured_instructions": "Only listings by these agent IDs appear on the site. 1186410 = Stephen Macdonald (confirmed in Jack's Sept 3 email to IDX Broker). 121277198 = Jack Macdonald. 151078377 is not on the team and stays hidden.",
   "featuredAgentIds": [
     "1186410",
     "121277198"
