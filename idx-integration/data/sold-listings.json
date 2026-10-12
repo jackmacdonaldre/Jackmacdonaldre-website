@@ -1,7 +1,275 @@
 {
-  "generatedAt": "2026-10-09T05:28:39.845Z",
-  "count": 119,
+  "generatedAt": "2026-10-12T22:23:50.394Z",
+  "count": 120,
   "listings": [
+    {
+      "acres": "0.194",
+      "address": "14219 NE 64th Court",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Vinyl Plank"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "styleCode": "10 - 1 Story",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "gasCompany": "PSE",
+        "highSchool": [
+          "Lake Wash High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 1530,
+        "possession": [
+          "Closing"
+        ],
+        "lotFeatures": [
+          "Corner Lot",
+          "Cul-De-Sac",
+          "Curbs",
+          "Paved",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "530 - Bellevue/East of 405",
+        "onMarketDate": "2026-09-16T00:00:00+00:00",
+        "parkingTotal": 5,
+        "powerCompany": "PSE",
+        "sewerCompany": "City of Redmond",
+        "siteFeatures": [
+          "Fenced-Fully",
+          "Patio"
+        ],
+        "titleCompany": "Stewart Title",
+        "waterCompany": "City of Redmond",
+        "waterfrontYN": "no",
+        "bathsFullMain": "2",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "coveredSpaces": 2,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 1,
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 10906.09,
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Franklin Elem"
+        ],
+        "exteriorFeatures": [
+          "Brick",
+          "Wood"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Dining Room",
+          "Fireplace"
+        ],
+        "mlsLotSizeSource": "Realist",
+        "numberOfBathtubs": "2",
+        "sellerDisclosure": "Exempt",
+        "buildingAreaTotal": 1530,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Wood Burning"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 8450,
+        "mainLevelBedrooms": 3,
+        "shortTermRentalYN": "no",
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Lake Washington"
+        ],
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "Mudroom",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Rose Hill Middle"
+        ],
+        "bathsThreeQuarterMain": "0",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "garbageServiceProvider": "Recology",
+        "mlsSquareFootageSource": "Realist",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "1530",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 3,
+      "cityID": 38785,
+      "cityName": "Redmond",
+      "coListingAgentID": "1186410",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-09-17T01:23:37+00:00",
+      "dateModified": "2026-10-09T23:25:12+00:00",
+      "detailsURL": "b045/2578232",
+      "detailsUrlSlug": "14219-NE-64th-Court-Redmond-98052",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2578232/14219-NE-64th-Court-Redmond-98052",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7c8d/d8c782ebbf16ecc2f8bce8099389274e/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.663813,
+      "listingAgentID": "121277198",
+      "listingID": "2578232",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$1,275,000",
+      "longitude": -122.149565,
+      "mediaData": [],
+      "mlsPhotoCount": 34,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 0,
+      "price": 1275000,
+      "priceData": {
+        "value": {
+          "raw": 1269000,
+          "formatted": "$1,269,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Beautifully remodeled and move in ready, this light filled Redmond rambler offers 3 bedrooms, 2 bathrooms and a spacious corner lot. A rare and highly functional floor plan combines the open concept flow buyers love with two distinct living spaces, providing valuable separation without making the home feel closed off. The dedicated dining area comfortably accommodates a full size table and connects easily to the updated kitchen, complete with quartz countertops, shaker cabinetry, stainless steel appliances and a subway tile backsplash. The second living space is warmed by a cozy fireplace and opens to the private backyard, creating a seamless connection for indoor and outdoor living. The spacious primary bedroom is complemented by two additional bedrooms and beautifully renovated bathrooms. Updated flooring, fresh paint, modern lighting, new doors, trim and windows complete the interior. Outside, enjoy a fully fenced backyard with a spacious patio, refreshed landscaping and plenty of room to garden, play or host summer gatherings. One of the home’s greatest advantages is its exceptional location, tucked near a quiet cul de sac with minimal through traffic while just minutes from both downtown Kirkland and downtown Redmond. Enjoy convenient access to waterfront parks, shopping, dining, entertainment and major commuter routes, all while coming home to a peaceful residential setting.",
+      "rntLse": "neither",
+      "rntLsePrice": 1275000,
+      "sellingAgentID": "88986797",
+      "sellingOfficeID": "1000481",
+      "soldDate": "2026-10-09T00:00:00+00:00",
+      "soldPrice": 1269000,
+      "sqFt": "1,530",
+      "state": "Washington",
+      "streetDirection": "NE",
+      "streetName": "64th Court",
+      "streetNumber": "14219",
+      "subdivision": "Redmond",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "viewCount": 25,
+      "vtCount": 0,
+      "yearBuilt": 1975,
+      "zipcode": "98052",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Jack Macdonald, Licensed Broker",
+        "agentPhone": "425.941.6998"
+      }
+    },
     {
       "acres": "0.417",
       "address": "4651 171st Avenue SE",
@@ -309,7 +577,7 @@
       "subdivision": "Bellevue",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 36,
+      "viewCount": 37,
       "vtCount": 0,
       "yearBuilt": 1991,
       "zipcode": "98006",
@@ -1414,7 +1682,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 65,
+      "viewCount": 67,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98055",
@@ -2704,7 +2972,7 @@
       "subdivision": "Redmond",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 46,
+      "viewCount": 47,
       "vtCount": 0,
       "yearBuilt": 1968,
       "zip4": "4124",
@@ -2987,7 +3255,7 @@
       "subdivision": "East Renton",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 84,
+      "viewCount": 86,
       "vtCount": 0,
       "yearBuilt": 1954,
       "zip4": "8570",
@@ -6902,7 +7170,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 3,
       "unitNumber": "1",
-      "viewCount": 24,
+      "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 1942,
       "zip4": "1526",
@@ -7460,7 +7728,7 @@
       "subdivision": "Westwood",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 124,
+      "viewCount": 125,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98106",
@@ -7956,7 +8224,7 @@
       "subdivision": "Burien",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 43,
+      "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146",
@@ -15922,7 +16190,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "B",
-      "viewCount": 11,
+      "viewCount": 13,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zip4": "5812",
@@ -18463,7 +18731,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "A",
-      "viewCount": 23,
+      "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146",
@@ -20437,7 +20705,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "F8",
-      "viewCount": 14,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 1979,
       "zipcode": "98034",
@@ -20695,7 +20963,7 @@
       "subdivision": "Magnolia",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 37,
+      "viewCount": 38,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98199",
@@ -24937,7 +25205,7 @@
       "subdivision": "Union Hill",
       "threeQuarterBaths": 0,
       "totalBaths": 1,
-      "viewCount": 22,
+      "viewCount": 23,
       "vtCount": 0,
       "yearBuilt": 1921,
       "zipcode": "98053",
@@ -27386,7 +27654,7 @@
       "subdivision": "Bothell",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 9,
+      "viewCount": 10,
       "vtCount": 0,
       "yearBuilt": 1976,
       "zipcode": "98021",
@@ -28870,7 +29138,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 3,
       "unitNumber": "2131",
-      "viewCount": 52,
+      "viewCount": 53,
       "vtCount": 0,
       "yearBuilt": 1993,
       "zipcode": "98027",
