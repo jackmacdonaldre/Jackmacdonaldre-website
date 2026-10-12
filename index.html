@@ -954,6 +954,8 @@ class Component extends DCLogic {
 
   go(view) {
   if (view === 'properties') { window.location.href = 'https://jackmacdonaldre.idxbroker.com/idx/search'; return; }
+  // The in-page contact form never sent anything; use the real Netlify form page.
+  if (view === 'contact') { window.location.href = '/contact/'; return; }
   if (view === 'areas') { window.location.href = '/areas/'; return; }
   if (view === 'reports') { window.location.href = '/market-reports/'; return; }
   if (view === 'news') { window.location.href = '/blog/'; return; }
