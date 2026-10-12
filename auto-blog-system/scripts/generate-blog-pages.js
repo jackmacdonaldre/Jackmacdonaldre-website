@@ -332,7 +332,7 @@ function reportTable(stats) {
 
 function sourceNote(stats) {
   const small = stats.small ? ` ${stats.areaName} is a small market, so each window covers 3 months of sales to smooth out the swings, and a single sale can still move the median.` : "";
-  return `<p style="font-size: 13px; color: var(--color-neutral-600); line-height: 1.7; margin-top: var(--space-8);"><strong>Source:</strong> <a href="https://www.redfin.com/news/data-center/" rel="nofollow noopener" target="_blank">Redfin Data Center</a>, city level data for ${escapeHtml(stats.areaName)}, WA, single family homes. Data from Redfin, a national real estate brokerage${marketData && marketData.redfinLastUpdated ? `, released ${formatDate(marketData.redfinLastUpdated)}` : ""}. Every figure is a rolling 3 month window (this one: ${M.windowLabel(stats.cur)}), which is how Redfin publishes city level numbers; "last month's window" is the same 3 month span shifted back one month.${small} Any figure Redfin didn't report is left out rather than estimated.</p>`;
+  return `<p style="font-size: 13px; color: var(--color-neutral-600); line-height: 1.7; margin-top: var(--space-8);"><strong>Source:</strong> <a href="https://www.redfin.com/news/data-center/" rel="nofollow noopener" target="_blank">Redfin Data Center</a>, city level data for ${escapeHtml(stats.areaName)}, WA, single family homes. Data from Redfin, a national real estate brokerage${marketData && marketData.redfinLastUpdated ? `, released ${formatDate(marketData.redfinLastUpdated)}` : ""}. Every figure is a rolling 3 month window (this one: ${M.windowLabel(stats.cur)}), which is how Redfin publishes city level numbers; "last month's window" is the same 3 month span shifted back one month.${small} Any figure Redfin didn't report is left out rather than estimated. These figures are deemed reliable but not guaranteed, and they are not an appraisal of any specific home.</p>`;
 }
 
 function buildReportPage(rep, allPosts) {
@@ -448,12 +448,20 @@ ${stats ? `<div style="font-size: 13px; color: var(--color-neutral-600); margin-
 </div>`;
 }
 
+// IDX rules expect listing data no older than 12 hours. GitHub sometimes skips
+// scheduled refresh runs, so a page built from older data hides its cards in
+// the browser once the data is more than a day old, instead of showing homes
+// that may have sold.
+const STALE_LISTINGS_SCRIPT = `(function(){var g=document.querySelector("[data-listings-generated]");if(!g)return;var t=Date.parse(g.getAttribute("data-listings-generated"));if(t&&Date.now()-t>864e5){g.style.display="none";var n=g.parentNode.querySelector(".listings-stale");if(n)n.style.display="block";}})();`;
+
 function hubListings(area) {
   const mine = (listingsData.listings || []).filter((l) => String(l.cityName || "").toLowerCase() === area.name.toLowerCase());
   const updated = listingsData.generatedAt ? formatDate(listingsData.generatedAt.slice(0, 10)) : null;
   return `<section id="listings" style="margin-top: var(--space-8);">
 <h2>Homes for sale in ${escapeHtml(area.name)}</h2>
-${mine.length ? `<div class="grid" style="margin-top: var(--space-4);">${mine.map(listingCard).join("\n")}</div>` : `<p style="line-height: 1.65;">We don't have a listing of our own in ${escapeHtml(area.name)} right now. Every home on the market there is in the full search.</p>`}
+${mine.length ? `<div class="grid" style="margin-top: var(--space-4);" data-listings-generated="${escapeHtml(listingsData.generatedAt || "")}">${mine.map(listingCard).join("\n")}</div>
+<p class="listings-stale" style="display: none; line-height: 1.65;">Our listing cards are being refreshed. Every home on the market in ${escapeHtml(area.name)} is in the full search.</p>
+<script>${STALE_LISTINGS_SCRIPT}</script>` : `<p style="line-height: 1.65;">We don't have a listing of our own in ${escapeHtml(area.name)} right now. Every home on the market there is in the full search.</p>`}
 <p style="margin-top: var(--space-4);"><a href="${SEARCH_URL}" class="btn btn-primary">Search all ${escapeHtml(area.name)} homes for sale</a></p>
 <p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed.${updated ? ` Listing data last updated ${updated}.` : ""}</p>
 </section>`;
