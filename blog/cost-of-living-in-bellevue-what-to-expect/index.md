@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 9, 2026
+Topic: Relocation
 Area: Bellevue, Washington
 Web page: https://jackmacdonaldre.com/blog/cost-of-living-in-bellevue-what-to-expect/
 

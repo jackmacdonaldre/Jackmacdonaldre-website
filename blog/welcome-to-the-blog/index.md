@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 4, 2026
-Area: Bellevue, Washington
+Topic: Neighborhood guides
+Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/welcome-to-the-blog/
 
 This is where you'll find neighborhood guides, market updates, and local insight for buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell. New posts are added automatically, check back often.

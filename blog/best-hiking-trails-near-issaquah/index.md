@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 18, 2026
+Topic: Neighborhood guides
 Area: Issaquah, Washington
 Web page: https://jackmacdonaldre.com/blog/best-hiking-trails-near-issaquah/
 

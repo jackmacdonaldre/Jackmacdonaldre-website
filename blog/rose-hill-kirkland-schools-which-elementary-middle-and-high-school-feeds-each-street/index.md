@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 25, 2026
+Topic: Schools and family
 Area: Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/rose-hill-kirkland-schools-which-elementary-middle-and-high-school-feeds-each-street/
 

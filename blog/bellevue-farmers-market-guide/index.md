@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 23, 2026
+Topic: Neighborhood guides
 Area: Bellevue, Washington
 Web page: https://jackmacdonaldre.com/blog/bellevue-farmers-market-guide/
 

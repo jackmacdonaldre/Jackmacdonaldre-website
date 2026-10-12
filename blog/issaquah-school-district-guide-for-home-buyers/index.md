@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 30, 2026
-Area: Issaquah, Washington
+Topic: Schools and family
+Area: Issaquah, Sammamish, Washington
 Web page: https://jackmacdonaldre.com/blog/issaquah-school-district-guide-for-home-buyers/
 
 One of the first things buyers ask me when they start looking on the Eastside is whether Issaquah School District is as good as people say. Short answer: yes, it has genuinely strong schools and a reputation that holds up. But the longer answer matters more, because the district covers a lot of ground, the boundaries are not always where you would guess, and "good schools" means different things depending on what you are looking for.

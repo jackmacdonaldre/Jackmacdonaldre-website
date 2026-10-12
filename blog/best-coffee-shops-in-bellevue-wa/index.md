@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 16, 2026
+Topic: Neighborhood guides
 Area: Bellevue, Washington
 Web page: https://jackmacdonaldre.com/blog/best-coffee-shops-in-bellevue-wa/
 

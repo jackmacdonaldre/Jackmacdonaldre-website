@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 13, 2026
+Topic: Neighborhood guides
 Area: Redmond, Washington
 Web page: https://jackmacdonaldre.com/blog/downtown-redmond-condos-and-homes-neighborhood-guide/
 

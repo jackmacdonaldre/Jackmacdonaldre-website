@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 19, 2026
+Topic: Neighborhood guides
 Area: Bellevue, Washington
 Web page: https://jackmacdonaldre.com/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/
 

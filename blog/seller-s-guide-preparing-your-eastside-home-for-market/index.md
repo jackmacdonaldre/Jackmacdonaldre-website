@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: October 2, 2026
+Topic: Selling
 Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/seller-s-guide-preparing-your-eastside-home-for-market/
 

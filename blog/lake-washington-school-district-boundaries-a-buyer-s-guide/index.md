@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 7, 2026
-Area: Bellevue, Washington
+Topic: Schools and family
+Area: Kirkland, Redmond, Sammamish, Washington
 Web page: https://jackmacdonaldre.com/blog/lake-washington-school-district-boundaries-a-buyer-s-guide/
 
 One of the first things I hear from families relocating to the Eastside is some version of: "We want to be in a good school district." That's understandable. But what surprises a lot of buyers is that the school district isn't the whole story. The boundaries within a district matter just as much, and in a place like Lake Washington School District, that complexity is worth understanding before you start making offers.

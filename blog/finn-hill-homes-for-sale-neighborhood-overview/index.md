@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: August 14, 2026
+Topic: Neighborhood guides
 Area: Kirkland, Washington
 Web page: https://jackmacdonaldre.com/blog/finn-hill-homes-for-sale-neighborhood-overview/
 

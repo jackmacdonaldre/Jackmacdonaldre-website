@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { attributionFor } = require('./attribution');
 
 const IDX_ACCESS_KEY = process.env.IDX_ACCESS_KEY;
 
@@ -21,6 +22,8 @@ function formatDate(d) {
   return d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()) + '+' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds());
 }
 
+var failedChunks = 0;
+
 async function fetchChunk(startDatetime) {
   var url = "https://api.idxbroker.com/clients/soldpending?interval=" + CHUNK_HOURS + "&startDatetime=" + startDatetime + "&dateType=dateAdded";
   var response = await fetch(url, {
@@ -36,6 +39,7 @@ async function fetchChunk(startDatetime) {
   }
   if (response.status !== 200) {
     console.error("IDX API returned status", response.status, "for", startDatetime);
+    failedChunks++;
     return [];
   }
   var raw = await response.json();
@@ -77,6 +81,15 @@ async function fetchChunk(startDatetime) {
    var db = new Date(b.pendingDate || b.closeDate || b.soldDate || b.dateAdded || 0).getTime();
    return db - da;
  });
+
+ listings.forEach(function (l) { l.attribution = attributionFor(l); });
+
+ // If every call failed (for example the 416 errors from Sept 2), keep the last
+ // good file instead of wiping the sold section on the site.
+ if (failedChunks === CHUNK_COUNT) {
+   console.error("Every sold listings request failed. Keeping the previous sold-listings.json.");
+   process.exit(1);
+ }
 
  var output = {
    generatedAt: new Date().toISOString(),

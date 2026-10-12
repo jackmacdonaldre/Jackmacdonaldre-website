@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: October 9, 2026
-Area: Redmond, Washington
+Topic: Schools and family
+Area: Redmond, Kirkland, Sammamish, Washington
 Web page: https://jackmacdonaldre.com/blog/choice-schools-and-tech-schools-in-lake-washington-school-district-how-admission-works/
 
 One of the first questions I hear from families moving to Redmond or anywhere else in the Lake Washington School District is some version of: "We heard there are special schools you can apply to. How does that actually work?" It comes up constantly, and the honest answer is that the system is genuinely good but genuinely confusing if you don't know where to start.

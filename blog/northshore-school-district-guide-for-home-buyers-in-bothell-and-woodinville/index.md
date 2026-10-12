@@ -4,7 +4,8 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: October 5, 2026
-Area: Bothell, Washington
+Topic: Schools and family
+Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/
 
 One of the first questions I get from families buying in Bothell or Woodinville is some version of: "What's the school situation here?" And it's worth a real answer, because Northshore School District is the kind of district where the details actually matter. The overall ratings are strong, but which school your kids attend depends entirely on where you buy, and those boundaries don't always line up the way people expect.

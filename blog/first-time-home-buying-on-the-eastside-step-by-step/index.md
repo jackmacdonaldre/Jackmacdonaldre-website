@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 11, 2026
+Topic: Buying
 Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/first-time-home-buying-on-the-eastside-step-by-step/
 

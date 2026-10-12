@@ -2,14 +2,16 @@ name: Rebuild blog pages
 
 # Rebuilds every /blog/{slug}/ page, blog/index.html and sitemap.xml whenever
 # post data or the page template changes (e.g. after a manual edit to a post in
-# blog-posts-data.js). Does NOT generate a new post or send an email.
+# blog-posts-data.js). Also rebuilds area hubs, market report pages, llms.txt.
+# Does NOT generate a new post or send an email.
 
 on:
   push:
     branches: [main]
     paths:
       - "blog-posts-data.js"
-      - "auto-blog-system/scripts/generate-blog-pages.js"
+      - "auto-blog-system/scripts/*.js"
+      - "auto-blog-system/content/market-reports-state.json"
   workflow_dispatch: {}
 
 permissions:
@@ -19,16 +21,14 @@ jobs:
   rebuild:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
       - name: Rebuild blog pages and sitemap
         run: node auto-blog-system/scripts/generate-blog-pages.js
       - name: Commit and push if changes exist
-        run: |
-          git config user.name "auto-blog-bot"
-          git config user.email "auto-blog-bot@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "Rebuild blog pages"
-          git push
+        env:
+          GIT_BOT_NAME: auto-blog-bot
+          GIT_BOT_EMAIL: auto-blog-bot@users.noreply.github.com
+        run: '.github/scripts/commit-and-push.sh "Rebuild blog pages"'

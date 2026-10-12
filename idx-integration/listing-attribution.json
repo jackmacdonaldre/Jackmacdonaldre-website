@@ -1,0 +1,25 @@
+{
+  "_instructions": "Who listed each property, shown on every listing card (NWMLS rule: listing firm on every IDX listing, and from Oct 15 2026 the listing broker's name and contact as prominent as any contact button). Office and agent IDs come from IDX Broker. Fill in name and phone for each agent ID; leave null to show the firm only.",
+  "offices": {
+    "91866779": "Compass"
+  },
+  "agents": {
+    "1186410": {
+      "name": null,
+      "phone": null
+    },
+    "121277198": {
+      "name": null,
+      "phone": null
+    },
+    "151078377": {
+      "name": null,
+      "phone": null
+    }
+  },
+  "_featured_instructions": "Only listings by these agent IDs appear in the site's featured listings. 1186410 and 121277198 are the team IDs already used for sold listings (Jack and Stephen Macdonald, names still to be confirmed by Jack). 151078377 is hidden until Jack confirms who it is (NWMLS Oct 15 2026 rules).",
+  "featuredAgentIds": [
+    "1186410",
+    "121277198"
+  ]
+}

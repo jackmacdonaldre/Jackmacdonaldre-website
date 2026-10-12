@@ -4,6 +4,7 @@
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: September 2, 2026
+Topic: Relocation
 Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/relocating-to-the-eastside-for-a-tech-job-what-to-know/
 
