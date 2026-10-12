@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T23:33:30.315Z",
-  "count": 14,
+  "generatedAt": "2026-10-09T05:28:17.588Z",
+  "count": 11,
   "listings": [
     {
       "acres": "1.293",
@@ -205,6 +205,8 @@
       "bedrooms": 4,
       "cityID": 22860,
       "cityName": "Issaquah",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2025-10-24T21:08:24+00:00",
@@ -278,7 +280,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 181,
+      "viewCount": 195,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -524,6 +526,8 @@
       "bedrooms": 4,
       "cityID": 23959,
       "cityName": "Kenmore",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-11T00:50:33+00:00",
@@ -785,515 +789,10 @@
       "subdivision": "Arrowhead",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 21,
+      "viewCount": 39,
       "vtCount": 1,
       "yearBuilt": 1956,
       "zipcode": "98028",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": null,
-        "agentPhone": null
-      }
-    },
-    {
-      "acres": "0.14",
-      "address": "4089 Rockaway Beach Road NE",
-      "advanced": {
-        "roof": [
-          "Metal"
-        ],
-        "view": [
-          "City",
-          "Mountains",
-          "Ocean",
-          "Sound"
-        ],
-        "sewer": [
-          "Sewer Connected"
-        ],
-        "levels": [
-          "Multi/Split"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "aduBeds": "1",
-        "aduType": "Attached Dwelling",
-        "cooling": [
-          "Ductless",
-          "Forced Air",
-          "Heat Pump"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Ductless",
-          "Forced Air",
-          "Heat Pump",
-          "Wall Furnace"
-        ],
-        "taxYear": 2026,
-        "aduBaths": "1",
-        "aduCount": "1",
-        "basement": [
-          "None"
-        ],
-        "flooring": [
-          "Bamboo/Cork",
-          "Ceramic Tile",
-          "Hardwood",
-          "Carpet"
-        ],
-        "saleType": "MLS",
-        "bathrooms": "3.25",
-        "styleCode": "15 - Multi Level",
-        "appliances": [
-          "Dishwasher",
-          "Disposal",
-          "Double Oven",
-          "Dryer",
-          "Microwave",
-          "Refrigerator",
-          "Stove(s)/Range(s)",
-          "Washer"
-        ],
-        "highSchool": [
-          "Bainbridge Isl"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Double Oven",
-          "Dryer(s)",
-          "Garbage Disposal",
-          "Leased Equipment",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "livingArea": 3147,
-        "possession": [
-          "Closing"
-        ],
-        "topography": "Sloped,Terraces",
-        "vegetation": [
-          "Garden Space"
-        ],
-        "lotFeatures": [
-          "Paved"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "listingTerms": [
-          "Cash",
-          "Conventional",
-          "FHA",
-          "VA Loan"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "170 - Bainbridge Island",
-        "onMarketDate": "2026-07-22T00:00:00+00:00",
-        "parkingTotal": 5,
-        "powerCompany": "PSE",
-        "sewerCompany": "COBI",
-        "siteFeatures": [
-          "Cable TV",
-          "Deck",
-          "Fenced-Partially",
-          "Patio",
-          "Propane",
-          "Rooftop Deck"
-        ],
-        "titleCompany": "Rainier Title",
-        "waterCompany": "COBI",
-        "waterfrontYN": "no",
-        "bathsFullMain": "0",
-        "bathsHalfMain": "1",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "4",
-        "coveredSpaces": 2,
-        "entryLocation": "Lower",
-        "structureType": [
-          "House"
-        ],
-        "associationFee": 0,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "2",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "cableConnected": "Xfinity",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "fireplacesMain": "2",
-        "standardStatus": "Active",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "excludedItemsYN": "no",
-        "fireplacesTotal": 2,
-        "leasedEquipment": "propane tank",
-        "parkingFeatures": [
-          "Attached Garage"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 11389,
-        "waterHeaterType": "Gas",
-        "attachedGarageYN": "yes",
-        "elementarySchool": [
-          "Capt Johnston Blakel"
-        ],
-        "exteriorFeatures": [
-          "Cement/Concrete",
-          "Cement Planked",
-          "Metal/Vinyl",
-          "Wood"
-        ],
-        "interiorFeatures": [
-          "Dbl Pane/Storm Window",
-          "Dining Room",
-          "Elevator",
-          "Fireplace",
-          "Fireplace (Primary Bedroom)",
-          "Jetted Tub",
-          "Loft",
-          "Pantry",
-          "Security System",
-          "Skylight(s)",
-          "Vaulted Ceiling(s)",
-          "Walk-In Closet(s)",
-          "Water Heater",
-          "Wired for Generator"
-        ],
-        "mlsLotSizeSource": "County Records",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 3147,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "communityFeatures": [
-          "Park",
-          "Trail(s)"
-        ],
-        "fireplaceFeatures": [
-          "Gas"
-        ],
-        "foundationDetails": [
-          "Poured Concrete"
-        ],
-        "internetConnected": "Xfinity",
-        "lotSizeSquareFeet": 6098,
-        "mainLevelBedrooms": 0,
-        "propertyCondition": [
-          "Very Good"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Double Oven",
-          "Dryer(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "architecturalStyle": [
-          "Contemporary"
-        ],
-        "highSchoolDistrict": [
-          "Bainbridge Island"
-        ],
-        "yearBuiltEffective": 2003,
-        "buildingInformation": [
-          "Built On Lot"
-        ],
-        "firstRightOfRefusal": "no",
-        "powerProductionType": [
-          "Electric",
-          "Propane"
-        ],
-        "waterHeaterLocation": "First floor closet",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Woodward Mid"
-        ],
-        "bathsThreeQuarterMain": "0",
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "1",
-        "mlsSquareFootageSource": "County Records",
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "3147",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "no"
-      },
-      "bedrooms": 4,
-      "cityID": 2331,
-      "cityName": "Bainbridge Island",
-      "countyID": 1064,
-      "countyName": "Kitsap",
-      "dateAdded": "2026-07-23T00:47:34+00:00",
-      "dateModified": "2026-09-23T21:56:12+00:00",
-      "detailsURL": "b045/2557974",
-      "detailsUrlSlug": "4089-Rockaway-Beach-Road-NE-Bainbridge-Island-98110",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2557974/4089-Rockaway-Beach-Road-NE-Bainbridge-Island-98110",
-      "halfBaths": 1,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "active",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d82b/b28db7453c1c5d35ec9cd8c1f977f913/b045",
-          "sizes": [],
-          "caption": "Stunning views of the Seattle skyline"
-        },
-        "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/de0a/a0ed90a85683735aa7f4e14fd32a1fcf/b045",
-          "sizes": [],
-          "caption": "Beautiful contemporary home on Bainbridge Island"
-        },
-        "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a9e3/3e9ab3559ba2bb446119274b22c9227e/b045",
-          "sizes": [],
-          "caption": "Sweeping views of the Puget Sound from the patio."
-        },
-        "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5154/451543874ce7b0d209531f66de72badb/b045",
-          "sizes": [],
-          "caption": "Exterior shot of this striking architecture"
-        },
-        "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/69d1/1d9658c85ce609a5950b36e5f8522b99/b045",
-          "sizes": [],
-          "caption": "Bright entry way"
-        },
-        "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/62f2/2f26a5cb42c1b1a8dd8f1c6f32cc7fb5/b045",
-          "sizes": [],
-          "caption": "Stunning lounge area as you enter"
-        },
-        "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f22d/d22fd8e38e9479061e200de207ed9b04/b045",
-          "sizes": [],
-          "caption": "Concrete wall by the base of the stairs showcasing this home's one-of-a-kind character"
-        },
-        "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ae65/56ea44ba4a0488370df5978e06db30f9/b045",
-          "sizes": [],
-          "caption": "Living room with picturesque windows framing the surrounding nature"
-        },
-        "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4164/4614a1406481d2d5ff89dd772dfcc8b4/b045",
-          "sizes": [],
-          "caption": "Spacious living room with a cozy fireplace"
-        },
-        "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/07f4/4f703df9057f328825ff74b6b75b1e73/b045",
-          "sizes": [],
-          "caption": "Bar seats with a gorgeous view"
-        },
-        "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1430/0341649e8da5070744d22c6c17ffbf60/b045",
-          "sizes": [],
-          "caption": "Chef's kitchen with the dreamiest views of Seattle, the Cascades, and the Puget Sound"
-        },
-        "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ef93/39fece5537c52eb3e2c954b0a334f53b/b045",
-          "sizes": [],
-          "caption": "These views are hard to beat!"
-        },
-        "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dc30/03cd7a4c745d53400720a962a0208633/b045",
-          "sizes": [],
-          "caption": "Chef's kitchen with Wolf appliances"
-        },
-        "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7477/77470f83db3559402d69909b04e7d6bc/b045",
-          "sizes": [],
-          "caption": "Pristine kitchen that flows perfectly into the dining room"
-        },
-        "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dedc/cdeda0212f0b3212d1204522350dee91/b045",
-          "sizes": [],
-          "caption": "Dining room with water views"
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9a0e/e0a953495f62d5c32cdabda9a6c78920/b045",
-          "sizes": [],
-          "caption": "Office/lounge space"
-        },
-        "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/89d3/3d9828348e6d85d5498ce7aafccdaef2/b045",
-          "sizes": [],
-          "caption": "Beautiful custom bookshelf"
-        },
-        "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/64f8/8f46c8b1062d41b2ee2bb7d517e20f99/b045",
-          "sizes": [],
-          "caption": "Primary bedroom with incredible views"
-        },
-        "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0894/4980d8a3521cbdee67e7e808673bafa5/b045",
-          "sizes": [],
-          "caption": "Primary bath suite"
-        },
-        "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9fbd/dbf94b7393667c30f24ff12b8e2c03b3/b045",
-          "sizes": [],
-          "caption": "Brand new shower and a gorgeous bathtub"
-        },
-        "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a921/129abdbff87a1293884cefdb4e88eee7/b045",
-          "sizes": [],
-          "caption": "Landing space outside the primary with stunning views"
-        },
-        "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dbd0/0dbdc929594f99ee64b78a31aa831367/b045",
-          "sizes": [],
-          "caption": "Covered deck on the top floor with views of the Sound and Mt. Baker"
-        },
-        "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c1d9/9d1c0e65d9d8a4162b9b5424b5e29c10/b045",
-          "sizes": [],
-          "caption": "Expansive view deck with a retractable awning to enjoy the views year round."
-        },
-        "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6a35/53a6e1c077860875da156ccf72ef051f/b045",
-          "sizes": [],
-          "caption": "Gorgeous!"
-        },
-        "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/468c/c864237dd676e6b2e7c02e878a00cdf5/b045",
-          "sizes": [],
-          "caption": "Second floor bedroom"
-        },
-        "25": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/312b/b213344a5594b98cc87ae3c83a30af8c/b045",
-          "sizes": [],
-          "caption": "2nd floor full bathroom"
-        },
-        "26": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3656/656322e87a88b3753a5ed17aae0cb4de/b045",
-          "sizes": [],
-          "caption": "Second floor bedroom"
-        },
-        "27": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/51b0/0b1551d34dcf458d3d17c864d07e6fd3/b045",
-          "sizes": [],
-          "caption": "Bright office space with water views"
-        },
-        "28": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/acb3/3bcaab74d16e3cd1229998ee86b24dd1/b045",
-          "sizes": [],
-          "caption": "Nature-filled courtyard that connects the ADU with the main home"
-        },
-        "29": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/21dd/dd1229686b4512e0a7ed3ad9a6f84d52/b045",
-          "sizes": [],
-          "caption": "Sauna and cold-plunge tub to support health and wellness"
-        },
-        "30": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5269/9625e403cecfc3d07cef3e62db20b83f/b045",
-          "sizes": [],
-          "caption": "ADU main floor studio"
-        },
-        "31": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/257e/e752f75a1e80d9961fd8164853a2d3b9/b045",
-          "sizes": [],
-          "caption": "ADU with a retractable TV screen to transform into a movie theater"
-        },
-        "32": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1a71/17a1483c8a8a629aeaa763fccfb8e125/b045",
-          "sizes": [],
-          "caption": "ADU Bedroom"
-        },
-        "33": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3ef5/5fe35286ee33f323f469d40e35f3e4c6/b045",
-          "sizes": [],
-          "caption": "ADU 3/4 bathroom"
-        },
-        "34": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/59c8/8c95018da53be471ab1fbc648c3b4095/b045",
-          "sizes": [],
-          "caption": "ADU loft space with water views"
-        },
-        "35": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8160/0618d9b91bbd9d8d997b5a045289c94d/b045",
-          "sizes": [],
-          "caption": "ADU deck outside of the loft space"
-        },
-        "36": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f019/910fb9e3fa6210271b25054329075d91/b045",
-          "sizes": [],
-          "caption": "Large elevator that travels to all four floors of the main home, making this home wheelchair friendly and easily accesible"
-        },
-        "37": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b915/519b173992bfcf68f3233f0e100a4ef4/b045",
-          "sizes": [],
-          "caption": "Beautiful home surrounded by nature"
-        },
-        "38": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5afb/bfa5d7d1875ec656409c8d9c1c88761a/b045",
-          "sizes": [],
-          "caption": "The coveted Rockaway Beach!"
-        },
-        "39": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fc44/44cffe5f1318623a02b662c58db94d70/b045",
-          "sizes": [],
-          "caption": "Less than a minute walk to Rockaway Beach Park!"
-        },
-        "totalCount": 40
-      },
-      "latitude": 47.600306,
-      "listingAgentID": "151078377",
-      "listingID": "2557974",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$1,850,000",
-      "longitude": -122.499947,
-      "mediaData": [],
-      "mlsPhotoCount": 40,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 2,
-      "price": 1850000,
-      "priceData": {
-        "value": {
-          "raw": 1850000,
-          "formatted": "$1,850,000"
-        },
-        "type": "active",
-        "label": "Price",
-        "field": "listingPrice"
-      },
-      "propStatus": "Active",
-      "propSubType": "Single Family Residence",
-      "propType": "Residential",
-      "remarksConcat": "Set beside Bainbridge Island’s coveted Rockaway Beach with sweeping water views, this one-of-a-kind residence is built around its scenery. Walls of glass and an open, multi-level layout draw in views of Seattle, Puget Sound, the Cascades, and passing ferries. A sculptural staircase and elevator serve as the home's connective core, channeling daylight through every level and linking the spaces with ease. Outside, the top deck invites slow mornings with coffee and eagle sightings overhead, while Rockaway Beach Park sits just steps away. Watch for porpoises and orcas passing through the Sound, or head down to paddle out to Blakely Rock on a calm afternoon. A private sauna and cold plunge add a spa-like retreat to daily life. The ADU studio and loft, accessible via third floor walkway or via the main courtyard,  offers independence and flexibility, ready to serve as a guest suite, hangout, rental, or home office. As evening falls, the Seattle skyline comes alive across the water, a view that changes with every hour of the day. Stellar views, thoughtful design, and a location that speaks for itself, this is ideal Bainbridge Island living.",
-      "rntLse": "neither",
-      "rntLsePrice": 1850000,
-      "sqFt": "3,147",
-      "state": "Washington",
-      "streetName": "Rockaway Beach Road NE",
-      "streetNumber": "4089",
-      "subdivision": "Bainbridge Island",
-      "threeQuarterBaths": 1,
-      "totalBaths": 4,
-      "viewCount": 70,
-      "vtCount": 0,
-      "yearBuilt": 2003,
-      "zip4": "2159",
-      "zipcode": "98110",
       "attribution": {
         "firm": "Compass",
         "agentName": null,
@@ -1494,6 +993,8 @@
       "bedrooms": 3,
       "cityID": 38785,
       "cityName": "Redmond",
+      "coListingAgentID": "1186410",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-17T01:23:37+00:00",
@@ -1726,7 +1227,7 @@
       "subdivision": "Redmond",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 11,
+      "viewCount": 23,
       "vtCount": 1,
       "yearBuilt": 1975,
       "zipcode": "98052",
@@ -1957,6 +1458,8 @@
       "bedrooms": 5,
       "cityID": 38960,
       "cityName": "Renton",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-06-26T00:02:21+00:00",
@@ -2135,39 +1638,10 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$1,199,800",
       "longitude": -122.198729,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "162279663",
-            "text": "",
-            "starts": "2026-10-03T13:00:00+00:00",
-            "expires": "2026-10-03T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-02T18:25:19+00:00",
-            "freeFormDate": "October 3rd, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2544754",
-            "startTime": 1791032400
-          },
-          {
-            "id": "163337502",
-            "text": "",
-            "starts": "2026-10-04T12:00:00+00:00",
-            "expires": "2026-10-04T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-02T18:25:20+00:00",
-            "freeFormDate": "October 4th, 2026",
-            "freeFormTime": "12:00 pm to 3:00 pm",
-            "listingID": "2544754",
-            "startTime": 1791115200
-          }
-        ]
-      },
+      "mediaData": [],
       "mlsPhotoCount": 31,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1199800,
@@ -2196,7 +1670,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 36,
+      "viewCount": 44,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -2420,6 +1894,8 @@
       "bedrooms": 4,
       "cityID": 38960,
       "cityName": "Renton",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-06-26T00:04:11+00:00",
@@ -2643,39 +2119,10 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$1,149,800",
       "longitude": -122.198721,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "162280286",
-            "text": "",
-            "starts": "2026-10-03T13:00:00+00:00",
-            "expires": "2026-10-03T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-02T18:25:19+00:00",
-            "freeFormDate": "October 3rd, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2528070",
-            "startTime": 1791032400
-          },
-          {
-            "id": "163337590",
-            "text": "",
-            "starts": "2026-10-04T12:00:00+00:00",
-            "expires": "2026-10-04T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-02T18:25:21+00:00",
-            "freeFormDate": "October 4th, 2026",
-            "freeFormTime": "12:00 pm to 3:00 pm",
-            "listingID": "2528070",
-            "startTime": 1791115200
-          }
-        ]
-      },
+      "mediaData": [],
       "mlsPhotoCount": 40,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1149800,
@@ -2704,7 +2151,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 42,
+      "viewCount": 48,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -2889,6 +2336,8 @@
       "bedrooms": 3,
       "cityID": 41973,
       "cityName": "Seattle",
+      "coListingAgentID": "1186410",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-18T00:47:37+00:00",
@@ -3093,34 +2542,6 @@
       "listingPrice": "$1,049,500",
       "longitude": -122.287246,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163281482",
-            "text": "",
-            "starts": "2026-10-03T13:00:00+00:00",
-            "expires": "2026-10-03T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-02T22:10:23+00:00",
-            "freeFormDate": "October 3rd, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2571716",
-            "startTime": 1791032400
-          },
-          {
-            "id": "163281483",
-            "text": "",
-            "starts": "2026-10-04T15:00:00+00:00",
-            "expires": "2026-10-04T17:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-02T22:10:24+00:00",
-            "freeFormDate": "October 4th, 2026",
-            "freeFormTime": "3:00 pm to 5:00 pm",
-            "listingID": "2571716",
-            "startTime": 1791126000
-          }
-        ],
         "vt": [
           {
             "id": "vtURL",
@@ -3132,7 +2553,7 @@
       },
       "mlsPhotoCount": 36,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 0,
       "price": 1049500,
@@ -3160,7 +2581,7 @@
       "subdivision": "Bryant",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 8,
+      "viewCount": 15,
       "vtCount": 1,
       "yearBuilt": 1928,
       "zipcode": "98115",
@@ -3390,10 +2811,12 @@
       "bedrooms": 4,
       "cityID": 28366,
       "cityName": "Maple Valley",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-09-29T23:55:11+00:00",
+      "dateModified": "2026-10-03T18:46:12+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -3583,26 +3006,10 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$795,000",
       "longitude": -122.038167,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "163247646",
-            "text": "",
-            "starts": "2026-10-03T12:00:00+00:00",
-            "expires": "2026-10-03T14:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-09-30T00:10:16+00:00",
-            "freeFormDate": "October 3rd, 2026",
-            "freeFormTime": "12:00 pm to 2:00 pm",
-            "listingID": "2577976",
-            "startTime": 1791028800
-          }
-        ]
-      },
+      "mediaData": [],
       "mlsPhotoCount": 34,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 795000,
@@ -3628,10 +3035,436 @@
       "subdivision": "Elk Run Golf Course",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 8,
+      "viewCount": 14,
       "vtCount": 0,
       "yearBuilt": 2005,
       "zipcode": "98038",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": null,
+        "agentPhone": null
+      }
+    },
+    {
+      "acres": "0.065",
+      "address": "3515 SW Austin Street",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air",
+          "Wall Furnace"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "flooring": [
+          "Vinyl Plank"
+        ],
+        "saleType": "MLS",
+        "viewFrom": "Unit",
+        "bathrooms": "1.75",
+        "styleCode": "31 - Condo (2 Levels)",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "gasCompany": "Puget Sound Energy",
+        "highSchool": [
+          "West Seattle High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 0,
+        "possession": [
+          "Closing"
+        ],
+        "lotFeatures": [
+          "Curbs",
+          "Paved",
+          "Sidewalk"
+        ],
+        "petsAllowed": [
+          "Yes"
+        ],
+        "buildingName": "SW Austin Street Condominium Association",
+        "dwellingType": "Detached",
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "140 - West Seattle",
+        "onMarketDate": "2026-09-24T00:00:00+00:00",
+        "parkingTotal": 0,
+        "powerCompany": "Seattle City Light",
+        "sewerCompany": "Seattle Public Utilities",
+        "storiesTotal": 2,
+        "titleCompany": "Chicago Title",
+        "unitFeatures": [
+          "Balcony/Deck/Patio",
+          "Yard"
+        ],
+        "waterCompany": "Seattle Public Utilities",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "1",
+        "bedroomsUpper": "0",
+        "busLineNearby": "yes",
+        "coveredSpaces": 0,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 3,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "standardStatus": "Active",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 1,
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "None"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 5150.16,
+        "waterHeaterType": "Electric",
+        "elementarySchool": [
+          "Gatewood"
+        ],
+        "exteriorFeatures": [
+          "Metal/Vinyl"
+        ],
+        "interiorFeatures": [
+          "Fireplace",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "MLS",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 1798,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Electric"
+        ],
+        "floorNumberOfUnit": "1",
+        "lotSizeSquareFeet": 2821,
+        "mainLevelBedrooms": 3,
+        "otherDuesOrFeesYN": "no",
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Seattle"
+        ],
+        "yearBuiltEffective": 1924,
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "Lower",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Madison Mid"
+        ],
+        "numberOfAccessStairs": "4",
+        "unitsInBuildingTotal": "1",
+        "bathsThreeQuarterMain": "0",
+        "associationFeeIncludes": [
+          "See Remarks"
+        ],
+        "bathsThreeQuarterLower": "1",
+        "bathsThreeQuarterUpper": "0",
+        "garbageServiceProvider": "Seattle Public Utilities",
+        "mlsSquareFootageSource": "MLS",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "1798",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "numberOfUnitsInCommunity": 2,
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 4,
+      "cityID": 41973,
+      "cityName": "Seattle",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-09-29T22:19:16+00:00",
+      "dateModified": "2026-10-08T22:21:17+00:00",
+      "detailsURL": "b045/2588925",
+      "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2588925/3515-SW-Austin-Street-Seattle-98126",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7f21/12f7eef1e0b8d2bb0eddf3d34280a169/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "1": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5a33/33a5c768c9ddcce924a0e653c99ad3f0/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "2": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c7ea/ae7ca9de7100d2680d53b64853f78766/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "3": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/492b/b29425ceea5dc03dd46b2589bf409863/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "4": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bdf5/5fdbef34d3b9b66e8d953798d9919ee8/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "5": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/80be/eb0804c479e344b93c54c4140974c238/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "6": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8a98/89a89c08147d19b061982ffead6c9d3c/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "7": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3548/8453f85590fb4af5ea93eed288af9389/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "8": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ef0a/a0feda43b11f51a3ce13f74a5a8ac0e7/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "9": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/44c4/4c444841a104bf50ea61febf67cb3189/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "10": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/853d/d3581af40e6428a80304272e9631b58a/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "11": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7814/41876f2dd930903816593d1edf13de21/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "12": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5b85/58b5b091bfc8493226d36ee101942f99/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "13": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/edf5/5fde37b4cfd1349f8b997aa43311bd03/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "14": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f5c6/6c5fa0a6b2e9d6e0425bd372311631a7/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "15": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d38e/e83d7ceface57d4d2859aae916cfe470/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "16": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9912/2199af8eed01bcd064971867b3d07908/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "17": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6d01/10d68aebac144d249338c2f2f097d52c/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "18": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0c50/05c0718d1f5a8e031397c4ccfee93f55/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "19": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/da06/60ad2d87d510e51679a03febb3e7bd5d/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "20": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c561/165cd590d4fd056ff7cb3a423827d481/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "21": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c501/105cf2da7d11ae71b39abb1e9ed9a8b4/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "22": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f349/943f226504f884d94fa35db216bcb1d6/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "23": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f28d/d82f8183f79820bdd53b87b4ae312b72/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "24": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8c7c/c7c8e1d488917d0efa80d13eab57d4d8/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "25": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/53b8/8b35c8f45451cc9adf5f5ed85c6ace11/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "26": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1833/33817b9a3b2d67dc96ed7418ca9d52d9/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 27
+      },
+      "latitude": 47.534616,
+      "listingAgentID": "1186410",
+      "listingID": "2588925",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$685,000",
+      "longitude": -122.377471,
+      "mediaData": {
+        "oh": [
+          {
+            "id": "163269728",
+            "text": "",
+            "starts": "2026-10-09T16:00:00+00:00",
+            "expires": "2026-10-09T18:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-10-08T22:40:13+00:00",
+            "freeFormDate": "October 9th, 2026",
+            "freeFormTime": "4:00 pm to 6:00 pm",
+            "listingID": "2588925",
+            "startTime": 1791561600
+          },
+          {
+            "id": "163470445",
+            "text": "",
+            "starts": "2026-10-11T11:00:00+00:00",
+            "expires": "2026-10-11T13:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-10-08T22:40:15+00:00",
+            "freeFormDate": "October 11th, 2026",
+            "freeFormTime": "11:00 am to 1:00 pm",
+            "listingID": "2588925",
+            "startTime": 1791716400
+          }
+        ]
+      },
+      "mlsPhotoCount": 27,
+      "mlsPtID": 1,
+      "ohCount": 2,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 685000,
+      "priceBeforeReduction": 709999,
+      "priceData": {
+        "value": {
+          "raw": 685000,
+          "formatted": "$685,000"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "priceReductionDate": "2026-10-07T22:02:50+00:00",
+      "propStatus": "Active",
+      "propSubType": "Condominium",
+      "propType": "Residential",
+      "remarksConcat": "Charming, turn-key Gatewood home with rental-ready lower suite.  A covered front porch and brand-new front lawn welcome you into this beautifully maintained home offering 1924 craftsman warmth and unmatched West Seattle value. The main floor features 3 bedrooms, a full bath, an inviting living room with striking mid-century brick focal point fireplace, dining area and full kitchen. Downstairs, a recently renovated, fully finished lower suite offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage—ideal for rental income, multigenerational living, or flexible everyday use. Outside, enjoy a private lower patio to relax or secure bike/gear storage. Fresh landscaping, new fencing and low-maintenance hardscaping are just a few of the benefits of this single-family home. Just minutes to West Seattle, restaurants and freeways.",
+      "rntLse": "neither",
+      "rntLsePrice": 685000,
+      "sqFt": 0,
+      "state": "Washington",
+      "streetDirection": "SW",
+      "streetName": "Austin Street",
+      "streetNumber": "3515",
+      "subdivision": "Gatewood",
+      "threeQuarterBaths": 1,
+      "totalBaths": 2,
+      "viewCount": 12,
+      "vtCount": 0,
+      "yearBuilt": 1924,
+      "zipcode": "98126",
       "attribution": {
         "firm": "Compass",
         "agentName": null,
@@ -3851,10 +3684,12 @@
       "bedrooms": 4,
       "cityID": 41973,
       "cityName": "Seattle",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-25T00:38:34+00:00",
-      "dateModified": "2026-09-30T16:30:14+00:00",
+      "dateModified": "2026-10-08T22:21:17+00:00",
       "detailsURL": "b045/2584647",
       "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
       "displayAddress": "y",
@@ -4007,46 +3842,74 @@
       "listingAgentID": "1186410",
       "listingID": "2584647",
       "listingOfficeID": "91866779",
-      "listingPrice": "$709,999",
+      "listingPrice": "$685,000",
       "longitude": -122.377481,
       "mediaData": {
         "oh": [
           {
             "id": "163169249",
             "text": "",
-            "starts": "2026-10-03T12:00:00+00:00",
-            "expires": "2026-10-03T15:00:00+00:00",
+            "starts": "2026-10-09T16:00:00+00:00",
+            "expires": "2026-10-09T18:00:00+00:00",
             "virtualLink": null,
             "virtualText": null,
-            "dateModified": "2026-09-30T16:40:13+00:00",
-            "freeFormDate": "October 3rd, 2026",
-            "freeFormTime": "12:00 pm to 3:00 pm",
+            "dateModified": "2026-10-08T22:40:11+00:00",
+            "freeFormDate": "October 9th, 2026",
+            "freeFormTime": "4:00 pm to 6:00 pm",
             "listingID": "2584647",
-            "startTime": 1791028800
+            "startTime": 1791561600
+          },
+          {
+            "id": "163168775",
+            "text": "",
+            "starts": "2026-10-10T13:00:00+00:00",
+            "expires": "2026-10-10T16:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-10-08T22:40:11+00:00",
+            "freeFormDate": "October 10th, 2026",
+            "freeFormTime": "1:00 pm to 4:00 pm",
+            "listingID": "2584647",
+            "startTime": 1791637200
+          },
+          {
+            "id": "163470525",
+            "text": "",
+            "starts": "2026-10-11T11:00:00+00:00",
+            "expires": "2026-10-11T13:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-10-08T22:40:15+00:00",
+            "freeFormDate": "October 11th, 2026",
+            "freeFormTime": "11:00 am to 1:00 pm",
+            "listingID": "2584647",
+            "startTime": 1791716400
           }
         ]
       },
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 3,
       "parentPtID": 1,
       "partialBaths": 1,
-      "price": 709999,
+      "price": 685000,
+      "priceBeforeReduction": 709999,
       "priceData": {
         "value": {
-          "raw": 709999,
-          "formatted": "$709,999"
+          "raw": 685000,
+          "formatted": "$685,000"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
+      "priceReductionDate": "2026-10-07T22:02:50+00:00",
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
       "remarksConcat": "Charming, turn-key Gatewood home with rental-ready lower suite.  A covered front porch and brand-new front lawn welcome you into this beautifully maintained home offering 1924 craftsman warmth and unmatched West Seattle value. The main floor features 3 bedrooms, a full bath, an inviting living room with striking mid-century brick focal point fireplace, dining area and full kitchen. Downstairs, a recently renovated, fully finished lower suite offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage—ideal for rental income, multigenerational living, or flexible everyday use. Outside, enjoy a private lower patio to relax or secure bike/gear storage. Fresh landscaping, new fencing and low-maintenance hardscaping are just a few of the benefits of this single-family home. Just minutes to West Seattle, restaurants and freeways.",
       "rntLse": "neither",
-      "rntLsePrice": 709999,
+      "rntLsePrice": 685000,
       "sqFt": "1,798",
       "state": "Washington",
       "streetDirection": "SW",
@@ -4055,429 +3918,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 0,
-      "vtCount": 0,
-      "yearBuilt": 1924,
-      "zipcode": "98126",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": null,
-        "agentPhone": null
-      }
-    },
-    {
-      "acres": "0.065",
-      "address": "3515 SW Austin Street",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "levels": [
-          "Two"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air",
-          "Wall Furnace"
-        ],
-        "taxYear": 2026,
-        "aduCount": "0",
-        "flooring": [
-          "Vinyl Plank"
-        ],
-        "saleType": "MLS",
-        "viewFrom": "Unit",
-        "bathrooms": "1.75",
-        "styleCode": "31 - Condo (2 Levels)",
-        "appliances": [
-          "Dishwasher",
-          "Disposal",
-          "Dryer",
-          "Microwave",
-          "Refrigerator",
-          "Stove(s)/Range(s)",
-          "Washer"
-        ],
-        "gasCompany": "Puget Sound Energy",
-        "highSchool": [
-          "West Seattle High"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Curbs",
-          "Paved",
-          "Sidewalk"
-        ],
-        "petsAllowed": [
-          "Yes"
-        ],
-        "buildingName": "SW Austin Street Condominium Association",
-        "dwellingType": "Detached",
-        "listingTerms": [
-          "Cash",
-          "Conventional"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "140 - West Seattle",
-        "onMarketDate": "2026-09-24T00:00:00+00:00",
-        "parkingTotal": 0,
-        "powerCompany": "Seattle City Light",
-        "sewerCompany": "Seattle Public Utilities",
-        "storiesTotal": 2,
-        "titleCompany": "Chicago Title",
-        "unitFeatures": [
-          "Balcony/Deck/Patio",
-          "Yard"
-        ],
-        "waterCompany": "Seattle Public Utilities",
-        "waterfrontYN": "no",
-        "bathsFullMain": "1",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "1",
-        "bedroomsUpper": "0",
-        "busLineNearby": "yes",
-        "coveredSpaces": 0,
-        "entryLocation": "Main",
-        "structureType": [
-          "House"
-        ],
-        "associationFee": 3,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "fireplacesMain": "1",
-        "standardStatus": "Active",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 1,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "None"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 5150.16,
-        "waterHeaterType": "Electric",
-        "elementarySchool": [
-          "Gatewood"
-        ],
-        "exteriorFeatures": [
-          "Metal/Vinyl"
-        ],
-        "interiorFeatures": [
-          "Fireplace",
-          "Water Heater"
-        ],
-        "mlsLotSizeSource": "MLS",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 1798,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "fireplaceFeatures": [
-          "Electric"
-        ],
-        "floorNumberOfUnit": "1",
-        "lotSizeSquareFeet": 2821,
-        "mainLevelBedrooms": 3,
-        "otherDuesOrFeesYN": "no",
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "highSchoolDistrict": [
-          "Seattle"
-        ],
-        "yearBuiltEffective": 1924,
-        "firstRightOfRefusal": "no",
-        "powerProductionType": [
-          "Electric",
-          "Natural Gas"
-        ],
-        "waterHeaterLocation": "Lower",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Madison Mid"
-        ],
-        "numberOfAccessStairs": "4",
-        "unitsInBuildingTotal": "1",
-        "bathsThreeQuarterMain": "0",
-        "associationFeeIncludes": [
-          "See Remarks"
-        ],
-        "bathsThreeQuarterLower": "1",
-        "bathsThreeQuarterUpper": "0",
-        "garbageServiceProvider": "Seattle Public Utilities",
-        "mlsSquareFootageSource": "MLS",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "1798",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "numberOfUnitsInCommunity": 2,
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "no"
-      },
-      "bedrooms": 4,
-      "cityID": 41973,
-      "cityName": "Seattle",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2026-09-29T22:19:16+00:00",
-      "dateModified": "2026-09-30T20:39:14+00:00",
-      "detailsURL": "b045/2588925",
-      "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2588925/3515-SW-Austin-Street-Seattle-98126",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "active",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7f21/12f7eef1e0b8d2bb0eddf3d34280a169/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5a33/33a5c768c9ddcce924a0e653c99ad3f0/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c7ea/ae7ca9de7100d2680d53b64853f78766/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/492b/b29425ceea5dc03dd46b2589bf409863/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bdf5/5fdbef34d3b9b66e8d953798d9919ee8/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/80be/eb0804c479e344b93c54c4140974c238/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8a98/89a89c08147d19b061982ffead6c9d3c/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3548/8453f85590fb4af5ea93eed288af9389/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ef0a/a0feda43b11f51a3ce13f74a5a8ac0e7/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/44c4/4c444841a104bf50ea61febf67cb3189/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/853d/d3581af40e6428a80304272e9631b58a/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7814/41876f2dd930903816593d1edf13de21/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5b85/58b5b091bfc8493226d36ee101942f99/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/edf5/5fde37b4cfd1349f8b997aa43311bd03/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f5c6/6c5fa0a6b2e9d6e0425bd372311631a7/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d38e/e83d7ceface57d4d2859aae916cfe470/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9912/2199af8eed01bcd064971867b3d07908/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6d01/10d68aebac144d249338c2f2f097d52c/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0c50/05c0718d1f5a8e031397c4ccfee93f55/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/da06/60ad2d87d510e51679a03febb3e7bd5d/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c561/165cd590d4fd056ff7cb3a423827d481/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c501/105cf2da7d11ae71b39abb1e9ed9a8b4/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f349/943f226504f884d94fa35db216bcb1d6/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f28d/d82f8183f79820bdd53b87b4ae312b72/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8c7c/c7c8e1d488917d0efa80d13eab57d4d8/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "25": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/53b8/8b35c8f45451cc9adf5f5ed85c6ace11/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "26": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1833/33817b9a3b2d67dc96ed7418ca9d52d9/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 27
-      },
-      "latitude": 47.534616,
-      "listingAgentID": "1186410",
-      "listingID": "2588925",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$709,999",
-      "longitude": -122.377471,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "163269727",
-            "text": "",
-            "starts": "2026-10-03T12:00:00+00:00",
-            "expires": "2026-10-03T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-09-30T20:55:24+00:00",
-            "freeFormDate": "October 3rd, 2026",
-            "freeFormTime": "12:00 pm to 3:00 pm",
-            "listingID": "2588925",
-            "startTime": 1791028800
-          },
-          {
-            "id": "163269728",
-            "text": "",
-            "starts": "2026-10-04T12:00:00+00:00",
-            "expires": "2026-10-04T14:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-09-30T20:55:24+00:00",
-            "freeFormDate": "October 4th, 2026",
-            "freeFormTime": "12:00 pm to 2:00 pm",
-            "listingID": "2588925",
-            "startTime": 1791115200
-          }
-        ]
-      },
-      "mlsPhotoCount": 27,
-      "mlsPtID": 1,
-      "ohCount": 2,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 709999,
-      "priceData": {
-        "value": {
-          "raw": 709999,
-          "formatted": "$709,999"
-        },
-        "type": "active",
-        "label": "Price",
-        "field": "listingPrice"
-      },
-      "propStatus": "Active",
-      "propSubType": "Condominium",
-      "propType": "Residential",
-      "remarksConcat": "Charming, turn-key Gatewood home with rental-ready lower suite.  A covered front porch and brand-new front lawn welcome you into this beautifully maintained home offering 1924 craftsman warmth and unmatched West Seattle value. The main floor features 3 bedrooms, a full bath, an inviting living room with striking mid-century brick focal point fireplace, dining area and full kitchen. Downstairs, a recently renovated, fully finished lower suite offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage—ideal for rental income, multigenerational living, or flexible everyday use. Outside, enjoy a private lower patio to relax or secure bike/gear storage. Fresh landscaping, new fencing and low-maintenance hardscaping are just a few of the benefits of this single-family home. Just minutes to West Seattle, restaurants and freeways.",
-      "rntLse": "neither",
-      "rntLsePrice": 709999,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetDirection": "SW",
-      "streetName": "Austin Street",
-      "streetNumber": "3515",
-      "subdivision": "Gatewood",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "viewCount": 5,
+      "viewCount": 2,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
@@ -4690,6 +4131,8 @@
       "bedrooms": 2,
       "cityID": 41973,
       "cityName": "Seattle",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-23T23:47:42+00:00",
@@ -4853,7 +4296,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 3,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98126",
@@ -5026,6 +4469,8 @@
       "bedrooms": 3,
       "cityID": 15142,
       "cityName": "Everett",
+      "coListingAgentID": "1186410",
+      "coListingOfficeID": "91866779",
       "countyID": 1247,
       "countyName": "Snohomish",
       "dateAdded": "2026-09-16T23:19:54+00:00",
@@ -5262,730 +4707,10 @@
       "subdivision": "View Ridge",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 7,
+      "viewCount": 15,
       "vtCount": 1,
       "yearBuilt": 1950,
       "zipcode": "98203",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": null,
-        "agentPhone": null
-      }
-    },
-    {
-      "acres": "0.001",
-      "address": "141 Parfitt Way SW A-15",
-      "advanced": {
-        "coOp": "no",
-        "roof": [
-          "See Remarks"
-        ],
-        "view": [
-          "Bay",
-          "City",
-          "Mountains",
-          "Sound"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "None"
-        ],
-        "taxYear": 2026,
-        "aduCount": "0",
-        "saleType": "MLS",
-        "viewFrom": "See Remarks",
-        "bathrooms": "0",
-        "styleCode": "45 - Moorage",
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "petsAllowed": [
-          "Subject to Restrictions"
-        ],
-        "buildingName": "Winslow Wharf Marina",
-        "dwellingType": "Attached",
-        "listingTerms": [
-          "Cash"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "170 - Bainbridge Island",
-        "onMarketDate": "2026-09-23T00:00:00+00:00",
-        "parkingTotal": 0,
-        "sewerCompany": "HOA",
-        "storiesTotal": 0,
-        "titleCompany": "AGLTG",
-        "waterCompany": "HOA",
-        "waterfrontYN": "yes",
-        "bathsFullMain": "0",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "0",
-        "structureType": [
-          "Dock"
-        ],
-        "associationFee": 209,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Active",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 0,
-        "parkingFeatures": [
-          "Off Street"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 1827.6,
-        "exteriorFeatures": [
-          "See Remarks"
-        ],
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 0,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "communityFeatures": [
-          "Dock",
-          "Gated",
-          "High Speed Int Avail",
-          "Laundry Room",
-          "Moorage"
-        ],
-        "floorNumberOfUnit": "0",
-        "lotSizeSquareFeet": 44,
-        "mainLevelBedrooms": 0,
-        "otherDuesOrFeesYN": "yes",
-        "highSchoolDistrict": [
-          "Bainbridge Island"
-        ],
-        "waterfrontFeatures": [
-          "Low Bank",
-          "No Bank",
-          "Ocean Front",
-          "Saltwater",
-          "Sound"
-        ],
-        "powerProductionType": [
-          "Electric"
-        ],
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "numberOfAccessStairs": "0",
-        "unitsInBuildingTotal": "0",
-        "bathsThreeQuarterMain": "0",
-        "associationFeeIncludes": [
-          "Common Area Maintenance",
-          "Sewer",
-          "Trash",
-          "Water"
-        ],
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "commonPropertyFeatures": [
-          "Dock",
-          "Gated Entry",
-          "High Speed Int Avail",
-          "Laundry Room",
-          "Moorage",
-          "Security Gate"
-        ],
-        "garbageServiceProvider": "HOA",
-        "mlsSquareFootageSource": "NA",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "0",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "numberOfUnitsInCommunity": 0,
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "no"
-      },
-      "bedrooms": 0,
-      "cityID": 2331,
-      "cityName": "Bainbridge Island",
-      "countyID": 1064,
-      "countyName": "Kitsap",
-      "dateAdded": "2026-09-23T18:42:13+00:00",
-      "dateModified": "2026-09-24T12:02:37+00:00",
-      "detailsURL": "b045/2586071",
-      "detailsUrlSlug": "141-Parfitt-Way-SW-A-15-Bainbridge-Island-98110",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 0,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2586071/141-Parfitt-Way-SW-A-15-Bainbridge-Island-98110",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "active",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f610/016f6ed99ddd8983d40bbe2a94217eb7/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/82a9/9a28f62bcc0c56d0f7d64829d44fd9ac/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ed2e/e2dec4a0337becb1188c9f2d80b24f0e/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8cc4/4cc84b6f48935d4783ec137145513cd0/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2cfc/cfc2f6251654b1da56cb770912f09cf0/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/480c/c084f41937b6a343bc6e0767c5eb194f/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e358/853e6241a31bb5132c657da48d383571/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/483e/e38481f748879a74dfb8fbaf6ca7a484/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1aae/eaa118ff1335ec9e609ce221b4bd8828/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a6f7/7f6a4564fe31b8f2c1ab227dd8c15e3d/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c6ed/de6c0d1f52a7eeb284f176dc4da88300/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ccc7/7ccceff7d0a95b571aa464cca27168bc/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/67ba/ab76b032e65112a09f0ef8a85b84c869/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3f00/00f3789972b07ee53384b7e4920e652f/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5f82/28f540a227d2b61833bbb03f8eb3fb73/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0370/0730571515e4ea9e94009d0a3cb7b6c8/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8125/521865e26ed4ab7fc654d4a669901b54/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0c1e/e1c040a96e66e6fb4a674aa4291dcda9/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cf86/68fcf9d0979ed18a0f31d463664c3cef/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f1fe/ef1f19086d86ad4426d76ba47d9d377d/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d3b3/3b3dd0a7dd0fd38859de0814eae8c5e4/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8324/4238b46a93bc37a80d0cac65908eec25/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/80c5/5c0851bc253b27b72b84e89014202a3b/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b08b/b80b558c10f3ec23da49c66e9347b060/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e44e/e44e60ff347a1be8cb2583411f2fbfe3/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 25
-      },
-      "latitude": 47.621938,
-      "listingAgentID": "151078377",
-      "listingID": "2586071",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$235,000",
-      "longitude": -122.521583,
-      "mediaData": [],
-      "mlsPhotoCount": 25,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 235000,
-      "priceData": {
-        "value": {
-          "raw": 235000,
-          "formatted": "$235,000"
-        },
-        "type": "active",
-        "label": "Price",
-        "field": "listingPrice"
-      },
-      "propStatus": "Active",
-      "propSubType": "Boat Slip",
-      "propType": "Residential",
-      "remarksConcat": "Don't miss your chance to own Slip A-15 at Winslow Wharf Marina, one of Puget Sound's most coveted moorages. This 42' x 14.6' outside slip includes a 4-foot overhang allowance to accommodate vessels up to 46' LOA. Just steps from all that downtown Winslow has to offer, the location is truly unbeatable. Currently rented month-to-month, it's a turnkey investment generating immediate income while you hold a premium piece of Pacific Northwest waterfront. This slip comes with full marina amenities including bathrooms with showers, laundry, WiFi, 30 & 50 amp hookups, on-site management, and an on-site Chandlery. Opportunities like this at Winslow Wharf are rare, don't miss out!",
-      "rntLse": "neither",
-      "rntLsePrice": 235000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Parfitt Way SW",
-      "streetNumber": "141",
-      "subdivision": "Winslow",
-      "threeQuarterBaths": 0,
-      "totalBaths": 0,
-      "unitNumber": "A-15",
-      "viewCount": 6,
-      "vtCount": 0,
-      "yearBuilt": 2015,
-      "zipcode": "98110",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": null,
-        "agentPhone": null
-      }
-    },
-    {
-      "acres": "0",
-      "address": "1707 Boylston Avenue 206",
-      "advanced": {
-        "coOp": "no",
-        "roof": [
-          "Flat"
-        ],
-        "view": [
-          "City"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Wall Furnace"
-        ],
-        "taxYear": 2025,
-        "flooring": [
-          "Bamboo/Cork"
-        ],
-        "saleType": "MLS",
-        "viewFrom": "Unit",
-        "bathrooms": "1",
-        "storageNo": "206",
-        "styleCode": "30 - Condo (1 Level)",
-        "appliances": [
-          "Microwave"
-        ],
-        "inclusions": [
-          "Microwave(s)"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Paved",
-          "Sidewalk"
-        ],
-        "petsAllowed": [
-          "Cats OK",
-          "Dogs OK",
-          "Subject to Restrictions"
-        ],
-        "buildingName": "Seventeen 07 Condo",
-        "dwellingType": "Attached",
-        "listingTerms": [
-          "Cash",
-          "Conventional"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "390 - Central Seattle",
-        "onMarketDate": "2026-09-16T00:00:00+00:00",
-        "parkingTotal": 0,
-        "powerCompany": "PSE",
-        "sewerCompany": "HOA",
-        "storiesTotal": 3,
-        "titleCompany": "Rainier Title",
-        "unitFeatures": [
-          "Insulated Windows"
-        ],
-        "waterCompany": "HOA",
-        "waterfrontYN": "no",
-        "bathsFullMain": "1",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "0",
-        "busLineNearby": "yes",
-        "entryLocation": "Main",
-        "structureType": [
-          "Condominium"
-        ],
-        "associationFee": 468,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Active",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 0,
-        "laundryFeatures": [
-          "Electric Dryer Hookup",
-          "Washer Hookup"
-        ],
-        "numberOfShowers": "1",
-        "parkingFeatures": [
-          "Off Street"
-        ],
-        "seniorExemption": "no",
-        "storageLocation": "Basement",
-        "taxAnnualAmount": 2077.09,
-        "applianceHookups": [
-          "Cooking-Electric",
-          "Dryer-Electric",
-          "Washer"
-        ],
-        "exteriorFeatures": [
-          "Brick",
-          "Cement Planked",
-          "Wood Products"
-        ],
-        "interiorFeatures": [
-          "Cooking-Electric",
-          "Dryer-Electric",
-          "Insulated Windows",
-          "Washer"
-        ],
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 395,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "communityFeatures": [
-          "Elevator",
-          "Exercise Room",
-          "Gated",
-          "High Speed Int Avail",
-          "Laundry Room",
-          "Lobby Entrance"
-        ],
-        "floorNumberOfUnit": "2",
-        "lotSizeSquareFeet": 0,
-        "mainLevelBedrooms": 0,
-        "otherDuesOrFeesYN": "yes",
-        "appliancesIncluded": [
-          "Microwave(s)"
-        ],
-        "highSchoolDistrict": [
-          "Seattle"
-        ],
-        "yearBuiltEffective": 1995,
-        "powerProductionType": [
-          "Electric"
-        ],
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "greenEnergyEfficient": [
-          "Insulated Windows"
-        ],
-        "numberOfAccessStairs": "1",
-        "unitsInBuildingTotal": "36",
-        "bathsThreeQuarterMain": "0",
-        "associationFeeIncludes": [
-          "Earthquake Insurance",
-          "Sewer",
-          "Trash",
-          "Water"
-        ],
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "commonPropertyFeatures": [
-          "Elevator",
-          "Exercise Room",
-          "Gated Entry",
-          "High Speed Int Avail",
-          "Laundry Room",
-          "Lobby Entrance",
-          "Security Gate"
-        ],
-        "garbageServiceProvider": "HOA",
-        "mlsSquareFootageSource": "Realist",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "395",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "numberOfUnitsInCommunity": 36,
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "yes"
-      },
-      "bedrooms": 0,
-      "cityID": 41973,
-      "cityName": "Seattle",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2026-09-16T22:19:01+00:00",
-      "dateModified": "2026-09-30T16:42:25+00:00",
-      "detailsURL": "b045/2583376",
-      "detailsUrlSlug": "1707-Boylston-Avenue-206-Seattle-98122",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2583376/1707-Boylston-Avenue-206-Seattle-98122",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "active",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8301/1038c42de5ba4e2af00c5c7e84a85f8e/b045",
-          "sizes": [],
-          "caption": "Building entrance"
-        },
-        "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/aaf4/4faa392ce2656761c3a90ea6b84767ac/b045",
-          "sizes": [],
-          "caption": "Kitchen"
-        },
-        "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/acaa/aacafc7b62e89c66cff586d65c039bf0/b045",
-          "sizes": [],
-          "caption": "Kitchen space"
-        },
-        "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c4b2/2b4c2fd151998127e17cc73a8bf6ce3f/b045",
-          "sizes": [],
-          "caption": "Living space"
-        },
-        "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/13f9/9f313e9db3b29108254b073464362089/b045",
-          "sizes": [],
-          "caption": "Cozy couch next to the bright window"
-        },
-        "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7c26/62c7b80c81a6e23e3fed9d3f3034f65c/b045",
-          "sizes": [],
-          "caption": "Bed"
-        },
-        "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e02c/c20edc209b7c0b77828118d0d8e2857a/b045",
-          "sizes": [],
-          "caption": "Full bathroom"
-        },
-        "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5b87/78b52940c13c6b7fa3f3bbb79f0901f1/b045",
-          "sizes": [],
-          "caption": "In-unit washer and dryer"
-        },
-        "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/38ab/ba83ebe5637cde869c4a5c063ce90d2c/b045",
-          "sizes": [],
-          "caption": "TV area"
-        },
-        "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2b86/68b2ac554740957f18865895e84966c2/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/df26/62fd69600c194f5a7956998878b94112/b045",
-          "sizes": [],
-          "caption": "Desk space for working"
-        },
-        "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5818/8185e96f49e5b792151ea3af3e337eea/b045",
-          "sizes": [],
-          "caption": "Community gym space"
-        },
-        "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d3c3/3c3d10aac71a78092877d742514448f8/b045",
-          "sizes": [],
-          "caption": "Gym in building"
-        },
-        "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c6be/eb6c0a1e9d7d6a7a4ae37c8cf6db7f90/b045",
-          "sizes": [],
-          "caption": "Lounge area"
-        },
-        "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e784/487e228206d2aeb908eea9188052339a/b045",
-          "sizes": [],
-          "caption": "Building lounge area"
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7f31/13f7f3f6e156efa1775c109032fa2b9a/b045",
-          "sizes": [],
-          "caption": "Workout equipment"
-        },
-        "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/eb54/45be8f512a3b4228f4697454540dc351/b045",
-          "sizes": [],
-          "caption": "Designated storage unit"
-        },
-        "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/efea/aefec0278d40fc19fe52de870a2b1fef/b045",
-          "sizes": [],
-          "caption": "Yoga/dance studio"
-        },
-        "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1a73/37a1da6b076a07a44a4621c8998370e7/b045",
-          "sizes": [],
-          "caption": "Dog wash station"
-        },
-        "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f7b5/5b7fbbadbdf66481c10af48e76dc916e/b045",
-          "sizes": [],
-          "caption": "Hallway when you enter the building"
-        },
-        "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e32c/c23e9ac69d4f0a8a0333f63700331b0f/b045",
-          "sizes": [],
-          "caption": "Sauna"
-        },
-        "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4387/7834161d930a93fbb264212add6e167f/b045",
-          "sizes": [],
-          "caption": "Building exterior"
-        },
-        "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/33a8/8a33fef54254cd607d8539be7145ff3a/b045",
-          "sizes": [],
-          "caption": "Building exterior"
-        },
-        "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6c28/82c6eef376482e249040b5c1c300a826/b045",
-          "sizes": [],
-          "caption": "Building exterior"
-        },
-        "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e968/869ed34bbc3e158234965498bcdf975c/b045",
-          "sizes": [],
-          "caption": "Building exterior"
-        },
-        "totalCount": 25
-      },
-      "latitude": 47.616638,
-      "listingAgentID": "151078377",
-      "listingID": "2583376",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$227,999",
-      "longitude": -122.323761,
-      "mediaData": [],
-      "mlsPhotoCount": 25,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 227999,
-      "priceData": {
-        "value": {
-          "raw": 227999,
-          "formatted": "$227,999"
-        },
-        "type": "active",
-        "label": "Price",
-        "field": "listingPrice"
-      },
-      "propStatus": "Active",
-      "propSubType": "Condominium",
-      "propType": "Residential",
-      "remarksConcat": "Quintessential Capitol Hill living starts here at Seventeen07. This chic condo sits right in the heart of Seattle's most electric neighborhood, where incredible restaurants, night-life, and shops are just steps away. The smart and intentional layout is designed to make every inch count, plus, the home comes complete with an in-unit washer/dryer for every day convenience. Cool off with A/C in the summer, and explore extensive building amenities: gym, yoga room, sauna, lounge, designated storage unit, and a dog wash station. All just one block from Seattle Central, 10 min to light rail, and 20 min to SLU and Downtown. This is city life, perfected.",
-      "rntLse": "neither",
-      "rntLsePrice": 227999,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "Boylston Avenue",
-      "streetNumber": "1707",
-      "subdivision": "Capitol Hill",
-      "threeQuarterBaths": 0,
-      "totalBaths": 1,
-      "unitNumber": "206",
-      "viewCount": 22,
-      "vtCount": 0,
-      "yearBuilt": 1965,
-      "zip4": "2203",
-      "zipcode": "98122",
       "attribution": {
         "firm": "Compass",
         "agentName": null,

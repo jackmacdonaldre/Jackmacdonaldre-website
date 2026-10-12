@@ -369,20 +369,26 @@
       "topic": "Northshore School District Guide for Home Buyers in Bothell and Woodinville",
       "city": "Bothell",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville",
+      "published_date": "2026-10-05"
     },
     {
       "topic": "What Woodinville Living Is Really Like",
       "city": "Woodinville",
       "neighborhood": null,
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "what-woodinville-living-is-really-like",
+      "published_date": "2026-10-07"
     },
     {
       "topic": "Choice Schools and Tech Schools in Lake Washington School District: How Admission Works",
       "city": "Redmond",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "choice-schools-and-tech-schools-in-lake-washington-school-district-how-admission-works",
+      "published_date": "2026-10-09"
     },
     {
       "topic": "When Is the Best Time to Sell a House on the Eastside?",

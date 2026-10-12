@@ -67,6 +67,10 @@ const EXISTING = {
   "somerset-bellevue-homes-for-sale-neighborhood-guide": { topic: "neighborhood-guides", areas: ["bellevue"] },
   "living-in-bridle-trails-a-neighborhood-guide": { topic: "neighborhood-guides", areas: ["bellevue"] },
   "welcome-to-the-blog": { topic: "neighborhood-guides", areas: ["eastside"] },
+  // Published Oct 5 to 9 on main while the upgrade branch was open.
+  "northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville": { topic: "schools-and-family", areas: ["eastside"] },
+  "what-woodinville-living-is-really-like": { topic: "neighborhood-guides", areas: ["eastside"] },
+  "choice-schools-and-tech-schools-in-lake-washington-school-district-how-admission-works": { topic: "schools-and-family", areas: ["redmond", "kirkland", "sammamish"] },
 };
 
 // Queue "type" -> topic, for new posts.

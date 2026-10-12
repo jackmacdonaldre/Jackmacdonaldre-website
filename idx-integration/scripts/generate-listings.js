@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { attributionFor } = require('./attribution');
+const { attributionFor, isTeamListing } = require('./attribution');
 
 const IDX_ACCESS_KEY = process.env.IDX_ACCESS_KEY;
 const OUT_FILE = path.join(__dirname, '..', 'data', 'active-listings.json');
@@ -56,7 +56,8 @@ async function fetchFeatured() {
 
   listings = listings.filter((l) =>
     (l.propSubType || '').toString().toLowerCase().indexOf('manufactured') === -1 &&
-    EXCLUDED_LISTING_IDS.indexOf(String(l.listingID)) === -1
+    EXCLUDED_LISTING_IDS.indexOf(String(l.listingID)) === -1 &&
+    isTeamListing(l)
   );
   listings.forEach((l) => { l.attribution = attributionFor(l); });
   listings.sort((a, b) => (Number(b.listingPrice) || 0) - (Number(a.listingPrice) || 0));

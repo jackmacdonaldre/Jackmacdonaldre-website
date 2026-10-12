@@ -5,8 +5,8 @@
 //      (/market-reports/{area}/) in Jack's voice,
 //   2. FACT CHECK: every number in that copy must match the Redfin data exactly,
 //      otherwise the AI copy is thrown out and the number safe template is used,
-//   3. publishes one short "{Area} Market Update: {Month Year}" post per area
-//      (once per calendar month) that links to the evergreen page,
+//   3. publishes ONE combined "Eastside Market Update: {Month Year}" post per
+//      calendar month covering all six areas, linking to each evergreen page,
 //   4. records what happened for the "New post published" email.
 // If Redfin hasn't released anything new, nothing changes and no email is sent.
 
@@ -99,40 +99,39 @@ async function commentaryFor(s) {
   return { ...t, numbersChecked: (`${t.summary} ${t.selling} ${t.buying}`.match(/\d[\d,]*(\.\d+)?/g) || []).length };
 }
 
-function buildMonthlyPost(area, s, commentary, monthLabel, today) {
-  const slug = `${area.slug}-market-update-${monthLabel.toLowerCase().replace(/\s+/g, "-")}`;
-  const w = M.windowLabel(s.cur);
-  const items = [];
-  if (s.cur.medianSalePrice != null) items.push(`<li>Median single family sale price: ${M.fmt.money(s.cur.medianSalePrice)}${s.yearAgo && s.yearAgo.medianSalePrice != null ? ` (same months last year: ${M.fmt.money(s.yearAgo.medianSalePrice)})` : ""}</li>`);
-  if (s.cur.homesSold != null) items.push(`<li>Homes sold: ${M.fmt.int(s.cur.homesSold)}${s.yearAgo && s.yearAgo.homesSold != null ? ` (last year: ${M.fmt.int(s.yearAgo.homesSold)})` : ""}</li>`);
-  if (s.cur.medianDom != null) items.push(`<li>Median days on market: ${M.fmt.int(s.cur.medianDom)}</li>`);
-  if (s.cur.saleToList != null) items.push(`<li>Average sale to list price: ${M.fmt.pct1(s.cur.saleToList)}</li>`);
-  if (s.cur.monthsOfSupply != null) items.push(`<li>Months of supply: ${M.fmt.months(s.cur.monthsOfSupply)}</li>`);
-  const reportUrl = `/market-reports/${area.slug}/`;
+// One combined post for all report areas, once per calendar month.
+function buildCombinedPost(entries, monthLabel, today) {
+  const slug = `eastside-market-update-${monthLabel.toLowerCase().replace(/\s+/g, "-")}`;
+  const w = M.windowLabel(entries[0].s.cur);
+  const sections = entries.map(({ area, s, commentary }) => {
+    const items = [];
+    if (s.cur.medianSalePrice != null) items.push(`<li>Median sale price: ${M.fmt.money(s.cur.medianSalePrice)}${s.yearAgo && s.yearAgo.medianSalePrice != null ? ` (same months last year: ${M.fmt.money(s.yearAgo.medianSalePrice)})` : ""}</li>`);
+    if (s.cur.homesSold != null) items.push(`<li>Homes sold: ${M.fmt.int(s.cur.homesSold)}${s.yearAgo && s.yearAgo.homesSold != null ? ` (last year: ${M.fmt.int(s.yearAgo.homesSold)})` : ""}</li>`);
+    if (s.cur.medianDom != null) items.push(`<li>Median days on market: ${M.fmt.int(s.cur.medianDom)}</li>`);
+    if (s.cur.saleToList != null) items.push(`<li>Average sale to list price: ${M.fmt.pct1(s.cur.saleToList)}</li>`);
+    if (s.cur.monthsOfSupply != null) items.push(`<li>Months of supply: ${M.fmt.months(s.cur.monthsOfSupply)}</li>`);
+    return `<h2>${area.name}</h2>\n<p>${commentary.summary}</p>\n<ul>\n${items.join("\n")}\n</ul>\n` +
+      `<p><a href="/market-reports/${area.slug}/">Full ${area.name} market report</a>, with the trend chart and what it means if you're buying or selling.</p>`;
+  });
+  const names = entries.map((e) => e.area.name);
   const bodyHtml =
-    `<p>${commentary.summary}</p>\n` +
-    `<h2>The numbers for ${w}</h2>\n<ul>\n${items.join("\n")}\n</ul>\n` +
-    `<p>These cover single family homes sold over a rolling 3 month window, from the Redfin Data Center.</p>\n` +
-    `<h2>If you're selling</h2>\n<p>${commentary.selling}</p>\n` +
-    `<h2>If you're buying</h2>\n<p>${commentary.buying}</p>\n` +
-    `<p>The full ${area.name} report, with the trend chart and the comparison to last month and last year, is here: <a href="${reportUrl}">${area.name} Home Values and Market Report</a>. It updates every month.</p>`;
+    `<p>Here's where the ${names.slice(0, -1).join(", ")} and ${names[names.length - 1]} housing markets stand for ${w}. Every number below is for single family homes over a rolling 3 month window, from the Redfin Data Center.</p>\n` +
+    sections.join("\n");
   const faq = [];
-  if (s.cur.medianSalePrice != null) faq.push({ q: `What is the median home price in ${area.name} right now?`, a: `For single family homes sold ${w}, the median sale price in ${area.name} was ${M.fmt.money(s.cur.medianSalePrice)}, according to Redfin Data Center figures.` });
-  if (s.cur.monthsOfSupply != null) {
-    const t = M.marketType(s);
-    const label = t === "tight" || t === "moderate" ? "a market that still leans toward sellers" : t === "balanced" ? "a fairly balanced market" : "a market that favors buyers";
-    faq.push({ q: `Is ${area.name} a buyer's or seller's market?`, a: `With ${M.fmt.months(s.cur.monthsOfSupply)} months of supply for ${w}, ${area.name} is ${label}. Pricing and condition still decide how any one home does.` });
-  }
+  const priced = entries.filter((e) => e.s.cur.medianSalePrice != null);
+  if (priced.length) faq.push({ q: `What are median home prices on the Eastside right now?`, a: `For single family homes sold ${w}, according to Redfin Data Center figures: ${priced.map((e) => `${e.area.name} ${M.fmt.money(e.s.cur.medianSalePrice)}`).join("; ")}.` });
+  const supply = entries.filter((e) => e.s.cur.monthsOfSupply != null);
+  if (supply.length) faq.push({ q: `Is the Eastside a buyer's or seller's market?`, a: `It depends on the city. Months of supply for ${w}: ${supply.map((e) => `${e.area.name} ${M.fmt.months(e.s.cur.monthsOfSupply)}`).join("; ")}. Under about 4 months still leans toward sellers, but pricing and condition decide how any one home does.` });
   return {
-    id: `post-${Date.now()}-${area.slug}`,
+    id: `post-${Date.now()}-eastside-market`,
     slug,
-    title: `${area.name} Market Update: ${monthLabel}`,
-    metaDescription: cleanText(`${area.name} housing market for ${w}: median single family sale price, homes sold, days on market and what it means for buyers and sellers, from Jack Macdonald.`),
-    city: area.name,
+    title: `Eastside Market Update: ${monthLabel}`,
+    metaDescription: cleanText(`Eastside housing market for ${w}: median sale price, homes sold and days on market in ${names.join(", ")}, with links to each city's full report.`),
+    city: "Eastside",
     topic: "market-reports",
-    areas: [area.slug],
+    areas: ["eastside", ...entries.map((e) => e.area.slug)],
     publishedDate: today,
-    bodyHtml: bodyHtml + `\n<!-- FACT CHECK ${today}: every number checked against Redfin Data Center data for ${w} (${commentary.method === "ai" ? "AI copy passed the number check" : "number safe template"}). -->`,
+    bodyHtml: bodyHtml + `\n<!-- FACT CHECK ${today}: every number checked against Redfin Data Center data for ${w}. -->`,
     faq,
   };
 }
@@ -156,6 +155,7 @@ async function main() {
   let posts = loadPosts();
   const newPosts = [];
   const checks = [];
+  const entries = [];
   for (const { area, s } of stats) {
     const commentary = await commentaryFor(s);
     checks.push(`${area.name}: ${commentary.numbersChecked} numbers verified (${commentary.method === "ai" ? "AI copy" : "template copy"})`);
@@ -167,12 +167,13 @@ async function main() {
       window: M.windowLabel(s.cur),
       commentary: { summary: commentary.summary, selling: commentary.selling, buying: commentary.buying, method: commentary.method },
     };
-    // One short post per area per calendar month.
-    const post = buildMonthlyPost(area, s, commentary, monthLabel, today);
-    if (!posts.some((p) => p.slug === post.slug)) {
-      posts = [post, ...posts];
-      newPosts.push(post);
-    }
+    entries.push({ area, s, commentary });
+  }
+  // One combined Eastside post per calendar month.
+  const post = buildCombinedPost(entries, monthLabel, today);
+  if (!posts.some((p) => p.slug === post.slug)) {
+    posts = [post, ...posts];
+    newPosts.push(post);
   }
   state.dataEnd = dataEnd;
   state.redfinLastUpdated = data.redfinLastUpdated;
@@ -186,7 +187,7 @@ async function main() {
   newPosts.forEach((p) => console.log(` + ${p.title}: ${SITE_URL}/blog/${p.slug}/`));
 
   setEnv("NOTIFY_KIND", "market-reports");
-  setEnv("NEW_POST_TITLE", newPosts.length ? `${newPosts.length} market updates for ${monthLabel}` : `Market reports refreshed (${monthLabel})`);
+  setEnv("NEW_POST_TITLE", newPosts.length ? newPosts[0].title : `Market reports refreshed (${monthLabel})`);
   setEnv("NEW_POST_URL", `${SITE_URL}/market-reports/`);
   setEnv("NEW_POSTS_LIST", newPosts.map((p) => `${p.title}|${SITE_URL}/blog/${p.slug}/`).join(";;"));
   setEnv("FACT_CHECK_SUMMARY", `Fact checked against Redfin Data Center data for the window ending ${dataEnd}: ${checks.join("; ")}.`);

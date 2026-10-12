@@ -17,4 +17,9 @@ function attributionText(a) {
   return `Listing courtesy of ${who}${a.agentPhone ? ` (${a.agentPhone})` : ''}`;
 }
 
-module.exports = { attributionFor, attributionText };
+// Featured listings are limited to the team's own agent IDs (see listing-attribution.json).
+function isTeamListing(listing) {
+  return (CONFIG.featuredAgentIds || []).indexOf(String(listing.listingAgentID)) !== -1;
+}
+
+module.exports = { attributionFor, attributionText, isTeamListing };
