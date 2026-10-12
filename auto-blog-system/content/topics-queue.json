@@ -248,10 +248,12 @@
       "city": "Issaquah",
       "neighborhood": "Issaquah Highlands",
       "type": "neighborhood_guide",
-      "status": "queued",
+      "status": "published",
       "areas": [
         "issaquah"
-      ]
+      ],
+      "published_slug": "issaquah-highlands-homes-for-sale-neighborhood-guide",
+      "published_date": "2026-10-12"
     },
     {
       "topic": "Why Eastside Homes Don't Sell (and What to Change Before Relisting)",
