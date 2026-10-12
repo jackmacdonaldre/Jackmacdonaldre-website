@@ -1,48 +1,32 @@
-const IDX_ACCESS_KEY = process.env.IDX_ACCESS_KEY;
+// One-off lookup (temporary branch): who are the listing agent IDs in the featured feed?
+// Prints, for each agent ID, the "courtesy of" / agent lines from one IDX Broker detail page,
+// plus the agents list on the IDX Broker account.
+const KEY = process.env.IDX_ACCESS_KEY;
+const H = { "Content-Type": "application/x-www-form-urlencoded", accesskey: KEY, outputtype: "json" };
+(async () => {
+  const agents = await fetch("https://api.idxbroker.com/clients/agents", { headers: H });
+  console.log("clients/agents status", agents.status);
+  try {
+    const a = await agents.json();
+    const list = a && a.agent ? a.agent : Object.values(a || {});
+    (Array.isArray(list) ? list : []).forEach((x) => console.log("ACCOUNT AGENT", JSON.stringify({ agentID: x.agentID, listingAgentID: x.listingAgentID, name: [x.agentFirstName, x.agentLastName].join(" "), phone: x.agentContactPhone1 || x.agentPhone1, email: x.agentEmail })));
+  } catch (e) { console.log("agents parse error", e.message); }
 
-if (!IDX_ACCESS_KEY) {
-  console.error("Missing IDX_ACCESS_KEY environment variable.");
-    process.exit(1);
-    }
-
-    (async () => {
-    const response = await fetch("https://api.idxbroker.com/clients/featured", {
-    method: "GET",
-    headers: {
-    "Content-Type": "application/x-www-form-urlencoded",
-    "accesskey": IDX_ACCESS_KEY,
-    "outputtype": "json",
-    },
-    });
-
-    console.log("Status code:", response.status);
-
-    const text = await response.text();
-
-    let data;
+  const res = await fetch("https://api.idxbroker.com/clients/featured", { headers: H });
+  const raw = await res.json();
+  const listings = raw && raw.data ? Object.values(raw.data) : Array.isArray(raw) ? raw : Object.values(raw || {});
+  const seen = {};
+  for (const l of listings) {
+    const id = String(l.listingAgentID);
+    if (seen[id]) continue;
+    seen[id] = true;
+    console.log(`\n=== agent ${id} office ${l.listingOfficeID} | ${l.address}, ${l.cityName} | ${l.fullDetailsURL}`);
     try {
-    data = JSON.parse(text);
-    } catch (err) {
-    console.log("Response was not valid JSON. Raw response below:");
-    console.log(text);
-    process.exit(0);
-    }
-
-    if (data && data.data && typeof data.data === 'object' && !Array.isArray(data.data)) {    data = Object.values(data.data);  }  if (Array.isArray(data)) {    data.sort((a, b) => (Number(b.listingPrice) || 0) - (Number(a.listingPrice) || 0));
-    console.log("Number of listings returned:", data.length);
-    data.forEach((listing, i) => {
-    console.log(
-    "#" + (i + 1),
-    "| listingID:", listing.listingID,
-    "| price:", listing.listingPrice,
-    "| status:", listing.idxStatus,
-    "| address:", listing.address,
-    "| city:", listing.cityName
-    );
-    });
-    } else {
-    console.log("Response was not an array. Full response below:");
-    console.log(JSON.stringify(data, null, 2));
-    }
-    })();
-    
+      const html = await (await fetch(l.fullDetailsURL, { headers: { "User-Agent": "Mozilla/5.0" } })).text();
+      const text = html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, " ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+      const hits = text.match(/.{0,80}(courtesy|Listing Agent|Listed by|Listing Office|Agent Name).{0,120}/gi) || [];
+      [...new Set(hits)].slice(0, 6).forEach((h) => console.log("  ", h.trim()));
+      if (!hits.length) console.log("   (no courtesy text found; page length " + html.length + ")");
+    } catch (e) { console.log("   fetch failed", e.message); }
+  }
+})();
