@@ -20,6 +20,10 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jackmacdonaldre.com/"}]}</script>
 </head>
 <body>
+<!-- Netlify Forms needs the form in static HTML to register it; the visible form is rendered by JS and posts here. -->
+<form name="buyers-guide" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="buyers-guide"><input name="bot-field"><input name="name"><input name="email"><input name="source">
+</form>
 <x-dc>
 <helmet>
 <link rel="stylesheet" href="./_ds/classical-c3b261bd-4ba7-418e-89e4-a4cf1ab64e84/styles.css">
@@ -801,6 +805,9 @@
           <div class="field"><label>Name</label><input class="input" placeholder="Your name" value="{{ guideForm.name }}" onChange="{{ setGuideName }}"></div>
           <div class="field"><label>Email</label><input class="input" placeholder="you@example.com" value="{{ guideForm.email }}" onChange="{{ setGuideEmail }}"></div>
           <button type="submit" class="btn btn-primary btn-block">Send Me the Guide</button>
+          <sc-if value="{{ hasGuideError }}" hint-placeholder-val="{{ false }}">
+            <div role="alert" style="font-size: 13px; color: #a23b2a; text-align: center;">{{ guideError }}</div>
+          </sc-if>
           <div style="font-size: 12px; color: var(--color-neutral-500); text-align: center; margin-top: var(--space-1);">No spam — just the guide.</div>
         </sc-if>
       </form>
@@ -856,6 +863,7 @@ class Component extends DCLogic {
     form: { name: '', email: '', phone: '', message: '' },
     guideForm: { name: '', email: '' },
     guideSubmitted: false,
+    guideError: '',
     listings: [],
     blogPosts: [],
     selectedPostSlug: null,
@@ -1382,14 +1390,22 @@ class Component extends DCLogic {
         e.preventDefault();
         const name = (this.state.guideForm.name || '').trim();
         const email = (this.state.guideForm.email || '').trim();
-        if (!name || !email) return;
-        try {
-          const leads = JSON.parse(localStorage.getItem('mgLeads') || '[]');
-          leads.push({ name, email, date: new Date().toISOString() });
-          localStorage.setItem('mgLeads', JSON.stringify(leads));
-        } catch (err) {}
-        this.setState({ guideSubmitted: true });
+        if (!name || !email) { this.setState({ guideError: 'Please add your name and email.' }); return; }
+        // Send to Netlify Forms (same "buyers-guide" form as /buyers-guide/), so
+        // the lead lands in Netlify and the form notification email goes to Jack.
+        const body = new URLSearchParams({ 'form-name': 'buyers-guide', name, email, source: 'home page' }).toString();
+        this.setState({ guideError: '' });
+        fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body })
+          .then((res) => {
+            if (!res.ok) throw new Error('Form submit failed: ' + res.status);
+            this.setState({ guideSubmitted: true });
+          })
+          .catch(() => {
+            this.setState({ guideError: "Sorry, that didn't go through. Please try again, or call or text Jack at 425.941.6998." });
+          });
       },
+      guideError: this.state.guideError || '',
+      hasGuideError: !!this.state.guideError,
       leads: (() => {
         let raw = [];
         try { raw = JSON.parse(localStorage.getItem('mgLeads') || '[]'); } catch (err) {}
