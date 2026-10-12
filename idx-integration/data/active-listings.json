@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T05:28:17.588Z",
-  "count": 11,
+  "generatedAt": "2026-10-12T22:23:29.983Z",
+  "count": 10,
   "listings": [
     {
       "acres": "1.293",
@@ -280,7 +280,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 195,
+      "viewCount": 199,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -789,7 +789,7 @@
       "subdivision": "Arrowhead",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 39,
+      "viewCount": 44,
       "vtCount": 1,
       "yearBuilt": 1956,
       "zipcode": "98028",
@@ -797,444 +797,6 @@
         "firm": "Compass",
         "agentName": "Stephen Macdonald, Managing Broker",
         "agentPhone": "425.941.7325"
-      }
-    },
-    {
-      "acres": "0.194",
-      "address": "14219 NE 64th Court",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "sewer": [
-          "Sewer Connected"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2026,
-        "aduCount": "0",
-        "basement": [
-          "None"
-        ],
-        "flooring": [
-          "Ceramic Tile",
-          "Vinyl Plank"
-        ],
-        "saleType": "MLS",
-        "bathrooms": "2",
-        "styleCode": "10 - 1 Story",
-        "appliances": [
-          "Dishwasher",
-          "Disposal",
-          "Dryer",
-          "Microwave",
-          "Refrigerator",
-          "Stove(s)/Range(s)",
-          "Washer"
-        ],
-        "gasCompany": "PSE",
-        "highSchool": [
-          "Lake Wash High"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "livingArea": 1530,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Corner Lot",
-          "Cul-De-Sac",
-          "Curbs",
-          "Paved",
-          "Sidewalk"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "listingTerms": [
-          "Cash",
-          "Conventional"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "530 - Bellevue/East of 405",
-        "onMarketDate": "2026-09-16T00:00:00+00:00",
-        "parkingTotal": 5,
-        "powerCompany": "PSE",
-        "sewerCompany": "City of Redmond",
-        "siteFeatures": [
-          "Fenced-Fully",
-          "Patio"
-        ],
-        "titleCompany": "Stewart Title",
-        "waterCompany": "City of Redmond",
-        "waterfrontYN": "no",
-        "bathsFullMain": "2",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "0",
-        "coveredSpaces": 2,
-        "entryLocation": "Main",
-        "structureType": [
-          "House"
-        ],
-        "associationFee": 0,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "fireplacesMain": "1",
-        "standardStatus": "Pending",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 1,
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Driveway",
-          "Attached Garage"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 10906.09,
-        "attachedGarageYN": "yes",
-        "elementarySchool": [
-          "Franklin Elem"
-        ],
-        "exteriorFeatures": [
-          "Brick",
-          "Wood"
-        ],
-        "interiorFeatures": [
-          "Bath Off Primary",
-          "Dining Room",
-          "Fireplace"
-        ],
-        "mlsLotSizeSource": "Realist",
-        "numberOfBathtubs": "2",
-        "sellerDisclosure": "Exempt",
-        "buildingAreaTotal": 1530,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "fireplaceFeatures": [
-          "Wood Burning"
-        ],
-        "foundationDetails": [
-          "Poured Concrete"
-        ],
-        "lotSizeSquareFeet": 8450,
-        "mainLevelBedrooms": 3,
-        "shortTermRentalYN": "no",
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "highSchoolDistrict": [
-          "Lake Washington"
-        ],
-        "buildingInformation": [
-          "Built On Lot"
-        ],
-        "firstRightOfRefusal": "no",
-        "powerProductionType": [
-          "Natural Gas"
-        ],
-        "waterHeaterLocation": "Mudroom",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Rose Hill Middle"
-        ],
-        "bathsThreeQuarterMain": "0",
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "garbageServiceProvider": "Recology",
-        "mlsSquareFootageSource": "Realist",
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "1530",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "no"
-      },
-      "bedrooms": 3,
-      "cityID": 38785,
-      "cityName": "Redmond",
-      "coListingAgentID": "1186410",
-      "coListingOfficeID": "91866779",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2026-09-17T01:23:37+00:00",
-      "dateModified": "2026-09-17T22:56:13+00:00",
-      "detailsURL": "b045/2578232",
-      "detailsUrlSlug": "14219-NE-64th-Court-Redmond-98052",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2578232/14219-NE-64th-Court-Redmond-98052",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "active",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7c8d/d8c782ebbf16ecc2f8bce8099389274e/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8d4d/d4d8fb0425aa10a4ec08448b3eec86f1/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f0f2/2f0fb1d90fdbf2690e1af3afa3af015e/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/622b/b2263133765c4c1b09e14dfc5c8a15c3/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/24ca/ac426f3541ed2bcefa91367e984c7987/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5d2b/b2d58cb6cec6164ad22b03866a64b423/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d028/820d8321d80601946a8eb47c5b06b91a/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cee4/4eec8f197ec592f546bf8c143c28d80a/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8f55/55f8df748ab6886d012cae7752fe58a1/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b682/286b7364a6f974e3553f6dea14e3712d/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/55bd/db557fc76338e934722d545bceda8141/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9f39/93f9da0077a628d823d98e3c95646997/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0b90/09b08fac7118b72619def6af8b47ec74/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b5ad/da5b4f486882fe82a1e0a1559c84a495/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2717/71729f7527ef7dfc0edbe721af897066/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1d7e/e7d1a11603916ed76744b074f6e2d015/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7122/2217f22bedcc125c4c44d3469ddf7a9b/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f6ae/ea6fad952342a5c8343c99db085b3a80/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dfce/ecfd5eaba16ef15d978ca9e4a976b6a3/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/175e/e571f441fb068e06595cf24d6675a8d3/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/059e/e95027e1da801d24a5f94eb9b4abd69c/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8ca2/2ac8db34709054933ae0421b6513a2e0/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5f92/29f5c52cc403032e2457d029e07caeee/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6071/1706fc2bbfdeacbd4e052ddc3b1d7dab/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2e50/05e2bf1f2e2bbb15bba8a3acb7f70214/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "25": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e2a0/0a2e61df894dfe98c927452d72045887/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "26": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fde7/7edfcfe6b6598fb0333fd27ddb075f8f/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "27": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1791/1971c174015902ae5f3a61f307cbea44/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "28": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6450/0546fad480897f7e0d2bc54d48eb8b3d/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "29": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9df2/2fd9220fdb91c5fc15c04200b7eb3a06/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "30": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/232b/b2329415a25f8b7e9bc522c3f1dfc589/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "31": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e4f9/9f4e9139edb15e90c4823f3908158815/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "32": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b499/994b9046ec0a256ef1c3dc99d20dd5f3/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "33": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2295/5922edc2fbf768ce30207368f8d76d67/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 34
-      },
-      "latitude": 47.663813,
-      "listingAgentID": "121277198",
-      "listingID": "2578232",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$1,275,000",
-      "longitude": -122.149565,
-      "mediaData": {
-        "vt": [
-          {
-            "id": "vtURL",
-            "url": "https://my.matterport.com/show/?m=sVU1akUtsKE&mls=1",
-            "text": "",
-            "listingID": "2578232"
-          }
-        ]
-      },
-      "mlsPhotoCount": 34,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 1275000,
-      "priceData": {
-        "value": {
-          "raw": 1275000,
-          "formatted": "$1,275,000"
-        },
-        "type": "active",
-        "label": "Price",
-        "field": "listingPrice"
-      },
-      "propStatus": "Pending",
-      "propSubType": "Single Family Residence",
-      "propType": "Residential",
-      "remarksConcat": "Beautifully remodeled and move in ready, this light filled Redmond rambler offers 3 bedrooms, 2 bathrooms and a spacious corner lot. A rare and highly functional floor plan combines the open concept flow buyers love with two distinct living spaces, providing valuable separation without making the home feel closed off. The dedicated dining area comfortably accommodates a full size table and connects easily to the updated kitchen, complete with quartz countertops, shaker cabinetry, stainless steel appliances and a subway tile backsplash. The second living space is warmed by a cozy fireplace and opens to the private backyard, creating a seamless connection for indoor and outdoor living. The spacious primary bedroom is complemented by two additional bedrooms and beautifully renovated bathrooms. Updated flooring, fresh paint, modern lighting, new doors, trim and windows complete the interior. Outside, enjoy a fully fenced backyard with a spacious patio, refreshed landscaping and plenty of room to garden, play or host summer gatherings. One of the home’s greatest advantages is its exceptional location, tucked near a quiet cul de sac with minimal through traffic while just minutes from both downtown Kirkland and downtown Redmond. Enjoy convenient access to waterfront parks, shopping, dining, entertainment and major commuter routes, all while coming home to a peaceful residential setting.",
-      "rntLse": "neither",
-      "rntLsePrice": 1275000,
-      "sqFt": "1,530",
-      "state": "Washington",
-      "streetDirection": "NE",
-      "streetName": "64th Court",
-      "streetNumber": "14219",
-      "subdivision": "Redmond",
-      "threeQuarterBaths": 0,
-      "totalBaths": 2,
-      "viewCount": 23,
-      "vtCount": 1,
-      "yearBuilt": 1975,
-      "zipcode": "98052",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Jack Macdonald, Licensed Broker",
-        "agentPhone": "425.941.6998"
       }
     },
     {
@@ -1463,7 +1025,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-06-26T00:02:21+00:00",
-      "dateModified": "2026-10-02T18:12:14+00:00",
+      "dateModified": "2026-10-10T06:49:11+00:00",
       "detailsURL": "b045/2544754",
       "detailsUrlSlug": "10667-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -1899,7 +1461,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-06-26T00:04:11+00:00",
-      "dateModified": "2026-10-02T18:12:31+00:00",
+      "dateModified": "2026-10-10T06:49:11+00:00",
       "detailsURL": "b045/2528070",
       "detailsUrlSlug": "10668-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -2151,7 +1713,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 48,
+      "viewCount": 52,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -2341,7 +1903,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-18T00:47:37+00:00",
-      "dateModified": "2026-10-02T21:57:21+00:00",
+      "dateModified": "2026-10-11T23:57:11+00:00",
       "detailsURL": "b045/2571716",
       "detailsUrlSlug": "6215-38th-Avenue-NE-Seattle-98115",
       "displayAddress": "y",
@@ -2369,171 +1931,186 @@
           "caption": ""
         },
         "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7708/8077660db6b502171a10e2c1782fab72/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c6e1/1e6c77d0c825487c7efd5ddb59b46ed7/b045",
           "sizes": [],
           "caption": ""
         },
         "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f4a3/3a4f7cd1e8a63edc3ed93431097aa2ba/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6cf0/0fc603471a311fcdd7a65f2da536f8e0/b045",
           "sizes": [],
           "caption": ""
         },
         "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7588/8857109d1b4821a6c71e6d92ceef0348/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d870/078d45862ce07346a9cd16c1c335879c/b045",
           "sizes": [],
           "caption": ""
         },
         "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/801a/a108c2526b8f01261107b3c15f34fe5a/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/14a0/0a41d81ebf55cc8eb5f9ceac23c677e2/b045",
           "sizes": [],
           "caption": ""
         },
         "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2649/94627a9caecd3c080add19f53c552609/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f686/686fca4e68ab55d9740f3d254f469feb/b045",
           "sizes": [],
           "caption": ""
         },
         "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4a8c/c8a44ad54f6b11664ed824cec75e33ec/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2c97/79c24f5d57467cc093ec7175792458bd/b045",
           "sizes": [],
           "caption": ""
         },
         "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/02f4/4f200a50150768a1cde389677f2763cf/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1230/0321d08e29133307370a888ba8c64253/b045",
           "sizes": [],
           "caption": ""
         },
         "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1b48/84b1382549402be782553221d9932b68/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4bc0/0cb49a8aa1cc802fa44b2acb8af68263/b045",
           "sizes": [],
           "caption": ""
         },
         "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6239/932670f66e6b3f2a1b2e74224d286bc6/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/49b2/2b94e6877dc9e6df3908a4e16c0ba83e/b045",
           "sizes": [],
           "caption": ""
         },
         "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4566/6654d6c6b7f9f5f0f1bbac648e81b2f6/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1832/2381485a9fc889dfe4ada740949ecf3f/b045",
           "sizes": [],
           "caption": ""
         },
         "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/19d4/4d91239e31ba71ede578d5463e55ef31/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9037/7309fadcc303bb3670418c6822706238/b045",
           "sizes": [],
           "caption": ""
         },
         "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/77bd/db770fc3ebc2a4263a903f5a6b078995/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7446/644786fc288ba9696c3bdac0b9b9d17e/b045",
           "sizes": [],
           "caption": ""
         },
         "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8460/064802563a2539063f76b1df46fec1c7/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/50db/bd05fea004e592bc2b1786669181d18b/b045",
           "sizes": [],
           "caption": ""
         },
         "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0c5b/b5c00759b5fab39f770e4f4d59b4051b/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1e15/51e118adc52b395805286bb6b5034d83/b045",
           "sizes": [],
           "caption": ""
         },
         "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/627b/b726b532c113348e6416b671336959b2/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5357/7535fc173e4fddf33ea9e94a29c1e486/b045",
           "sizes": [],
           "caption": ""
         },
         "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c9db/bd9cfe3277871018fc5ec549479f3628/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cab4/4bace37985236c331acdd35507fa43e5/b045",
           "sizes": [],
           "caption": ""
         },
         "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/66f0/0f669ee26ef10435e1185700d4505768/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f97a/a79f35c133b620cfd16baa3a6c812f38/b045",
           "sizes": [],
-          "caption": "Primary Bedroom"
+          "caption": ""
         },
         "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f8e4/4e8fc0baaee37865d05b436cf9919187/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/53f1/1f3534dce5e7afa7fc2b27329454fe4c/b045",
           "sizes": [],
-          "caption": "Primaru"
+          "caption": ""
         },
         "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/779b/b97700e48472068f770e6a095ee1f771/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9831/13891a5d00d166af8ea221648789bf72/b045",
           "sizes": [],
           "caption": ""
         },
         "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8a76/67a888314b354f8e1579612f57327bc4/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/05e4/4e50d8c22486cbbc44b56f295acb9137/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Primary Bedroom"
         },
         "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ca2b/b2ac3730dd00d75dff62c8002db28965/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6c8b/b8c60bfba883fd79863c25e4ec505d84/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Primaru"
         },
         "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1af9/9fa1013fa73c398557062609d3b6af67/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ab45/54ba6b00a54ea4939c8a86697be1059b/b045",
           "sizes": [],
           "caption": ""
         },
         "25": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8674/47685cc6e2662766906f7a5ff75d3965/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fb15/51bf826e292941504d1c7642f27234ab/b045",
           "sizes": [],
           "caption": ""
         },
         "26": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8ce0/0ec88daa6011a941b2625c25b5310c16/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dd49/94ddfeeab479327ce19581d18c9cd8a5/b045",
           "sizes": [],
           "caption": ""
         },
         "27": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c011/110cc20f504ae681808989fa89fed94f/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b1a1/1a1b9e484977d37fb18f5063c1d81c95/b045",
           "sizes": [],
           "caption": ""
         },
         "28": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1c17/71c14f8adda987151c022eb8271f857a/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/097a/a790ab4e52143126c82feba140b66219/b045",
           "sizes": [],
           "caption": ""
         },
         "29": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/00c0/0c00f1bacec264cd7bdddc61350fb593/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1ac2/2ca1e30d1374e3f4c352b2929943494a/b045",
           "sizes": [],
           "caption": ""
         },
         "30": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8366/663868f093e0334d79cd8dc0840b36d4/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8306/603875ad1cc48ced29013a3e64acc500/b045",
           "sizes": [],
           "caption": ""
         },
         "31": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/87c4/4c78c01755c6e2a293d12909b9537f70/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8df0/0fd8b2ee66d3aa37783ca4b720a87a12/b045",
           "sizes": [],
           "caption": ""
         },
         "32": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/231b/b132abd85d70aaea6404a67c18ea4819/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bb35/53bb0be6fa9dd7ad04c56a4f0898aa58/b045",
           "sizes": [],
           "caption": ""
         },
         "33": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1801/10810e6e8f183a1951458ad7e6501da8/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0bbc/cbb0c02e93b279070294bde98c78a35f/b045",
           "sizes": [],
           "caption": ""
         },
         "34": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c6e0/0e6cc0862a3209f90af1e4c4add849db/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b326/623b35db6d8037d5d6883686984230bf/b045",
           "sizes": [],
           "caption": ""
         },
         "35": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/65de/ed56b91ee9cddec7876c617679f58555/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7d70/07d7d0c4ff95a93ff61f46bd1259e835/b045",
           "sizes": [],
           "caption": ""
         },
-        "totalCount": 36
+        "36": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1974/479129025c3492fd99063ec2d224dda5/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "37": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0eec/cee0eb11bf7bea147fa99c3eec6aea37/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "38": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/19d7/7d913617bf07ca0651a6f914c9b02fe7/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 39
       },
       "latitude": 47.674438,
       "listingAgentID": "121277198",
@@ -2551,7 +2128,7 @@
           }
         ]
       },
-      "mlsPhotoCount": 36,
+      "mlsPhotoCount": 39,
       "mlsPtID": 1,
       "ohCount": 0,
       "parentPtID": 1,
@@ -2571,7 +2148,7 @@
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
-      "remarksConcat": "Beautifully updated Bryant home offering privacy, high end improvements, and exceptional outdoor living. Originally a farmhouse, the home is set back from the street and surrounded by an established garden with perennial raised beds, mature fruit trees, and colorful seasonal plantings. A sunny foyer welcomes you into the home, highlighted by a gorgeous wood accent ceiling that creates an instant wow factor. The light filled kitchen, living room, two bedrooms and first full bath complete the upstairs. Downstairs, the ensuite primary bedroom sits across from a flexible bonus room ideal for a nursery, office, den, guest room, or media space. A dedicated laundry room and mudroom round out the lower level. Extensive updates between 2020 and 2022 include a studs out remodel and new roof in 2020, wide plank French Oak hardwood floors and matching stairs, Miele appliances, LG ThinQ washer and dryer, and a 200 amp electrical service with new panel. Enjoy a Mt. Rainier view from the kitchen, abundant storage in the insulated attic, and multiple outdoor spaces including low maintenance turf, a sunny deck, and rooftop terrace perfect for entertaining or relaxing. A detached garage with a modern automatic door adds even more functionality. All of this just blocks from PCC and Bryant Park and minutes from Metropolitan Market, the Burke Gilman Trail, Seattle Children’s Hospital, and University Village.",
+      "remarksConcat": "Beautifully updated Bryant home offering privacy, high end improvements, and exceptional outdoor living. Originally a farmhouse, the home is set back from the street and surrounded by an established garden with perennial raised beds, mature fruit trees, and colorful seasonal plantings. Enjoy unobstructed Mt. Rainier views from the kitchen, dining room, and a bedroom. A sunny foyer welcomes you into the home, highlighted by a gorgeous wood accent ceiling that creates an instant wow factor. The light filled kitchen, living room, two bedrooms and first full bath complete the upstairs. Above the stairs, an insulated attic provides extensive additional storage space. Downstairs, the ensuite primary bedroom sits across from a flexible bonus room ideal for a nursery, office, den, guest room, or media space. A dedicated laundry room and mudroom round out the lower level. Extensive updates between 2020 and 2022 include a studs out remodel and new roof in 2020, wide plank French Oak hardwood floors and matching stairs, Miele appliances, LG ThinQ washer and dryer, and a 200 amp electrical service with new panel. Enjoy multiple outdoor spaces including low maintenance turf, a sunny deck, and rooftop terrace perfect for entertaining or relaxing. A detached garage with a modern automatic door adds even more functionality. All of this just blocks from PCC and Bryant Park and minutes from Metropolitan Market, the Burke Gilman Trail, Seattle Children’s Hospital, and University Village.",
       "rntLse": "neither",
       "rntLsePrice": 1049500,
       "sqFt": "1,350",
@@ -2816,7 +2393,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-10-03T18:46:12+00:00",
+      "dateModified": "2026-10-10T06:47:11+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -3400,39 +2977,10 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$685,000",
       "longitude": -122.377471,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "163269728",
-            "text": "",
-            "starts": "2026-10-09T16:00:00+00:00",
-            "expires": "2026-10-09T18:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-08T22:40:13+00:00",
-            "freeFormDate": "October 9th, 2026",
-            "freeFormTime": "4:00 pm to 6:00 pm",
-            "listingID": "2588925",
-            "startTime": 1791561600
-          },
-          {
-            "id": "163470445",
-            "text": "",
-            "starts": "2026-10-11T11:00:00+00:00",
-            "expires": "2026-10-11T13:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-08T22:40:15+00:00",
-            "freeFormDate": "October 11th, 2026",
-            "freeFormTime": "11:00 am to 1:00 pm",
-            "listingID": "2588925",
-            "startTime": 1791716400
-          }
-        ]
-      },
+      "mediaData": [],
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 685000,
@@ -3461,7 +3009,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 12,
+      "viewCount": 14,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
@@ -3689,7 +3237,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-25T00:38:34+00:00",
-      "dateModified": "2026-10-08T22:21:17+00:00",
+      "dateModified": "2026-10-12T19:46:12+00:00",
       "detailsURL": "b045/2584647",
       "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
       "displayAddress": "y",
@@ -3831,12 +3379,7 @@
           "sizes": [],
           "caption": ""
         },
-        "26": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/12ee/ee219f97b63c4950c3e37a0c65cc2a21/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 27
+        "totalCount": 26
       },
       "latitude": 47.534663,
       "listingAgentID": "1186410",
@@ -3844,52 +3387,10 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$685,000",
       "longitude": -122.377481,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "163169249",
-            "text": "",
-            "starts": "2026-10-09T16:00:00+00:00",
-            "expires": "2026-10-09T18:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-08T22:40:11+00:00",
-            "freeFormDate": "October 9th, 2026",
-            "freeFormTime": "4:00 pm to 6:00 pm",
-            "listingID": "2584647",
-            "startTime": 1791561600
-          },
-          {
-            "id": "163168775",
-            "text": "",
-            "starts": "2026-10-10T13:00:00+00:00",
-            "expires": "2026-10-10T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-08T22:40:11+00:00",
-            "freeFormDate": "October 10th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2584647",
-            "startTime": 1791637200
-          },
-          {
-            "id": "163470525",
-            "text": "",
-            "starts": "2026-10-11T11:00:00+00:00",
-            "expires": "2026-10-11T13:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-08T22:40:15+00:00",
-            "freeFormDate": "October 11th, 2026",
-            "freeFormTime": "11:00 am to 1:00 pm",
-            "listingID": "2584647",
-            "startTime": 1791716400
-          }
-        ]
-      },
-      "mlsPhotoCount": 27,
+      "mediaData": [],
+      "mlsPhotoCount": 26,
       "mlsPtID": 1,
-      "ohCount": 3,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 685000,
@@ -3918,7 +3419,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 2,
+      "viewCount": 3,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
