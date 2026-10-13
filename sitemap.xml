@@ -43,6 +43,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://jackmacdonaldre.com/blog/why-eastside-homes-don-t-sell-and-what-to-change-before-relisting/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://jackmacdonaldre.com/blog/issaquah-highlands-homes-for-sale-neighborhood-guide/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -242,7 +248,7 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/blog/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -266,7 +272,7 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/blog/topic/selling/</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -326,7 +332,7 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/blog/area/eastside/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

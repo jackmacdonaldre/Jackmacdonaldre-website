@@ -263,7 +263,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "why-eastside-homes-don-t-sell-and-what-to-change-before-relisting",
+      "published_date": "2026-10-13"
     },
     {
       "topic": "North Bend, WA: What Living and Buying Here Is Really Like",
