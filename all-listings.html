@@ -144,7 +144,9 @@ Promise.all([
   fetch('/idx-integration/data/active-listings.json').then(function (r) { return r.json(); }).catch(function () { return { listings: [] }; }),
 fetch('/idx-integration/data/sold-listings.json').then(function (r) { return r.json(); }).catch(function () { return { listings: [] }; })
 ]).then(function (results) {
-  var activePending = results[0].listings || [];
+  // IDX data older than a day may include homes that have sold; show none rather than stale ones.
+  var activeGenerated = Date.parse(results[0].generatedAt || '');
+  var activePending = (activeGenerated && Date.now() - activeGenerated <= 864e5) ? (results[0].listings || []) : [];
 var sold = results[1].listings || [];
   sold = sold.concat(NOTABLE_SALES.map(function (s) {
     return { listingPrice: s.price, address: s.address, cityName: s.city, bedrooms: s.beds, totalBaths: s.baths, sqFt: s.sqft, fullDetailsURL: '/team/', propStatus: 'Sold', notable: true };
@@ -152,6 +154,11 @@ var sold = results[1].listings || [];
 var active = activePending.filter(function (l) { return (l.propStatus || '') === 'Active'; });
   var pending = activePending.filter(function (l) { return (l.propStatus || '') === 'Pending'; });
   root.innerHTML = '';
+  if (!activeGenerated || Date.now() - activeGenerated > 864e5) {
+    var staleNote = root.appendChild(el('p', { style: 'text-align: center; max-width: 640px; margin: var(--space-8) auto 0; padding: 0 var(--space-6); color: var(--color-neutral-700);', text: 'Our active and pending listing cards are being refreshed. Every home on the market is in the ' }));
+    staleNote.appendChild(el('a', { href: '/search.html', text: 'full search' }));
+    staleNote.appendChild(document.createTextNode('.'));
+  }
   root.appendChild(buildSection('Active Listings', active, 'Active', '#2f7d4f'));
 root.appendChild(buildSection('Pending Listings', pending, 'Pending', '#c8792a'));
 root.appendChild(buildSection('Sold Listings', sold, 'Sold', '#6b5b4a'));

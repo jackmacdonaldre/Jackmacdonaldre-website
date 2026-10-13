@@ -1,10 +1,12 @@
 name: Update Active Listings
 
 # NWMLS / NAR IDX policy expects listing data to be refreshed at least every
-# 12 hours, so this runs twice a day (about 12am and 12pm Pacific).
+# 12 hours. GitHub skips many scheduled runs (only 2 of about 20 ran between
+# Oct 2 and Oct 12, 2026), so this asks every 2 hours to make sure at least one
+# run lands in each 12 hour window. Each run takes under a minute.
 on:
   schedule:
-    - cron: "7 7,19 * * *"
+    - cron: "23 */2 * * *"
   workflow_dispatch: {}
 
 permissions:

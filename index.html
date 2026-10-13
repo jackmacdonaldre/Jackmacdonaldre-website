@@ -1488,13 +1488,16 @@ function buildCard(listing, featured) {
       card.appendChild(body);
       return card;
     }
-    function render(listings) {
+    // IDX data older than a day may include homes that have sold; show none rather than stale ones.
+    function isStale(data) { var t = Date.parse(data.generatedAt || ''); return !t || Date.now() - t > 864e5; }
+    function render(listings, stale) {
       var container = document.getElementById('active-listings-container');
       if (!container) return;
       container.innerHTML = '';
       container.style.minHeight = '';
       if (!listings || !listings.length) {
-        container.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-700);', text: 'No active listings right now. Check back soon.' }));
+        container.appendChild(el('p', { style: 'text-align: center; color: var(--color-neutral-700);', text: stale ? 'Our listing cards are being refreshed.' : 'No active listings right now. Check back soon.' }));
+        container.appendChild(el('p', { style: 'text-align: center;' })).appendChild(el('a', { href: '/search.html', class: 'btn btn-secondary', text: 'Search every home for sale' }));
         return;
       }
       container.appendChild(buildCard(listings[0], true));
@@ -1515,7 +1518,7 @@ function buildCard(listing, featured) {
     }
     fetch('/idx-integration/data/active-listings.json')
     .then(function (r) { return r.json(); })
-    .then(function (data) { var listings = data.listings || []; var attempts = 0; var intervalId = setInterval(function () { attempts++; render(listings); if (attempts > 15) clearInterval(intervalId); }, 300); })
+    .then(function (data) { var listings = data.listings || []; var stale = isStale(data); if (stale) listings = []; var attempts = 0; var intervalId = setInterval(function () { attempts++; render(listings, stale); if (attempts > 15) clearInterval(intervalId); }, 300); })
     .catch(function () {});
   })();
     
