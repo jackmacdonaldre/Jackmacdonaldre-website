@@ -77,6 +77,97 @@
         "buying": "At 2.7 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.5% of list price, so there is room to negotiate, especially on homes that have been on the market a while.",
         "method": "template"
       }
+    },
+    "sammamish": {
+      "title": "Sammamish Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Sammamish's median single family sale price was $1.60 million for July to September 2026, down 3.1% from the same months last year. 158 single family homes sold (13.2% fewer than a year ago), and the median home spent 24 days on the market.",
+        "selling": "At 3.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 96.6% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions.",
+        "buying": "At 3.7 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.6% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "woodinville": {
+      "title": "Woodinville Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Woodinville's median single family sale price was $1.45 million for July to September 2026, up 18.0% from the same months last year. 18 single family homes sold (41.9% fewer than a year ago), and the median home spent 14 days on the market. Woodinville is a small market, so a few sales can move these numbers a lot.",
+        "selling": "At 4.7 months of supply, this is closer to a balanced market. Buyers compare, so condition and price have to hold up next to the other homes they toured that weekend. Sellers averaged 99.1% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (14 days at the median versus 8), so build that into your timeline.",
+        "buying": "At 4.7 months of supply you have real choices. Take the time to compare, and use inspection and price to negotiate where it's warranted. Homes averaged 99.1% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are higher than a year ago, so waiting has not been cheaper lately.",
+        "method": "template"
+      }
+    },
+    "bothell": {
+      "title": "Bothell Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Bothell's median single family sale price was $1.12 million for July to September 2026, down 5.9% from the same months last year. 98 single family homes sold (18.1% more than a year ago), and the median home spent 28 days on the market.",
+        "selling": "At 4.0 months of supply, this is closer to a balanced market. Buyers compare, so condition and price have to hold up next to the other homes they toured that weekend. Sellers averaged 98.6% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (28 days at the median versus 21), so build that into your timeline.",
+        "buying": "At 4.0 months of supply you have real choices. Take the time to compare, and use inspection and price to negotiate where it's warranted. Homes averaged 98.6% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "kenmore": {
+      "title": "Kenmore Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Kenmore's median single family sale price was $1.03 million for July to September 2026, down 12.6% from the same months last year. 53 single family homes sold (11.7% fewer than a year ago), and the median home spent 22 days on the market.",
+        "selling": "At 3.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.5% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (22 days at the median versus 19), so build that into your timeline.",
+        "buying": "At 3.2 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.5% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "newcastle": {
+      "title": "Newcastle Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Newcastle's median single family sale price was $1.73 million for July to September 2026, down 2.8% from the same months last year. 40 single family homes sold (18.4% fewer than a year ago), and the median home spent 29 days on the market.",
+        "selling": "At 2.6 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.6% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (29 days at the median versus 24), so build that into your timeline.",
+        "buying": "At 2.6 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.6% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "renton": {
+      "title": "Renton Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Renton's median single family sale price was $730,000 for July to September 2026, down 4.0% from the same months last year. 161 single family homes sold (17.0% fewer than a year ago), and the median home spent 26 days on the market.",
+        "selling": "At 3.1 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (26 days at the median versus 15), so build that into your timeline.",
+        "buying": "At 3.1 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
+    },
+    "carnation": {
+      "title": "Carnation Home Values & Market Report | Updated October 2026",
+      "updatedDate": "2026-10-13",
+      "updatedMonth": "October 2026",
+      "dataEnd": "2026-09-30",
+      "window": "July to September 2026",
+      "commentary": {
+        "summary": "Carnation's median single family sale price was $1.15 million for July to September 2026, down 5.3% from the same months last year. 15 single family homes sold, and the median home spent 32 days on the market. Carnation is a small market, so a few sales can move these numbers a lot.",
+        "selling": "At 2.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.9% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (32 days at the median versus 25), so build that into your timeline.",
+        "buying": "At 2.2 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.9% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
+        "method": "template"
+      }
     }
   },
   "redfinLastUpdated": "2026-10-07",

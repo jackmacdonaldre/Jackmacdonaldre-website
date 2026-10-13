@@ -1,6 +1,6 @@
 # Jack Macdonald | Macdonald Group of Compass
 
-> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, North Bend, Fall City, Woodinville, and Bothell on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
+> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Redmond, Kirkland, Issaquah, Sammamish, Woodinville, Bothell, Kenmore, Newcastle, Renton, North Bend, Fall City and Carnation on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
 
 Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washington license 21022645.
 
@@ -2173,6 +2173,34 @@ Area guide: https://jackmacdonaldre.com/areas/sammamish/
 
 * * *
 
+# Sammamish Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/sammamish/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Sammamish's median single family sale price was $1.60 million for July to September 2026, down 3.1% from the same months last year. 158 single family homes sold (13.2% fewer than a year ago), and the median home spent 24 days on the market.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $1,599,362 | $1,600,000 | $1,650,000 | Down 3.1% |
+| Homes sold | 158 | 166 | 182 | Down 13.2% |
+| Median days on market | 24 days | 20 days | 26 days | Down 2 days |
+| Average sale to list price | 96.6% | 97.3% | 97.5% | Down 0.9 pts |
+| Months of supply | 3.7 | 3.7 | 1.6 | Up 2.1 |
+
+## What this means if you're selling
+
+At 3.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 96.6% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions.
+
+## What this means if you're buying
+
+At 3.7 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.6% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
 # Buying on the Sammamish Plateau: What to Know First
 
 > A real local guide to Sammamish Plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area.
@@ -2387,79 +2415,39 @@ About the author: Jack Macdonald grew up in Bellevue and helps buyers and seller
 
 * * *
 
-# AREA: North Bend
+# AREA: Woodinville
 
-North Bend is a small mountain town at the base of Mount Si, about 30 minutes east of Bellevue on I 90. Buyers come for space, acreage and the outdoors, and the trade off is the drive.
+Woodinville sits in the Sammamish River valley north of Redmond, known for its wineries, the Sammamish River Trail, and neighborhoods spread across the hills on both sides of the valley. Much of the city is in the Northshore School District.
 
-Area guide: https://jackmacdonaldre.com/areas/north-bend/
+Area guide: https://jackmacdonaldre.com/areas/woodinville/
 
 * * *
 
-# North Bend Home Values & Market Report | Updated October 2026
+# Woodinville Home Values & Market Report | Updated October 2026
 
-Web page: https://jackmacdonaldre.com/market-reports/north-bend/
+Web page: https://jackmacdonaldre.com/market-reports/woodinville/
 Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
 
-North Bend's median single family sale price was $1.30 million for July to September 2026, down 1.6% from the same months last year. 34 single family homes sold (15.0% fewer than a year ago), and the median home spent 22 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.
+Woodinville's median single family sale price was $1.45 million for July to September 2026, up 18.0% from the same months last year. 18 single family homes sold (41.9% fewer than a year ago), and the median home spent 14 days on the market. Woodinville is a small market, so a few sales can move these numbers a lot.
 
 | Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
 | --- | --- | --- | --- | --- |
-| Median sale price | $1,299,482 | $1,292,500 | $1,319,998 | Down 1.6% |
-| Homes sold | 34 | 30 | 40 | Down 15.0% |
-| Median days on market | 22 days | 9 days | 26 days | Down 4 days |
-| Average sale to list price | 98.2% | 98.6% | 99.2% | Down 1.1 pts |
-| Months of supply | 1.9 | 2.1 | 1.2 | Up 0.7 |
+| Median sale price | $1,449,422 | $1,312,500 | $1,228,000 | Up 18.0% |
+| Homes sold | 18 | 21 | 31 | Down 41.9% |
+| Median days on market | 14 days | 12 days | 8 days | Up 6 days |
+| Average sale to list price | 99.1% | 98.8% | 99.6% | Down 0.5 pts |
+| Months of supply | 4.7 | 3.9 | 3.2 | Up 1.5 |
 
 ## What this means if you're selling
 
-With 1.9 months of supply, there still aren't many homes for buyers to choose from, and that works in your favor. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are selling faster than a year ago (22 days at the median versus 26).
+At 4.7 months of supply, this is closer to a balanced market. Buyers compare, so condition and price have to hold up next to the other homes they toured that weekend. Sellers averaged 99.1% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (14 days at the median versus 8), so build that into your timeline.
 
 ## What this means if you're buying
 
-Inventory is thin at 1.9 months of supply, so the good homes don't wait long. Have your financing settled before you start touring, not after. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+At 4.7 months of supply you have real choices. Take the time to compare, and use inspection and price to negotiate where it's warranted. Homes averaged 99.1% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are higher than a year ago, so waiting has not been cheaper lately.
 
 Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
 
-
-* * *
-
-# AREA: Fall City
-
-Fall City is an unincorporated river community along the Snoqualmie River between Issaquah, Snoqualmie and Carnation. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
-
-Area guide: https://jackmacdonaldre.com/areas/fall-city/
-
-* * *
-
-# Fall City Home Values & Market Report | Updated October 2026
-
-Web page: https://jackmacdonaldre.com/market-reports/fall-city/
-Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
-
-Fall City's median single family sale price was $732,000 for July to September 2026. 6 single family homes sold, and the median home spent 22 days on the market. With this few sales, one or two homes can swing the median a long way, so read it as a rough guide, not a trend.
-
-| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
-| --- | --- | --- | --- | --- |
-| Median sale price | $732,208 | $760,000 | $1,387,500 | Down 47.2% |
-| Homes sold | 6 | 7 | 4 | Up 50.0% |
-| Median days on market | 22 days | 20 days | 15 days | Up 7 days |
-| Average sale to list price | 96.5% | 97.0% | 99.2% | Down 2.6 pts |
-| Months of supply | 2.7 | 3.5 | 3.1 | Down 0.4 |
-
-## What this means if you're selling
-
-At 2.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 96.5% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (22 days at the median versus 15), so build that into your timeline.
-
-## What this means if you're buying
-
-At 2.7 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.5% of list price, so there is room to negotiate, especially on homes that have been on the market a while.
-
-Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
-
-
-* * *
-
-# AREA: Eastside
 
 * * *
 
@@ -2470,7 +2458,7 @@ Curious what your home would sell for right now? https://jackmacdonaldre.com/con
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: October 7, 2026
 Topic: Neighborhood guides
-Area: Eastside, Washington
+Area: Woodinville, Washington
 Web page: https://jackmacdonaldre.com/blog/what-woodinville-living-is-really-like/
 
 People usually discover Woodinville one of two ways. Either they stumbled into wine country on a Saturday afternoon and started thinking, "I could live here," or they got priced out of Kirkland and Redmond and started looking east. Both groups end up in the same place, but they arrive with pretty different expectations. It's worth sorting out which version of Woodinville you're actually buying into.
@@ -2547,6 +2535,365 @@ Some properties in the more rural or semirural edges of Woodinville use well wat
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
 
+
+* * *
+
+# AREA: Bothell
+
+Bothell straddles the King and Snohomish county line along I 405, with a rebuilt downtown on the Sammamish River, the UW Bothell campus, and established neighborhoods like Canyon Park and North Creek. Most of it is in the Northshore School District.
+
+Area guide: https://jackmacdonaldre.com/areas/bothell/
+
+* * *
+
+# Bothell Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/bothell/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Bothell's median single family sale price was $1.12 million for July to September 2026, down 5.9% from the same months last year. 98 single family homes sold (18.1% more than a year ago), and the median home spent 28 days on the market.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $1,119,554 | $1,139,000 | $1,190,000 | Down 5.9% |
+| Homes sold | 98 | 103 | 83 | Up 18.1% |
+| Median days on market | 28 days | 19 days | 21 days | Up 7 days |
+| Average sale to list price | 98.6% | 98.7% | 99.1% | Down 0.4 pts |
+| Months of supply | 4.0 | 3.8 | 2.2 | Up 1.8 |
+
+## What this means if you're selling
+
+At 4.0 months of supply, this is closer to a balanced market. Buyers compare, so condition and price have to hold up next to the other homes they toured that weekend. Sellers averaged 98.6% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (28 days at the median versus 21), so build that into your timeline.
+
+## What this means if you're buying
+
+At 4.0 months of supply you have real choices. Take the time to compare, and use inspection and price to negotiate where it's warranted. Homes averaged 98.6% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# Northshore School District: What Buyers in Bothell and Woodinville Should Know
+
+> A practical guide to Northshore School District for home buyers in Bothell and Woodinville, covering schools, boundaries, and what to watch for.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 5, 2026
+Topic: Schools and family
+Area: Bothell, Woodinville, Kenmore, Washington
+Web page: https://jackmacdonaldre.com/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/
+
+One of the first questions I get from families buying in Bothell or Woodinville is some version of: "What's the school situation here?" And it's worth a real answer, because Northshore School District is the kind of district where the details actually matter. The overall ratings are strong, but which school your kids attend depends entirely on where you buy, and those boundaries don't always line up the way people expect.
+
+## The Short Version on Northshore
+
+Northshore School District covers a large footprint across Bothell, Woodinville, Kenmore, and parts of Kirkland and Redmond. It's consistently one of the higher performing districts in King and Snohomish counties, and that reputation is one reason homes in these areas hold value the way they do. But "Northshore" isn't one school experience. It's a collection of schools with meaningfully different enrollment sizes, program offerings, and community feels depending on where you land.
+
+The district runs 20 elementary schools, six middle schools, and four high schools. Most buyers I work with are primarily thinking about high school, but the elementary and middle school assignments matter too, especially if you're buying a house you plan to stay in for ten or more years.
+
+## High Schools: The Four You'll Encounter
+
+Northshore's four high schools are Bothell High, Inglemoor High, Woodinville High, and North Creek High. If you're buying in this area and you care about schools, these are worth understanding individually, not just as a group.
+
+**Bothell High School** is one of the larger high schools in the district and draws from much of central and western Bothell. It has strong athletics and a broad range of programs. Families who have gone there tend to be proud of it, and it consistently posts solid graduation and college enrollment numbers.
+
+**Inglemoor High School** sits in Kenmore but serves parts of Bothell. It's known for having strong academic programs and tends to draw a lot of attention from families who are comparison shopping between Northshore and Lake Washington School District to the south. If you're buying on the Bothell side near the Kenmore border, you may end up here.
+
+**Woodinville High School** serves much of the Woodinville area and has a reputation for strong academics and a tight knit community feel given the more suburban, lower density nature of that part of the district. The school consistently performs well, and families in Woodinville tend to be very engaged.
+
+**North Creek High School** is the newest of the four, opened in 2017 to relieve overcrowding across the district. It serves the Mill Creek adjacent areas and parts of Bothell north of the main corridors. Because it's newer, some buyers ask whether it's "as good" as the others. From what I've seen, it's well regarded and fully established at this point. The newer facilities are a real plus.
+
+## The Boundary Question Nobody Thinks to Ask Until It's Too Late
+
+Here's the thing about school boundaries in Northshore: they can shift. The district has adjusted boundaries multiple times over the years, especially around North Creek as enrollment balanced out after it opened. Buying a home assuming your kids will attend a specific school is a reasonable goal, but you should verify the current boundary directly with the district before you close, not just rely on what a listing says or what a neighbor tells you.
+
+The Northshore School District website has an Address Look Up Tool where you can enter an address and get the current assignment. Use it. And if you're buying new construction in a growing area, ask explicitly whether the school assignment is locked in or subject to change as the development fills out.
+
+I've seen buyers fall in love with a house partly because of the assumed school assignment, only to discover after moving in that the boundary had shifted in the most recent redistricting cycle. It's not common, but it happens enough that it's worth the two minutes to check.
+
+## Programs That Cross Boundaries
+
+Northshore has a few specialized programs that draw students from across the district rather than just from a specific attendance zone. The most notable is the district's highly capable cohort program, which groups advanced learners together at designated schools. If your child qualifies for highly capable services, their school placement may not follow the standard neighborhood assignment.
+
+There are also choice transfer options within the district, though those come with no transportation guarantee and are approved on a space available basis. Families sometimes pursue transfers to a specific elementary school for a particular program or teacher reputation, but it's not something you can count on when making a buying decision.
+
+## How Schools Affect Price in This Area
+
+Northshore's reputation does get priced into homes, especially at the elementary level where parents feel the most day to day connection to the school their kid attends. I've seen streets just one or two blocks apart carry noticeably different interest levels based on which elementary school they feed into, even when the homes themselves are nearly identical.
+
+Woodinville in particular tends to price at a slight premium compared to equivalent homes in parts of Bothell, and the school district perception is one factor in that, alongside the lower density feel and larger lots. It's not the only factor, but it's real.
+
+If you're buying primarily for school access and you're working with a tight budget, it's worth looking carefully at where you land in the boundary map rather than assuming any address in Bothell or Woodinville gets you the same school outcome.
+
+## What the District Doesn't Control
+
+A district's quality can tell you a lot, but it doesn't tell you everything about whether a school is the right fit for your specific kid. Class sizes, the individual principal, extracurricular offerings, and the parent community at a given school can vary quite a bit even within a strong district. If school fit is a major priority for your family, visiting the actual school before you buy is worth doing, not just reading the ratings.
+
+GreatSchools ratings are a starting point, but they weight test scores heavily and don't capture things like how a school handles kids who learn differently, the strength of its arts or technical programs, or how the staff communicates with families. Talk to parents in the neighborhood if you get the chance. That's usually more useful than any ranking.
+
+## Snohomish vs. King County and the District Overlap
+
+Northshore straddles the King and Snohomish county line, which is one of the things that makes it a little unusual. Parts of Bothell are in King County, parts are in Snohomish County, and the school district assignment doesn't follow that county line at all. This matters practically because property taxes, county services, and some administrative things differ by county even if the school is the same. Buyers sometimes assume the county determines the school district or vice versa. They're independent of each other.
+
+If you're buying in the canyon road corridors or the areas north of SR 522, pay attention to which county the property sits in. It affects your tax bill more than your school assignment does.
+
+## A Few Things Worth Verifying Before You Buy
+
+* Confirm the school assignment directly through the Northshore district's Address Look Up Tool, not through the listing agent or Zillow.
+
+* If highly capable or special education programs matter to your family, call the district's student services office and ask specifically how placement works, since it often doesn't follow neighborhood boundaries.
+
+* For new construction, ask the builder whether boundary decisions for that development have been finalized with the district.
+
+* Check when the last boundary adjustment happened in the area you're considering and whether another is being discussed.
+
+Northshore is a genuinely good district and that's not just a talking point. But it's a big, diverse district with meaningful differences between schools and areas, and the families who research it carefully before buying tend to end up happier with their choice than those who assume it all works out the same regardless of address.
+
+## Common Questions
+
+### Does the whole city of Bothell fall under Northshore School District?
+
+Most of Bothell is served by Northshore, but not all of it. A small portion of Bothell falls within the Edmonds School District, particularly in areas near the western edges of the city. Always verify the specific address rather than assuming the city name equals the district.
+
+### Which high school serves most of Woodinville?
+
+The majority of Woodinville feeds into Woodinville High School, but parts of the area closer to the Bothell border may be assigned to Bothell High or North Creek High. Use the district's Address Look Up Tool to confirm before making a decision based on a specific school.
+
+### Is North Creek High School newer and does that affect its quality?
+
+North Creek opened in 2017 and was built specifically to reduce overcrowding across the district. Being newer means the facilities are excellent. In terms of academic performance and community feel, it's considered on par with the other Northshore high schools at this point, though it has had less time to build traditions and alumni networks.
+
+### Can I request a transfer to a different school within Northshore?
+
+Northshore does have an intradistrict transfer process, but approvals are based on available space and are not guaranteed. If a specific school is critical to your decision, buying within that school's attendance boundary is the only reliable way to secure that assignment.
+
+### How do Northshore home values compare to Lake Washington School District homes nearby?
+
+Both districts are well regarded and both carry a premium compared to surrounding areas. Lake Washington tends to get slightly more attention from buyers focused on the Kirkland and Redmond markets, while Northshore is the primary driver in Bothell and Woodinville pricing. The gap between the two in terms of actual school outcomes is smaller than the difference in perception sometimes suggests.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# AREA: Kenmore
+
+Kenmore sits at the north end of Lake Washington where the Sammamish River meets the lake, with the Burke Gilman Trail running through town and quick access to Bothell and Kirkland. It is in the Northshore School District.
+
+Area guide: https://jackmacdonaldre.com/areas/kenmore/
+
+* * *
+
+# Kenmore Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/kenmore/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Kenmore's median single family sale price was $1.03 million for July to September 2026, down 12.6% from the same months last year. 53 single family homes sold (11.7% fewer than a year ago), and the median home spent 22 days on the market.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $1,027,091 | $1,152,500 | $1,175,000 | Down 12.6% |
+| Homes sold | 53 | 60 | 60 | Down 11.7% |
+| Median days on market | 22 days | 10 days | 19 days | Up 3 days |
+| Average sale to list price | 98.5% | 99.9% | 98.5% | Up 0.1 pts |
+| Months of supply | 3.2 | 3.2 | 2.2 | Up 1.0 |
+
+## What this means if you're selling
+
+At 3.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.5% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (22 days at the median versus 19), so build that into your timeline.
+
+## What this means if you're buying
+
+At 3.2 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.5% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# AREA: Newcastle
+
+Newcastle is a small city between Bellevue and Renton on the slopes of Cougar Mountain, with trail access into Cougar Mountain Regional Wildland Park, a golf course with views of Lake Washington, and quick access to I 405.
+
+Area guide: https://jackmacdonaldre.com/areas/newcastle/
+
+* * *
+
+# Newcastle Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/newcastle/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Newcastle's median single family sale price was $1.73 million for July to September 2026, down 2.8% from the same months last year. 40 single family homes sold (18.4% fewer than a year ago), and the median home spent 29 days on the market.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $1,729,311 | $1,655,000 | $1,780,000 | Down 2.8% |
+| Homes sold | 40 | 40 | 49 | Down 18.4% |
+| Median days on market | 29 days | 26 days | 24 days | Up 5 days |
+| Average sale to list price | 97.6% | 97.6% | 98.8% | Down 1.1 pts |
+| Months of supply | 2.6 | 2.7 | 2.1 | Up 0.5 |
+
+## What this means if you're selling
+
+At 2.6 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.6% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (29 days at the median versus 24), so build that into your timeline.
+
+## What this means if you're buying
+
+At 2.6 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.6% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# AREA: Renton
+
+Renton sits at the south end of Lake Washington, with Gene Coulon Park on the lakefront, The Landing, and neighborhoods from Kennydale and the Highlands to Talbot Hill. I 405 and SR 167 meet here, which makes it an easy base for commuting north or south.
+
+Area guide: https://jackmacdonaldre.com/areas/renton/
+
+* * *
+
+# Renton Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/renton/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Renton's median single family sale price was $730,000 for July to September 2026, down 4.0% from the same months last year. 161 single family homes sold (17.0% fewer than a year ago), and the median home spent 26 days on the market.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $729,709 | $734,750 | $760,000 | Down 4.0% |
+| Homes sold | 161 | 160 | 194 | Down 17.0% |
+| Median days on market | 26 days | 19 days | 15 days | Up 11 days |
+| Average sale to list price | 98.2% | 98.4% | 98.6% | Down 0.4 pts |
+| Months of supply | 3.1 | 3.2 | 1.7 | Up 1.4 |
+
+## What this means if you're selling
+
+At 3.1 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (26 days at the median versus 15), so build that into your timeline.
+
+## What this means if you're buying
+
+At 3.1 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# AREA: North Bend
+
+North Bend is a small mountain town at the base of Mount Si, about 30 minutes east of Bellevue on I 90. Buyers come for space, acreage and the outdoors, and the trade off is the drive.
+
+Area guide: https://jackmacdonaldre.com/areas/north-bend/
+
+* * *
+
+# North Bend Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/north-bend/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+North Bend's median single family sale price was $1.30 million for July to September 2026, down 1.6% from the same months last year. 34 single family homes sold (15.0% fewer than a year ago), and the median home spent 22 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $1,299,482 | $1,292,500 | $1,319,998 | Down 1.6% |
+| Homes sold | 34 | 30 | 40 | Down 15.0% |
+| Median days on market | 22 days | 9 days | 26 days | Down 4 days |
+| Average sale to list price | 98.2% | 98.6% | 99.2% | Down 1.1 pts |
+| Months of supply | 1.9 | 2.1 | 1.2 | Up 0.7 |
+
+## What this means if you're selling
+
+With 1.9 months of supply, there still aren't many homes for buyers to choose from, and that works in your favor. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are selling faster than a year ago (22 days at the median versus 26).
+
+## What this means if you're buying
+
+Inventory is thin at 1.9 months of supply, so the good homes don't wait long. Have your financing settled before you start touring, not after. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# AREA: Fall City
+
+Fall City is an unincorporated river community along the Snoqualmie River between Issaquah, Snoqualmie and Carnation. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
+
+Area guide: https://jackmacdonaldre.com/areas/fall-city/
+
+* * *
+
+# Fall City Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/fall-city/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Fall City's median single family sale price was $732,000 for July to September 2026. 6 single family homes sold, and the median home spent 22 days on the market. With this few sales, one or two homes can swing the median a long way, so read it as a rough guide, not a trend.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $732,208 | $760,000 | $1,387,500 | Down 47.2% |
+| Homes sold | 6 | 7 | 4 | Up 50.0% |
+| Median days on market | 22 days | 20 days | 15 days | Up 7 days |
+| Average sale to list price | 96.5% | 97.0% | 99.2% | Down 2.6 pts |
+| Months of supply | 2.7 | 3.5 | 3.1 | Down 0.4 |
+
+## What this means if you're selling
+
+At 2.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 96.5% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (22 days at the median versus 15), so build that into your timeline.
+
+## What this means if you're buying
+
+At 2.7 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.5% of list price, so there is room to negotiate, especially on homes that have been on the market a while.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# AREA: Carnation
+
+Carnation is a small farm town in the Snoqualmie Valley, where the Tolt River meets the Snoqualmie, between Duvall and Fall City. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
+
+Area guide: https://jackmacdonaldre.com/areas/carnation/
+
+* * *
+
+# Carnation Home Values & Market Report | Updated October 2026
+
+Web page: https://jackmacdonaldre.com/market-reports/carnation/
+Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+
+Carnation's median single family sale price was $1.15 million for July to September 2026, down 5.3% from the same months last year. 15 single family homes sold, and the median home spent 32 days on the market. Carnation is a small market, so a few sales can move these numbers a lot.
+
+| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| --- | --- | --- | --- | --- |
+| Median sale price | $1,147,543 | $1,150,000 | $1,211,698 | Down 5.3% |
+| Homes sold | 15 | 13 | 15 | No change |
+| Median days on market | 32 days | 24 days | 25 days | Up 7 days |
+| Average sale to list price | 98.9% | 98.1% | 100.3% | Down 1.4 pts |
+| Months of supply | 2.2 | 2.1 | 2.9 | Down 0.7 |
+
+## What this means if you're selling
+
+At 2.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.9% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (32 days at the median versus 25), so build that into your timeline.
+
+## What this means if you're buying
+
+At 2.2 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.9% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+
+Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
+
+
+* * *
+
+# AREA: Eastside
 
 * * *
 
@@ -3214,109 +3561,6 @@ Washington has no state income tax, which helps. Property taxes vary by city and
 ### What should I actually do first if I'm relocating here and have a month to figure it out?
 
 Spend time in each area at different times of day, not just weekend afternoons. Drive your potential commute during a Tuesday morning if you can. Walk around downtown Kirkland or Bellevue in the evening. Have a real conversation with a lender before you fall in love with a specific price range. And if you're not certain you want to commit to buying yet, give yourself the option of renting for a year. The Eastside is expensive enough that getting it wrong costs real money to fix.
-
-About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
-
-
-* * *
-
-# Northshore School District: What Buyers in Bothell and Woodinville Should Know
-
-> A practical guide to Northshore School District for home buyers in Bothell and Woodinville, covering schools, boundaries, and what to watch for.
-
-Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
-Published: October 5, 2026
-Topic: Schools and family
-Area: Eastside, Washington
-Web page: https://jackmacdonaldre.com/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/
-
-One of the first questions I get from families buying in Bothell or Woodinville is some version of: "What's the school situation here?" And it's worth a real answer, because Northshore School District is the kind of district where the details actually matter. The overall ratings are strong, but which school your kids attend depends entirely on where you buy, and those boundaries don't always line up the way people expect.
-
-## The Short Version on Northshore
-
-Northshore School District covers a large footprint across Bothell, Woodinville, Kenmore, and parts of Kirkland and Redmond. It's consistently one of the higher performing districts in King and Snohomish counties, and that reputation is one reason homes in these areas hold value the way they do. But "Northshore" isn't one school experience. It's a collection of schools with meaningfully different enrollment sizes, program offerings, and community feels depending on where you land.
-
-The district runs 20 elementary schools, six middle schools, and four high schools. Most buyers I work with are primarily thinking about high school, but the elementary and middle school assignments matter too, especially if you're buying a house you plan to stay in for ten or more years.
-
-## High Schools: The Four You'll Encounter
-
-Northshore's four high schools are Bothell High, Inglemoor High, Woodinville High, and North Creek High. If you're buying in this area and you care about schools, these are worth understanding individually, not just as a group.
-
-**Bothell High School** is one of the larger high schools in the district and draws from much of central and western Bothell. It has strong athletics and a broad range of programs. Families who have gone there tend to be proud of it, and it consistently posts solid graduation and college enrollment numbers.
-
-**Inglemoor High School** sits in Kenmore but serves parts of Bothell. It's known for having strong academic programs and tends to draw a lot of attention from families who are comparison shopping between Northshore and Lake Washington School District to the south. If you're buying on the Bothell side near the Kenmore border, you may end up here.
-
-**Woodinville High School** serves much of the Woodinville area and has a reputation for strong academics and a tight knit community feel given the more suburban, lower density nature of that part of the district. The school consistently performs well, and families in Woodinville tend to be very engaged.
-
-**North Creek High School** is the newest of the four, opened in 2017 to relieve overcrowding across the district. It serves the Mill Creek adjacent areas and parts of Bothell north of the main corridors. Because it's newer, some buyers ask whether it's "as good" as the others. From what I've seen, it's well regarded and fully established at this point. The newer facilities are a real plus.
-
-## The Boundary Question Nobody Thinks to Ask Until It's Too Late
-
-Here's the thing about school boundaries in Northshore: they can shift. The district has adjusted boundaries multiple times over the years, especially around North Creek as enrollment balanced out after it opened. Buying a home assuming your kids will attend a specific school is a reasonable goal, but you should verify the current boundary directly with the district before you close, not just rely on what a listing says or what a neighbor tells you.
-
-The Northshore School District website has an Address Look Up Tool where you can enter an address and get the current assignment. Use it. And if you're buying new construction in a growing area, ask explicitly whether the school assignment is locked in or subject to change as the development fills out.
-
-I've seen buyers fall in love with a house partly because of the assumed school assignment, only to discover after moving in that the boundary had shifted in the most recent redistricting cycle. It's not common, but it happens enough that it's worth the two minutes to check.
-
-## Programs That Cross Boundaries
-
-Northshore has a few specialized programs that draw students from across the district rather than just from a specific attendance zone. The most notable is the district's highly capable cohort program, which groups advanced learners together at designated schools. If your child qualifies for highly capable services, their school placement may not follow the standard neighborhood assignment.
-
-There are also choice transfer options within the district, though those come with no transportation guarantee and are approved on a space available basis. Families sometimes pursue transfers to a specific elementary school for a particular program or teacher reputation, but it's not something you can count on when making a buying decision.
-
-## How Schools Affect Price in This Area
-
-Northshore's reputation does get priced into homes, especially at the elementary level where parents feel the most day to day connection to the school their kid attends. I've seen streets just one or two blocks apart carry noticeably different interest levels based on which elementary school they feed into, even when the homes themselves are nearly identical.
-
-Woodinville in particular tends to price at a slight premium compared to equivalent homes in parts of Bothell, and the school district perception is one factor in that, alongside the lower density feel and larger lots. It's not the only factor, but it's real.
-
-If you're buying primarily for school access and you're working with a tight budget, it's worth looking carefully at where you land in the boundary map rather than assuming any address in Bothell or Woodinville gets you the same school outcome.
-
-## What the District Doesn't Control
-
-A district's quality can tell you a lot, but it doesn't tell you everything about whether a school is the right fit for your specific kid. Class sizes, the individual principal, extracurricular offerings, and the parent community at a given school can vary quite a bit even within a strong district. If school fit is a major priority for your family, visiting the actual school before you buy is worth doing, not just reading the ratings.
-
-GreatSchools ratings are a starting point, but they weight test scores heavily and don't capture things like how a school handles kids who learn differently, the strength of its arts or technical programs, or how the staff communicates with families. Talk to parents in the neighborhood if you get the chance. That's usually more useful than any ranking.
-
-## Snohomish vs. King County and the District Overlap
-
-Northshore straddles the King and Snohomish county line, which is one of the things that makes it a little unusual. Parts of Bothell are in King County, parts are in Snohomish County, and the school district assignment doesn't follow that county line at all. This matters practically because property taxes, county services, and some administrative things differ by county even if the school is the same. Buyers sometimes assume the county determines the school district or vice versa. They're independent of each other.
-
-If you're buying in the canyon road corridors or the areas north of SR 522, pay attention to which county the property sits in. It affects your tax bill more than your school assignment does.
-
-## A Few Things Worth Verifying Before You Buy
-
-* Confirm the school assignment directly through the Northshore district's Address Look Up Tool, not through the listing agent or Zillow.
-
-* If highly capable or special education programs matter to your family, call the district's student services office and ask specifically how placement works, since it often doesn't follow neighborhood boundaries.
-
-* For new construction, ask the builder whether boundary decisions for that development have been finalized with the district.
-
-* Check when the last boundary adjustment happened in the area you're considering and whether another is being discussed.
-
-Northshore is a genuinely good district and that's not just a talking point. But it's a big, diverse district with meaningful differences between schools and areas, and the families who research it carefully before buying tend to end up happier with their choice than those who assume it all works out the same regardless of address.
-
-## Common Questions
-
-### Does the whole city of Bothell fall under Northshore School District?
-
-Most of Bothell is served by Northshore, but not all of it. A small portion of Bothell falls within the Edmonds School District, particularly in areas near the western edges of the city. Always verify the specific address rather than assuming the city name equals the district.
-
-### Which high school serves most of Woodinville?
-
-The majority of Woodinville feeds into Woodinville High School, but parts of the area closer to the Bothell border may be assigned to Bothell High or North Creek High. Use the district's Address Look Up Tool to confirm before making a decision based on a specific school.
-
-### Is North Creek High School newer and does that affect its quality?
-
-North Creek opened in 2017 and was built specifically to reduce overcrowding across the district. Being newer means the facilities are excellent. In terms of academic performance and community feel, it's considered on par with the other Northshore high schools at this point, though it has had less time to build traditions and alumni networks.
-
-### Can I request a transfer to a different school within Northshore?
-
-Northshore does have an intradistrict transfer process, but approvals are based on available space and are not guaranteed. If a specific school is critical to your decision, buying within that school's attendance boundary is the only reliable way to secure that assignment.
-
-### How do Northshore home values compare to Lake Washington School District homes nearby?
-
-Both districts are well regarded and both carry a premium compared to surrounding areas. Lake Washington tends to get slightly more attention from buyers focused on the Kirkland and Redmond markets, while Northshore is the primary driver in Bothell and Woodinville pricing. The gap between the two in terms of actual school outcomes is smaller than the difference in perception sometimes suggests.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
 

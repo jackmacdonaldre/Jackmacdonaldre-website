@@ -18,9 +18,15 @@ const AREAS = [
   { slug: "redmond", name: "Redmond", hub: true, report: true, redfin: "Redmond, WA" },
   { slug: "kirkland", name: "Kirkland", hub: true, report: true, redfin: "Kirkland, WA" },
   { slug: "issaquah", name: "Issaquah", hub: true, report: true, redfin: "Issaquah, WA" },
-  { slug: "sammamish", name: "Sammamish", hub: true, report: false },
+  { slug: "sammamish", name: "Sammamish", hub: true, report: true, redfin: "Sammamish, WA" },
+  { slug: "woodinville", name: "Woodinville", hub: true, report: true, redfin: "Woodinville, WA" },
+  { slug: "bothell", name: "Bothell", hub: true, report: true, redfin: "Bothell, WA" },
+  { slug: "kenmore", name: "Kenmore", hub: true, report: true, redfin: "Kenmore, WA" },
+  { slug: "newcastle", name: "Newcastle", hub: true, report: true, redfin: "Newcastle, WA" },
+  { slug: "renton", name: "Renton", hub: true, report: true, redfin: "Renton, WA" },
   { slug: "north-bend", name: "North Bend", hub: true, report: true, redfin: "North Bend, WA" },
   { slug: "fall-city", name: "Fall City", hub: true, report: true, redfin: "Fall City, WA" },
+  { slug: "carnation", name: "Carnation", hub: true, report: true, redfin: "Carnation, WA" },
   { slug: "eastside", name: "Eastside", hub: false, report: false },
 ];
 
@@ -31,8 +37,14 @@ const AREA_INTROS = {
   kirkland: "Kirkland pairs a lakefront downtown with very different neighborhoods a few minutes away, from Houghton and Rose Hill to Juanita and Finn Hill. It is one of the most requested areas on the Eastside for buyers who want to be near the water.",
   issaquah: "Issaquah sits at the edge of the Cascade foothills along I 90, with a historic downtown, the Issaquah Highlands, and hillside neighborhoods on Squak and Cougar Mountain. Trails start practically in town.",
   sammamish: "Sammamish is a plateau of mostly single family neighborhoods between Lake Sammamish and the foothills, served by both the Lake Washington and Issaquah school districts. Lots tend to be larger than in the closer in cities.",
+  woodinville: "Woodinville sits in the Sammamish River valley north of Redmond, known for its wineries, the Sammamish River Trail, and neighborhoods spread across the hills on both sides of the valley. Much of the city is in the Northshore School District.",
+  bothell: "Bothell straddles the King and Snohomish county line along I 405, with a rebuilt downtown on the Sammamish River, the UW Bothell campus, and established neighborhoods like Canyon Park and North Creek. Most of it is in the Northshore School District.",
+  kenmore: "Kenmore sits at the north end of Lake Washington where the Sammamish River meets the lake, with the Burke Gilman Trail running through town and quick access to Bothell and Kirkland. It is in the Northshore School District.",
+  newcastle: "Newcastle is a small city between Bellevue and Renton on the slopes of Cougar Mountain, with trail access into Cougar Mountain Regional Wildland Park, a golf course with views of Lake Washington, and quick access to I 405.",
+  renton: "Renton sits at the south end of Lake Washington, with Gene Coulon Park on the lakefront, The Landing, and neighborhoods from Kennydale and the Highlands to Talbot Hill. I 405 and SR 167 meet here, which makes it an easy base for commuting north or south.",
   "north-bend": "North Bend is a small mountain town at the base of Mount Si, about 30 minutes east of Bellevue on I 90. Buyers come for space, acreage and the outdoors, and the trade off is the drive.",
   "fall-city": "Fall City is an unincorporated river community along the Snoqualmie River between Issaquah, Snoqualmie and Carnation. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.",
+  carnation: "Carnation is a small farm town in the Snoqualmie Valley, where the Tolt River meets the Snoqualmie, between Duvall and Fall City. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.",
 };
 
 // Topic for each existing post (set once, Oct 2026). Areas come from the post's
@@ -68,8 +80,8 @@ const EXISTING = {
   "living-in-bridle-trails-a-neighborhood-guide": { topic: "neighborhood-guides", areas: ["bellevue"] },
   "welcome-to-the-blog": { topic: "neighborhood-guides", areas: ["eastside"] },
   // Published Oct 5 to 9 on main while the upgrade branch was open.
-  "northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville": { topic: "schools-and-family", areas: ["eastside"] },
-  "what-woodinville-living-is-really-like": { topic: "neighborhood-guides", areas: ["eastside"] },
+  "northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville": { topic: "schools-and-family", areas: ["bothell", "woodinville", "kenmore"] },
+  "what-woodinville-living-is-really-like": { topic: "neighborhood-guides", areas: ["woodinville"] },
   "choice-schools-and-tech-schools-in-lake-washington-school-district-how-admission-works": { topic: "schools-and-family", areas: ["redmond", "kirkland", "sammamish"] },
 };
 
@@ -91,7 +103,7 @@ const areaBySlug = (slug) => AREAS.find((a) => a.slug === slug);
 function areaSlugFromCity(city) {
   const c = String(city || "").toLowerCase().trim();
   const hit = AREAS.find((a) => a.name.toLowerCase() === c);
-  return hit ? hit.slug : "eastside"; // Bothell, Woodinville, Newcastle, etc. roll up to Eastside
+  return hit ? hit.slug : "eastside"; // cities without their own area roll up to Eastside
 }
 
 // Topic + areas for a queue entry (used by generate-blog.js when it writes a post).
