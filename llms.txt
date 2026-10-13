@@ -1,6 +1,6 @@
 # Jack Macdonald | Macdonald Group of Compass
 
-> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Redmond, Kirkland, Issaquah, Sammamish, Woodinville, Bothell, Kenmore, Newcastle, Renton, North Bend, Fall City and Carnation on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
+> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Redmond, Kirkland, Issaquah, Sammamish, Woodinville, Bothell, Kenmore, Newcastle, Renton, North Bend, Fall City, Carnation, Shoreline and Seattle on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
 
 Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washington license 21022645.
 
@@ -31,6 +31,8 @@ Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washingt
 * [North Bend Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/north-bend/index.md): North Bend's median single family sale price was $1.30 million for July to September 2026, down 1.6% from the same months last year. 34 single family homes sold (15.0% fewer than a year ago), and the median home spent 22 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.
 * [Fall City Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/fall-city/index.md): Fall City's median single family sale price was $732,000 for July to September 2026. 6 single family homes sold, and the median home spent 22 days on the market. With this few sales, one or two homes can swing the median a long way, so read it as a rough guide, not a trend.
 * [Carnation Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/carnation/index.md): Carnation's median single family sale price was $1.15 million for July to September 2026, down 5.3% from the same months last year. 15 single family homes sold, and the median home spent 32 days on the market. Carnation is a small market, so a few sales can move these numbers a lot.
+* [Shoreline Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/shoreline/index.md): Shoreline's median single family sale price was $850,000 for July to September 2026, down 4.5% from the same months last year. 102 single family homes sold (4.7% fewer than a year ago), and the median home spent 9 days on the market.
+* [Seattle Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/seattle/index.md): Seattle's median single family sale price was $1,000,000 for July to September 2026, down 7.4% from the same months last year. 1,223 single family homes sold (6.6% fewer than a year ago), and the median home spent 10 days on the market.
 
 ## Area guides
 
@@ -47,6 +49,8 @@ Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washingt
 * [North Bend area guide](https://jackmacdonaldre.com/areas/north-bend/): North Bend is a small mountain town at the base of Mount Si, about 30 minutes east of Bellevue on I 90. Buyers come for space, acreage and the outdoors, and the trade off is the drive.
 * [Fall City area guide](https://jackmacdonaldre.com/areas/fall-city/): Fall City is an unincorporated river community along the Snoqualmie River between Issaquah, Snoqualmie and Carnation. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
 * [Carnation area guide](https://jackmacdonaldre.com/areas/carnation/): Carnation is a small farm town in the Snoqualmie Valley, where the Tolt River meets the Snoqualmie, between Duvall and Fall City. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
+* [Shoreline area guide](https://jackmacdonaldre.com/areas/shoreline/): Shoreline sits just north of Seattle between I 5 and Puget Sound, with Richmond Beach on the water, light rail stations at 148th and 185th, and established neighborhoods of mostly single family homes. It is served by the Shoreline School District.
+* [Seattle area guide](https://jackmacdonaldre.com/areas/seattle/): Seattle is the region's largest city, made up of very different neighborhoods from Ballard and Capitol Hill to West Seattle and the north end, and tied to the Eastside by the I 90 and SR 520 bridges. Citywide numbers blend all of them, so the specific neighborhood matters more here than anywhere else I report on.
 
 ## Posts by area and topic
 
