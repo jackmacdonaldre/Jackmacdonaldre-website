@@ -5,7 +5,7 @@
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
 Published: October 7, 2026
 Topic: Neighborhood guides
-Area: Eastside, Washington
+Area: Woodinville, Washington
 Web page: https://jackmacdonaldre.com/blog/what-woodinville-living-is-really-like/
 
 People usually discover Woodinville one of two ways. Either they stumbled into wine country on a Saturday afternoon and started thinking, "I could live here," or they got priced out of Kirkland and Redmond and started looking east. Both groups end up in the same place, but they arrive with pretty different expectations. It's worth sorting out which version of Woodinville you're actually buying into.

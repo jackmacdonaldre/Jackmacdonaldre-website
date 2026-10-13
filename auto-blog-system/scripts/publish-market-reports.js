@@ -6,7 +6,7 @@
 //   2. FACT CHECK: every number in that copy must match the Redfin data exactly,
 //      otherwise the AI copy is thrown out and the number safe template is used,
 //   3. publishes ONE combined "Eastside Market Update: {Month Year}" post per
-//      calendar month covering all six areas, linking to each evergreen page,
+//      calendar month covering every report area, linking to each evergreen page,
 //   4. records what happened for the "New post published" email.
 // If Redfin hasn't released anything new, nothing changes and no email is sent.
 

@@ -1,6 +1,6 @@
 # Jack Macdonald | Macdonald Group of Compass
 
-> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, North Bend, Fall City, Woodinville, and Bothell on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
+> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Redmond, Kirkland, Issaquah, Sammamish, Woodinville, Bothell, Kenmore, Newcastle, Renton, North Bend, Fall City, Carnation and Shoreline on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
 
 Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washington license 21022645.
 
@@ -22,8 +22,16 @@ Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washingt
 * [Redmond Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/redmond/index.md): Redmond's median single family sale price was $1.54 million for July to September 2026, down 2.4% from the same months last year. 93 single family homes sold (23.1% fewer than a year ago), and the median home spent 28 days on the market.
 * [Kirkland Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/kirkland/index.md): Kirkland's median single family sale price was $1.37 million for July to September 2026, down 14.1% from the same months last year. 254 single family homes sold (10.9% more than a year ago), and the median home spent 23 days on the market.
 * [Issaquah Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/issaquah/index.md): Issaquah's median single family sale price was $1.64 million for July to September 2026, up 9.0% from the same months last year. 61 single family homes sold (11.6% fewer than a year ago), and the median home spent 15 days on the market.
+* [Sammamish Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/sammamish/index.md): Sammamish's median single family sale price was $1.60 million for July to September 2026, down 3.1% from the same months last year. 158 single family homes sold (13.2% fewer than a year ago), and the median home spent 24 days on the market.
+* [Woodinville Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/woodinville/index.md): Woodinville's median single family sale price was $1.45 million for July to September 2026, up 18.0% from the same months last year. 18 single family homes sold (41.9% fewer than a year ago), and the median home spent 14 days on the market. Woodinville is a small market, so a few sales can move these numbers a lot.
+* [Bothell Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/bothell/index.md): Bothell's median single family sale price was $1.12 million for July to September 2026, down 5.9% from the same months last year. 98 single family homes sold (18.1% more than a year ago), and the median home spent 28 days on the market.
+* [Kenmore Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/kenmore/index.md): Kenmore's median single family sale price was $1.03 million for July to September 2026, down 12.6% from the same months last year. 53 single family homes sold (11.7% fewer than a year ago), and the median home spent 22 days on the market.
+* [Newcastle Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/newcastle/index.md): Newcastle's median single family sale price was $1.73 million for July to September 2026, down 2.8% from the same months last year. 40 single family homes sold (18.4% fewer than a year ago), and the median home spent 29 days on the market.
+* [Renton Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/renton/index.md): Renton's median single family sale price was $730,000 for July to September 2026, down 4.0% from the same months last year. 161 single family homes sold (17.0% fewer than a year ago), and the median home spent 26 days on the market.
 * [North Bend Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/north-bend/index.md): North Bend's median single family sale price was $1.30 million for July to September 2026, down 1.6% from the same months last year. 34 single family homes sold (15.0% fewer than a year ago), and the median home spent 22 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.
 * [Fall City Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/fall-city/index.md): Fall City's median single family sale price was $732,000 for July to September 2026. 6 single family homes sold, and the median home spent 22 days on the market. With this few sales, one or two homes can swing the median a long way, so read it as a rough guide, not a trend.
+* [Carnation Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/carnation/index.md): Carnation's median single family sale price was $1.15 million for July to September 2026, down 5.3% from the same months last year. 15 single family homes sold, and the median home spent 32 days on the market. Carnation is a small market, so a few sales can move these numbers a lot.
+* [Shoreline Home Values & Market Report | Updated October 2026](https://jackmacdonaldre.com/market-reports/shoreline/index.md): Shoreline's median single family sale price was $850,000 for July to September 2026, down 4.5% from the same months last year. 102 single family homes sold (4.7% fewer than a year ago), and the median home spent 9 days on the market.
 
 ## Area guides
 
@@ -32,8 +40,15 @@ Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washingt
 * [Kirkland area guide](https://jackmacdonaldre.com/areas/kirkland/): Kirkland pairs a lakefront downtown with very different neighborhoods a few minutes away, from Houghton and Rose Hill to Juanita and Finn Hill. It is one of the most requested areas on the Eastside for buyers who want to be near the water.
 * [Issaquah area guide](https://jackmacdonaldre.com/areas/issaquah/): Issaquah sits at the edge of the Cascade foothills along I 90, with a historic downtown, the Issaquah Highlands, and hillside neighborhoods on Squak and Cougar Mountain. Trails start practically in town.
 * [Sammamish area guide](https://jackmacdonaldre.com/areas/sammamish/): Sammamish is a plateau of mostly single family neighborhoods between Lake Sammamish and the foothills, served by both the Lake Washington and Issaquah school districts. Lots tend to be larger than in the closer in cities.
+* [Woodinville area guide](https://jackmacdonaldre.com/areas/woodinville/): Woodinville sits in the Sammamish River valley north of Redmond, known for its wineries, the Sammamish River Trail, and neighborhoods spread across the hills on both sides of the valley. Much of the city is in the Northshore School District.
+* [Bothell area guide](https://jackmacdonaldre.com/areas/bothell/): Bothell straddles the King and Snohomish county line along I 405, with a rebuilt downtown on the Sammamish River, the UW Bothell campus, and established neighborhoods like Canyon Park and North Creek. Most of it is in the Northshore School District.
+* [Kenmore area guide](https://jackmacdonaldre.com/areas/kenmore/): Kenmore sits at the north end of Lake Washington where the Sammamish River meets the lake, with the Burke Gilman Trail running through town and quick access to Bothell and Kirkland. It is in the Northshore School District.
+* [Newcastle area guide](https://jackmacdonaldre.com/areas/newcastle/): Newcastle is a small city between Bellevue and Renton on the slopes of Cougar Mountain, with trail access into Cougar Mountain Regional Wildland Park, a golf course with views of Lake Washington, and quick access to I 405.
+* [Renton area guide](https://jackmacdonaldre.com/areas/renton/): Renton sits at the south end of Lake Washington, with Gene Coulon Park on the lakefront, The Landing, and neighborhoods from Kennydale and the Highlands to Talbot Hill. I 405 and SR 167 meet here, which makes it an easy base for commuting north or south.
 * [North Bend area guide](https://jackmacdonaldre.com/areas/north-bend/): North Bend is a small mountain town at the base of Mount Si, about 30 minutes east of Bellevue on I 90. Buyers come for space, acreage and the outdoors, and the trade off is the drive.
 * [Fall City area guide](https://jackmacdonaldre.com/areas/fall-city/): Fall City is an unincorporated river community along the Snoqualmie River between Issaquah, Snoqualmie and Carnation. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
+* [Carnation area guide](https://jackmacdonaldre.com/areas/carnation/): Carnation is a small farm town in the Snoqualmie Valley, where the Tolt River meets the Snoqualmie, between Duvall and Fall City. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.
+* [Shoreline area guide](https://jackmacdonaldre.com/areas/shoreline/): Shoreline sits just north of Seattle between I 5 and Puget Sound, with Richmond Beach on the water, light rail stations at 148th and 185th, and established neighborhoods of mostly single family homes. It is served by the Shoreline School District.
 
 ## Posts by area and topic
 
@@ -102,11 +117,22 @@ Neighborhood guides:
 * [Buying on the Sammamish Plateau: What to Know First](https://jackmacdonaldre.com/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/index.md): A real local guide to Sammamish Plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area.
 * [Klahanie Homes for Sale: A Real Buyers Guide](https://jackmacdonaldre.com/blog/klahanie-homes-for-sale-community-guide/index.md): Thinking about buying in Klahanie, Sammamish? Here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market.
 
-### Eastside
+### Woodinville
 
 Neighborhood guides:
 
 * [What Woodinville Living Is Really Like](https://jackmacdonaldre.com/blog/what-woodinville-living-is-really-like/index.md): Thinking about moving to Woodinville, WA? Here is what daily life actually looks like, from the commute trade offs to the housing stock and local feel.
+
+### Bothell
+
+Schools and family:
+
+* [Northshore School District: What Buyers in Bothell and Woodinville Should Know](https://jackmacdonaldre.com/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/index.md): A practical guide to Northshore School District for home buyers in Bothell and Woodinville, covering schools, boundaries, and what to watch for.
+
+### Eastside
+
+Neighborhood guides:
+
 * [Welcome to the Blog](https://jackmacdonaldre.com/blog/welcome-to-the-blog/index.md): Market updates, neighborhood guides, and local insight from Jack Macdonald and the Macdonald Group, serving Bellevue and the greater Eastside.
 
 Market reports:
@@ -126,10 +152,6 @@ Selling:
 Relocation:
 
 * [Relocating to the Eastside for a Tech Job: What to Know](https://jackmacdonaldre.com/blog/relocating-to-the-eastside-for-a-tech-job-what-to-know/index.md): Moving to the Eastside of Seattle for a tech job? Here's what actually matters about neighborhoods, commutes, housing, and tradeoffs before you decide.
-
-Schools and family:
-
-* [Northshore School District: What Buyers in Bothell and Woodinville Should Know](https://jackmacdonaldre.com/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/index.md): A practical guide to Northshore School District for home buyers in Bothell and Woodinville, covering schools, boundaries, and what to watch for.
 
 ## Optional
 

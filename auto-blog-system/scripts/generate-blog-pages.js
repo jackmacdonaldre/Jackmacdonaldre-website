@@ -28,6 +28,7 @@ const REPORT_STATE_PATH = path.join(__dirname, "..", "content", "market-reports-
 const LISTINGS_PATH = path.join(ROOT, "idx-integration", "data", "active-listings.json");
 const HUB_AREAS = AREAS.filter((a) => a.hub);
 const REPORT_AREAS = AREAS.filter((a) => a.report);
+const listNames = (areas) => { const n = areas.map((a) => a.name); return n.length > 1 ? `${n.slice(0, -1).join(", ")} and ${n[n.length - 1]}` : n.join(""); };
 
 // ---------- helpers ----------
 
@@ -423,7 +424,7 @@ ${breadcrumbHtml(crumbs)}
 <div class="narrow">${valuationCta()}</div>
 </main>`;
   const ld = [breadcrumbLd(crumbs), { "@context": "https://schema.org", "@type": "CollectionPage", name: "Eastside Market Reports", url: `${SITE_URL}/market-reports/`, dateModified: maxDate(reports.map((r) => r.info.updatedDate)), hasPart: reports.map((r) => ({ "@type": "Dataset", name: r.info.title, url: SITE_URL + r.path, dateModified: r.info.updatedDate })) }];
-  return L.page({ title: "Eastside Market Reports | Bellevue, Redmond, Kirkland, Issaquah, North Bend, Fall City", description: "Monthly home value and market reports for Bellevue, Redmond, Kirkland, Issaquah, North Bend and Fall City from Jack Macdonald, Macdonald Group of Compass.", path: "/market-reports/", ld, body });
+  return L.page({ title: "Eastside Market Reports | Home Values by City | Jack Macdonald", description: `Monthly home value and market reports for ${listNames(REPORT_AREAS)} from Jack Macdonald, Macdonald Group of Compass.`, path: "/market-reports/", ld, body });
 }
 
 // ---------- area hubs ----------
@@ -511,7 +512,7 @@ ${breadcrumbHtml(crumbs)}
 <div class="grid">${cards}</div>
 </main>`;
   const ld = [breadcrumbLd(crumbs), { "@context": "https://schema.org", ...L.AGENT, areaServed: HUB_AREAS.map((a) => ({ "@type": "City", name: `${a.name}, WA` })) }];
-  return L.page({ title: "Eastside Areas: Bellevue, Redmond, Kirkland, Issaquah, Sammamish, North Bend, Fall City | Jack Macdonald", description: "Area guides for Bellevue, Redmond, Kirkland, Issaquah, Sammamish, North Bend and Fall City: neighborhoods, market reports, schools and homes for sale.", path: "/areas/", ld, body });
+  return L.page({ title: "Eastside Area Guides | Neighborhoods, Market Reports, Schools | Jack Macdonald", description: `Area guides for ${listNames(HUB_AREAS)}: neighborhoods, market reports, schools and homes for sale.`, path: "/areas/", ld, body });
 }
 
 // ---------- AI / LLM readable files ----------
@@ -556,7 +557,7 @@ About the author: Jack Macdonald grew up in Bellevue and helps buyers and seller
 
 const SITE_SUMMARY = `# Jack Macdonald | Macdonald Group of Compass
 
-> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, North Bend, Fall City, Woodinville, and Bothell on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
+> Jack Macdonald is a Bellevue native and REALTOR with Macdonald Group of Compass, helping people buy and sell homes across ${listNames(HUB_AREAS)} on the Eastside of Seattle, Washington. This site publishes monthly market reports, area guides, neighborhood guides, school district guides, city comparisons, and buyer and seller guides written from years of local experience.
 
 Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washington license 21022645.
 
@@ -648,7 +649,7 @@ function main() {
   // Blog home + filter pages
   writeFile("blog/index.html", buildListingPage({
     posts, allPosts: posts, fixed: "", title: "Eastside Real Estate Blog | Neighborhood Guides & Market Updates",
-    h1: "Blog", intro: "Neighborhood guides, market updates, and local insight for buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, North Bend and Fall City. Filter by area and topic, or search.",
+    h1: "Blog", intro: `Neighborhood guides, market updates, and local insight for buyers and sellers across ${listNames(HUB_AREAS)}. Filter by area and topic, or search.`,
     pathName: "/blog/", crumbs: [{ name: "Home", path: "/" }, { name: "Blog", path: "/blog/" }],
   }));
   sitemap.push({ path: "/blog/", lastmod: maxDate(posts.map(lastmodOf)), changefreq: "weekly", priority: "0.7" });

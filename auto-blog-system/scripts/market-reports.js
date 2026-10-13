@@ -3,7 +3,7 @@
 // estimates or fills in a missing value: if Redfin has no number, the row or
 // sentence is left out.
 
-const SMALL_MARKETS = new Set(["north-bend", "fall-city"]);
+const SMALL_MARKETS = new Set(["north-bend", "fall-city", "carnation", "woodinville"]);
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 function monthName(dateStr) {
