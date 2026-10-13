@@ -28,7 +28,6 @@ const AREAS = [
   { slug: "fall-city", name: "Fall City", hub: true, report: true, redfin: "Fall City, WA" },
   { slug: "carnation", name: "Carnation", hub: true, report: true, redfin: "Carnation, WA" },
   { slug: "shoreline", name: "Shoreline", hub: true, report: true, redfin: "Shoreline, WA" },
-  { slug: "seattle", name: "Seattle", hub: true, report: true, redfin: "Seattle, WA" },
   { slug: "eastside", name: "Eastside", hub: false, report: false },
 ];
 
@@ -47,7 +46,6 @@ const AREA_INTROS = {
   "north-bend": "North Bend is a small mountain town at the base of Mount Si, about 30 minutes east of Bellevue on I 90. Buyers come for space, acreage and the outdoors, and the trade off is the drive.",
   "fall-city": "Fall City is an unincorporated river community along the Snoqualmie River between Issaquah, Snoqualmie and Carnation. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.",
   shoreline: "Shoreline sits just north of Seattle between I 5 and Puget Sound, with Richmond Beach on the water, light rail stations at 148th and 185th, and established neighborhoods of mostly single family homes. It is served by the Shoreline School District.",
-  seattle: "Seattle is the region's largest city, made up of very different neighborhoods from Ballard and Capitol Hill to West Seattle and the north end, and tied to the Eastside by the I 90 and SR 520 bridges. Citywide numbers blend all of them, so the specific neighborhood matters more here than anywhere else I report on.",
   carnation: "Carnation is a small farm town in the Snoqualmie Valley, where the Tolt River meets the Snoqualmie, between Duvall and Fall City. Homes here are often on larger rural lots, and the market is small, so every sale moves the numbers.",
 };
 

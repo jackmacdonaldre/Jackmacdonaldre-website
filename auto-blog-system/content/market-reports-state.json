@@ -181,19 +181,6 @@
         "buying": "At 3.0 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 99.6% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
         "method": "template"
       }
-    },
-    "seattle": {
-      "title": "Seattle Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
-      "commentary": {
-        "summary": "Seattle's median single family sale price was $1,000,000 for July to September 2026, down 7.4% from the same months last year. 1,223 single family homes sold (6.6% fewer than a year ago), and the median home spent 10 days on the market.",
-        "selling": "At 2.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 100.2% of list price, so well priced homes are still getting full price or better.",
-        "buying": "At 2.7 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 100.2% of list price, so plan on paying at least asking for the ones you really want. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
-      }
     }
   },
   "redfinLastUpdated": "2026-10-07",
