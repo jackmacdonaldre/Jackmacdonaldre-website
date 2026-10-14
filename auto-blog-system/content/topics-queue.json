@@ -275,7 +275,9 @@
       "areas": [
         "north-bend"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "north-bend-wa-what-living-and-buying-here-is-really-like",
+      "published_date": "2026-10-14"
     },
     {
       "topic": "How to Price Your Eastside Home in Today's Market",
