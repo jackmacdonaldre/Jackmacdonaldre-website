@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T00:37:38.405Z",
+  "generatedAt": "2026-10-15T07:35:36.167Z",
   "count": 120,
   "listings": [
     {
@@ -113,10 +113,12 @@
           "Feet"
         ],
         "fireplacesMain": "1",
+        "listAgentEmail": "jack.macdonald@compass.com",
         "standardStatus": "Closed",
         "bathsFullGarage": "0",
         "bathsHalfGarage": "0",
         "fireplacesTotal": 1,
+        "listOfficeEmail": "contractsseattle@compass.com",
         "numberOfShowers": "2",
         "parkingFeatures": [
           "Driveway",
@@ -186,6 +188,7 @@
         "mlsSquareFootageSource": "Realist",
         "bathsThreeQuarterGarage": "0",
         "calculatedSquareFootage": "1530",
+        "listAgentPreferredPhone": "425-941-6998",
         "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
         "specialListingConditions": [
@@ -399,12 +402,14 @@
           "Feet"
         ],
         "fireplacesMain": "2",
+        "listAgentEmail": "stephen@stephenmacdonald.com",
         "standardStatus": "Closed",
         "bathsFullGarage": "0",
         "bathsHalfGarage": "0",
         "fireplacesTotal": 3,
         "fireplacesUpper": "1",
         "leasedEquipment": "None",
+        "listOfficeEmail": "contractsseattle@compass.com",
         "numberOfShowers": "3",
         "parkingFeatures": [
           "Driveway",
@@ -503,6 +508,7 @@
         ],
         "bathsThreeQuarterGarage": "0",
         "calculatedSquareFootage": "3710",
+        "listAgentPreferredPhone": "425-941-7325",
         "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
         "effectiveYearBuiltSource": "Public Records",
@@ -685,10 +691,12 @@
           "Feet"
         ],
         "fireplacesMain": "1",
+        "listAgentEmail": "jack.macdonald@compass.com",
         "standardStatus": "Closed",
         "bathsFullGarage": "0",
         "bathsHalfGarage": "0",
         "fireplacesTotal": 1,
+        "listOfficeEmail": "contractsseattle@compass.com",
         "numberOfShowers": "1",
         "parkingFeatures": [
           "Driveway",
@@ -752,6 +760,7 @@
         "mlsSquareFootageSource": "KCR",
         "bathsThreeQuarterGarage": "0",
         "calculatedSquareFootage": "1190",
+        "listAgentPreferredPhone": "425-941-6998",
         "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
         "specialListingConditions": [
@@ -960,6 +969,7 @@
           "Feet"
         ],
         "fireplacesMain": "2",
+        "listAgentEmail": "stephen@stephenmacdonald.com",
         "standardStatus": "Closed",
         "bathsFullGarage": "0",
         "bathsHalfGarage": "0",
@@ -967,6 +977,7 @@
         "fireplacesLower": "1",
         "fireplacesTotal": 3,
         "leasedEquipment": "None",
+        "listOfficeEmail": "contractsseattle@compass.com",
         "numberOfShowers": "3",
         "parkingFeatures": [
           "Attached Carport",
@@ -1057,6 +1068,7 @@
         "mlsSquareFootageSource": "King County Records",
         "bathsThreeQuarterGarage": "0",
         "calculatedSquareFootage": "3110",
+        "listAgentPreferredPhone": "425-941-7325",
         "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
         "effectiveYearBuiltSource": "Public Records",
@@ -1244,10 +1256,12 @@
           "Feet"
         ],
         "fireplacesMain": "1",
+        "listAgentEmail": "jack.macdonald@compass.com",
         "standardStatus": "Closed",
         "bathsFullGarage": "0",
         "bathsHalfGarage": "0",
         "fireplacesTotal": 1,
+        "listOfficeEmail": "contractsseattle@compass.com",
         "parkingFeatures": [
           "Driveway",
           "Attached Garage",
@@ -1309,6 +1323,7 @@
         "mlsSquareFootageSource": "KCR",
         "bathsThreeQuarterGarage": "0",
         "calculatedSquareFootage": "1440",
+        "listAgentPreferredPhone": "425-941-6998",
         "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
         "specialListingConditions": [
@@ -2168,7 +2183,7 @@
       "subdivision": "Kingsgate",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 25,
+      "viewCount": 26,
       "vtCount": 0,
       "yearBuilt": 1978,
       "zip4": "5408",
@@ -10980,7 +10995,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "10A",
-      "viewCount": 40,
+      "viewCount": 41,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146",
@@ -15654,7 +15669,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 2,
       "unitNumber": "9B",
-      "viewCount": 12,
+      "viewCount": 13,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146",
@@ -28309,7 +28324,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "208W",
-      "viewCount": 12,
+      "viewCount": 13,
       "vtCount": 0,
       "yearBuilt": 1995,
       "zipcode": "98033",
