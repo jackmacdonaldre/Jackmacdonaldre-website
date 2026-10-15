@@ -1,13 +1,13 @@
 /* Classical — design-system tokens and component classes. This file is the source of truth for the system's look; retune it here and see readme.md. */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
 
 :root {
-  --color-bg: #f3f2f2;
-  --color-surface: #eae9e9;
-  --color-text: #201f1d;
-  --color-accent: #b68235;
-  --color-accent-2: #ac803e;
-  --color-divider: color-mix(in srgb, #201f1d 16%, transparent);
+  --color-bg: #ffffff;
+  --color-surface: #f3f3f2;
+  --color-text: #161616;
+  --color-accent: #161616;
+  --color-accent-2: #161616;
+  --color-divider: color-mix(in srgb, #161616 13%, transparent);
 
   /* Tonal ramps — generated in OKLCH on one shared lightness scale, so the
      same step of any role matches the others in visual value. */
@@ -21,31 +21,31 @@
   --color-neutral-800: #444141;
   --color-neutral-900: #2d2b2b;
 
-  --color-accent-100: #fff3e4;
-  --color-accent-200: #ffe3bf;
-  --color-accent-300: #facb8d;
-  --color-accent-400: #e1ad66;
-  --color-accent-500: #c28d41;
-  --color-accent-600: #a06f24;
-  --color-accent-700: #7d5411;
-  --color-accent-800: #5a3b0a;
-  --color-accent-900: #3a270d;
+  --color-accent-100: #f3f3f2;
+  --color-accent-200: #e6e6e5;
+  --color-accent-300: #cfcfce;
+  --color-accent-400: #a9a9a8;
+  --color-accent-500: #7d7d7c;
+  --color-accent-600: #5c5c5b;
+  --color-accent-700: #3a3a39;
+  --color-accent-800: #222222;
+  --color-accent-900: #161616;
 
-  --color-accent-2-100: #fff3e4;
-  --color-accent-2-200: #ffe3be;
-  --color-accent-2-300: #f5cd96;
-  --color-accent-2-400: #dbaf70;
-  --color-accent-2-500: #bc8f4e;
-  --color-accent-2-600: #9b7232;
-  --color-accent-2-700: #79561f;
-  --color-accent-2-800: #573d14;
-  --color-accent-2-900: #382810;
+  --color-accent-2-100: #f3f3f2;
+  --color-accent-2-200: #e6e6e5;
+  --color-accent-2-300: #cfcfce;
+  --color-accent-2-400: #a9a9a8;
+  --color-accent-2-500: #7d7d7c;
+  --color-accent-2-600: #5c5c5b;
+  --color-accent-2-700: #3a3a39;
+  --color-accent-2-800: #222222;
+  --color-accent-2-900: #161616;
 
-  --font-heading: "Cormorant Garamond", system-ui, sans-serif;
-  --font-heading-weight: 600; /* review round 3: bold retired — semibold is the
+  --font-heading: "Jost", "Helvetica Neue", Arial, sans-serif;
+  --font-heading-weight: 300; /* review round 3: bold retired — semibold is the
      interface headings' ceiling (they need the weight at small sizes); display
      text goes lighter still, to the normal cut (see the deck) */
-  --font-body: "Lora", system-ui, sans-serif;
+  --font-body: "Jost", "Helvetica Neue", Arial, sans-serif;
 
   --space-1: 4.6px;
   --space-2: 9.2px;
@@ -54,9 +54,9 @@
   --space-6: 27.6px;
   --space-8: 36.8px;
 
-  --radius-sm: 2px;
-  --radius-md: 4px;
-  --radius-lg: 7px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
 
   /* Elevation — derived from the ground: soft ink-tinted shadows on a
      light theme, a hairline edge + ambient darkness on a dark one. */
@@ -253,3 +253,43 @@ textarea.input { min-height: 90px; resize: vertical; }
 .dialog-body { font-size: 14px; opacity: 0.85; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: var(--space-2); margin-top: var(--space-2); }
 
+
+
+/* ═══ Restyle 2026-10: clean luxury — black, white, soft grey; Jost light ═══ */
+body { font-size: 15px; line-height: 1.75; letter-spacing: 0.01em; font-weight: 400; color: var(--color-text); -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 { font-weight: 300; letter-spacing: 0.01em; line-height: 1.2; }
+h1 { text-transform: uppercase; letter-spacing: 0.07em; line-height: 1.15; }
+h2 { letter-spacing: 0.03em; line-height: 1.25; }
+h1 { font-size: 40px; } h2 { font-size: 30px; } h3 { font-size: 22px; } h4 { font-size: 18px; }
+h6 { font-weight: 400; font-size: 11.5px; letter-spacing: 0.22em; }
+a { color: inherit; }
+a:hover { opacity: 0.6; }
+.plate { filter: none !important; border: 0 !important; outline: 0 !important; }
+.plate:hover img { transform: scale(1.02); }
+.card, .dialog { border-radius: 0; box-shadow: none; }
+.card:hover { box-shadow: none !important; transform: none !important; border-color: var(--color-text); }
+.dialog { background: #fff; }
+.nbhd-card:hover .plate { box-shadow: none !important; }
+.btn { font-family: var(--font-body); font-weight: 400; font-size: 11.5px; letter-spacing: 0.18em; text-transform: uppercase; padding: 14px 30px; border-radius: 0; transition: background .25s ease, color .25s ease, border-color .25s ease; }
+.btn-primary { background: #161616; color: #fff; border-color: #161616; }
+.btn-primary:hover { background: #fff; color: #161616; opacity: 1; }
+.btn-secondary { color: #161616; border-color: #161616; }
+.btn-secondary:hover { background: #161616; color: #fff; opacity: 1; }
+.btn-ghost { color: #161616; border: 1px solid #161616; padding: 14px 30px; }
+.btn-ghost:hover { background: #161616; color: #fff; opacity: 1; }
+.btn-ghost { padding-left: 30px !important; padding-right: 30px !important; }
+.btn[style*="#fdfdfc"]:hover, .btn[style*="rgb(253, 253, 252)"]:hover { background: #fff; color: #161616 !important; opacity: 1; }
+.nav { padding: 22px 40px !important; border-bottom: 1px solid var(--color-divider); background: #fff; }
+.nav a { letter-spacing: 0.14em !important; text-transform: uppercase; font-size: 11.5px !important; color: #161616 !important; }
+.input, .tag { border-radius: 0; }
+.input { border-color: color-mix(in srgb, #161616 25%, transparent); background: #fff; }
+.tag-accent, .tag-neutral { background: #f3f3f2; color: #161616; }
+.tag-outline { border-color: #161616; color: #161616; }
+::selection { background: #161616; color: #fff; }
+[style*="italic"] { font-style: normal !important; }
+[style*="#f7f5f1"], [style*="#fcfaf7"], [style*="rgb(247, 245, 241)"], [style*="rgb(252, 250, 247)"] { background: #f4f4f3 !important; }
+[style*="#b68235"], [style*="rgb(182, 130, 53)"] { color: #161616 !important; }
+[style*="#2f7d4f"], [style*="rgb(47, 125, 79)"] { background: #161616 !important; }
+[style*="#c8792a"], [style*="rgb(200, 121, 42)"] { background: #6a6a69 !important; }
+[style*="font-weight: 600"] { font-weight: 400 !important; letter-spacing: 0.04em; }
+.timeline-item:not(:last-child)::after { content: '' !important; display: inline-block; width: 28px; height: 1px; background: #161616; vertical-align: middle; margin-left: 14px !important; font-size: 0 !important; }
