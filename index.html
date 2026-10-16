@@ -38,6 +38,18 @@
   .card { transition: box-shadow 0.3s ease, transform 0.3s ease; }
   .card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
   .svc-card:hover .svc-title { color: var(--color-accent-700); }
+  .rd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  @media(max-width:900px){.rd-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.rd-grid{grid-template-columns:1fr}}
+  .rd-card{border:1px solid #e4e4e3;padding:36px 32px;text-align:center;background:#fff;transition:border-color .3s}
+  .rd-card:hover{border-color:#161616}
+  .rd-name{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase}
+  .rd-price{font-size:44px;font-weight:300;margin:18px 0 4px;letter-spacing:.01em}
+  .rd-label{font-size:12px;color:#6a6a69;letter-spacing:.06em}
+  .rd-stats{display:flex;flex-direction:column;gap:6px;margin:22px 0;padding:18px 0;border-top:1px solid #e4e4e3;border-bottom:1px solid #e4e4e3;font-size:14px;color:#6a6a69}
+  .rd-stats b{color:#161616;font-weight:400}
+  .rd-links{display:flex;justify-content:center;gap:22px;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase}
+  .rd-links a{border-bottom:1px solid transparent}.rd-links a:hover{border-bottom-color:#161616;opacity:1}
   .nbhd-card .plate { transition: box-shadow 0.35s ease; cursor: pointer; }
   .nbhd-card:hover .plate { box-shadow: var(--shadow-md); }
   .nbhd-card:hover .plate img { transform: scale(1.05); }
@@ -210,21 +222,57 @@
       <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
     </section>
 
-    <section style="max-width: 1300px; margin: 0 auto; padding: 0 var(--space-6) calc(var(--space-8) * 1.2);">
+    <section id="real-data" style="max-width: 1300px; margin: 0 auto; padding: 0 var(--space-6) calc(var(--space-8) * 1.2);">
       <div style="text-align: center; margin-bottom: calc(var(--space-8) * 0.9);">
-        <h6 style="font-size: 11px;">Where I Work</h6>
-        <h2 style="margin: var(--space-2) 0 0; font-size: clamp(32px, 3.8vw, 44px);">Featured Neighborhoods</h2>
+        <h6 style="font-size: 11px;">Eastside Market</h6>
+        <h2 style="margin: var(--space-2) 0 0; font-size: clamp(32px, 3.8vw, 44px);">Real Data</h2>
+        <p id="rd-sub" style="margin: var(--space-3) auto 0; max-width: 560px; color: #6a6a69; font-size: 14px;">Single-family home medians, from Redfin data for the last three months. Updated regularly.</p>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: var(--space-6);">
-        <sc-for list="{{ neighborhoods }}" as="n" hint-placeholder-count="6">
-          <a href="{{ n.idxUrl }}" target="_blank" rel="noopener" class="nbhd-card" style="display: block; color: inherit;">
-            <figure class="plate" style="margin: 0;">
-              <image-slot id="{{ n.photoId }}" src="{{ n.photoSrc }}" placeholder="{{ n.name }} photo" shape="rect" style="width: 100%; aspect-ratio: 4/3; display: block;"></image-slot>
-            </figure>
-            <div class="nbhd-name" style="text-align: center; margin-top: var(--space-3); font-family: var(--font-heading); font-size: 18px;">{{ n.name }}</div>
-          </a>
-        </sc-for>
+      <div class="rd-grid">
+        <div class="rd-card" data-slug="bellevue">
+          <div class="rd-name">Bellevue</div>
+          <div class="rd-price" data-f="price">$1.84M</div>
+          <div class="rd-label">Median sale price</div>
+          <div class="rd-stats"><span><b data-f="dom">20</b> days on market</span><span><b data-f="yoy">+2.3%</b> vs. last year</span></div>
+          <div class="rd-links"><a href="/market-reports/bellevue/">Market report →</a><a href="https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&amp;ccz=city&amp;pt=1&amp;city[]=3453" target="_blank" rel="noopener">Search homes →</a></div>
+        </div>
+        <div class="rd-card" data-slug="kirkland">
+          <div class="rd-name">Kirkland</div>
+          <div class="rd-price" data-f="price">$1.37M</div>
+          <div class="rd-label">Median sale price</div>
+          <div class="rd-stats"><span><b data-f="dom">23</b> days on market</span><span><b data-f="yoy">−14.1%</b> vs. last year</span></div>
+          <div class="rd-links"><a href="/market-reports/kirkland/">Market report →</a><a href="https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&amp;ccz=city&amp;pt=1&amp;city[]=24426" target="_blank" rel="noopener">Search homes →</a></div>
+        </div>
+        <div class="rd-card" data-slug="redmond">
+          <div class="rd-name">Redmond</div>
+          <div class="rd-price" data-f="price">$1.54M</div>
+          <div class="rd-label">Median sale price</div>
+          <div class="rd-stats"><span><b data-f="dom">28</b> days on market</span><span><b data-f="yoy">−2.4%</b> vs. last year</span></div>
+          <div class="rd-links"><a href="/market-reports/redmond/">Market report →</a><a href="https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&amp;ccz=city&amp;pt=1&amp;city[]=38785" target="_blank" rel="noopener">Search homes →</a></div>
+        </div>
+        <div class="rd-card" data-slug="issaquah">
+          <div class="rd-name">Issaquah</div>
+          <div class="rd-price" data-f="price">$1.64M</div>
+          <div class="rd-label">Median sale price</div>
+          <div class="rd-stats"><span><b data-f="dom">15</b> days on market</span><span><b data-f="yoy">+9.0%</b> vs. last year</span></div>
+          <div class="rd-links"><a href="/market-reports/issaquah/">Market report →</a><a href="https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&amp;ccz=city&amp;pt=1&amp;city[]=22860" target="_blank" rel="noopener">Search homes →</a></div>
+        </div>
+        <div class="rd-card" data-slug="sammamish">
+          <div class="rd-name">Sammamish</div>
+          <div class="rd-price" data-f="price">$1.60M</div>
+          <div class="rd-label">Median sale price</div>
+          <div class="rd-stats"><span><b data-f="dom">24</b> days on market</span><span><b data-f="yoy">−3.1%</b> vs. last year</span></div>
+          <div class="rd-links"><a href="/market-reports/sammamish/">Market report →</a><a href="https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&amp;ccz=city&amp;pt=1&amp;city[]=41182" target="_blank" rel="noopener">Search homes →</a></div>
+        </div>
+        <div class="rd-card" data-slug="bothell">
+          <div class="rd-name">Bothell</div>
+          <div class="rd-price" data-f="price">$1.12M</div>
+          <div class="rd-label">Median sale price</div>
+          <div class="rd-stats"><span><b data-f="dom">28</b> days on market</span><span><b data-f="yoy">−5.9%</b> vs. last year</span></div>
+          <div class="rd-links"><a href="/market-reports/bothell/">Market report →</a><a href="https://jackmacdonaldre.idxbroker.com/idx/results/listings?idxID=b045&amp;ccz=city&amp;pt=1&amp;city[]=5067" target="_blank" rel="noopener">Search homes →</a></div>
+        </div>
       </div>
+      <div style="text-align:center; margin-top: var(--space-6);"><a href="/market-reports/" class="btn btn-secondary">All Market Reports</a></div>
     </section>
 
     <div class="hr" style="max-width: 900px; margin: 0 auto;"></div>
@@ -1555,5 +1603,29 @@ function buildCard(listing, featured) {
       }
     }
   });
+})();
+
+(function () {
+  fetch('/auto-blog-system/content/market-data.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    if (!d || !d.areas) return;
+    var tries = 0, t = setInterval(function () {
+      tries++;
+      var cards = document.querySelectorAll('.rd-card');
+      if (cards.length) {
+        clearInterval(t);
+        cards.forEach(function (c) {
+          var a = d.areas[c.getAttribute('data-slug')]; var ser = a && a.series && a.series.sfr; if (!ser || !ser.length) return;
+          var cur = ser[ser.length - 1];
+          var prev = ser.filter(function (p) { return p.end === (parseInt(cur.end.slice(0, 4), 10) - 1) + cur.end.slice(4); })[0];
+          if (!cur.medianSalePrice || cur.medianDom == null || !prev || !prev.medianSalePrice) return;
+          var ch = (cur.medianSalePrice - prev.medianSalePrice) / prev.medianSalePrice * 100;
+          c.querySelector('[data-f=price]').textContent = '$' + (cur.medianSalePrice / 1e6).toFixed(2) + 'M';
+          c.querySelector('[data-f=dom]').textContent = cur.medianDom;
+          c.querySelector('[data-f=yoy]').textContent = (ch >= 0 ? '+' : '\u2212') + Math.abs(ch).toFixed(1) + '%';
+        });
+      }
+      if (tries > 25) clearInterval(t);
+    }, 200);
+  }).catch(function () {});
 })();
 </script></html>
