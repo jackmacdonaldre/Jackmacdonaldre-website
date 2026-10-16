@@ -566,9 +566,11 @@ Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washingt
 * [Home](${SITE_URL}/): overview of Jack Macdonald and Macdonald Group of Compass
 * [About Jack](${SITE_URL}/about/): background, local roots in Bellevue, and approach
 * [Seller services](${SITE_URL}/services/): pricing, marketing, and negotiation for Eastside sellers
+* [Sell your home](${SITE_URL}/sell/): how Jack prices, preps, markets, and negotiates an Eastside home sale, with seller FAQs
+* [Home value](${SITE_URL}/home-value/): request a free price range for your home based on recent nearby sales
 * [Buyer's guide](${SITE_URL}/buyers-guide/): the home buying process on the Eastside
 * [Team](${SITE_URL}/team/): the Macdonald Group team
-* [Contact and home valuation](${SITE_URL}/contact/): phone, office, and message form
+* [Contact](${SITE_URL}/contact/): phone, office, and message form
 * [Areas](${SITE_URL}/areas/): area guides for each Eastside city
 * [Market reports](${SITE_URL}/market-reports/): monthly home value reports by city
 * [Blog](${SITE_URL}/blog/): all local guides, filterable by area and topic`;
