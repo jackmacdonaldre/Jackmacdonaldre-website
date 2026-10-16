@@ -287,7 +287,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "how-to-price-your-eastside-home-in-today-s-market",
+      "published_date": "2026-10-16"
     },
     {
       "topic": "Redmond Ridge Homes for Sale: Community Guide",
