@@ -1,7 +1,246 @@
 {
-  "generatedAt": "2026-10-15T23:08:20.725Z",
-  "count": 120,
+  "generatedAt": "2026-10-16T04:45:06.998Z",
+  "count": 122,
   "listings": [
+    {
+      "acres": "0.21",
+      "address": "5816 Fleming Street",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "None"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Baseboard"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "saleType": "MLS",
+        "bathrooms": "2",
+        "styleCode": "16 - 1 Story w/Bsmnt.",
+        "appliances": [
+          "Refrigerator",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchool": [
+          "Everett High"
+        ],
+        "inclusions": [
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "livingArea": 1964,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "lotFeatures": [
+          "Paved"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "740 - Everett/Mukilteo",
+        "onMarketDate": "2026-09-16T00:00:00+00:00",
+        "parkingTotal": 5,
+        "siteFeatures": [
+          "Fenced-Partially",
+          "RV Parking"
+        ],
+        "titleCompany": "Stewart Title",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "1",
+        "bedroomsUpper": "0",
+        "coveredSpaces": 0,
+        "entryLocation": "Lower,Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "1",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "listAgentEmail": "jack.macdonald@compass.com",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesLower": "1",
+        "fireplacesTotal": 2,
+        "listOfficeEmail": "contractsseattle@compass.com",
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "Driveway",
+          "Off Street",
+          "RV Parking"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 4608.38,
+        "attachedGarageYN": "no",
+        "elementarySchool": [
+          "View Ridge Elem"
+        ],
+        "exteriorFeatures": [
+          "Cement/Concrete",
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Second Kitchen",
+          "Second Primary Bedroom",
+          "Dining Room",
+          "Fireplace"
+        ],
+        "mlsLotSizeSource": "Realist",
+        "numberOfBathtubs": "2",
+        "sellerDisclosure": "Exempt",
+        "buildingAreaTotal": 1964,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Electric",
+          "Wood Burning"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 9148,
+        "mainLevelBedrooms": 2,
+        "appliancesIncluded": [
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchoolDistrict": [
+          "Everett"
+        ],
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "powerProductionType": [
+          "Electric"
+        ],
+        "waterHeaterLocation": "Downstairs Bedroom Closet",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Evergreen Mid"
+        ],
+        "bathsThreeQuarterMain": "0",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "Appraisal",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "1964",
+        "listAgentPreferredPhone": "425-941-6998",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 3,
+      "cityID": 15142,
+      "cityName": "Everett",
+      "coListingAgentID": "1186410",
+      "coListingOfficeID": "91866779",
+      "countyID": 1247,
+      "countyName": "Snohomish",
+      "dateAdded": "2026-09-16T23:19:54+00:00",
+      "dateModified": "2026-10-16T00:06:11+00:00",
+      "detailsURL": "b045/2578242",
+      "detailsUrlSlug": "5816-Fleming-Street-Everett-98203",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2578242/5816-Fleming-Street-Everett-98203",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0dc8/8cd0e6f3e7f630fbb7f69501df981863/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.945018,
+      "listingAgentID": "121277198",
+      "listingID": "2578242",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$499,950",
+      "longitude": -122.218893,
+      "mediaData": [],
+      "mlsPhotoCount": 35,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 0,
+      "price": 499950,
+      "priceData": {
+        "value": {
+          "raw": 535000,
+          "formatted": "$535,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Rare opportunity in Everett with two separate living spaces under one roof. This move in ready 1,964 sq ft home offers a unique duplex style layout with separate entrances, kitchens, laundry and parking for the upstairs and downstairs, creating incredible flexibility for the next owner. Downstairs also features a good sized room with a closet that offers flexible use as a sleeping space, bonus room, den, office or more. Live in one space and potentially rent the other, bring multiple generations together while maintaining privacy, or take advantage of the investment and value add potential. The downstairs has recently been refreshed with new flooring and fresh interior paint, and both levels are move in ready today with plenty of opportunity to update and make them your own over time. The separation between the two living spaces gives this home a setup that is hard to find at this price point. Convenient Everett location with easy access to shopping, dining, everyday amenities and major commuter routes. Whether you are looking for a home with additional flexibility, potential rental income or your next investment, this property gives you options from day one.",
+      "rntLse": "neither",
+      "rntLsePrice": 499950,
+      "sellingAgentID": "73142955",
+      "sellingOfficeID": "1002973",
+      "soldDate": "2026-10-15T00:00:00+00:00",
+      "soldPrice": 535000,
+      "sqFt": "1,964",
+      "state": "Washington",
+      "streetName": "Fleming Street",
+      "streetNumber": "5816",
+      "subdivision": "View Ridge",
+      "threeQuarterBaths": 0,
+      "totalBaths": 2,
+      "viewCount": 16,
+      "vtCount": 0,
+      "yearBuilt": 1950,
+      "zipcode": "98203",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Jack Macdonald, Licensed Broker",
+        "agentPhone": "425.941.6998"
+      }
+    },
     {
       "acres": "0.194",
       "address": "14219 NE 64th Court",
@@ -271,6 +510,318 @@
         "firm": "Compass",
         "agentName": "Jack Macdonald, Licensed Broker",
         "agentPhone": "425.941.6998"
+      }
+    },
+    {
+      "acres": "0.321",
+      "address": "15525 62nd Place NE",
+      "advanced": {
+        "roof": [
+          "Metal"
+        ],
+        "view": [
+          "Lake",
+          "Mountains",
+          "Territorial"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "Central Air",
+          "Heat Pump"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air",
+          "Heat Pump"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Hardwood",
+          "Carpet"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "3",
+        "styleCode": "12 - 2 Story",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "gasCompany": "PSE",
+        "highSchool": [
+          "Inglemoor Hs"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Leased Equipment",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 3340,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "vegetation": [
+          "Garden Space"
+        ],
+        "lotFeatures": [
+          "Paved",
+          "Secluded"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "600 - Juanita/Woodinville",
+        "onMarketDate": "2026-09-10T00:00:00+00:00",
+        "parkingTotal": 7,
+        "powerCompany": "PSE",
+        "sewerCompany": "Northshore Utility",
+        "siteFeatures": [
+          "Athletic Court",
+          "Cable TV",
+          "Deck",
+          "Fenced-Partially",
+          "Gas Available",
+          "High Speed Internet",
+          "Outdoor Fireplace",
+          "Patio",
+          "Sprinkler System"
+        ],
+        "titleCompany": "Chicago Title and Escrow",
+        "waterCompany": "Northshore Utility",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "1",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "2",
+        "coveredSpaces": 3,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "listAgentEmail": "stephen@stephenmacdonald.com",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "excludedItemsYN": "no",
+        "fireplacesTotal": 2,
+        "fireplacesUpper": "1",
+        "leasedEquipment": "none",
+        "listOfficeEmail": "contractsseattle@compass.com",
+        "numberOfShowers": "3",
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "Off Street"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 17798.84,
+        "waterHeaterType": "Gas",
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Arrowhead Elem"
+        ],
+        "exteriorFeatures": [
+          "Stucco",
+          "Wood",
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Ceiling Fan(s)",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Fireplace",
+          "French Doors",
+          "High Tech Cabling",
+          "Jetted Tub",
+          "Loft",
+          "Pantry",
+          "Security System",
+          "Skylight(s)",
+          "Vaulted Ceiling(s)",
+          "Walk-In Closet(s)",
+          "Water Heater",
+          "Wine Cellar",
+          "Wired for Generator"
+        ],
+        "mlsLotSizeSource": "Realist",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 3340,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "communityFeatures": [
+          "Club House"
+        ],
+        "fireplaceFeatures": [
+          "Gas",
+          "Wood Burning"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 14000,
+        "mainLevelBedrooms": 2,
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Northshore"
+        ],
+        "yearBuiltEffective": 1956,
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "closet",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Northshore Middle School"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "1",
+        "mlsSquareFootageSource": "Realist",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "3340",
+        "listAgentPreferredPhone": "425-242-6440",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 4,
+      "cityID": 23959,
+      "cityName": "Kenmore",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-09-11T00:50:33+00:00",
+      "dateModified": "2026-10-15T23:53:11+00:00",
+      "detailsURL": "b045/2578015",
+      "detailsUrlSlug": "15525-62nd-Place-NE-Kenmore-98028",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2578015/15525-62nd-Place-NE-Kenmore-98028",
+      "halfBaths": 1,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9df1/1fd99febd231aecdcf983a068d735765/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.741659,
+      "listingAgentID": "1186410",
+      "listingID": "2578015",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$1,999,500",
+      "longitude": -122.260445,
+      "mediaData": [],
+      "mlsPhotoCount": 40,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 3,
+      "price": 1999500,
+      "priceData": {
+        "value": {
+          "raw": 2350000,
+          "formatted": "$2,350,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Commanding West facing panoramic views of Lake Washington and the Olympic Mountains, this exceptional Arrowhead home is designed for effortless indoor-outdoor living. Designed to capture the views at every turn, the light-filled main level flows from elegant living and family rooms to a private office and expansive view kitchen. The serene primary suite is a retreat of its own, featuring patio access and an impressive walk-in closet with custom cedar cabinetry. A second bedroom, full bath and powder room complete the main floor. Upstairs has two more spacious bedrooms, a 3/4 bath, and a view bonus room opening to a deck. The private, level backyard is an entertainer’s dream with full-day sun, pickleball court, outdoor kitchen and living areas, generous patio, play lawn, and an oversized built-in fire pit for lingering summer evenings. A 3-car garage, A/C, mudroom, wine closet, metal roof, sprinkler and security systems, plus new paint and carpet complete this remarkable home.",
+      "rntLse": "neither",
+      "rntLsePrice": 1999500,
+      "sellingAgentID": "1189910",
+      "sellingOfficeID": "147679373",
+      "soldDate": "2026-10-09T00:00:00+00:00",
+      "soldPrice": 2350000,
+      "sqFt": "3,340",
+      "state": "Washington",
+      "streetName": "62nd Place NE",
+      "streetNumber": "15525",
+      "subdivision": "Arrowhead",
+      "threeQuarterBaths": 2,
+      "totalBaths": 4,
+      "viewCount": 45,
+      "vtCount": 0,
+      "yearBuilt": 1956,
+      "zipcode": "98028",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Stephen Macdonald, Managing Broker",
+        "agentPhone": "425.941.7325"
       }
     },
     {
@@ -19036,7 +19587,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "6A",
-      "viewCount": 53,
+      "viewCount": 54,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146",
