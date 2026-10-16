@@ -20,6 +20,25 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jackmacdonaldre.com/"}]}</script>
 </head>
 <body>
+<noscript>
+<div style="max-width: 760px; margin: 40px auto; padding: 0 16px; font-family: sans-serif; line-height: 1.6;">
+<h1>Jack Macdonald, Bellevue Real Estate Broker | Macdonald Group of Compass</h1>
+<p>Jack Macdonald is a Bellevue native and second generation real estate broker with the Macdonald Group of Compass, helping people buy and sell homes in Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, Bothell and the rest of the Eastside. Most of his business comes from past clients and their referrals.</p>
+<p>Office: 700 110th Ave NE, Ste 270, Bellevue, WA 98004. Phone: <a href="tel:4259416998">(425) 941-6998</a>. License #21022645.</p>
+<ul>
+<li><a href="/sell/">Sell your home on the Eastside</a></li>
+<li><a href="/home-value/">What's my home worth?</a></li>
+<li><a href="/services/">Services</a></li>
+<li><a href="/market-reports/">Monthly Eastside market reports</a></li>
+<li><a href="/areas/">Area guides: neighborhoods and schools</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/buyers-guide/">Buyer's guide</a></li>
+<li><a href="/about/">About Jack</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul>
+</div>
+</noscript>
+
 <!-- Netlify Forms needs the form in static HTML to register it; the visible form is rendered by JS and posts here. -->
 <form name="buyers-guide" data-netlify="true" netlify-honeypot="bot-field" hidden>
   <input type="hidden" name="form-name" value="buyers-guide"><input name="bot-field"><input name="name"><input name="email"><input name="source">
@@ -91,10 +110,10 @@
 
   <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
       <div class="nav-links-left" style="display: flex; align-items: center; gap: 28px;">
-      <a href="#" onClick="{{ goTo.about }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
-      <a href="#" onClick="{{ goTo.services }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
+      <a href="/about/" onClick="{{ goTo.about }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
+      <a href="/services/" onClick="{{ goTo.services }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
     </div>
-    <a href="#" onClick="{{ goHome }}" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
+    <a href="/" onClick="{{ goHome }}" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
 <img src="./assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
     </a>
     <div style="display: flex; align-items: center; gap: var(--space-5);">
@@ -112,7 +131,7 @@
     <div style="height: 100%; display: flex; align-items: center; justify-content: flex-end; padding: var(--space-8) calc(var(--space-8) * 1.5);">
       <nav style="display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-4); text-align: right;">
         <sc-for list="{{ menuItems }}" as="item" hint-placeholder-count="7">
-          <a href="#" onClick="{{ item.onClick }}" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: {{ item.color }}; transform: translateY({{ menuAnimOffset }}); opacity: {{ menuOpen }}; transition: transform 0.5s ease {{ item.delay }}, opacity 0.5s ease {{ item.delay }}, color 0.25s ease;">{{ item.label }}</a>
+          <a href="{{ item.href }}" onClick="{{ item.onClick }}" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: {{ item.color }}; transform: translateY({{ menuAnimOffset }}); opacity: {{ menuOpen }}; transition: transform 0.5s ease {{ item.delay }}, opacity 0.5s ease {{ item.delay }}, color 0.25s ease;">{{ item.label }}</a>
         </sc-for>
       </nav>
     </div>
@@ -129,7 +148,7 @@
                   <div class="ai-search-spacer" style="max-width: 640px; margin: 0 auto var(--space-6); width: 100%; height: 56px;"></div>
         <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; justify-content: center;">
           <a href="https://jackmacdonaldre.idxbroker.com/idx/search" class="btn" style="border: 1px solid #fdfdfc; color: #fdfdfc; white-space: nowrap;">Search Homes</a>
-                    <a href="#" onClick="{{ goTo.contact }}" class="btn" style="border: 1px solid #fdfdfc; color: #fdfdfc; white-space: nowrap;">Home Valuation</a>
+                    <a href="/home-value/" onClick="{{ goTo.value }}" class="btn" style="border: 1px solid #fdfdfc; color: #fdfdfc; white-space: nowrap;">Home Valuation</a>
         </div>
       </div>
     </section>
@@ -143,7 +162,7 @@
         <h6 style="font-size: 11px;">Welcome to My Site</h6>
         <h2 style="margin-top: var(--space-2); font-size: clamp(32px, 4vw, 44px);">Real estate built on local knowledge, strategy, and trust.</h2>
         <p style="max-width: 620px; line-height: 1.65;">A Bellevue native, I've helped more than 100 buyers and sellers navigate the Eastside market with strategic negotiation, deep local expertise, and honest, responsive communication.</p>
-        <a href="#" onClick="{{ goTo.about }}" class="btn btn-ghost" style="padding-left: 0; margin-top: var(--space-2);">Learn More →</a>
+        <a href="/about/" onClick="{{ goTo.about }}" class="btn btn-ghost" style="padding-left: 0; margin-top: var(--space-2);">Learn More →</a>
       </div>
     </section>
 
@@ -219,7 +238,7 @@
       <h6 style="font-size: 11px;">Why Clients Keep Coming Back</h6>
       <h2 class="fade-up" style="margin: var(--space-2) 0 var(--space-4); font-size: clamp(32px, 3.8vw, 44px);">Built on referrals, not transactions.</h2>
       <p style="max-width: 560px; margin: 0 auto var(--space-6); line-height: 1.65;">Most of my business comes from repeat clients and referrals — the result of clear communication, sound strategy, and protecting my clients' interests at every stage of the process.</p>
-      <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
+      <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
     </section>
 
     <section id="real-data" style="max-width: 1300px; margin: 0 auto; padding: 0 var(--space-6) calc(var(--space-8) * 1.2);">
@@ -281,8 +300,8 @@
       <h2 style="margin: var(--space-2) 0 var(--space-4); font-size: clamp(32px, 3.8vw, 44px);">Let's Build Your Real Estate Strategy.</h2>
       <p style="max-width: 520px; margin: 0 auto var(--space-6); line-height: 1.65;">Whether you're buying or selling, the first step is a conversation.</p>
       <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
-        <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Book a Consultation</a>
-        <a href="#" onClick="{{ goTo.contact }}" class="btn btn-secondary">Home Valuation</a>
+        <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Book a Consultation</a>
+        <a href="/home-value/" onClick="{{ goTo.value }}" class="btn btn-secondary">Home Valuation</a>
       </div>
     </section>
   </sc-if>
@@ -309,7 +328,7 @@
   <sc-if value="{{ isNewsPost }}">
     <sc-if value="{{ hasSelectedPost }}" hint-placeholder-val="{{ true }}">
       <section style="max-width: 800px; margin: 100px auto 0; padding: 0 var(--space-6);">
-        <a href="#" onClick="{{ goTo.news }}" class="btn btn-ghost" style="padding-left: 0; font-size: 13px;">← Back to Blog</a>
+        <a href="/blog/" onClick="{{ goTo.news }}" class="btn btn-ghost" style="padding-left: 0; font-size: 13px;">← Back to Blog</a>
       </section>
       <section style="max-width: 800px; margin: var(--space-4) auto 0; padding: 0 var(--space-6) 120px;">
         <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-neutral-600); margin-bottom: var(--space-2);">{{ selectedPost.dateLabel }} · {{ selectedPost.city }}</div>
@@ -327,7 +346,7 @@
         <div class="hr" style="margin-top: var(--space-8);"></div>
         <div style="text-align: center; padding-top: var(--space-6);">
           <p style="margin-bottom: var(--space-4);">Thinking about buying or selling in {{ selectedPost.city }}?</p>
-          <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
+          <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
         </div>
       </section>
     </sc-if>
@@ -430,8 +449,8 @@
       <h2 style="margin: var(--space-2) 0 var(--space-4);">Let's create a plan for what's next.</h2>
       <p style="max-width: 500px; margin: 0 auto var(--space-6);">Whether you're buying your first home or preparing to sell, let's create a personalized strategy that puts you in the strongest possible position.</p>
       <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
-        <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Book a Consultation</a>
-        <a href="#" onClick="{{ goTo.contact }}" class="btn btn-secondary">Schedule a Home Valuation</a>
+        <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Book a Consultation</a>
+        <a href="/home-value/" onClick="{{ goTo.value }}" class="btn btn-secondary">Schedule a Home Valuation</a>
       </div>
     </section>
   </sc-if>
@@ -510,7 +529,7 @@
   <sc-if value="{{ isPropertyDetail }}">
     <sc-if value="{{ hasSelectedListing }}" hint-placeholder-val="{{ true }}">
       <section style="max-width: 1300px; margin: 100px auto 0; padding: 0 var(--space-6);">
-        <a href="#" onClick="{{ goTo.properties }}" class="btn btn-ghost" style="padding-left: 0; font-size: 13px;">← Back to Properties</a>
+        <a href="https://jackmacdonaldre.idxbroker.com/idx/search" onClick="{{ goTo.properties }}" class="btn btn-ghost" style="padding-left: 0; font-size: 13px;">← Back to Properties</a>
       </section>
       <section class="mobile-stack" style="max-width: 1300px; margin: var(--space-4) auto 0; padding: 0 var(--space-6); display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-3);">
         <image-slot id="{{ detail.photoIdMain }}" src="{{ detail.photoSrcMain }}" placeholder="Main photo" shape="rect" style="width: 100%; aspect-ratio: 16/10; display: block; border-radius: var(--radius-md);"></image-slot>
@@ -638,9 +657,9 @@
           </div>
 
           <div class="card" style="padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-3);">
-            <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary btn-block">Contact Jack Directly</a>
-            <a href="#" onClick="{{ goTo.guide }}" class="btn btn-ghost btn-block">Get Pre-Approved →</a>
-            <a href="#" onClick="{{ goTo.contact }}" class="btn btn-ghost btn-block">Request a Home Valuation →</a>
+            <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary btn-block">Contact Jack Directly</a>
+            <a href="/buyers-guide/" onClick="{{ goTo.guide }}" class="btn btn-ghost btn-block">Get Pre-Approved →</a>
+            <a href="/home-value/" onClick="{{ goTo.value }}" class="btn btn-ghost btn-block">Request a Home Valuation →</a>
             <button type="button" onClick="{{ detail.toggleSave }}" class="btn btn-secondary btn-block">{{ detail.saveLabel }}</button>
           </div>
 
@@ -727,7 +746,7 @@
     <section style="max-width: 700px; margin: 0 auto; padding: calc(var(--space-8) * 1.2) var(--space-6) 120px; text-align: center;">
       <h2 style="margin: 0 0 var(--space-4); font-size: clamp(28px, 3.4vw, 38px);">Let's start with a conversation.</h2>
       <p style="max-width: 480px; margin: 0 auto var(--space-6); line-height: 1.65;">Whether you're buying, selling, or simply looking for trusted advice, I'd love to connect.</p>
-      <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Schedule a Consultation →</a>
+      <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Schedule a Consultation →</a>
     </section>
   </sc-if>
 
@@ -801,7 +820,7 @@
             </figure>
             <div class="card-title" style="font-size: 19px;">{{ m.name }}</div>
             <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">{{ m.role }}</span><br>
-            <a href="#" onClick="{{ goTo.contact }}" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More →</a>
+            <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More →</a>
           </div>
         </sc-for>
       </div>
@@ -825,7 +844,7 @@
     <section style="max-width: 900px; margin: 0 auto; padding: var(--space-4) var(--space-6) var(--space-8); text-align: center;">
       <h2 style="margin: 0 0 var(--space-2);">Our Mission is Simple</h2>
       <p style="max-width: 560px; margin: 0 auto var(--space-6);">To make your real estate experience feel effortless — and even enjoyable — every step of the way.</p>
-      <a href="#" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
+      <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Get In Touch</a>
     </section>
   </sc-if>
 
@@ -1015,6 +1034,8 @@ class Component extends DCLogic {
   if (view === 'areas') { window.location.href = '/areas/'; return; }
   if (view === 'reports') { window.location.href = '/market-reports/'; return; }
   if (view === 'news') { window.location.href = '/blog/'; return; }
+  if (view === 'value') { window.location.href = '/home-value/'; return; }
+  if (view === 'sell') { window.location.href = '/sell/'; return; }
     this.setState({ view });
     window.scrollTo(0, 0);
   }
@@ -1058,8 +1079,10 @@ class Component extends DCLogic {
       border: view === it.key ? '#201f1d' : 'transparent'
     }));
     const menuOpen = !!this.state.menuOpen;
+    const navHrefs = { home: '/', areas: '/areas/', reports: '/market-reports/', news: '/blog/', services: '/services/', properties: 'https://jackmacdonaldre.idxbroker.com/idx/search', about: '/about/', team: '/team/', contact: '/contact/' };
     const menuItems = items.map((it, i) => ({
       label: it.label,
+      href: navHrefs[it.key] || '/',
       onClick: (e) => { e.preventDefault(); this.setState({ menuOpen: false }); this.go(it.key); },
       color: view === it.key ? 'var(--color-accent-700)' : '#201f1d',
       delay: (i * 0.04) + 's'
@@ -1074,7 +1097,9 @@ class Component extends DCLogic {
       team: (e) => { e.preventDefault(); this.go('team'); },
       contact: (e) => { e.preventDefault(); this.go('contact'); },
       guide: (e) => { e.preventDefault(); this.go('guide'); },
-      leads: (e) => { e.preventDefault(); this.go('leads'); }
+      leads: (e) => { e.preventDefault(); this.go('leads'); },
+      value: (e) => { e.preventDefault(); this.go('value'); },
+      sell: (e) => { e.preventDefault(); this.go('sell'); }
     };
 
     const services = [
