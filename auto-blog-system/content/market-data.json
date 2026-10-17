@@ -3,7 +3,7 @@
  "sourceUrl": "https://www.redfin.com/news/data-center/",
  "downloadUrl": "https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_data_center/property_types/monthly/all_cities.csv",
  "redfinLastUpdated": "2026-10-07",
- "fetchedAt": "2026-10-13T17:12:59.736Z",
+ "fetchedAt": "2026-10-17T17:34:57.678Z",
  "areas": {
   "bellevue": {
    "name": "Bellevue",
