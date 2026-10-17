@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:17:01.889Z",
+  "generatedAt": "2026-10-17T15:45:43.796Z",
   "count": 122,
   "listings": [
     {
@@ -231,7 +231,7 @@
       "subdivision": "View Ridge",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 16,
+      "viewCount": 17,
       "vtCount": 0,
       "yearBuilt": 1950,
       "zipcode": "98203",
@@ -4928,7 +4928,7 @@
       "subdivision": "Kent",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 23,
+      "viewCount": 24,
       "vtCount": 0,
       "yearBuilt": 2003,
       "zip4": "7418",
@@ -17311,7 +17311,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 3,
       "unitNumber": "1",
-      "viewCount": 71,
+      "viewCount": 72,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98031",
