@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:36:54.772Z",
+  "generatedAt": "2026-10-17T22:28:17.244Z",
   "count": 122,
   "listings": [
     {
@@ -10183,262 +10183,6 @@
       "acres": "0.097",
       "address": "1240 SW 124th Street 6C",
       "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "sewer": [
-          "Sewer Connected"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "Ductless"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Ductless"
-        ],
-        "taxYear": 2025,
-        "flooring": [
-          "Vinyl Plank",
-          "Carpet"
-        ],
-        "saleType": "MLS",
-        "bathrooms": "1.75",
-        "styleCode": "10 - 1 Story",
-        "appliances": [
-          "Dishwasher(s)",
-          "Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "Highline High"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Garbage Disposal",
-          "Leased Equipment",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 800,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Adjacent to Public Land",
-          "Cul-De-Sac",
-          "Curbs",
-          "Paved",
-          "Sidewalk"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "buildingName": "Sapphire on 124th",
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "130 - Burien/Normandy Park",
-        "onMarketDate": "2025-01-24T00:00:00+00:00",
-        "parkingTotal": 0,
-        "powerCompany": "Seattle City Light",
-        "sewerCompany": "Southwest Suburban Sewer",
-        "titleCompany": "Chicago Title",
-        "waterCompany": "Water District #20",
-        "waterfrontYN": "no",
-        "bathsFullMain": "1",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "0",
-        "busLineNearby": "yes",
-        "coveredSpaces": 0,
-        "entryLocation": "Main",
-        "structureType": [
-          "House"
-        ],
-        "associationFee": 75,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "standardStatus": "Closed",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 0,
-        "leasedEquipment": "None",
-        "newConstruction": "Completed",
-        "numberOfShowers": "1",
-        "parkingFeatures": [
-          "Driveway",
-          "Off Street"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 932.1,
-        "waterHeaterType": "Electric",
-        "attachedGarageYN": "no",
-        "elementarySchool": [
-          "Hazel Vly Elem"
-        ],
-        "exteriorFeatures": [
-          "Cement/Concrete",
-          "Wood"
-        ],
-        "interiorFeatures": [
-          "Double Pane/Storm Window",
-          "Vaulted Ceiling(s)",
-          "Water Heater"
-        ],
-        "mlsLotSizeSource": "Builder",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 800,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "lotSizeSquareFeet": 4244,
-        "mainLevelBedrooms": 2,
-        "otherDuesOrFeesYN": "no",
-        "propertyCondition": [
-          "Very Good"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchoolDistrict": [
-          "Highline"
-        ],
-        "yearBuiltEffective": 2025,
-        "buildingInformation": [
-          "Built On Lot"
-        ],
-        "firstRightOfRefusal": "no",
-        "powerProductionType": [
-          "Electric"
-        ],
-        "waterHeaterLocation": "Bathroom Closet",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Cascade Mid"
-        ],
-        "bathsThreeQuarterMain": "1",
-        "associationFeeIncludes": [
-          "Common Area Maintenance",
-          "Road Maintenance"
-        ],
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Builder",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "800",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "specialListingConditions": [
-          "None"
-        ]
-      },
-      "bedrooms": 2,
-      "cityID": 6361,
-      "cityName": "Burien",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2025-01-25T22:26:43+00:00",
-      "dateModified": "2025-11-28T12:04:11+00:00",
-      "detailsURL": "b045/2326279",
-      "detailsUrlSlug": "1240-SW-124th-Street-6C-Burien-98146",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2326279/1240-SW-124th-Street-6C-Burien-98146",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6fb4/4bf6b3e4c41b2e50cd929df5d068b795/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.493685,
-      "listingAgentID": "1186410",
-      "listingID": "2326279",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$494,950",
-      "longitude": -122.352562,
-      "mediaData": [],
-      "mlsPhotoCount": 27,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 494950,
-      "priceBeforeReduction": 519950,
-      "priceData": {
-        "value": {
-          "raw": 488500,
-          "formatted": "$488,500"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "priceReductionDate": "2025-10-22T19:28:34+00:00",
-      "propStatus": "Sold",
-      "propSubType": "Single Family Residence",
-      "propType": "Residential",
-      "remarksConcat": "SPECIAL FINANCING OFFERED THROUGH PREFERRED LENDER - Rate as low as 4.875% w/ 6.071% APR, Conditions Apply* Welcome to this charming single level cottage, thoughtfully designed for modern living. Enter through the covered porch and take in the vaulted ceilings and refined finishes. Prepare meals in the expertly planned kitchen with its quartz countertops and SS appliances, and relax in your cozy living area with dining space. Fully fenced, peaceful backyard backing up to a private natural area, perfect for relaxation. Additionally, there are two spacious bedrooms w/ en suite baths and the laundry area. This home has A/C, one parking space and sits in a wonderful cul-de-sac community featuring a dog run and a playground.",
-      "rntLse": "neither",
-      "rntLsePrice": 494950,
-      "sellingAgentID": "69683756",
-      "sellingOfficeID": "1002689",
-      "soldDate": "2025-10-28T00:00:00+00:00",
-      "soldPrice": 488500,
-      "sqFt": "800",
-      "state": "Washington",
-      "streetDirection": "SW",
-      "streetName": "124th Street",
-      "streetNumber": "1240",
-      "subdivision": "Burien",
-      "threeQuarterBaths": 1,
-      "totalBaths": 2,
-      "unitNumber": "6C",
-      "viewCount": 5,
-      "vtCount": 0,
-      "yearBuilt": 2025,
-      "zipcode": "98146",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Stephen Macdonald, Managing Broker",
-        "agentPhone": "425.941.7325"
-      }
-    },
-    {
-      "acres": "0.097",
-      "address": "1240 SW 124th Street 6C",
-      "advanced": {
         "coOp": "no",
         "roof": [
           "Composition"
@@ -10709,6 +10453,262 @@
       "totalBaths": 2,
       "unitNumber": "6C",
       "viewCount": 71,
+      "vtCount": 0,
+      "yearBuilt": 2025,
+      "zipcode": "98146",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Stephen Macdonald, Managing Broker",
+        "agentPhone": "425.941.7325"
+      }
+    },
+    {
+      "acres": "0.097",
+      "address": "1240 SW 124th Street 6C",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "Ductless"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Ductless"
+        ],
+        "taxYear": 2025,
+        "flooring": [
+          "Vinyl Plank",
+          "Carpet"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "1.75",
+        "styleCode": "10 - 1 Story",
+        "appliances": [
+          "Dishwasher(s)",
+          "Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchool": [
+          "Highline High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Leased Equipment",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "livingArea": 800,
+        "possession": [
+          "Closing"
+        ],
+        "lotFeatures": [
+          "Adjacent to Public Land",
+          "Cul-De-Sac",
+          "Curbs",
+          "Paved",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "buildingName": "Sapphire on 124th",
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "130 - Burien/Normandy Park",
+        "onMarketDate": "2025-01-24T00:00:00+00:00",
+        "parkingTotal": 0,
+        "powerCompany": "Seattle City Light",
+        "sewerCompany": "Southwest Suburban Sewer",
+        "titleCompany": "Chicago Title",
+        "waterCompany": "Water District #20",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "busLineNearby": "yes",
+        "coveredSpaces": 0,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 75,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 0,
+        "leasedEquipment": "None",
+        "newConstruction": "Completed",
+        "numberOfShowers": "1",
+        "parkingFeatures": [
+          "Driveway",
+          "Off Street"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 932.1,
+        "waterHeaterType": "Electric",
+        "attachedGarageYN": "no",
+        "elementarySchool": [
+          "Hazel Vly Elem"
+        ],
+        "exteriorFeatures": [
+          "Cement/Concrete",
+          "Wood"
+        ],
+        "interiorFeatures": [
+          "Double Pane/Storm Window",
+          "Vaulted Ceiling(s)",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "Builder",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 800,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "lotSizeSquareFeet": 4244,
+        "mainLevelBedrooms": 2,
+        "otherDuesOrFeesYN": "no",
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchoolDistrict": [
+          "Highline"
+        ],
+        "yearBuiltEffective": 2025,
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "waterHeaterLocation": "Bathroom Closet",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Cascade Mid"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "associationFeeIncludes": [
+          "Common Area Maintenance",
+          "Road Maintenance"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "Builder",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "800",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ]
+      },
+      "bedrooms": 2,
+      "cityID": 6361,
+      "cityName": "Burien",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2025-01-25T22:26:43+00:00",
+      "dateModified": "2025-11-28T12:04:11+00:00",
+      "detailsURL": "b045/2326279",
+      "detailsUrlSlug": "1240-SW-124th-Street-6C-Burien-98146",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2326279/1240-SW-124th-Street-6C-Burien-98146",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6fb4/4bf6b3e4c41b2e50cd929df5d068b795/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.493685,
+      "listingAgentID": "1186410",
+      "listingID": "2326279",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$494,950",
+      "longitude": -122.352562,
+      "mediaData": [],
+      "mlsPhotoCount": 27,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 494950,
+      "priceBeforeReduction": 519950,
+      "priceData": {
+        "value": {
+          "raw": 488500,
+          "formatted": "$488,500"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "priceReductionDate": "2025-10-22T19:28:34+00:00",
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "SPECIAL FINANCING OFFERED THROUGH PREFERRED LENDER - Rate as low as 4.875% w/ 6.071% APR, Conditions Apply* Welcome to this charming single level cottage, thoughtfully designed for modern living. Enter through the covered porch and take in the vaulted ceilings and refined finishes. Prepare meals in the expertly planned kitchen with its quartz countertops and SS appliances, and relax in your cozy living area with dining space. Fully fenced, peaceful backyard backing up to a private natural area, perfect for relaxation. Additionally, there are two spacious bedrooms w/ en suite baths and the laundry area. This home has A/C, one parking space and sits in a wonderful cul-de-sac community featuring a dog run and a playground.",
+      "rntLse": "neither",
+      "rntLsePrice": 494950,
+      "sellingAgentID": "69683756",
+      "sellingOfficeID": "1002689",
+      "soldDate": "2025-10-28T00:00:00+00:00",
+      "soldPrice": 488500,
+      "sqFt": "800",
+      "state": "Washington",
+      "streetDirection": "SW",
+      "streetName": "124th Street",
+      "streetNumber": "1240",
+      "subdivision": "Burien",
+      "threeQuarterBaths": 1,
+      "totalBaths": 2,
+      "unitNumber": "6C",
+      "viewCount": 5,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98146",
