@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T11:25:40.575Z",
+  "generatedAt": "2026-10-18T15:59:51.385Z",
   "count": 9,
   "listings": [
     {
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 208,
+      "viewCount": 209,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -2583,9 +2583,7 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$795,000",
       "longitude": -122.038167,
-      "mediaData": {
-        "oh": []
-      },
+      "mediaData": [],
       "mlsPhotoCount": 34,
       "mlsPtID": 1,
       "ohCount": 0,
