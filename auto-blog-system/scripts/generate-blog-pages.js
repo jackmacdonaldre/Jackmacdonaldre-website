@@ -429,6 +429,17 @@ ${breadcrumbHtml(crumbs)}
 
 // ---------- area hubs ----------
 
+const AREA_REVIEWS = loadJson(path.join(ROOT, "auto-blog-system/content/area-reviews.json"), {});
+const GOOGLE_REVIEWS_URL = "https://www.google.com/search?q=Jack+Macdonald+Macdonald+Group+Real+Estate+Bellevue";
+
+function hubSelling(area) {
+  const reviews = Array.isArray(AREA_REVIEWS[area.slug]) ? AREA_REVIEWS[area.slug] : [];
+  const quotes = reviews.map((r) => `<blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;${escapeHtml(r.quote)}&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">${escapeHtml(r.name)}, ${escapeHtml(r.detail)}</div></blockquote>`).join("\n");
+  return `<h2 style="margin-top: var(--space-8);">Selling in ${escapeHtml(area.name)}</h2>
+<p style="line-height: 1.7;">Pricing off real nearby sales, fixing only what buyers will notice, and staying on top of the listing once it's live. <a href="/sell/">Here's how I sell homes</a>, including a Redmond home that had one showing and one offer within six hours.</p>
+${quotes ? `${quotes}\n<p style="font-size: 14px;"><a href="${GOOGLE_REVIEWS_URL}" target="_blank" rel="noopener">More client reviews on Google &rarr;</a></p>` : ""}`;
+}
+
 const listingsData = loadJson(LISTINGS_PATH, { listings: [] });
 
 function listingCard(l) {
@@ -488,6 +499,7 @@ ${report ? `<div class="card" style="padding: var(--space-6); margin-top: var(--
 ${smallPostList(guides, `New ${escapeHtml(area.name)} guides are on the way.`)}
 ${schools.length ? `<h2 style="margin-top: var(--space-8);">Schools and family</h2>${smallPostList(schools)}` : ""}
 <p style="margin-top: var(--space-6);"><a href="/blog/area/${area.slug}/">All ${escapeHtml(area.name)} posts &rarr;</a></p>
+${hubSelling(area)}
 </div>
 ${hubListings(area)}
 <div class="narrow">${valuationCta()}</div>

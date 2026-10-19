@@ -1,0 +1,13 @@
+{
+  "_note": "Real excerpts from Jack's Google reviews, keyed by area slug. Only add reviews that were actually left on Google, with the client's first name and last initial.",
+  "bellevue": [
+    { "quote": "He gave us practical advice about preparing and pricing the house, explained everything clearly, and kept us updated throughout the process. We never felt pressured or left wondering what was happening.", "name": "Caleb H.", "detail": "sold in Bellevue" },
+    { "quote": "He helped my mom sell her house in Bellevue and was incredible from beginning to end. He was super knowledgeable, and made what could have been a stressful process feel so easy.", "name": "Ruben J.", "detail": "sold in Bellevue" }
+  ],
+  "bothell": [
+    { "quote": "When the house had little activity in the first two weeks, Jack didn't just wait it out. He brought photographers back for a second round of photos and refreshed the listing, and the house sold within a month.", "name": "Richard W.", "detail": "sold in Bothell" }
+  ],
+  "woodinville": [
+    { "quote": "Jack was fantastic to work with and helped our family get the exact home we were looking for in Woodinville! Would absolutely work with him again.", "name": "Peter B.", "detail": "bought in Woodinville" }
+  ]
+}
