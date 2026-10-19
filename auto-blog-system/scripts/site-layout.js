@@ -113,6 +113,7 @@ function header() {
 <div class="links">
 <details><summary>Areas</summary><div class="menu">${areasMenu()}</div></details>
 <a href="/market-reports/">Market Reports</a>
+<a href="/sell/" class="hide-sm">Sell</a>
 <a href="/blog/" class="hide-sm">Blog</a>
 </div>
 <a href="/" class="logo"><img src="/assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass"></a>
@@ -135,6 +136,8 @@ function footer() {
 <div style="display: flex; gap: var(--space-3); align-items: flex-start; flex-wrap: wrap; max-width: 420px;">
 <a href="/areas/" style="font-size: 12px; color: var(--color-neutral-300);">Areas</a>
 <a href="/market-reports/" style="font-size: 12px; color: var(--color-neutral-300);">Market Reports</a>
+<a href="/sell/" style="font-size: 12px; color: var(--color-neutral-300);">Sell Your Home</a>
+<a href="/home-value/" style="font-size: 12px; color: var(--color-neutral-300);">Home Value</a>
 <a href="/blog/" style="font-size: 12px; color: var(--color-neutral-300);">Blog</a>
 <a href="/contact/" style="font-size: 12px; color: var(--color-neutral-300);">Contact</a>
 <a href="https://www.instagram.com/jackmacdonaldre/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Instagram</a>
