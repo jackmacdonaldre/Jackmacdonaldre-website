@@ -296,10 +296,12 @@
       "city": "Redmond",
       "neighborhood": "Redmond Ridge",
       "type": "neighborhood_guide",
-      "status": "queued",
+      "status": "published",
       "areas": [
         "redmond"
-      ]
+      ],
+      "published_slug": "redmond-ridge-homes-for-sale-community-guide",
+      "published_date": "2026-10-19"
     },
     {
       "topic": "What It Costs to Sell a Home in Washington State",
