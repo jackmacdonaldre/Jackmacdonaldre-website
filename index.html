@@ -112,6 +112,7 @@
       <div class="nav-links-left" style="display: flex; align-items: center; gap: 28px;">
       <a href="/about/" onClick="{{ goTo.about }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
       <a href="/services/" onClick="{{ goTo.services }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
+      <a href="/sell/" onClick="{{ goTo.sell }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Sell</a>
     </div>
     <a href="/" onClick="{{ goHome }}" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
 <img src="./assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
@@ -302,6 +303,7 @@
       <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
         <a href="/contact/" onClick="{{ goTo.contact }}" class="btn btn-primary">Book a Consultation</a>
         <a href="/home-value/" onClick="{{ goTo.value }}" class="btn btn-secondary">Home Valuation</a>
+        <a href="/sell/" onClick="{{ goTo.sell }}" class="btn btn-secondary">How I Sell Homes</a>
       </div>
     </section>
   </sc-if>
@@ -1067,6 +1069,7 @@ class Component extends DCLogic {
       { key: 'reports', label: 'Market Reports' },
       { key: 'news', label: 'Blog' },
       { key: 'services', label: 'Services' },
+      { key: 'sell', label: 'Sell Your Home' },
       { key: 'properties', label: 'Properties' },
       { key: 'about', label: 'About' },
       { key: 'team', label: 'Team' },
@@ -1079,7 +1082,7 @@ class Component extends DCLogic {
       border: view === it.key ? '#201f1d' : 'transparent'
     }));
     const menuOpen = !!this.state.menuOpen;
-    const navHrefs = { home: '/', areas: '/areas/', reports: '/market-reports/', news: '/blog/', services: '/services/', properties: 'https://jackmacdonaldre.idxbroker.com/idx/search', about: '/about/', team: '/team/', contact: '/contact/' };
+    const navHrefs = { home: '/', areas: '/areas/', reports: '/market-reports/', news: '/blog/', services: '/services/', properties: 'https://jackmacdonaldre.idxbroker.com/idx/search', about: '/about/', team: '/team/', contact: '/contact/', sell: '/sell/' };
     const menuItems = items.map((it, i) => ({
       label: it.label,
       href: navHrefs[it.key] || '/',

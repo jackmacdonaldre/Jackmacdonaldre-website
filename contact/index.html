@@ -46,6 +46,8 @@
   @media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
   @media (max-width: 900px) { .split-grid { grid-template-columns: 1fr !important; } }
   @media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
+  @media (max-width: 760px) { .nav-links-left { visibility: hidden; width: 0; overflow: hidden; } }
+  @media (max-width: 640px) { .nav-phone-btn { display: none !important; } }
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jackmacdonaldre.com/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://jackmacdonaldre.com/contact/"}]}</script>
 </head>
@@ -54,15 +56,16 @@
 <div style="background: var(--color-bg); min-height: 100vh; width: 100%;">
 
   <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
-    <div style="display: flex; align-items: center; gap: 28px;">
+    <div class="nav-links-left" style="display: flex; align-items: center; gap: 28px;">
       <a href="../about/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
       <a href="../services/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
+      <a href="../sell/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Sell</a>
     </div>
     <a href="../" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
       <img src="../assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
     </a>
     <div style="display: flex; align-items: center; gap: var(--space-5);">
-      <a href="tel:4259416998" class="btn btn-secondary" style="white-space: nowrap;">(425) 941-6998</a>
+      <a href="tel:4259416998" class="btn btn-secondary nav-phone-btn" style="white-space: nowrap;">(425) 941-6998</a>
       <button type="button" id="menu-open" aria-label="Open menu" style="background: none; border: none; cursor: pointer; padding: 4px; display: flex; flex-direction: column; gap: 5px;">
         <span style="width: 26px; height: 1px; background: #201f1d;"></span>
         <span style="width: 26px; height: 1px; background: #201f1d;"></span>
@@ -80,6 +83,7 @@
         <a href="../areas/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.04s;">Areas</a>
         <a href="../market-reports/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.04s;">Market Reports</a>
         <a href="../services/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.08s;">Services</a>
+        <a href="../sell/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.08s;">Sell Your Home</a>
         <a href="../search.html" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.12s;">Properties</a>
         <a href="../about/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.16s;">About</a>
         <a href="../team/" class="menu-link" style="font-family: var(--font-heading); font-size: clamp(28px, 4.2vw, 44px); font-weight: var(--font-heading-weight); color: #201f1d; transition-delay: 0.20s;">Team</a>
