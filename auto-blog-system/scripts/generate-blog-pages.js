@@ -435,8 +435,30 @@ const GOOGLE_REVIEWS_URL = "https://www.google.com/search?q=Jack+Macdonald+Macdo
 function hubSelling(area) {
   const reviews = Array.isArray(AREA_REVIEWS[area.slug]) ? AREA_REVIEWS[area.slug] : [];
   const quotes = reviews.map((r) => `<blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;${escapeHtml(r.quote)}&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">${escapeHtml(r.name)}, ${escapeHtml(r.detail)}</div></blockquote>`).join("\n");
-  return `<h2 style="margin-top: var(--space-8);">Selling in ${escapeHtml(area.name)}</h2>
-<p style="line-height: 1.7;">Pricing off real nearby sales, fixing only what buyers will notice, and staying on top of the listing once it's live. <a href="/sell/">Here's how I sell homes</a>, including a Redmond home that had one showing and one offer within six hours.</p>
+  const report = reportFor(area.slug);
+  const st = report && report.stats;
+  const name = escapeHtml(area.name);
+  let market = "";
+  if (st && st.cur && st.cur.medianDom != null) {
+    const dom = st.cur.medianDom, sold = st.cur.homesSold, s2l = st.cur.saleToList;
+    const win = escapeHtml(report.info.window || "the last three months");
+    const days = (n) => `${n} ${n === 1 ? "day" : "days"}`;
+    if (sold != null && sold < 25) {
+      market = `Only ${sold} single family homes sold in ${name} from ${win}, so there aren't many good comparables. That makes picking the right ones, and knowing what's different about your home, a bigger part of getting the price right.`;
+    } else if (st.domYoY != null && st.domYoY >= 5) {
+      const mos = st.cur.monthsOfSupply;
+      market = `${name} has slowed down: the median home took ${days(dom)} to sell from ${win}, ${days(st.domYoY)} longer than a year ago${mos != null ? `, and there are about ${mos.toFixed(1)} months of supply` : ""}.`;
+    } else if (st.domYoY != null && st.domYoY <= -1) {
+      market = `${name} homes are selling a little faster than last year: ${days(dom)} at the median from ${win}${s2l != null ? `, with sellers getting about ${s2l.toFixed(1)}% of list price on average` : ""}.`;
+    } else {
+      market = `From ${win}, the median ${name} home sold in ${days(dom)}${s2l != null ? ` at about ${s2l.toFixed(1)}% of list price` : ""}.`;
+    }
+    market += ` <a href="${report.path}">See the full ${name} numbers</a>.`;
+  }
+  const example = area.slug === "redmond" ? ` One Redmond home I listed had one showing and one offer within six hours.` : "";
+  return `<h2 style="margin-top: var(--space-8);">Selling in ${name}</h2>
+${market ? `<p style="line-height: 1.7;">${market}</p>` : ""}
+<p style="line-height: 1.7;">I price off the sales that actually happened near you, fix only what buyers will notice, and stay on top of the listing once it's live.${example} <a href="/sell/">Here's how I sell homes</a>, or <a href="/home-value/">get a price range for yours</a>.</p>
 ${quotes ? `${quotes}\n<p style="font-size: 14px;"><a href="${GOOGLE_REVIEWS_URL}" target="_blank" rel="noopener">More client reviews on Google &rarr;</a></p>` : ""}`;
 }
 
