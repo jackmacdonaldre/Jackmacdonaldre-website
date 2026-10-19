@@ -1,0 +1,5 @@
+# Template placeholders Google found in the raw homepage HTML (they are not real pages)
+/%7B%7B*   /   301!
+/{{*       /   301!
+# Truncated link Google found on Sep 29, 2026
+/mo        /market-reports/   301
