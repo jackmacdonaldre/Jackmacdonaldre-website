@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:56:38.275Z",
+  "generatedAt": "2026-10-19T13:40:59.990Z",
   "count": 8,
   "listings": [
     {
@@ -736,25 +736,11 @@
       "listingPrice": "$1,149,800",
       "longitude": -122.198721,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163536679",
-            "text": "",
-            "starts": "2026-10-18T14:00:00+00:00",
-            "expires": "2026-10-18T17:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-16T17:55:27+00:00",
-            "freeFormDate": "October 18th, 2026",
-            "freeFormTime": "2:00 pm to 5:00 pm",
-            "listingID": "2528070",
-            "startTime": 1792332000
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 40,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1149800,
@@ -1200,25 +1186,11 @@
       "listingPrice": "$1,139,800",
       "longitude": -122.198729,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163643971",
-            "text": "",
-            "starts": "2026-10-18T14:00:00+00:00",
-            "expires": "2026-10-18T17:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-16T21:25:16+00:00",
-            "freeFormDate": "October 18th, 2026",
-            "freeFormTime": "2:00 pm to 5:00 pm",
-            "listingID": "2595479",
-            "startTime": 1792332000
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 31,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1139800,
@@ -2519,25 +2491,11 @@
       "listingPrice": "$685,000",
       "longitude": -122.377471,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163269727",
-            "text": "",
-            "starts": "2026-10-18T13:00:00+00:00",
-            "expires": "2026-10-18T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-16T18:10:19+00:00",
-            "freeFormDate": "October 18th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2588925",
-            "startTime": 1792328400
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 685000,
@@ -2948,25 +2906,11 @@
       "listingPrice": "$685,000",
       "longitude": -122.377481,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163168775",
-            "text": "",
-            "starts": "2026-10-18T13:00:00+00:00",
-            "expires": "2026-10-18T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-16T17:55:16+00:00",
-            "freeFormDate": "October 18th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2584647",
-            "startTime": 1792328400
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 26,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 685000,
