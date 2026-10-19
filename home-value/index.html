@@ -46,6 +46,7 @@
   @media (max-width: 700px) { .diff-cell, .stat-cell { border-left: none !important; border-top: 1px solid var(--color-divider); } }
   @media (max-width: 900px) { .split-grid { grid-template-columns: 1fr !important; } }
   @media (max-width: 640px) { .process-line { display: none !important; } .process-grid { grid-template-columns: repeat(2, 1fr) !important; } }
+  @media (max-width: 760px) { .nav-links-left { visibility: hidden; } }
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "serviceType": "Home valuation / comparative market analysis", "name": "Free Eastside home value estimate from Jack Macdonald", "url": "https://jackmacdonaldre.com/home-value/", "provider": {"@type": "RealEstateAgent", "name": "Jack Macdonald", "url": "https://jackmacdonaldre.com/", "telephone": "+1-425-941-6998", "address": {"@type": "PostalAddress", "streetAddress": "700 110th Ave NE, Ste 270", "addressLocality": "Bellevue", "addressRegion": "WA", "postalCode": "98004", "addressCountry": "US"}, "parentOrganization": {"@type": "Organization", "name": "Macdonald Group of Compass"}}, "areaServed": [{"@type": "City", "name": "Bellevue, WA"}, {"@type": "City", "name": "Kirkland, WA"}, {"@type": "City", "name": "Redmond, WA"}, {"@type": "City", "name": "Sammamish, WA"}, {"@type": "City", "name": "Issaquah, WA"}, {"@type": "City", "name": "Woodinville, WA"}, {"@type": "City", "name": "Bothell, WA"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jackmacdonaldre.com/"}, {"@type": "ListItem", "position": 2, "name": "Home Value", "item": "https://jackmacdonaldre.com/home-value/"}]}</script>
@@ -55,7 +56,7 @@
 <div style="background: var(--color-bg); min-height: 100vh; width: 100%;">
 
   <div class="nav" style="padding: var(--space-3) var(--space-6); justify-content: space-between; position: relative;">
-    <div style="display: flex; align-items: center; gap: 28px;">
+    <div class="nav-links-left" style="display: flex; align-items: center; gap: 28px;">
       <a href="../about/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
       <a href="../services/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
       <a href="../sell/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Sell</a>
