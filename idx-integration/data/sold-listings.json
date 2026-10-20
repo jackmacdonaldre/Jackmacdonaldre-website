@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T11:53:01.299Z",
+  "generatedAt": "2026-10-20T17:22:33.330Z",
   "count": 122,
   "listings": [
     {
@@ -1134,7 +1134,7 @@
       "subdivision": "Bellevue",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 37,
+      "viewCount": 38,
       "vtCount": 0,
       "yearBuilt": 1991,
       "zipcode": "98006",
@@ -1697,7 +1697,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 80,
+      "viewCount": 81,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
@@ -5207,7 +5207,7 @@
       "subdivision": "Poulsbo",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 46,
+      "viewCount": 47,
       "vtCount": 0,
       "yearBuilt": 1936,
       "zip4": "9530",
