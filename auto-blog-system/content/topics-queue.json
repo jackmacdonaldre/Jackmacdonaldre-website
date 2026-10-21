@@ -493,10 +493,11 @@
       "topic": "Selling an Inherited Home on the Eastside: Where to Start",
       "city": "Eastside",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "added": "2026-10-20",
-      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
-      "track": "estate"
+      "note": "Drafted by Claude with Jack photos 2026-10-20; goes live only when Jack approves PR 15.",
+      "track": "estate",
+      "slug": "selling-an-inherited-home-on-the-eastside-where-to-start"
     },
     {
       "topic": "What It Costs to Sell a Home in Washington State",

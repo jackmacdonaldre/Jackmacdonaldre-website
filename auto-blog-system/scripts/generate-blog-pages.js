@@ -192,7 +192,7 @@ function buildPostHtml(post, all) {
       dateModified: lastmodOf(post),
       author: { "@type": "Person", name: "Jack Macdonald", jobTitle: "REALTOR", url: `${SITE_URL}/about/`, image: `${SITE_URL}/assets/jack-sunset.png`, worksFor: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass" }, sameAs: L.AGENT.sameAs },
       publisher: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass", url: SITE_URL, logo: { "@type": "ImageObject", url: `${SITE_URL}/assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png` }, address: L.AGENT.address, telephone: L.AGENT.telephone },
-      image: `${SITE_URL}/assets/nbhd-bellevue.jpg`,
+      image: `${SITE_URL}${post.image || "/assets/nbhd-bellevue.jpg"}`,
       mainEntityOfPage: { "@type": "WebPage", "@id": SITE_URL + url },
       articleSection: topicBySlug(post.topic).name,
       keywords: post.areas.map((a) => areaBySlug(a).name).join(", "),
@@ -217,7 +217,7 @@ ${moreAboutBox(post, all)}
 ${related.length ? `<h2 style="margin-top: calc(var(--space-8) * 1.1);">Related posts</h2>${smallPostList(related)}` : ""}
 ${nextStep(post)}
 ${partnerBox(post)}</article>`;
-  return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: "/assets/nbhd-bellevue.jpg", markdownAlt: true });
+  return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: post.image || "/assets/nbhd-bellevue.jpg", markdownAlt: true });
 }
 
 // ---------- blog home + filter pages ----------
