@@ -24,7 +24,7 @@
   <meta name="twitter:card" content="summary_large_image">
 <script src="./support.js"></script>
   <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Jack Macdonald","image":"https://jackmacdonaldre.com/assets/jack-sunset.png","url":"https://jackmacdonaldre.com/","telephone":"+1-425-941-6998","address":{"@type":"PostalAddress","streetAddress":"700 110th Ave NE, Ste 270","addressLocality":"Bellevue","addressRegion":"WA","postalCode":"98004","addressCountry":"US"},"areaServed":["Bellevue","Kirkland","Redmond","Sammamish","Issaquah","Woodinville","Bothell"],"worksFor":{"@type":"Organization","name":"Macdonald Group at Compass"}}
+    {"@context":"https://schema.org","@type":"RealEstateAgent","name":"Jack Macdonald","image":"https://jackmacdonaldre.com/assets/jack-sunset.png","url":"https://jackmacdonaldre.com/","telephone":"+1-425-941-6998","address":{"@type":"PostalAddress","streetAddress":"700 110th Ave NE, Ste 270","addressLocality":"Bellevue","addressRegion":"WA","postalCode":"98004","addressCountry":"US"},"areaServed":["Bellevue","Kirkland","Redmond","Sammamish","Issaquah","Woodinville","Bothell"],"worksFor":{"@type":"Organization","name":"Macdonald Group at Compass"},"knowsAbout":["Bellevue real estate","Eastside real estate","Home buying","Home selling","Inherited home sales","Estate and probate home sales"]}
   </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jackmacdonaldre.com/"}]}</script>
 </head>
@@ -36,6 +36,7 @@
 <p>Office: 700 110th Ave NE, Ste 270, Bellevue, WA 98004. Phone: <a href="tel:4259416998">(425) 941-6998</a>. License #21022645.</p>
 <ul>
 <li><a href="/sell/">Sell your home on the Eastside</a></li>
+<li><a href="/inherited-homes/">Selling an inherited or estate home</a></li>
 <li><a href="/home-value/">What's my home worth?</a></li>
 <li><a href="/services/">Services</a></li>
 <li><a href="/market-reports/">Monthly Eastside market reports</a></li>
@@ -122,6 +123,7 @@
       <a href="/about/" onClick="{{ goTo.about }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">About</a>
       <a href="/services/" onClick="{{ goTo.services }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Services</a>
       <a href="/sell/" onClick="{{ goTo.sell }}" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Sell</a>
+      <a href="/inherited-homes/" style="font-size: 13px; letter-spacing: 0.06em; color: var(--color-neutral-700);">Estate Homes</a>
     </div>
     <a href="/" onClick="{{ goHome }}" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: var(--space-3);">
 <img src="./assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png" alt="Macdonald Group | Compass" style="height: 32px; width: auto; display: block;">
@@ -1049,6 +1051,7 @@ class Component extends DCLogic {
   if (view === 'news') { window.location.href = '/blog/'; return; }
   if (view === 'value') { window.location.href = '/home-value/'; return; }
   if (view === 'sell') { window.location.href = '/sell/'; return; }
+  if (view === 'estate') { window.location.href = '/inherited-homes/'; return; }
     this.setState({ view });
     window.scrollTo(0, 0);
   }
@@ -1081,6 +1084,7 @@ class Component extends DCLogic {
       { key: 'news', label: 'Blog' },
       { key: 'services', label: 'Services' },
       { key: 'sell', label: 'Sell Your Home' },
+      { key: 'estate', label: 'Inherited & Estate Homes' },
       { key: 'properties', label: 'Properties' },
       { key: 'about', label: 'About' },
       { key: 'team', label: 'Team' },
@@ -1093,7 +1097,7 @@ class Component extends DCLogic {
       border: view === it.key ? '#201f1d' : 'transparent'
     }));
     const menuOpen = !!this.state.menuOpen;
-    const navHrefs = { home: '/', areas: '/areas/', reports: '/market-reports/', news: '/blog/', services: '/services/', properties: 'https://jackmacdonaldre.idxbroker.com/idx/search', about: '/about/', team: '/team/', contact: '/contact/', sell: '/sell/' };
+    const navHrefs = { home: '/', areas: '/areas/', reports: '/market-reports/', news: '/blog/', services: '/services/', properties: 'https://jackmacdonaldre.idxbroker.com/idx/search', about: '/about/', team: '/team/', contact: '/contact/', sell: '/sell/', estate: '/inherited-homes/' };
     const menuItems = items.map((it, i) => ({
       label: it.label,
       href: navHrefs[it.key] || '/',
