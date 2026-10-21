@@ -304,67 +304,6 @@
       "published_date": "2026-10-19"
     },
     {
-      "topic": "What It Costs to Sell a Home in Washington State",
-      "city": "Eastside",
-      "neighborhood": null,
-      "type": "seller_guide",
-      "areas": [
-        "eastside"
-      ],
-      "status": "queued"
-    },
-    {
-      "topic": "Fall City, WA: What Living and Buying Here Is Really Like",
-      "city": "Fall City",
-      "neighborhood": null,
-      "type": "neighborhood_guide",
-      "areas": [
-        "fall-city"
-      ],
-      "status": "queued"
-    },
-    {
-      "topic": "Best Time of Year to Sell on the Eastside",
-      "city": "Eastside",
-      "neighborhood": null,
-      "type": "seller_guide",
-      "areas": [
-        "eastside"
-      ],
-      "status": "queued"
-    },
-    {
-      "topic": "Talus and Squak Mountain, Issaquah: Neighborhood Guide",
-      "city": "Issaquah",
-      "neighborhood": "Talus and Squak Mountain",
-      "type": "neighborhood_guide",
-      "areas": [
-        "issaquah"
-      ],
-      "status": "queued"
-    },
-    {
-      "topic": "Downsizing on the Eastside: Where Sellers Go Next",
-      "city": "Eastside",
-      "neighborhood": null,
-      "type": "seller_guide",
-      "areas": [
-        "eastside"
-      ],
-      "status": "queued"
-    },
-    {
-      "topic": "Selling Rural and Acreage Homes in North Bend or Fall City",
-      "city": "North Bend",
-      "neighborhood": null,
-      "type": "seller_guide",
-      "areas": [
-        "north-bend",
-        "fall-city"
-      ],
-      "status": "queued"
-    },
-    {
       "topic": "Education Hill, Redmond: Neighborhood Guide",
       "city": "Redmond",
       "neighborhood": "Education Hill",
@@ -409,45 +348,28 @@
       "note": "Replaced by \"Best Time of Year to Sell on the Eastside\" (moved to the front of the queue, Oct 2026)."
     },
     {
-      "topic": "Houghton Kirkland Homes for Sale: Neighborhood Guide",
-      "city": "Kirkland",
-      "neighborhood": "Houghton",
-      "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
       "topic": "Bothell Real Estate: An Honest Overview for Buyers",
       "city": "Bothell",
       "neighborhood": null,
       "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Bellevue School District Boundaries: How to Check Which Schools a Home Is Assigned To",
-      "city": "Bellevue",
-      "type": "school_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Living Near Microsoft Redmond Campus: Best Nearby Neighborhoods",
-      "city": "Redmond",
-      "neighborhood": null,
-      "type": "relocation_guide",
-      "status": "queued"
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
     },
     {
       "topic": "New Construction Homes on the Eastside: What to Know",
       "city": "Eastside",
       "neighborhood": null,
       "type": "buyer_guide",
-      "status": "queued"
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
     },
     {
       "topic": "Lake Hills Bellevue Homes for Sale: What Buyers Should Know",
       "city": "Bellevue",
       "neighborhood": "Lake Hills",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
     },
     {
       "topic": "How to Price Your Home to Sell in Bellevue",
@@ -457,30 +379,12 @@
       "note": "Replaced by \"How to Price Your Eastside Home in Today's Market\" (moved to the front of the queue, Oct 2026)."
     },
     {
-      "topic": "Buying a Home Near Top Rated Schools in Sammamish: Lake Washington vs Issaquah District",
-      "city": "Sammamish",
-      "type": "school_guide",
-      "status": "queued"
-    },
-    {
       "topic": "Crossroads Bellevue: Neighborhood Guide for Buyers",
       "city": "Bellevue",
       "neighborhood": "Crossroads",
       "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Kirkland vs Redmond: Which Eastside City Fits You?",
-      "city": "Kirkland",
-      "type": "comparison",
-      "status": "queued"
-    },
-    {
-      "topic": "Totem Lake Kirkland Homes and Condos: What Buyers Should Know",
-      "city": "Kirkland",
-      "neighborhood": "Totem Lake",
-      "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
     },
     {
       "topic": "Downsizing on the Eastside: Selling a Family Home and Buying Smaller",
@@ -494,20 +398,316 @@
       "city": "Bothell",
       "neighborhood": "Canyon Park",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
     },
     {
       "topic": "Bellevue Condos vs Townhomes: Which Makes More Sense to Buy",
       "city": "Bellevue",
       "type": "buyer_guide",
-      "status": "queued"
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
     },
     {
       "topic": "Pine Lake Sammamish Homes for Sale: Neighborhood Guide",
       "city": "Sammamish",
       "neighborhood": "Pine Lake",
       "type": "neighborhood_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Factoria and Eastgate Bellevue: Neighborhood Guide for Buyers",
+      "city": "Bellevue",
+      "neighborhood": "Factoria",
+      "type": "neighborhood_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Woodinville Wine Country: Living Near the Tasting Rooms",
+      "city": "Woodinville",
+      "type": "lifestyle_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Squak Mountain and Issaquah Neighborhoods Near Downtown: Buyer Guide",
+      "city": "Issaquah",
+      "neighborhood": "Squak Mountain",
+      "type": "neighborhood_guide",
+      "status": "superseded",
+      "note": "Replaced by \"Talus and Squak Mountain, Issaquah: Neighborhood Guide\" (moved to the front of the queue, Oct 2026)."
+    },
+    {
+      "topic": "Wilburton and the Bellevue Spring District: What Is Changing",
+      "city": "Bellevue",
+      "neighborhood": "Wilburton",
+      "type": "neighborhood_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Best Beaches and Waterfront Parks on Lake Washington's Eastside",
+      "city": "Kirkland",
+      "type": "lifestyle_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Newcastle WA Homes for Sale: An Honest Overview",
+      "city": "Newcastle",
+      "type": "neighborhood_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Home Inspection on the Eastside: What Buyers Commonly Find in 1970s and 1980s Homes",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Bothell vs Woodinville: Which Fits Your Life Better?",
+      "city": "Bothell",
+      "type": "comparison",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Light Rail on the Eastside: Which Neighborhoods the 2 Line Changes",
+      "city": "Bellevue",
+      "type": "buyer_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Best Neighborhoods in Bellevue for Families",
+      "city": "Bellevue",
+      "type": "neighborhood_guide",
+      "status": "parked",
+      "parked": "2026-10-20 (swapped for seller and inherited home topics)"
+    },
+    {
+      "topic": "Selling an Inherited Home on the Eastside: Where to Start",
+      "city": "Eastside",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "estate"
+    },
+    {
+      "topic": "What It Costs to Sell a Home in Washington State",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
       "status": "queued"
+    },
+    {
+      "topic": "What Kirkland Homes Are Actually Selling For Right Now",
+      "city": "Kirkland",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
+      "topic": "Fall City, WA: What Living and Buying Here Is Really Like",
+      "city": "Fall City",
+      "neighborhood": null,
+      "type": "neighborhood_guide",
+      "areas": [
+        "fall-city"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Selling a House in Probate in Washington: How the Timeline Works",
+      "city": "Eastside",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "estate"
+    },
+    {
+      "topic": "Best Time of Year to Sell on the Eastside",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Selling Your Redmond Home: What Buyers Notice First",
+      "city": "Redmond",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
+      "topic": "Talus and Squak Mountain, Issaquah: Neighborhood Guide",
+      "city": "Issaquah",
+      "neighborhood": "Talus and Squak Mountain",
+      "type": "neighborhood_guide",
+      "areas": [
+        "issaquah"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Selling a Parent's Home in Bellevue: A Checklist for Families",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "estate"
+    },
+    {
+      "topic": "Downsizing on the Eastside: Where Sellers Go Next",
+      "city": "Eastside",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "eastside"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Selling a Rose Hill Kirkland Home: What Buyers Pay For",
+      "city": "Kirkland",
+      "neighborhood": "Rose Hill",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
+      "topic": "Selling Rural and Acreage Homes in North Bend or Fall City",
+      "city": "North Bend",
+      "neighborhood": null,
+      "type": "seller_guide",
+      "areas": [
+        "north-bend",
+        "fall-city"
+      ],
+      "status": "queued"
+    },
+    {
+      "topic": "Sell, Rent or Keep an Inherited House in King County?",
+      "city": "Eastside",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "estate"
+    },
+    {
+      "topic": "Houghton Kirkland Homes for Sale: Neighborhood Guide",
+      "city": "Kirkland",
+      "neighborhood": "Houghton",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Selling in Issaquah Highlands: What Moves a Home Faster",
+      "city": "Issaquah",
+      "neighborhood": "Issaquah Highlands",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
+      "topic": "Bellevue School District Boundaries: How to Check Which Schools a Home Is Assigned To",
+      "city": "Bellevue",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Clearing Out a Family Home Before You Sell on the Eastside",
+      "city": "Eastside",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "estate"
+    },
+    {
+      "topic": "Living Near Microsoft Redmond Campus: Best Nearby Neighborhoods",
+      "city": "Redmond",
+      "neighborhood": null,
+      "type": "relocation_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Kirkland Sellers: What to Fix and What to Skip Before Listing",
+      "city": "Kirkland",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
+      "topic": "Buying a Home Near Top Rated Schools in Sammamish: Lake Washington vs Issaquah District",
+      "city": "Sammamish",
+      "type": "school_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "Selling a Home After a Parent Moves to Assisted Living",
+      "city": "Eastside",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "estate"
+    },
+    {
+      "topic": "Kirkland vs Redmond: Which Eastside City Fits You?",
+      "city": "Kirkland",
+      "type": "comparison",
+      "status": "queued"
+    },
+    {
+      "topic": "Selling on Education Hill Redmond: What Sellers Should Know",
+      "city": "Redmond",
+      "neighborhood": "Education Hill",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
+      "topic": "Totem Lake Kirkland Homes and Condos: What Buyers Should Know",
+      "city": "Kirkland",
+      "neighborhood": "Totem Lake",
+      "type": "neighborhood_guide",
+      "status": "queued"
+    },
+    {
+      "topic": "How Long It Takes to Sell a Home in Redmond",
+      "city": "Redmond",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
     },
     {
       "topic": "Moving to Kirkland: A Practical Relocation Guide",
@@ -516,11 +716,13 @@
       "status": "queued"
     },
     {
-      "topic": "Factoria and Eastgate Bellevue: Neighborhood Guide for Buyers",
-      "city": "Bellevue",
-      "neighborhood": "Factoria",
-      "type": "neighborhood_guide",
-      "status": "queued"
+      "topic": "Selling a Townhome or Condo in Issaquah",
+      "city": "Issaquah",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
     },
     {
       "topic": "How Property Taxes Work in King County for Eastside Homeowners",
@@ -529,11 +731,29 @@
       "status": "queued"
     },
     {
+      "topic": "Selling a Home in Carnation: What Rural Buyers Look For",
+      "city": "Carnation",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
+    },
+    {
       "topic": "Market Street and Norkirk Kirkland: Living Near Downtown Kirkland",
       "city": "Kirkland",
       "neighborhood": "Norkirk",
       "type": "neighborhood_guide",
       "status": "queued"
+    },
+    {
+      "topic": "Questions to Ask Before You Hire a Listing Agent on the Eastside",
+      "city": "Eastside",
+      "type": "seller_guide",
+      "status": "review",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
+      "track": "local"
     },
     {
       "topic": "Issaquah vs Sammamish: Comparing Two Eastside Cities",
@@ -555,20 +775,6 @@
       "status": "queued"
     },
     {
-      "topic": "Woodinville Wine Country: Living Near the Tasting Rooms",
-      "city": "Woodinville",
-      "type": "lifestyle_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Squak Mountain and Issaquah Neighborhoods Near Downtown: Buyer Guide",
-      "city": "Issaquah",
-      "neighborhood": "Squak Mountain",
-      "type": "neighborhood_guide",
-      "status": "superseded",
-      "note": "Replaced by \"Talus and Squak Mountain, Issaquah: Neighborhood Guide\" (moved to the front of the queue, Oct 2026)."
-    },
-    {
       "topic": "Should You Buy Before You Sell on the Eastside?",
       "city": "Bellevue",
       "type": "seller_guide",
@@ -588,41 +794,10 @@
       "status": "queued"
     },
     {
-      "topic": "Wilburton and the Bellevue Spring District: What Is Changing",
-      "city": "Bellevue",
-      "neighborhood": "Wilburton",
-      "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Best Beaches and Waterfront Parks on Lake Washington's Eastside",
-      "city": "Kirkland",
-      "type": "lifestyle_guide",
-      "status": "queued"
-    },
-    {
       "topic": "Trossachs and Sahalee: Sammamish Neighborhoods for Larger Lots",
       "city": "Sammamish",
       "neighborhood": "Sahalee",
       "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Newcastle WA Homes for Sale: An Honest Overview",
-      "city": "Newcastle",
-      "type": "neighborhood_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Home Inspection on the Eastside: What Buyers Commonly Find in 1970s and 1980s Homes",
-      "city": "Bellevue",
-      "type": "buyer_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Bothell vs Woodinville: Which Fits Your Life Better?",
-      "city": "Bothell",
-      "type": "comparison",
       "status": "queued"
     },
     {
@@ -635,18 +810,6 @@
       "topic": "Selling a House With Tenants in Washington State: What Owners Should Know",
       "city": "Bellevue",
       "type": "seller_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Light Rail on the Eastside: Which Neighborhoods the 2 Line Changes",
-      "city": "Bellevue",
-      "type": "buyer_guide",
-      "status": "queued"
-    },
-    {
-      "topic": "Best Neighborhoods in Bellevue for Families",
-      "city": "Bellevue",
-      "type": "neighborhood_guide",
       "status": "queued"
     },
     {
