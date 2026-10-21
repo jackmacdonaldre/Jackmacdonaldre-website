@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:46:33.663Z",
+  "generatedAt": "2026-10-21T23:27:58.445Z",
   "count": 8,
   "listings": [
     {
@@ -1008,7 +1008,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-10-16T21:51:40+00:00",
-      "dateModified": "2026-10-17T12:03:49+00:00",
+      "dateModified": "2026-10-21T22:43:14+00:00",
       "detailsURL": "b045/2595479",
       "detailsUrlSlug": "10667-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -1183,10 +1183,26 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$1,139,800",
       "longitude": -122.198729,
-      "mediaData": [],
+      "mediaData": {
+        "oh": [
+          {
+            "id": "163643971",
+            "text": "",
+            "starts": "2026-10-23T16:00:00+00:00",
+            "expires": "2026-10-23T18:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-10-21T22:55:43+00:00",
+            "freeFormDate": "October 23rd, 2026",
+            "freeFormTime": "4:00 pm to 6:00 pm",
+            "listingID": "2595479",
+            "startTime": 1792771200
+          }
+        ]
+      },
       "mlsPhotoCount": 31,
       "mlsPtID": 1,
-      "ohCount": 0,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1139800,
@@ -1899,7 +1915,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-10-12T23:16:12+00:00",
+      "dateModified": "2026-10-21T22:18:12+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -2087,30 +2103,48 @@
       "listingAgentID": "1186410",
       "listingID": "2577976",
       "listingOfficeID": "91866779",
-      "listingPrice": "$795,000",
+      "listingPrice": "$770,000",
       "longitude": -122.038167,
-      "mediaData": [],
+      "mediaData": {
+        "oh": [
+          {
+            "id": "162788469",
+            "text": "",
+            "starts": "2026-10-25T13:00:00+00:00",
+            "expires": "2026-10-25T15:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-10-21T22:25:11+00:00",
+            "freeFormDate": "October 25th, 2026",
+            "freeFormTime": "1:00 pm to 3:00 pm",
+            "listingID": "2577976",
+            "startTime": 1792933200
+          }
+        ]
+      },
       "mlsPhotoCount": 34,
       "mlsPtID": 1,
-      "ohCount": 0,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 1,
-      "price": 795000,
+      "price": 770000,
+      "priceBeforeReduction": 795000,
       "priceData": {
         "value": {
-          "raw": 795000,
-          "formatted": "$795,000"
+          "raw": 770000,
+          "formatted": "$770,000"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
+      "priceReductionDate": "2026-10-21T22:12:45+00:00",
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
       "remarksConcat": "Tucked at the end of a cozy cul-de-sac in desirable Elk Run South, this beautifully renovated home offers a fresh, modern interior with generous living spaces and a wonderful fully-fenced backyard. Vaulted ceilings and abundant natural light create an airy welcome in this move-in ready home. The updated kitchen with quartz countertops, island seating and modern appliances opens into a comfortable space designed for everyday living and entertaining. Upstairs, four spacious bedrooms are complemented by a versatile bonus room, home office, media room, or play space. Outside, enjoy an expansive fenced backyard and large patio perfect for summer dining, entertaining, or relaxation. Recent major improvements include a new roof, A/C, furnace, and hot water tank, offering added peace of mind. Ideally located in the sought-after Tahoma School District, this turnkey home offers the space, setting, and updates you're looking for.",
       "rntLse": "neither",
-      "rntLsePrice": 795000,
+      "rntLsePrice": 770000,
       "sqFt": "2,380",
       "state": "Washington",
       "streetName": "227th Place SE",
