@@ -66,6 +66,12 @@ This is the part nobody plans for. Your parent may agree the house needs to go a
 
 One more thing. Don't empty the house all at once and send the leftovers away before your parent has settled in. People often find in the first month that they want a certain chair, a lamp, or a box of photos. Give it a few weeks before the final clean out. A short wait costs very little, and you can't get those things back once they're gone.
 
+## Related guides
+
+* [Selling a Parent's Home in Bellevue: A Checklist for Families](https://jackmacdonaldre.com/blog/selling-a-parents-home-in-bellevue-checklist/)
+* [Clearing Out a Family Home Before You Sell on the Eastside](https://jackmacdonaldre.com/blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/)
+* [Sell, Rent or Keep an Inherited House in King County?](https://jackmacdonaldre.com/blog/sell-rent-or-keep-an-inherited-house-in-king-county/)
+
 Sources: [Washington Uniform Power of Attorney Act](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125), [RCW 11.125.270](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.270), [RCW 11.125.040](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.040), [RCW 11.125.100](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.100), [RCW 11.125.190](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.190). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

@@ -78,6 +78,12 @@ A few habits make a long distance sale feel close:
 
 Distance doesn't make a Pierce County sale harder on its own. Decisions made on stale information do. Keep everyone looking at the same current facts, and a house an hour away sells about like one down the street.
 
+## Related guides
+
+* [Selling a House in Probate in Washington: How the Timeline Works](https://jackmacdonaldre.com/blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/)
+* [Selling a Probate Home in King County: What Families Should Know](https://jackmacdonaldre.com/blog/selling-a-probate-home-in-king-county/)
+* [Selling an Inherited Home in Snohomish County: Everett to Bothell](https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-snohomish-county-everett-to-bothell/)
+
 Sources: [Pierce County Superior Court Clerk](https://www.piercecountywa.gov/7816/FAQS), [Pierce County Clerk on probate](https://www.piercecountywa.gov/7785/Probate), [Tacoma Pierce County Health Department on selling with septic](https://tpchd.org/homes/septic-systems/report-of-system-status/), [Health Department septic systems](https://www.tpchd.org/healthy-places/septic-systems), [Washington law on where probate is filed](https://app.leg.wa.gov/RCW/default.aspx?cite=11.96A.050), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

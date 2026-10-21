@@ -86,6 +86,12 @@ I tell families not to set a listing date until the house is mostly cleared and 
 
 The empty house is a different house. Walk through it again once it's clear, before you decide on repairs or price. Rooms look bigger, flaws show up that furniture was hiding, and you'll make better decisions looking at what a buyer will actually see.
 
+## Related guides
+
+* [Selling a Parent's Home in Bellevue: A Checklist for Families](https://jackmacdonaldre.com/blog/selling-a-parents-home-in-bellevue-checklist/)
+* [Selling a Home After a Parent Moves to Assisted Living](https://jackmacdonaldre.com/blog/selling-a-home-after-a-parent-moves-to-assisted-living/)
+* [Selling an Inherited Home on the Eastside: Where to Start](https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/)
+
 Sources: [IRS: Charitable contribution deductions](https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contribution-deductions), [IRS Publication 526](https://www.irs.gov/publications/p526). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

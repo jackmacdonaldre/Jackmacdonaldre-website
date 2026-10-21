@@ -56,6 +56,12 @@ Inheriting a house doesn't trigger Washington's real estate excise tax, but sell
 
 The biggest King County surprise I see isn't the court. It's the septic inspection, or the tax bill sent to an empty mailbox. Both are easy to handle in week one and painful to discover in week six.
 
+## Related guides
+
+* [Selling a House in Probate in Washington: How the Timeline Works](https://jackmacdonaldre.com/blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/)
+* [Selling an Inherited Home in Snohomish County: Everett to Bothell](https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-snohomish-county-everett-to-bothell/)
+* [Selling an Inherited Home in Pierce County: Tacoma and Puyallup](https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup/)
+
 Sources: [King County Superior Court Ex Parte and Probate](https://kingcounty.gov/courts/superior-court/ex-parte-probate.aspx), [King County Superior Court calendars and locations](https://kingcounty.gov/en/court/superior-court/courts-jails-legal-system/court-calendars-locations-operations/superior-court-calendars-schedules), [King County local rule on case assignment areas](https://kingcounty.gov/en/dept/dja/courts-jails-legal-system/superior-court-local-rules/local-civil-rules/lcr-82), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [Public Health Seattle and King County on septic sales and transfers](https://kingcounty.gov/en/dept/dph/health-safety/environmental-health/on-site-sewage-systems/sales-transfers), [King County Treasury property tax FAQ](https://kingcounty.gov/en/dept/executive-services/buildings-property/treasury-operations/property-tax/faq), [Washington rule on inheritance and excise tax](https://www.law.cornell.edu/regulations/washington/WAC-458-61A-202). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

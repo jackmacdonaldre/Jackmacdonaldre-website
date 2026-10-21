@@ -108,6 +108,12 @@ A pre inspection can find more than cosmetic items. On a Kirkland estate sale ea
 
 That last one gets skipped more than anything else on this list. A parent who has lived in a Bellevue house for decades usually cares less about the final number than about who buys it and whether the garden gets taken care of. Asking costs nothing, and it changes how the whole family feels when the sale closes.
 
+## Related guides
+
+* [Selling a Home After a Parent Moves to Assisted Living](https://jackmacdonaldre.com/blog/selling-a-home-after-a-parent-moves-to-assisted-living/)
+* [Clearing Out a Family Home Before You Sell on the Eastside](https://jackmacdonaldre.com/blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/)
+* [Selling an Inherited Home on the Eastside: Where to Start](https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/)
+
 Sources: [Washington Uniform Power of Attorney Act](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125), [RCW 11.125.270](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.270), [RCW 11.125.040](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.040), [RCW 11.125.100](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.100), [RCW 11.125.190](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.190), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [King County Law Library on transfer on death deeds](https://kcll.org/from-the-director-october-2023/), [City of Bellevue Utilities](https://bellevuewa.gov/utilities-service), [King County Treasury property tax FAQ](https://kingcounty.gov/en/dept/executive-services/buildings-property/treasury-operations/property-tax/faq). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

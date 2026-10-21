@@ -80,6 +80,12 @@ As is doesn't mean ignoring the house. It means deciding, with real numbers, tha
 
 The families who have the easiest time in this county are the ones who learn about the house before buyers do. Septic, HOA, an old roof: find them first, and each one becomes a choice instead of a surprise.
 
+## Related guides
+
+* [Selling a House in Probate in Washington: How the Timeline Works](https://jackmacdonaldre.com/blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/)
+* [Selling a Probate Home in King County: What Families Should Know](https://jackmacdonaldre.com/blog/selling-a-probate-home-in-king-county/)
+* [Selling an Inherited Home in Pierce County: Tacoma and Puyallup](https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup/)
+
 Sources: [Snohomish County Board of Health ordinances](https://snohomish.boardofhealth.codes/enactments?type=Ord), [Snohomish County Health Department property transfer program handout](https://www.snohd.org/DocumentCenter/View/15503/PTI-Proposed-Program-Handout_V3), [Health Department property transfer policy](https://www.snohd.org/DocumentCenter/View/15519/Draft-Policy_Chapter-560_PTI_Version-30), [Health Department newsletter on the septic rule](https://snohd.org/CivicSend/ViewMessage/message/282736), [Snoho news coverage of the rule](https://www.snoho.com/news/2026/apr/29/new-rule-in-snohomish-county-about-septic-to-require-inspection-ahead-of-home-sale/), [Snohomish County Superior Court Clerk](https://snohomishcountywa.gov/5492), [Washington law on where probate is filed](https://app.leg.wa.gov/RCW/default.aspx?cite=11.96A.050), [Washington seller disclosure law](https://app.leg.wa.gov/RCW/default.aspx?cite=64.06.010). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

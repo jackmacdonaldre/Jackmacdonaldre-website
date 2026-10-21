@@ -70,6 +70,12 @@ I won't give you a number of months, because I'd be guessing. The pace depends o
 
 The most useful thing you can do is ask your attorney two questions in the first meeting: does the personal representative have authority to sell without a court order, and is there any reason to wait before listing? Those two answers tell you which version of this timeline you're living in.
 
+## Related guides
+
+* [Selling a Probate Home in King County: What Families Should Know](https://jackmacdonaldre.com/blog/selling-a-probate-home-in-king-county/)
+* [Selling an Inherited Home on the Eastside: Where to Start](https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/)
+* [Sell, Rent or Keep an Inherited House in King County?](https://jackmacdonaldre.com/blog/sell-rent-or-keep-an-inherited-house-in-king-county/)
+
 Sources: [RCW 11.28.010 on letters](https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.010), [RCW 11.28.237 on notice to heirs](https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.237), [RCW 11.68.011 on nonintervention powers](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.011), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [RCW 11.56.010](https://app.leg.wa.gov/RCW/default.aspx?cite=11.56.010), [RCW 11.56.100 on confirming a sale](https://app.leg.wa.gov/RCW/default.aspx?cite=11.56.100), [RCW 11.40.010](https://app.leg.wa.gov/RCW/default.aspx?cite=11.40.010), [RCW 11.40.020 on notice to creditors](https://app.leg.wa.gov/RCW/default.aspx?cite=11.40.020), [RCW 11.40.051 on claim deadlines](https://app.leg.wa.gov/RCW/default.aspx?cite=11.40.051). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions

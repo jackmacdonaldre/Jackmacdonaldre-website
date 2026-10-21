@@ -74,6 +74,12 @@ Put three columns on one page: sell, rent and keep. Under each, list the yearly 
 
 It's not a perfect formula. But a decision made on paper, with every heir looking at the same numbers, holds up much better a year later than one made in a hurry in the driveway after the memorial.
 
+## Related guides
+
+* [Selling an Inherited Home on the Eastside: Where to Start](https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/)
+* [Selling a Probate Home in King County: What Families Should Know](https://jackmacdonaldre.com/blog/selling-a-probate-home-in-king-county/)
+* [Clearing Out a Family Home Before You Sell on the Eastside](https://jackmacdonaldre.com/blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/)
+
 Sources: [Residential Landlord Tenant Act](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18), [RCW 59.18.060 on landlord duties](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.060), [RCW 59.18.260 on deposits and checklists](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.260), [RCW 59.18.650 on ending a tenancy](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.650), [RCW 7.52.010 on partition](https://app.leg.wa.gov/RCW/default.aspx?cite=7.52.010), [IRS: Gifts and inheritances](https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances/gifts-inheritances). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions
