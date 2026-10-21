@@ -570,7 +570,7 @@ ${sales.length ? `<div class="hub-pair">${sales.map((x) => saleCard(x, false)).j
 function hubGlance(area) {
   const d = AREA_SALES[area.slug];
   if (!d || !Array.isArray(d.sales) || !d.sales.length) return "";
-  const items = d.sales.filter((x) => x.result).slice(0, 3);
+  const items = d.sales.filter((x) => x.result && x.glance).sort((a, b) => a.glance - b.glance).slice(0, 3);
   return `<section aria-label="Recent results" style="margin-top: var(--space-6);">
 <div class="kicker">Recent ${escapeHtml(area.name)} results</div>
 <div class="hub-glance">${items.map((x) => `<a href="#sale-${escapeHtml(String(x.id))}"><div class="r">${escapeHtml(x.result)}</div><div class="m">${x.side === "buyer" ? "Buyer side" : "Seller side"} &middot; ${escapeHtml(String(x.year))}${x.place ? ` &middot; ${escapeHtml(x.place)}` : ""}</div></a>`).join("")}</div>
