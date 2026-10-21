@@ -10,7 +10,7 @@ Web page: https://jackmacdonaldre.com/blog/selling-a-parents-home-in-bellevue-ch
 
 When it's your mom or dad's house, everything feels bigger. The paperwork, the memories, the opinions from every sibling. I grew up in Bellevue, and a lot of the homes I help sell here belong to parents of people I went to school with. The families who do best aren't the ones with the most time. They're the ones with a list.
 
-So here's mine. It works if your parent is still living and moving on, and it works if your parent has passed. Check things off as you go and share it with whoever else is involved.
+So here's mine. It's the practical to do list, with the Bellevue specifics, and it works whether your parent is still living and moving on or has passed. If your parent has passed and you want the bigger picture first, start with [where to start with an inherited home](https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/), then come back here to check things off.
 
 ## 1. Gather the paperwork
 
@@ -56,7 +56,11 @@ Have the estate or elder law attorney read the actual document early. Finding a 
 
 ### If your parent has passed
 
-If the home goes through probate, the court appoints a personal representative. With nonintervention powers, that person can sell without a court order (RCW 11.68.090). If the home is in a trust, the trustee usually signs. If your parent recorded a transfer on death deed, the house passes to the named beneficiary outside probate. Your attorney will tell you which applies.
+* Ask your estate attorney who signs: a personal representative if the home goes through probate (with nonintervention powers they can sell without a court order, RCW 11.68.090), the trustee if it's in a trust, or the named beneficiary on a recorded transfer on death deed
+
+* Get that answer in writing before you pick a list date
+
+For how that decision shapes the rest of the sale, see [where to start](https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/) and [how the probate timeline works](https://jackmacdonaldre.com/blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/).
 
 ## 3. Handle the Bellevue details
 

@@ -10,7 +10,7 @@ Web page: https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-east
 
 The call usually starts the same way. Someone's parent has passed, there's a house in Bellevue or Kirkland or out in the valley full of forty years of life, and three siblings in three different states are wondering what they're supposed to do first. Nobody wants to make a mistake, and nobody wants it to drag on for a year.
 
-There is no single right order for every family, but there is a sensible one. Here is how I'd walk through it if it were my own family.
+There is no single right order for every family, but there is a sensible one. Here is how I'd walk through it if it were my own family. When you're ready for the hands on to do list, I keep a [checklist for selling a parent's home](https://jackmacdonaldre.com/blog/selling-a-parents-home-in-bellevue-checklist/) with the paperwork and Bellevue details.
 
 ## Figure out who is allowed to sell the house
 
