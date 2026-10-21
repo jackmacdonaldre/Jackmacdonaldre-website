@@ -27,12 +27,16 @@
 
   // Native Netlify forms: remember what was submitted, send people to a thank-you page
   function prepForms() {
-    var forms = document.querySelectorAll('form[data-netlify="true"]:not([hidden])');
+    // Netlify strips data-netlify on deploy, so also match the hidden form-name input it leaves behind
+    var forms = document.querySelectorAll('form');
     Array.prototype.forEach.call(forms, function (f) {
+      if (f.hasAttribute('hidden')) return;
+      var fn = f.querySelector('input[name="form-name"]');
+      if (!f.hasAttribute('data-netlify') && !fn) return;
       if (!f.getAttribute('action')) f.setAttribute('action', '/thanks/');
       f.addEventListener('submit', function () {
         try {
-          sessionStorage.setItem('mgLeadForm', JSON.stringify({ form: f.getAttribute('name') || 'form', page: window.location.pathname, t: Date.now() }));
+          sessionStorage.setItem('mgLeadForm', JSON.stringify({ form: f.getAttribute('name') || (fn && fn.value) || 'form', page: window.location.pathname, t: Date.now() }));
         } catch (e) {}
       });
     });
