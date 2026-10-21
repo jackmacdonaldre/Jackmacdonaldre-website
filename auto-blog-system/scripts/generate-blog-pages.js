@@ -469,8 +469,91 @@ function hubSelling(area) {
   const example = area.slug === "redmond" ? ` One Redmond home I listed had one showing and one offer within six hours.` : "";
   return `<h2 style="margin-top: var(--space-8);">Selling in ${name}</h2>
 ${market ? `<p style="line-height: 1.7;">${market}</p>` : ""}
+${hubAngle(area)}
+${hubNotes(area)}
 <p style="line-height: 1.7;">I price off the sales that actually happened near you, fix only what buyers will notice, and stay on top of the listing once it's live.${example} <a href="/sell/">Here's how I sell homes</a>, or <a href="/home-value/">get a price range for yours</a>.</p>
 ${quotes ? `${quotes}\n<p style="font-size: 14px;"><a href="${GOOGLE_REVIEWS_URL}" target="_blank" rel="noopener">More client reviews on Google &rarr;</a></p>` : ""}`;
+}
+
+// ---------- city selling content (verified sales + local selling notes) ----------
+// auto-blog-system/content/area-sales.json, keyed by area slug:
+//   { "notes": ["paragraph", ...], "sales": [{ side: "seller"|"buyer", year, price, title, story }] }
+// Only verified facts from Jack's transaction records go in this file.
+const AREA_SALES = loadJson(path.join(ROOT, "auto-blog-system/content/area-sales.json"), {});
+const fmtPrice = (n) => "$" + Number(n).toLocaleString("en-US");
+
+function hubSales(area) {
+  const d = AREA_SALES[area.slug];
+  if (!d || !Array.isArray(d.sales) || !d.sales.length) return "";
+  const name = escapeHtml(area.name);
+  const card = (x) => `<div class="card" style="padding: var(--space-5);">
+<div class="kicker" style="margin-bottom: var(--space-2);">${x.side === "buyer" ? "I represented the buyer" : "I represented the seller"} &middot; ${escapeHtml(String(x.year))}</div>
+<h3 style="margin: 0 0 var(--space-2); font-size: 20px;">${escapeHtml(x.title)}</h3>
+${x.story ? `<p style="font-size: 15px; line-height: 1.65; margin: 0 0 var(--space-3);">${escapeHtml(x.story)}</p>` : ""}
+<p style="font-size: 15px; margin: 0; font-weight: 500;">${x.listPrice ? `Listed ${fmtPrice(x.listPrice)}. ` : ""}${x.side === "buyer" ? "Purchased" : "Sold"} ${fmtPrice(x.price)}.</p>
+</div>`;
+  const sellers = d.sales.filter((x) => x.side !== "buyer"), buyers = d.sales.filter((x) => x.side === "buyer");
+  return `<section id="recent-sales" style="margin-top: var(--space-8);">
+<h2>My recent ${name} sales</h2>
+<p style="line-height: 1.7;">Real transactions from my own records, with prices as they closed. I list the side I represented on each one.</p>
+<div class="grid" style="margin-top: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));">${sellers.concat(buyers).map(card).join("\n")}</div>
+</section>`;
+}
+
+function hubNotes(area) {
+  const d = AREA_SALES[area.slug];
+  if (!d || !Array.isArray(d.notes) || !d.notes.length) return "";
+  return d.notes.map((t) => `<p style="line-height: 1.7;">${t}</p>`).join("\n");
+}
+
+// One data-driven paragraph per priority city, each built around a different market fact,
+// so the city pages don't read alike. Numbers come from the same Redfin data as the reports.
+const ANGLE_AREAS = ["bellevue", "kirkland", "redmond", "issaquah", "sammamish"];
+function hubAngle(area) {
+  if (!ANGLE_AREAS.includes(area.slug)) return "";
+  const r = reportFor(area.slug);
+  const st = r && r.stats; const c = st && st.cur;
+  if (!c) return "";
+  const win = escapeHtml(r.info.window || "the last three months");
+  const name = escapeHtml(area.name);
+  const pct = (n) => `${Number(n).toFixed(1)}%`;
+  const money = (n) => "$" + Math.round(n).toLocaleString("en-US");
+  const peers = ANGLE_AREAS.map((s) => { const x = reportFor(s); return x && x.stats && x.stats.cur ? { slug: s, cur: x.stats.cur } : null; }).filter(Boolean);
+  let t = "";
+  if (area.slug === "bellevue" && c.soldAboveList != null && c.saleToList != null && c.medianSalePrice) {
+    t = `From ${win}, ${pct(c.soldAboveList)} of Bellevue single family homes sold above list price, and sellers got about ${pct(c.saleToList)} of list on average. At a median sale price of ${money(c.medianSalePrice)}, a list price just 3% too high is about ${money(Math.round(c.medianSalePrice * 0.03 / 5000) * 5000)} of overreach, and an overpriced home can sit while buyers wait for a reduction.`;
+  } else if (area.slug === "kirkland" && st.priceYoY != null && c.medianSalePrice) {
+    t = `The median Kirkland single family sale was ${money(c.medianSalePrice)} from ${win}, ${st.priceYoY < 0 ? "down" : "up"} ${pct(Math.abs(st.priceYoY))} from the same months last year. When prices move that much, a neighbor's sale from last spring can point you to the wrong number, so the most recent closed sales near you matter most.`;
+  } else if (area.slug === "redmond" && c.homesSold != null) {
+    t = `Only ${c.homesSold} single family homes sold in Redmond from ${win}. With that few sales spread across Education Hill, Grass Lawn, the Overlake area and the plateau toward Redmond Ridge, the comparables you choose do a lot of the work in setting the price.`;
+  } else if (area.slug === "issaquah" && c.medianDom != null) {
+    const fastest = peers.every((p) => p.slug === "issaquah" || (p.cur.medianDom != null && p.cur.medianDom >= c.medianDom));
+    t = `${fastest ? `That ${c.medianDom} day median was the fastest of the five Eastside cities I track most closely, and ` : ""}${c.soldAboveList != null ? `${pct(c.soldAboveList)} of Issaquah homes sold above list` : ""}. A home that's priced and prepared right from day one tends to see its strongest interest in that first stretch.`;
+  } else if (area.slug === "sammamish" && c.monthsOfSupply != null) {
+    const most = peers.every((p) => p.slug === "sammamish" || (p.cur.monthsOfSupply != null && p.cur.monthsOfSupply <= c.monthsOfSupply));
+    t = `Sammamish had about ${c.monthsOfSupply.toFixed(1)} months of supply from ${win}${most ? ", the most of the five Eastside cities I track most closely" : ""}. When buyers have more homes to choose from, condition and presentation carry more weight.`;
+  }
+  return t ? `<p style="line-height: 1.7;">${t}</p>` : "";
+}
+
+function hubValuationForm(area) {
+  const name = escapeHtml(area.name);
+  const id = (k) => `hv-${area.slug}-${k}`;
+  return `<section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">What would your ${name} home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Tell me the address and I'll send a price range built from the ${name} homes that actually sold near you, not an online estimate. No obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
+<input type="hidden" name="form-name" value="home-value">
+<p hidden><label>Leave this empty <input name="bot-field"></label></p>
+<input type="hidden" name="source" value="${name} city page">
+<div class="field"><label for="${id("address")}">Property address</label><input class="input" id="${id("address")}" name="address" required autocomplete="street-address" placeholder="Street, ${name}"></div>
+<div class="field"><label for="${id("name")}">Name</label><input class="input" id="${id("name")}" name="name" required autocomplete="name"></div>
+<div class="field"><label for="${id("email")}">Email</label><input class="input" id="${id("email")}" name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="${id("phone")}">Phone (optional)</label><input class="input" id="${id("phone")}" name="phone" type="tel" autocomplete="tel"></div>
+<div class="field"><label for="${id("timeline")}">When might you sell?</label><select class="input" id="${id("timeline")}" name="timeline"><option>Just curious</option><option>Within 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than a year</option></select></div>
+<button type="submit" class="btn btn-primary">Send me a price range</button>
+</form>
+</section>`;
 }
 
 const listingsData = loadJson(LISTINGS_PATH, { listings: [] });
@@ -523,6 +606,7 @@ function buildHub(area, allPosts) {
 ${breadcrumbHtml(crumbs)}
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">${escapeHtml(area.name)} Real Estate</h1>
 <p style="font-size: 18px; line-height: 1.7;">${escapeHtml(AREA_INTROS[area.slug] || "")}</p>
+<p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your ${escapeHtml(area.name)} home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
 ${report ? `<div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
 <div class="kicker">Latest market report &middot; Updated ${escapeHtml(report.info.updatedMonth)}</div>
 <p style="line-height: 1.7; margin: var(--space-3) 0;">${escapeHtml(report.info.commentary.summary)}</p>
@@ -533,9 +617,10 @@ ${smallPostList(guides, `New ${escapeHtml(area.name)} guides are on the way.`)}
 ${schools.length ? `<h2 style="margin-top: var(--space-8);">Schools and family</h2>${smallPostList(schools)}` : ""}
 <p style="margin-top: var(--space-6);"><a href="/blog/area/${area.slug}/">All ${escapeHtml(area.name)} posts &rarr;</a></p>
 ${hubSelling(area)}
+${hubSales(area)}
 </div>
 ${hubListings(area)}
-<div class="narrow">${valuationCta()}</div>
+<div class="narrow">${hubValuationForm(area)}</div>
 </main>`;
   const ld = [
     { "@context": "https://schema.org", ...L.AGENT, "@id": `${SITE_URL}/#jack-macdonald`, areaServed: { "@type": "City", name: `${area.name}, WA` }, description: `Jack Macdonald helps buyers and sellers in ${area.name}, WA with Macdonald Group of Compass.` },

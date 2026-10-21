@@ -98,6 +98,7 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/areas/">Areas</a></li><li aria-current="page">Bellevue</li></ol></nav>
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Bellevue Real Estate</h1>
 <p style="font-size: 18px; line-height: 1.7;">Bellevue is the Eastside's largest city, from the high rises downtown to established neighborhoods like Somerset, Newport Hills and Bridle Trails. I grew up here, so this is the market I know street by street.</p>
+<p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your Bellevue home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
 <div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
 <div class="kicker">Latest market report &middot; Updated October 2026</div>
 <p style="line-height: 1.7; margin: var(--space-3) 0;">Bellevue's median single family sale price was $1.84 million for July to September 2026, up 2.3% from the same months last year. 266 single family homes sold (15.6% fewer than a year ago), and the median home spent 20 days on the market.</p>
@@ -109,10 +110,13 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <p style="margin-top: var(--space-6);"><a href="/blog/area/bellevue/">All Bellevue posts &rarr;</a></p>
 <h2 style="margin-top: var(--space-8);">Selling in Bellevue</h2>
 <p style="line-height: 1.7;">Bellevue has slowed down: the median home took 20 days to sell from July to September 2026, 12 days longer than a year ago, and there are about 3.1 months of supply. <a href="/market-reports/bellevue/">See the full Bellevue numbers</a>.</p>
+<p style="line-height: 1.7;">From July to September 2026, 12.2% of Bellevue single family homes sold above list price, and sellers got about 97.4% of list on average. At a median sale price of $1,841,766, a list price just 3% too high is about $55,000 of overreach, and an overpriced home can sit while buyers wait for a reduction.</p>
+
 <p style="line-height: 1.7;">I price off the sales that actually happened near you, fix only what buyers will notice, and stay on top of the listing once it's live. <a href="/sell/">Here's how I sell homes</a>, or <a href="/home-value/">get a price range for yours</a>.</p>
 <blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;He gave us practical advice about preparing and pricing the house, explained everything clearly, and kept us updated throughout the process. We never felt pressured or left wondering what was happening.&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">Caleb H., sold in Bellevue</div></blockquote>
 <blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;He helped my mom sell her house in Bellevue and was incredible from beginning to end. He was super knowledgeable, and made what could have been a stressful process feel so easy.&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">Ruben J., sold in Bellevue</div></blockquote>
 <p style="font-size: 14px;"><a href="https://www.google.com/search?q=Jack+Macdonald+Macdonald+Group+Real+Estate+Bellevue" target="_blank" rel="noopener">More client reviews on Google &rarr;</a></p>
+
 </div>
 <section id="listings" style="margin-top: var(--space-8);">
 <h2>Homes for sale in Bellevue</h2>
@@ -120,11 +124,21 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <p style="margin-top: var(--space-4);"><a href="/search.html" class="btn btn-primary">Search all Bellevue homes for sale</a></p>
 <p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. Listing data last updated October 21, 2026.</p>
 </section>
-<div class="narrow"><div class="card cta">
-<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">Curious what your home would sell for right now?</h2>
-<p style="max-width: 480px; margin: 0 auto var(--space-6); line-height: 1.65;">I'll put together a real number based on the homes that just sold near you, not an online estimate. No obligation.</p>
-<div class="buttons"><a href="/contact/?interest=home-value" class="btn btn-primary">Get my home value</a><a href="tel:4259416998" class="btn btn-secondary">Call 425.941.6998</a></div>
-</div></div>
+<div class="narrow"><section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">What would your Bellevue home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Tell me the address and I'll send a price range built from the Bellevue homes that actually sold near you, not an online estimate. No obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
+<input type="hidden" name="form-name" value="home-value">
+<p hidden><label>Leave this empty <input name="bot-field"></label></p>
+<input type="hidden" name="source" value="Bellevue city page">
+<div class="field"><label for="hv-bellevue-address">Property address</label><input class="input" id="hv-bellevue-address" name="address" required autocomplete="street-address" placeholder="Street, Bellevue"></div>
+<div class="field"><label for="hv-bellevue-name">Name</label><input class="input" id="hv-bellevue-name" name="name" required autocomplete="name"></div>
+<div class="field"><label for="hv-bellevue-email">Email</label><input class="input" id="hv-bellevue-email" name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="hv-bellevue-phone">Phone (optional)</label><input class="input" id="hv-bellevue-phone" name="phone" type="tel" autocomplete="tel"></div>
+<div class="field"><label for="hv-bellevue-timeline">When might you sell?</label><select class="input" id="hv-bellevue-timeline" name="timeline"><option>Just curious</option><option>Within 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than a year</option></select></div>
+<button type="submit" class="btn btn-primary">Send me a price range</button>
+</form>
+</section></div>
 </main>
 <footer style="background: var(--color-neutral-900); color: var(--color-neutral-300); padding: var(--space-8) var(--space-6) var(--space-6);">
 <div style="max-width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-6);">

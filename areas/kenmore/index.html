@@ -98,6 +98,7 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/areas/">Areas</a></li><li aria-current="page">Kenmore</li></ol></nav>
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Kenmore Real Estate</h1>
 <p style="font-size: 18px; line-height: 1.7;">Kenmore sits at the north end of Lake Washington where the Sammamish River meets the lake, with the Burke Gilman Trail running through town and quick access to Bothell and Kirkland. It is in the Northshore School District.</p>
+<p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your Kenmore home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
 <div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
 <div class="kicker">Latest market report &middot; Updated October 2026</div>
 <p style="line-height: 1.7; margin: var(--space-3) 0;">Kenmore's median single family sale price was $1.03 million for July to September 2026, down 12.6% from the same months last year. 53 single family homes sold (11.7% fewer than a year ago), and the median home spent 22 days on the market.</p>
@@ -109,7 +110,10 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <p style="margin-top: var(--space-6);"><a href="/blog/area/kenmore/">All Kenmore posts &rarr;</a></p>
 <h2 style="margin-top: var(--space-8);">Selling in Kenmore</h2>
 <p style="line-height: 1.7;">From July to September 2026, the median Kenmore home sold in 22 days at about 98.5% of list price. <a href="/market-reports/kenmore/">See the full Kenmore numbers</a>.</p>
+
+
 <p style="line-height: 1.7;">I price off the sales that actually happened near you, fix only what buyers will notice, and stay on top of the listing once it's live. <a href="/sell/">Here's how I sell homes</a>, or <a href="/home-value/">get a price range for yours</a>.</p>
+
 
 </div>
 <section id="listings" style="margin-top: var(--space-8);">
@@ -118,11 +122,21 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <p style="margin-top: var(--space-4);"><a href="/search.html" class="btn btn-primary">Search all Kenmore homes for sale</a></p>
 <p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. Listing data last updated October 21, 2026.</p>
 </section>
-<div class="narrow"><div class="card cta">
-<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">Curious what your home would sell for right now?</h2>
-<p style="max-width: 480px; margin: 0 auto var(--space-6); line-height: 1.65;">I'll put together a real number based on the homes that just sold near you, not an online estimate. No obligation.</p>
-<div class="buttons"><a href="/contact/?interest=home-value" class="btn btn-primary">Get my home value</a><a href="tel:4259416998" class="btn btn-secondary">Call 425.941.6998</a></div>
-</div></div>
+<div class="narrow"><section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">What would your Kenmore home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Tell me the address and I'll send a price range built from the Kenmore homes that actually sold near you, not an online estimate. No obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
+<input type="hidden" name="form-name" value="home-value">
+<p hidden><label>Leave this empty <input name="bot-field"></label></p>
+<input type="hidden" name="source" value="Kenmore city page">
+<div class="field"><label for="hv-kenmore-address">Property address</label><input class="input" id="hv-kenmore-address" name="address" required autocomplete="street-address" placeholder="Street, Kenmore"></div>
+<div class="field"><label for="hv-kenmore-name">Name</label><input class="input" id="hv-kenmore-name" name="name" required autocomplete="name"></div>
+<div class="field"><label for="hv-kenmore-email">Email</label><input class="input" id="hv-kenmore-email" name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="hv-kenmore-phone">Phone (optional)</label><input class="input" id="hv-kenmore-phone" name="phone" type="tel" autocomplete="tel"></div>
+<div class="field"><label for="hv-kenmore-timeline">When might you sell?</label><select class="input" id="hv-kenmore-timeline" name="timeline"><option>Just curious</option><option>Within 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than a year</option></select></div>
+<button type="submit" class="btn btn-primary">Send me a price range</button>
+</form>
+</section></div>
 </main>
 <footer style="background: var(--color-neutral-900); color: var(--color-neutral-300); padding: var(--space-8) var(--space-6) var(--space-6);">
 <div style="max-width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-6);">
