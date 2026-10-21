@@ -9,6 +9,7 @@
   gtag('js', new Date());
   gtag('config', 'G-XVG642M7W3');
 </script>
+<script src="/assets/lead-tracking.js" defer></script>
 
 <meta charset="utf-8">
   <meta name="google-site-verification" content="nNsrIIulZC_RcXVYXbdaImi1Y4NXR4TP6p7wlF3JT7Q" />
@@ -1501,6 +1502,7 @@ class Component extends DCLogic {
           .then((res) => {
             if (!res.ok) throw new Error('Form submit failed: ' + res.status);
             this.setState({ guideSubmitted: true });
+            if (window.mgTrackLead) window.mgTrackLead('buyers-guide', 'home page');
           })
           .catch(() => {
             this.setState({ guideError: "Sorry, that didn't go through. Please try again, or call or text Jack at 425.941.6998." });
