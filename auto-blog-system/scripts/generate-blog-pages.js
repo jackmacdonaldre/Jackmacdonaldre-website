@@ -590,7 +590,7 @@ function hubListings(area) {
 ${mine.length ? `<div class="grid" style="margin-top: var(--space-4);" data-listings-generated="${escapeHtml(listingsData.generatedAt || "")}">${mine.map(listingCard).join("\n")}</div>
 <p class="listings-stale" style="display: none; line-height: 1.65;">Our listing cards are being refreshed. Every home on the market in ${escapeHtml(area.name)} is in the full search.</p>
 <script>${STALE_LISTINGS_SCRIPT}</script>` : `<p style="line-height: 1.65;">We don't have a listing of our own in ${escapeHtml(area.name)} right now. Every home on the market there is in the full search.</p>`}
-<p style="margin-top: var(--space-4);"><a href="${SEARCH_URL}" class="btn btn-primary">Search all ${escapeHtml(area.name)} homes for sale</a></p>
+<p style="margin-top: var(--space-4);"><a href="${SEARCH_URL}" class="btn btn-primary" style="white-space: normal; max-width: 100%; text-align: center;">Search all ${escapeHtml(area.name)} homes for sale</a></p>
 <p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed.${updated ? ` Listing data last updated ${updated}.` : ""}</p>
 </section>`;
 }
