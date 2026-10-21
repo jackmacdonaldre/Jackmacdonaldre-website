@@ -166,6 +166,17 @@ function buildFaqSection(faq) {
     .join("\n")}\n`;
 }
 
+// Local partner line, ONLY on Inherited & Estate Homes articles (post.track === "estate"),
+// never on regular local SEO articles (Jack, 2026-10-20).
+function partnerBox(post) {
+  if (post.track !== "estate") return "";
+  return `<div style="margin-top: var(--space-8); padding: var(--space-6); border: 1px solid var(--color-divider); font-size: 15px; line-height: 1.65;">
+<div class="kicker" style="margin-bottom: var(--space-2);">Local partner</div>
+<p style="margin: 0;">Selling or inheriting a home is also a money decision. For retirement, tax and estate planning on the Eastside, I recommend <a href="https://www.geverswealth.com/" target="_blank" rel="noopener">Gevers Wealth Management</a> in Issaquah.</p>
+</div>
+`;
+}
+
 function buildPostHtml(post, all) {
   const url = postUrl(post);
   const crumbs = postCrumbs(post);
@@ -181,7 +192,7 @@ function buildPostHtml(post, all) {
       dateModified: lastmodOf(post),
       author: { "@type": "Person", name: "Jack Macdonald", jobTitle: "REALTOR", url: `${SITE_URL}/about/`, image: `${SITE_URL}/assets/jack-sunset.png`, worksFor: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass" }, sameAs: L.AGENT.sameAs },
       publisher: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass", url: SITE_URL, logo: { "@type": "ImageObject", url: `${SITE_URL}/assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png` }, address: L.AGENT.address, telephone: L.AGENT.telephone },
-      image: `${SITE_URL}/assets/nbhd-bellevue.jpg`,
+      image: `${SITE_URL}${post.image || "/assets/nbhd-bellevue.jpg"}`,
       mainEntityOfPage: { "@type": "WebPage", "@id": SITE_URL + url },
       articleSection: topicBySlug(post.topic).name,
       keywords: post.areas.map((a) => areaBySlug(a).name).join(", "),
@@ -205,8 +216,8 @@ ${buildFaqSection(post.faq)}
 ${moreAboutBox(post, all)}
 ${related.length ? `<h2 style="margin-top: calc(var(--space-8) * 1.1);">Related posts</h2>${smallPostList(related)}` : ""}
 ${nextStep(post)}
-</article>`;
-  return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: "/assets/nbhd-bellevue.jpg", markdownAlt: true });
+${partnerBox(post)}</article>`;
+  return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: post.image || "/assets/nbhd-bellevue.jpg", markdownAlt: true });
 }
 
 // ---------- blog home + filter pages ----------
@@ -601,6 +612,7 @@ Contact: 425.941.6998, 700 110th Ave NE, Suite 270, Bellevue, WA 98004. Washingt
 * [About Jack](${SITE_URL}/about/): background, local roots in Bellevue, and approach
 * [Seller services](${SITE_URL}/services/): pricing, marketing, and negotiation for Eastside sellers
 * [Sell your home](${SITE_URL}/sell/): how Jack prices, preps, markets, and negotiates an Eastside home sale, with seller FAQs
+* [Inherited and estate homes](${SITE_URL}/inherited-homes/): how Jack helps executors, heirs and families sell an inherited, estate or probate home, with Washington basics and FAQs
 * [Home value](${SITE_URL}/home-value/): request a free price range for your home based on recent nearby sales
 * [Buyer's guide](${SITE_URL}/buyers-guide/): the home buying process on the Eastside
 * [Team](${SITE_URL}/team/): the Macdonald Group team
