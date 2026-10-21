@@ -42,7 +42,7 @@ function breadcrumbHtml(crumbs) {
 const AGENT = {
   "@type": "RealEstateAgent",
   name: "Jack Macdonald",
-  image: `${SITE_URL}/assets/jack-sunset.png`,
+  image: `${SITE_URL}/assets/jack-sunset.jpg`,
   url: `${SITE_URL}/`,
   telephone: "+1-425-941-6998",
   address: { "@type": "PostalAddress", streetAddress: "700 110th Ave NE, Ste 270", addressLocality: "Bellevue", addressRegion: "WA", postalCode: "98004", addressCountry: "US" },
