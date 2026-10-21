@@ -515,6 +515,13 @@ const HUB_CSS = `<style>
 .hub-sale .figures { display: flex; flex-wrap: wrap; gap: var(--space-5); border-top: 1px solid var(--color-divider); padding-top: var(--space-4); }
 .hub-sale .figures div { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-600); }
 .hub-sale .figures strong { display: block; font-family: var(--font-heading); font-weight: 400; font-size: 26px; letter-spacing: 0; text-transform: none; color: #201f1d; margin-top: 2px; }
+.hub-glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-top: var(--space-5); }
+.hub-glance a { display: block; background: #fff; padding: var(--space-4) var(--space-5); color: inherit; text-decoration: none; }
+.hub-glance a:hover { background: #f7f6f4; }
+.hub-glance .r { font-family: var(--font-heading); font-size: 21px; line-height: 1.3; color: #201f1d; }
+.hub-glance .m { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-2); }
+.hub-sale .result { font-family: var(--font-heading); font-size: 26px; line-height: 1.25; margin: 0 0 var(--space-2); color: #201f1d; }
+.hub-sale h3.sub { font-family: inherit; font-size: 15px; letter-spacing: 0.02em; color: var(--color-neutral-600); margin: 0 0 var(--space-3); font-weight: 500; }
 .hub-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: var(--space-5); }
 @media (max-width: 760px) {
   .hub-hero { padding: var(--space-6) var(--space-4); margin-left: calc(-1 * var(--space-4)); margin-right: calc(-1 * var(--space-4)); }
@@ -530,11 +537,11 @@ const HUB_CSS = `<style>
 function saleCard(x, featured) {
   const photos = Array.isArray(x.photos) && x.photos.length ? x.photos : null;
   const isBuyer = x.side === "buyer";
-  return `<article class="hub-sale${featured && photos ? " featured" : ""}">
+  return `<article class="hub-sale${featured && photos ? " featured" : ""}" id="sale-${escapeHtml(String(x.id || ""))}">
 ${photos ? `<div class="photos${photos.length === 2 ? " two" : ""}">${photos.map((ph) => `<img src="${escapeHtml(ph.src)}" alt="${escapeHtml(ph.alt)}" loading="lazy">`).join("")}</div>` : ""}
 <div class="body">
 <div class="tags"><span class="side ${isBuyer ? "buyer" : "seller"}">${isBuyer ? "I represented the buyer" : "I represented the seller"}</span><span>${escapeHtml(String(x.year))}${x.place ? ` &middot; ${escapeHtml(x.place)}` : ""}</span></div>
-<h3>${escapeHtml(x.title)}</h3>
+${x.result ? `<div class="result">${escapeHtml(x.result)}</div><h3 class="sub">${escapeHtml(x.title)}</h3>` : `<h3>${escapeHtml(x.title)}</h3>`}
 ${x.story ? `<p>${escapeHtml(x.story)}</p>` : ""}
 <div class="figures">${x.listPrice ? `<div>Listed<strong>${fmtPrice(x.listPrice)}</strong></div>` : ""}<div>${isBuyer ? "Purchase price" : "Sold"}<strong>${fmtPrice(x.price)}</strong></div></div>
 ${x.note ? `<p class="note">${escapeHtml(x.note)}</p>` : ""}
@@ -552,11 +559,21 @@ function hubSales(area) {
   return `<section id="recent-sales" style="margin-top: var(--space-8);">
 <h2>How I work in ${name}, with recent sales</h2>
 ${Array.isArray(d.how) ? d.how.map((t) => `<p style="line-height: 1.75;">${t}</p>`).join("\n") : ""}
-<p style="font-size: 14px; color: var(--color-neutral-600); line-height: 1.6;">From my own transaction records, with prices as they closed. Each one says which side I represented. Here's my <a href="/sell/">full selling process</a>.</p>
+<p style="font-size: 13px; color: var(--color-neutral-600); line-height: 1.6;">From my transaction records, prices as closed. <a href="/sell/">My full selling process</a>.</p>
 <div class="hub-sales">
 ${featured ? saleCard(featured, true) : ""}
 ${sales.length ? `<div class="hub-pair">${sales.map((x) => saleCard(x, false)).join("\n")}</div>` : ""}
 </div>
+</section>`;
+}
+
+function hubGlance(area) {
+  const d = AREA_SALES[area.slug];
+  if (!d || !Array.isArray(d.sales) || !d.sales.length) return "";
+  const items = d.sales.filter((x) => x.result).slice(0, 3);
+  return `<section aria-label="Recent results" style="margin-top: var(--space-6);">
+<div class="kicker">Recent ${escapeHtml(area.name)} results</div>
+<div class="hub-glance">${items.map((x) => `<a href="#sale-${escapeHtml(String(x.id))}"><div class="r">${escapeHtml(x.result)}</div><div class="m">${x.side === "buyer" ? "Buyer side" : "Seller side"} &middot; ${escapeHtml(String(x.year))}${x.place ? ` &middot; ${escapeHtml(x.place)}` : ""}</div></a>`).join("")}</div>
 </section>`;
 }
 
@@ -693,6 +710,7 @@ ${breadcrumbHtml(crumbs)}
 ${sd.lead ? `<p>${escapeHtml(sd.lead)}</p>` : ""}
 <div class="actions"><a href="#home-value" class="btn btn-primary">Get a price range from me</a><a href="tel:4259416998" class="btn btn-secondary">Call or text 425.941.6998</a></div>
 </header>
+${hubGlance(area)}
 ${hubWhy(area)}
 ${hubSelling(area)}
 ${hubSales(area)}
@@ -719,7 +737,9 @@ ${hubListings(area)}
     { "@context": "https://schema.org", ...L.AGENT, "@id": `${SITE_URL}/#jack-macdonald`, areaServed: { "@type": "City", name: `${area.name}, WA` }, description: `Jack Macdonald helps buyers and sellers in ${area.name}, WA with Macdonald Group of Compass.` },
     breadcrumbLd(crumbs),
   ];
-  return L.page({ title: `${area.name}, WA Real Estate: Neighborhoods, Market Report & Homes for Sale | Jack Macdonald`, description: `${area.name}, WA area guide from local REALTOR Jack Macdonald: neighborhood guides, the latest market report, schools, and homes for sale.`, path: `/areas/${area.slug}/`, ld, body });
+  const title = priority ? `${area.name}, WA Real Estate: Recent Sales & Selling | Jack Macdonald` : `${area.name}, WA Real Estate: Neighborhoods, Market Report & Homes for Sale | Jack Macdonald`;
+  const description = priority ? `Selling in ${area.name}? See my recent ${area.name} sales, how I price, prepare and negotiate, current market numbers, and get a price range from me personally.` : `${area.name}, WA area guide from local REALTOR Jack Macdonald: neighborhood guides, the latest market report, schools, and homes for sale.`;
+  return L.page({ title, description, path: `/areas/${area.slug}/`, ld, body });
 }
 
 function buildAreasIndex(allPosts) {

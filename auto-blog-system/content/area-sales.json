@@ -9,7 +9,9 @@
     "listPrice": 1248500,
     "title": "Under contract in ten days, $20,000 gained in the counter",
     "story": "A three bedroom rambler near Lake Hills Park. An inspection was done before it went on the market so buyers could see the condition up front, and the home was professionally photographed. Offers came in within the first ten days. The buyer opened at $1,170,000 and came up to $1,190,000 after my counter.",
-    "place": "Lake Hills"
+    "place": "Lake Hills",
+    "result": "$20,000 gained in the counter",
+    "id": "bellevue-1"
    },
    {
     "side": "buyer",
@@ -18,7 +20,9 @@
     "listPrice": null,
     "title": "Third offer, timed to the end of a lease",
     "story": "My buyers wrote offers on two other homes this spring. One was too far apart on price, and on the other the seller took a different offer. For this Lakemont home they made a full price offer with the inspection waived and a 30 day close timed to the end of their lease. The seller accepted the next day.",
-    "place": "Lakemont"
+    "place": "Lakemont",
+    "result": "Accepted the next day",
+    "id": "bellevue-2"
    },
    {
     "side": "buyer",
@@ -26,7 +30,9 @@
     "price": 1085000,
     "listPrice": 1075000,
     "title": "Over list, accepted in two days",
-    "story": "My buyers made an all cash offer $10,000 over the $1,075,000 list price, with no appraisal or financing contingency and the septic repairs waived. It was accepted about two days after the home was listed. The seller was represented by Stephen Macdonald, who I work alongside at the Macdonald Group."
+    "story": "My buyers made an all cash offer $10,000 over the $1,075,000 list price, with no appraisal or financing contingency and the septic repairs waived. It was accepted about two days after the home was listed. The seller was represented by Stephen Macdonald, who I work alongside at the Macdonald Group.",
+    "result": "Accepted in two days",
+    "id": "bellevue-3"
    }
   ],
   "lead": "Below are recent Bellevue sales where I represented the seller or the buyer, from a Lake Hills rambler to a Lakemont purchase, with what decided each one.",
@@ -57,7 +63,9 @@
       "alt": "Large lawn, patio and deck behind the Kirkland home"
      }
     ],
-    "note": "Part of an estate sale."
+    "note": "Part of an estate sale.",
+    "result": "Sold $5,000 over list",
+    "id": "kirkland-1"
    },
    {
     "side": "buyer",
@@ -65,7 +73,9 @@
     "price": 1255000,
     "listPrice": 1280000,
     "title": "Strong terms, accepted the same night",
-    "story": "The home was listed at $1,280,000. I sent my buyer the comps, the inspection report and the seller disclosure before we offered. After touring, they offered with the inspection and financing contingencies waived, earnest money released to the seller within two days, and a two week close. The seller countered and we agreed that evening at $1,255,000, $25,000 under list."
+    "story": "The home was listed at $1,280,000. I sent my buyer the comps, the inspection report and the seller disclosure before we offered. After touring, they offered with the inspection and financing contingencies waived, earnest money released to the seller within two days, and a two week close. The seller countered and we agreed that evening at $1,255,000, $25,000 under list.",
+    "result": "$25,000 under list, accepted the same night",
+    "id": "kirkland-2"
    }
   ],
   "lead": "Below are two recent Kirkland sales, one where I was the listing agent and one where I represented the buyer, and the work that decided each.",
@@ -85,7 +95,9 @@
     "price": 4600000,
     "listPrice": 4800000,
     "title": "A $4.8 million listing, negotiated to $4.6 million",
-    "story": "A new construction home with a bonus room over the garage and a detached cottage, listed at $4,800,000. My buyers opened with a cash offer and a written valuation that broke out the main house, the garage and bonus room, and the cottage separately. I compared the seller's comparables with recent Redmond luxury sales, and after several days of back and forth we agreed at $4,600,000, $200,000 under list."
+    "story": "A new construction home with a bonus room over the garage and a detached cottage, listed at $4,800,000. My buyers opened with a cash offer and a written valuation that broke out the main house, the garage and bonus room, and the cottage separately. I compared the seller's comparables with recent Redmond luxury sales, and after several days of back and forth we agreed at $4,600,000, $200,000 under list.",
+    "result": "$200,000 under list for my buyers",
+    "id": "redmond-1"
    },
    {
     "side": "seller",
@@ -108,7 +120,9 @@
       "alt": "Staged living room with fireplace"
      }
     ],
-    "note": "Part of an estate sale. The final price reflects a $6,000 adjustment two days before closing, in place of a credit the buyer's lender couldn't allow."
+    "note": "Part of an estate sale. The final price reflects a $6,000 adjustment two days before closing, in place of a credit the buyer's lender couldn't allow.",
+    "result": "Full price offer within a day",
+    "id": "redmond-2"
    },
    {
     "side": "seller",
@@ -116,7 +130,9 @@
     "price": 1325000,
     "listPrice": null,
     "title": "Fix what worries buyers, skip the rest",
-    "story": "Part of an estate sale. I went through the inspection report and picked only what was likely to worry a buyer: electrical, small plumbing leaks and a capped vent. Each fix was keyed to the report so buyers could see it was handled."
+    "story": "Part of an estate sale. I went through the inspection report and picked only what was likely to worry a buyer: electrical, small plumbing leaks and a capped vent. Each fix was keyed to the report so buyers could see it was handled.",
+    "result": "Sold $1,325,000",
+    "id": "redmond-3"
    }
   ],
   "lead": "My recent Redmond sales range from a $1.27 million rambler to a $4.6 million new construction purchase. Each one below shows how the price was set and negotiated.",
@@ -137,7 +153,9 @@
     "listPrice": 1849500,
     "title": "Prepared, staged and documented",
     "story": "Before listing, the sellers painted the interior, refinished the hardwoods and washed the exterior. I recommended staging, and the home was professionally photographed, including drone views. Septic repairs were completed and documented before closing so the buyers had a clean report.",
-    "place": "Sycamore"
+    "place": "Sycamore",
+    "result": "Staged, documented, sold $1.73 million",
+    "id": "issaquah-1"
    },
    {
     "side": "seller",
@@ -146,7 +164,9 @@
     "listPrice": 529500,
     "title": "Staged condo, sold through the holidays",
     "story": "A condo in the Sammamish Hills community. I recommended professional staging, and it was staged and photographed before listing. It went under contract on December 24 after about two months on the market.",
-    "place": "Sammamish Hills"
+    "place": "Sammamish Hills",
+    "result": "Under contract over the holidays",
+    "id": "issaquah-2"
    },
    {
     "side": "buyer",
@@ -155,7 +175,9 @@
     "listPrice": null,
     "title": "Back on market, won with a rent back",
     "story": "This Hamptons Pointe condo went pending with another buyer, then came back on the market. My counter offered the sellers a four week rent back, and the offer was accepted two days later. I also confirmed with the HOA what the dues cover, since the listing details conflicted.",
-    "place": "Hamptons Pointe"
+    "place": "Hamptons Pointe",
+    "result": "Won with a four week rent back",
+    "id": "issaquah-3"
    },
    {
     "side": "buyer",
@@ -164,7 +186,9 @@
     "listPrice": 485000,
     "title": "Condo purchase, credit negotiated after inspection",
     "story": "I sent my buyer comps and the HOA documents before we offered on this Sammamish Pointe condo. After the inspection we negotiated a credit, the appraisal came in at value, and it closed at $480,000, $5,000 under list.",
-    "place": "Sammamish Pointe"
+    "place": "Sammamish Pointe",
+    "result": "$5,000 under list plus a repair credit",
+    "id": "issaquah-4"
    }
   ],
   "lead": "I've sold Issaquah homes and condos and helped buyers purchase here, from a Sycamore single family home to condos in Sammamish Hills, Sammamish Pointe and Hamptons Pointe.",
@@ -183,12 +207,14 @@
     "year": 2025,
     "price": 1600000,
     "listPrice": 1699500,
-    "title": "Top price per square foot of eight Trossachs homes",
-    "story": "I had twilight photos taken and used them as the lead listing images, and shared the inspection report from before listing with buyers, including a roof vent leak that had already been sealed. In late June I recommended a price adjustment, and an offer came in three days later. The sellers accepted it that day. It sold for the highest price per square foot out of eight homes in Trossachs.",
-    "place": "Trossachs"
+    "title": "Twilight photos and a timely price adjustment",
+    "story": "I had twilight photos taken and used them as the lead listing images, and shared the inspection report from before listing with buyers, including a roof vent leak that had already been sealed. In late June I recommended a price adjustment, and an offer came in three days later. The sellers accepted it that day.",
+    "place": "Trossachs",
+    "result": "Offer three days after the price adjustment",
+    "id": "sammamish-1"
    }
   ],
-  "lead": "My recent Trossachs listing sold for the highest price per square foot out of eight homes in the neighborhood. Here's how presentation and pricing got it there.",
+  "lead": "One recent Sammamish listing below shows how presentation and a price adjustment brought a buyer, and how I approach selling on the plateau.",
   "how": [
    "<strong>With more homes for buyers to choose from, presentation and pricing carry a lot of weight in Sammamish.</strong> On this Trossachs listing I used twilight photos as the lead images and gave buyers the inspection report from before listing. In late June I recommended a price adjustment, and an offer came in three days later."
   ],
