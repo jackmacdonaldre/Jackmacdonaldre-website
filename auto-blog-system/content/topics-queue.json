@@ -532,10 +532,11 @@
       "topic": "Selling a House in Probate in Washington: How the Timeline Works",
       "city": "Eastside",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "added": "2026-10-20",
       "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
-      "track": "estate"
+      "track": "estate",
+      "slug": "selling-a-house-in-probate-in-washington-how-the-timeline-works"
     },
     {
       "topic": "Best Time of Year to Sell on the Eastside",
@@ -570,10 +571,11 @@
       "topic": "Selling a Parent's Home in Bellevue: A Checklist for Families",
       "city": "Bellevue",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "added": "2026-10-20",
       "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
-      "track": "estate"
+      "track": "estate",
+      "slug": "selling-a-parents-home-in-bellevue-checklist"
     },
     {
       "topic": "Downsizing on the Eastside: Where Sellers Go Next",
@@ -610,10 +612,11 @@
       "topic": "Sell, Rent or Keep an Inherited House in King County?",
       "city": "Eastside",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "added": "2026-10-20",
       "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
-      "track": "estate"
+      "track": "estate",
+      "slug": "sell-rent-or-keep-an-inherited-house-in-king-county"
     },
     {
       "topic": "Houghton Kirkland Homes for Sale: Neighborhood Guide",
@@ -642,10 +645,11 @@
       "topic": "Clearing Out a Family Home Before You Sell on the Eastside",
       "city": "Eastside",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "added": "2026-10-20",
       "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
-      "track": "estate"
+      "track": "estate",
+      "slug": "clearing-out-a-family-home-before-you-sell-on-the-eastside"
     },
     {
       "topic": "Living Near Microsoft Redmond Campus: Best Nearby Neighborhoods",
@@ -673,10 +677,11 @@
       "topic": "Selling a Home After a Parent Moves to Assisted Living",
       "city": "Eastside",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "added": "2026-10-20",
       "note": "Jack reviews and adds photos before this publishes (2026-10-20). The auto blog skips status review.",
-      "track": "estate"
+      "track": "estate",
+      "slug": "selling-a-home-after-a-parent-moves-to-assisted-living"
     },
     {
       "topic": "Kirkland vs Redmond: Which Eastside City Fits You?",
@@ -823,28 +828,31 @@
       "topic": "Selling an Inherited Home in Snohomish County: Everett to Bothell",
       "city": "Everett",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "track": "estate",
       "added": "2026-10-20",
-      "note": "Jack reviews and adds photos before this publishes (2026-10-20)."
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20).",
+      "slug": "selling-an-inherited-home-in-snohomish-county-everett-to-bothell"
     },
     {
       "topic": "Selling an Inherited Home in Pierce County: Tacoma and Puyallup",
       "city": "Tacoma",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "track": "estate",
       "added": "2026-10-20",
-      "note": "Jack reviews and adds photos before this publishes (2026-10-20)."
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20).",
+      "slug": "selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup"
     },
     {
       "topic": "Selling a Probate Home in King County: What Families Should Know",
       "city": "Seattle",
       "type": "seller_guide",
-      "status": "review",
+      "status": "drafted",
       "track": "estate",
       "added": "2026-10-20",
-      "note": "Jack reviews and adds photos before this publishes (2026-10-20)."
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20).",
+      "slug": "selling-a-probate-home-in-king-county"
     }
   ]
 }

@@ -64,6 +64,12 @@ Inherited homes are often priced emotionally in both directions. Some families w
 
 From there, the sale itself runs much like any other: photos, showings, offers, inspection and closing. The main differences are who signs and how many people need to stay in the loop. For family members who live out of state, signing can usually be arranged so nobody has to fly in.
 
+## Related guides
+
+* [Selling a House in Probate in Washington: How the Timeline Works](https://jackmacdonaldre.com/blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/)
+* [Sell, Rent or Keep an Inherited House in King County?](https://jackmacdonaldre.com/blog/sell-rent-or-keep-an-inherited-house-in-king-county/)
+* [Clearing Out a Family Home Before You Sell on the Eastside](https://jackmacdonaldre.com/blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/)
+
 Sources: [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [Washington rule on inheritance and excise tax](https://www.law.cornell.edu/regulations/washington/WAC-458-61A-202), [IRS: Gifts and inheritances](https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances/gifts-inheritances), [King County Law Library on transfer on death deeds](https://kcll.org/from-the-director-october-2023/). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions
