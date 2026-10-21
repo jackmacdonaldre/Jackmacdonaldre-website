@@ -112,7 +112,34 @@ function pickRelated(post, all, n = 3) {
   return [...others].sort((a, b) => score(b) - score(a) || byDateDesc(a, b)).slice(0, n);
 }
 
+function estateNextStep(post) {
+  return `<section id="talk" style="margin-top: calc(var(--space-8) * 1.1); border: 1px solid var(--color-divider); background: #fff;">
+<div style="display: grid; grid-template-columns: minmax(0, 120px) minmax(0, 1fr); gap: var(--space-5); padding: var(--space-6); align-items: start;" class="estate-talk">
+<img src="/assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy" style="width: 100%; height: auto; display: block;">
+<div>
+<div class="kicker" style="margin-bottom: var(--space-2);">Talk it through with me</div>
+<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">Handling an inherited home or a parent's house?</h2>
+<p style="margin: 0 0 var(--space-3); line-height: 1.7;">I'm Jack Macdonald, a broker with the Macdonald Group of Compass. In 2026 I sold eight homes for one family's estate, from Everett down to Federal Way, and each one needed its own plan: inspections before listing, repairs, curb appeal, staging and photography, and keeping the executor and family updated the whole way.</p>
+<p style="margin: 0 0 var(--space-4); line-height: 1.7;">If it would help to talk through your situation, send me a note or call or text <a href="tel:4259416998">425.941.6998</a>. There's no obligation, and I'm not an attorney, so I'll work alongside yours. <a href="/inherited-homes/#results">See the estate homes I've sold</a>.</p>
+</div>
+</div>
+<form name="contact" method="POST" data-netlify="true" action="/thanks/" style="display: grid; gap: var(--space-3); padding: 0 var(--space-6) var(--space-6);">
+<input type="hidden" name="form-name" value="contact">
+<input type="hidden" name="source" value="Estate article: ${escapeHtml(post.slug)}">
+<div style="display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));">
+<div class="field"><label for="ea-name">Name</label><input class="input" id="ea-name" name="name" autocomplete="name" required></div>
+<div class="field"><label for="ea-email">Email</label><input class="input" id="ea-email" name="email" type="email" autocomplete="email"></div>
+<div class="field"><label for="ea-phone">Phone</label><input class="input" id="ea-phone" name="phone" type="tel" autocomplete="tel"></div>
+</div>
+<div class="field"><label for="ea-msg">Where is the home, and what's going on?</label><textarea class="input" id="ea-msg" name="message" rows="3" placeholder="For example: my dad's house in Renton, I'm the executor, I live out of state"></textarea></div>
+<div><button type="submit" class="btn btn-primary">Send to Jack</button></div>
+</form>
+</section>
+<style>@media (max-width: 600px) { .estate-talk { grid-template-columns: minmax(0, 1fr) !important; } .estate-talk img { max-width: 110px; } }</style>`;
+}
+
 function nextStep(post) {
+  if (post.track === "estate") return estateNextStep(post);
   const hub = hubFor(post);
   if (post.topic === "selling" || post.topic === "market-reports") {
     return `<div class="card cta">
@@ -144,6 +171,7 @@ function moreAboutBox(post, all) {
   return `<aside class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
 <h2 style="margin: 0 0 var(--space-3); font-size: 22px;">More about ${escapeHtml(hub.name)}</h2>
 <p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="/areas/${hub.slug}/"><strong>${escapeHtml(hub.name)} area guide</strong></a>: neighborhoods, schools, current listings and market numbers in one place.</p>
+${["bellevue", "kirkland", "redmond", "issaquah", "sammamish"].includes(hub.slug) ? `<p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="/areas/${hub.slug}/#recent-sales"><strong>Selling in ${escapeHtml(hub.name)}?</strong></a> See my recent ${escapeHtml(hub.name)} sales and how I handled each one, or <a href="/areas/${hub.slug}/#home-value">get a price range from me</a>.</p>` : ""}
 ${report ? `<p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="${report.path}"><strong>${escapeHtml(hub.name)} market report</strong></a>, updated ${escapeHtml(report.info.updatedMonth)}.</p>` : ""}
 ${guides.length ? `<p style="margin: 0; line-height: 1.8; font-size: 15px;">${guides.map((g) => `<a href="${postUrl(g)}">${escapeHtml(g.title)}</a>`).join("<br>")}</p>` : ""}
 </aside>`;
