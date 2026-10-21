@@ -137,19 +137,18 @@
       <p>Inspection, appraisal, escrow and every deadline in between. You'll hear from me before you have to ask.</p>
 
       <h2 style="margin-top: var(--space-8);">An example from Redmond</h2>
-      <p>When I first walked this Redmond rambler, the outside was working against it. Wood chips all the way around the house and no lawn, tired beige paint, dirty windows and walkway, and a front yard with no real plan.</p>
-      <p>That matters more than most sellers think. In a January 2025 survey of 995 homeowners by American Home Shield, 68% said bad curb appeal is a dealbreaker. The top red flags were a dirty exterior (57%), worn paint (50%) and an overgrown lawn (48%), and a well kept lawn was the feature people liked most (61%).</p>
-      <p>That list read like our to do list. We put in a new lawn and a garden bed, cleaned up the windows and walkway, added an extra parking space, and painted the outside a color that sells really well in this price range. Then we made the inside feel like home. Going in, we expected that work to add about 4 times its cost to the list price.</p>
-      <p>None of it was a big remodel, but those smaller changes changed how the whole house showed. It had one showing and one offer within six hours of hitting the market.</p>
+      <p>When I first walked this Redmond rambler, the inside was already in great shape. A 2023 remodel had redone the kitchen, both bathrooms, the flooring, windows, doors and electrical. The outside hid all of it: wood chips all the way around and no lawn, tired beige paint, dirty windows and walkway, and a front yard with no real plan.</p>
+      <p>So we fixed what buyers see first. A new lawn and garden bed, a cleaned up walkway and windows, an extra parking space, and exterior paint in a color that sells well in this price range. Then we made the inside feel like home. Going in, I expected that work to add about four times its cost to the list price.</p>
+      <p>Buyers can't see a remodel in a photo, so I wrote a "What's new" flyer straight from the contractor's invoice, listing every update room by room. It had one showing and one full price offer within a day, $1,275,000 with the inspection waived.</p>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-3); margin-top: var(--space-4);">
         <img src="../assets/redmond/front.jpg" alt="Redmond rambler after prep: new lawn, garden beds and fresh exterior paint" loading="lazy" style="width: 100%; height: auto; display: block;">
         <img src="../assets/redmond/backyard.jpg" alt="Backyard patio and new lawn behind the Redmond home" loading="lazy" style="width: 100%; height: auto; display: block;">
         <img src="../assets/redmond/living-room.jpg" alt="Staged living room with fireplace in the Redmond home" loading="lazy" style="width: 100%; height: auto; display: block;">
       </div>
-      <p style="font-size: 13px; color: var(--color-neutral-600); margin-top: var(--space-3);">Sources: <a href="https://ahs.com/home-matters/homebuyer-hub-resources-and-guides/curb-appeal-projects-with-the-highest-roi" target="_blank" rel="noopener">American Home Shield curb appeal survey</a> (995 homeowners, January 2025). In the <a href="https://www.nar.realtor/research-and-statistics/research-reports/remodeling-impact" target="_blank" rel="noopener">NAR 2023 Remodeling Impact Report: Outdoor Features</a>, 92% of Realtors said they recommend improving curb appeal before listing.</p>
+      <p style="font-size: 13px; color: var(--color-neutral-600); margin-top: var(--space-3);">Part of an estate sale. It closed at $1,269,000 after a $6,000 adjustment two days before closing, in place of a credit the buyer's lender couldn't allow.</p>
 
       <h2 style="margin-top: var(--space-8);">Where I sell</h2>
-      <p>I work across the Eastside, including Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville and Bothell. For current numbers in your city, see the <a href="../market-reports/">monthly market reports</a>, and for neighborhoods and schools, see the <a href="../areas/">area guides</a>.</p>
+      <p>I work across the Eastside, including <a href="../areas/bellevue/">Bellevue</a>, <a href="../areas/kirkland/">Kirkland</a>, <a href="../areas/redmond/">Redmond</a>, <a href="../areas/sammamish/">Sammamish</a>, <a href="../areas/issaquah/">Issaquah</a>, Woodinville and Bothell. Each city page shows my recent sales there. For current numbers in your city, see the <a href="../market-reports/">monthly market reports</a>, and for neighborhoods and schools, see the <a href="../areas/">area guides</a>.</p>
       <p>Selling a home that was inherited or is part of an estate? That is part of my expertise too. See <a href="../inherited-homes/">how I help with inherited and estate homes</a>.</p>
 
       <h2 style="margin-top: var(--space-8);">Common questions</h2>
@@ -164,10 +163,20 @@
       <h3>My home didn't sell with another agent. Can you help?</h3>
       <p>Yes. Once the listing has expired or been cancelled, I'm happy to look at what happened, from the price and photos to the timing, and give you an honest read on what I'd do differently.</p>
 
-      <div class="card" style="padding: var(--space-6); margin: var(--space-8) 0 120px; text-align: center;">
+      <div id="home-value" class="card" style="padding: var(--space-6); margin: var(--space-8) 0 120px;">
         <h2 style="margin-top: 0;">Thinking about selling?</h2>
-        <p>Start with a price range for your home, or call me at <a href="tel:4259416998">(425) 941-6998</a>.</p>
-        <a href="../home-value/" class="btn btn-primary">Get Your Home's Value</a>
+        <p>Send me the address and I'll look at your home and the recent sales around it myself, then send you a price range with the comparable sales behind it. It's my analysis, not an automated estimate. Or call or text me at <a href="tel:4259416998">(425) 941-6998</a>.</p>
+        <form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3); margin-top: var(--space-4);">
+          <input type="hidden" name="form-name" value="home-value">
+          <p hidden><label>Leave this empty <input name="bot-field"></label></p>
+          <input type="hidden" name="source" value="Sell page">
+          <div class="field"><label for="sv-address">Property address</label><input class="input" id="sv-address" name="address" required autocomplete="street-address" placeholder="Street, city"></div>
+          <div class="field"><label for="sv-name">Name</label><input class="input" id="sv-name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="sv-email">Email</label><input class="input" id="sv-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="sv-phone">Phone (optional)</label><input class="input" id="sv-phone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="sv-timeline">When might you sell?</label><select class="input" id="sv-timeline" name="timeline"><option>Just curious</option><option>Within 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than a year</option></select></div>
+          <button type="submit" class="btn btn-primary">Send me a price range</button>
+        </form>
       </div>
     </section>
 

@@ -12,13 +12,13 @@
 <script src="/assets/lead-tracking.js" defer></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bellevue, WA Real Estate: Neighborhoods, Market Report &amp; Homes for Sale | Jack Macdonald</title>
-<meta name="description" content="Bellevue, WA area guide from local REALTOR Jack Macdonald: neighborhood guides, the latest market report, schools, and homes for sale.">
+<title>Bellevue, WA Real Estate: Recent Sales &amp; Selling | Jack Macdonald</title>
+<meta name="description" content="Selling in Bellevue? See my recent Bellevue sales, how I price, prepare and negotiate, current market numbers, and get a price range from me personally.">
 <link rel="canonical" href="https://jackmacdonaldre.com/areas/bellevue/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Jack Macdonald | Macdonald Group of Compass">
-<meta property="og:title" content="Bellevue, WA Real Estate: Neighborhoods, Market Report &amp; Homes for Sale | Jack Macdonald">
-<meta property="og:description" content="Bellevue, WA area guide from local REALTOR Jack Macdonald: neighborhood guides, the latest market report, schools, and homes for sale.">
+<meta property="og:title" content="Bellevue, WA Real Estate: Recent Sales &amp; Selling | Jack Macdonald">
+<meta property="og:description" content="Selling in Bellevue? See my recent Bellevue sales, how I price, prepare and negotiate, current market numbers, and get a price range from me personally.">
 <meta property="og:url" content="https://jackmacdonaldre.com/areas/bellevue/">
 <meta property="og:image" content="https://jackmacdonaldre.com/assets/twilight-listing-photo.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -93,12 +93,137 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <a href="tel:4259416998" class="btn btn-secondary"><span class="hide-sm">425.941.6998</span><span class="show-sm">Call</span></a>
 </div>
 </header>
-<main class="page">
+<style>
+.hub-hero { background: #141311; color: #f4f2ee; padding: var(--space-8) var(--space-6); margin: var(--space-4) 0 0; }
+.hub-hero .kicker { color: #b9b5ae; }
+.hub-hero h1 { color: #fdfdfc; margin: var(--space-3) 0 var(--space-4); font-size: clamp(36px, 5.5vw, 60px); line-height: 1.05; }
+.hub-hero p { color: #e6e3de; max-width: 680px; line-height: 1.7; font-size: 17px; }
+.hub-hero .actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-5); }
+.hub-hero .btn-primary { background: #fdfdfc; color: #141311; border-color: #fdfdfc; }
+.hub-hero .btn-secondary { background: transparent; color: #fdfdfc; border-color: #fdfdfc; }
+.hub-why { display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr); gap: var(--space-5); align-items: start; margin-top: var(--space-8); }
+.hub-why img { width: 100%; height: auto; display: block; }
+.hub-why h2 { margin: 0 0 var(--space-3); }
+.hub-why p { line-height: 1.75; margin: 0 0 var(--space-3); }
+.hub-sales { display: grid; gap: var(--space-5); margin-top: var(--space-5); }
+.hub-sale { border: 1px solid var(--color-divider); background: #fff; display: grid; grid-template-columns: minmax(0, 1fr); }
+.hub-sale.featured .photos { grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; }
+.hub-sale.featured .photos img:first-child { grid-column: 1; grid-row: 1 / span 2; aspect-ratio: auto; }
+.hub-sale.featured .photos img { aspect-ratio: 4 / 3; }
+.hub-sale .photos.two, .hub-sale.featured .photos.two { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+.hub-sale .photos.two img, .hub-sale.featured .photos.two img:first-child { grid-column: auto; grid-row: auto; aspect-ratio: 4 / 3; }
+.hub-sale .note { font-size: 13px; color: var(--color-neutral-600); margin: var(--space-3) 0 0; }
+.hub-sale .photos { display: grid; gap: 4px; grid-template-columns: 1fr 1fr; align-content: start; }
+.hub-sale .photos img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.hub-sale .photos img:first-child { grid-column: 1 / -1; aspect-ratio: 3 / 2; }
+.hub-sale .body { padding: var(--space-5) var(--space-6) var(--space-6); }
+.hub-sale .tags { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; margin-bottom: var(--space-3); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+.hub-sale .side { padding: 4px 10px; border: 1px solid #201f1d; }
+.hub-sale .side.seller { background: #201f1d; color: #fdfdfc; }
+.hub-sale h3 { margin: 0 0 var(--space-3); font-size: 22px; line-height: 1.3; }
+.hub-sale p { font-size: 15.5px; line-height: 1.7; margin: 0 0 var(--space-4); }
+.hub-sale .figures { display: flex; flex-wrap: wrap; gap: var(--space-5); border-top: 1px solid var(--color-divider); padding-top: var(--space-4); }
+.hub-sale .figures div { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-600); }
+.hub-sale .figures strong { display: block; font-family: var(--font-heading); font-weight: 400; font-size: 26px; letter-spacing: 0; text-transform: none; color: #201f1d; margin-top: 2px; }
+.hub-glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 1px; background: var(--color-divider); border: 1px solid var(--color-divider); margin-top: var(--space-5); }
+.hub-glance a { display: block; background: #fff; padding: var(--space-4) var(--space-5); color: inherit; text-decoration: none; }
+.hub-glance a:hover { background: #f7f6f4; }
+.hub-glance .r { font-family: var(--font-heading); font-size: 21px; line-height: 1.3; color: #201f1d; }
+.hub-glance .m { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-2); }
+.hub-sale .result { font-family: var(--font-heading); font-size: 26px; line-height: 1.25; margin: 0 0 var(--space-2); color: #201f1d; }
+.hub-sale h3.sub { font-family: inherit; font-size: 15px; letter-spacing: 0.02em; color: var(--color-neutral-600); margin: 0 0 var(--space-3); font-weight: 500; }
+.hub-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: var(--space-5); }
+@media (max-width: 760px) {
+  .hub-hero { padding: var(--space-6) var(--space-4); margin-left: calc(-1 * var(--space-4)); margin-right: calc(-1 * var(--space-4)); }
+  .hub-sale.featured .photos { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+  .hub-sale.featured .photos img:first-child { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 3 / 2; }
+  .hub-sale.featured .photos.two img:first-child { grid-column: auto; aspect-ratio: 4 / 3; }
+  .hub-why { grid-template-columns: minmax(0, 1fr); }
+  .hub-why img { max-width: 140px; }
+  .hub-sale .body { padding: var(--space-4) var(--space-4) var(--space-5); }
+}
+</style><main class="page">
 <div class="narrow">
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/areas/">Areas</a></li><li aria-current="page">Bellevue</li></ol></nav>
-<h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Bellevue Real Estate</h1>
-<p style="font-size: 18px; line-height: 1.7;">Bellevue is the Eastside's largest city, from the high rises downtown to established neighborhoods like Somerset, Newport Hills and Bridle Trails. I grew up here, so this is the market I know street by street.</p>
-<div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
+<header class="hub-hero">
+<div class="kicker">Jack Macdonald &middot; Macdonald Group of Compass</div>
+<h1>Bellevue Real Estate</h1>
+<p>Bellevue is the Eastside's largest city, from the high rises downtown to established neighborhoods like Somerset, Newport Hills and Bridle Trails. I grew up here, so this is the market I know street by street.</p>
+<p>Below are recent Bellevue sales where I represented the seller or the buyer, from a Lake Hills rambler to a Lakemont purchase, with what decided each one.</p>
+<div class="actions"><a href="#home-value" class="btn btn-primary">Get a price range from me</a><a href="tel:4259416998" class="btn btn-secondary">Call or text 425.941.6998</a></div>
+</header>
+<section aria-label="Recent results" style="margin-top: var(--space-6);">
+<div class="kicker">Recent Bellevue results</div>
+<div class="hub-glance"><a href="#sale-bellevue-1"><div class="r">$20,000 gained in my counter</div><div class="m">Seller side &middot; 2024 &middot; Lake Hills</div></a><a href="#sale-bellevue-2"><div class="r">Won on the third offer, timed to a lease</div><div class="m">Buyer side &middot; 2026 &middot; Lakemont</div></a><a href="#sale-bellevue-3"><div class="r">All cash, over list, accepted in two days</div><div class="m">Buyer side &middot; 2025</div></a></div>
+</section>
+<section class="hub-why" id="why">
+<img src="/assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy">
+<div><h2>Why Bellevue sellers call me</h2><p>I've known these neighborhoods most of my life, so when I price a Bellevue home I'm comparing it to the streets around it, not a radius on a map. I'm a second generation broker, and I handle the comps, the counteroffers and the calls with the other agent myself.</p>
+<p style="font-size: 14px;"><a href="/about/">More about me</a></p></div>
+</section>
+<h2 style="margin-top: var(--space-8);">Selling in Bellevue</h2>
+<p style="line-height: 1.7;">Bellevue has slowed down: the median home took 20 days to sell from July to September 2026, 12 days longer than a year ago, and there are about 3.1 months of supply. <a href="/market-reports/bellevue/">See the full Bellevue numbers</a>. <span style="display: block; font-size: 13px; color: var(--color-neutral-600); margin-top: var(--space-2);">Market figures are for single family homes from July to September 2026, from the Redfin Data Center, and are updated monthly.</span></p>
+<p style="line-height: 1.7;">From July to September 2026, 12.2% of Bellevue single family homes sold above list price, and sellers got about 97.4% of list on average. At a median sale price of $1,841,766, a list price just 3% too high is about $55,000 of overreach, and an overpriced home can sit while buyers wait for a reduction.</p>
+
+<p style="line-height: 1.7;">I price off the sales that actually happened near you, fix only what buyers will notice, and stay on top of the listing once it's live. <a href="/sell/">Here's how I sell homes</a>, or <a href="/home-value/">get a price range for yours</a>.</p>
+<blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;He gave us practical advice about preparing and pricing the house, explained everything clearly, and kept us updated throughout the process. We never felt pressured or left wondering what was happening.&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">Caleb H., sold in Bellevue</div></blockquote>
+<blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;He helped my mom sell her house in Bellevue and was incredible from beginning to end. He was super knowledgeable, and made what could have been a stressful process feel so easy.&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">Ruben J., sold in Bellevue</div></blockquote>
+<p style="font-size: 14px;"><a href="https://www.google.com/search?q=Jack+Macdonald+Macdonald+Group+Real+Estate+Bellevue" target="_blank" rel="noopener">More client reviews on Google &rarr;</a></p>
+<section id="recent-sales" style="margin-top: var(--space-8);">
+<h2>How I work in Bellevue, with recent sales</h2>
+<p style="line-height: 1.75;"><strong>Pricing and negotiation decided the Bellevue sales.</strong> On the Lake Hills rambler, the buyer opened at $1,170,000 and my counter brought them to $1,190,000. For my Lakemont buyers, I put together price per square foot breakdowns from recent sales on the homes they considered, and they passed on one that was too far apart on price before winning the right one.</p>
+<p style="font-size: 13px; color: var(--color-neutral-600); line-height: 1.6;">From my transaction records, prices as closed. <a href="/sell/">My full selling process</a>.</p>
+<div class="hub-sales">
+
+<div class="hub-pair"><article class="hub-sale" id="sale-bellevue-1">
+
+<div class="body">
+<div class="tags"><span class="side seller">I represented the seller</span><span>2024 &middot; Lake Hills</span></div>
+<div class="result">$20,000 gained in my counter</div><h3 class="sub">Under contract in ten days, $20,000 gained in the counter</h3>
+<p>A three bedroom rambler near Lake Hills Park. An inspection was done before it went on the market so buyers could see the condition up front, and the home was professionally photographed. Offers came in within the first ten days. The buyer opened at $1,170,000 and came up to $1,190,000 after my counter.</p>
+<div class="figures"><div>Listed<strong>$1,248,500</strong></div><div>Sold<strong>$1,190,000</strong></div></div>
+
+</div>
+</article>
+<article class="hub-sale" id="sale-bellevue-2">
+
+<div class="body">
+<div class="tags"><span class="side buyer">I represented the buyer</span><span>2026 &middot; Lakemont</span></div>
+<div class="result">Won on the third offer, timed to a lease</div><h3 class="sub">Third offer, timed to the end of a lease</h3>
+<p>My buyers wrote offers on two other homes this spring. One was too far apart on price, and on the other the seller took a different offer. For this Lakemont home they made a full price offer with the inspection waived and a 30 day close timed to the end of their lease. The seller accepted the next day.</p>
+<div class="figures"><div>Purchase price<strong>$1,990,000</strong></div></div>
+
+</div>
+</article>
+<article class="hub-sale" id="sale-bellevue-3">
+
+<div class="body">
+<div class="tags"><span class="side buyer">I represented the buyer</span><span>2025</span></div>
+<div class="result">All cash, over list, accepted in two days</div><h3 class="sub">Over list, accepted in two days</h3>
+<p>My buyers made an all cash offer $10,000 over the $1,075,000 list price, with no appraisal or financing contingency and the septic repairs waived. It was accepted about two days after the home was listed. The seller was represented by Stephen Macdonald, who I work alongside at the Macdonald Group.</p>
+<div class="figures"><div>Listed<strong>$1,075,000</strong></div><div>Purchase price<strong>$1,085,000</strong></div></div>
+
+</div>
+</article></div>
+</div>
+</section>
+<section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<div class="kicker">A price range from me, not an algorithm</div>
+<h2 style="margin: var(--space-2) 0 var(--space-3); font-size: 28px;">What would your Bellevue home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Send me the address and I'll look at your home and the recent Bellevue sales around it myself, then send you a price range with the comparable sales behind it. It's my analysis, not an automated estimate, and there's no obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
+<input type="hidden" name="form-name" value="home-value">
+<p hidden><label>Leave this empty <input name="bot-field"></label></p>
+<input type="hidden" name="source" value="Bellevue city page">
+<div class="field"><label for="hv-bellevue-address">Property address</label><input class="input" id="hv-bellevue-address" name="address" required autocomplete="street-address" placeholder="Street, Bellevue"></div>
+<div class="field"><label for="hv-bellevue-name">Name</label><input class="input" id="hv-bellevue-name" name="name" required autocomplete="name"></div>
+<div class="field"><label for="hv-bellevue-email">Email</label><input class="input" id="hv-bellevue-email" name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="hv-bellevue-phone">Phone (optional)</label><input class="input" id="hv-bellevue-phone" name="phone" type="tel" autocomplete="tel"></div>
+<div class="field"><label for="hv-bellevue-timeline">When might you sell?</label><select class="input" id="hv-bellevue-timeline" name="timeline"><option>Just curious</option><option>Within 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than a year</option></select></div>
+<button type="submit" class="btn btn-primary">Send me a price range</button>
+</form>
+</section>
+<div class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
 <div class="kicker">Latest market report &middot; Updated October 2026</div>
 <p style="line-height: 1.7; margin: var(--space-3) 0;">Bellevue's median single family sale price was $1.84 million for July to September 2026, up 2.3% from the same months last year. 266 single family homes sold (15.6% fewer than a year ago), and the median home spent 20 days on the market.</p>
 <a href="/market-reports/bellevue/" class="btn btn-secondary">Read the Bellevue market report</a>
@@ -107,24 +232,13 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <ul style="list-style: none; padding: 0; margin: 0;"><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/bellevue-farmers-market-guide/" style="font-size: 17px;">Bellevue Farmers Market: What to Know Before You Go</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 23, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/best-coffee-shops-in-bellevue-wa/" style="font-size: 17px;">The Best Coffee Shops in Bellevue, WA Worth Knowing</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 16, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/" style="font-size: 17px;">Bellevue vs Kirkland: Which Eastside City Fits You?</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 26, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/" style="font-size: 17px;">Newport Hills Bellevue: What Buyers Should Know</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 19, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/west-bellevue-homes-for-sale-neighborhood-guide/" style="font-size: 17px;">West Bellevue Neighborhoods: What Buyers Should Know</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 17, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/" style="font-size: 17px;">Somerset Bellevue Homes for Sale: Neighborhood Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 11, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/living-in-bridle-trails-a-neighborhood-guide/" style="font-size: 17px;">Living in Bridle Trails, Bellevue: A Neighborhood Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 11, 2026</div></li></ul>
 <h2 style="margin-top: var(--space-8);">Schools and family</h2><ul style="list-style: none; padding: 0; margin: 0;"><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/bellevue-school-district-guide-for-home-buyers/" style="font-size: 17px;">Bellevue School District Guide for Home Buyers</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 4, 2026</div></li></ul>
 <p style="margin-top: var(--space-6);"><a href="/blog/area/bellevue/">All Bellevue posts &rarr;</a></p>
-<h2 style="margin-top: var(--space-8);">Selling in Bellevue</h2>
-<p style="line-height: 1.7;">Bellevue has slowed down: the median home took 20 days to sell from July to September 2026, 12 days longer than a year ago, and there are about 3.1 months of supply. <a href="/market-reports/bellevue/">See the full Bellevue numbers</a>.</p>
-<p style="line-height: 1.7;">I price off the sales that actually happened near you, fix only what buyers will notice, and stay on top of the listing once it's live. <a href="/sell/">Here's how I sell homes</a>, or <a href="/home-value/">get a price range for yours</a>.</p>
-<blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;He gave us practical advice about preparing and pricing the house, explained everything clearly, and kept us updated throughout the process. We never felt pressured or left wondering what was happening.&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">Caleb H., sold in Bellevue</div></blockquote>
-<blockquote class="card" style="margin: var(--space-3) 0; padding: var(--space-5); font-style: italic; line-height: 1.7;">&ldquo;He helped my mom sell her house in Bellevue and was incredible from beginning to end. He was super knowledgeable, and made what could have been a stressful process feel so easy.&rdquo;<div style="font-style: normal; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-neutral-600); margin-top: var(--space-3);">Ruben J., sold in Bellevue</div></blockquote>
-<p style="font-size: 14px;"><a href="https://www.google.com/search?q=Jack+Macdonald+Macdonald+Group+Real+Estate+Bellevue" target="_blank" rel="noopener">More client reviews on Google &rarr;</a></p>
 </div>
 <section id="listings" style="margin-top: var(--space-8);">
 <h2>Homes for sale in Bellevue</h2>
 <p style="line-height: 1.65;">We don't have a listing of our own in Bellevue right now. Every home on the market there is in the full search.</p>
-<p style="margin-top: var(--space-4);"><a href="/search.html" class="btn btn-primary">Search all Bellevue homes for sale</a></p>
+<p style="margin-top: var(--space-4);"><a href="/search.html" class="btn btn-primary" style="white-space: normal; max-width: 100%; text-align: center;">Search all Bellevue homes for sale</a></p>
 <p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. Listing data last updated October 21, 2026.</p>
 </section>
-<div class="narrow"><div class="card cta">
-<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">Curious what your home would sell for right now?</h2>
-<p style="max-width: 480px; margin: 0 auto var(--space-6); line-height: 1.65;">I'll put together a real number based on the homes that just sold near you, not an online estimate. No obligation.</p>
-<div class="buttons"><a href="/contact/?interest=home-value" class="btn btn-primary">Get my home value</a><a href="tel:4259416998" class="btn btn-secondary">Call 425.941.6998</a></div>
-</div></div>
 </main>
 <footer style="background: var(--color-neutral-900); color: var(--color-neutral-300); padding: var(--space-8) var(--space-6) var(--space-6);">
 <div style="max-width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-6);">
