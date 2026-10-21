@@ -507,7 +507,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "what-it-costs-to-sell-a-home-in-washington-state",
+      "published_date": "2026-10-21"
     },
     {
       "topic": "What Kirkland Homes Are Actually Selling For Right Now",
