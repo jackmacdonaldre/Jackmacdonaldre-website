@@ -1,1 +1,127 @@
-{}
+{
+ "_note": "Verified facts only, from Jack's transaction emails and Compass records (see claude/city-sales-facts in the project). side = which side Jack represented.",
+ "bellevue": {
+  "sales": [
+   {
+    "side": "seller",
+    "year": 2024,
+    "price": 1190000,
+    "listPrice": 1248500,
+    "title": "Lake Hills rambler, under contract in ten days",
+    "story": "A three bedroom rambler near Lake Hills Park. An inspection was done before it went on the market so buyers could see the condition up front, and the home was professionally photographed. Offers came in within the first ten days. The buyer opened at $1,170,000 and came up to $1,190,000 after my counter."
+   },
+   {
+    "side": "buyer",
+    "year": 2026,
+    "price": 1990000,
+    "listPrice": null,
+    "title": "Third offer, timed to the end of a lease",
+    "story": "My buyers wrote offers on two other homes this spring. One was too far apart on price, and on the other the seller took a different offer. For this Lakemont home they made a full price offer with the inspection waived and a 30 day close timed to the end of their lease. The seller accepted the next day."
+   },
+   {
+    "side": "buyer",
+    "year": 2025,
+    "price": 1085000,
+    "listPrice": 1075000,
+    "title": "Over list, accepted in two days",
+    "story": "My buyers offered $10,000 over the $1,075,000 list price with the septic repairs waived. The offer was accepted about two days after the home was listed. The seller was represented by Stephen Macdonald, who I work alongside at the Macdonald Group."
+   }
+  ]
+ },
+ "kirkland": {
+  "sales": [
+   {
+    "side": "seller",
+    "year": 2026,
+    "price": 1300000,
+    "listPrice": 1295000,
+    "title": "Fix the one big item, keep the receipts",
+    "story": "Part of an estate sale. The inspection before listing found a gas leak at the water heater. We had it fixed properly, kept the receipts for buyers, and handled the rest of the report: deck ledger, railings, garage fire wall and outlets."
+   },
+   {
+    "side": "buyer",
+    "year": 2024,
+    "price": 1255000,
+    "listPrice": 1280000,
+    "title": "Strong terms, accepted the same night",
+    "story": "The home was listed at $1,280,000. I sent my buyer the comps, the inspection report and the seller disclosure before we offered. After touring, they offered with the inspection and financing contingencies waived, earnest money released to the seller within two days, and a two week close. The seller countered and we agreed that evening at $1,255,000, $25,000 under list."
+   }
+  ]
+ },
+ "redmond": {
+  "sales": [
+   {
+    "side": "buyer",
+    "year": 2026,
+    "price": 4600000,
+    "listPrice": null,
+    "title": "A $4.8 million listing, negotiated to $4.6 million",
+    "story": "A new construction home with a bonus room over the garage and a detached cottage, originally listed at $4,800,000. My buyers opened with a cash offer and a written valuation that broke out the main house, the garage and bonus room, and the cottage separately. I compared the seller's comparables with recent Redmond luxury sales, and after several days of back and forth we agreed at $4,600,000."
+   },
+   {
+    "side": "seller",
+    "year": 2026,
+    "price": 1269000,
+    "listPrice": 1275000,
+    "title": "One showing, one offer",
+    "story": "Part of an estate sale. The outside was working against it, so we put in a lawn and garden bed, added parking and repainted. One showing and one full price offer the night it listed, with the inspection waived. Two days before closing the buyer's lender couldn't allow a $6,000 credit, so that amount came off the price instead."
+   },
+   {
+    "side": "seller",
+    "year": 2026,
+    "price": 1325000,
+    "listPrice": null,
+    "title": "Fix what worries buyers, skip the rest",
+    "story": "Part of an estate sale. I went through the inspection report and picked only what was likely to worry a buyer: electrical, small plumbing leaks and a capped vent. Each fix was keyed to the report so buyers could see it was handled."
+   }
+  ]
+ },
+ "issaquah": {
+  "sales": [
+   {
+    "side": "seller",
+    "year": 2025,
+    "price": 1730000,
+    "listPrice": 1849500,
+    "title": "Sycamore home, prepared and staged",
+    "story": "Before listing, the sellers painted the interior, refinished the hardwoods and washed the exterior. The home was staged and professionally photographed, including drone views. Septic repairs were completed and documented before closing so the buyers had a clean report."
+   },
+   {
+    "side": "seller",
+    "year": 2026,
+    "price": 515000,
+    "listPrice": 529500,
+    "title": "Staged condo, sold through the holidays",
+    "story": "A condo in the Sammamish Hills community, professionally staged and photographed. It went under contract on December 24 after about two months on the market."
+   },
+   {
+    "side": "buyer",
+    "year": 2023,
+    "price": 855000,
+    "listPrice": null,
+    "title": "Back on market, won with a rent back",
+    "story": "This Hamptons Pointe condo went pending with another buyer, then came back on the market. My counter offered the sellers a four week rent back, and the offer was accepted two days later. I also confirmed with the HOA what the dues cover, since the listing details conflicted."
+   },
+   {
+    "side": "buyer",
+    "year": 2023,
+    "price": 480000,
+    "listPrice": 485000,
+    "title": "Condo purchase, credit negotiated after inspection",
+    "story": "I sent my buyer comps and the HOA documents before we offered on this Sammamish Pointe condo. After the inspection we negotiated a credit, the appraisal came in at value, and it closed at $480,000, $5,000 under list."
+   }
+  ]
+ },
+ "sammamish": {
+  "sales": [
+   {
+    "side": "seller",
+    "year": 2025,
+    "price": 1600000,
+    "listPrice": 1699500,
+    "title": "Trossachs home, twilight photos and a price adjustment",
+    "story": "I had twilight photos taken and used them as the lead listing images, and shared the inspection report from before listing with buyers, including a roof vent leak that had already been sealed. After a price adjustment in late June, an offer came in three days later and the sellers accepted it that day."
+   }
+  ]
+ }
+}
