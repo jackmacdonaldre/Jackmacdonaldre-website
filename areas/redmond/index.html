@@ -93,22 +93,63 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <a href="tel:4259416998" class="btn btn-secondary"><span class="hide-sm">425.941.6998</span><span class="show-sm">Call</span></a>
 </div>
 </header>
-<main class="page">
+<style>
+.hub-hero { background: #141311; color: #f4f2ee; padding: var(--space-8) var(--space-6); margin: var(--space-4) 0 0; }
+.hub-hero .kicker { color: #b9b5ae; }
+.hub-hero h1 { color: #fdfdfc; margin: var(--space-3) 0 var(--space-4); font-size: clamp(36px, 5.5vw, 60px); line-height: 1.05; }
+.hub-hero p { color: #e6e3de; max-width: 680px; line-height: 1.7; font-size: 17px; }
+.hub-hero .actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-5); }
+.hub-hero .btn-primary { background: #fdfdfc; color: #141311; border-color: #fdfdfc; }
+.hub-hero .btn-secondary { background: transparent; color: #fdfdfc; border-color: #fdfdfc; }
+.hub-why { display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr); gap: var(--space-5); align-items: start; margin-top: var(--space-8); }
+.hub-why img { width: 100%; height: auto; display: block; }
+.hub-why h2 { margin: 0 0 var(--space-3); }
+.hub-why p { line-height: 1.75; margin: 0 0 var(--space-3); }
+.hub-sales { display: grid; gap: var(--space-5); margin-top: var(--space-5); }
+.hub-sale { border: 1px solid var(--color-divider); background: #fff; display: grid; grid-template-columns: minmax(0, 1fr); }
+.hub-sale.featured .photos { grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; }
+.hub-sale.featured .photos img:first-child { grid-column: 1; grid-row: 1 / span 2; aspect-ratio: auto; }
+.hub-sale.featured .photos img { aspect-ratio: 4 / 3; }
+.hub-sale .photos.two, .hub-sale.featured .photos.two { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+.hub-sale .photos.two img, .hub-sale.featured .photos.two img:first-child { grid-column: auto; grid-row: auto; aspect-ratio: 4 / 3; }
+.hub-sale .note { font-size: 13px; color: var(--color-neutral-600); margin: var(--space-3) 0 0; }
+.hub-sale .photos { display: grid; gap: 4px; grid-template-columns: 1fr 1fr; align-content: start; }
+.hub-sale .photos img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.hub-sale .photos img:first-child { grid-column: 1 / -1; aspect-ratio: 3 / 2; }
+.hub-sale .body { padding: var(--space-5) var(--space-6) var(--space-6); }
+.hub-sale .tags { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; margin-bottom: var(--space-3); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+.hub-sale .side { padding: 4px 10px; border: 1px solid #201f1d; }
+.hub-sale .side.seller { background: #201f1d; color: #fdfdfc; }
+.hub-sale h3 { margin: 0 0 var(--space-3); font-size: 22px; line-height: 1.3; }
+.hub-sale p { font-size: 15.5px; line-height: 1.7; margin: 0 0 var(--space-4); }
+.hub-sale .figures { display: flex; flex-wrap: wrap; gap: var(--space-5); border-top: 1px solid var(--color-divider); padding-top: var(--space-4); }
+.hub-sale .figures div { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-600); }
+.hub-sale .figures strong { display: block; font-family: var(--font-heading); font-weight: 400; font-size: 26px; letter-spacing: 0; text-transform: none; color: #201f1d; margin-top: 2px; }
+.hub-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: var(--space-5); }
+@media (max-width: 760px) {
+  .hub-hero { padding: var(--space-6) var(--space-4); margin-left: calc(-1 * var(--space-4)); margin-right: calc(-1 * var(--space-4)); }
+  .hub-sale.featured .photos { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+  .hub-sale.featured .photos img:first-child { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 3 / 2; }
+  .hub-sale.featured .photos.two img:first-child { grid-column: auto; aspect-ratio: 4 / 3; }
+  .hub-why { grid-template-columns: minmax(0, 1fr); }
+  .hub-why img { max-width: 140px; }
+  .hub-sale .body { padding: var(--space-4) var(--space-4) var(--space-5); }
+}
+</style><main class="page">
 <div class="narrow">
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/areas/">Areas</a></li><li aria-current="page">Redmond</li></ol></nav>
-<h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Redmond Real Estate</h1>
-<p style="font-size: 18px; line-height: 1.7;">Redmond runs from a fast growing, walkable downtown out to Education Hill, Overlake and Redmond Ridge. Light rail, Microsoft and the Lake Washington School District shape a lot of what buyers ask about here.</p>
-<p style="font-size: 17px; line-height: 1.7;">My recent Redmond sales range from a $1.27 million rambler to a $4.6 million new construction purchase. Each one below shows how the price was set and negotiated. <a href="#recent-sales">See the sales</a>.</p>
-<p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your Redmond home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
-<div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
-<div class="kicker">Latest market report &middot; Updated October 2026</div>
-<p style="line-height: 1.7; margin: var(--space-3) 0;">Redmond's median single family sale price was $1.54 million for July to September 2026, down 2.4% from the same months last year. 93 single family homes sold (23.1% fewer than a year ago), and the median home spent 28 days on the market.</p>
-<a href="/market-reports/redmond/" class="btn btn-secondary">Read the Redmond market report</a>
-</div>
-<h2 style="margin-top: var(--space-8);">Redmond neighborhood guides</h2>
-<ul style="list-style: none; padding: 0; margin: 0;"><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/redmond-ridge-homes-for-sale-community-guide/" style="font-size: 17px;">Redmond Ridge: What Buyers Should Actually Know</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">October 19, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/dog-parks-in-redmond-wa-a-local-s-list/" style="font-size: 17px;">Dog Parks in Redmond, WA: A Local's Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 21, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/" style="font-size: 17px;">Redmond vs. Sammamish: An Honest Eastside Comparison</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 28, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/downtown-redmond-condos-and-homes-neighborhood-guide/" style="font-size: 17px;">Downtown Redmond Homes and Condos Neighborhood Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 13, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/education-hill-homes-for-sale-what-buyers-should-know/" style="font-size: 17px;">Education Hill Homes for Sale: What Buyers Should Know</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 12, 2026</div></li></ul>
-<h2 style="margin-top: var(--space-8);">Schools and family</h2><ul style="list-style: none; padding: 0; margin: 0;"><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/choice-schools-and-tech-schools-in-lake-washington-school-district-how-admission-works/" style="font-size: 17px;">Lake Washington School District Choice and Tech Schools Explained</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">October 9, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/lake-washington-school-district-boundaries-a-buyer-s-guide/" style="font-size: 17px;">Lake Washington School District Boundaries: A Buyer's Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 7, 2026</div></li></ul>
-<p style="margin-top: var(--space-6);"><a href="/blog/area/redmond/">All Redmond posts &rarr;</a></p>
+<header class="hub-hero">
+<div class="kicker">Jack Macdonald &middot; Macdonald Group of Compass</div>
+<h1>Redmond Real Estate</h1>
+<p>Redmond runs from a fast growing, walkable downtown out to Education Hill, Overlake and Redmond Ridge. Light rail, Microsoft and the Lake Washington School District shape a lot of what buyers ask about here.</p>
+<p>My recent Redmond sales range from a $1.27 million rambler to a $4.6 million new construction purchase. Each one below shows how the price was set and negotiated.</p>
+<div class="actions"><a href="#home-value" class="btn btn-primary">Get a price range from me</a><a href="tel:4259416998" class="btn btn-secondary">Call or text 425.941.6998</a></div>
+</header>
+<section class="hub-why" id="why">
+<img src="/assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy">
+<div><h2>Why Redmond sellers call me</h2><p>This year I've represented Redmond sellers and a Redmond buyer, from a $1.27 million rambler to a $4.6 million new construction home. Working both sides keeps me honest about what buyers will question, and I write the marketing to answer it. On the rambler below, that meant turning a contractor's invoice into a flyer, because buyers can't see a remodel in a photo.</p>
+<p style="font-size: 14px;"><a href="/about/">More about me</a></p></div>
+</section>
 <h2 style="margin-top: var(--space-8);">Selling in Redmond</h2>
 <p style="line-height: 1.7;">Redmond has slowed down: the median home took 28 days to sell from July to September 2026, 14 days longer than a year ago, and there are about 3.1 months of supply. <a href="/market-reports/redmond/">See the full Redmond numbers</a>. <span style="display: block; font-size: 13px; color: var(--color-neutral-600); margin-top: var(--space-2);">Market figures are for single family homes from July to September 2026, from the Redfin Data Center, and are updated monthly.</span></p>
 <p style="line-height: 1.7;">Only 93 single family homes sold in Redmond from July to September 2026. With that few sales spread across Education Hill, Grass Lawn, the Overlake area and the plateau toward Redmond Ridge, the comparables you choose do a lot of the work in setting the price.</p>
@@ -117,37 +158,45 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 
 <section id="recent-sales" style="margin-top: var(--space-8);">
 <h2>How I work in Redmond, with recent sales</h2>
-<p style="line-height: 1.7;"><strong>Redmond homes range widely in price, so the valuation has to hold up.</strong> On the $4.6 million purchase, the opening offer came with a written valuation that priced the main house, the garage and bonus room, and the cottage separately, and I checked the seller's comparables against recent Redmond luxury sales. The two Redmond estate listings needed opposite plans: one needed curb appeal, the other only the repairs a buyer would worry about.</p>
-<p style="line-height: 1.7;">The details below come from my own transaction records, with prices as they closed, and each one says which side I represented. For the full process, see <a href="/sell/">how I sell homes</a>.</p>
-<div class="grid" style="margin-top: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));"><div class="card" style="padding: var(--space-5);">
-<div class="kicker" style="margin-bottom: var(--space-2);">I represented the seller &middot; 2026</div>
-<h3 style="margin: 0 0 var(--space-2); font-size: 20px;">One showing, one offer</h3>
-<p style="font-size: 15px; line-height: 1.65; margin: 0 0 var(--space-3);">Part of an estate sale. The outside was working against it, so we put in a lawn and garden bed, added parking and repainted. One showing and one full price offer the night it listed, with the inspection waived. Two days before closing the buyer's lender couldn't allow a $6,000 credit, so that amount came off the price instead.</p>
-<p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $1,275,000. Sold $1,269,000.</p>
+<p style="line-height: 1.75;"><strong>Redmond homes range widely in price, so the valuation has to hold up.</strong> On the $4.6 million purchase, the opening offer came with a written valuation that priced the main house, the garage and bonus room, and the cottage separately, and I checked the seller's comparables against recent Redmond luxury sales. The two Redmond estate listings needed opposite plans: one needed curb appeal, the other only the repairs a buyer would worry about.</p>
+<p style="font-size: 14px; color: var(--color-neutral-600); line-height: 1.6;">From my own transaction records, with prices as they closed. Each one says which side I represented. Here's my <a href="/sell/">full selling process</a>.</p>
+<div class="hub-sales">
+<article class="hub-sale featured">
+<div class="photos"><img src="/assets/redmond/front.jpg" alt="Redmond rambler with new lawn, garden bed and fresh exterior paint" loading="lazy"><img src="/assets/redmond/backyard.jpg" alt="Fenced backyard with patio and new lawn" loading="lazy"><img src="/assets/redmond/living-room.jpg" alt="Staged living room with fireplace" loading="lazy"></div>
+<div class="body">
+<div class="tags"><span class="side seller">I represented the seller</span><span>2026</span></div>
+<h3>A remodel buyers could finally see</h3>
+<p>A 2023 remodel had already redone the kitchen, both bathrooms, flooring, windows, doors and electrical, but the outside hid it. We put in a new lawn and garden bed, added parking and repainted, and I wrote a &quot;What's new&quot; flyer from the contractor's invoice so buyers could see every update. One showing, one full price offer within a day, inspection waived.</p>
+<div class="figures"><div>Listed<strong>$1,275,000</strong></div><div>Sold<strong>$1,269,000</strong></div></div>
+<p class="note">Part of an estate sale. The final price reflects a $6,000 adjustment two days before closing, in place of a credit the buyer's lender couldn't allow.</p>
 </div>
-<div class="card" style="padding: var(--space-5);">
-<div class="kicker" style="margin-bottom: var(--space-2);">I represented the seller &middot; 2026</div>
-<h3 style="margin: 0 0 var(--space-2); font-size: 20px;">Fix what worries buyers, skip the rest</h3>
-<p style="font-size: 15px; line-height: 1.65; margin: 0 0 var(--space-3);">Part of an estate sale. I went through the inspection report and picked only what was likely to worry a buyer: electrical, small plumbing leaks and a capped vent. Each fix was keyed to the report so buyers could see it was handled.</p>
-<p style="font-size: 15px; margin: 0; font-weight: 500;">Sold $1,325,000.</p>
+</article>
+<div class="hub-pair"><article class="hub-sale">
+
+<div class="body">
+<div class="tags"><span class="side buyer">I represented the buyer</span><span>2026</span></div>
+<h3>A $4.8 million listing, negotiated to $4.6 million</h3>
+<p>A new construction home with a bonus room over the garage and a detached cottage, originally listed at $4,800,000. My buyers opened with a cash offer and a written valuation that broke out the main house, the garage and bonus room, and the cottage separately. I compared the seller's comparables with recent Redmond luxury sales, and after several days of back and forth we agreed at $4,600,000.</p>
+<div class="figures"><div>Purchase price<strong>$4,600,000</strong></div></div>
+
 </div>
-<div class="card" style="padding: var(--space-5);">
-<div class="kicker" style="margin-bottom: var(--space-2);">I represented the buyer &middot; 2026</div>
-<h3 style="margin: 0 0 var(--space-2); font-size: 20px;">A $4.8 million listing, negotiated to $4.6 million</h3>
-<p style="font-size: 15px; line-height: 1.65; margin: 0 0 var(--space-3);">A new construction home with a bonus room over the garage and a detached cottage, originally listed at $4,800,000. My buyers opened with a cash offer and a written valuation that broke out the main house, the garage and bonus room, and the cottage separately. I compared the seller's comparables with recent Redmond luxury sales, and after several days of back and forth we agreed at $4,600,000.</p>
-<p style="font-size: 15px; margin: 0; font-weight: 500;">Purchased $4,600,000.</p>
-</div></div>
+</article>
+<article class="hub-sale">
+
+<div class="body">
+<div class="tags"><span class="side seller">I represented the seller</span><span>2026</span></div>
+<h3>Fix what worries buyers, skip the rest</h3>
+<p>Part of an estate sale. I went through the inspection report and picked only what was likely to worry a buyer: electrical, small plumbing leaks and a capped vent. Each fix was keyed to the report so buyers could see it was handled.</p>
+<div class="figures"><div>Sold<strong>$1,325,000</strong></div></div>
+
+</div>
+</article></div>
+</div>
 </section>
-</div>
-<section id="listings" style="margin-top: var(--space-8);">
-<h2>Homes for sale in Redmond</h2>
-<p style="line-height: 1.65;">We don't have a listing of our own in Redmond right now. Every home on the market there is in the full search.</p>
-<p style="margin-top: var(--space-4);"><a href="/search.html" class="btn btn-primary" style="white-space: normal; max-width: 100%; text-align: center;">Search all Redmond homes for sale</a></p>
-<p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. Listing data last updated October 21, 2026.</p>
-</section>
-<div class="narrow"><section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
-<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">What would your Redmond home sell for?</h2>
-<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Tell me the address and I'll send a price range built from the Redmond homes that actually sold near you, not an online estimate. No obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<div class="kicker">A price range from me, not an algorithm</div>
+<h2 style="margin: var(--space-2) 0 var(--space-3); font-size: 28px;">What would your Redmond home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Send me the address and I'll look at your home and the recent Redmond sales around it myself, then send you a price range with the comparable sales behind it. It's my analysis, not an automated estimate, and there's no obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
 <form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
 <input type="hidden" name="form-name" value="home-value">
 <p hidden><label>Leave this empty <input name="bot-field"></label></p>
@@ -159,7 +208,23 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <div class="field"><label for="hv-redmond-timeline">When might you sell?</label><select class="input" id="hv-redmond-timeline" name="timeline"><option>Just curious</option><option>Within 3 months</option><option>3 to 6 months</option><option>6 to 12 months</option><option>More than a year</option></select></div>
 <button type="submit" class="btn btn-primary">Send me a price range</button>
 </form>
-</section></div>
+</section>
+<div class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<div class="kicker">Latest market report &middot; Updated October 2026</div>
+<p style="line-height: 1.7; margin: var(--space-3) 0;">Redmond's median single family sale price was $1.54 million for July to September 2026, down 2.4% from the same months last year. 93 single family homes sold (23.1% fewer than a year ago), and the median home spent 28 days on the market.</p>
+<a href="/market-reports/redmond/" class="btn btn-secondary">Read the Redmond market report</a>
+</div>
+<h2 style="margin-top: var(--space-8);">Redmond neighborhood guides</h2>
+<ul style="list-style: none; padding: 0; margin: 0;"><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/redmond-ridge-homes-for-sale-community-guide/" style="font-size: 17px;">Redmond Ridge: What Buyers Should Actually Know</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">October 19, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/dog-parks-in-redmond-wa-a-local-s-list/" style="font-size: 17px;">Dog Parks in Redmond, WA: A Local's Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 21, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/" style="font-size: 17px;">Redmond vs. Sammamish: An Honest Eastside Comparison</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 28, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/downtown-redmond-condos-and-homes-neighborhood-guide/" style="font-size: 17px;">Downtown Redmond Homes and Condos Neighborhood Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 13, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/education-hill-homes-for-sale-what-buyers-should-know/" style="font-size: 17px;">Education Hill Homes for Sale: What Buyers Should Know</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">August 12, 2026</div></li></ul>
+<h2 style="margin-top: var(--space-8);">Schools and family</h2><ul style="list-style: none; padding: 0; margin: 0;"><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/choice-schools-and-tech-schools-in-lake-washington-school-district-how-admission-works/" style="font-size: 17px;">Lake Washington School District Choice and Tech Schools Explained</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">October 9, 2026</div></li><li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);"><a href="/blog/lake-washington-school-district-boundaries-a-buyer-s-guide/" style="font-size: 17px;">Lake Washington School District Boundaries: A Buyer's Guide</a><div style="font-size: 12px; color: var(--color-neutral-600); margin-top: 4px;">September 7, 2026</div></li></ul>
+<p style="margin-top: var(--space-6);"><a href="/blog/area/redmond/">All Redmond posts &rarr;</a></p>
+</div>
+<section id="listings" style="margin-top: var(--space-8);">
+<h2>Homes for sale in Redmond</h2>
+<p style="line-height: 1.65;">We don't have a listing of our own in Redmond right now. Every home on the market there is in the full search.</p>
+<p style="margin-top: var(--space-4);"><a href="/search.html" class="btn btn-primary" style="white-space: normal; max-width: 100%; text-align: center;">Search all Redmond homes for sale</a></p>
+<p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. Listing data last updated October 21, 2026.</p>
+</section>
 </main>
 <footer style="background: var(--color-neutral-900); color: var(--color-neutral-300); padding: var(--space-8) var(--space-6) var(--space-6);">
 <div style="max-width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-6);">

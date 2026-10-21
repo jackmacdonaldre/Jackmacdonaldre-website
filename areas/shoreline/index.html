@@ -98,7 +98,6 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/areas/">Areas</a></li><li aria-current="page">Shoreline</li></ol></nav>
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Shoreline Real Estate</h1>
 <p style="font-size: 18px; line-height: 1.7;">Shoreline sits just north of Seattle between I 5 and Puget Sound, with Richmond Beach on the water, light rail stations at 148th and 185th, and established neighborhoods of mostly single family homes. It is served by the Shoreline School District.</p>
-
 <p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your Shoreline home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
 <div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
 <div class="kicker">Latest market report &middot; Updated October 2026</div>
@@ -124,8 +123,9 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <p style="font-size: 11px; color: var(--color-neutral-600); line-height: 1.6;">Listing information is provided through IDX from Northwest MLS and is deemed reliable but not guaranteed. Listing data last updated October 21, 2026.</p>
 </section>
 <div class="narrow"><section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
-<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">What would your Shoreline home sell for?</h2>
-<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Tell me the address and I'll send a price range built from the Shoreline homes that actually sold near you, not an online estimate. No obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<div class="kicker">A price range from me, not an algorithm</div>
+<h2 style="margin: var(--space-2) 0 var(--space-3); font-size: 28px;">What would your Shoreline home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Send me the address and I'll look at your home and the recent Shoreline sales around it myself, then send you a price range with the comparable sales behind it. It's my analysis, not an automated estimate, and there's no obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
 <form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
 <input type="hidden" name="form-name" value="home-value">
 <p hidden><label>Leave this empty <input name="bot-field"></label></p>

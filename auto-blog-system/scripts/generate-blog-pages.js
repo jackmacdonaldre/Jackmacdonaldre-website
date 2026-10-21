@@ -483,22 +483,90 @@ ${quotes ? `${quotes}\n<p style="font-size: 14px;"><a href="${GOOGLE_REVIEWS_URL
 const AREA_SALES = loadJson(path.join(ROOT, "auto-blog-system/content/area-sales.json"), {});
 const fmtPrice = (n) => "$" + Number(n).toLocaleString("en-US");
 
+const HUB_CSS = `<style>
+.hub-hero { background: #141311; color: #f4f2ee; padding: var(--space-8) var(--space-6); margin: var(--space-4) 0 0; }
+.hub-hero .kicker { color: #b9b5ae; }
+.hub-hero h1 { color: #fdfdfc; margin: var(--space-3) 0 var(--space-4); font-size: clamp(36px, 5.5vw, 60px); line-height: 1.05; }
+.hub-hero p { color: #e6e3de; max-width: 680px; line-height: 1.7; font-size: 17px; }
+.hub-hero .actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-5); }
+.hub-hero .btn-primary { background: #fdfdfc; color: #141311; border-color: #fdfdfc; }
+.hub-hero .btn-secondary { background: transparent; color: #fdfdfc; border-color: #fdfdfc; }
+.hub-why { display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr); gap: var(--space-5); align-items: start; margin-top: var(--space-8); }
+.hub-why img { width: 100%; height: auto; display: block; }
+.hub-why h2 { margin: 0 0 var(--space-3); }
+.hub-why p { line-height: 1.75; margin: 0 0 var(--space-3); }
+.hub-sales { display: grid; gap: var(--space-5); margin-top: var(--space-5); }
+.hub-sale { border: 1px solid var(--color-divider); background: #fff; display: grid; grid-template-columns: minmax(0, 1fr); }
+.hub-sale.featured .photos { grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; }
+.hub-sale.featured .photos img:first-child { grid-column: 1; grid-row: 1 / span 2; aspect-ratio: auto; }
+.hub-sale.featured .photos img { aspect-ratio: 4 / 3; }
+.hub-sale .photos.two, .hub-sale.featured .photos.two { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+.hub-sale .photos.two img, .hub-sale.featured .photos.two img:first-child { grid-column: auto; grid-row: auto; aspect-ratio: 4 / 3; }
+.hub-sale .note { font-size: 13px; color: var(--color-neutral-600); margin: var(--space-3) 0 0; }
+.hub-sale .photos { display: grid; gap: 4px; grid-template-columns: 1fr 1fr; align-content: start; }
+.hub-sale .photos img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.hub-sale .photos img:first-child { grid-column: 1 / -1; aspect-ratio: 3 / 2; }
+.hub-sale .body { padding: var(--space-5) var(--space-6) var(--space-6); }
+.hub-sale .tags { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; margin-bottom: var(--space-3); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+.hub-sale .side { padding: 4px 10px; border: 1px solid #201f1d; }
+.hub-sale .side.seller { background: #201f1d; color: #fdfdfc; }
+.hub-sale h3 { margin: 0 0 var(--space-3); font-size: 22px; line-height: 1.3; }
+.hub-sale p { font-size: 15.5px; line-height: 1.7; margin: 0 0 var(--space-4); }
+.hub-sale .figures { display: flex; flex-wrap: wrap; gap: var(--space-5); border-top: 1px solid var(--color-divider); padding-top: var(--space-4); }
+.hub-sale .figures div { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-neutral-600); }
+.hub-sale .figures strong { display: block; font-family: var(--font-heading); font-weight: 400; font-size: 26px; letter-spacing: 0; text-transform: none; color: #201f1d; margin-top: 2px; }
+.hub-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: var(--space-5); }
+@media (max-width: 760px) {
+  .hub-hero { padding: var(--space-6) var(--space-4); margin-left: calc(-1 * var(--space-4)); margin-right: calc(-1 * var(--space-4)); }
+  .hub-sale.featured .photos { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+  .hub-sale.featured .photos img:first-child { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 3 / 2; }
+  .hub-sale.featured .photos.two img:first-child { grid-column: auto; aspect-ratio: 4 / 3; }
+  .hub-why { grid-template-columns: minmax(0, 1fr); }
+  .hub-why img { max-width: 140px; }
+  .hub-sale .body { padding: var(--space-4) var(--space-4) var(--space-5); }
+}
+</style>`;
+
+function saleCard(x, featured) {
+  const photos = Array.isArray(x.photos) && x.photos.length ? x.photos : null;
+  const isBuyer = x.side === "buyer";
+  return `<article class="hub-sale${featured && photos ? " featured" : ""}">
+${photos ? `<div class="photos${photos.length === 2 ? " two" : ""}">${photos.map((ph) => `<img src="${escapeHtml(ph.src)}" alt="${escapeHtml(ph.alt)}" loading="lazy">`).join("")}</div>` : ""}
+<div class="body">
+<div class="tags"><span class="side ${isBuyer ? "buyer" : "seller"}">${isBuyer ? "I represented the buyer" : "I represented the seller"}</span><span>${escapeHtml(String(x.year))}${x.place ? ` &middot; ${escapeHtml(x.place)}` : ""}</span></div>
+<h3>${escapeHtml(x.title)}</h3>
+${x.story ? `<p>${escapeHtml(x.story)}</p>` : ""}
+<div class="figures">${x.listPrice ? `<div>Listed<strong>${fmtPrice(x.listPrice)}</strong></div>` : ""}<div>${isBuyer ? "Purchase price" : "Sold"}<strong>${fmtPrice(x.price)}</strong></div></div>
+${x.note ? `<p class="note">${escapeHtml(x.note)}</p>` : ""}
+</div>
+</article>`;
+}
+
 function hubSales(area) {
   const d = AREA_SALES[area.slug];
   if (!d || !Array.isArray(d.sales) || !d.sales.length) return "";
   const name = escapeHtml(area.name);
-  const card = (x) => `<div class="card" style="padding: var(--space-5);">
-<div class="kicker" style="margin-bottom: var(--space-2);">${x.side === "buyer" ? "I represented the buyer" : "I represented the seller"} &middot; ${escapeHtml(String(x.year))}</div>
-<h3 style="margin: 0 0 var(--space-2); font-size: 20px;">${escapeHtml(x.title)}</h3>
-${x.story ? `<p style="font-size: 15px; line-height: 1.65; margin: 0 0 var(--space-3);">${escapeHtml(x.story)}</p>` : ""}
-<p style="font-size: 15px; margin: 0; font-weight: 500;">${x.listPrice ? `Listed ${fmtPrice(x.listPrice)}. ` : ""}${x.side === "buyer" ? "Purchased" : "Sold"} ${fmtPrice(x.price)}.</p>
-</div>`;
-  const sellers = d.sales.filter((x) => x.side !== "buyer"), buyers = d.sales.filter((x) => x.side === "buyer");
+  const sales = d.sales.slice();
+  const fi = sales.findIndex((x) => Array.isArray(x.photos) && x.photos.length);
+  const featured = fi >= 0 ? sales.splice(fi, 1)[0] : null;
   return `<section id="recent-sales" style="margin-top: var(--space-8);">
 <h2>How I work in ${name}, with recent sales</h2>
-${Array.isArray(d.how) ? d.how.map((t) => `<p style="line-height: 1.7;">${t}</p>`).join("\n") : ""}
-<p style="line-height: 1.7;">The details below come from my own transaction records, with prices as they closed, and each one says which side I represented. For the full process, see <a href="/sell/">how I sell homes</a>.</p>
-<div class="grid" style="margin-top: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));">${sellers.concat(buyers).map(card).join("\n")}</div>
+${Array.isArray(d.how) ? d.how.map((t) => `<p style="line-height: 1.75;">${t}</p>`).join("\n") : ""}
+<p style="font-size: 14px; color: var(--color-neutral-600); line-height: 1.6;">From my own transaction records, with prices as they closed. Each one says which side I represented. Here's my <a href="/sell/">full selling process</a>.</p>
+<div class="hub-sales">
+${featured ? saleCard(featured, true) : ""}
+${sales.length ? `<div class="hub-pair">${sales.map((x) => saleCard(x, false)).join("\n")}</div>` : ""}
+</div>
+</section>`;
+}
+
+function hubWhy(area) {
+  const d = AREA_SALES[area.slug];
+  if (!d || !d.why) return "";
+  return `<section class="hub-why" id="why">
+<img src="/assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy">
+<div><h2>${escapeHtml(d.whyTitle || "Why sellers call me")}</h2>${d.why.map((t) => `<p>${t}</p>`).join("")}
+<p style="font-size: 14px;"><a href="/about/">More about me</a></p></div>
 </section>`;
 }
 
@@ -542,8 +610,9 @@ function hubValuationForm(area) {
   const name = escapeHtml(area.name);
   const id = (k) => `hv-${area.slug}-${k}`;
   return `<section id="home-value" class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
-<h2 style="margin: 0 0 var(--space-3); font-size: 26px;">What would your ${name} home sell for?</h2>
-<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Tell me the address and I'll send a price range built from the ${name} homes that actually sold near you, not an online estimate. No obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
+<div class="kicker">A price range from me, not an algorithm</div>
+<h2 style="margin: var(--space-2) 0 var(--space-3); font-size: 28px;">What would your ${name} home sell for?</h2>
+<p style="line-height: 1.65; margin: 0 0 var(--space-5);">Send me the address and I'll look at your home and the recent ${name} sales around it myself, then send you a price range with the comparable sales behind it. It's my analysis, not an automated estimate, and there's no obligation. Or call or text <a href="tel:4259416998">425.941.6998</a>.</p>
 <form name="home-value" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/home-value/thanks/" style="display: grid; gap: var(--space-3);">
 <input type="hidden" name="form-name" value="home-value">
 <p hidden><label>Leave this empty <input name="bot-field"></label></p>
@@ -603,22 +672,43 @@ function buildHub(area, allPosts) {
   const guides = inArea.filter((p) => p.topic === "neighborhood-guides");
   const schools = inArea.filter((p) => p.topic === "schools-and-family");
   const report = reportFor(area.slug);
-  const body = `<main class="page">
+  const priority = ANGLE_AREAS.includes(area.slug);
+  const sd = AREA_SALES[area.slug] || {};
+  const reportCard = report ? `<div class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
+<div class="kicker">Latest market report &middot; Updated ${escapeHtml(report.info.updatedMonth)}</div>
+<p style="line-height: 1.7; margin: var(--space-3) 0;">${escapeHtml(report.info.commentary.summary)}</p>
+<a href="${report.path}" class="btn btn-secondary">Read the ${escapeHtml(area.name)} market report</a>
+</div>` : "";
+  const guidesHtml = `<h2 style="margin-top: var(--space-8);">${escapeHtml(area.name)} neighborhood guides</h2>
+${smallPostList(guides, `New ${escapeHtml(area.name)} guides are on the way.`)}
+${schools.length ? `<h2 style="margin-top: var(--space-8);">Schools and family</h2>${smallPostList(schools)}` : ""}
+<p style="margin-top: var(--space-6);"><a href="/blog/area/${area.slug}/">All ${escapeHtml(area.name)} posts &rarr;</a></p>`;
+  const body = priority ? `${HUB_CSS}<main class="page">
+<div class="narrow">
+${breadcrumbHtml(crumbs)}
+<header class="hub-hero">
+<div class="kicker">Jack Macdonald &middot; Macdonald Group of Compass</div>
+<h1>${escapeHtml(area.name)} Real Estate</h1>
+<p>${escapeHtml(AREA_INTROS[area.slug] || "")}</p>
+${sd.lead ? `<p>${escapeHtml(sd.lead)}</p>` : ""}
+<div class="actions"><a href="#home-value" class="btn btn-primary">Get a price range from me</a><a href="tel:4259416998" class="btn btn-secondary">Call or text 425.941.6998</a></div>
+</header>
+${hubWhy(area)}
+${hubSelling(area)}
+${hubSales(area)}
+${hubValuationForm(area)}
+${reportCard}
+${guidesHtml}
+</div>
+${hubListings(area)}
+</main>` : `<main class="page">
 <div class="narrow">
 ${breadcrumbHtml(crumbs)}
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">${escapeHtml(area.name)} Real Estate</h1>
 <p style="font-size: 18px; line-height: 1.7;">${escapeHtml(AREA_INTROS[area.slug] || "")}</p>
-${AREA_SALES[area.slug] && AREA_SALES[area.slug].lead ? `<p style="font-size: 17px; line-height: 1.7;">${escapeHtml(AREA_SALES[area.slug].lead)} <a href="#recent-sales">See the sales</a>.</p>` : ""}
 <p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your ${escapeHtml(area.name)} home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
-${report ? `<div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
-<div class="kicker">Latest market report &middot; Updated ${escapeHtml(report.info.updatedMonth)}</div>
-<p style="line-height: 1.7; margin: var(--space-3) 0;">${escapeHtml(report.info.commentary.summary)}</p>
-<a href="${report.path}" class="btn btn-secondary">Read the ${escapeHtml(area.name)} market report</a>
-</div>` : ""}
-<h2 style="margin-top: var(--space-8);">${escapeHtml(area.name)} neighborhood guides</h2>
-${smallPostList(guides, `New ${escapeHtml(area.name)} guides are on the way.`)}
-${schools.length ? `<h2 style="margin-top: var(--space-8);">Schools and family</h2>${smallPostList(schools)}` : ""}
-<p style="margin-top: var(--space-6);"><a href="/blog/area/${area.slug}/">All ${escapeHtml(area.name)} posts &rarr;</a></p>
+${reportCard.replace("margin-top: var(--space-8)", "margin-top: var(--space-6)")}
+${guidesHtml}
 ${hubSelling(area)}
 ${hubSales(area)}
 </div>
