@@ -14,9 +14,9 @@ So this post starts there, then covers where the probate case lives and how diff
 
 ## The new septic rule, in plain words
 
-In April 2026 the Snohomish County Board of Health adopted a rule on septic systems in real estate sales. It takes effect November 1, 2026, a few months ahead of a statewide requirement the Health Department says begins in February 2027.
+On April 14, 2026 the Snohomish County Board of Health adopted [an ordinance adding septic requirements for real estate transactions](https://snohomish.boardofhealth.codes/enactments/OrdBOH26-02) to the county health code. It takes effect November 1, 2026.
 
-Here's what the Health Department's program materials lay out for a seller:
+The Health Department's program materials, published while the rule was still being drafted, describe these steps for a seller:
 
 * A full inspection by a certified septic professional, done no more than 12 months before the sale closes.
 
@@ -26,7 +26,7 @@ Here's what the Health Department's program materials lay out for a seller:
 
 * An application for a Report of Property Transfer, with a fee, submitted before closing. The seller then gives that report to the buyer along with the system's maintenance records.
 
-If the review finds problems, the report lists what needs fixing. According to the Health Department, if the seller doesn't correct them before the sale, responsibility for the repair moves to the buyer as the new owner. Either way, the buyer sees it, and buyers price in what they see.
+Because those materials came out before the final vote, confirm the adopted requirements with the Health Department before you plan around them, including what happens if the inspection finds problems. Whatever the final details, a septic report that turns up issues is something buyers will see and price in.
 
 ### What that means for an estate
 
@@ -86,13 +86,13 @@ The families who have the easiest time in this county are the ones who learn abo
 * [Selling a Probate Home in King County: What Families Should Know](https://jackmacdonaldre.com/blog/selling-a-probate-home-in-king-county/)
 * [Selling an Inherited Home in Pierce County: Tacoma and Puyallup](https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup/)
 
-Sources: [Snohomish County Board of Health ordinances](https://snohomish.boardofhealth.codes/enactments?type=Ord), [Snohomish County Health Department property transfer program handout](https://www.snohd.org/DocumentCenter/View/15503/PTI-Proposed-Program-Handout_V3), [Health Department property transfer policy](https://www.snohd.org/DocumentCenter/View/15519/Draft-Policy_Chapter-560_PTI_Version-30), [Health Department newsletter on the septic rule](https://snohd.org/CivicSend/ViewMessage/message/282736), [Snoho news coverage of the rule](https://www.snoho.com/news/2026/apr/29/new-rule-in-snohomish-county-about-septic-to-require-inspection-ahead-of-home-sale/), [Snohomish County Superior Court Clerk](https://snohomishcountywa.gov/5492), [Washington law on where probate is filed](https://app.leg.wa.gov/RCW/default.aspx?cite=11.96A.050), [Washington seller disclosure law](https://app.leg.wa.gov/RCW/default.aspx?cite=64.06.010). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+Sources: [Snohomish County Board of Health septic ordinance (adopted April 14, 2026)](https://snohomish.boardofhealth.codes/enactments/OrdBOH26-02), [Snohomish County Board of Health ordinances](https://snohomish.boardofhealth.codes/enactments?type=Ord), [Snohomish County Health Department property transfer program handout](https://www.snohd.org/DocumentCenter/View/15503/PTI-Proposed-Program-Handout_V3), [Health Department property transfer policy](https://www.snohd.org/DocumentCenter/View/15519/Draft-Policy_Chapter-560_PTI_Version-30), [Health Department newsletter on the septic rule](https://snohd.org/CivicSend/ViewMessage/message/282736), [Snoho news coverage of the rule](https://www.snoho.com/news/2026/apr/29/new-rule-in-snohomish-county-about-septic-to-require-inspection-ahead-of-home-sale/), [Snohomish County Superior Court Clerk](https://snohomishcountywa.gov/5492), [Washington law on where probate is filed](https://app.leg.wa.gov/RCW/default.aspx?cite=11.96A.050), [Washington seller disclosure law](https://app.leg.wa.gov/RCW/default.aspx?cite=64.06.010). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
 
 ## Common Questions
 
 ### When does the Snohomish County septic rule for home sales start?
 
-November 1, 2026. The Board of Health adopted it in April 2026. Health Department materials describe an inspection by a certified septic professional within 12 months before closing, pumping if recommended, and a Report of Property Transfer the seller gives the buyer.
+November 1, 2026. The Board of Health adopted it on April 14, 2026. Health Department materials from the drafting stage describe an inspection by a certified septic professional within 12 months before closing, pumping if recommended, and a Report of Property Transfer the seller gives the buyer. Confirm the final requirements with the Health Department.
 
 ### Does probate have to be filed in Everett if the house is in Snohomish County?
 
