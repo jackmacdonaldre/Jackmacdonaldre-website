@@ -662,6 +662,141 @@ About the author: Jack Macdonald grew up in Bellevue and helps buyers and seller
 
 * * *
 
+# Selling a Parent's Home in Bellevue: A Checklist for Families
+
+> A checklist for selling a parent's Bellevue home: papers to gather, who can sign, power of attorney basics, Bellevue utilities, prep, pricing and family talks.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Bellevue, Washington
+Web page: https://jackmacdonaldre.com/blog/selling-a-parents-home-in-bellevue-checklist/
+
+When it's your mom or dad's house, everything feels bigger. The paperwork, the memories, the opinions from every sibling. I grew up in Bellevue, and a lot of the homes I help sell here belong to parents of people I went to school with. The families who do best aren't the ones with the most time. They're the ones with a list.
+
+So here's mine. It works if your parent is still living and moving on, and it works if your parent has passed. Check things off as you go and share it with whoever else is involved.
+
+## 1. Gather the paperwork
+
+Most delays I see come from a missing document, not a hard decision. Start a folder, paper or shared online, and collect:
+
+* The deed, or at least a clear answer on how title is held (in your parent's name, a trust, or with a spouse)
+
+* The will or trust documents, if there are any
+
+* A power of attorney, if your parent is living and someone else will be signing
+
+* Several certified copies of the death certificate, if your parent has passed
+
+* The latest mortgage or home equity line statement, if there's still a loan
+
+* The most recent property tax statement and homeowner's insurance policy
+
+* Recent utility bills, so you know every provider serving the house
+
+* HOA documents, if the home is in an association
+
+* Any receipts for a roof, furnace, water heater or other big work
+
+* Every key, garage remote and alarm code you can find
+
+## 2. Confirm who has the authority to sign
+
+This one question drives the whole timeline, and the answer changes depending on if your parent is living or has passed.
+
+### If your parent is living
+
+If your parent can and wants to sign, that's usually the simplest path. If not, the person named as agent in a power of attorney may be able to sign. Washington's power of attorney law is chapter 11.125 RCW, and a few points in it are worth knowing before you talk to an attorney:
+
+* The law lists what authority over real property covers, and selling is part of it, but the document's own wording controls what your agent can actually do (RCW 11.125.270)
+
+* Whether the power keeps working if your parent loses capacity depends on the language in the document (RCW 11.125.040)
+
+* A power of attorney ends when the parent dies (RCW 11.125.100)
+
+* A title company asked to accept one may request a sworn certification from the agent (RCW 11.125.190)
+
+Have the estate or elder law attorney read the actual document early. Finding a gap in month one is a lot better than finding it the week of closing.
+
+### If your parent has passed
+
+If the home goes through probate, the court appoints a personal representative. With nonintervention powers, that person can sell without a court order (RCW 11.68.090). If the home is in a trust, the trustee usually signs. If your parent recorded a transfer on death deed, the house passes to the named beneficiary outside probate. Your attorney will tell you which applies.
+
+## 3. Handle the Bellevue details
+
+* Bellevue Utilities manages water, wastewater, storm and surface water, and solid waste for the city, with Republic Services handling garbage, recycling and compost under contract. Contact Bellevue Utilities to stop or start service at the property, and keep the account active while the house is for sale.
+
+* Look at the actual bills before you make calls. They'll tell you exactly which providers serve the home.
+
+* Your escrow officer will handle the final utility payoff. The city's utilities page has an escrow payoff request option for that.
+
+* Property taxes go through King County. The county Treasury accepts mailing address changes by email, on the payment stub, or with a mailed form, so statements reach whoever is managing the house.
+
+* Forward your parent's mail to the person handling the sale.
+
+## 4. Get the house ready
+
+* Let family members pick what they want to keep, with a firm date
+
+* Book the estate sale, donation pickup and clean out in that order
+
+* Consider a pre inspection so nothing surprises you after an offer
+
+* Fix what a buyer would notice and skip the remodel
+
+* Paint, clean and tidy the yard before photos
+
+A pre inspection can find more than cosmetic items. On a Kirkland estate sale earlier this year, the pre inspection found a gas leak at the water heater. We had it fixed, kept the receipts to show buyers, listed at $1,295,000 and sold at $1,300,000. Nobody had to wonder what else might be wrong.
+
+## 5. Set the price together
+
+* Ask your agent for recent sales of similar Bellevue homes nearby, not just active listings
+
+* Look at how condition changed the price on each one
+
+* Talk through what happens if there are no offers in the first two weeks, before you list
+
+* Put the plan in writing so every sibling sees the same numbers
+
+## 6. Keep the family on the same page
+
+* Pick one point person to talk to the agent and attorney
+
+* Use one shared email thread or folder for updates
+
+* Agree ahead of time on how you'll decide between offers
+
+* Decide who pays upkeep costs in the meantime and keep every receipt
+
+* If your parent is living, ask what matters to them about the sale and give them a say
+
+That last one gets skipped more than anything else on this list. A parent who has lived in a Bellevue house for decades usually cares less about the final number than about who buys it and whether the garden gets taken care of. Asking costs nothing, and it changes how the whole family feels when the sale closes.
+
+Sources: [Washington Uniform Power of Attorney Act](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125), [RCW 11.125.270](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.270), [RCW 11.125.040](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.040), [RCW 11.125.100](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.100), [RCW 11.125.190](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.190), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [King County Law Library on transfer on death deeds](https://kcll.org/from-the-director-october-2023/), [City of Bellevue Utilities](https://bellevuewa.gov/utilities-service), [King County Treasury property tax FAQ](https://kingcounty.gov/en/dept/executive-services/buildings-property/treasury-operations/property-tax/faq). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### Can I sell my parent's Bellevue home with a power of attorney?
+
+Often, if the document gives the agent authority over real property and is still in effect. A power of attorney ends when the parent dies, and its wording matters a lot, so have an attorney review it before you list.
+
+### Who signs if my parent has passed?
+
+Usually the personal representative if the home goes through probate, the trustee if it was in a trust, or the named beneficiary if there was a recorded transfer on death deed. Your estate attorney will confirm which applies.
+
+### Should we keep the utilities on while the house is listed?
+
+Yes, in most cases. Buyers and inspectors need power, heat and water, and an empty house is easier to protect with the heat on. For City of Bellevue Utilities accounts, contact Bellevue Utilities about stopping or starting service.
+
+### Is a pre inspection worth it on a parent's home?
+
+Often. It shows you what buyers will find, so you can fix the items that matter, keep receipts, and avoid surprises after an offer comes in.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
 # Cost of Living in Bellevue WA: What to Actually Expect
 
 > Thinking about relocating to Bellevue? Here is an honest breakdown of what housing, groceries, taxes, and daily expenses actually look like.
@@ -3452,6 +3587,705 @@ Underestimating how fast things move. A lot of first time buyers want to take th
 ### Is it worth waiving the inspection contingency to win an offer?
 
 This is genuinely a risk management question, not a yes or no. Waiving inspection entirely means you're agreeing to take the home in whatever condition it's in, and if something significant comes up, you own it. That said, many buyers in competitive Eastside markets do take this step, particularly on newer homes or when they've done a preinspection before offering. A middle path is shortening the inspection period rather than eliminating it, which shows sellers you're serious without fully giving up your ability to know what you're buying.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Selling an Inherited Home in Snohomish County: Everett to Bothell
+
+> Inherited a house in Everett, Lynnwood or Bothell? The new Snohomish County septic sale rule, where probate is filed, and what to check by area before you list.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-snohomish-county-everett-to-bothell/
+
+If you've inherited a house anywhere from Everett down to Bothell, there's one date worth circling: November 1, 2026. That's when a new Snohomish County septic rule for home sales takes effect, and a lot of estate houses in this county sit on septic systems nobody has looked at in years.
+
+So this post starts there, then covers where the probate case lives and how different the houses are from one end of the county to the other.
+
+## The new septic rule, in plain words
+
+In April 2026 the Snohomish County Board of Health adopted a rule on septic systems in real estate sales. It takes effect November 1, 2026, a few months ahead of a statewide requirement the Health Department says begins in February 2027.
+
+Here's what the Health Department's program materials lay out for a seller:
+
+* A full inspection by a certified septic professional, done no more than 12 months before the sale closes.
+
+* Pumping the tank if the inspection calls for it.
+
+* A record drawing of the system on file with the Health Department. If there isn't one, the septic professional prepares a site plan during the inspection or pumping.
+
+* An application for a Report of Property Transfer, with a fee, submitted before closing. The seller then gives that report to the buyer along with the system's maintenance records.
+
+If the review finds problems, the report lists what needs fixing. According to the Health Department, if the seller doesn't correct them before the sale, responsibility for the repair moves to the buyer as the new owner. Either way, the buyer sees it, and buyers price in what they see.
+
+### What that means for an estate
+
+Washington's seller disclosure law treats a sale by a personal representative differently from an ordinary sale. How that plays with the new septic rule is a question for your estate attorney and the Health Department, so ask early instead of assuming you're in or out.
+
+Practically, I'd get the inspection on the calendar soon either way. An empty house with an old system is exactly where surprises live. Finding out before you list turns a repair into a number you plan around, not a fight in the middle of escrow.
+
+## Where the probate case gets filed
+
+If the estate is opened in Snohomish County, it goes through Snohomish County Superior Court in Everett, and the Superior Court Clerk's office there takes probate filings.
+
+Something families don't always know: Washington generally lets the person petitioning pick the county where probate is opened. In some situations it has to be the county where the person lived, and other parties can ask to move it. So a family living in Bellevue might open the case in King County even though the house is in Lynnwood. Your attorney will choose what makes sense. For the sale itself, what matters is who has authority to sign, not which courthouse holds the file.
+
+## One county, very different houses
+
+Snohomish County covers a lot of ground, and the right prep depends on where the house sits.
+
+### Everett
+
+Everett has plenty of older homes on city lots near downtown and the north end, plus newer subdivisions farther south. Older houses tend to come with older wiring, plumbing and roofs. That's where an inspection before listing earns its keep, so you know what a buyer's inspector will find before they find it.
+
+### Mill Creek and Lynnwood
+
+Much of Mill Creek is planned neighborhoods, and many of them have homeowners associations. If the house is in one, request the HOA documents early. Buyers will need them, and an estate can have unpaid dues that built up after the owner passed. Lynnwood mixes older ramblers and split levels with condos and townhomes, and a condo brings its own stack of association paperwork.
+
+### Lake Stevens, Monroe and Snohomish
+
+Head east and you see more acreage, outbuildings, wells and septic. These are the properties where the new rule matters most. They're also where a shop or barn full of decades of tools and projects can take longer to clear than the house.
+
+### The Snohomish County side of Bothell
+
+Bothell sits in two counties. North of the King County line, the house is in Snohomish County, so Snohomish County's health rules and records apply even though the address says Bothell. I sell on both sides of that line, and it's worth checking which side you're on before assuming anything.
+
+## An Everett house we sold as is
+
+This photo is that Everett home as it was listed. A plain older cottage, a lawn gone dry, and an estate that wasn't going to put money into it. We didn't dress it up or pretend otherwise.
+
+We listed it at $499,950 and sold it as is. An offer came in within four days, and it closed at $535,000. Pricing it for the house it was, not the house it could be after a remodel, brought buyers who already knew what they were walking into.
+
+As is doesn't mean ignoring the house. It means deciding, with real numbers, that the estate's money and time are better kept than spent. In Snohomish County there's now one more piece to that math: if the house is on septic, plan on the septic steps whether you fix anything else or not.
+
+## A sensible order for this winter
+
+* Find out whether the house is on septic or sewer. If nobody in the family knows, a septic professional or the Health Department's records can tell you.
+
+* If it's septic, book the inspection early and keep the 12 month window in mind so it doesn't expire before closing.
+
+* If there's an HOA, request the documents and a statement of any dues owed.
+
+* Price two paths, as is and lightly prepped, before anyone spends money.
+
+The families who have the easiest time in this county are the ones who learn about the house before buyers do. Septic, HOA, an old roof: find them first, and each one becomes a choice instead of a surprise.
+
+Sources: [Snohomish County Board of Health ordinances](https://snohomish.boardofhealth.codes/enactments?type=Ord), [Snohomish County Health Department property transfer program handout](https://www.snohd.org/DocumentCenter/View/15503/PTI-Proposed-Program-Handout_V3), [Health Department property transfer policy](https://www.snohd.org/DocumentCenter/View/15519/Draft-Policy_Chapter-560_PTI_Version-30), [Health Department newsletter on the septic rule](https://snohd.org/CivicSend/ViewMessage/message/282736), [Snoho news coverage of the rule](https://www.snoho.com/news/2026/apr/29/new-rule-in-snohomish-county-about-septic-to-require-inspection-ahead-of-home-sale/), [Snohomish County Superior Court Clerk](https://snohomishcountywa.gov/5492), [Washington law on where probate is filed](https://app.leg.wa.gov/RCW/default.aspx?cite=11.96A.050), [Washington seller disclosure law](https://app.leg.wa.gov/RCW/default.aspx?cite=64.06.010). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### When does the Snohomish County septic rule for home sales start?
+
+November 1, 2026. The Board of Health adopted it in April 2026. Health Department materials describe an inspection by a certified septic professional within 12 months before closing, pumping if recommended, and a Report of Property Transfer the seller gives the buyer.
+
+### Does probate have to be filed in Everett if the house is in Snohomish County?
+
+Not necessarily. Washington generally lets the petitioner choose the county where probate is opened, with some exceptions, and parties can ask to move it. If it is opened in Snohomish County, it goes through Superior Court in Everett. Your estate attorney will decide.
+
+### Can we sell an inherited Everett house as is?
+
+Yes, many estate homes sell as is. If the house is on septic, plan on the septic steps either way, and ask your attorney and the Health Department how the new rule applies to a sale by an estate.
+
+### Is Bothell in King County or Snohomish County?
+
+Both. The northern part of Bothell is in Snohomish County and the southern part is in King County, so check the property record to know which county's rules apply.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Selling an Inherited Home in Pierce County: Tacoma and Puyallup
+
+> Inherited a house in Tacoma or Puyallup but live far away? Pierce County probate, the septic Report of System Status, and how to run the sale from a distance.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup/
+
+A lot of the Pierce County estate calls I get don't come from Pierce County. They come from a son in Redmond, a daughter in Denver, a brother who hasn't been back to Tacoma since high school. The house is an hour of traffic away, or a flight, and somebody has to be the eyes on it.
+
+That distance shapes everything about the sale, so that's where I'll start.
+
+## The distance problem nobody plans for
+
+It's rarely the big decisions that wear a family out. It's the small ones that need a person standing at the house: letting in the septic company, meeting the clean out crew, checking the roof after a windstorm, making sure the lockbox works for a showing. From the Eastside, a weekday round trip to Tacoma or Puyallup can take most of an afternoon.
+
+That's why I push for one local point person on a Pierce County house. Someone who can be at the property, take photos, and send the same update to every heir. Sometimes that's a relative who lives nearby. Often it's me, since I've sold homes in Tacoma and Puyallup and know the vendors down there. Either way, it beats five siblings each driving down when they can and coming back with five different stories.
+
+## Where probate happens
+
+Pierce County probate cases are filed with the Superior Court Clerk in Tacoma, at the County City Building downtown. If your parent lived in Pierce County, that's the natural home for the case.
+
+It isn't the only option, though. Washington law generally lets the petitioner choose the county, with some exceptions, so an Eastside family could open the estate in King County. Your attorney will make that call. Once a personal representative has nonintervention powers, they can usually sell the house without a separate court order under RCW 11.68.090, wherever the case was opened.
+
+## Septic in Pierce County: the Report of System Status
+
+Many homes inside Tacoma are on city sewer. Out in unincorporated Pierce County and on the peninsulas, septic is far more common, so check before you assume.
+
+If the house is on septic, the Tacoma Pierce County Health Department tells sellers to meet septic requirements before they sell. Here's the process their page describes:
+
+* A septic service company inspects the system and pumps the tanks.
+
+* You submit a Report of System Status application online, by mail or in person, with a fee.
+
+* The Health Department reviews it and inspects the property. Major deficiencies have to be resolved.
+
+* Once issued, the report is valid for one year.
+
+Their goal is to review applications within 10 business days, and they say plainly that it can't be rushed or guaranteed. For an estate, that's the part to plan around. Don't wait for an offer to start, especially if family has to coordinate access from out of town.
+
+The Health Department also describes a 90 day conditional report, where the buyer takes responsibility for unresolved deficiencies within 90 days of the sale. It can help when a repair can't be finished before closing. Expect a buyer taking that on to factor it into the price, and talk it over with your attorney first.
+
+One more useful tool: the Health Department keeps record drawings of septic systems searchable online. Pull the drawing for your parent's house before anyone starts digging around the yard looking for the tank lid.
+
+## What kind of house is it?
+
+Pierce County houses run the full range, and the plan should follow the house.
+
+* Tacoma's older neighborhoods, like the North End and the Stadium District, have homes with real character and often older systems behind the walls. An inspection before listing tells you what a buyer's inspector will find.
+
+* South Tacoma and the East Side have more ramblers and smaller homes, the kind that draw both first time buyers and investors.
+
+* Puyallup mixes older homes in town with subdivisions up on South Hill, and some of those come with HOAs and their paperwork.
+
+* Lakewood and University Place have established neighborhoods full of ramblers and split levels from the middle of the last century.
+
+* Gig Harbor, across the Narrows, has larger lots and more homes on septic outside the city.
+
+## A nearby example: Federal Way
+
+I don't have a Pierce County estate sale to point to yet. Federal Way is just over the line in south King County, though, and the houses and buyers overlap a lot with the Tacoma area.
+
+That Federal Way estate home needed a lot of work. Before anyone spent a dollar, I gave the executor a frank look at renovation cost against resale value, and at what investors would realistically pay for it as it stood. We listed at $399,000, and it sold for $454,500.
+
+The number wasn't the most useful part. The executor could explain the decision to the rest of the family with figures instead of hunches. That matters even more when the heirs are spread out and nobody has stood in the house for a while.
+
+## Running the sale from a distance
+
+A few habits make a long distance sale feel close:
+
+* One shared folder with the septic report, inspection, quotes and offers, so every heir reads the same paperwork.
+
+* A short update with photos after anything happens at the house.
+
+* Decisions made on a scheduled call, then confirmed in writing.
+
+Distance doesn't make a Pierce County sale harder on its own. Decisions made on stale information do. Keep everyone looking at the same current facts, and a house an hour away sells about like one down the street.
+
+Sources: [Pierce County Superior Court Clerk](https://www.piercecountywa.gov/7816/FAQS), [Pierce County Clerk on probate](https://www.piercecountywa.gov/7785/Probate), [Tacoma Pierce County Health Department on selling with septic](https://tpchd.org/homes/septic-systems/report-of-system-status/), [Health Department septic systems](https://www.tpchd.org/healthy-places/septic-systems), [Washington law on where probate is filed](https://app.leg.wa.gov/RCW/default.aspx?cite=11.96A.050), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### Do we need a septic inspection to sell an inherited house in Pierce County?
+
+If the house is on septic, the Tacoma Pierce County Health Department tells sellers to have the system pumped and inspected and to get a Report of System Status before selling. Their page lists a few exemptions, such as some recently installed systems.
+
+### How long does a Report of System Status take?
+
+The Health Department's goal is to review applications within 10 business days, and it says the timing can't be rushed or guaranteed. Once issued, the report is valid for one year, so starting early is wise.
+
+### Where is probate filed for a Tacoma house?
+
+Pierce County cases are filed with the Superior Court Clerk in Tacoma. Washington generally lets the petitioner choose the county, with some exceptions, so your estate attorney may open it elsewhere.
+
+### Can we handle a Pierce County house sale from out of state?
+
+Yes. Most of it works well with one local point person at the house, shared documents and regular photo updates. Your title company can explain the signing options for heirs who live far away.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Selling a Probate Home in King County: What Families Should Know
+
+> Selling a probate home in King County: where cases are heard, septic rules at sale, property tax basics, and how the Eastside, Seattle and south county differ.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/selling-a-probate-home-in-king-county/
+
+King County is a big place to have a probate house. One family might be selling a Capitol Hill condo, another a split level in Kent, another a cabin out past North Bend on a well and septic. The court is the same for all of them, but the house, the buyers and the paperwork can look completely different.
+
+Here's what's specific to King County, and what I'd want a family to know before they list.
+
+## Where King County probate cases go
+
+Probate here runs through King County Superior Court, in its Ex Parte and Probate department. That department handles probate along with guardianships, trusts and other matters not assigned to a judge.
+
+The court has courthouses in Seattle and at the Maleng Regional Justice Center in Kent. Under the court's local rules, the county is split into a Seattle case assignment area and a Kent case assignment area, divided roughly at Interstate 90. A probate case is assigned based on where the person who passed principally lived. Filings are generally done electronically, and the court requires certain ex parte matters to be presented through the Clerk.
+
+Your estate attorney handles all of this. You don't need to learn the court's system, but it helps to know why your attorney mentions Seattle or Kent, and why most of the process happens on paper rather than in a courtroom.
+
+Once the personal representative is appointed with nonintervention powers, they can sell the home without a court order (RCW 11.68.090). From there, the listing and sale run a lot like any other.
+
+## Homes on septic have extra steps
+
+Plenty of King County homes aren't on sewer, especially in the rural east and south parts of the county. If the house has a septic system, Public Health Seattle and King County has specific requirements at sale:
+
+* The system must be inspected by a certified on site system maintainer before title transfers. The seller schedules it.
+
+* The maintainer submits the report to Public Health, which reviews it within 10 business days.
+
+* Before closing, the seller records a notice of on site sewage system operation and maintenance requirements with the King County Recorder's Office, unless one is already on title, and gives the buyer a recorded copy. Agents know this as form 22U.
+
+* The buyer pays an operation and maintenance program fee to Public Health at transfer.
+
+* The inspection can be waived in some cases, such as when a licensed maintainer filed a monitoring report within the last 6 months and reports have been filed regularly.
+
+For an estate, the personal representative usually steps into the seller's role on all of this. Book the inspection early. If the system needs repairs, you want to know before you're under contract.
+
+## Keep the property taxes current
+
+King County property taxes come in two halves. The first is due April 30 and the second October 31. If the first half isn't paid by April 30, the full year becomes delinquent on May 1, and late charges are added monthly.
+
+The county Assessor sets the value and the Treasury collects the tax. If the house had a mortgage with an escrow account, the county still treats making sure taxes are paid as the owner's responsibility. Have the personal representative update the mailing address on the tax account so statements don't go to an empty house. The Treasury accepts that change by email, on the payment stub, or with a mailed form.
+
+## One county, very different buyers
+
+An Eastside estate home in Kirkland or Redmond often draws buyers who want to update it to their taste, and condition can matter less than location. In Seattle, it depends a lot on the neighborhood and whether the home is a condo, a townhome or a house. In south King County, I often see more investors and first time buyers, and the math on repairs gets tighter.
+
+That's why the fix up or sell as is question has a different answer depending on where the house is. On a Federal Way estate fixer this year, I gave the personal representative a frank look at what a renovation would cost against what it would add, and what investors would realistically pay. We listed at $399,000 and sold for $454,500.
+
+## Excise tax on the sale
+
+Inheriting a house doesn't trigger Washington's real estate excise tax, but selling it to an outside buyer does. Your escrow officer will calculate it, and your CPA can explain how it fits with the rest of the estate.
+
+The biggest King County surprise I see isn't the court. It's the septic inspection, or the tax bill sent to an empty mailbox. Both are easy to handle in week one and painful to discover in week six.
+
+Sources: [King County Superior Court Ex Parte and Probate](https://kingcounty.gov/courts/superior-court/ex-parte-probate.aspx), [King County Superior Court calendars and locations](https://kingcounty.gov/en/court/superior-court/courts-jails-legal-system/court-calendars-locations-operations/superior-court-calendars-schedules), [King County local rule on case assignment areas](https://kingcounty.gov/en/dept/dja/courts-jails-legal-system/superior-court-local-rules/local-civil-rules/lcr-82), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [Public Health Seattle and King County on septic sales and transfers](https://kingcounty.gov/en/dept/dph/health-safety/environmental-health/on-site-sewage-systems/sales-transfers), [King County Treasury property tax FAQ](https://kingcounty.gov/en/dept/executive-services/buildings-property/treasury-operations/property-tax/faq), [Washington rule on inheritance and excise tax](https://www.law.cornell.edu/regulations/washington/WAC-458-61A-202). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### Which King County courthouse handles probate?
+
+Probate goes through King County Superior Court, which has courthouses in Seattle and at the Maleng Regional Justice Center in Kent. The case is assigned based on where the person who passed principally lived. Your estate attorney will handle the filing.
+
+### Does a King County probate home on septic need an inspection before sale?
+
+Generally yes. King County requires an inspection by a certified maintainer before title transfers, plus a recorded notice for the buyer, though some waivers exist. Check the county septic sales and transfers page for details.
+
+### When are King County property taxes due?
+
+The first half is due April 30 and the second half October 31. Keeping them current while the estate is open avoids late charges.
+
+### Can the personal representative sell without a court order?
+
+In Washington, a personal representative with nonintervention powers can sell estate property without a court order. Your attorney will confirm whether those powers were granted.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Selling a House in Probate in Washington: How the Timeline Works
+
+> The order of events when selling a house in probate in Washington: letters, nonintervention powers, court approval, the creditor window, and listing vs closing.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/
+
+One of the first questions I hear from an executor is some version of "how long is this going to take?" It's a fair question. There's a house sitting empty, siblings asking for updates, and bills still showing up in the mailbox.
+
+The honest answer is that your estate attorney sets the pace, and every estate moves differently. What I can do is lay out the order things usually happen in, so you know which steps come first and which ones run at the same time.
+
+## Step one: the court appoints someone
+
+Nothing happens with the house until a personal representative is appointed. That's the legal name for the person most families call the executor. If there's a will, the court issues letters testamentary to the executor it names. If there's no will, the court still appoints someone, and that person gets letters too.
+
+Those letters are the document everyone will ask for. The title company wants them, I want a copy for the listing file, and banks usually want them before they'll talk to anyone about the decedent's accounts. Keep several copies handy.
+
+Within 20 days of being appointed, the personal representative also has to send written notice of the appointment to the heirs and beneficiaries whose addresses are reasonably known. Your attorney usually handles that mailing, but it's worth knowing it happens early.
+
+## The big fork: nonintervention powers or not
+
+This one detail shapes the whole sale, so ask your attorney about it right away.
+
+In Washington, the court can grant the personal representative nonintervention powers. The statute lays out when the court must grant them, and one of the conditions is that the estate is solvent. If the will names you as personal representative and doesn't prohibit it, that's one common path. Your attorney will know if your estate qualifies.
+
+With nonintervention powers, RCW 11.68.090 lets the personal representative sell estate property without a court order. In practice the sale looks a lot like any other: you sign a listing agreement, accept an offer, and close through escrow.
+
+## When the court has to approve the sale
+
+Without those powers, the default rule is different. RCW 11.56.010 says estate property isn't sold except under an order of the court, unless the law provides otherwise. That means extra steps.
+
+Roughly, the personal representative asks the court for permission, notice goes out, and a judge signs an order directing the sale. Once the house is sold, the personal representative files a return of sale with the court within ten days. The court can then confirm the sale after a waiting period of at least ten more days. The judge can also refuse to confirm in some situations, for example if the price looks out of line with the value and a meaningfully higher bid is available.
+
+Buyers and their agents need to know about this up front, because it affects when they can plan to move. I put it in the listing notes so nobody is surprised halfway through escrow.
+
+## The creditor window runs in the background
+
+Separate from the sale, the personal representative can publish a notice to creditors. Under Washington law, that notice runs in a legal newspaper in the county once a week for three weeks in a row, and it gets filed with the court.
+
+For most creditors, RCW 11.40.051 sets the deadline at four months after the date of first publication. Creditors who were reasonably easy to find but never got actual notice can have up to 24 months from the date of death. A creditor who misses the deadline that applies is generally barred.
+
+Why does this matter for the house? Because some attorneys want to see where the debts land before money from the sale goes out to heirs. The house can often be listed and even sold while that window is still open. Whether the proceeds sit in the estate account until it closes is a call for your attorney.
+
+## Listing day and closing day are two different questions
+
+Families sometimes assume they can't do anything until probate is completely done. Usually that's not the case. Once there's an appointed personal representative with authority to sell, you can start getting the house ready and get it on the market.
+
+Closing is where the paperwork catches up. The title company will want the letters, proof of the personal representative's authority, and in a court supervised sale, the order confirming the sale. My job during that stretch is to keep the escrow officer, the attorney and the buyer's agent on the same page so the closing date holds.
+
+## Keeping the heirs informed
+
+A probate sale gets tense when people feel left out. Most of that is avoidable.
+
+* Share the timeline in writing, even a rough one, and update it when something changes.
+
+* Send the same comps, offers and counteroffers to every heir who wants to see them.
+
+* Explain why a decision was made, not just what it was.
+
+* Tell people early when something is waiting on the court or the attorney, so the delay doesn't look like a stall.
+
+On a Bothell house I sold for an estate this year, two offers came in within days. I laid them side by side for the executor, term by term, so the whole family could see why one was stronger. It had an escalation clause, and the buyer agreed to cover part of a low appraisal. That kind of plain comparison does more to keep a family together than any number of phone calls.
+
+## What to expect on timing
+
+I won't give you a number of months, because I'd be guessing. The pace depends on how quickly the appointment happens, whether there are nonintervention powers, what the house needs before it's ready, and what your attorney wants to see before distributing money.
+
+The most useful thing you can do is ask your attorney two questions in the first meeting: does the personal representative have authority to sell without a court order, and is there any reason to wait before listing? Those two answers tell you which version of this timeline you're living in.
+
+Sources: [RCW 11.28.010 on letters](https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.010), [RCW 11.28.237 on notice to heirs](https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.237), [RCW 11.68.011 on nonintervention powers](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.011), [RCW 11.68.090](https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090), [RCW 11.56.010](https://app.leg.wa.gov/RCW/default.aspx?cite=11.56.010), [RCW 11.56.100 on confirming a sale](https://app.leg.wa.gov/RCW/default.aspx?cite=11.56.100), [RCW 11.40.010](https://app.leg.wa.gov/RCW/default.aspx?cite=11.40.010), [RCW 11.40.020 on notice to creditors](https://app.leg.wa.gov/RCW/default.aspx?cite=11.40.020), [RCW 11.40.051 on claim deadlines](https://app.leg.wa.gov/RCW/default.aspx?cite=11.40.051). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### Can I list a house in probate before the estate is closed?
+
+Usually yes. Once a personal representative is appointed and has authority to sell, the house can go on the market. Your estate attorney will tell you if there is a reason to wait in your situation.
+
+### What are nonintervention powers in Washington?
+
+They are powers a court can grant a personal representative so the estate can be handled without ongoing court supervision. With them, the personal representative can sell estate property without a court order.
+
+### How long do creditors have to file claims in Washington?
+
+When notice to creditors is published, most creditors have four months from the first publication date. Some creditors who did not get actual notice can have up to 24 months from the date of death. Your attorney will explain how it applies.
+
+### Does the court have to approve the sale?
+
+Only if the personal representative does not have nonintervention powers or other authority. In that case the court orders the sale and later confirms it after a return of sale is filed.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Selling a Home After a Parent Moves to Assisted Living
+
+> Selling a parent's home after a move to assisted living: timing the sale, power of attorney and trust basics, insuring an empty house, and the emotional side.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/selling-a-home-after-a-parent-moves-to-assisted-living/
+
+Moving a parent into assisted living is usually a decision made in a hurry, after a fall or a hospital stay, and the house gets left exactly as it was the morning everything changed. A few weeks later the family looks up and realizes there's a home sitting empty, bills still coming, and a lot of questions nobody has had time to ask.
+
+This is a different situation than selling after a death. Your parent is still here, still the owner in most cases, and still has feelings about the place. That changes how the sale should go.
+
+## Move first, then sell
+
+For most families I work with, the order that works is simple: get your parent settled, then sell. Trying to show a house while someone is still living in it, especially someone with mobility or memory issues, is hard on everyone. An empty home is also easier to clean, repair and photograph.
+
+The tradeoff is carrying costs. Taxes, insurance, utilities and maybe a mortgage keep running while the house sits. That's why it helps to set a rough timeline early: a few weeks to move belongings, a few weeks to prep, then list.
+
+Timing the market matters too, and sometimes it isn't on your side. On an estate sale in the East Renton Highlands this year, the market cooled right as we were getting ready. There were 22 homes for sale in that price range and zip code in July, up 120% from a year earlier, and only 5 sold. I laid out three options and the risk of each, the family picked one, and it sold for $625,000. Having that conversation before listing made the slower weeks a lot less stressful.
+
+## Who signs when your parent still owns the house
+
+### If the house is in your parent's name
+
+Your parent signs, if they're able to. If they aren't, the agent named in a power of attorney may be able to. Washington's law on this is chapter 11.125 RCW. Authority over real property includes selling it, but the document itself controls what the agent can do (RCW 11.125.270). Whether it stays in effect if your parent loses capacity depends on its wording (RCW 11.125.040). And it ends at death (RCW 11.125.100), so a sale under a power of attorney can't continue if your parent passes before closing. At that point the estate process takes over.
+
+Title companies look closely at these documents and may ask the agent for a sworn certification (RCW 11.125.190). Get the power of attorney to your attorney and the title company early.
+
+### If the house is in a trust
+
+If your parent put the house in a living trust, the trustee signs. Often that's your parent, with a successor trustee who steps in when they can't serve. The trust document spells out when that happens, and the title company will want to see the paperwork. An attorney should confirm who has authority before you sign a listing agreement.
+
+## Keep the empty house insured and safe
+
+* Call the insurance company and tell them the home is vacant. Many policies treat vacancy differently, and you want to know before something happens.
+
+* Keep the heat on low through the winter so pipes don't freeze.
+
+* Consider shutting off the main water when nobody is there, if the furnace doesn't rely on it.
+
+* Set a few lights on timers and keep the yard mowed so it looks lived in.
+
+* Have someone walk through every week or two and check for leaks.
+
+* Remove medications, valuables and important papers.
+
+## Sale money and the cost of care
+
+For many families, the house is what pays for assisted living. That's exactly why the money side deserves real professional advice, not guesses from an agent or a neighbor.
+
+Before you list, sit down with your parent's financial advisor and an elder law attorney. If your parent receives or might later need long term care benefits, the elder law attorney should weigh in before the house is sold, because the sale can affect those benefits. A CPA can talk through the tax side. My job is to get the home sold well and on a timeline that fits the plan they put together.
+
+## The emotional side
+
+This is the part nobody plans for. Your parent may agree the house needs to go and still feel like they're losing something. A few things I've seen help:
+
+* Let your parent choose what comes to the new apartment first, before anyone else picks.
+
+* Take photos and video of the house as it was, room by room.
+
+* Decide as a family how much your parent wants to hear about showings and offers. Some want every detail. Some want only the closing date.
+
+* Bring them back for one last visit if they want it, ideally after it's cleaned and staged so it looks cared for.
+
+One more thing. Don't empty the house all at once and send the leftovers away before your parent has settled in. People often find in the first month that they want a certain chair, a lamp, or a box of photos. Give it a few weeks before the final clean out. A short wait costs very little, and you can't get those things back once they're gone.
+
+Sources: [Washington Uniform Power of Attorney Act](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125), [RCW 11.125.270](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.270), [RCW 11.125.040](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.040), [RCW 11.125.100](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.100), [RCW 11.125.190](https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.190). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### Should we sell the house before or after our parent moves to assisted living?
+
+For most families, after. An empty home is easier to prepare and show, and your parent doesn't have to live through showings. Plan for the carrying costs while it sits.
+
+### Can I sell my parent's house with a power of attorney?
+
+Often, if the document grants authority over real property and is still in effect. It ends if your parent dies, and the wording matters, so have an attorney and the title company review it early.
+
+### Will selling the house affect long term care benefits?
+
+It can. Talk with an elder law attorney and your parent's financial advisor before listing if your parent receives or may need long term care benefits.
+
+### Do we need special insurance for a vacant house?
+
+Call the insurance company and ask. Many policies treat a vacant home differently than an occupied one, and it's better to know before anything happens.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Sell, Rent or Keep an Inherited House in King County?
+
+> Inherited a house in King County? Compare selling, renting and keeping it: carrying costs, Washington landlord rules, co owner disagreements and CPA questions.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/sell-rent-or-keep-an-inherited-house-in-king-county/
+
+Not every family that inherits a house wants to sell it. Some want to rent it out for the income. Some have a sibling who'd like to move in. Some just aren't ready to let go yet, and that's a real reason too.
+
+I sell houses for a living, so you can weigh my opinion accordingly. But I've watched families make this decision well and badly, and the good ones almost always start with the same few questions. Here they are.
+
+## Start with what the house costs to hold
+
+An inherited house isn't free just because there's no mortgage. Before anyone decides, add up what it costs to own it for a year:
+
+* Property taxes, which keep coming due no matter who owns it.
+
+* Insurance. Tell the insurer the owner has passed and ask how they treat a vacant house, because many policies handle it differently.
+
+* Utilities, kept on so the pipes don't freeze and the place doesn't look abandoned.
+
+* Upkeep: gutters, the roof, the yard, the furnace, and the repairs nobody saw coming.
+
+Write the total down and share it with every heir. That one number settles a lot of arguments before they start, because "let's just hang onto it for a while" has a monthly price.
+
+## What renting it out really involves
+
+Renting sounds simple until you're the landlord. In Washington, the Residential Landlord Tenant Act sets the rules, and they're detailed. A few examples from the statute:
+
+* The landlord has to keep the home fit to live in, keep the structure in reasonably good repair, and keep the heat, hot water, plumbing and electrical working.
+
+* If you collect a deposit, the rental agreement has to be in writing, and you have to give the tenant a signed checklist describing the condition of the home at move in.
+
+* Washington limits the reasons a landlord can end a tenancy. Selling a single family house is one of them, but it takes at least 90 days of written notice, and the law has rules about following through on the sale.
+
+That last point catches families off guard. If you rent the house now and decide to sell next year, you can't just list it and ask the tenant to leave next month. Talk with an attorney about the lease before you sign one, and think hard about who in the family will take the 9 p.m. call about a leaking water heater.
+
+Many older homes also need work before they're ready for a tenant. A furnace at the end of its life or a roof with a few years left becomes the landlord's problem on day one.
+
+## When one heir wants to keep it
+
+This is common. One sibling grew up in that bedroom and can't picture strangers in it. Another lives in Arizona and would rather have the money.
+
+A buyout is often the cleanest answer: the heir who wants the house pays the others their share. That needs a fair value everyone trusts, and usually financing. I can pull what similar homes nearby have sold for, and many families also get a formal appraisal so nobody feels shortchanged.
+
+When co owners can't agree at all, Washington has a partition law that lets a co owner ask a court to divide the property, or order it sold if it can't be divided fairly. That's a last resort, and it's expensive and slow. Your attorney can explain the options long before it gets there. Most families I work with never come close.
+
+## Running the numbers on fixing and selling
+
+Sometimes the real question isn't keep or sell. It's sell now or fix it first. On a Federal Way fixer I sold for an estate this year, I gave the executor a frank look at renovation costs against what investors would pay as is. Seeing both columns made the decision clear. It listed at $399,000 and sold for $454,500.
+
+Whatever you're leaning toward, make sure the comparison includes real costs and real time, not hopeful ones.
+
+## Questions to bring to your CPA
+
+I'm not a tax advisor, and this is where one earns their fee. Bring these questions to a CPA before you decide:
+
+* The IRS generally sets the basis of inherited property at its fair market value on the date of death. What does that mean for us if we sell now versus in a few years?
+
+* If we rent it out, how is the rental income taxed, and what records should we keep?
+
+* If one heir moves in, does that change anything for that person or for the rest of us?
+
+* Who owns the house right now for tax purposes, the estate or the heirs?
+
+Ask your CPA what value they want documented as of the date of death. If it helps, I can pull nearby sales from around that time, and some CPAs will still want an appraisal.
+
+## A simple way to decide
+
+Put three columns on one page: sell, rent and keep. Under each, list the yearly cost, who does the work, the risk if something goes wrong, and what each heir ends up with. Have your attorney and CPA look at the page before anyone commits.
+
+It's not a perfect formula. But a decision made on paper, with every heir looking at the same numbers, holds up much better a year later than one made in a hurry in the driveway after the memorial.
+
+Sources: [Residential Landlord Tenant Act](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18), [RCW 59.18.060 on landlord duties](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.060), [RCW 59.18.260 on deposits and checklists](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.260), [RCW 59.18.650 on ending a tenancy](https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.650), [RCW 7.52.010 on partition](https://app.leg.wa.gov/RCW/default.aspx?cite=7.52.010), [IRS: Gifts and inheritances](https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances/gifts-inheritances). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### Is it a good idea to rent out an inherited house?
+
+It can be, but renting in Washington comes with real duties under the Residential Landlord Tenant Act, plus carrying costs and repairs. Add up the full yearly cost and talk with your attorney and CPA first.
+
+### Can I sell an inherited house that has a tenant in it?
+
+Washington limits the reasons a landlord can end a tenancy. Selling a single family house is one allowed reason, with at least 90 days of written notice. An attorney can explain how it applies to your lease.
+
+### What if one heir wants to keep the house and the others want to sell?
+
+Many families settle it with a buyout at a fair value. If co owners cannot agree, Washington law allows a court to divide or order the sale of property, but that is a last resort. Your attorney can explain your options.
+
+### What is the tax basis of an inherited house?
+
+The IRS generally sets it at fair market value on the date of death. A CPA can tell you how that affects your taxes when the house is sold.
+
+About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
+
+
+* * *
+
+# Clearing Out a Family Home Before You Sell on the Eastside
+
+> How to clear out a family home before selling on the Eastside: what to do first, papers to find, what to keep, estate sale vs donation, and keeping it safe.
+
+Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
+Published: October 20, 2026
+Topic: Selling
+Area: Eastside, Washington
+Web page: https://jackmacdonaldre.com/blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/
+
+Clearing out a parent's house is one of the hardest jobs in an estate, and it has very little to do with real estate. It's forty years of birthday cards, a garage full of tools, and a kitchen drawer nobody has opened since the nineties.
+
+I've walked through a lot of these houses with families. The ones who get through it best don't rush the first part and don't drag out the last part. Here's the order that tends to work.
+
+## First, walk through before you move anything
+
+Before anyone takes a box, do one slow walk through the whole house together if you can. Open closets, the attic, the crawl space, the shed. Take photos or a video of every room as it is.
+
+That record helps later. It shows the attorney and the insurer what was in the house, it settles "I thought Dad still had that" conversations, and for a lot of families it's the last time they'll see the house the way their parent kept it. Nobody regrets having those pictures.
+
+## Look for the important papers early
+
+Paperwork hides in strange places: freezer bags, coat pockets, the back of a dresser. Set aside one box, label it, and have one person keep it. Look for:
+
+* The deed, any trust documents, and anything that mentions the house or a mortgage.
+
+* Homeowner's insurance policies and recent statements.
+
+* Utility bills, so you know which accounts to keep open and which to close.
+
+* Every key you can find, plus garage door openers, gate codes and alarm information.
+
+* Warranties, manuals and receipts for the roof, furnace, water heater and appliances.
+
+* Tax returns, bank and brokerage statements, and anything that looks like a will.
+
+Hand anything legal or financial to the personal representative and the estate attorney. Warranties and repair receipts are worth keeping for the sale, because buyers like seeing that the furnace was serviced and when.
+
+## Decide what family keeps
+
+This is where it gets emotional, and where a little structure helps. A few things I've seen work:
+
+* Have each person make a short list of the items that matter most to them, then compare lists.
+
+* Take turns choosing if more than one person wants the same things.
+
+* Photograph sentimental items nobody has room for. A photo of the china cabinet can mean as much as the cabinet.
+
+* Set a real date for family to take their things. Without one, it stalls for months.
+
+If the estate has a will or the personal representative has to account for valuable items, check with the attorney before anything of real value leaves the house.
+
+## Choosing where the rest goes
+
+Once family has what it wants, there are four common routes for what's left, and most houses use more than one.
+
+### Estate sale company
+
+Good when there's a lot of furniture, collectibles or household goods with resale value. The company prices, runs the sale and usually takes a percentage. Ask how they handle what doesn't sell.
+
+### Auction
+
+Better for a smaller number of higher value pieces like art, jewelry or collections, where a wider pool of buyers may pay more.
+
+### Donation
+
+Many charities take furniture, clothing and household goods. Keep a list and get a receipt. The IRS says charitable deductions generally require itemizing, and used clothing and household items generally have to be in good used condition or better. Whether a deduction applies, and to whom, is a question for your CPA.
+
+### Junk removal
+
+For whatever is left at the end. Getting a few quotes is worth it, since what's included and how they price it can vary.
+
+The order matters: family first, then the sale or auction, then donations, then the final haul. Doing it backward means throwing away things someone would have paid for.
+
+## Keep the empty house safe
+
+A house that's half cleared out and clearly empty gets noticed. Don't leave jewelry, cash, firearms, prescription medications or important papers sitting in it. Take them out early and store them somewhere secure.
+
+Keep a light on a timer, have the mail held or forwarded, and know exactly who has keys. If an estate sale company or crew is coming in, agree in advance who lets them in and who locks up. Let the insurer know the house is vacant, too.
+
+## Be realistic about time
+
+This almost always takes longer than families expect. A house that looked manageable on the first walk through turns out to have a full basement and a packed attic. People live in different states and can only come for a weekend. Grief slows things down, and it should.
+
+I tell families not to set a listing date until the house is mostly cleared and they know what it needs. Once it's empty, the prep is often simpler than people fear. On a Redmond rambler I sold for an estate this year, it came down to the lawn, a garden bed, paint and a clear spot to park. It had one showing and one offer the night it listed.
+
+The empty house is a different house. Walk through it again once it's clear, before you decide on repairs or price. Rooms look bigger, flaws show up that furniture was hiding, and you'll make better decisions looking at what a buyer will actually see.
+
+Sources: [IRS: Charitable contribution deductions](https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contribution-deductions), [IRS Publication 526](https://www.irs.gov/publications/p526). General information only, not legal or tax advice. For the full rundown, see [how I help with inherited and estate homes](https://jackmacdonaldre.com/inherited-homes/).
+
+## Common Questions
+
+### What should we do first when clearing out a parent's house?
+
+Walk through the whole house and photograph every room before moving anything. Then gather important papers like the deed, insurance, utility bills, keys and warranties in one place.
+
+### Should we use an estate sale company, an auction or donation?
+
+Many families use more than one. An estate sale fits lots of household goods, an auction suits fewer high value pieces, donation handles usable items, and junk removal takes what is left.
+
+### Can we deduct donated household items?
+
+The IRS generally requires itemizing, and used clothing and household items generally must be in good used condition or better. Keep a list and receipts, and ask your CPA whether a deduction applies.
+
+### How long does clearing out a family home take?
+
+It varies a lot with the size of the house, how much is in it and how often family can be there. It usually takes longer than expected, so wait to set a listing date until it is mostly cleared.
 
 About the author: Jack Macdonald grew up in Bellevue and helps buyers and sellers across Bellevue, Kirkland, Redmond, Sammamish, Issaquah, Woodinville, and Bothell with Macdonald Group of Compass. Phone 425.941.6998. Website https://jackmacdonaldre.com/
 
