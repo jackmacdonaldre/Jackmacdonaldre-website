@@ -166,6 +166,14 @@ function buildFaqSection(faq) {
     .join("\n")}\n`;
 }
 
+// Local partner line at the bottom of every article (Jack, 2026-10-20).
+function partnerBox() {
+  return `<div style="margin-top: var(--space-8); padding: var(--space-6); border: 1px solid var(--color-divider); font-size: 15px; line-height: 1.65;">
+<div class="kicker" style="margin-bottom: var(--space-2);">Local partner</div>
+<p style="margin: 0;">Selling or inheriting a home is also a money decision. For retirement, tax and estate planning on the Eastside, I recommend <a href="https://www.geverswealth.com/" target="_blank" rel="noopener">Gevers Wealth Management</a> in Issaquah.</p>
+</div>`;
+}
+
 function buildPostHtml(post, all) {
   const url = postUrl(post);
   const crumbs = postCrumbs(post);
@@ -205,6 +213,7 @@ ${buildFaqSection(post.faq)}
 ${moreAboutBox(post, all)}
 ${related.length ? `<h2 style="margin-top: calc(var(--space-8) * 1.1);">Related posts</h2>${smallPostList(related)}` : ""}
 ${nextStep(post)}
+${partnerBox()}
 </article>`;
   return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: "/assets/nbhd-bellevue.jpg", markdownAlt: true });
 }
