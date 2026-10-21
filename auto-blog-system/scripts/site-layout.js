@@ -51,7 +51,10 @@ const AGENT = {
     "https://www.instagram.com/jackmacdonaldre/",
     "https://www.linkedin.com/in/jack-macdonald-992878180/",
     "https://www.compass.com/agents/jack-macdonald/",
+    "https://www.facebook.com/jack.macdonald.31521301/",
+    "https://www.google.com/maps/place/Jack+Macdonald+%7C+Macdonald+Group+Real+Estate/@47.6166486,-122.1928063,17z/data=!3m1!4b1!4m6!3m5!1s0x54906d61bd1d56c5:0xebb1ed7e3100a46d",
   ],
+  knowsAbout: ["Eastside real estate", "Home selling", "Home buying", "Inherited home sales", "Estate and probate home sales", "Selling a parent's home"],
 };
 
 const STYLE = `
