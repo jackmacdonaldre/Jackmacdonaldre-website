@@ -465,8 +465,9 @@ function hubSelling(area) {
       market = `From ${win}, the median ${name} home sold in ${days(dom)}${s2l != null ? ` at about ${s2l.toFixed(1)}% of list price` : ""}.`;
     }
     market += ` <a href="${report.path}">See the full ${name} numbers</a>.`;
+    market += ` <span style="display: block; font-size: 13px; color: var(--color-neutral-600); margin-top: var(--space-2);">Market figures are for single family homes from ${win}, from the Redfin Data Center, and are updated monthly.</span>`;
   }
-  const example = area.slug === "redmond" ? ` One Redmond home I listed had one showing and one offer within six hours.` : "";
+  const example = "";
   return `<h2 style="margin-top: var(--space-8);">Selling in ${name}</h2>
 ${market ? `<p style="line-height: 1.7;">${market}</p>` : ""}
 ${hubAngle(area)}
@@ -494,8 +495,9 @@ ${x.story ? `<p style="font-size: 15px; line-height: 1.65; margin: 0 0 var(--spa
 </div>`;
   const sellers = d.sales.filter((x) => x.side !== "buyer"), buyers = d.sales.filter((x) => x.side === "buyer");
   return `<section id="recent-sales" style="margin-top: var(--space-8);">
-<h2>My recent ${name} sales</h2>
-<p style="line-height: 1.7;">Real transactions from my own records, with prices as they closed. I list the side I represented on each one.</p>
+<h2>How I work in ${name}, with recent sales</h2>
+${Array.isArray(d.how) ? d.how.map((t) => `<p style="line-height: 1.7;">${t}</p>`).join("\n") : ""}
+<p style="line-height: 1.7;">The details below come from my own transaction records, with prices as they closed, and each one says which side I represented. For the full process, see <a href="/sell/">how I sell homes</a>.</p>
 <div class="grid" style="margin-top: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));">${sellers.concat(buyers).map(card).join("\n")}</div>
 </section>`;
 }
@@ -606,6 +608,7 @@ function buildHub(area, allPosts) {
 ${breadcrumbHtml(crumbs)}
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">${escapeHtml(area.name)} Real Estate</h1>
 <p style="font-size: 18px; line-height: 1.7;">${escapeHtml(AREA_INTROS[area.slug] || "")}</p>
+${AREA_SALES[area.slug] && AREA_SALES[area.slug].lead ? `<p style="font-size: 17px; line-height: 1.7;">${escapeHtml(AREA_SALES[area.slug].lead)} <a href="#recent-sales">See the sales</a>.</p>` : ""}
 <p style="font-size: 15px; margin-top: var(--space-3);"><a href="#home-value">Thinking about selling? Get a price range for your ${escapeHtml(area.name)} home</a> &middot; <a href="tel:4259416998">Call or text 425.941.6998</a></p>
 ${report ? `<div class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
 <div class="kicker">Latest market report &middot; Updated ${escapeHtml(report.info.updatedMonth)}</div>
