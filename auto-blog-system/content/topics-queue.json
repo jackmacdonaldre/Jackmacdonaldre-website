@@ -818,6 +818,33 @@
       "city": "Kirkland",
       "type": "neighborhood_guide",
       "status": "queued"
+    },
+    {
+      "topic": "Selling an Inherited Home in Snohomish County: Everett to Bothell",
+      "city": "Everett",
+      "type": "seller_guide",
+      "status": "review",
+      "track": "estate",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20)."
+    },
+    {
+      "topic": "Selling an Inherited Home in Pierce County: Tacoma and Puyallup",
+      "city": "Tacoma",
+      "type": "seller_guide",
+      "status": "review",
+      "track": "estate",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20)."
+    },
+    {
+      "topic": "Selling a Probate Home in King County: What Families Should Know",
+      "city": "Seattle",
+      "type": "seller_guide",
+      "status": "review",
+      "track": "estate",
+      "added": "2026-10-20",
+      "note": "Jack reviews and adds photos before this publishes (2026-10-20)."
     }
   ]
 }
