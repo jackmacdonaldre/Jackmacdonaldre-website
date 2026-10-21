@@ -3,7 +3,7 @@
 > Inherited a house in Bellevue or on the Eastside? Who can sign, protecting the home, belongings, fix up or sell as is, and the tax questions to ask first.
 
 Author: Jack Macdonald, REALTOR, Macdonald Group of Compass, Bellevue WA
-Published: October 21, 2026
+Published: October 20, 2026
 Topic: Selling
 Area: Eastside, Washington
 Web page: https://jackmacdonaldre.com/blog/selling-an-inherited-home-on-the-eastside-where-to-start/
@@ -13,6 +13,8 @@ The call usually starts the same way. Someone's parent has passed, there's a hou
 There is no single right order for every family, but there is a sensible one. Here is how I'd walk through it if it were my own family.
 
 ## Figure out who is allowed to sell the house
+
+People don't understand how much of a responsibility being an executor is until they're in it. The house is usually the biggest piece of it, so it helps to get the order right.
 
 Before you pick an agent, a price or a listing date, you need to know who has the legal authority to sign. That depends on how the house was held when the owner died.
 
