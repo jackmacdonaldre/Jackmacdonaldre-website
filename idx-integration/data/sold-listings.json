@@ -1,7 +1,287 @@
 {
-  "generatedAt": "2026-10-21T23:28:23.691Z",
-  "count": 122,
+  "generatedAt": "2026-10-22T05:04:59.510Z",
+  "count": 123,
   "listings": [
+    {
+      "acres": "0.029",
+      "address": "3513 SW Austin Street",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "Ductless"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Ductless"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Engineered Hardwood"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "2.25",
+        "styleCode": "12 - 2 Story",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchool": [
+          "West Seattle High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "livingArea": 970,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "lotFeatures": [
+          "Paved",
+          "Secluded",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "140 - West Seattle",
+        "onMarketDate": "2026-09-23T00:00:00+00:00",
+        "parkingTotal": 1,
+        "powerCompany": "Seattle City Light",
+        "sewerCompany": "SPU",
+        "siteFeatures": [
+          "Cable TV",
+          "Fenced-Partially",
+          "Patio"
+        ],
+        "titleCompany": "Chicago Title",
+        "waterCompany": "SPU",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "busLineNearby": "yes",
+        "coveredSpaces": 0,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 3,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "1",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "listAgentEmail": "stephen@stephenmacdonald.com",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 0,
+        "listOfficeEmail": "contractsseattle@compass.com",
+        "newConstruction": "Completed",
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "Driveway"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 0,
+        "waterHeaterType": "electric",
+        "attachedGarageYN": "no",
+        "elementarySchool": [
+          "Gatewood"
+        ],
+        "exteriorFeatures": [
+          "Cement Planked"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Skylight(s)",
+          "Vaulted Ceiling(s)",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "KCR",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 970,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "communityFeatures": [
+          "CC Rs"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 1259,
+        "mainLevelBedrooms": 2,
+        "otherDuesOrFeesYN": "yes",
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "architecturalStyle": [
+          "Modern"
+        ],
+        "highSchoolDistrict": [
+          "Seattle"
+        ],
+        "yearBuiltEffective": 2026,
+        "zoningJurisdiction": "City",
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "waterHeaterLocation": "lower bedroom",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Madison Mid"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "associationFeeIncludes": [
+          "See Remarks"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "Builder",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "970",
+        "listAgentPreferredPhone": "425-242-6440",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 2,
+      "cityID": 41973,
+      "cityName": "Seattle",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-09-23T23:47:42+00:00",
+      "dateModified": "2026-10-22T00:39:13+00:00",
+      "detailsURL": "b045/2586482",
+      "detailsUrlSlug": "3513-SW-Austin-Street-Seattle-98126",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2586482/3513-SW-Austin-Street-Seattle-98126",
+      "halfBaths": 1,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/85ec/ce5835701b5d938a5ebac111b42b2282/b045",
+          "sizes": [],
+          "caption": "Modern exterior welcomes you to your new construction home"
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.534528,
+      "listingAgentID": "1186410",
+      "listingID": "2586482",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$599,950",
+      "longitude": -122.377511,
+      "mediaData": [],
+      "mlsPhotoCount": 22,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 2,
+      "price": 599950,
+      "priceData": {
+        "value": {
+          "raw": 599995,
+          "formatted": "$599,995"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Beautiful new construction blending modern design and effortless flow. The entry level offers two spacious bedrooms, each with a private ensuite bath. Upstairs you will enjoy soaring vaulted ceilings, exposed beams, and walls of windows that fill the open living area with natural light. The kitchen impresses with wood cabinetry, quartz counters, stainless steel appliances, and an oversized island built for entertaining. With individual mini-split AC units in every room, you’ll find comfort year round. Off street parking and nestled in West Seattle's sought-after Gatewood neighborhood, you're just minutes from Lincoln Park's scenic waterfront trails and moments from the shops, cafes, and restaurants of the Alaska/California Ave corridor with the best of West Seattle living.",
+      "rntLse": "neither",
+      "rntLsePrice": 599950,
+      "sellingAgentID": "70218062",
+      "sellingOfficeID": "1001814",
+      "soldDate": "2026-10-21T00:00:00+00:00",
+      "soldPrice": 599995,
+      "sqFt": "970",
+      "state": "Washington",
+      "streetDirection": "SW",
+      "streetName": "Austin Street",
+      "streetNumber": "3513",
+      "subdivision": "Gatewood",
+      "threeQuarterBaths": 1,
+      "totalBaths": 3,
+      "viewCount": 12,
+      "vtCount": 0,
+      "yearBuilt": 2026,
+      "zipcode": "98126",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Stephen Macdonald, Managing Broker",
+        "agentPhone": "425.941.7325"
+      }
+    },
     {
       "acres": "0.21",
       "address": "5816 Fleming Street",
@@ -1134,7 +1414,7 @@
       "subdivision": "Bellevue",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 39,
+      "viewCount": 40,
       "vtCount": 0,
       "yearBuilt": 1991,
       "zipcode": "98006",
