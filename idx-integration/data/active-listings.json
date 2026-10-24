@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:49:05.833Z",
+  "generatedAt": "2026-10-24T11:18:36.358Z",
   "count": 7,
   "listings": [
     {
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 213,
+      "viewCount": 214,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -738,19 +738,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "163536679",
-            "text": "",
-            "starts": "2026-10-23T16:00:00+00:00",
-            "expires": "2026-10-23T18:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:40:17+00:00",
-            "freeFormDate": "October 23rd, 2026",
-            "freeFormTime": "4:00 pm to 6:00 pm",
-            "listingID": "2528070",
-            "startTime": 1792771200
-          },
-          {
             "id": "162991429",
             "text": "",
             "starts": "2026-10-24T13:00:00+00:00",
@@ -767,7 +754,7 @@
       },
       "mlsPhotoCount": 40,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1149800,
@@ -1215,19 +1202,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "163643971",
-            "text": "",
-            "starts": "2026-10-23T16:00:00+00:00",
-            "expires": "2026-10-23T18:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:40:20+00:00",
-            "freeFormDate": "October 23rd, 2026",
-            "freeFormTime": "4:00 pm to 6:00 pm",
-            "listingID": "2595479",
-            "startTime": 1792771200
-          },
-          {
             "id": "163643970",
             "text": "",
             "starts": "2026-10-24T13:00:00+00:00",
@@ -1244,7 +1218,7 @@
       },
       "mlsPhotoCount": 31,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1139800,
