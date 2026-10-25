@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T04:58:04.327Z",
+  "generatedAt": "2026-10-25T11:48:19.555Z",
   "count": 7,
   "listings": [
     {
@@ -736,25 +736,11 @@
       "listingPrice": "$1,149,800",
       "longitude": -122.198721,
       "mediaData": {
-        "oh": [
-          {
-            "id": "162991429",
-            "text": "",
-            "starts": "2026-10-24T13:00:00+00:00",
-            "expires": "2026-10-24T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:40:16+00:00",
-            "freeFormDate": "October 24th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2528070",
-            "startTime": 1792846800
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 40,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1149800,
@@ -1200,25 +1186,11 @@
       "listingPrice": "$1,139,800",
       "longitude": -122.198729,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163643970",
-            "text": "",
-            "starts": "2026-10-24T13:00:00+00:00",
-            "expires": "2026-10-24T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:40:20+00:00",
-            "freeFormDate": "October 24th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2595479",
-            "startTime": 1792846800
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 31,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1139800,
@@ -1693,7 +1665,7 @@
       "subdivision": "Bryant",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 16,
+      "viewCount": 22,
       "vtCount": 1,
       "yearBuilt": 1928,
       "zipcode": "98115",
@@ -2552,19 +2524,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "163470525",
-            "text": "",
-            "starts": "2026-10-24T13:00:00+00:00",
-            "expires": "2026-10-24T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:10:19+00:00",
-            "freeFormDate": "October 24th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
-            "listingID": "2584647",
-            "startTime": 1792846800
-          },
-          {
             "id": "163168775",
             "text": "",
             "starts": "2026-10-25T13:00:00+00:00",
@@ -2581,7 +2540,7 @@
       },
       "mlsPhotoCount": 26,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 650000,
@@ -2981,19 +2940,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "163269728",
-            "text": "",
-            "starts": "2026-10-24T13:00:00+00:00",
-            "expires": "2026-10-24T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:10:13+00:00",
-            "freeFormDate": "October 24th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
-            "listingID": "2588925",
-            "startTime": 1792846800
-          },
-          {
             "id": "163269727",
             "text": "",
             "starts": "2026-10-25T13:00:00+00:00",
@@ -3010,7 +2956,7 @@
       },
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 650000,
