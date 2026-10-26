@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:29:20.282Z",
+  "generatedAt": "2026-10-26T07:55:59.122Z",
   "count": 7,
   "listings": [
     {
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 214,
+      "viewCount": 215,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -2090,25 +2090,11 @@
       "listingPrice": "$770,000",
       "longitude": -122.038167,
       "mediaData": {
-        "oh": [
-          {
-            "id": "162788469",
-            "text": "",
-            "starts": "2026-10-25T13:00:00+00:00",
-            "expires": "2026-10-25T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-21T22:25:11+00:00",
-            "freeFormDate": "October 25th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
-            "listingID": "2577976",
-            "startTime": 1792933200
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 34,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 770000,
@@ -2518,25 +2504,11 @@
       "listingPrice": "$650,000",
       "longitude": -122.377481,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163168775",
-            "text": "",
-            "starts": "2026-10-25T13:00:00+00:00",
-            "expires": "2026-10-25T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:10:13+00:00",
-            "freeFormDate": "October 25th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2584647",
-            "startTime": 1792933200
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 26,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 650000,
@@ -2934,25 +2906,11 @@
       "listingPrice": "$650,000",
       "longitude": -122.377471,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163269727",
-            "text": "",
-            "starts": "2026-10-25T13:00:00+00:00",
-            "expires": "2026-10-25T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-10-22T17:10:13+00:00",
-            "freeFormDate": "October 25th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2588925",
-            "startTime": 1792933200
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 650000,
