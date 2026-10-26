@@ -550,7 +550,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "best-time-of-year-to-sell-on-the-eastside",
+      "published_date": "2026-10-26"
     },
     {
       "topic": "Selling Your Redmond Home: What Buyers Notice First",
