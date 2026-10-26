@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:18:30.143Z",
+  "generatedAt": "2026-10-26T21:06:05.898Z",
   "count": 7,
   "listings": [
     {
@@ -2488,9 +2488,7 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$650,000",
       "longitude": -122.377471,
-      "mediaData": {
-        "oh": []
-      },
+      "mediaData": [],
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
       "ohCount": 0,
@@ -2903,9 +2901,7 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$650,000",
       "longitude": -122.377481,
-      "mediaData": {
-        "oh": []
-      },
+      "mediaData": [],
       "mlsPhotoCount": 26,
       "mlsPtID": 1,
       "ohCount": 0,
