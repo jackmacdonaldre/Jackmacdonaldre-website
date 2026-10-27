@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T01:32:32.227Z",
-  "count": 123,
+  "generatedAt": "2026-10-27T08:03:14.622Z",
+  "count": 122,
   "listings": [
     {
       "acres": "0.029",
@@ -1977,7 +1977,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 88,
+      "viewCount": 89,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
@@ -32669,70 +32669,6 @@
       "soldDate": "2023-11-01T00:00:00+00:00",
       "soldPrice": 117000,
       "viewCount": 2,
-      "vtCount": 0,
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Jack Macdonald, Licensed Broker",
-        "agentPhone": "425.941.6998"
-      }
-    },
-    {
-      "advanced": {
-        "mlsStatus": [
-          "Sold"
-        ],
-        "structureType": [
-          "Manufactured House"
-        ]
-      },
-      "cityID": 34455,
-      "countyID": 2212,
-      "dateAdded": "2023-09-08T16:33:52+00:00",
-      "dateModified": "2023-11-01T18:19:11+00:00",
-      "detailsURL": "b045/2158335",
-      "detailsUrlSlug": "",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2158335/",
-      "idxID": "b045",
-      "idxPropType": "Manufactured In Park",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a074/470a11ea76a261da6db324ed5c66892a/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938106,
-      "listingAgentID": "121277198",
-      "listingID": "2158335",
-      "listingOfficeID": "91866779",
-      "longitude": -123.012695,
-      "mediaData": [],
-      "mlsPhotoCount": 20,
-      "mlsPtID": 4,
-      "ohCount": 0,
-      "parentPtID": 7,
-      "partialBaths": 0,
-      "price": 145000,
-      "priceData": {
-        "value": {
-          "raw": 155000,
-          "formatted": "$155,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "rntLse": "neither",
-      "sellingAgentID": "121277198",
-      "sellingOfficeID": "91866779",
-      "soldDate": "2023-10-27T00:00:00+00:00",
-      "soldPrice": 155000,
-      "viewCount": 25,
       "vtCount": 0,
       "attribution": {
         "firm": "Compass",
