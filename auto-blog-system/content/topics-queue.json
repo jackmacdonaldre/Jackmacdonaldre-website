@@ -571,7 +571,9 @@
       "areas": [
         "issaquah"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "talus-and-squak-mountain-issaquah-neighborhood-guide",
+      "published_date": "2026-10-28"
     },
     {
       "topic": "Selling a Parent's Home in Bellevue: A Checklist for Families",

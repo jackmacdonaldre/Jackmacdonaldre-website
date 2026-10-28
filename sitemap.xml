@@ -61,6 +61,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://jackmacdonaldre.com/blog/talus-and-squak-mountain-issaquah-neighborhood-guide/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://jackmacdonaldre.com/blog/best-time-of-year-to-sell-on-the-eastside/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -356,13 +362,13 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/blog/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/blog/topic/neighborhood-guides/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -416,7 +422,7 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/blog/area/issaquah/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -572,7 +578,7 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/areas/issaquah/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -638,7 +644,7 @@
   </url>
   <url>
     <loc>https://jackmacdonaldre.com/areas/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
