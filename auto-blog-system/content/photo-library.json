@@ -1,0 +1,188 @@
+[
+ {
+  "pool": "sammamish",
+  "src": "/assets/photos/sammamish/brick-traditional-exterior.jpg",
+  "thumb": "/assets/photos/sammamish/brick-traditional-exterior-720.jpg",
+  "alt": "Brick traditional home with a three car garage and spring landscaping"
+ },
+ {
+  "pool": "sammamish",
+  "src": "/assets/photos/sammamish/curved-staircase-entry.jpg",
+  "thumb": "/assets/photos/sammamish/curved-staircase-entry-720.jpg",
+  "alt": "Bright entry with a curved staircase and hardwood floors"
+ },
+ {
+  "pool": "bothell",
+  "src": "/assets/photos/bothell/walk-in-shower-bath.jpg",
+  "thumb": "/assets/photos/bothell/walk-in-shower-bath-720.jpg",
+  "alt": "Updated bathroom with a walk in shower and blue tile"
+ },
+ {
+  "pool": "bothell",
+  "src": "/assets/photos/bothell/vaulted-living-fireplace.jpg",
+  "thumb": "/assets/photos/bothell/vaulted-living-fireplace-720.jpg",
+  "alt": "Vaulted living room with tall windows and a brick fireplace"
+ },
+ {
+  "pool": "bothell",
+  "src": "/assets/photos/bothell/living-room-garden-view.jpg",
+  "thumb": "/assets/photos/bothell/living-room-garden-view-720.jpg",
+  "alt": "Living room with a wall of windows looking out to a green garden"
+ },
+ {
+  "pool": "bellevue",
+  "src": "/assets/photos/bellevue/midcentury-rambler-exterior.jpg",
+  "thumb": "/assets/photos/bellevue/midcentury-rambler-exterior-720.jpg",
+  "alt": "Midcentury rambler at sunset with a carport and big front lawn"
+ },
+ {
+  "pool": "bellevue",
+  "src": "/assets/photos/bellevue/midcentury-backyard.jpg",
+  "thumb": "/assets/photos/bellevue/midcentury-backyard-720.jpg",
+  "alt": "Fenced backyard and patio behind a midcentury rambler"
+ },
+ {
+  "pool": "issaquah",
+  "src": "/assets/photos/issaquah/townhouse-exterior-sunset.jpg",
+  "thumb": "/assets/photos/issaquah/townhouse-exterior-sunset-720.jpg",
+  "alt": "Townhouse with a two car garage at sunset"
+ },
+ {
+  "pool": "issaquah",
+  "src": "/assets/photos/issaquah/townhouse-living-fireplace.jpg",
+  "thumb": "/assets/photos/issaquah/townhouse-living-fireplace-720.jpg",
+  "alt": "Townhouse living room with a fireplace and big windows"
+ },
+ {
+  "pool": "north-bend",
+  "src": "/assets/photos/north-bend/white-kitchen-open-shelves.jpg",
+  "thumb": "/assets/photos/north-bend/white-kitchen-open-shelves-720.jpg",
+  "alt": "White kitchen with open wood shelves and a long island"
+ },
+ {
+  "pool": "north-bend",
+  "src": "/assets/photos/north-bend/deck-mount-si-view.jpg",
+  "thumb": "/assets/photos/north-bend/deck-mount-si-view-720.jpg",
+  "alt": "Back deck with a view of Mount Si at sunset"
+ },
+ {
+  "pool": "north-bend",
+  "src": "/assets/photos/north-bend/mount-si-yard.jpg",
+  "thumb": "/assets/photos/north-bend/mount-si-yard-720.jpg",
+  "alt": "Big lawn and yard below Mount Si"
+ },
+ {
+  "pool": "north-bend",
+  "src": "/assets/photos/north-bend/farmhouse-below-mount-si.jpg",
+  "thumb": "/assets/photos/north-bend/farmhouse-below-mount-si-720.jpg",
+  "alt": "White farmhouse on acreage below Mount Si"
+ },
+ {
+  "pool": "north-bend",
+  "src": "/assets/photos/north-bend/acreage-mount-si-sunset.jpg",
+  "thumb": "/assets/photos/north-bend/acreage-mount-si-sunset-720.jpg",
+  "alt": "Home on acreage with Mount Si lit up at sunset"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/kitchen-dark-cabinets.jpg",
+  "thumb": "/assets/photos/general/kitchen-dark-cabinets-720.jpg",
+  "alt": "Kitchen with dark wood cabinets, white quartz and brass pendants"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/private-patio.jpg",
+  "thumb": "/assets/photos/general/private-patio-720.jpg",
+  "alt": "Small fenced patio off a sliding door"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/open-living-dining.jpg",
+  "thumb": "/assets/photos/general/open-living-dining-720.jpg",
+  "alt": "Open living and dining area flowing into the kitchen"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/backyard-deck-string-lights.jpg",
+  "thumb": "/assets/photos/general/backyard-deck-string-lights-720.jpg",
+  "alt": "Cedar deck with string lights over a fenced backyard"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/lit-windows-dusk.jpg",
+  "thumb": "/assets/photos/general/lit-windows-dusk-720.jpg",
+  "alt": "Black framed windows glowing at dusk"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/modern-farmhouse-deck-dusk.jpg",
+  "thumb": "/assets/photos/general/modern-farmhouse-deck-dusk-720.jpg",
+  "alt": "Modern farmhouse back deck lit up at dusk"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/modern-farmhouse-exterior.jpg",
+  "thumb": "/assets/photos/general/modern-farmhouse-exterior-720.jpg",
+  "alt": "Modern farmhouse exterior with tall evergreens at dusk"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/living-room-stone-fireplace.jpg",
+  "thumb": "/assets/photos/general/living-room-stone-fireplace-720.jpg",
+  "alt": "Living room with a white stone fireplace and black windows"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/kitchen-waterfall-island.jpg",
+  "thumb": "/assets/photos/general/kitchen-waterfall-island-720.jpg",
+  "alt": "Kitchen with a waterfall island and brass pendants"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/kitchen-folding-doors.jpg",
+  "thumb": "/assets/photos/general/kitchen-folding-doors-720.jpg",
+  "alt": "Kitchen opening to the backyard through folding glass doors"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/walk-in-closet.jpg",
+  "thumb": "/assets/photos/general/walk-in-closet-720.jpg",
+  "alt": "Large walk in closet with a window"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/vaulted-primary-bedroom.jpg",
+  "thumb": "/assets/photos/general/vaulted-primary-bedroom-720.jpg",
+  "alt": "Vaulted primary bedroom with lots of windows"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/soaking-tub-bath.jpg",
+  "thumb": "/assets/photos/general/soaking-tub-bath-720.jpg",
+  "alt": "Primary bath with a black soaking tub and walk in shower"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/bonus-room.jpg",
+  "thumb": "/assets/photos/general/bonus-room-720.jpg",
+  "alt": "Upstairs bonus room with a big picture window"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/wet-bar-view.jpg",
+  "thumb": "/assets/photos/general/wet-bar-view-720.jpg",
+  "alt": "Wet bar and lounge with a view over the trees"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/deck-folding-doors-dusk.jpg",
+  "thumb": "/assets/photos/general/deck-folding-doors-dusk-720.jpg",
+  "alt": "Deck with string lights and folding glass doors at dusk"
+ },
+ {
+  "pool": "general",
+  "src": "/assets/photos/general/dining-kitchen-dusk.jpg",
+  "thumb": "/assets/photos/general/dining-kitchen-dusk-720.jpg",
+  "alt": "Dining area and kitchen with folding doors to the deck"
+ }
+]
