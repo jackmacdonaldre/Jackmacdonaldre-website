@@ -401,13 +401,14 @@ function startHereBox(area) {
 
 function buildListingPage({ posts, allPosts, fixed, area, topic, title, h1, intro, pathName, crumbs }) {
   const sorted = [...posts].sort(byDateDesc);
-  const banner = pickPhotos(pathName, area || "eastside", 1)[0];
+  // Jack asked for his $4.6M close to be the top photo on every blog page (2026-10-29).
+  const banner = { src: "/assets/photos/general/modern-farmhouse-front-wide.jpg", thumb: "/assets/photos/general/modern-farmhouse-front-720.jpg", alt: "White modern farmhouse with black windows and a black garage door at dusk" };
   const body = `<main class="page">
 <div class="narrow">
 ${breadcrumbHtml(crumbs)}
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">${escapeHtml(h1)}</h1>
 <p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-6);">${intro}</p>
-${banner ? `<figure style="margin: 0 0 var(--space-6);">${photoTag(banner, { eager: true, ratio: "21 / 9" })}</figure>` : ""}
+${banner ? `<figure style="margin: 0 0 var(--space-6);">${photoTag(banner, { eager: true, ratio: "16 / 9", extra: " object-position: center 55%;" })}</figure>` : ""}
 ${startHereBox(area)}
 ${filterBar(fixed ? posts : allPosts, { fixed, area, topic })}
 <section id="post-list" data-fixed="${fixed || ""}" data-area="${area || ""}" data-topic="${topic || ""}">
