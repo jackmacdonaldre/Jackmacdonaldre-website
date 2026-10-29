@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T00:41:41.542Z",
-  "count": 8,
+  "generatedAt": "2026-10-29T19:43:53.724Z",
+  "count": 7,
   "listings": [
     {
       "acres": "1.293",
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 209,
+      "viewCount": 224,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -515,7 +515,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-06-26T00:04:11+00:00",
-      "dateModified": "2026-10-16T17:48:11+00:00",
+      "dateModified": "2026-10-27T15:57:13+00:00",
       "detailsURL": "b045/2528070",
       "detailsUrlSlug": "10668-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -756,7 +756,7 @@
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
-      "remarksConcat": "Quality craftsmanship meets thoughtful modern design in this exceptional new construction home. A bright, open great room anchored by a striking tiled fireplace with custom built-ins creates an inviting focal point, while a dedicated main-floor office and mudroom add everyday functionality. The chef’s kitchen impresses with warm custom cabinetry, an oversized island, and a walk-in pantry. Upstairs, a versatile bonus room, three additional bedrooms, and a serene primary suite offer flexible, comfortable living. Complete with central A/C, designer finishes throughout, and a fully fenced low-maintenance yard, this home blends style and livability with ease. Ideally located with quick access to shopping, dining, SeaTac, and major employers including Boeing.",
+      "remarksConcat": "Autumn Offer: $50k Buyer Bonus available for a limited time. Quality craftsmanship meets thoughtful modern design in this exceptional new construction home. A bright, open great room anchored by a striking tiled fireplace with custom built-ins creates an inviting focal point, while a dedicated main-floor office and mudroom add everyday functionality. The chef’s kitchen impresses with warm custom cabinetry, an oversized island, and a walk-in pantry. Upstairs, a versatile bonus room, three additional bedrooms, and a serene primary suite offer flexible, comfortable living. Complete with central A/C, designer finishes throughout, and a fully fenced low-maintenance yard, this home blends style and livability with ease. Ideally located with quick access to shopping, dining, SeaTac, and major employers including Boeing.",
       "rntLse": "neither",
       "rntLsePrice": 1149800,
       "sqFt": "3,110",
@@ -767,7 +767,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 52,
+      "viewCount": 53,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -1008,7 +1008,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-10-16T21:51:40+00:00",
-      "dateModified": "2026-10-17T12:03:49+00:00",
+      "dateModified": "2026-10-22T17:29:17+00:00",
       "detailsURL": "b045/2595479",
       "detailsUrlSlug": "10667-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -1213,7 +1213,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 1,
+      "viewCount": 4,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -1661,7 +1661,7 @@
       "subdivision": "Bryant",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 16,
+      "viewCount": 22,
       "vtCount": 1,
       "yearBuilt": 1928,
       "zipcode": "98115",
@@ -1899,7 +1899,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-10-12T23:16:12+00:00",
+      "dateModified": "2026-10-21T22:18:12+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -2087,7 +2087,7 @@
       "listingAgentID": "1186410",
       "listingID": "2577976",
       "listingOfficeID": "91866779",
-      "listingPrice": "$795,000",
+      "listingPrice": "$770,000",
       "longitude": -122.038167,
       "mediaData": [],
       "mlsPhotoCount": 34,
@@ -2095,22 +2095,24 @@
       "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
-      "price": 795000,
+      "price": 770000,
+      "priceBeforeReduction": 795000,
       "priceData": {
         "value": {
-          "raw": 795000,
-          "formatted": "$795,000"
+          "raw": 770000,
+          "formatted": "$770,000"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
+      "priceReductionDate": "2026-10-21T22:12:45+00:00",
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
       "remarksConcat": "Tucked at the end of a cozy cul-de-sac in desirable Elk Run South, this beautifully renovated home offers a fresh, modern interior with generous living spaces and a wonderful fully-fenced backyard. Vaulted ceilings and abundant natural light create an airy welcome in this move-in ready home. The updated kitchen with quartz countertops, island seating and modern appliances opens into a comfortable space designed for everyday living and entertaining. Upstairs, four spacious bedrooms are complemented by a versatile bonus room, home office, media room, or play space. Outside, enjoy an expansive fenced backyard and large patio perfect for summer dining, entertaining, or relaxation. Recent major improvements include a new roof, A/C, furnace, and hot water tank, offering added peace of mind. Ideally located in the sought-after Tahoma School District, this turnkey home offers the space, setting, and updates you're looking for.",
       "rntLse": "neither",
-      "rntLsePrice": 795000,
+      "rntLsePrice": 770000,
       "sqFt": "2,380",
       "state": "Washington",
       "streetName": "227th Place SE",
@@ -2118,7 +2120,7 @@
       "subdivision": "Elk Run Golf Course",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 14,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2005,
       "zipcode": "98038",
@@ -2349,7 +2351,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-25T00:38:34+00:00",
-      "dateModified": "2026-10-16T17:49:12+00:00",
+      "dateModified": "2026-10-22T17:13:22+00:00",
       "detailsURL": "b045/2584647",
       "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
       "displayAddress": "y",
@@ -2497,7 +2499,7 @@
       "listingAgentID": "1186410",
       "listingID": "2584647",
       "listingOfficeID": "91866779",
-      "listingPrice": "$685,000",
+      "listingPrice": "$650,000",
       "longitude": -122.377481,
       "mediaData": [],
       "mlsPhotoCount": 26,
@@ -2505,24 +2507,24 @@
       "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
-      "price": 685000,
-      "priceBeforeReduction": 709999,
+      "price": 650000,
+      "priceBeforeReduction": 685000,
       "priceData": {
         "value": {
-          "raw": 685000,
-          "formatted": "$685,000"
+          "raw": 650000,
+          "formatted": "$650,000"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
-      "priceReductionDate": "2026-10-07T22:02:50+00:00",
+      "priceReductionDate": "2026-10-22T15:25:35+00:00",
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
-      "remarksConcat": "Charming, turn-key Gatewood home with rental-ready lower suite.  A covered front porch and brand-new front lawn welcome you into this beautifully maintained home offering 1924 craftsman warmth and unmatched West Seattle value. The main floor features 3 bedrooms, a full bath, an inviting living room with striking mid-century brick focal point fireplace, dining area and full kitchen. Downstairs, a recently renovated, fully finished lower suite offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage—ideal for rental income, multigenerational living, or flexible everyday use. Outside, enjoy a private lower patio to relax or secure bike/gear storage. Fresh landscaping, new fencing and low-maintenance hardscaping are just a few of the benefits of this single-family home. Just minutes to West Seattle, restaurants and freeways.",
+      "remarksConcat": "Charming, turn-key Gatewood home offering an impressive 1,800 square feet of beautifully maintained living space, including a fully finished lower-level suite with exceptional flexibility for rental income, multigenerational living, or adaptable everyday use.     A covered front porch and brand-new front lawn welcome you into this 1924 craftsman home offering character and warmth. The main floor features 3 bedrooms, a full bath, an inviting living room with a striking mid-century brick focal-point fireplace, dining area, and full kitchen. Downstairs, the recently renovated lower level offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage. Outside, enjoy a private lower patio for relaxing, along with secure bike/gear storage. Fresh landscaping, new fencing, and low-maintenance hardscaping are just a few of the benefits of this well-maintained home. Just minutes to West Seattle, restaurants, and freeways.",
       "rntLse": "neither",
-      "rntLsePrice": 685000,
+      "rntLsePrice": 650000,
       "sqFt": "1,798",
       "state": "Washington",
       "streetDirection": "SW",
@@ -2531,7 +2533,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 6,
+      "viewCount": 7,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
@@ -2744,7 +2746,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-29T22:19:16+00:00",
-      "dateModified": "2026-10-16T17:50:12+00:00",
+      "dateModified": "2026-10-22T17:13:22+00:00",
       "detailsURL": "b045/2588925",
       "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
       "displayAddress": "y",
@@ -2897,7 +2899,7 @@
       "listingAgentID": "1186410",
       "listingID": "2588925",
       "listingOfficeID": "91866779",
-      "listingPrice": "$685,000",
+      "listingPrice": "$650,000",
       "longitude": -122.377471,
       "mediaData": [],
       "mlsPhotoCount": 27,
@@ -2905,24 +2907,24 @@
       "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
-      "price": 685000,
-      "priceBeforeReduction": 709999,
+      "price": 650000,
+      "priceBeforeReduction": 685000,
       "priceData": {
         "value": {
-          "raw": 685000,
-          "formatted": "$685,000"
+          "raw": 650000,
+          "formatted": "$650,000"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
-      "priceReductionDate": "2026-10-07T22:02:50+00:00",
+      "priceReductionDate": "2026-10-22T15:25:35+00:00",
       "propStatus": "Active",
       "propSubType": "Condominium",
       "propType": "Residential",
-      "remarksConcat": "Charming, turn-key Gatewood home with rental-ready lower suite.  A covered front porch and brand-new front lawn welcome you into this beautifully maintained home offering 1924 craftsman warmth and unmatched West Seattle value. The main floor features 3 bedrooms, a full bath, an inviting living room with striking mid-century brick focal point fireplace, dining area and full kitchen. Downstairs, a recently renovated, fully finished lower suite offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage—ideal for rental income, multigenerational living, or flexible everyday use. Outside, enjoy a private lower patio to relax or secure bike/gear storage. Fresh landscaping, new fencing and low-maintenance hardscaping are just a few of the benefits of this single-family home. Just minutes to West Seattle, restaurants and freeways.",
+      "remarksConcat": "Charming, turn-key Gatewood home offering an impressive 1,800 square feet of beautifully maintained living space, including a fully finished lower-level suite with exceptional flexibility for rental income, multigenerational living, or adaptable everyday use.     A covered front porch and brand-new front lawn welcome you into this 1924 craftsman home offering character and warmth. The main floor features 3 bedrooms, a full bath, an inviting living room with a striking mid-century brick focal-point fireplace, dining area, and full kitchen. Downstairs, the recently renovated lower level offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage. Outside, enjoy a private lower patio for relaxing, along with secure bike/gear storage. Fresh landscaping, new fencing, and low-maintenance hardscaping are just a few of the benefits of this well-maintained home. Just minutes to West Seattle, restaurants, and freeways.",
       "rntLse": "neither",
-      "rntLsePrice": 685000,
+      "rntLsePrice": 650000,
       "sqFt": 0,
       "state": "Washington",
       "streetDirection": "SW",
@@ -2931,390 +2933,9 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 14,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 1924,
-      "zipcode": "98126",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Stephen Macdonald, Managing Broker",
-        "agentPhone": "425.941.7325"
-      }
-    },
-    {
-      "acres": "0.029",
-      "address": "3513 SW Austin Street",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "view": [
-          "Territorial"
-        ],
-        "sewer": [
-          "Sewer Connected"
-        ],
-        "levels": [
-          "Two"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "Ductless"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Ductless"
-        ],
-        "taxYear": 2026,
-        "aduCount": "0",
-        "basement": [
-          "None"
-        ],
-        "flooring": [
-          "Engineered Hardwood"
-        ],
-        "saleType": "MLS",
-        "bathrooms": "2.25",
-        "styleCode": "12 - 2 Story",
-        "appliances": [
-          "Dishwasher",
-          "Disposal",
-          "Microwave",
-          "Refrigerator",
-          "Stove(s)/Range(s)"
-        ],
-        "highSchool": [
-          "West Seattle High"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "livingArea": 970,
-        "possession": [
-          "Closing"
-        ],
-        "topography": "Level",
-        "lotFeatures": [
-          "Paved",
-          "Secluded",
-          "Sidewalk"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "listingTerms": [
-          "Cash",
-          "Conventional"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "140 - West Seattle",
-        "onMarketDate": "2026-09-23T00:00:00+00:00",
-        "parkingTotal": 1,
-        "powerCompany": "Seattle City Light",
-        "sewerCompany": "SPU",
-        "siteFeatures": [
-          "Cable TV",
-          "Fenced-Partially",
-          "Patio"
-        ],
-        "titleCompany": "Chicago Title",
-        "waterCompany": "SPU",
-        "waterfrontYN": "no",
-        "bathsFullMain": "1",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "0",
-        "busLineNearby": "yes",
-        "coveredSpaces": 0,
-        "entryLocation": "Main",
-        "structureType": [
-          "House"
-        ],
-        "associationFee": 3,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "1",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "listAgentEmail": "stephen@stephenmacdonald.com",
-        "standardStatus": "Pending",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 0,
-        "listOfficeEmail": "contractsseattle@compass.com",
-        "newConstruction": "Completed",
-        "numberOfShowers": "2",
-        "parkingFeatures": [
-          "Driveway"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 0,
-        "waterHeaterType": "electric",
-        "attachedGarageYN": "no",
-        "elementarySchool": [
-          "Gatewood"
-        ],
-        "exteriorFeatures": [
-          "Cement Planked"
-        ],
-        "interiorFeatures": [
-          "Bath Off Primary",
-          "Dbl Pane/Storm Window",
-          "Dining Room",
-          "Skylight(s)",
-          "Vaulted Ceiling(s)",
-          "Water Heater"
-        ],
-        "mlsLotSizeSource": "KCR",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 970,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "communityFeatures": [
-          "CC Rs"
-        ],
-        "foundationDetails": [
-          "Poured Concrete"
-        ],
-        "lotSizeSquareFeet": 1259,
-        "mainLevelBedrooms": 2,
-        "otherDuesOrFeesYN": "yes",
-        "propertyCondition": [
-          "Very Good"
-        ],
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Garbage Disposal",
-          "Microwave(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)"
-        ],
-        "architecturalStyle": [
-          "Modern"
-        ],
-        "highSchoolDistrict": [
-          "Seattle"
-        ],
-        "yearBuiltEffective": 2026,
-        "zoningJurisdiction": "City",
-        "buildingInformation": [
-          "Built On Lot"
-        ],
-        "firstRightOfRefusal": "no",
-        "powerProductionType": [
-          "Electric"
-        ],
-        "waterHeaterLocation": "lower bedroom",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Madison Mid"
-        ],
-        "bathsThreeQuarterMain": "1",
-        "associationFeeIncludes": [
-          "See Remarks"
-        ],
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Builder",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "970",
-        "listAgentPreferredPhone": "425-242-6440",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "no"
-      },
-      "bedrooms": 2,
-      "cityID": 41973,
-      "cityName": "Seattle",
-      "coListingAgentID": "121277198",
-      "coListingOfficeID": "91866779",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2026-09-23T23:47:42+00:00",
-      "dateModified": "2026-09-26T16:03:12+00:00",
-      "detailsURL": "b045/2586482",
-      "detailsUrlSlug": "3513-SW-Austin-Street-Seattle-98126",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2586482/3513-SW-Austin-Street-Seattle-98126",
-      "halfBaths": 1,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "active",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/85ec/ce5835701b5d938a5ebac111b42b2282/b045",
-          "sizes": [],
-          "caption": "Modern exterior welcomes you to your new construction home"
-        },
-        "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4092/2904e77333e3c9220288bbb88ffd6432/b045",
-          "sizes": [],
-          "caption": "Electronic lock and Ring doorbell installed for efficiency and ease of mind."
-        },
-        "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f1e2/2e1fe76cf1e7726d3f3ff8506b54b7fd/b045",
-          "sizes": [],
-          "caption": "Entry naturally separates upstairs living and ground-floor bedrooms."
-        },
-        "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fabc/cbaf28615f52a17cb1ccefa6e1635020/b045",
-          "sizes": [],
-          "caption": "Upstairs you'll find a light-filled, dreamy entertaining space."
-        },
-        "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4e67/76e4774fcbffdba3ba4ca451e1cd6b97/b045",
-          "sizes": [],
-          "caption": "The kitchen features beautifully contrasting darker wood cabinets, lighter backsplash, stainless steel appliances, and dedicated eating space off the island."
-        },
-        "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6a55/55a6a4b0c4512f8278c9f56ad670b991/b045",
-          "sizes": [],
-          "caption": "Display shelves under the island and globe pendants add to the charm of this curated space."
-        },
-        "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7cea/aec7bac5342f74882aefd42b2ed356bd/b045",
-          "sizes": [],
-          "caption": "Don't miss the built-in microwave and hidden dishwasher."
-        },
-        "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fb2d/d2bfb224315d6f57fe0d8722a5fd365d/b045",
-          "sizes": [],
-          "caption": "High ceilings are accented with decorative beams."
-        },
-        "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8607/7068683932d9bdbb912bb87fb8d22199/b045",
-          "sizes": [],
-          "caption": "Encircling windows give the upstairs an abundance of natural light."
-        },
-        "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/84be/eb48c3a64d249e63566962dc4ad09d56/b045",
-          "sizes": [],
-          "caption": "Open concept kitchen and living allow for maximizing the entertaining value of this space."
-        },
-        "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ed79/97ded9f56d4614a0a44d055e38489a01/b045",
-          "sizes": [],
-          "caption": "Living room area can be configured to keep the space open, or flipped for a cozier feel."
-        },
-        "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/83bb/bb38d0503e9bf66381232a7b77b842b1/b045",
-          "sizes": [],
-          "caption": "The upstairs living space also has a designated mini-split to allow for easier temperature regulation."
-        },
-        "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e9c5/5c9ee6ea57d8193c9a7d1fee297303a4/b045",
-          "sizes": [],
-          "caption": "The powder room off the great room means your guests never need to use your personal space on the main floor."
-        },
-        "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ef75/57fe8417d67d8666085b93abcebb9735/b045",
-          "sizes": [],
-          "caption": "Upstairs powder room."
-        },
-        "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d88e/e88ddbaffcbeb6c66d03009b002aacf8/b045",
-          "sizes": [],
-          "caption": "This charming home is a must-see for your clients!"
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9e08/80e96000ec2cf1763a6a26dd5866e66c/b045",
-          "sizes": [],
-          "caption": "Bedroom 1 features a dedicated mini-split..."
-        },
-        "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/66b8/8b66cefaf0a796f80fbffeeca38b3697/b045",
-          "sizes": [],
-          "caption": "...and a built-in for storage in a beautiful dark wood look."
-        },
-        "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e19d/d91eaaf8f4bb3f6ce189e30223991bff/b045",
-          "sizes": [],
-          "caption": "En-suite with a glass-enclosed shower and floating vanity."
-        },
-        "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2b23/32b2cefd0663f278aa089824afd337f9/b045",
-          "sizes": [],
-          "caption": "Primary bedroom also features a dedicated mini-split."
-        },
-        "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fda3/3adffe12d00b3d17ad05d3b35132b469/b045",
-          "sizes": [],
-          "caption": "Primary en-suite full bath features ample bathroom storage and counter space"
-        },
-        "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4d06/60d4cf5a1f5426ebda312aaa2fef4ed3/b045",
-          "sizes": [],
-          "caption": "Shower and tub unit with modern black hardware."
-        },
-        "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e5ff/ff5e1dc43db933a98c8eb7c14d7d42d8/b045",
-          "sizes": [],
-          "caption": "Designated off-street parking alongside the home."
-        },
-        "totalCount": 22
-      },
-      "latitude": 47.534528,
-      "listingAgentID": "1186410",
-      "listingID": "2586482",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$599,950",
-      "longitude": -122.377511,
-      "mediaData": [],
-      "mlsPhotoCount": 22,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 2,
-      "price": 599950,
-      "priceData": {
-        "value": {
-          "raw": 599950,
-          "formatted": "$599,950"
-        },
-        "type": "active",
-        "label": "Price",
-        "field": "listingPrice"
-      },
-      "propStatus": "Pending",
-      "propSubType": "Single Family Residence",
-      "propType": "Residential",
-      "remarksConcat": "Beautiful new construction blending modern design and effortless flow. The entry level offers two spacious bedrooms, each with a private ensuite bath. Upstairs you will enjoy soaring vaulted ceilings, exposed beams, and walls of windows that fill the open living area with natural light. The kitchen impresses with wood cabinetry, quartz counters, stainless steel appliances, and an oversized island built for entertaining. With individual mini-split AC units in every room, you’ll find comfort year round. Off street parking and nestled in West Seattle's sought-after Gatewood neighborhood, you're just minutes from Lincoln Park's scenic waterfront trails and moments from the shops, cafes, and restaurants of the Alaska/California Ave corridor with the best of West Seattle living.",
-      "rntLse": "neither",
-      "rntLsePrice": 599950,
-      "sqFt": "970",
-      "state": "Washington",
-      "streetDirection": "SW",
-      "streetName": "Austin Street",
-      "streetNumber": "3513",
-      "subdivision": "Gatewood",
-      "threeQuarterBaths": 1,
-      "totalBaths": 3,
-      "viewCount": 9,
-      "vtCount": 0,
-      "yearBuilt": 2026,
       "zipcode": "98126",
       "attribution": {
         "firm": "Compass",

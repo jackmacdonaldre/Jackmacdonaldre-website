@@ -507,7 +507,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "what-it-costs-to-sell-a-home-in-washington-state",
+      "published_date": "2026-10-21"
     },
     {
       "topic": "What Kirkland Homes Are Actually Selling For Right Now",
@@ -526,7 +528,9 @@
       "areas": [
         "fall-city"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "fall-city-wa-what-living-and-buying-here-is-really-like",
+      "published_date": "2026-10-23"
     },
     {
       "topic": "Selling a House in Probate in Washington: How the Timeline Works",
@@ -546,7 +550,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "best-time-of-year-to-sell-on-the-eastside",
+      "published_date": "2026-10-26"
     },
     {
       "topic": "Selling Your Redmond Home: What Buyers Notice First",
@@ -565,7 +571,9 @@
       "areas": [
         "issaquah"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "talus-and-squak-mountain-issaquah-neighborhood-guide",
+      "published_date": "2026-10-28"
     },
     {
       "topic": "Selling a Parent's Home in Bellevue: A Checklist for Families",

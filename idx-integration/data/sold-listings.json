@@ -1,7 +1,287 @@
 {
-  "generatedAt": "2026-10-21T00:42:20.988Z",
+  "generatedAt": "2026-10-29T19:44:17.597Z",
   "count": 122,
   "listings": [
+    {
+      "acres": "0.029",
+      "address": "3513 SW Austin Street",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "Ductless"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Ductless"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Engineered Hardwood"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "2.25",
+        "styleCode": "12 - 2 Story",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)"
+        ],
+        "highSchool": [
+          "West Seattle High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "livingArea": 970,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "lotFeatures": [
+          "Paved",
+          "Secluded",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "140 - West Seattle",
+        "onMarketDate": "2026-09-23T00:00:00+00:00",
+        "parkingTotal": 1,
+        "powerCompany": "Seattle City Light",
+        "sewerCompany": "SPU",
+        "siteFeatures": [
+          "Cable TV",
+          "Fenced-Partially",
+          "Patio"
+        ],
+        "titleCompany": "Chicago Title",
+        "waterCompany": "SPU",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "0",
+        "busLineNearby": "yes",
+        "coveredSpaces": 0,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 3,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "0",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "1",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "listAgentEmail": "stephen@stephenmacdonald.com",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "fireplacesTotal": 0,
+        "listOfficeEmail": "contractsseattle@compass.com",
+        "newConstruction": "Completed",
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "Driveway"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 0,
+        "waterHeaterType": "electric",
+        "attachedGarageYN": "no",
+        "elementarySchool": [
+          "Gatewood"
+        ],
+        "exteriorFeatures": [
+          "Cement Planked"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Skylight(s)",
+          "Vaulted Ceiling(s)",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "KCR",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 970,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "communityFeatures": [
+          "CC Rs"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 1259,
+        "mainLevelBedrooms": 2,
+        "otherDuesOrFeesYN": "yes",
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "architecturalStyle": [
+          "Modern"
+        ],
+        "highSchoolDistrict": [
+          "Seattle"
+        ],
+        "yearBuiltEffective": 2026,
+        "zoningJurisdiction": "City",
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric"
+        ],
+        "waterHeaterLocation": "lower bedroom",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Madison Mid"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "associationFeeIncludes": [
+          "See Remarks"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "mlsSquareFootageSource": "Builder",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "970",
+        "listAgentPreferredPhone": "425-242-6440",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 2,
+      "cityID": 41973,
+      "cityName": "Seattle",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-09-23T23:47:42+00:00",
+      "dateModified": "2026-10-22T00:39:13+00:00",
+      "detailsURL": "b045/2586482",
+      "detailsUrlSlug": "3513-SW-Austin-Street-Seattle-98126",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2586482/3513-SW-Austin-Street-Seattle-98126",
+      "halfBaths": 1,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/85ec/ce5835701b5d938a5ebac111b42b2282/b045",
+          "sizes": [],
+          "caption": "Modern exterior welcomes you to your new construction home"
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.534528,
+      "listingAgentID": "1186410",
+      "listingID": "2586482",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$599,950",
+      "longitude": -122.377511,
+      "mediaData": [],
+      "mlsPhotoCount": 22,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 2,
+      "price": 599950,
+      "priceData": {
+        "value": {
+          "raw": 599995,
+          "formatted": "$599,995"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Beautiful new construction blending modern design and effortless flow. The entry level offers two spacious bedrooms, each with a private ensuite bath. Upstairs you will enjoy soaring vaulted ceilings, exposed beams, and walls of windows that fill the open living area with natural light. The kitchen impresses with wood cabinetry, quartz counters, stainless steel appliances, and an oversized island built for entertaining. With individual mini-split AC units in every room, you’ll find comfort year round. Off street parking and nestled in West Seattle's sought-after Gatewood neighborhood, you're just minutes from Lincoln Park's scenic waterfront trails and moments from the shops, cafes, and restaurants of the Alaska/California Ave corridor with the best of West Seattle living.",
+      "rntLse": "neither",
+      "rntLsePrice": 599950,
+      "sellingAgentID": "70218062",
+      "sellingOfficeID": "1001814",
+      "soldDate": "2026-10-21T00:00:00+00:00",
+      "soldPrice": 599995,
+      "sqFt": "970",
+      "state": "Washington",
+      "streetDirection": "SW",
+      "streetName": "Austin Street",
+      "streetNumber": "3513",
+      "subdivision": "Gatewood",
+      "threeQuarterBaths": 1,
+      "totalBaths": 3,
+      "viewCount": 13,
+      "vtCount": 0,
+      "yearBuilt": 2026,
+      "zipcode": "98126",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Stephen Macdonald, Managing Broker",
+        "agentPhone": "425.941.7325"
+      }
+    },
     {
       "acres": "0.21",
       "address": "5816 Fleming Street",
@@ -231,7 +511,7 @@
       "subdivision": "View Ridge",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 17,
+      "viewCount": 19,
       "vtCount": 0,
       "yearBuilt": 1950,
       "zipcode": "98203",
@@ -543,7 +823,7 @@
       "subdivision": "Arrowhead",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 45,
+      "viewCount": 46,
       "vtCount": 0,
       "yearBuilt": 1956,
       "zipcode": "98028",
@@ -814,7 +1094,7 @@
       "subdivision": "Redmond",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 26,
+      "viewCount": 27,
       "vtCount": 0,
       "yearBuilt": 1975,
       "zipcode": "98052",
@@ -1134,7 +1414,7 @@
       "subdivision": "Bellevue",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 38,
+      "viewCount": 41,
       "vtCount": 0,
       "yearBuilt": 1991,
       "zipcode": "98006",
@@ -1697,7 +1977,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 81,
+      "viewCount": 95,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
@@ -1950,7 +2230,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 67,
+      "viewCount": 68,
       "vtCount": 0,
       "yearBuilt": 1969,
       "zipcode": "98059",
@@ -4081,7 +4361,7 @@
       "subdivision": "Federal Way",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 4,
+      "viewCount": 5,
       "vtCount": 0,
       "yearBuilt": 1978,
       "zipcode": "98023",
@@ -5207,7 +5487,7 @@
       "subdivision": "Poulsbo",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 47,
+      "viewCount": 48,
       "vtCount": 0,
       "yearBuilt": 1936,
       "zip4": "9530",
@@ -5487,7 +5767,7 @@
       "subdivision": "Leschi",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 104,
+      "viewCount": 107,
       "vtCount": 0,
       "yearBuilt": 1907,
       "zip4": "6439",
@@ -7156,7 +7436,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 2,
       "unitNumber": "G132",
-      "viewCount": 9,
+      "viewCount": 11,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "9037",
@@ -13107,7 +13387,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 1,
       "unitNumber": "A",
-      "viewCount": 13,
+      "viewCount": 14,
       "vtCount": 0,
       "yearBuilt": 1919,
       "zip4": "5812",
@@ -13680,7 +13960,7 @@
       "subdivision": "Trossachs",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 14,
+      "viewCount": 15,
       "vtCount": 0,
       "yearBuilt": 2004,
       "zip4": "5908",
@@ -24698,7 +24978,7 @@
       "threeQuarterBaths": 2,
       "totalBaths": 4,
       "unitNumber": "A-3",
-      "viewCount": 12,
+      "viewCount": 13,
       "vtCount": 0,
       "yearBuilt": 2024,
       "zipcode": "98108",
@@ -26260,7 +26540,7 @@
       "subdivision": "Woodinville",
       "threeQuarterBaths": 1,
       "totalBaths": 5,
-      "viewCount": 66,
+      "viewCount": 67,
       "vtCount": 0,
       "yearBuilt": 1992,
       "zipcode": "98052",
@@ -27879,7 +28159,7 @@
       "subdivision": "Ballard",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 26,
+      "viewCount": 27,
       "vtCount": 0,
       "yearBuilt": 1903,
       "zipcode": "98117",
@@ -28220,7 +28500,7 @@
       "subdivision": "Bothell",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 12,
+      "viewCount": 13,
       "vtCount": 0,
       "yearBuilt": 1976,
       "zipcode": "98021",
@@ -28599,7 +28879,7 @@
       "sellingOfficeID": "1005547",
       "soldDate": "2024-07-08T00:00:00+00:00",
       "soldPrice": 144395,
-      "viewCount": 5,
+      "viewCount": 6,
       "vtCount": 0,
       "attribution": {
         "firm": "Compass",
@@ -29704,7 +29984,7 @@
       "threeQuarterBaths": 0,
       "totalBaths": 3,
       "unitNumber": "2131",
-      "viewCount": 53,
+      "viewCount": 54,
       "vtCount": 0,
       "yearBuilt": 1993,
       "zipcode": "98027",
@@ -32389,70 +32669,6 @@
       "soldDate": "2023-11-01T00:00:00+00:00",
       "soldPrice": 117000,
       "viewCount": 2,
-      "vtCount": 0,
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Jack Macdonald, Licensed Broker",
-        "agentPhone": "425.941.6998"
-      }
-    },
-    {
-      "advanced": {
-        "mlsStatus": [
-          "Sold"
-        ],
-        "structureType": [
-          "Manufactured House"
-        ]
-      },
-      "cityID": 34455,
-      "countyID": 2212,
-      "dateAdded": "2023-09-08T16:33:52+00:00",
-      "dateModified": "2023-11-01T18:19:11+00:00",
-      "detailsURL": "b045/2158335",
-      "detailsUrlSlug": "",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2158335/",
-      "idxID": "b045",
-      "idxPropType": "Manufactured In Park",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a074/470a11ea76a261da6db324ed5c66892a/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938106,
-      "listingAgentID": "121277198",
-      "listingID": "2158335",
-      "listingOfficeID": "91866779",
-      "longitude": -123.012695,
-      "mediaData": [],
-      "mlsPhotoCount": 20,
-      "mlsPtID": 4,
-      "ohCount": 0,
-      "parentPtID": 7,
-      "partialBaths": 0,
-      "price": 145000,
-      "priceData": {
-        "value": {
-          "raw": 155000,
-          "formatted": "$155,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "rntLse": "neither",
-      "sellingAgentID": "121277198",
-      "sellingOfficeID": "91866779",
-      "soldDate": "2023-10-27T00:00:00+00:00",
-      "soldPrice": 155000,
-      "viewCount": 25,
       "vtCount": 0,
       "attribution": {
         "firm": "Compass",
