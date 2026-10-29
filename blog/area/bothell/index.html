@@ -98,6 +98,12 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/blog/">Blog</a></li><li aria-current="page">Bothell</li></ol></nav>
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Bothell posts</h1>
 <p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-6);">Everything I've written about Bothell, newest first. For listings and the latest numbers, see the <a href="/areas/bothell/">Bothell area guide</a>.</p>
+<figure style="margin: 0 0 var(--space-6);"><img src="/assets/photos/general/modern-farmhouse-front-wide.jpg" srcset="/assets/photos/general/modern-farmhouse-front-720.jpg 720w, /assets/photos/general/modern-farmhouse-front-wide.jpg 1600w" sizes="(max-width: 760px) 100vw, 760px" alt="White modern farmhouse with black windows and a black garage door at dusk" width="1600" height="1067" fetchpriority="high" decoding="async" style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; object-position: center 55%;"></figure>
+<aside class="card" style="padding: var(--space-6); margin: 0 0 var(--space-6);">
+<div class="kicker" style="margin-bottom: var(--space-3);">Start here</div>
+<ul style="margin: 0; padding-left: 18px; line-height: 1.8;"><li><a href="/home-value/">What is my home worth?</a> I'll put together a real number for your home, not an online guess.</li><li><a href="/sell/">Selling in Bothell</a>: how I price, prep and market a home.</li><li><a href="/areas/bothell/">Bothell area guide</a>: listings, recent numbers and what sells.</li><li><a href="/inherited-homes/">Inherited or estate home?</a> Step by step help for families.</li></ul>
+<p style="margin: var(--space-4) 0 0;"><a class="btn btn-primary" href="tel:4259416998">Call or text 425.941.6998</a></p>
+</aside>
 <div class="card" style="padding: var(--space-6); margin-bottom: var(--space-6);">
 <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-3);"><span class="kicker" style="width: 64px;">Area</span><a href="/blog/" class="btn btn-ghost" style="padding: 6px 12px; font-size: 12px;">All</a><a href="/blog/area/woodinville/" data-filter="area" data-value="woodinville" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Woodinville</a><a href="/blog/area/bothell/" data-filter="area" data-value="bothell" class="btn btn-primary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="true">Bothell</a><a href="/blog/area/kenmore/" data-filter="area" data-value="kenmore" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Kenmore</a></div>
 <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-4);"><span class="kicker" style="width: 64px;">Topic</span><a href="/blog/topic/schools-and-family/" data-filter="topic" data-value="schools-and-family" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Schools and family</a></div>
@@ -107,11 +113,21 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 </div>
 <section id="post-list" data-fixed="area" data-area="bothell" data-topic="">
 <article class="post-item" data-topic="schools-and-family" data-areas="bothell woodinville kenmore" data-text="northshore school district: what buyers in bothell and woodinville should know a practical guide to northshore school district for home buyers in bothell and woodinville, covering schools, boundaries, and what to watch for. bothell, woodinville, kenmore schools and family" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
+<div class="post-card-grid">
+<a class="post-card-photo" href="/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/" tabindex="-1" aria-hidden="true"><img src="/assets/photos/bothell/walk-in-shower-bath-720.jpg" alt="" width="720" height="480" loading="lazy" decoding="async"></a>
+<div style="min-width: 0;">
 <div class="kicker" style="margin-bottom: var(--space-2);">October 5, 2026 &middot; Schools and family &middot; Bothell, Woodinville, Kenmore</div>
 <h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/northshore-school-district-guide-for-home-buyers-in-bothell-and-woodinville/" style="color: var(--color-text);">Northshore School District: What Buyers in Bothell and Woodinville Should Know</a></h2>
 <p style="max-width: 640px; line-height: 1.65; margin: 0;">A practical guide to Northshore School District for home buyers in Bothell and Woodinville, covering schools, boundaries, and what to watch for.</p>
+</div>
+</div>
 </article>
 </section>
+<style>
+.post-card-grid { display: grid; grid-template-columns: 220px 1fr; gap: var(--space-6); align-items: start; }
+.post-card-photo img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; }
+@media (max-width: 640px) { .post-card-grid { grid-template-columns: 1fr; gap: var(--space-4); } }
+</style>
 </div>
 </main>
 <script>

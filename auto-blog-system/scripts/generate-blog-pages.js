@@ -56,6 +56,42 @@ function loadJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { return fallback; }
 }
 
+// ---------- photos (Jack's own listing photos, house numbers blurred) ----------
+// content/photo-library.json: [{ pool, src, thumb, alt }]. A post uses photos from
+// its own city pool when one exists, otherwise the general pool. Photos carry no
+// captions and no "sold by me" claims; they are there so pages are not bare text.
+const PHOTOS = loadJson(path.join(__dirname, "..", "content", "photo-library.json"), []);
+function hashStr(s) { let h = 0; for (const c of String(s)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; }
+function photoPool(areaSlug) {
+  const own = PHOTOS.filter((x) => x.pool === areaSlug);
+  if (own.length >= 2) return [...own, ...PHOTOS.filter((x) => x.pool === "general")];
+  return areaSlug === "eastside" ? PHOTOS : PHOTOS.filter((x) => x.pool === "general");
+}
+function pickPhotos(seed, areaSlug, n) {
+  const pool = photoPool(areaSlug);
+  if (!pool.length) return [];
+  const start = hashStr(seed) % pool.length;
+  const out = [];
+  for (let i = 0; i < Math.min(n, pool.length); i++) out.push(pool[(start + i * 7) % pool.length]);
+  return [...new Set(out)];
+}
+function photoTag(ph, { eager = false, ratio = "3 / 2", radius = "4px", extra = "" } = {}) {
+  return `<img src="${ph.src}" srcset="${ph.thumb} 720w, ${ph.src} 1600w" sizes="(max-width: 760px) 100vw, 760px" alt="${escapeHtml(ph.alt)}" width="1600" height="1067" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" style="display: block; width: 100%; height: auto; aspect-ratio: ${ratio}; object-fit: cover; border-radius: ${radius};${extra}">`;
+}
+// Drops photos into the article body before the 3rd and 5th h2 so long posts are not a wall of text.
+function withInlinePhotos(html, photos) {
+  if (!photos.length) return html;
+  let count = 0, used = 0;
+  return html.replace(/<h2[\s>]/g, (m) => {
+    count++;
+    if ((count === 3 || count === 5) && used < photos.length) {
+      const ph = photos[used++];
+      return `<figure style="margin: var(--space-8) 0;">${photoTag(ph)}</figure>\n${m}`;
+    }
+    return m;
+  });
+}
+
 function tagChips(p) {
   const t = topicBySlug(p.topic);
   return `<div style="margin-bottom: var(--space-3);"><a class="chip topic" href="/blog/topic/${t.slug}/">${escapeHtml(t.name)}</a>${p.areas
@@ -63,14 +99,28 @@ function tagChips(p) {
     .join("")}</div>`;
 }
 
-function postCard(p) {
+function postCard(p, used) {
   const t = topicBySlug(p.topic);
   const areaNames = p.areas.map((a) => areaBySlug(a).name).join(", ");
   const text = `${p.title} ${p.metaDescription} ${areaNames} ${t.name}`.toLowerCase();
+  // Pick a photo from the post's own pool, skipping any already shown on this page.
+  const pool = photoPool(primaryArea(p).slug);
+  let ph = null;
+  if (pool.length) {
+    const start = hashStr(p.slug) % pool.length;
+    for (let i = 0; i < pool.length && !ph; i++) { const c = pool[(start + i) % pool.length]; if (!used || !used.has(c.src)) ph = c; }
+    ph = ph || pool[start];
+    if (used) used.add(ph.src);
+  }
   return `<article class="post-item" data-topic="${t.slug}" data-areas="${p.areas.join(" ")}" data-text="${escapeHtml(text)}" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
+<div class="post-card-grid">
+${ph ? `<a class="post-card-photo" href="${postUrl(p)}" tabindex="-1" aria-hidden="true"><img src="${ph.thumb}" alt="" width="720" height="480" loading="lazy" decoding="async"></a>` : ""}
+<div style="min-width: 0;">
 <div class="kicker" style="margin-bottom: var(--space-2);">${formatDate(p.publishedDate)} &middot; ${escapeHtml(t.name)} &middot; ${escapeHtml(areaNames)}</div>
 <h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="${postUrl(p)}" style="color: var(--color-text);">${escapeHtml(p.title)}</a></h2>
 <p style="max-width: 640px; line-height: 1.65; margin: 0;">${escapeHtml(p.metaDescription)}</p>
+</div>
+</div>
 </article>`;
 }
 
@@ -226,6 +276,8 @@ function buildPostHtml(post, all) {
   const crumbs = postCrumbs(post);
   const related = pickRelated(post, all);
   const area = primaryArea(post);
+  const [hero, ...inline] = pickPhotos(post.slug, area.slug, 3);
+  const shareImage = post.image || (hero ? hero.src : "/assets/nbhd-bellevue.jpg");
   const ld = [
     {
       "@context": "https://schema.org",
@@ -236,7 +288,7 @@ function buildPostHtml(post, all) {
       dateModified: lastmodOf(post),
       author: { "@type": "Person", name: "Jack Macdonald", jobTitle: "REALTOR", url: `${SITE_URL}/about/`, image: `${SITE_URL}/assets/jack-sunset.jpg`, worksFor: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass" }, sameAs: L.AGENT.sameAs },
       publisher: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass", url: SITE_URL, logo: { "@type": "ImageObject", url: `${SITE_URL}/assets/MacdonaldGroup_Logo_RGB_MonogramandBrand_Black.png` }, address: L.AGENT.address, telephone: L.AGENT.telephone },
-      image: `${SITE_URL}${post.image || "/assets/nbhd-bellevue.jpg"}`,
+      image: `${SITE_URL}${shareImage}`,
       mainEntityOfPage: { "@type": "WebPage", "@id": SITE_URL + url },
       articleSection: topicBySlug(post.topic).name,
       keywords: post.areas.map((a) => areaBySlug(a).name).join(", "),
@@ -253,15 +305,16 @@ ${breadcrumbHtml(crumbs)}
 <div class="kicker" style="margin: var(--space-2) 0 var(--space-3);">${formatDate(post.publishedDate)}${post.updatedDate && post.updatedDate !== post.publishedDate ? ` &middot; Updated ${formatDate(post.updatedDate)}` : ""}</div>
 <h1 style="margin: 0 0 var(--space-4); font-size: clamp(34px, 4.6vw, 54px); line-height: 1.12;">${escapeHtml(post.title)}</h1>
 <div style="padding-bottom: var(--space-6); border-bottom: 1px solid var(--color-divider); font-size: 13px; line-height: 1.5;">By <a href="/about/">Jack Macdonald</a><br><span style="color: var(--color-neutral-600);">Macdonald Group of Compass</span></div>
+${hero ? `<figure style="margin: var(--space-6) 0 0;">${photoTag(hero, { eager: true })}</figure>` : ""}
 <div style="line-height: 1.75; margin-top: var(--space-6);">
-${stripReviewNote(post.bodyHtml)}
+${withInlinePhotos(stripReviewNote(post.bodyHtml), inline)}
 </div>
 ${buildFaqSection(post.faq)}
 ${moreAboutBox(post, all)}
 ${related.length ? `<h2 style="margin-top: calc(var(--space-8) * 1.1);">Related posts</h2>${smallPostList(related)}` : ""}
 ${nextStep(post)}
 ${partnerBox(post)}</article>`;
-  return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: post.image || "/assets/nbhd-bellevue.jpg", markdownAlt: true });
+  return L.page({ title: `${post.title} | Jack Macdonald, Macdonald Group`, description: post.metaDescription, path: url, ogType: "article", ld, body, image: shareImage, markdownAlt: true });
 }
 
 // ---------- blog home + filter pages ----------
@@ -328,17 +381,44 @@ function filterBar(posts, { fixed, area, topic }) {
 </div>`;
 }
 
+// "Start here" box on blog listing pages, so a visitor has a next step besides a list of links.
+function startHereBox(area) {
+  const a = area ? areaBySlug(area) : null;
+  const cityLinks = HUB_AREAS.slice(0, 6).map((h) => `<a href="/areas/${h.slug}/">${escapeHtml(h.name)}</a>`).join(" &middot; ");
+  const place = a && a.slug !== "eastside" ? a.name : "the Eastside";
+  const items = [
+    `<li><a href="/home-value/">What is my home worth?</a> I'll put together a real number for your home, not an online guess.</li>`,
+    `<li><a href="/sell/">Selling in ${escapeHtml(place)}</a>: how I price, prep and market a home.</li>`,
+    a && a.hub ? `<li><a href="/areas/${a.slug}/">${escapeHtml(a.name)} area guide</a>: listings, recent numbers and what sells.</li>` : `<li>City guides: ${cityLinks} &middot; <a href="/areas/">all areas</a></li>`,
+    `<li><a href="/inherited-homes/">Inherited or estate home?</a> Step by step help for families.</li>`,
+  ];
+  return `<aside class="card" style="padding: var(--space-6); margin: 0 0 var(--space-6);">
+<div class="kicker" style="margin-bottom: var(--space-3);">Start here</div>
+<ul style="margin: 0; padding-left: 18px; line-height: 1.8;">${items.join("")}</ul>
+<p style="margin: var(--space-4) 0 0;"><a class="btn btn-primary" href="tel:4259416998">Call or text 425.941.6998</a></p>
+</aside>`;
+}
+
 function buildListingPage({ posts, allPosts, fixed, area, topic, title, h1, intro, pathName, crumbs }) {
   const sorted = [...posts].sort(byDateDesc);
+  // Jack asked for his $4.6M close to be the top photo on every blog page (2026-10-29).
+  const banner = { src: "/assets/photos/general/modern-farmhouse-front-wide.jpg", thumb: "/assets/photos/general/modern-farmhouse-front-720.jpg", alt: "White modern farmhouse with black windows and a black garage door at dusk" };
   const body = `<main class="page">
 <div class="narrow">
 ${breadcrumbHtml(crumbs)}
 <h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">${escapeHtml(h1)}</h1>
 <p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-6);">${intro}</p>
+${banner ? `<figure style="margin: 0 0 var(--space-6);">${photoTag(banner, { eager: true, ratio: "16 / 9", extra: " object-position: center 55%;" })}</figure>` : ""}
+${startHereBox(area)}
 ${filterBar(fixed ? posts : allPosts, { fixed, area, topic })}
 <section id="post-list" data-fixed="${fixed || ""}" data-area="${area || ""}" data-topic="${topic || ""}">
-${sorted.map(postCard).join("\n")}
+${(() => { const used = new Set(banner ? [banner.src] : []); return sorted.map((p) => postCard(p, used)).join("\n"); })()}
 </section>
+<style>
+.post-card-grid { display: grid; grid-template-columns: 220px 1fr; gap: var(--space-6); align-items: start; }
+.post-card-photo img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; }
+@media (max-width: 640px) { .post-card-grid { grid-template-columns: 1fr; gap: var(--space-4); } }
+</style>
 </div>
 </main>
 ${FILTER_SCRIPT}`;
