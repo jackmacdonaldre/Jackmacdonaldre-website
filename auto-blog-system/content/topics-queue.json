@@ -593,7 +593,9 @@
       "areas": [
         "eastside"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_slug": "downsizing-on-the-eastside-where-sellers-go-next",
+      "published_date": "2026-10-30"
     },
     {
       "topic": "Selling a Rose Hill Kirkland Home: What Buyers Pay For",
