@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T23:29:16.816Z",
-  "count": 122,
+  "generatedAt": "2026-11-01T06:27:30.036Z",
+  "count": 121,
   "listings": [
     {
       "acres": "0.029",
@@ -32610,70 +32610,6 @@
         "firm": "Compass",
         "agentName": "Stephen Macdonald, Managing Broker",
         "agentPhone": "425.941.7325"
-      }
-    },
-    {
-      "advanced": {
-        "mlsStatus": [
-          "Sold"
-        ],
-        "structureType": [
-          "Manufactured House"
-        ]
-      },
-      "cityID": 34455,
-      "countyID": 2212,
-      "dateAdded": "2023-09-24T04:36:51+00:00",
-      "dateModified": "2023-11-06T19:22:10+00:00",
-      "detailsURL": "b045/2163519",
-      "detailsUrlSlug": "",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 2,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2163519/",
-      "idxID": "b045",
-      "idxPropType": "Manufactured In Park",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c418/814c339e5ed333e281d7435307f724b5/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 46.938106,
-      "listingAgentID": "121277198",
-      "listingID": "2163519",
-      "listingOfficeID": "91866779",
-      "longitude": -123.012695,
-      "mediaData": [],
-      "mlsPhotoCount": 18,
-      "mlsPtID": 4,
-      "ohCount": 0,
-      "parentPtID": 7,
-      "partialBaths": 0,
-      "price": 114500,
-      "priceData": {
-        "value": {
-          "raw": 117000,
-          "formatted": "$117,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "rntLse": "neither",
-      "sellingAgentID": "89392448",
-      "sellingOfficeID": "120097808",
-      "soldDate": "2023-11-01T00:00:00+00:00",
-      "soldPrice": 117000,
-      "viewCount": 2,
-      "vtCount": 0,
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Jack Macdonald, Licensed Broker",
-        "agentPhone": "425.941.6998"
       }
     }
   ]
