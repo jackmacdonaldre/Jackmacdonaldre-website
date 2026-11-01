@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:19:37.533Z",
+  "generatedAt": "2026-11-01T20:37:53.453Z",
   "count": 7,
   "listings": [
     {
@@ -1183,9 +1183,7 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$1,139,800",
       "longitude": -122.198729,
-      "mediaData": {
-        "oh": []
-      },
+      "mediaData": [],
       "mlsPhotoCount": 31,
       "mlsPtID": 1,
       "ohCount": 0,
