@@ -653,7 +653,9 @@
       "topic": "Bellevue School District Boundaries: How to Check Which Schools a Home Is Assigned To",
       "city": "Bellevue",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "bellevue-school-district-boundaries-how-to-check-which-schools-a-home-is-assigned-to",
+      "published_date": "2026-11-04"
     },
     {
       "topic": "Clearing Out a Family Home Before You Sell on the Eastside",
