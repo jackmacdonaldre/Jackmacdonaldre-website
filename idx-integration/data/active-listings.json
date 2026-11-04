@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:40:04.084Z",
+  "generatedAt": "2026-11-04T00:42:42.413Z",
   "count": 7,
   "listings": [
     {
@@ -1899,7 +1899,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-10-30T17:46:14+00:00",
+      "dateModified": "2026-11-04T00:27:14+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -2087,7 +2087,7 @@
       "listingAgentID": "1186410",
       "listingID": "2577976",
       "listingOfficeID": "91866779",
-      "listingPrice": "$770,000",
+      "listingPrice": "$750,000",
       "longitude": -122.038167,
       "mediaData": [],
       "mlsPhotoCount": 34,
@@ -2095,24 +2095,24 @@
       "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
-      "price": 770000,
-      "priceBeforeReduction": 795000,
+      "price": 750000,
+      "priceBeforeReduction": 770000,
       "priceData": {
         "value": {
-          "raw": 770000,
-          "formatted": "$770,000"
+          "raw": 750000,
+          "formatted": "$750,000"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
-      "priceReductionDate": "2026-10-21T22:12:45+00:00",
+      "priceReductionDate": "2026-11-04T00:28:22+00:00",
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
       "remarksConcat": "Tucked at the end of a cozy cul-de-sac in desirable Elk Run South, this beautifully renovated home offers a fresh, modern interior with generous living spaces and a wonderful fully-fenced backyard. Vaulted ceilings and abundant natural light create an airy welcome in this move-in ready home. The updated kitchen with quartz countertops, island seating and modern appliances opens into a comfortable space designed for everyday living and entertaining. Upstairs, four spacious bedrooms are complemented by a versatile bonus room, home office, media room, or play space. Outside, enjoy an expansive fenced backyard and large patio perfect for summer dining, entertaining, or relaxation. Recent major improvements include a new roof, A/C, furnace, and hot water tank, offering added peace of mind. Ideally located in the sought-after Tahoma School District, this turnkey home offers the space, setting, and updates you're looking for.",
       "rntLse": "neither",
-      "rntLsePrice": 770000,
+      "rntLsePrice": 750000,
       "sqFt": "2,380",
       "state": "Washington",
       "streetName": "227th Place SE",
@@ -2120,7 +2120,7 @@
       "subdivision": "Elk Run Golf Course",
       "threeQuarterBaths": 0,
       "totalBaths": 3,
-      "viewCount": 16,
+      "viewCount": 17,
       "vtCount": 0,
       "yearBuilt": 2005,
       "zipcode": "98038",
