@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T16:34:32.177Z",
-  "count": 7,
+  "generatedAt": "2026-11-05T23:43:44.207Z",
+  "count": 8,
   "listings": [
     {
       "acres": "1.293",
@@ -1224,6 +1224,484 @@
       }
     },
     {
+      "acres": "0.138",
+      "address": "10667 SE 170th Place",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "Central Air",
+          "Heat Pump"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air",
+          "Heat Pump"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "None"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Vinyl Plank",
+          "Carpet"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "2.5",
+        "styleCode": "12 - 2 Story",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)"
+        ],
+        "gasCompany": "Puget Sound Energy",
+        "highSchool": [
+          "Lindbergh Snr High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "livingArea": 3304,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "builderName": "Sapphire Homes, Inc",
+        "lotFeatures": [
+          "Corner Lot",
+          "Cul-De-Sac",
+          "Curbs",
+          "Dead End Street",
+          "Paved",
+          "Sidewalk"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "340 - Renton/Benson Hill",
+        "onMarketDate": "2026-11-05T00:00:00+00:00",
+        "parkingTotal": 4,
+        "powerCompany": "Puget Sound Energy",
+        "sewerCompany": "Soos Creek",
+        "siteFeatures": [
+          "Fenced-Fully",
+          "High Speed Internet",
+          "Patio"
+        ],
+        "titleCompany": "Chicago Title",
+        "waterCompany": "Soos Creek",
+        "waterfrontYN": "no",
+        "bathsFullMain": "0",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "0",
+        "bedroomsUpper": "4",
+        "busLineNearby": "yes",
+        "coveredSpaces": 2,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 25,
+        "bathsFullLower": "0",
+        "bathsFullUpper": "1",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "listAgentEmail": "stephen@stephenmacdonald.com",
+        "standardStatus": "Active",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "excludedItemsYN": "no",
+        "fireplacesTotal": 1,
+        "listOfficeEmail": "contractsseattle@compass.com",
+        "newConstruction": "Completed",
+        "numberOfShowers": "3",
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 12693.57,
+        "waterHeaterType": "Electric",
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Cascade Elem"
+        ],
+        "exteriorFeatures": [
+          "Cement Planked",
+          "Wood",
+          "Wood Products"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Fireplace",
+          "High Tech Cabling",
+          "Pantry",
+          "Walk-In Closet(s)",
+          "Water Heater"
+        ],
+        "mlsLotSizeSource": "Realist",
+        "numberOfBathtubs": "1",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 3304,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "communityFeatures": [
+          "CC Rs"
+        ],
+        "fireplaceFeatures": [
+          "Electric",
+          "Gas"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 6000,
+        "mainLevelBedrooms": 1,
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)"
+        ],
+        "architecturalStyle": [
+          "Craftsman"
+        ],
+        "highSchoolDistrict": [
+          "Renton"
+        ],
+        "yearBuiltEffective": 2026,
+        "zoningJurisdiction": "City",
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "Garage",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Nelsen Mid"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "associationFeeIncludes": [
+          "Common Area Maintenance"
+        ],
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "1",
+        "garbageServiceProvider": "Republic",
+        "mlsSquareFootageSource": "Realist",
+        "associationFeeFrequency": [
+          "Monthly"
+        ],
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "3304",
+        "listAgentPreferredPhone": "425-242-6440",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 5,
+      "cityID": 38960,
+      "cityName": "Renton",
+      "coListingAgentID": "121277198",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-11-05T21:21:26+00:00",
+      "dateModified": "2026-11-05T21:47:13+00:00",
+      "detailsURL": "b045/2601370",
+      "detailsUrlSlug": "10667-SE-170th-Place-Renton-98055",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 1,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2601370/10667-SE-170th-Place-Renton-98055",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9c6e/e6c97864582cc8764d9b596a4cebf732/b045",
+          "sizes": [],
+          "caption": "Newly built 5-bed, 3-bath, 3,304 sq. ft. home located on a peaceful cul-de-sac corner lot with covered entry and attached 2-car garage."
+        },
+        "1": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/22f7/7f22e019122853f5c5838b9540380286/b045",
+          "sizes": [],
+          "caption": "Thoughtfully designed exterior entry featuring crisp architectural lines, and cement plank siding"
+        },
+        "2": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f1eb/be1f6869f9ad752e19ff319a0a17ebb6/b045",
+          "sizes": [],
+          "caption": "Welcoming entrance hall featuring luxury vinyl plank flooring, recessed LED lighting, and an effortless flow into the main living space."
+        },
+        "3": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/087b/b78049c26e8aa835ea83dec9a4134184/b045",
+          "sizes": [],
+          "caption": "Spacious main-floor living area boasting high ceilings, abundant natural sunlight, and seamless sightlines across the kitchen and dining areas."
+        },
+        "4": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0fff/fff06a6e355b24ad8bc6f5627708d0f9/b045",
+          "sizes": [],
+          "caption": "Main-floor family room highlighted by a stylish focal fireplace, perfect for entertaining or relaxing evenings."
+        },
+        "5": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dbc8/8cbda8e835b1f2ed57ede6f8b7b494cc/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "6": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3be6/6eb35fbd86ab8693cdb9a8b4dffe5a7c/b045",
+          "sizes": [],
+          "caption": "Floor plan designed for flexible furniture arrangements and easy indoor entertaining."
+        },
+        "7": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d9d1/1d9dbc30a833a640ed8f2f1f05702968/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "8": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8048/8408b074e02785c360b8b29f8a2cdb90/b045",
+          "sizes": [],
+          "caption": "Open dining room adjacent to the kitchen, comfortably accommodating full-size dining tables and holiday gatherings."
+        },
+        "9": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/92f4/4f29768e8c477667ce91aacf6ea0a877/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "10": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c470/074c5ecee116296b6bc75be69979a587/b045",
+          "sizes": [],
+          "caption": "Contemporary kitchen complete with a center island, seating bar, designer cabinetry, and quartz countertops."
+        },
+        "11": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a25d/d52a10749677c966093e76632b630c2a/b045",
+          "sizes": [],
+          "caption": "Stainless Steel Appliances & Soft-Close Cabinets. Outfitted with high-end appliances, stylish tile splash, and ample storage for the home chef."
+        },
+        "12": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/dfa9/9afdfc6f6d29831612b1be16303c1e23/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "13": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8c63/36c866b1ade8ca9366ab0cbb0b2c5dbc/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "14": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a8f3/3f8a7e1d4d22b86f8519bc7a12e5863d/b045",
+          "sizes": [],
+          "caption": "Outdoor Concrete Patio. Open back patio designed for outdoor dining, summer barbecues, and patio furniture setups."
+        },
+        "15": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2b78/87b21dabc6d55fdb37f6953733f5fe07/b045",
+          "sizes": [],
+          "caption": "Versatile Main-Floor Bedroom / Home Office. Main-level bedroom ideal for remote work, multi-generational living, or hosting overnight guests."
+        },
+        "16": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/af9e/e9fa74c1b60013f6bd66a401b4ff4c39/b045",
+          "sizes": [],
+          "caption": "Conveniently situated guest bathroom featuring a walk-in shower and contemporary fixtures."
+        },
+        "17": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1a3b/b3a1ccf4417e7bf43a66ea59b8967c28/b045",
+          "sizes": [],
+          "caption": "Luxurious master retreat featuring large windows with serene natural views, plush carpeting, and space for a king bed set."
+        },
+        "18": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/07f5/5f70b23c4104c630f84657e96703c0ce/b045",
+          "sizes": [],
+          "caption": "Spa-Inspired Primary Bathroom en-suite with a double-sink vanity, tiled walk-in shower, and sleek contemporary finishes."
+        },
+        "19": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6074/4706934ecf47fb4934396abd99ef895c/b045",
+          "sizes": [],
+          "caption": "Oversized primary closet with built-in organizer shelving and abundant hanging space."
+        },
+        "20": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/50b0/0b058d43b9aed2a677813fda25b51bdb/b045",
+          "sizes": [],
+          "caption": "Bonus room easily converted to a generous bedroom with large double-pane windows."
+        },
+        "21": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b2a2/2a2b070b9c159902b6c983b6f10c1cb4/b045",
+          "sizes": [],
+          "caption": "Comfortable bedroom setup perfect for children, guests, or a secondary study space."
+        },
+        "22": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/18e7/7e8156ad338b0c2f0f4ccddedad785c0/b045",
+          "sizes": [],
+          "caption": "Modern full bath with dual-vanity sink and tub/shower combination serving secondary bedrooms."
+        },
+        "23": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/53b8/8b3508cd7688df489f3ba336df38d06d/b045",
+          "sizes": [],
+          "caption": "Bright bedroom featuring generous closet space and large double-pane windows."
+        },
+        "24": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e304/403edbb9db535639b346975ecb8357fe/b045",
+          "sizes": [],
+          "caption": "Well-proportioned bedroom with plush carpet and easy access to the full hall bath."
+        },
+        "25": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3c5f/f5c31539b4427ac3c1cb727c0f3a9b51/b045",
+          "sizes": [],
+          "caption": "Upper-Level Laundry Room. Dedicated 2nd-floor utility room equipped with built-in shelving and washer/dryer hookups for maximum convenience."
+        },
+        "26": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/32c7/7c23793c2222bb7b38a307afa580667c/b045",
+          "sizes": [],
+          "caption": "Functional Drop-Zone Mudroom. Smartly placed entryway off the garage to store shoes, coats, and everyday essentials out of view."
+        },
+        "27": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8a67/76a86ac4135ccdd3dcf87573632d5c99/b045",
+          "sizes": [],
+          "caption": "Cement plank siding, paved pathways, and low-maintenance landscaping surrounding the home."
+        },
+        "28": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bc34/43cb3f1a5bf063bf6f37b74c9cc000c3/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "29": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/55f5/5f55319e8fa139610cfe30b692bdaaf6/b045",
+          "sizes": [],
+          "caption": "Quiet Cul-De-Sac Location — Located on a low-traffic dead-end street in a desirable Renton community close to schools, parks, and I-405 access."
+        },
+        "30": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1eb9/9be1d7c4d04a9637428bf5a4e363d096/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "31": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1f33/33f1f538eecc79253ae54549e9319fa5/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "32": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/12db/bd2122aadf4d62226e2621df71cff351/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 33
+      },
+      "latitude": 47.449769,
+      "listingAgentID": "1186410",
+      "listingID": "2601370",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$1,049,800",
+      "longitude": -122.198729,
+      "mediaData": {
+        "oh": [
+          {
+            "id": "163999406",
+            "text": "",
+            "starts": "2026-11-07T13:00:00+00:00",
+            "expires": "2026-11-07T16:00:00+00:00",
+            "virtualLink": null,
+            "virtualText": null,
+            "dateModified": "2026-11-05T20:40:38+00:00",
+            "freeFormDate": "November 7th, 2026",
+            "freeFormTime": "1:00 pm to 4:00 pm",
+            "listingID": "2601370",
+            "startTime": 1794056400
+          }
+        ],
+        "vt": [
+          {
+            "id": "vtURL",
+            "url": "https://www.instagram.com/p/DbMU-n4B-_c/",
+            "text": "",
+            "listingID": "2601370"
+          }
+        ]
+      },
+      "mlsPhotoCount": 33,
+      "mlsPtID": 1,
+      "ohCount": 1,
+      "parentPtID": 1,
+      "partialBaths": 2,
+      "price": 1049800,
+      "priceData": {
+        "value": {
+          "raw": 1049800,
+          "formatted": "$1,049,800"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "propStatus": "Active",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Welcome to this exceptional single-family home, thoughtfully designed for modern living. The first floor boasts a bright and airy great room, featuring a kitchen with island seating, a dining area, and a cozy family room with a fireplace, creating a perfect space for everyday living and entertaining. You’ll also find a convenient ¾ bathroom, a bedroom/office, a walk-in pantry, and a mudroom off the garage for added functionality. Upstairs, relax in the spacious primary en-suite, offering serene views of nature. The second floor also includes three additional bedrooms, a full bathroom, a bonus room, and a thoughtfully placed laundry room. The expansive backyard is ideal for outdoor games and gatherings, complemented by a charming, uncovered patio for relaxing outdoors. This home is equipped with A/C, a 2-car garage, and is located in a lovely community.",
+      "rntLse": "neither",
+      "rntLsePrice": 1049800,
+      "sqFt": "3,304",
+      "state": "Washington",
+      "streetDirection": "SE",
+      "streetName": "170th Place",
+      "streetNumber": "10667",
+      "subdivision": "Renton",
+      "threeQuarterBaths": 2,
+      "totalBaths": 3,
+      "viewCount": 0,
+      "vtCount": 1,
+      "yearBuilt": 2026,
+      "zipcode": "98055",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Stephen Macdonald, Managing Broker",
+        "agentPhone": "425.941.7325"
+      }
+    },
+    {
       "acres": "0.094",
       "address": "6215 38th Avenue NE",
       "advanced": {
@@ -1899,7 +2377,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-11-04T00:27:14+00:00",
+      "dateModified": "2026-11-05T21:33:13+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -1912,7 +2390,7 @@
       "idxStatus": "active",
       "image": {
         "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4ef4/4fe4a193973b74a824314bb49e47539c/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1966/669145929950c5516c79ff8b177bd2a3/b045",
           "sizes": [],
           "caption": ""
         },
@@ -2081,7 +2559,12 @@
           "sizes": [],
           "caption": ""
         },
-        "totalCount": 34
+        "34": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0a46/64a042bce0b57548660b2369a2891d97/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 35
       },
       "latitude": 47.349059,
       "listingAgentID": "1186410",
@@ -2090,7 +2573,7 @@
       "listingPrice": "$750,000",
       "longitude": -122.038167,
       "mediaData": [],
-      "mlsPhotoCount": 34,
+      "mlsPhotoCount": 35,
       "mlsPtID": 1,
       "ohCount": 0,
       "parentPtID": 1,
