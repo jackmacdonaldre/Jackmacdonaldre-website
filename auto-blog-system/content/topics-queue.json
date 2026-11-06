@@ -672,7 +672,9 @@
       "city": "Redmond",
       "neighborhood": null,
       "type": "relocation_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "living-near-microsoft-redmond-campus-best-nearby-neighborhoods",
+      "published_date": "2026-11-06"
     },
     {
       "topic": "Kirkland Sellers: What to Fix and What to Skip Before Listing",
