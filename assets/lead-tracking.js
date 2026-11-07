@@ -58,3 +58,6 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { prepForms(); onThanks(); });
   else { prepForms(); onThanks(); }
 })();
+
+/* Loads the About dropdown / tabs (assets/site-nav.js) on every page that already loads this file. */
+(function () { var s = document.createElement('script'); s.src = '/assets/site-nav.js'; s.defer = true; document.head.appendChild(s); })();
