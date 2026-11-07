@@ -116,210 +116,192 @@
       </div>
     </section>
 
-    <section style="max-width: 760px; margin: 0 auto; padding: 0 var(--space-6); padding-top: var(--space-8);">
-      <p style="font-size: 19px;">When a parent passes or moves into care, selling the house isn't a normal sale. There are usually a few family members involved, more paperwork, a house full of belongings and a lot of emotion. This page covers what most families want to know first, whether or not we end up working together.</p>
-      <p>I can take as much off your plate as you want, from the first walk through to the closing table, and I'll keep everyone in the family and your attorney in the loop.</p>
-      <div style="display: flex; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-4);">
-        <a href="tel:4259416998" class="btn btn-primary">Call or text (425) 941-6998</a>
-        <a href="#contact" class="btn btn-secondary">Ask a question</a>
-      </div>
-      <p style="font-size: 14px; color: var(--color-neutral-600); margin-top: var(--space-4);">On this page: <a href="#area">where I help</a> &middot; <a href="#who">who I help</a> &middot; <a href="#process">how it works</a> &middot; <a href="#results">homes I've sold</a> &middot; <a href="#guides">guides</a> &middot; <a href="#basics">Washington basics</a> &middot; <a href="#questions">common questions</a> &middot; <a href="#about-jack">about me</a> &middot; <a href="#contact">contact</a></p>
+    <style>
+      .ih-wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+      .ih-sec{padding:96px 0}
+      .ih-grey{background:#f4f4f3}
+      .ih-head{text-align:center;max-width:680px;margin:0 auto 56px}
+      .ih-head h6{font-size:11px;margin:0 0 12px}
+      .ih-head h2{margin:0;font-size:clamp(26px,3.2vw,36px)}
+      .ih-head p{margin:18px 0 0;line-height:1.75}
+      .ih-intro{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+      .ih-intro .lead{font-size:20px;line-height:1.6;margin:0 0 20px}
+      .ih-intro p{line-height:1.75}
+      .ih-intro img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+      .ih-btns{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+      .ih-area{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#555;border-top:1px solid #e4e4e3;padding-top:20px;line-height:1.8}
+      .ih-quote{text-align:center;max-width:760px;margin:0 auto}
+      .ih-quote blockquote{margin:0;font-family:var(--font-heading);font-size:clamp(24px,3vw,32px);line-height:1.4}
+      .ih-quote p{margin:24px auto 0;max-width:600px;line-height:1.75}
+      .ih-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 40px}
+      .ih-item h3{font-size:15px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px;font-weight:400;line-height:1.5}
+      .ih-item p{margin:0;font-size:15px;line-height:1.75;color:#333}
+      .ih-num{font-family:var(--font-heading);font-size:40px;line-height:1;color:#b9b7b2;margin-bottom:14px}
+      .ih-sales{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+      .ih-sale img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+      .ih-sale .city{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#666;margin:16px 0 6px}
+      .ih-sale p{margin:0 0 8px;font-size:14px;line-height:1.6}
+      .ih-sale .px{font-size:13px;letter-spacing:.04em;font-weight:500}
+      .ih-guides h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:400;margin:0 0 18px;padding-bottom:12px;border-bottom:1px solid #d9d8d5}
+      .ih-guides a{display:block;padding:10px 0;line-height:1.5;font-size:15px;color:inherit;text-decoration:none}
+      .ih-guides a:hover{text-decoration:underline;text-underline-offset:3px}
+      .ih-faq{max-width:820px;margin:0 auto}
+      .ih-faq details{border-top:1px solid #e4e4e3}
+      .ih-faq details:last-of-type{border-bottom:1px solid #e4e4e3}
+      .ih-faq summary{cursor:pointer;list-style:none;padding:22px 36px 22px 0;position:relative;font-size:17px;line-height:1.5}
+      .ih-faq summary::-webkit-details-marker{display:none}
+      .ih-faq summary:after{content:'+';position:absolute;right:4px;top:18px;font-size:24px;font-weight:300}
+      .ih-faq details[open] summary:after{content:'\2212'}
+      .ih-faq details p{margin:0 0 24px;line-height:1.8;color:#333}
+      .ih-basics{display:grid;grid-template-columns:1fr 1fr;gap:28px 40px;margin-top:20px}
+      .ih-basics p{margin:0;font-size:15px;line-height:1.75}
+      .ih-small{font-size:12.5px;color:#666;line-height:1.7;margin-top:28px}
+      .ih-about{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:center}
+      .ih-about img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+      .ih-about p{line-height:1.8}
+      .ih-contact{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+      .ih-contact h2{margin:12px 0 18px;font-size:clamp(26px,3.2vw,36px)}
+      .ih-contact p{line-height:1.8}
+      .ih-partner{max-width:820px;margin:0 auto;font-size:15px;line-height:1.65}
+      @media(max-width:900px){.ih-sales{grid-template-columns:repeat(2,1fr)}}
+      @media(max-width:760px){.ih-sec{padding:64px 0}.ih-intro,.ih-about,.ih-contact{grid-template-columns:1fr;gap:36px}.ih-grid3{grid-template-columns:1fr;gap:36px}.ih-basics{grid-template-columns:1fr}.ih-head{margin-bottom:40px}}
+    </style>
 
-      <div id="area" style="margin-top: var(--space-6); padding: var(--space-5) var(--space-6); border: 1px solid var(--color-divider); background: #f7f6f4;">
-        <div class="kicker" style="margin-bottom: var(--space-2);">Where I help</div>
-        <p style="font-size: 19px; margin: 0 0 var(--space-2);">Everett to Tacoma: King, Snohomish and Pierce counties.</p>
-        <p style="margin: 0 0 var(--space-4); font-size: 15px;">Many families I help live out of state, so the house can be here even if you're not. Check your city:</p>
-        <div style="display: flex; gap: var(--space-2); flex-wrap: wrap;">
-          <input id="area-city" class="input" list="area-cities" placeholder="Type the city the home is in" style="flex: 1 1 240px; min-width: 0;" aria-label="City the home is in">
-          <datalist id="area-cities"><option value="Auburn"><option value="Bellevue"><option value="Black Diamond"><option value="Bonney Lake"><option value="Bothell"><option value="Brier"><option value="Burien"><option value="Carnation"><option value="Clyde Hill"><option value="Covington"><option value="Des Moines"><option value="DuPont"><option value="Duvall"><option value="Edgewood"><option value="Edmonds"><option value="Enumclaw"><option value="Everett"><option value="Fall City"><option value="Federal Way"><option value="Fife"><option value="Gig Harbor"><option value="Issaquah"><option value="Kenmore"><option value="Kent"><option value="Kirkland"><option value="Lake Forest Park"><option value="Lake Stevens"><option value="Lakewood"><option value="Lynnwood"><option value="Maple Valley"><option value="Marysville"><option value="Medina"><option value="Mercer Island"><option value="Mill Creek"><option value="Milton"><option value="Monroe"><option value="Mountlake Terrace"><option value="Mukilteo"><option value="Newcastle"><option value="Normandy Park"><option value="North Bend"><option value="Orting"><option value="Puyallup"><option value="Redmond"><option value="Renton"><option value="Sammamish"><option value="SeaTac"><option value="Seattle"><option value="Shoreline"><option value="Snohomish"><option value="Snoqualmie"><option value="Spanaway"><option value="Steilacoom"><option value="Sultan"><option value="Sumner"><option value="Tacoma"><option value="Tukwila"><option value="University Place"><option value="Vashon"><option value="Woodinville"></datalist>
-          <button type="button" class="btn btn-primary" onclick="areaCheck()">Check</button>
-        </div>
-        <p id="area-result" aria-live="polite" style="margin: var(--space-3) 0 0; font-size: 15px;"></p>
-        <noscript><p style="font-size: 14px;">Cities include Auburn, Bellevue, Black Diamond, Bonney Lake, Bothell, Brier, Burien, Carnation, Clyde Hill, Covington, Des Moines, DuPont, Duvall, Edgewood, Edmonds, Enumclaw, Everett, Fall City, Federal Way, Fife, Gig Harbor, Issaquah, Kenmore, Kent, Kirkland, Lake Forest Park, Lake Stevens, Lakewood, Lynnwood, Maple Valley, Marysville, Medina, Mercer Island, Mill Creek, Milton, Monroe, Mountlake Terrace, Mukilteo, Newcastle, Normandy Park, North Bend, Orting, Puyallup, Redmond, Renton, Sammamish, SeaTac, Seattle, Shoreline, Snohomish, Snoqualmie, Spanaway, Steilacoom, Sultan, Sumner, Tacoma, Tukwila, University Place, Vashon, Woodinville.</p></noscript>
-      </div>
-      <script>
-      (function(){
-        var C = {"Seattle": "King County", "Bellevue": "King County", "Redmond": "King County", "Kirkland": "King County", "Sammamish": "King County", "Issaquah": "King County", "Renton": "King County", "Kent": "King County", "Auburn": "King County", "Federal Way": "King County", "Burien": "King County", "Tukwila": "King County", "SeaTac": "King County", "Des Moines": "King County", "Normandy Park": "King County", "Shoreline": "King County", "Lake Forest Park": "King County", "Kenmore": "King County", "Bothell": "King County", "Woodinville": "King County", "Newcastle": "King County", "Mercer Island": "King County", "Medina": "King County", "Clyde Hill": "King County", "Maple Valley": "King County", "Covington": "King County", "Black Diamond": "King County", "Enumclaw": "King County", "North Bend": "King County", "Snoqualmie": "King County", "Carnation": "King County", "Duvall": "King County", "Fall City": "King County", "Vashon": "King County", "Everett": "Snohomish County", "Mill Creek": "Snohomish County", "Lynnwood": "Snohomish County", "Edmonds": "Snohomish County", "Mountlake Terrace": "Snohomish County", "Brier": "Snohomish County", "Mukilteo": "Snohomish County", "Lake Stevens": "Snohomish County", "Snohomish": "Snohomish County", "Monroe": "Snohomish County", "Sultan": "Snohomish County", "Marysville": "Snohomish County", "Tacoma": "Pierce County", "Puyallup": "Pierce County", "Fife": "Pierce County", "Lakewood": "Pierce County", "University Place": "Pierce County", "Gig Harbor": "Pierce County", "Sumner": "Pierce County", "Bonney Lake": "Pierce County", "Edgewood": "Pierce County", "Spanaway": "Pierce County", "Orting": "Pierce County", "DuPont": "Pierce County", "Steilacoom": "Pierce County", "Milton": "Pierce County"};
-        window.areaCheck = function(){
-          var v = (document.getElementById('area-city').value || '').trim().toLowerCase();
-          var out = document.getElementById('area-result');
-          if (!v) { out.textContent = ''; return; }
-          var hit = Object.keys(C).find(function(c){ return c.toLowerCase() === v; });
-          out.innerHTML = hit
-            ? '<strong>Yes, ' + hit + ' (' + C[hit] + ') is in my area.</strong> Call or text <a href="tel:4259416998">(425) 941-6998</a> and we can talk through where to start.'
-            : 'I may still be able to help. If the home is anywhere between Everett and Tacoma, call or text <a href="tel:4259416998">(425) 941-6998</a> and I will tell you right away.';
-        };
-        document.getElementById('area-city').addEventListener('keydown', function(e){ if (e.key === 'Enter') window.areaCheck(); });
-      })();
-      </script>
-      <img src="../assets/estate/rambler-deck.jpg" alt="Back deck with string lights at dusk on a refreshed Eastside rambler" style="width: 100%; height: auto; display: block; margin-top: var(--space-6);">
-
-      <blockquote style="margin: 56px 0 0; padding: 8px 0 8px 28px; border-left: 3px solid #201f1d; font-family: var(--font-heading); font-size: clamp(22px, 2.6vw, 28px); line-height: 1.4;">People don't understand how much of a responsibility being an executor is until they're in it.</blockquote>
-      <p style="margin-top: var(--space-4);">You're handling the house, the paperwork, the family and your own grief, often all at once and often from out of town. My job is to take the house part off your plate and make it simple.</p>
-
-      <h2 id="who" style="margin-top: var(--space-8);">Where families usually are when they call</h2>
-      <p><strong>Personal representatives and executors</strong> who need the house sold well and on a clear timeline, with paperwork their attorney can follow.</p>
-      <p><strong>Heirs and siblings</strong> who need one person keeping everyone updated, especially when not everyone lives nearby or agrees on the plan.</p>
-      <p><strong>Families helping a parent move</strong> into assisted living or in with family, where the sale needs to line up with the move and the cost of care.</p>
-      <p><strong>A house that needs real work</strong>, where the question is whether to put money in or sell it as it stands.</p>
-      <p><strong>A family deciding whether to sell, rent or keep it</strong>, and wanting real numbers before anyone commits.</p>
-      <p><strong>Estate attorneys, trustees and financial advisors</strong> who want a local agent they can hand a family to and trust to communicate.</p>
-
-      <h2 id="process" style="margin-top: var(--space-8);">How an estate sale works</h2>
-      <h3 style="margin-top: var(--space-6);">1. Start with who can sign</h3>
-      <p>Before anything else, we confirm with your attorney who has the authority to sell: a personal representative, a trustee, or a beneficiary on a transfer on death deed. Getting this right first keeps the sale from stalling later.</p>
-      <h3 style="margin-top: var(--space-6);">2. Protect the house</h3>
-      <p>Vacant homes need attention. I'll help you check the insurance, keep the utilities on, secure the property and keep an eye on it so nothing goes wrong while the family sorts things out.</p>
-      <h3 style="margin-top: var(--space-6);">3. Sort the belongings</h3>
-      <p>Family first, then an estate sale company, donations and a final clean out. I'll help you line up the right people and the order of operations so it doesn't drag on for months.</p>
-      <h3 style="margin-top: var(--space-6);">4. Decide: fix up or sell as is</h3>
-      <p>I'll walk the house with you and give you two honest numbers: what it could sell for as is, and what it could sell for after a short list of fixes, with conservative costs for each. You choose what makes sense for the estate.</p>
-      <figure style="margin: var(--space-5) 0;"><img src="../assets/estate/as-is-vs-prep.jpg" alt="Side by side comparison of a home listed as is and a home prepared before listing" loading="lazy" style="width: 100%; height: auto; display: block;"><figcaption style="font-size: 13px; color: var(--color-neutral-600); margin-top: 8px;">Two different homes, shown to illustrate the choice.</figcaption></figure>
-      <h3 style="margin-top: var(--space-6);">5. Price it off real sales</h3>
-      <p>I build the price from what actually sold nearby, and I show every heir the comps behind it, so the number isn't something anyone has to take on faith.</p>
-      <h3 style="margin-top: var(--space-6);">6. Sell and close</h3>
-      <p>Photos, marketing, showings and negotiation, then I manage inspection, escrow and signing, including remote signing for family out of the area, all the way to closing.</p>
-
-
-
-      <h2 id="results" style="margin-top: var(--space-8);">Estate homes I've sold</h2>
-      <p>In 2026 I sold eight homes for one family's estate, from Everett down to Federal Way, about $6.95 million in all. Every house needed something different. Here's what I recommended on each one and how it turned out.</p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-4); margin-top: var(--space-5);">
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/asis-bothell.jpg" alt="Bothell rambler with a two car garage, marketed as a flip opportunity" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: left center; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Bothell</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">Priced right, two offers in days</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">A dated rambler we marketed honestly as a fixer. Two offers came in within days, both with no inspection contingency. I laid them side by side for the executor, and the stronger one escalated and covered part of any low appraisal.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $695,000. Sold $750,000.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/federal-way-3713-front.jpg" alt="Blue split level Federal Way home with a two car garage, photographed as listed" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Federal Way</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">A straight answer on the numbers</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">A fixer with real siding concerns. I walked the executor through what a full renovation would cost against what the house could resell for, so we knew exactly what an investor could pay. Buyers competed for it.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $399,000. Sold $454,500.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/asis-cottage.jpg" alt="Older gray cottage with a dry front lawn, photographed as listed" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Everett</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">Sold as is, four days to an offer</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">No remodel, no long prep. We priced it for what it was, a solid house with two separate living areas, each with its own entrance, and let buyers decide how they'd use it. The first offer came in four days.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $499,950. Sold $535,000.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/../redmond/front.jpg" alt="Redmond rambler after new lawn, garden beds and fresh exterior paint" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Redmond</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">One showing, one offer</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">The outside was working against it: wood chips instead of a lawn, tired paint, dirty windows. We put in a lawn and garden bed, added parking and painted it a color that sells in that price range. One showing, one full price offer the night it listed, with the inspection waived. Two days before closing, the buyer's lender couldn't allow a $6,000 credit, so that amount came off the price instead.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $1,275,000. Full price offer the first night. Final sale price $1,269,000.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/splitlevel-front.jpg" alt="White split level home with black garage doors at dusk" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Kirkland</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">Fix the one big item, keep the receipts</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">The pre inspection found a gas leak at the water heater. We fixed it properly, kept the receipts for buyers to see, and cleaned up the rest of the report: deck ledger, railings, garage fire wall, outlets.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $1,295,000. Sold $1,300,000.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/redmond/rambler-2-front.jpg" alt="Dark gray Redmond rambler with a two car garage at dusk" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Redmond</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">Fix what scares buyers, skip the rest</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">I went through the pre inspection report and picked only what was likely to worry a buyer: electrical, small plumbing leaks and a capped vent. Each fix was keyed to the report so buyers could see it was handled.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Sold $1,325,000.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/renton-12604-front.jpg" alt="Dark gray Renton rambler with a two car garage and a wide front lawn at dusk" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Renton</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">A handyman list, not a remodel</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">All nine items were things a handyman could fix in a couple of days, from a loose gutter to a water heater expansion tank the appraiser would have flagged. Every item was marked fixed on the report before we listed.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Listed $695,000. Sold $695,000.</p>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-divider); background: #fff; display: flex; flex-direction: column;">
-          <img src="../assets/estate/renton-14009-front.jpg" alt="Light gray Renton home with a single car garage at dusk" loading="lazy" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;">
-          <div style="padding: var(--space-4) var(--space-5) var(--space-5);">
-            <div class="kicker" style="margin-bottom: var(--space-2);">Renton</div>
-            <h3 style="margin: 0 0 var(--space-2); font-size: 20px;">Honest advice when the market slowed</h3>
-            <p style="font-size: 15px; margin: 0 0 var(--space-3);">We updated the house and showed buyers every improvement with a flyer and cards in each room. When the market slowed, with inventory in that price range up 120% from a year earlier, I laid out three options and the risk of each before the executor decided.</p>
-            <p style="font-size: 15px; margin: 0; font-weight: 500;">Sold $625,000.</p>
-          </div>
-        </div>
-      </div>
-
-
-      <h2 id="guides" style="margin-top: var(--space-8);">Guides for families</h2>
-      <p>Plain answers to the questions families ask me most, written for Washington.</p>
-      <h3 style="margin-top: var(--space-6);">Getting started</h3>
-      <div style="display: grid; gap: var(--space-3);">
-        <a href="../blog/selling-an-inherited-home-on-the-eastside-where-to-start/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling an Inherited Home on the Eastside: Where to Start</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">Who can sign, protecting the house, belongings, fix up or sell as is, and the first tax questions to ask.</span></a>
-        <a href="../blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling a House in Probate in Washington: How the Timeline Works</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">The order of events when selling a house in probate in Washington: letters, nonintervention powers, court approval, the creditor window, and listing vs closing.</span></a>
-        <a href="../blog/selling-a-parents-home-in-bellevue-checklist/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling a Parent's Home in Bellevue: A Checklist for Families</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">A checklist for selling a parent's Bellevue home: papers to gather, who can sign, power of attorney basics, Bellevue utilities, prep, pricing and family talks.</span></a>
-      </div>
-      <h3 style="margin-top: var(--space-6);">Making the big decisions</h3>
-      <div style="display: grid; gap: var(--space-3);">
-        <a href="../blog/sell-rent-or-keep-an-inherited-house-in-king-county/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Sell, Rent or Keep an Inherited House in King County?</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">Inherited a house in King County? Compare selling, renting and keeping it: carrying costs, Washington landlord rules, co owner disagreements and CPA questions.</span></a>
-        <a href="../blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Clearing Out a Family Home Before You Sell on the Eastside</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">How to clear out a family home before selling on the Eastside: what to do first, papers to find, what to keep, estate sale vs donation, and keeping it safe.</span></a>
-        <a href="../blog/selling-a-home-after-a-parent-moves-to-assisted-living/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling a Home After a Parent Moves to Assisted Living</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">Selling a parent's home after a move to assisted living: timing the sale, power of attorney and trust basics, insuring an empty house, and the emotional side.</span></a>
-      </div>
-      <h3 style="margin-top: var(--space-6);">By county</h3>
-      <div style="display: grid; gap: var(--space-3);">
-        <a href="../blog/selling-a-probate-home-in-king-county/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling a Probate Home in King County: What Families Should Know</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">Selling a probate home in King County: where cases are heard, septic rules at sale, property tax basics, and how the Eastside, Seattle and south county differ.</span></a>
-        <a href="../blog/selling-an-inherited-home-in-snohomish-county-everett-to-bothell/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling an Inherited Home in Snohomish County: Everett to Bothell</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">Inherited a house in Everett, Lynnwood or Bothell? The new Snohomish County septic sale rule, where probate is filed, and what to check by area before you list.</span></a>
-        <a href="../blog/selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup/" style="display: block; padding: var(--space-4) var(--space-5); border: 1px solid var(--color-divider); text-decoration: none; color: inherit;"><span style="display: block; font-size: 18px; margin-bottom: 4px;">Selling an Inherited Home in Pierce County: Tacoma and Puyallup</span><span style="display: block; font-size: 14px; color: var(--color-neutral-600);">Inherited a house in Tacoma or Puyallup but live far away? Pierce County probate, the septic Report of System Status, and how to run the sale from a distance.</span></a>
-      </div>
-
-      <h2 id="basics" style="margin-top: var(--space-8);">Washington basics worth knowing</h2>
-      <p>I'm not an attorney or a CPA, and every estate is different, so your attorney and CPA have the final word. These are the basics families ask me about most:</p>
-      <ul>
-        <li><strong>Nonintervention powers.</strong> When the court grants them, the personal representative can sell estate property without a court order (RCW 11.68.090).</li>
-        <li><strong>Transfer on death deeds.</strong> If the owner recorded one, the home passes to the named beneficiary outside of probate.</li>
-        <li><strong>Excise tax.</strong> Inheriting a home is not subject to Washington's real estate excise tax, but a sale from an heir to an outside buyer is (WAC 458-61A-202).</li>
-        <li><strong>Tax basis.</strong> The IRS generally uses the home's fair market value on the date of death as the basis for inherited property.</li>
-      </ul>
-      <p style="font-size: 13px; color: var(--color-neutral-600);">Sources: <a href="https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090" target="_blank" rel="noopener">RCW 11.68.090</a>, <a href="https://www.law.cornell.edu/regulations/washington/WAC-458-61A-202" target="_blank" rel="noopener">WAC 458-61A-202</a>, <a href="https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances/gifts-inheritances" target="_blank" rel="noopener">IRS: Gifts and inheritances</a>, <a href="https://kcll.org/from-the-director-october-2023/" target="_blank" rel="noopener">King County Law Library on transfer on death deeds</a>. This page is general information, not legal or tax advice.</p>
-
-      <h2 id="questions" style="margin-top: var(--space-8);">Common questions</h2>
-      <h3 style="margin-top: var(--space-6);">Who can sign to sell a home that is part of an estate?</h3>
-      <p>Usually the personal representative named by the court, sometimes called the executor. If the home was in a trust, the trustee signs, and if the owner recorded a transfer on death deed, the home goes to the named beneficiary outside of probate. Your estate attorney will confirm who has the authority, and I'll work around that from day one.</p>
-      <h3 style="margin-top: var(--space-6);">Do we need a judge to approve the sale in Washington?</h3>
-      <p>Often not. When the court grants the personal representative nonintervention powers, Washington law lets them sell estate property without a court order. Your attorney will know whether you have those powers.</p>
-      <h3 style="margin-top: var(--space-6);">Should we fix the house up or sell it as is?</h3>
-      <p>It depends on the house and on what the family wants. I'll walk through it with you and price both options: a short list of fixes that usually pay for themselves, or selling as is. Some families want the fastest, simplest path, and that's a fine choice too.</p>
-      <h3 style="margin-top: var(--space-6);">What do we do with everything inside?</h3>
-      <p>Start with what the family wants to keep, then decide on the rest. An estate sale company can sell furniture and belongings, and whatever is left can be donated or hauled away. I can connect you with people my clients have liked and help you line up the timing so the house is ready to list.</p>
-      <h3 style="margin-top: var(--space-6);">Can you help if we live out of state?</h3>
-      <p>Yes. A lot of families I talk to don't live nearby. I can check on the house, meet contractors and vendors, send photos and video updates, and set up signing so everyone can sign from where they are.</p>
-      <h3 style="margin-top: var(--space-6);">What will the sale mean for taxes?</h3>
-      <p>That is a question for your CPA, but here is the basic idea. The IRS generally sets the basis of inherited property at its fair market value on the date of death, and Washington's real estate excise tax does not apply to the inheritance itself. A sale from an heir to an outside buyer is taxable. I can pull what similar homes sold for around the date of death to help that conversation.</p>
-
-      <h2 id="about-jack" style="margin-top: var(--space-8);">About me</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-6); align-items: start; margin-top: var(--space-4);">
-        <img src="../assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy" style="width: 100%; max-width: 360px; height: auto; display: block;">
+    <section class="ih-sec">
+      <div class="ih-wrap ih-intro">
         <div>
-          <p style="margin-top: 0;">I'm Jack Macdonald, a broker with the Macdonald Group of Compass. I'm a second generation broker, so I grew up around this business long before I got my license.</p>
-          <p>Estate sales are a big part of what I do. In 2026 alone I sold eight homes for one estate, each one with its own plan: some sold as is, some with a short list of repairs, one with a full curb appeal makeover. What they had in common was one point of contact for the executor and clear numbers before every decision.</p>
-          <p>I'm not an attorney or a CPA, and I don't give legal or tax advice. I handle the house, and I work alongside your attorney and CPA so nothing falls through the cracks.</p>
-          <p><a href="../about/">More about me</a></p>
+          <p class="lead">When a parent passes or moves into care, selling the house isn't a normal sale. There are usually a few family members involved, more paperwork, a house full of belongings and a lot of emotion.</p>
+          <p>I can take as much off your plate as you want, from the first walk through to the closing table, and I'll keep everyone in the family and your attorney in the loop.</p>
+          <div class="ih-btns">
+            <a href="tel:4259416998" class="btn btn-primary">Call or text (425) 941-6998</a>
+            <a href="#contact" class="btn btn-secondary">Ask a question</a>
+          </div>
+          <div class="ih-area" id="area">Everett to Tacoma &middot; King, Snohomish &amp; Pierce counties<br>Many families I help live out of state</div>
+        </div>
+        <img src="../assets/estate/rambler-deck.jpg" alt="Back deck with string lights at dusk on a refreshed Eastside rambler">
+      </div>
+    </section>
+
+    <section class="ih-sec ih-grey">
+      <div class="ih-wrap ih-quote">
+        <blockquote>&ldquo;People don't understand how much of a responsibility being an executor is until they're in it.&rdquo;</blockquote>
+        <p>You're handling the house, the paperwork, the family and your own grief, often all at once and often from out of town. My job is to take the house part off your plate and make it simple.</p>
+      </div>
+    </section>
+
+    <section class="ih-sec" id="who">
+      <div class="ih-wrap">
+        <div class="ih-head"><h6>Who I help</h6><h2>Where families usually are when they call</h2></div>
+        <div class="ih-grid3">
+          <div class="ih-item"><h3>Executors</h3><p>Personal representatives who need the house sold well, on a clear timeline, with paperwork their attorney can follow.</p></div>
+          <div class="ih-item"><h3>Heirs &amp; siblings</h3><p>One person keeping everyone updated, especially when not everyone lives nearby or agrees on the plan.</p></div>
+          <div class="ih-item"><h3>A parent moving</h3><p>Into assisted living or in with family, where the sale needs to line up with the move and the cost of care.</p></div>
+          <div class="ih-item"><h3>A house that needs work</h3><p>Where the question is whether to put money in or sell it as it stands.</p></div>
+          <div class="ih-item"><h3>Sell, rent or keep</h3><p>Families who want real numbers before anyone commits.</p></div>
+          <div class="ih-item"><h3>Attorneys &amp; advisors</h3><p>Estate attorneys, trustees and financial advisors who want a local agent they can trust to communicate.</p></div>
         </div>
       </div>
+    </section>
 
-      <div id="contact" class="card" style="padding: var(--space-6); margin: var(--space-8) 0 var(--space-6);">
-        <h2 style="margin-top: 0;">Not sure what to do with an inherited home?</h2>
-        <p>Tell me a little about the house and where things stand. I'm happy to walk you through your options and what the home might be worth, even if you're not ready to sell. Or call or text me at <a href="tel:4259416998">(425) 941-6998</a>.</p>
-        <form name="contact" method="POST" data-netlify="true" action="/thanks/" style="display: grid; gap: var(--space-3); margin-top: var(--space-4);">
+    <section class="ih-sec ih-grey" id="process">
+      <div class="ih-wrap">
+        <div class="ih-head"><h6>How it works</h6><h2>How an estate sale works</h2></div>
+        <div class="ih-grid3">
+          <div class="ih-item"><div class="ih-num">01</div><h3>Confirm who can sign</h3><p>We confirm with your attorney who has authority to sell: a personal representative, a trustee, or a beneficiary on a transfer on death deed.</p></div>
+          <div class="ih-item"><div class="ih-num">02</div><h3>Protect the house</h3><p>Insurance, utilities, security and regular check ins, so nothing goes wrong while the family sorts things out.</p></div>
+          <div class="ih-item"><div class="ih-num">03</div><h3>Sort the belongings</h3><p>Family first, then an estate sale company, donations and a final clean out, lined up so it doesn't drag on for months.</p></div>
+          <div class="ih-item"><div class="ih-num">04</div><h3>Fix up or sell as is</h3><p>Two honest numbers: as is, and after a short list of fixes with conservative costs. You choose what makes sense for the estate.</p></div>
+          <div class="ih-item"><div class="ih-num">05</div><h3>Price off real sales</h3><p>The price comes from what actually sold nearby, and every heir sees the comps behind it.</p></div>
+          <div class="ih-item"><div class="ih-num">06</div><h3>Sell &amp; close</h3><p>Photos, marketing, showings and negotiation, then inspection, escrow and remote signing for family out of the area.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ih-sec" id="results">
+      <div class="ih-wrap">
+        <div class="ih-head"><h6>Recent estate sales</h6><h2>Eight homes, one family's estate</h2><p>In 2026 I sold eight homes for one estate, from Everett to Federal Way, about $6.95 million in all. Each house had its own plan.</p></div>
+        <div class="ih-sales">
+          <div class="ih-sale"><img src="../assets/estate/asis-bothell.jpg" alt="Bothell rambler marketed as a fixer" loading="lazy" style="object-position:left center"><div class="city">Bothell</div><p>Marketed honestly as a fixer. Two offers within days, no inspection contingency.</p><div class="px">Listed $695,000 &middot; Sold $750,000</div></div>
+          <div class="ih-sale"><img src="../assets/estate/federal-way-3713-front.jpg" alt="Federal Way split level home" loading="lazy"><div class="city">Federal Way</div><p>Showed the executor exactly what an investor could pay. Buyers competed for it.</p><div class="px">Listed $399,000 &middot; Sold $454,500</div></div>
+          <div class="ih-sale"><img src="../assets/estate/asis-cottage.jpg" alt="Everett cottage sold as is" loading="lazy"><div class="city">Everett</div><p>Sold as is, priced for what it was. First offer in four days.</p><div class="px">Listed $499,950 &middot; Sold $535,000</div></div>
+          <div class="ih-sale"><img src="../assets/redmond/front.jpg" alt="Redmond rambler after curb appeal work" loading="lazy"><div class="city">Redmond</div><p>New lawn, garden beds and paint. Full price offer the first night.</p><div class="px">Listed $1,275,000 &middot; Sold $1,269,000</div></div>
+          <div class="ih-sale"><img src="../assets/estate/splitlevel-front.jpg" alt="Kirkland split level home at dusk" loading="lazy"><div class="city">Kirkland</div><p>Fixed the one big inspection item properly and kept the receipts for buyers.</p><div class="px">Listed $1,295,000 &middot; Sold $1,300,000</div></div>
+          <div class="ih-sale"><img src="../assets/redmond/rambler-2-front.jpg" alt="Redmond rambler at dusk" loading="lazy"><div class="city">Redmond</div><p>Fixed only what would worry a buyer and skipped the rest.</p><div class="px">Sold $1,325,000</div></div>
+          <div class="ih-sale"><img src="../assets/estate/renton-12604-front.jpg" alt="Renton rambler at dusk" loading="lazy"><div class="city">Renton</div><p>A handyman list, not a remodel. Nine items done in a couple of days.</p><div class="px">Listed $695,000 &middot; Sold $695,000</div></div>
+          <div class="ih-sale"><img src="../assets/estate/renton-14009-front.jpg" alt="Renton home at dusk" loading="lazy"><div class="city">Renton</div><p>When the market slowed, three clear options and the risk of each.</p><div class="px">Sold $625,000</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ih-sec ih-grey" id="guides">
+      <div class="ih-wrap">
+        <div class="ih-head"><h6>Guides</h6><h2>Plain answers for Washington families</h2></div>
+        <div class="ih-grid3 ih-guides">
+          <div><h3>Getting started</h3>
+            <a href="../blog/selling-an-inherited-home-on-the-eastside-where-to-start/">Selling an Inherited Home on the Eastside: Where to Start</a>
+            <a href="../blog/selling-a-house-in-probate-in-washington-how-the-timeline-works/">Selling a House in Probate in Washington: How the Timeline Works</a>
+            <a href="../blog/selling-a-parents-home-in-bellevue-checklist/">Selling a Parent's Home in Bellevue: A Checklist for Families</a>
+          </div>
+          <div><h3>Big decisions</h3>
+            <a href="../blog/sell-rent-or-keep-an-inherited-house-in-king-county/">Sell, Rent or Keep an Inherited House in King County?</a>
+            <a href="../blog/clearing-out-a-family-home-before-you-sell-on-the-eastside/">Clearing Out a Family Home Before You Sell on the Eastside</a>
+            <a href="../blog/selling-a-home-after-a-parent-moves-to-assisted-living/">Selling a Home After a Parent Moves to Assisted Living</a>
+          </div>
+          <div><h3>By county</h3>
+            <a href="../blog/selling-a-probate-home-in-king-county/">Selling a Probate Home in King County</a>
+            <a href="../blog/selling-an-inherited-home-in-snohomish-county-everett-to-bothell/">Selling an Inherited Home in Snohomish County</a>
+            <a href="../blog/selling-an-inherited-home-in-pierce-county-tacoma-and-puyallup/">Selling an Inherited Home in Pierce County</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ih-sec" id="questions">
+      <div class="ih-wrap">
+        <div class="ih-head"><h6>Questions</h6><h2>Common questions</h2></div>
+        <div class="ih-faq">
+          <details><summary>Who can sign to sell a home that is part of an estate?</summary><p>Usually the personal representative named by the court, sometimes called the executor. If the home was in a trust, the trustee signs, and if the owner recorded a transfer on death deed, the home goes to the named beneficiary outside of probate. Your estate attorney will confirm who has the authority, and I'll work around that from day one.</p></details>
+          <details><summary>Do we need a judge to approve the sale in Washington?</summary><p>Often not. When the court grants the personal representative nonintervention powers, Washington law lets them sell estate property without a court order. Your attorney will know whether you have those powers.</p></details>
+          <details><summary>Should we fix the house up or sell it as is?</summary><p>It depends on the house and on what the family wants. I'll walk through it with you and price both options: a short list of fixes that usually pay for themselves, or selling as is. Some families want the fastest, simplest path, and that's a fine choice too.</p></details>
+          <details><summary>What do we do with everything inside?</summary><p>Start with what the family wants to keep, then decide on the rest. An estate sale company can sell furniture and belongings, and whatever is left can be donated or hauled away. I can connect you with people my clients have liked and help you line up the timing so the house is ready to list.</p></details>
+          <details><summary>Can you help if we live out of state?</summary><p>Yes. A lot of families I talk to don't live nearby. I can check on the house, meet contractors and vendors, send photos and video updates, and set up signing so everyone can sign from where they are.</p></details>
+          <details><summary>What will the sale mean for taxes?</summary><p>That is a question for your CPA, but here is the basic idea. The IRS generally sets the basis of inherited property at its fair market value on the date of death, and Washington's real estate excise tax does not apply to the inheritance itself. A sale from an heir to an outside buyer is taxable. I can pull what similar homes sold for around the date of death to help that conversation.</p></details>
+          <details id="basics"><summary>Washington basics worth knowing</summary>
+            <div class="ih-basics">
+              <p><strong>Nonintervention powers.</strong> When the court grants them, the personal representative can sell estate property without a court order (RCW 11.68.090).</p>
+              <p><strong>Transfer on death deeds.</strong> If the owner recorded one, the home passes to the named beneficiary outside of probate.</p>
+              <p><strong>Excise tax.</strong> Inheriting a home is not subject to Washington's real estate excise tax, but a sale from an heir to an outside buyer is (WAC 458-61A-202).</p>
+              <p><strong>Tax basis.</strong> The IRS generally uses the home's fair market value on the date of death as the basis for inherited property.</p>
+            </div>
+            <p class="ih-small">Sources: <a href="https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.090" target="_blank" rel="noopener">RCW 11.68.090</a>, <a href="https://www.law.cornell.edu/regulations/washington/WAC-458-61A-202" target="_blank" rel="noopener">WAC 458-61A-202</a>, <a href="https://www.irs.gov/faqs/interest-dividends-other-types-of-income/gifts-inheritances/gifts-inheritances" target="_blank" rel="noopener">IRS: Gifts and inheritances</a>, <a href="https://kcll.org/from-the-director-october-2023/" target="_blank" rel="noopener">King County Law Library</a>.</p>
+          </details>
+          <p class="ih-small">I'm not an attorney or a CPA, and every estate is different, so your attorney and CPA have the final word. This page is general information, not legal or tax advice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ih-sec ih-grey" id="about-jack">
+      <div class="ih-wrap ih-about">
+        <img src="../assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy">
+        <div>
+          <h6 style="font-size: 11px;">About me</h6>
+          <p>I'm Jack Macdonald, a broker with the Macdonald Group of Compass. I'm a second generation broker, so I grew up around this business long before I got my license.</p>
+          <p>Estate sales are a big part of what I do. What every sale has in common is one point of contact for the executor and clear numbers before every decision.</p>
+          <p>I handle the house, and I work alongside your attorney and CPA so nothing falls through the cracks.</p>
+          <a href="../about/" class="btn btn-ghost" style="padding-left: 0;">More about me &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ih-sec" id="contact">
+      <div class="ih-wrap ih-contact">
+        <div>
+          <h6 style="font-size: 11px;">Contact</h6>
+          <h2>Not sure what to do with an inherited home?</h2>
+          <p>Tell me a little about the house and where things stand. I'm happy to walk you through your options and what the home might be worth, even if you're not ready to sell.</p>
+          <p>Or call or text me at <a href="tel:4259416998">(425) 941-6998</a>.</p>
+        </div>
+        <form name="contact" method="POST" data-netlify="true" action="/thanks/" style="display: grid; gap: var(--space-3);">
           <input type="hidden" name="form-name" value="contact">
           <div class="field"><label for="e-name">Name</label><input class="input" id="e-name" name="name" autocomplete="name" required></div>
           <div class="field"><label for="e-email">Email</label><input class="input" id="e-email" name="email" type="email" autocomplete="email"></div>
@@ -329,8 +311,11 @@
           <button type="submit" class="btn btn-primary">Send</button>
         </form>
       </div>
-      <div style="margin: 0 0 120px; padding: var(--space-6); border: 1px solid var(--color-divider); font-size: 15px; line-height: 1.65;">
-        <div class="kicker" style="margin-bottom: var(--space-4);">Trusted local partner</div>
+    </section>
+
+    <section class="ih-sec ih-grey" style="padding-bottom: 120px;">
+      <div class="ih-partner">
+<div class="kicker" style="margin-bottom: var(--space-4);">Trusted local partner</div>
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4); margin-bottom: var(--space-4);">
 <a href="https://www.geverswealth.com/" target="_blank" rel="noopener" style="display: inline-block; line-height: 0;"><img src="https://static.fmgsuite.com/media/EmailDesignLogo/variantSize/872ad0a1-b36b-4196-8a54-c759d7002ce2.jpg" alt="Gevers Wealth Management logo" style="display: block; max-height: 64px; max-width: 260px; width: auto; height: auto;" onerror="this.parentNode.style.display='none'"></a>
 <div>
@@ -349,7 +334,6 @@
 </div>
 <p style="margin: var(--space-5) 0 0; font-size: 12px; line-height: 1.6; color: var(--color-neutral-600);">Investment advisory services are offered through Gevers Wealth Management, LLC, an SEC registered investment adviser. Gevers Wealth Management is independent and not affiliated with Compass or the Macdonald Group. This is a personal referral, not financial, tax or legal advice.</p>
       </div>
-
     </section>
 
   <footer style="background: var(--color-neutral-900); color: var(--color-neutral-300); padding: var(--space-8) var(--space-6) var(--space-6);">
