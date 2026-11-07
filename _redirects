@@ -3,3 +3,6 @@
 /{{*       /   301!
 # Truncated link Google found on Sep 29, 2026
 /mo        /market-reports/   301
+# The Why page is parked until the videos are ready (2026-11-06)
+/about/why/*  /about/  302!
+/about/why    /about/  302!
