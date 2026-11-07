@@ -109,91 +109,34 @@
     </div>
   </div>
 
-    <section style="position: relative; padding: 160px var(--space-6) var(--space-8); text-align: center; overflow: hidden;">
-      <img src="https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85/https://media-production.lp-cdn.com/media/9ee492b0-18a3-42ea-919d-38ee41749424" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
-      <div style="position: absolute; inset: 0; background: rgba(20,19,17,0.72);"></div>
-      <div style="position: relative;">
-        <img src="../assets/mg-logo-vert-white.png" alt="Macdonald Group" style="height: 48px; width: auto; margin: 0 auto var(--space-4); display: block;">
-        <h6 style="color: var(--color-neutral-400);">The Team</h6>
-        <h1 class="fade-up" style="margin-top: var(--space-2); color: #fdfdfc;">Meet the Macdonald Group</h1>
+    <style>
+      .tm-head{padding:130px 24px 40px;text-align:center}
+      .tm-head h1{margin:0;font-size:clamp(30px,4vw,44px)}
+      .tm-band{background:#e6e5e3;padding:80px 24px 90px}
+      .tm-grid{max-width:900px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:56px 40px}
+      .tm-card{position:relative;width:250px;padding-bottom:44px}
+      .tm-card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;display:block}
+      .tm-label{position:absolute;left:36px;right:-14px;bottom:0;background:#fff;padding:14px 18px}
+      .tm-name{font-family:var(--font-heading);font-size:17px;letter-spacing:.04em;text-transform:uppercase;color:#1a1a1a;line-height:1.3}
+      .tm-role{font-size:13px;color:#555;margin-top:4px}
+      @media(max-width:600px){.tm-head{padding:120px 20px 32px}.tm-band{padding:48px 16px 60px}.tm-grid{gap:40px 16px}.tm-card{width:calc(50% - 8px);padding-bottom:52px}.tm-label{left:12px;right:-6px;padding:10px 12px}.tm-name{font-size:13px}.tm-role{font-size:11.5px}}
+    </style>
+    <section class="tm-head">
+      <h6 style="font-size: 11px;">The Team</h6>
+      <h1>Meet the Macdonald Group</h1>
+    </section>
+
+    <section class="tm-band">
+      <div class="tm-grid">
+        <div class="tm-card"><img src="/assets/jack-team-photo.jpg" alt="Jack Macdonald" loading="lazy"><div class="tm-label"><div class="tm-name">Jack Macdonald</div><div class="tm-role">Broker</div></div></div>
+        <div class="tm-card"><img src="/assets/stephen-team-photo.jpg" alt="Stephen Macdonald" loading="lazy"><div class="tm-label"><div class="tm-name">Stephen Macdonald</div><div class="tm-role">Broker</div></div></div>
+        <div class="tm-card"><img src="/assets/april-team-photo.jpg" alt="April Macdonald" loading="lazy"><div class="tm-label"><div class="tm-name">April Macdonald</div><div class="tm-role">House Prep Specialist</div></div></div>
+        <div class="tm-card"><img src="/assets/jaelyn-team-photo.jpg" alt="Jaelyn Krafsky" loading="lazy"><div class="tm-label"><div class="tm-name">Jaelyn Krafsky</div><div class="tm-role">Executive Assistant</div></div></div>
+        <div class="tm-card"><img src="/assets/hannah-team-photo.jpg" alt="Hannah Holser" loading="lazy"><div class="tm-label"><div class="tm-name">Hannah Holser</div><div class="tm-role">Intern / Broker</div></div></div>
       </div>
     </section>
 
-    <section class="split-grid" style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-8); align-items: center;">
-      <figure class="plate" style="margin: 0;">
-        <img src="../assets/team-group-photo.jpg" alt="The Macdonald Group team" style="width: 100%; display: block;">
-      </figure>
-      <p>We combine decades of real estate experience with strategic marketing and concierge-level service to help clients succeed across Seattle and the Eastside. From first walkthrough to closing day, we're by your side with clear guidance and a plan built around your goals.</p>
-    </section>
-
-    <section style="max-width: 1000px; margin: 0 auto; padding: 0 var(--space-6) var(--space-8);">
-      <h6 style="text-align: center; margin-bottom: var(--space-6);">The Brokers</h6>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: var(--space-8);">
-        <div style="text-align: center;">
-          <figure class="plate" style="margin: 0 0 var(--space-4);">
-            <img src="../assets/jack-team-photo.jpg" alt="Jack Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
-          </figure>
-          <div class="card-title" style="font-size: 19px;">Jack Macdonald</div>
-          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Broker</span><br>
-          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
-        </div>
-        <div style="text-align: center;">
-          <figure class="plate" style="margin: 0 0 var(--space-4);">
-            <img src="../assets/stephen-team-photo.jpg" alt="Stephen Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
-          </figure>
-          <div class="card-title" style="font-size: 19px;">Stephen Macdonald</div>
-          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Broker</span><br>
-          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
-        </div>
-        <div style="text-align: center;">
-          <figure class="plate" style="margin: 0 0 var(--space-4);">
-            <img src="../assets/april-team-photo.jpg" alt="April Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
-          </figure>
-          <div class="card-title" style="font-size: 19px;">April Macdonald</div>
-          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">House Prep Specialist</span><br>
-          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
-        </div>
-        <div style="text-align: center;">
-          <figure class="plate" style="margin: 0 0 var(--space-4);">
-            <img src="../assets/jaelyn-team-photo.jpg" alt="Jaelyn Krafsky" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
-          </figure>
-          <div class="card-title" style="font-size: 19px;">Jaelyn Krafsky</div>
-          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Executive Assistant</span><br>
-          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
-        </div>
-        <div style="text-align: center;">
-          <figure class="plate" style="margin: 0 0 var(--space-4);">
-            <img src="../assets/hannah-team-photo.jpg" alt="Hannah Holser" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
-          </figure>
-          <div class="card-title" style="font-size: 19px;">Hannah Holser</div>
-          <span class="tag tag-outline" style="margin: 4px 0 var(--space-3); display: inline-block;">Intern / Broker</span><br>
-          <a href="../contact/" class="btn btn-ghost" style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">Learn More &rarr;</a>
-        </div>
-      </div>
-    </section>
-
-    <div class="hr" style="max-width: 1300px; margin-left: auto; margin-right: auto;"></div>
-
-    <section style="max-width: 1200px; margin: 0 auto; padding: var(--space-8) var(--space-6);">
-      <h6 style="text-align: center;">What Clients Say</h6>
-      <h2 style="text-align: center; margin: var(--space-2) 0 var(--space-8);">Success Stories</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: var(--space-4);">
-        <div class="card">
-          <p class="card-body" style="font-style: italic;">&ldquo;When the house had little activity in the first two weeks, Jack didn&rsquo;t just wait it out. He brought photographers back for a second round of photos and refreshed the listing, and the house sold within a month.&rdquo;</p>
-          <div class="card-meta" style="margin-top: var(--space-2);">Richard W., sold in Bothell</div>
-        </div>
-        <div class="card">
-          <p class="card-body" style="font-style: italic;">&ldquo;He gave us practical advice about preparing and pricing the house, explained everything clearly, and kept us updated throughout the process. We never felt pressured or left wondering what was happening.&rdquo;</p>
-          <div class="card-meta" style="margin-top: var(--space-2);">Caleb H., sold in Bellevue</div>
-        </div>
-        <div class="card">
-          <p class="card-body" style="font-style: italic;">&ldquo;He helped my mom sell her house in Bellevue and was incredible from beginning to end. He was super knowledgeable, and made what could have been a stressful process feel so easy.&rdquo;</p>
-          <div class="card-meta" style="margin-top: var(--space-2);">Ruben J., sold in Bellevue</div>
-        </div>
-      </div>
-    </section>
-
-    <section style="max-width: 900px; margin: 0 auto; padding: var(--space-4) var(--space-6) var(--space-8); text-align: center;">
+    <section style="max-width: 900px; margin: 0 auto; padding: calc(var(--space-8) * 1.2) var(--space-6) var(--space-8); text-align: center;">
       <h2 style="margin: 0 0 var(--space-2);">Our Mission is Simple</h2>
       <p style="max-width: 560px; margin: 0 auto var(--space-6);">To make your real estate experience feel effortless &mdash; and even enjoyable &mdash; every step of the way.</p>
       <a href="../contact/" class="btn btn-primary">Get In Touch</a>
