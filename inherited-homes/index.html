@@ -162,6 +162,9 @@
       .ih-contact{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
       .ih-contact h2{margin:12px 0 18px;font-size:clamp(26px,3.2vw,36px)}
       .ih-contact p{line-height:1.8}
+      .ih-me{display:flex;gap:20px;align-items:center;margin:8px 0 22px;padding:18px 0;border-top:1px solid #e4e4e3;border-bottom:1px solid #e4e4e3}
+      .ih-me img{width:96px;height:120px;object-fit:cover;flex:none;display:block}
+      .ih-me p{margin:0;font-size:15px;line-height:1.7}
       .ih-partner{max-width:820px;margin:0 auto;font-size:15px;line-height:1.65}
       @media(max-width:900px){.ih-sales{grid-template-columns:repeat(2,1fr)}}
       @media(max-width:760px){.ih-sec{padding:64px 0}.ih-intro,.ih-about,.ih-contact{grid-template-columns:1fr;gap:36px}.ih-grid3{grid-template-columns:1fr;gap:36px}.ih-basics{grid-template-columns:1fr}.ih-head{margin-bottom:40px}}
@@ -280,24 +283,12 @@
       </div>
     </section>
 
-    <section class="ih-sec ih-grey" id="about-jack">
-      <div class="ih-wrap ih-about">
-        <img src="../assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy">
-        <div>
-          <h6 style="font-size: 11px;">About me</h6>
-          <p>I'm Jack Macdonald, a broker with the Macdonald Group of Compass. I'm a second generation broker, so I grew up around this business long before I got my license.</p>
-          <p>Estate sales are a big part of what I do. What every sale has in common is one point of contact for the executor and clear numbers before every decision.</p>
-          <p>I handle the house, and I work alongside your attorney and CPA so nothing falls through the cracks.</p>
-          <a href="../about/" class="btn btn-ghost" style="padding-left: 0;">More about me &rarr;</a>
-        </div>
-      </div>
-    </section>
-
     <section class="ih-sec" id="contact">
       <div class="ih-wrap ih-contact">
-        <div>
+        <div id="about-jack">
           <h6 style="font-size: 11px;">Contact</h6>
           <h2>Not sure what to do with an inherited home?</h2>
+          <div class="ih-me"><img src="../assets/estate/jack-headshot-720.jpg" alt="Jack Macdonald, Compass real estate broker" loading="lazy"><p>I'm Jack Macdonald, a second-generation broker with the Macdonald Group of Compass. I handle the house, work alongside your attorney and CPA, and you'll always have one point of contact.</p></div>
           <p>Tell me a little about the house and where things stand. I'm happy to walk you through your options and what the home might be worth, even if you're not ready to sell.</p>
           <p>Or call or text me at <a href="tel:4259416998">(425) 941-6998</a>.</p>
         </div>
