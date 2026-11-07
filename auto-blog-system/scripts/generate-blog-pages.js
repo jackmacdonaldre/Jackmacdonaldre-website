@@ -171,7 +171,7 @@ function moreAboutBox(post, all) {
   return `<aside class="card" style="padding: var(--space-6); margin-top: var(--space-8);">
 <h2 style="margin: 0 0 var(--space-3); font-size: 22px;">More about ${escapeHtml(hub.name)}</h2>
 <p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="/areas/${hub.slug}/"><strong>${escapeHtml(hub.name)} area guide</strong></a>: neighborhoods, schools, current listings and market numbers in one place.</p>
-${["bellevue", "kirkland", "redmond", "issaquah", "sammamish"].includes(hub.slug) ? `<p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="/areas/${hub.slug}/#recent-sales"><strong>Selling in ${escapeHtml(hub.name)}?</strong></a> See my recent ${escapeHtml(hub.name)} sales and how I handled each one, or <a href="/areas/${hub.slug}/#home-value">get a price range from me</a>.</p>` : ""}
+${["bellevue", "kirkland", "redmond", "issaquah", "sammamish"].includes(hub.slug) ? `<p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="/areas/${hub.slug}/#home-value"><strong>Selling in ${escapeHtml(hub.name)}?</strong></a> <a href="/areas/${hub.slug}/#home-value">Get a price range from me personally</a>.</p>` : ""}
 ${report ? `<p style="margin: 0 0 var(--space-3); line-height: 1.65;"><a href="${report.path}"><strong>${escapeHtml(hub.name)} market report</strong></a>, updated ${escapeHtml(report.info.updatedMonth)}.</p>` : ""}
 ${guides.length ? `<p style="margin: 0; line-height: 1.8; font-size: 15px;">${guides.map((g) => `<a href="${postUrl(g)}">${escapeHtml(g.title)}</a>`).join("<br>")}</p>` : ""}
 </aside>`;
@@ -594,6 +594,7 @@ ${x.note ? `<p class="note">${escapeHtml(x.note)}</p>` : ""}
 }
 
 function hubSales(area) {
+  return "";
   const d = AREA_SALES[area.slug];
   if (!d || !Array.isArray(d.sales) || !d.sales.length) return "";
   const name = escapeHtml(area.name);
@@ -612,6 +613,7 @@ ${sales.length ? `<div class="hub-pair">${sales.map((x) => saleCard(x, false)).j
 }
 
 function hubGlance(area) {
+  return "";
   const d = AREA_SALES[area.slug];
   if (!d || !Array.isArray(d.sales) || !d.sales.length) return "";
   const items = d.sales.filter((x) => x.result && x.glance).sort((a, b) => a.glance - b.glance).slice(0, 3);
@@ -751,7 +753,7 @@ ${breadcrumbHtml(crumbs)}
 <div class="kicker">Jack Macdonald &middot; Macdonald Group of Compass</div>
 <h1>${escapeHtml(area.name)} Real Estate</h1>
 <p>${escapeHtml(AREA_INTROS[area.slug] || "")}</p>
-${sd.lead ? `<p>${escapeHtml(sd.lead)}</p>` : ""}
+
 <div class="actions"><a href="#home-value" class="btn btn-primary">Get a price range from me</a><a href="tel:4259416998" class="btn btn-secondary">Call or text 425.941.6998</a></div>
 </header>
 ${hubGlance(area)}
@@ -781,8 +783,8 @@ ${hubListings(area)}
     { "@context": "https://schema.org", ...L.AGENT, "@id": `${SITE_URL}/#jack-macdonald`, areaServed: { "@type": "City", name: `${area.name}, WA` }, description: `Jack Macdonald helps buyers and sellers in ${area.name}, WA with Macdonald Group of Compass.` },
     breadcrumbLd(crumbs),
   ];
-  const title = priority ? `${area.name}, WA Real Estate: Recent Sales & Selling | Jack Macdonald` : `${area.name}, WA Real Estate: Neighborhoods, Market Report & Homes for Sale | Jack Macdonald`;
-  const description = priority ? `Selling in ${area.name}? See my recent ${area.name} sales, how I price, prepare and negotiate, current market numbers, and get a price range from me personally.` : `${area.name}, WA area guide from local REALTOR Jack Macdonald: neighborhood guides, the latest market report, schools, and homes for sale.`;
+  const title = priority ? `${area.name}, WA Real Estate: Selling a Home & Local Market | Jack Macdonald` : `${area.name}, WA Real Estate: Neighborhoods, Market Report & Homes for Sale | Jack Macdonald`;
+  const description = priority ? `Selling in ${area.name}? See how I price, prepare and negotiate, current market numbers, and get a price range from me personally.` : `${area.name}, WA area guide from local REALTOR Jack Macdonald: neighborhood guides, the latest market report, schools, and homes for sale.`;
   return L.page({ title, description, path: `/areas/${area.slug}/`, ld, body });
 }
 
