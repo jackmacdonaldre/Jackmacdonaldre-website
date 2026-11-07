@@ -47,3 +47,20 @@
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
+
+
+// Hide the standalone 'Team' link in the overlay/full menu (Meet the Team lives under About)
+(function () {
+  function hideTeam() {
+    document.querySelectorAll('a').forEach(function (a) {
+      var h = a.getAttribute('href') || '';
+      if (!/team\/?$/.test(h)) return;
+      if (a.textContent.trim() !== 'Team') return;
+      if (a.closest('footer, .mg-tabs, .mg-dd')) return;
+      var li = a.parentElement && a.parentElement.tagName === 'LI' ? a.parentElement : a;
+      li.style.display = 'none';
+    });
+  }
+  hideTeam();
+  new MutationObserver(hideTeam).observe(document.documentElement, { childList: true, subtree: true });
+})();
