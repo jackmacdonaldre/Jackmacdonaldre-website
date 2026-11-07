@@ -3,7 +3,6 @@
 (function () {
   var ITEMS = [
     ['About Jack', '/about/'],
-    ['The Why Behind Jack', '/about/why/'],
     ['Meet the Team', '/team/'],
     ['Giving Back', '/about/community/']
   ];
