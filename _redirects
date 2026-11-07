@@ -6,3 +6,6 @@
 # The Why page is parked until the videos are ready (2026-11-06)
 /about/why/*  /about/  302!
 /about/why    /about/  302!
+# Services page retired; its content now lives on Sell, Team and Home (2026-11-06)
+/services/*  /sell/  301!
+/services    /sell/  301!
