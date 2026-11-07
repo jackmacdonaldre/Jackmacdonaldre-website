@@ -93,141 +93,190 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
 <a href="tel:4259416998" class="btn btn-secondary"><span class="hide-sm">425.941.6998</span><span class="show-sm">Call</span></a>
 </div>
 </header>
-<main class="page">
-<div class="narrow">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/blog/">Blog</a></li><li aria-current="page">Neighborhood guides</li></ol></nav>
-<h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">Neighborhood guides</h1>
-<p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-6);">Every neighborhood guides post for the Eastside, newest first. Narrow it down by area or search.</p>
-<div class="card" style="padding: var(--space-6); margin-bottom: var(--space-6);">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-3);"><span class="kicker" style="width: 64px;">Area</span><a href="/blog/area/bellevue/" data-filter="area" data-value="bellevue" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Bellevue</a><a href="/blog/area/redmond/" data-filter="area" data-value="redmond" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Redmond</a><a href="/blog/area/kirkland/" data-filter="area" data-value="kirkland" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Kirkland</a><a href="/blog/area/issaquah/" data-filter="area" data-value="issaquah" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Issaquah</a><a href="/blog/area/sammamish/" data-filter="area" data-value="sammamish" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Sammamish</a><a href="/blog/area/woodinville/" data-filter="area" data-value="woodinville" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Woodinville</a><a href="/blog/area/north-bend/" data-filter="area" data-value="north-bend" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">North Bend</a><a href="/blog/area/fall-city/" data-filter="area" data-value="fall-city" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Fall City</a><a href="/blog/area/eastside/" data-filter="area" data-value="eastside" class="btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="false">Eastside</a></div>
-<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-4);"><span class="kicker" style="width: 64px;">Topic</span><a href="/blog/" class="btn btn-ghost" style="padding: 6px 12px; font-size: 12px;">All</a><a href="/blog/topic/neighborhood-guides/" data-filter="topic" data-value="neighborhood-guides" class="btn btn-primary" style="padding: 6px 12px; font-size: 12px;" aria-pressed="true">Neighborhood guides</a></div>
-<label for="post-search" class="kicker" style="display: block; margin-bottom: 6px;">Search</label>
-<input id="post-search" class="input" type="search" placeholder="Search posts, for example Finn Hill or schools" style="width: 100%; box-sizing: border-box;">
-<div id="post-count" class="kicker" style="margin-top: var(--space-3);">24 posts</div>
+<style>
+.j-hero{position:relative;padding:150px 24px 110px;text-align:center;color:#fdfdfc;overflow:hidden}
+.j-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.j-hero:after{content:'';position:absolute;inset:0;background:rgba(20,19,17,.6)}
+.j-hero>div{position:relative;z-index:1;max-width:760px;margin:0 auto}
+.j-hero .kicker{color:rgba(255,255,255,.75);letter-spacing:.24em}
+.j-hero h1{color:#fdfdfc;margin:14px 0 0;font-size:clamp(34px,5vw,58px);text-transform:uppercase;letter-spacing:.06em;font-weight:300}
+.j-hero p{color:rgba(255,255,255,.85);margin:20px auto 0;max-width:560px;line-height:1.75;text-wrap:balance}
+.j-wrap{max-width:1100px;margin:0 auto;padding:56px 24px 110px}
+.j-filters{border-bottom:1px solid var(--color-divider);padding-bottom:28px;margin-bottom:8px}
+.j-row{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:baseline;justify-content:center;margin-bottom:14px}
+.j-lab{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-500,#8a877f);margin-right:4px}
+.jf{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-neutral-700);padding:4px 0;border-bottom:1px solid transparent;cursor:pointer}
+.jf:hover{color:#161616;opacity:1}.jf.on{color:#161616;border-bottom-color:#161616}
+.j-search{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:22px}
+.j-search input{width:min(420px,100%);border:0;border-bottom:1px solid #c9c7c2;background:transparent;padding:10px 2px;font:inherit;font-size:15px;outline:none;text-align:center}
+.j-search input:focus{border-bottom-color:#161616}
+#post-count{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-500,#8a877f);white-space:nowrap}
+#post-list{display:grid;grid-template-columns:1fr 1fr;column-gap:64px}
+.j-post{padding:40px 0;border-bottom:1px solid var(--color-divider)}
+.j-meta{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-600);margin-bottom:14px}
+.j-post h2{margin:0 0 12px;font-size:clamp(21px,2.1vw,26px);line-height:1.3;font-weight:300;text-wrap:balance}
+.j-post h2 a{color:var(--color-text)}
+.j-post p{margin:0 0 16px;line-height:1.75;font-size:15px;color:#3b3a37;text-wrap:pretty}
+.j-more{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#161616;border-bottom:1px solid #161616;padding-bottom:2px}
+@media(max-width:760px){.j-hero{padding:110px 20px 70px}#post-list{grid-template-columns:1fr}.j-wrap{padding:40px 20px 80px}.j-row{justify-content:flex-start}.j-search{justify-content:flex-start}.j-search input{text-align:left}}
+</style>
+<section class="j-hero"><img src="/assets/twilight-listing-photo.jpg" alt=""><div>
+<div class="kicker">The Journal</div>
+<h1>Neighborhood guides</h1>
+<p>Every neighborhood guides post for the Eastside, newest first. Narrow it down by area or search.</p>
+</div></section>
+<main class="j-wrap">
+<div class="j-filters">
+<div class="j-row"><span class="j-lab">Topic</span><a href="/blog/" class="jf">All</a><a href="/blog/topic/neighborhood-guides/" data-filter="topic" data-value="neighborhood-guides" class="jf on" aria-pressed="true">Neighborhood guides</a></div>
+<div class="j-row"><span class="j-lab">Area</span><a href="/blog/area/bellevue/" data-filter="area" data-value="bellevue" class="jf" aria-pressed="false">Bellevue</a><a href="/blog/area/redmond/" data-filter="area" data-value="redmond" class="jf" aria-pressed="false">Redmond</a><a href="/blog/area/kirkland/" data-filter="area" data-value="kirkland" class="jf" aria-pressed="false">Kirkland</a><a href="/blog/area/issaquah/" data-filter="area" data-value="issaquah" class="jf" aria-pressed="false">Issaquah</a><a href="/blog/area/sammamish/" data-filter="area" data-value="sammamish" class="jf" aria-pressed="false">Sammamish</a><a href="/blog/area/woodinville/" data-filter="area" data-value="woodinville" class="jf" aria-pressed="false">Woodinville</a><a href="/blog/area/north-bend/" data-filter="area" data-value="north-bend" class="jf" aria-pressed="false">North Bend</a><a href="/blog/area/fall-city/" data-filter="area" data-value="fall-city" class="jf" aria-pressed="false">Fall City</a><a href="/blog/area/eastside/" data-filter="area" data-value="eastside" class="jf" aria-pressed="false">Eastside</a></div>
+<div class="j-search"><input id="post-search" type="search" placeholder="Search the journal" aria-label="Search posts"><span id="post-count">24 posts</span></div>
 </div>
 <section id="post-list" data-fixed="topic" data-area="" data-topic="neighborhood-guides">
-<article class="post-item" data-topic="neighborhood-guides" data-areas="kirkland" data-text="houghton kirkland: what buyers actually need to know thinking about houghton in kirkland? here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market. kirkland neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">November 3, 2026 &middot; Neighborhood guides &middot; Kirkland</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/houghton-kirkland-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">Houghton Kirkland: What Buyers Actually Need to Know</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about Houghton in Kirkland? Here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="kirkland" data-text="houghton kirkland: what buyers actually need to know thinking about houghton in kirkland? here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market. kirkland neighborhood guides">
+<div class="j-meta">November 3, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/houghton-kirkland-homes-for-sale-neighborhood-guide/">Houghton Kirkland: What Buyers Actually Need to Know</a></h2>
+<p>Thinking about Houghton in Kirkland? Here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market.</p>
+<a class="j-more" href="/blog/houghton-kirkland-homes-for-sale-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="issaquah" data-text="talus and squak mountain issaquah neighborhood guide thinking about talus or squak mountain in issaquah? here is what the homes, commute, trails, and tradeoffs actually look like from someone who knows the area. issaquah neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">October 28, 2026 &middot; Neighborhood guides &middot; Issaquah</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/talus-and-squak-mountain-issaquah-neighborhood-guide/" style="color: var(--color-text);">Talus and Squak Mountain Issaquah Neighborhood Guide</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about Talus or Squak Mountain in Issaquah? Here is what the homes, commute, trails, and tradeoffs actually look like from someone who knows the area.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="issaquah" data-text="talus and squak mountain issaquah neighborhood guide thinking about talus or squak mountain in issaquah? here is what the homes, commute, trails, and tradeoffs actually look like from someone who knows the area. issaquah neighborhood guides">
+<div class="j-meta">October 28, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/talus-and-squak-mountain-issaquah-neighborhood-guide/">Talus and Squak Mountain Issaquah Neighborhood Guide</a></h2>
+<p>Thinking about Talus or Squak Mountain in Issaquah? Here is what the homes, commute, trails, and tradeoffs actually look like from someone who knows the area.</p>
+<a class="j-more" href="/blog/talus-and-squak-mountain-issaquah-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="fall-city" data-text="fall city wa: what living and buying here is really like thinking about fall city, wa? a local agent breaks down the housing stock, tradeoffs, commute realities, and what buyers should know before looking here. fall city neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">October 23, 2026 &middot; Neighborhood guides &middot; Fall City</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/fall-city-wa-what-living-and-buying-here-is-really-like/" style="color: var(--color-text);">Fall City WA: What Living and Buying Here Is Really Like</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about Fall City, WA? A local agent breaks down the housing stock, tradeoffs, commute realities, and what buyers should know before looking here.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="fall-city" data-text="fall city wa: what living and buying here is really like thinking about fall city, wa? a local agent breaks down the housing stock, tradeoffs, commute realities, and what buyers should know before looking here. fall city neighborhood guides">
+<div class="j-meta">October 23, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/fall-city-wa-what-living-and-buying-here-is-really-like/">Fall City WA: What Living and Buying Here Is Really Like</a></h2>
+<p>Thinking about Fall City, WA? A local agent breaks down the housing stock, tradeoffs, commute realities, and what buyers should know before looking here.</p>
+<a class="j-more" href="/blog/fall-city-wa-what-living-and-buying-here-is-really-like/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="redmond" data-text="redmond ridge: what buyers should actually know thinking about redmond ridge in redmond, wa? here is what the housing stock, commute, and community feel are really like before you schedule a tour. redmond neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">October 19, 2026 &middot; Neighborhood guides &middot; Redmond</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/redmond-ridge-homes-for-sale-community-guide/" style="color: var(--color-text);">Redmond Ridge: What Buyers Should Actually Know</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about Redmond Ridge in Redmond, WA? Here is what the housing stock, commute, and community feel are really like before you schedule a tour.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="redmond" data-text="redmond ridge: what buyers should actually know thinking about redmond ridge in redmond, wa? here is what the housing stock, commute, and community feel are really like before you schedule a tour. redmond neighborhood guides">
+<div class="j-meta">October 19, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/redmond-ridge-homes-for-sale-community-guide/">Redmond Ridge: What Buyers Should Actually Know</a></h2>
+<p>Thinking about Redmond Ridge in Redmond, WA? Here is what the housing stock, commute, and community feel are really like before you schedule a tour.</p>
+<a class="j-more" href="/blog/redmond-ridge-homes-for-sale-community-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="north-bend" data-text="north bend wa: what living and buying here is really like thinking about buying in north bend, wa? here is what the housing market, commute, lifestyle, and tradeoffs actually look like from someone who knows the area. north bend neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">October 14, 2026 &middot; Neighborhood guides &middot; North Bend</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/north-bend-wa-what-living-and-buying-here-is-really-like/" style="color: var(--color-text);">North Bend WA: What Living and Buying Here Is Really Like</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about buying in North Bend, WA? Here is what the housing market, commute, lifestyle, and tradeoffs actually look like from someone who knows the area.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="north-bend" data-text="north bend wa: what living and buying here is really like thinking about buying in north bend, wa? here is what the housing market, commute, lifestyle, and tradeoffs actually look like from someone who knows the area. north bend neighborhood guides">
+<div class="j-meta">October 14, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/north-bend-wa-what-living-and-buying-here-is-really-like/">North Bend WA: What Living and Buying Here Is Really Like</a></h2>
+<p>Thinking about buying in North Bend, WA? Here is what the housing market, commute, lifestyle, and tradeoffs actually look like from someone who knows the area.</p>
+<a class="j-more" href="/blog/north-bend-wa-what-living-and-buying-here-is-really-like/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="issaquah" data-text="issaquah highlands: what buyers should actually know a real look at issaquah highlands homes, neighborhoods, commute tradeoffs, and what life up on the plateau is actually like before you buy. issaquah neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">October 12, 2026 &middot; Neighborhood guides &middot; Issaquah</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/issaquah-highlands-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">Issaquah Highlands: What Buyers Should Actually Know</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A real look at Issaquah Highlands homes, neighborhoods, commute tradeoffs, and what life up on the plateau is actually like before you buy.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="issaquah" data-text="issaquah highlands: what buyers should actually know a real look at issaquah highlands homes, neighborhoods, commute tradeoffs, and what life up on the plateau is actually like before you buy. issaquah neighborhood guides">
+<div class="j-meta">October 12, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/issaquah-highlands-homes-for-sale-neighborhood-guide/">Issaquah Highlands: What Buyers Should Actually Know</a></h2>
+<p>A real look at Issaquah Highlands homes, neighborhoods, commute tradeoffs, and what life up on the plateau is actually like before you buy.</p>
+<a class="j-more" href="/blog/issaquah-highlands-homes-for-sale-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="woodinville" data-text="what woodinville living is really like thinking about moving to woodinville, wa? here is what daily life actually looks like, from the commute trade offs to the housing stock and local feel. woodinville neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">October 7, 2026 &middot; Neighborhood guides &middot; Woodinville</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/what-woodinville-living-is-really-like/" style="color: var(--color-text);">What Woodinville Living Is Really Like</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about moving to Woodinville, WA? Here is what daily life actually looks like, from the commute trade offs to the housing stock and local feel.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="woodinville" data-text="what woodinville living is really like thinking about moving to woodinville, wa? here is what daily life actually looks like, from the commute trade offs to the housing stock and local feel. woodinville neighborhood guides">
+<div class="j-meta">October 7, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/what-woodinville-living-is-really-like/">What Woodinville Living Is Really Like</a></h2>
+<p>Thinking about moving to Woodinville, WA? Here is what daily life actually looks like, from the commute trade offs to the housing stock and local feel.</p>
+<a class="j-more" href="/blog/what-woodinville-living-is-really-like/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue" data-text="bellevue farmers market: what to know before you go a practical guide to the bellevue farmers market from a local who actually goes. what to expect, when to arrive, and what makes it worth the trip. bellevue neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">September 23, 2026 &middot; Neighborhood guides &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/bellevue-farmers-market-guide/" style="color: var(--color-text);">Bellevue Farmers Market: What to Know Before You Go</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A practical guide to the Bellevue Farmers Market from a local who actually goes. What to expect, when to arrive, and what makes it worth the trip.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue" data-text="bellevue farmers market: what to know before you go a practical guide to the bellevue farmers market from a local who actually goes. what to expect, when to arrive, and what makes it worth the trip. bellevue neighborhood guides">
+<div class="j-meta">September 23, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/bellevue-farmers-market-guide/">Bellevue Farmers Market: What to Know Before You Go</a></h2>
+<p>A practical guide to the Bellevue Farmers Market from a local who actually goes. What to expect, when to arrive, and what makes it worth the trip.</p>
+<a class="j-more" href="/blog/bellevue-farmers-market-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="redmond" data-text="dog parks in redmond, wa: a local's guide a real look at redmond's best dog parks and off leash areas, what they're actually like, where they're located, and what to know before you go. redmond neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">September 21, 2026 &middot; Neighborhood guides &middot; Redmond</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/dog-parks-in-redmond-wa-a-local-s-list/" style="color: var(--color-text);">Dog Parks in Redmond, WA: A Local's Guide</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A real look at Redmond's best dog parks and off leash areas, what they're actually like, where they're located, and what to know before you go.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="redmond" data-text="dog parks in redmond, wa: a local's guide a real look at redmond's best dog parks and off leash areas, what they're actually like, where they're located, and what to know before you go. redmond neighborhood guides">
+<div class="j-meta">September 21, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/dog-parks-in-redmond-wa-a-local-s-list/">Dog Parks in Redmond, WA: A Local's Guide</a></h2>
+<p>A real look at Redmond's best dog parks and off leash areas, what they're actually like, where they're located, and what to know before you go.</p>
+<a class="j-more" href="/blog/dog-parks-in-redmond-wa-a-local-s-list/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="issaquah" data-text="best hiking trails near issaquah, wa a local's guide to the best hiking trails near issaquah, wa, from cougar mountain to tiger mountain and everything in between. issaquah neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">September 18, 2026 &middot; Neighborhood guides &middot; Issaquah</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/best-hiking-trails-near-issaquah/" style="color: var(--color-text);">Best Hiking Trails Near Issaquah, WA</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A local's guide to the best hiking trails near Issaquah, WA, from Cougar Mountain to Tiger Mountain and everything in between.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="issaquah" data-text="best hiking trails near issaquah, wa a local's guide to the best hiking trails near issaquah, wa, from cougar mountain to tiger mountain and everything in between. issaquah neighborhood guides">
+<div class="j-meta">September 18, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/best-hiking-trails-near-issaquah/">Best Hiking Trails Near Issaquah, WA</a></h2>
+<p>A local's guide to the best hiking trails near Issaquah, WA, from Cougar Mountain to Tiger Mountain and everything in between.</p>
+<a class="j-more" href="/blog/best-hiking-trails-near-issaquah/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue" data-text="the best coffee shops in bellevue, wa worth knowing a local real estate agent's honest guide to the best coffee shops in bellevue, wa, by neighborhood, from downtown to crossroads and beyond. bellevue neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">September 16, 2026 &middot; Neighborhood guides &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/best-coffee-shops-in-bellevue-wa/" style="color: var(--color-text);">The Best Coffee Shops in Bellevue, WA Worth Knowing</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A local real estate agent's honest guide to the best coffee shops in Bellevue, WA, by neighborhood, from downtown to Crossroads and beyond.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue" data-text="the best coffee shops in bellevue, wa worth knowing a local real estate agent's honest guide to the best coffee shops in bellevue, wa, by neighborhood, from downtown to crossroads and beyond. bellevue neighborhood guides">
+<div class="j-meta">September 16, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/best-coffee-shops-in-bellevue-wa/">The Best Coffee Shops in Bellevue, WA Worth Knowing</a></h2>
+<p>A local real estate agent's honest guide to the best coffee shops in Bellevue, WA, by neighborhood, from downtown to Crossroads and beyond.</p>
+<a class="j-more" href="/blog/best-coffee-shops-in-bellevue-wa/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="redmond sammamish" data-text="redmond vs. sammamish: an honest eastside comparison redmond and sammamish are both popular eastside suburbs, but they suit different buyers. here is what actually differs between the two. redmond, sammamish neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 28, 2026 &middot; Neighborhood guides &middot; Redmond, Sammamish</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/" style="color: var(--color-text);">Redmond vs. Sammamish: An Honest Eastside Comparison</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Redmond and Sammamish are both popular Eastside suburbs, but they suit different buyers. Here is what actually differs between the two.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="redmond sammamish" data-text="redmond vs. sammamish: an honest eastside comparison redmond and sammamish are both popular eastside suburbs, but they suit different buyers. here is what actually differs between the two. redmond, sammamish neighborhood guides">
+<div class="j-meta">August 28, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/">Redmond vs. Sammamish: An Honest Eastside Comparison</a></h2>
+<p>Redmond and Sammamish are both popular Eastside suburbs, but they suit different buyers. Here is what actually differs between the two.</p>
+<a class="j-more" href="/blog/redmond-vs-sammamish-comparing-two-eastside-suburbs/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue kirkland" data-text="bellevue vs kirkland: which eastside city fits you? comparing bellevue and kirkland as places to live on the eastside. real differences in housing, commute, feel, and tradeoffs to help you decide. bellevue, kirkland neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 26, 2026 &middot; Neighborhood guides &middot; Bellevue, Kirkland</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/" style="color: var(--color-text);">Bellevue vs Kirkland: Which Eastside City Fits You?</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Comparing Bellevue and Kirkland as places to live on the Eastside. Real differences in housing, commute, feel, and tradeoffs to help you decide.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue kirkland" data-text="bellevue vs kirkland: which eastside city fits you? comparing bellevue and kirkland as places to live on the eastside. real differences in housing, commute, feel, and tradeoffs to help you decide. bellevue, kirkland neighborhood guides">
+<div class="j-meta">August 26, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/">Bellevue vs Kirkland: Which Eastside City Fits You?</a></h2>
+<p>Comparing Bellevue and Kirkland as places to live on the Eastside. Real differences in housing, commute, feel, and tradeoffs to help you decide.</p>
+<a class="j-more" href="/blog/bellevue-vs-kirkland-which-eastside-city-is-right-for-you/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="kirkland" data-text="juanita kirkland: what to know before you buy thinking about juanita in kirkland? here's an honest look at the housing stock, waterfront access, schools, commute, and what makes this neighborhood worth knowing. kirkland neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 24, 2026 &middot; Neighborhood guides &middot; Kirkland</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">Juanita Kirkland: What to Know Before You Buy</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about Juanita in Kirkland? Here's an honest look at the housing stock, waterfront access, schools, commute, and what makes this neighborhood worth knowing.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="kirkland" data-text="juanita kirkland: what to know before you buy thinking about juanita in kirkland? here's an honest look at the housing stock, waterfront access, schools, commute, and what makes this neighborhood worth knowing. kirkland neighborhood guides">
+<div class="j-meta">August 24, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/">Juanita Kirkland: What to Know Before You Buy</a></h2>
+<p>Thinking about Juanita in Kirkland? Here's an honest look at the housing stock, waterfront access, schools, commute, and what makes this neighborhood worth knowing.</p>
+<a class="j-more" href="/blog/juanita-kirkland-homes-for-sale-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="sammamish" data-text="buying on the sammamish plateau: what to know first a real local guide to sammamish plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area. sammamish neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 21, 2026 &middot; Neighborhood guides &middot; Sammamish</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">Buying on the Sammamish Plateau: What to Know First</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A real local guide to Sammamish Plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="sammamish" data-text="buying on the sammamish plateau: what to know first a real local guide to sammamish plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area. sammamish neighborhood guides">
+<div class="j-meta">August 21, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/">Buying on the Sammamish Plateau: What to Know First</a></h2>
+<p>A real local guide to Sammamish Plateau homes, neighborhoods, commute realities, schools, and tradeoffs from an agent who grew up in the area.</p>
+<a class="j-more" href="/blog/sammamish-plateau-homes-for-sale-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue" data-text="newport hills bellevue: what buyers should know a real look at newport hills in bellevue for buyers. housing stock, commute, schools, tradeoffs, and what makes this neighborhood different from nearby areas. bellevue neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 19, 2026 &middot; Neighborhood guides &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/" style="color: var(--color-text);">Newport Hills Bellevue: What Buyers Should Know</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A real look at Newport Hills in Bellevue for buyers. Housing stock, commute, schools, tradeoffs, and what makes this neighborhood different from nearby areas.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue" data-text="newport hills bellevue: what buyers should know a real look at newport hills in bellevue for buyers. housing stock, commute, schools, tradeoffs, and what makes this neighborhood different from nearby areas. bellevue neighborhood guides">
+<div class="j-meta">August 19, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/">Newport Hills Bellevue: What Buyers Should Know</a></h2>
+<p>A real look at Newport Hills in Bellevue for buyers. Housing stock, commute, schools, tradeoffs, and what makes this neighborhood different from nearby areas.</p>
+<a class="j-more" href="/blog/newport-hills-bellevue-neighborhood-guide-for-buyers/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue" data-text="west bellevue neighborhoods: what buyers should know a local agent's honest guide to west bellevue homes, neighborhoods, price ranges, schools, and what buyers often get wrong about this part of the city. bellevue neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 17, 2026 &middot; Neighborhood guides &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/west-bellevue-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">West Bellevue Neighborhoods: What Buyers Should Know</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">A local agent's honest guide to West Bellevue homes, neighborhoods, price ranges, schools, and what buyers often get wrong about this part of the city.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue" data-text="west bellevue neighborhoods: what buyers should know a local agent's honest guide to west bellevue homes, neighborhoods, price ranges, schools, and what buyers often get wrong about this part of the city. bellevue neighborhood guides">
+<div class="j-meta">August 17, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/west-bellevue-homes-for-sale-neighborhood-guide/">West Bellevue Neighborhoods: What Buyers Should Know</a></h2>
+<p>A local agent's honest guide to West Bellevue homes, neighborhoods, price ranges, schools, and what buyers often get wrong about this part of the city.</p>
+<a class="j-more" href="/blog/west-bellevue-homes-for-sale-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="kirkland" data-text="finn hill kirkland: what the neighborhood is actually like thinking about finn hill in kirkland? here's what the neighborhood is actually like, from housing stock and schools to commute times and tradeoffs. kirkland neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 14, 2026 &middot; Neighborhood guides &middot; Kirkland</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/finn-hill-homes-for-sale-neighborhood-overview/" style="color: var(--color-text);">Finn Hill Kirkland: What the Neighborhood Is Actually Like</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about Finn Hill in Kirkland? Here's what the neighborhood is actually like, from housing stock and schools to commute times and tradeoffs.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="kirkland" data-text="finn hill kirkland: what the neighborhood is actually like thinking about finn hill in kirkland? here's what the neighborhood is actually like, from housing stock and schools to commute times and tradeoffs. kirkland neighborhood guides">
+<div class="j-meta">August 14, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/finn-hill-homes-for-sale-neighborhood-overview/">Finn Hill Kirkland: What the Neighborhood Is Actually Like</a></h2>
+<p>Thinking about Finn Hill in Kirkland? Here's what the neighborhood is actually like, from housing stock and schools to commute times and tradeoffs.</p>
+<a class="j-more" href="/blog/finn-hill-homes-for-sale-neighborhood-overview/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="sammamish" data-text="klahanie homes for sale: a real buyers guide thinking about buying in klahanie, sammamish? here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market. sammamish neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 13, 2026 &middot; Neighborhood guides &middot; Sammamish</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/klahanie-homes-for-sale-community-guide/" style="color: var(--color-text);">Klahanie Homes for Sale: A Real Buyers Guide</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about buying in Klahanie, Sammamish? Here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="sammamish" data-text="klahanie homes for sale: a real buyers guide thinking about buying in klahanie, sammamish? here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market. sammamish neighborhood guides">
+<div class="j-meta">August 13, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/klahanie-homes-for-sale-community-guide/">Klahanie Homes for Sale: A Real Buyers Guide</a></h2>
+<p>Thinking about buying in Klahanie, Sammamish? Here is what the neighborhood actually looks like, who it suits, and what to expect from the housing market.</p>
+<a class="j-more" href="/blog/klahanie-homes-for-sale-community-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="redmond" data-text="downtown redmond homes and condos neighborhood guide thinking about buying or selling in downtown redmond wa? jack macdonald shares what living here actually looks like, from condos to commutes. redmond neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 13, 2026 &middot; Neighborhood guides &middot; Redmond</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/downtown-redmond-condos-and-homes-neighborhood-guide/" style="color: var(--color-text);">Downtown Redmond Homes and Condos Neighborhood Guide</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about buying or selling in Downtown Redmond WA? Jack Macdonald shares what living here actually looks like, from condos to commutes.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="redmond" data-text="downtown redmond homes and condos neighborhood guide thinking about buying or selling in downtown redmond wa? jack macdonald shares what living here actually looks like, from condos to commutes. redmond neighborhood guides">
+<div class="j-meta">August 13, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/downtown-redmond-condos-and-homes-neighborhood-guide/">Downtown Redmond Homes and Condos Neighborhood Guide</a></h2>
+<p>Thinking about buying or selling in Downtown Redmond WA? Jack Macdonald shares what living here actually looks like, from condos to commutes.</p>
+<a class="j-more" href="/blog/downtown-redmond-condos-and-homes-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="redmond" data-text="education hill homes for sale: what buyers should know thinking about buying a home on education hill in redmond wa? local agent jack macdonald shares what makes this neighborhood worth a closer look. redmond neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 12, 2026 &middot; Neighborhood guides &middot; Redmond</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/education-hill-homes-for-sale-what-buyers-should-know/" style="color: var(--color-text);">Education Hill Homes for Sale: What Buyers Should Know</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about buying a home on Education Hill in Redmond WA? Local agent Jack Macdonald shares what makes this neighborhood worth a closer look.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="redmond" data-text="education hill homes for sale: what buyers should know thinking about buying a home on education hill in redmond wa? local agent jack macdonald shares what makes this neighborhood worth a closer look. redmond neighborhood guides">
+<div class="j-meta">August 12, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/education-hill-homes-for-sale-what-buyers-should-know/">Education Hill Homes for Sale: What Buyers Should Know</a></h2>
+<p>Thinking about buying a home on Education Hill in Redmond WA? Local agent Jack Macdonald shares what makes this neighborhood worth a closer look.</p>
+<a class="j-more" href="/blog/education-hill-homes-for-sale-what-buyers-should-know/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue" data-text="somerset bellevue homes for sale: neighborhood guide thinking about buying a home in somerset bellevue? jack macdonald shares what makes this neighborhood stand out, from the schools to the views to the streets. bellevue neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 11, 2026 &middot; Neighborhood guides &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/" style="color: var(--color-text);">Somerset Bellevue Homes for Sale: Neighborhood Guide</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about buying a home in Somerset Bellevue? Jack Macdonald shares what makes this neighborhood stand out, from the schools to the views to the streets.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue" data-text="somerset bellevue homes for sale: neighborhood guide thinking about buying a home in somerset bellevue? jack macdonald shares what makes this neighborhood stand out, from the schools to the views to the streets. bellevue neighborhood guides">
+<div class="j-meta">August 11, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/">Somerset Bellevue Homes for Sale: Neighborhood Guide</a></h2>
+<p>Thinking about buying a home in Somerset Bellevue? Jack Macdonald shares what makes this neighborhood stand out, from the schools to the views to the streets.</p>
+<a class="j-more" href="/blog/somerset-bellevue-homes-for-sale-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="bellevue" data-text="living in bridle trails, bellevue: a neighborhood guide thinking about living in bridle trails? discover what makes this bellevue neighborhood special, from forested trails to top schools and the local real estate market. bellevue neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 11, 2026 &middot; Neighborhood guides &middot; Bellevue</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/living-in-bridle-trails-a-neighborhood-guide/" style="color: var(--color-text);">Living in Bridle Trails, Bellevue: A Neighborhood Guide</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Thinking about living in Bridle Trails? Discover what makes this Bellevue neighborhood special, from forested trails to top schools and the local real estate market.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="bellevue" data-text="living in bridle trails, bellevue: a neighborhood guide thinking about living in bridle trails? discover what makes this bellevue neighborhood special, from forested trails to top schools and the local real estate market. bellevue neighborhood guides">
+<div class="j-meta">August 11, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/living-in-bridle-trails-a-neighborhood-guide/">Living in Bridle Trails, Bellevue: A Neighborhood Guide</a></h2>
+<p>Thinking about living in Bridle Trails? Discover what makes this Bellevue neighborhood special, from forested trails to top schools and the local real estate market.</p>
+<a class="j-more" href="/blog/living-in-bridle-trails-a-neighborhood-guide/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
-<article class="post-item" data-topic="neighborhood-guides" data-areas="eastside" data-text="welcome to the blog market updates, neighborhood guides, and local insight from jack macdonald and the macdonald group, serving bellevue and the greater eastside. eastside neighborhood guides" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">August 4, 2026 &middot; Neighborhood guides &middot; Eastside</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="/blog/welcome-to-the-blog/" style="color: var(--color-text);">Welcome to the Blog</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">Market updates, neighborhood guides, and local insight from Jack Macdonald and the Macdonald Group, serving Bellevue and the greater Eastside.</p>
+<article class="post-item j-post" data-topic="neighborhood-guides" data-areas="eastside" data-text="welcome to the blog market updates, neighborhood guides, and local insight from jack macdonald and the macdonald group, serving bellevue and the greater eastside. eastside neighborhood guides">
+<div class="j-meta">August 4, 2026 &middot; Neighborhood guides</div>
+<h2><a class="title" href="/blog/welcome-to-the-blog/">Welcome to the Blog</a></h2>
+<p>Market updates, neighborhood guides, and local insight from Jack Macdonald and the Macdonald Group, serving Bellevue and the greater Eastside.</p>
+<a class="j-more" href="/blog/welcome-to-the-blog/" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>
 </section>
-</div>
 </main>
 <script>
 (function () {
@@ -252,7 +301,7 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); opacit
     if (count) count.textContent = shown + (shown === 1 ? ' post' : ' posts');
     [].forEach.call(document.querySelectorAll('[data-filter]'), function (b) {
       var on = state[b.getAttribute('data-filter')] === b.getAttribute('data-value');
-      b.className = 'btn ' + (on ? 'btn-primary' : 'btn-secondary');
+      b.className = 'jf' + (on ? ' on' : '');
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
     var p = new URLSearchParams();
