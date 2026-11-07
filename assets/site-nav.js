@@ -48,13 +48,15 @@
 })();
 
 
-// Hide the standalone 'Team' link in the overlay/full menu (Meet the Team lives under About)
+// Hide the standalone 'Team' link (Meet the Team lives under About) and the retired 'Services' link (redirects to /sell/)
 (function () {
   function hideTeam() {
     document.querySelectorAll('a').forEach(function (a) {
       var h = a.getAttribute('href') || '';
-      if (!/team\/?$/.test(h)) return;
-      if (a.textContent.trim() !== 'Team') return;
+      var t = a.textContent.trim().toLowerCase();
+      var isTeam = /team\/?$/.test(h) && t === 'team';
+      var isServices = /services\/?$/.test(h) && t === 'services';
+      if (!isTeam && !isServices) return;
       if (a.closest('footer, .mg-tabs, .mg-dd')) return;
       var li = a.parentElement && a.parentElement.tagName === 'LI' ? a.parentElement : a;
       li.style.display = 'none';
