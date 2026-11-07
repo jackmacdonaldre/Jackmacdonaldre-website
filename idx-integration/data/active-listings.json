@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T02:03:26.214Z",
+  "generatedAt": "2026-11-07T08:57:33.105Z",
   "count": 7,
   "listings": [
     {
@@ -2723,7 +2723,7 @@
         ],
         "fireplacesMain": "1",
         "listAgentEmail": "stephen@stephenmacdonald.com",
-        "standardStatus": "Active",
+        "standardStatus": "Pending",
         "bathsFullGarage": "0",
         "bathsHalfGarage": "0",
         "excludedItemsYN": "no",
@@ -2826,7 +2826,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-25T00:38:34+00:00",
-      "dateModified": "2026-11-06T00:58:14+00:00",
+      "dateModified": "2026-11-07T06:18:13+00:00",
       "detailsURL": "b045/2584647",
       "detailsUrlSlug": "3515-SW-Austin-Street-Seattle-98126",
       "displayAddress": "y",
@@ -3010,7 +3010,7 @@
         "field": "listingPrice"
       },
       "priceReductionDate": "2026-10-22T15:25:35+00:00",
-      "propStatus": "Active",
+      "propStatus": "Pending Inspection",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
       "remarksConcat": "Charming, turn-key Gatewood home offering an impressive 1,800 square feet of beautifully maintained living space, including a fully finished lower-level suite with exceptional flexibility for rental income, multigenerational living, or adaptable everyday use.     A covered front porch and brand-new front lawn welcome you into this 1924 craftsman home offering character and warmth. The main floor features 3 bedrooms, a full bath, an inviting living room with a striking mid-century brick focal-point fireplace, dining area, and full kitchen. Downstairs, the recently renovated lower level offers a separate entry, new kitchen and appliances, spacious living and dining areas, a generous bedroom, bathroom, flex room, and excellent storage. Outside, enjoy a private lower patio for relaxing, along with secure bike/gear storage. Fresh landscaping, new fencing, and low-maintenance hardscaping are just a few of the benefits of this well-maintained home. Just minutes to West Seattle, restaurants, and freeways.",
