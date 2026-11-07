@@ -68,6 +68,15 @@
   .card { transition: box-shadow 0.3s ease, transform 0.3s ease; }
   .card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
   .svc-card:hover .svc-title { color: var(--color-accent-700); }
+  .intro-split{max-width:1100px;margin:0 auto;padding:var(--space-8) var(--space-6);display:grid;grid-template-columns:repeat(12,1fr);align-items:center}
+  .intro-photo{grid-column:1 / span 7;grid-row:1;margin:0}
+  .intro-photo img{width:100%;aspect-ratio:4/4.6;object-fit:cover;object-position:50% 20%;display:block}
+  .intro-card{grid-column:7 / span 6;grid-row:1;background:#f4f4f3;padding:56px 52px;position:relative;z-index:1}
+  .intro-card h2{font-size:20px;letter-spacing:.08em;text-transform:uppercase;font-weight:400;margin:0 0 26px;line-height:1.5}
+  .intro-card p{font-size:15px;line-height:1.85;margin:0 0 22px;color:#2a2a2a}
+  .intro-links{display:flex;flex-direction:column;gap:12px;margin-top:30px;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase}
+  .intro-links a{border-bottom:1px solid transparent;align-self:flex-start}.intro-links a:hover{border-bottom-color:#161616;opacity:1}
+  @media(max-width:860px){.intro-split{display:block;padding:var(--space-6) 0}.intro-card{margin:-60px 20px 0;padding:36px 28px}}
   .rd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
   @media(max-width:900px){.rd-grid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:560px){.rd-grid{grid-template-columns:1fr}}
@@ -176,15 +185,13 @@
     </section>
     <div class="hr" style="max-width: 1300px; margin-left: auto; margin-right: auto;"></div>
 
-    <section class="mobile-stack" style="max-width: 1300px; margin: 0 auto; padding: var(--space-8) var(--space-6); display: grid; grid-template-columns: 0.85fr 1.15fr; gap: var(--space-8); align-items: center;">
-      <figure class="plate" style="margin: 0;">
-        <img src="./assets/jack-sunset.jpg" alt="Jack Macdonald" style="width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block;">
-      </figure>
-      <div>
-        <h6 style="font-size: 11px;">Welcome to My Site</h6>
-        <h2 style="margin-top: var(--space-2); font-size: clamp(32px, 4vw, 44px);">Real estate built on local knowledge, strategy, and trust.</h2>
-        <p style="max-width: 620px; line-height: 1.65;">A Bellevue native, I've helped more than 100 buyers and sellers navigate the Eastside market with strategic negotiation, deep local expertise, and honest, responsive communication.</p>
-        <div style="display:flex; flex-wrap:wrap; gap: var(--space-5); margin-top: var(--space-2);"><a href="/about/" class="btn btn-ghost" style="padding-left: 0;">About Jack →</a><a href="/sell/" class="btn btn-ghost" style="padding-left: 0;">How I sell homes →</a><a href="/inherited-homes/" class="btn btn-ghost" style="padding-left: 0;">Inherited or estate home →</a></div>
+    <section class="intro-split">
+      <figure class="intro-photo"><img src="./assets/jack-welcome-photo.png" alt="Jack Macdonald, Compass real estate broker in Bellevue" loading="lazy"></figure>
+      <div class="intro-card">
+        <h2>Eastside real estate advisor</h2>
+        <p>Real estate has been part of my life for as long as I can remember. I'm a second-generation broker who grew up in Bellevue, and I bring local knowledge that goes well beyond what's available online.</p>
+        <p>I'm known for my negotiation, attention to detail, and hands-on approach. I pick up the phone, respond quickly, and make sure my clients always know where things stand and what comes next.</p>
+        <div class="intro-links"><a href="/about/">About Jack →</a><a href="/sell/">How I sell homes →</a><a href="/inherited-homes/">Inherited or estate home →</a></div>
       </div>
     </section>
 
