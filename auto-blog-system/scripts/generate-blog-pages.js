@@ -67,10 +67,11 @@ function postCard(p) {
   const t = topicBySlug(p.topic);
   const areaNames = p.areas.map((a) => areaBySlug(a).name).join(", ");
   const text = `${p.title} ${p.metaDescription} ${areaNames} ${t.name}`.toLowerCase();
-  return `<article class="post-item" data-topic="${t.slug}" data-areas="${p.areas.join(" ")}" data-text="${escapeHtml(text)}" style="padding: var(--space-6) 0; border-bottom: 1px solid var(--color-divider);">
-<div class="kicker" style="margin-bottom: var(--space-2);">${formatDate(p.publishedDate)} &middot; ${escapeHtml(t.name)} &middot; ${escapeHtml(areaNames)}</div>
-<h2 style="margin: 0 0 var(--space-2); font-size: clamp(22px, 2.6vw, 30px);"><a class="title" href="${postUrl(p)}" style="color: var(--color-text);">${escapeHtml(p.title)}</a></h2>
-<p style="max-width: 640px; line-height: 1.65; margin: 0;">${escapeHtml(p.metaDescription)}</p>
+  return `<article class="post-item j-post" data-topic="${t.slug}" data-areas="${p.areas.join(" ")}" data-text="${escapeHtml(text)}">
+<div class="j-meta">${formatDate(p.publishedDate)} &middot; ${escapeHtml(t.name)}</div>
+<h2><a class="title" href="${postUrl(p)}">${escapeHtml(p.title)}</a></h2>
+<p>${escapeHtml(p.metaDescription)}</p>
+<a class="j-more" href="${postUrl(p)}" aria-hidden="true" tabindex="-1">Read &rarr;</a>
 </article>`;
 }
 
@@ -289,7 +290,7 @@ const FILTER_SCRIPT = `<script>
     if (count) count.textContent = shown + (shown === 1 ? ' post' : ' posts');
     [].forEach.call(document.querySelectorAll('[data-filter]'), function (b) {
       var on = state[b.getAttribute('data-filter')] === b.getAttribute('data-value');
-      b.className = 'btn ' + (on ? 'btn-primary' : 'btn-secondary');
+      b.className = 'jf' + (on ? ' on' : '');
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
     var p = new URLSearchParams();
@@ -317,29 +318,56 @@ function filterBar(posts, { fixed, area, topic }) {
   const areaCounts = AREAS.filter((a) => posts.some((p) => p.areas.includes(a.slug)));
   const topicCounts = TOPICS.filter((t) => posts.some((p) => p.topic === t.slug));
   const btn = (kind, slug, name, active) =>
-    `<a href="/blog/${kind}/${slug}/" data-filter="${kind}" data-value="${slug}" class="btn ${active ? "btn-primary" : "btn-secondary"}" style="padding: 6px 12px; font-size: 12px;" aria-pressed="${active}">${escapeHtml(name)}</a>`;
-  const allBtn = (kind, active) => `<a href="/blog/" class="btn ${active ? "btn-primary" : "btn-ghost"}" style="padding: 6px 12px; font-size: 12px;">All</a>`;
-  return `<div class="card" style="padding: var(--space-6); margin-bottom: var(--space-6);">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-3);"><span class="kicker" style="width: 64px;">Area</span>${fixed === "area" ? allBtn("area", false) : ""}${areaCounts.map((a) => btn("area", a.slug, a.name, a.slug === area)).join("")}</div>
-<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: var(--space-4);"><span class="kicker" style="width: 64px;">Topic</span>${fixed === "topic" ? allBtn("topic", false) : ""}${topicCounts.map((t) => btn("topic", t.slug, t.name, t.slug === topic)).join("")}</div>
-<label for="post-search" class="kicker" style="display: block; margin-bottom: 6px;">Search</label>
-<input id="post-search" class="input" type="search" placeholder="Search posts, for example Finn Hill or schools" style="width: 100%; box-sizing: border-box;">
-<div id="post-count" class="kicker" style="margin-top: var(--space-3);">${posts.length} posts</div>
+    `<a href="/blog/${kind}/${slug}/" data-filter="${kind}" data-value="${slug}" class="jf${active ? " on" : ""}" aria-pressed="${active}">${escapeHtml(name)}</a>`;
+  const allLink = `<a href="/blog/" class="jf">All</a>`;
+  return `<div class="j-filters">
+<div class="j-row"><span class="j-lab">Topic</span>${fixed === "topic" ? allLink : ""}${topicCounts.map((t) => btn("topic", t.slug, t.name, t.slug === topic)).join("")}</div>
+<div class="j-row"><span class="j-lab">Area</span>${fixed === "area" ? allLink : ""}${areaCounts.map((a) => btn("area", a.slug, a.name, a.slug === area)).join("")}</div>
+<div class="j-search"><input id="post-search" type="search" placeholder="Search the journal" aria-label="Search posts"><span id="post-count">${posts.length} posts</span></div>
 </div>`;
 }
 
+const JOURNAL_CSS = `<style>
+.j-hero{position:relative;padding:150px 24px 110px;text-align:center;color:#fdfdfc;overflow:hidden}
+.j-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.j-hero:after{content:'';position:absolute;inset:0;background:rgba(20,19,17,.6)}
+.j-hero>div{position:relative;z-index:1;max-width:760px;margin:0 auto}
+.j-hero .kicker{color:rgba(255,255,255,.75);letter-spacing:.24em}
+.j-hero h1{color:#fdfdfc;margin:14px 0 0;font-size:clamp(34px,5vw,58px);text-transform:uppercase;letter-spacing:.06em;font-weight:300}
+.j-hero p{color:rgba(255,255,255,.85);margin:20px auto 0;max-width:560px;line-height:1.75;text-wrap:balance}
+.j-wrap{max-width:1100px;margin:0 auto;padding:56px 24px 110px}
+.j-filters{border-bottom:1px solid var(--color-divider);padding-bottom:28px;margin-bottom:8px}
+.j-row{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:baseline;justify-content:center;margin-bottom:14px}
+.j-lab{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-500,#8a877f);margin-right:4px}
+.jf{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-neutral-700);padding:4px 0;border-bottom:1px solid transparent;cursor:pointer}
+.jf:hover{color:#161616;opacity:1}.jf.on{color:#161616;border-bottom-color:#161616}
+.j-search{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:22px}
+.j-search input{width:min(420px,100%);border:0;border-bottom:1px solid #c9c7c2;background:transparent;padding:10px 2px;font:inherit;font-size:15px;outline:none;text-align:center}
+.j-search input:focus{border-bottom-color:#161616}
+#post-count{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-500,#8a877f);white-space:nowrap}
+#post-list{display:grid;grid-template-columns:1fr 1fr;column-gap:64px}
+.j-post{padding:40px 0;border-bottom:1px solid var(--color-divider)}
+.j-meta{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-600);margin-bottom:14px}
+.j-post h2{margin:0 0 12px;font-size:clamp(21px,2.1vw,26px);line-height:1.3;font-weight:300;text-wrap:balance}
+.j-post h2 a{color:var(--color-text)}
+.j-post p{margin:0 0 16px;line-height:1.75;font-size:15px;color:#3b3a37;text-wrap:pretty}
+.j-more{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#161616;border-bottom:1px solid #161616;padding-bottom:2px}
+@media(max-width:760px){.j-hero{padding:110px 20px 70px}#post-list{grid-template-columns:1fr}.j-wrap{padding:40px 20px 80px}.j-row{justify-content:flex-start}.j-search{justify-content:flex-start}.j-search input{text-align:left}}
+</style>`;
+
 function buildListingPage({ posts, allPosts, fixed, area, topic, title, h1, intro, pathName, crumbs }) {
   const sorted = [...posts].sort(byDateDesc);
-  const body = `<main class="page">
-<div class="narrow">
-${breadcrumbHtml(crumbs)}
-<h1 style="margin: var(--space-6) 0 var(--space-3); font-size: clamp(36px, 5vw, 56px);">${escapeHtml(h1)}</h1>
-<p style="max-width: 620px; line-height: 1.65; margin: 0 0 var(--space-6);">${intro}</p>
+  const body = `${JOURNAL_CSS}
+<section class="j-hero"><img src="/assets/twilight-listing-photo.jpg" alt=""><div>
+<div class="kicker">${fixed ? "The Journal" : "Eastside Real Estate"}</div>
+<h1>${escapeHtml(h1)}</h1>
+<p>${intro}</p>
+</div></section>
+<main class="j-wrap">
 ${filterBar(fixed ? posts : allPosts, { fixed, area, topic })}
 <section id="post-list" data-fixed="${fixed || ""}" data-area="${area || ""}" data-topic="${topic || ""}">
 ${sorted.map(postCard).join("\n")}
 </section>
-</div>
 </main>
 ${FILTER_SCRIPT}`;
   const ld = [
@@ -941,7 +969,7 @@ function main() {
   // Blog home + filter pages
   writeFile("blog/index.html", buildListingPage({
     posts, allPosts: posts, fixed: "", title: "Eastside Real Estate Blog | Neighborhood Guides & Market Updates",
-    h1: "Blog", intro: `Neighborhood guides, market updates, and local insight for buyers and sellers across ${listNames(HUB_AREAS)}. Filter by area and topic, or search.`,
+    h1: "The Journal", intro: `Neighborhood guides, market updates and local insight for Eastside buyers and sellers.`,
     pathName: "/blog/", crumbs: [{ name: "Home", path: "/" }, { name: "Blog", path: "/blog/" }],
   }));
   sitemap.push({ path: "/blog/", lastmod: maxDate(posts.map(lastmodOf)), changefreq: "weekly", priority: "0.7" });
