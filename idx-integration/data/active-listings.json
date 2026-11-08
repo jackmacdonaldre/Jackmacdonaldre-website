@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T01:33:43.075Z",
+  "generatedAt": "2026-11-08T09:13:38.983Z",
   "count": 7,
   "listings": [
     {
@@ -726,25 +726,11 @@
       "listingPrice": "$1,149,800",
       "longitude": -122.198721,
       "mediaData": {
-        "oh": [
-          {
-            "id": "162991429",
-            "text": "",
-            "starts": "2026-11-07T13:00:00+00:00",
-            "expires": "2026-11-07T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-06T01:25:11+00:00",
-            "freeFormDate": "November 7th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2528070",
-            "startTime": 1794056400
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 38,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1149800,
@@ -1198,21 +1184,7 @@
       "listingPrice": "$1,049,800",
       "longitude": -122.198729,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163999406",
-            "text": "",
-            "starts": "2026-11-07T13:00:00+00:00",
-            "expires": "2026-11-07T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-05T20:40:38+00:00",
-            "freeFormDate": "November 7th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2601370",
-            "startTime": 1794056400
-          }
-        ],
+        "oh": [],
         "vt": [
           {
             "id": "vtURL",
@@ -1224,7 +1196,7 @@
       },
       "mlsPhotoCount": 33,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1049800,
@@ -2135,19 +2107,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "164041831",
-            "text": "",
-            "starts": "2026-11-07T13:00:00+00:00",
-            "expires": "2026-11-07T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-07T18:10:41+00:00",
-            "freeFormDate": "November 7th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
-            "listingID": "2577976",
-            "startTime": 1794056400
-          },
-          {
             "id": "163247646",
             "text": "",
             "starts": "2026-11-08T11:00:00+00:00",
@@ -2164,7 +2123,7 @@
       },
       "mlsPhotoCount": 35,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 750000,
@@ -2574,25 +2533,11 @@
       "listingPrice": "$650,000",
       "longitude": -122.377481,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163470525",
-            "text": "",
-            "starts": "2026-11-07T13:00:00+00:00",
-            "expires": "2026-11-07T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-06T01:10:12+00:00",
-            "freeFormDate": "November 7th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
-            "listingID": "2584647",
-            "startTime": 1794056400
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 26,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 650000,
@@ -2990,25 +2935,11 @@
       "listingPrice": "$650,000",
       "longitude": -122.377471,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163269728",
-            "text": "",
-            "starts": "2026-11-07T13:00:00+00:00",
-            "expires": "2026-11-07T15:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-06T01:10:11+00:00",
-            "freeFormDate": "November 7th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
-            "listingID": "2588925",
-            "startTime": 1794056400
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 27,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 650000,

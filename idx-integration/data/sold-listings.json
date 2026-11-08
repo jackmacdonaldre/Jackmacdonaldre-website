@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T01:34:03.731Z",
-  "count": 121,
+  "generatedAt": "2026-11-08T09:13:55.304Z",
+  "count": 120,
   "listings": [
     {
       "acres": "0.029",
@@ -1425,258 +1425,6 @@
       }
     },
     {
-      "acres": "0.219",
-      "address": "12604 177th Place SE",
-      "advanced": {
-        "roof": [
-          "Composition"
-        ],
-        "sewer": [
-          "Septic Tank"
-        ],
-        "levels": [
-          "One"
-        ],
-        "offers": "Seller will review offers on Offer Review Date (or sooner)",
-        "cooling": [
-          "None"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2026,
-        "aduCount": "0",
-        "basement": [
-          "None"
-        ],
-        "flooring": [
-          "Vinyl Plank"
-        ],
-        "saleType": "MLS",
-        "bathrooms": "1.5",
-        "styleCode": "10 - 1 Story",
-        "appliances": [
-          "Dishwasher",
-          "Dryer",
-          "Refrigerator",
-          "Stove(s)/Range(s)",
-          "Washer"
-        ],
-        "highSchool": [
-          "Liberty Snr High"
-        ],
-        "inclusions": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "livingArea": 1190,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Paved"
-        ],
-        "waterSource": [
-          "Public"
-        ],
-        "listingTerms": [
-          "Cash",
-          "Conventional"
-        ],
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "350 - Renton/Highlands",
-        "onMarketDate": "2026-08-13T00:00:00+00:00",
-        "parkingTotal": 6,
-        "powerCompany": "PSE",
-        "sewerCompany": "Septic",
-        "siteFeatures": [
-          "Deck",
-          "Fenced-Fully"
-        ],
-        "titleCompany": "Stewart Title",
-        "waterCompany": "King County Water District #90",
-        "waterfrontYN": "no",
-        "bathsFullMain": "1",
-        "bathsHalfMain": "1",
-        "bedroomsLower": "0",
-        "bedroomsUpper": "0",
-        "coveredSpaces": 2,
-        "entryLocation": "Main",
-        "structureType": [
-          "House"
-        ],
-        "associationFee": 0,
-        "bathsFullLower": "0",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "elevationUnits": [
-          "Feet"
-        ],
-        "fireplacesMain": "1",
-        "listAgentEmail": "jack.macdonald@compass.com",
-        "standardStatus": "Closed",
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "fireplacesTotal": 1,
-        "listOfficeEmail": "contractsseattle@compass.com",
-        "numberOfShowers": "1",
-        "parkingFeatures": [
-          "Driveway",
-          "Attached Garage"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 6431.62,
-        "attachedGarageYN": "yes",
-        "bedroomsPossible": 3,
-        "elementarySchool": [
-          "Apollo Elem"
-        ],
-        "exteriorFeatures": [
-          "Wood"
-        ],
-        "interiorFeatures": [
-          "Dining Room",
-          "Fireplace"
-        ],
-        "mlsLotSizeSource": "KCR",
-        "numberOfBathtubs": "1",
-        "sellerDisclosure": "Exempt",
-        "buildingAreaTotal": 1190,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "fireplaceFeatures": [
-          "Wood Burning"
-        ],
-        "foundationDetails": [
-          "Poured Concrete"
-        ],
-        "lotSizeSquareFeet": 9520,
-        "mainLevelBedrooms": 3,
-        "appliancesIncluded": [
-          "Dishwasher(s)",
-          "Dryer(s)",
-          "Refrigerator(s)",
-          "Stove(s)/Range(s)",
-          "Washer(s)"
-        ],
-        "highSchoolDistrict": [
-          "Issaquah"
-        ],
-        "buildingInformation": [
-          "Built On Lot"
-        ],
-        "powerProductionType": [
-          "Natural Gas"
-        ],
-        "waterHeaterLocation": "Garage",
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Maywood Mid"
-        ],
-        "bathsThreeQuarterMain": "0",
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "KCR",
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "1190",
-        "listAgentPreferredPhone": "425-941-6998",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "specialListingConditions": [
-          "None"
-        ],
-        "commonInterestCommunityYN": "no"
-      },
-      "bedrooms": 3,
-      "cityID": 38960,
-      "cityName": "Renton",
-      "coListingAgentID": "1186410",
-      "coListingOfficeID": "91866779",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2026-08-13T21:34:57+00:00",
-      "dateModified": "2026-09-28T15:47:11+00:00",
-      "detailsURL": "b045/2514905",
-      "detailsUrlSlug": "12604-177th-Place-SE-Renton-98059",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2514905/12604-177th-Place-SE-Renton-98059",
-      "halfBaths": 1,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/5ba0/0ab5823a9d53b3c5ca53d471a9b32fb6/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.489322,
-      "listingAgentID": "121277198",
-      "listingID": "2514905",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$695,000",
-      "longitude": -122.103896,
-      "mediaData": [],
-      "mlsPhotoCount": 32,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 1,
-      "price": 695000,
-      "priceData": {
-        "value": {
-          "raw": 695000,
-          "formatted": "$695,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Single Family Residence",
-      "propType": "Residential",
-      "remarksConcat": "Beautifully renovated rambler on a quiet, no-through street in the sought-after Issaquah School District. Step into a bright, open living room with wide-plank flooring and recessed lighting, flowing seamlessly into the dining area and updated kitchen with quartz countertops, an undermount sink, stainless-steel appliances, crisp white cabinetry and a subway-tile backsplash. Large windows fill the home with natural light and frame peaceful greenbelt views. Down the hall, three comfortable bedrooms and a refreshed bathroom offer separation from the main living spaces. A sliding door opens to a generous deck and expansive backyard bordered by mature evergreens, perfect for dining, games, entertaining or unwinding. Extensive improvements include fresh interior and exterior paint, updated lighting, a new water heater, upgraded crawl space insulation and vapor barrier, a new roof, a brand new septic system and a finished two-car garage with epoxy flooring. Move-in ready and ready to enjoy!",
-      "rntLse": "neither",
-      "rntLsePrice": 695000,
-      "sellingAgentID": "1189123",
-      "sellingOfficeID": "48622815",
-      "soldDate": "2026-09-25T00:00:00+00:00",
-      "soldPrice": 695000,
-      "sqFt": "1,190",
-      "state": "Washington",
-      "streetName": "177th Place SE",
-      "streetNumber": "12604",
-      "subdivision": "Renton",
-      "threeQuarterBaths": 0,
-      "totalBaths": 2,
-      "viewCount": 34,
-      "vtCount": 0,
-      "yearBuilt": 1968,
-      "zip4": "6610",
-      "zipcode": "98059",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Jack Macdonald, Licensed Broker",
-        "agentPhone": "425.941.6998"
-      }
-    },
-    {
       "acres": "0.069",
       "address": "2112 N 64th Street",
       "advanced": {
@@ -1977,7 +1725,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 98,
+      "viewCount": 100,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
@@ -30920,7 +30668,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 4,
       "unitNumber": "2",
-      "viewCount": 8,
+      "viewCount": 9,
       "vtCount": 0,
       "yearBuilt": 2023,
       "zipcode": "98166",
