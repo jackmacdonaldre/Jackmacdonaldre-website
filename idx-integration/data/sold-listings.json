@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T09:57:49.138Z",
+  "generatedAt": "2026-11-09T20:52:57.373Z",
   "count": 121,
   "listings": [
     {
@@ -2230,7 +2230,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 69,
+      "viewCount": 70,
       "vtCount": 0,
       "yearBuilt": 1969,
       "zipcode": "98059",
@@ -2528,7 +2528,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 68,
+      "viewCount": 69,
       "vtCount": 0,
       "yearBuilt": 2025,
       "zipcode": "98055",
@@ -3570,7 +3570,7 @@
       "subdivision": "Squak Mountain",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 31,
+      "viewCount": 34,
       "vtCount": 0,
       "yearBuilt": 1971,
       "zipcode": "98027",
@@ -4101,7 +4101,7 @@
       "subdivision": "East Renton",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 90,
+      "viewCount": 92,
       "vtCount": 0,
       "yearBuilt": 1954,
       "zip4": "8570",
