@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T01:46:44.084Z",
+  "generatedAt": "2026-11-09T09:57:24.220Z",
   "count": 7,
   "listings": [
     {
@@ -2102,25 +2102,11 @@
       "listingPrice": "$750,000",
       "longitude": -122.038167,
       "mediaData": {
-        "oh": [
-          {
-            "id": "163247646",
-            "text": "",
-            "starts": "2026-11-08T11:00:00+00:00",
-            "expires": "2026-11-08T13:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-07T18:10:28+00:00",
-            "freeFormDate": "November 8th, 2026",
-            "freeFormTime": "11:00 am to 1:00 pm",
-            "listingID": "2577976",
-            "startTime": 1794135600
-          }
-        ]
+        "oh": []
       },
       "mlsPhotoCount": 35,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 750000,
