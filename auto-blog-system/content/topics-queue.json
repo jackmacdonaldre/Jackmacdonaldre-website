@@ -689,7 +689,9 @@
       "topic": "Buying a Home Near Top Rated Schools in Sammamish: Lake Washington vs Issaquah District",
       "city": "Sammamish",
       "type": "school_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "buying-a-home-near-top-rated-schools-in-sammamish-lake-washington-vs-issaquah-district",
+      "published_date": "2026-11-09"
     },
     {
       "topic": "Selling a Home After a Parent Moves to Assisted Living",
