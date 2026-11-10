@@ -1,24 +1,24 @@
-# North Bend Home Values & Market Report | Updated October 2026
+# North Bend Home Values & Market Report | Updated November 2026
 
 Web page: https://jackmacdonaldre.com/market-reports/north-bend/
-Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+Updated: November 2026. Data window: August to October 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
 
-North Bend's median single family sale price was $1.30 million for July to September 2026, down 1.6% from the same months last year. 34 single family homes sold (15.0% fewer than a year ago), and the median home spent 22 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.
+In North Bend, the median sale price for single family homes was $1.20 million over the August to October 2026 window, down from $1.32 million in the same 3 month period last year. 36 homes sold, the same count as a year ago, and homes spent a median of 22 days on market compared to 30 days last year. With only 36 sales in this window, the numbers can swing a lot from month to month, so take any single figure as a snapshot rather than a firm direction.
 
-| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| Metric | Aug to Oct 2026 | Last month's window | Last year | Change vs last year |
 | --- | --- | --- | --- | --- |
-| Median sale price | $1,299,482 | $1,292,500 | $1,319,998 | Down 1.6% |
-| Homes sold | 34 | 30 | 40 | Down 15.0% |
-| Median days on market | 22 days | 9 days | 26 days | Down 4 days |
-| Average sale to list price | 98.2% | 98.6% | 99.2% | Down 1.1 pts |
-| Months of supply | 1.9 | 2.1 | 1.2 | Up 0.7 |
+| Median sale price | $1,199,316 | $1,300,000 | $1,319,998 | Down 9.1% |
+| Homes sold | 36 | 33 | 36 | No change |
+| Median days on market | 22 days | 22 days | 30 days | Down 8 days |
+| Average sale to list price | 98.4% | 98.2% | 99.5% | Down 1.1 pts |
+| Months of supply | 1.7 | 1.8 | 1.4 | Up 0.3 |
 
 ## What this means if you're selling
 
-With 1.9 months of supply, there still aren't many homes for buyers to choose from, and that works in your favor. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are selling faster than a year ago (22 days at the median versus 26).
+Homes that sold closed at 98.4% of list price on average, which means pricing accurately matters more than ever. The median price is running below where it was a year ago, so sellers who anchor to 2025 comps may find themselves sitting longer than the 22 day median suggests. Supply sits at 1.7 months, which is still a relatively thin inventory, but buyers here are clearly paying attention to value. Because this is a small market, one or two outlier sales can move the median noticeably in either direction.
 
 ## What this means if you're buying
 
-Inventory is thin at 1.9 months of supply, so the good homes don't wait long. Have your financing settled before you start touring, not after. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+At 1.7 months of supply, there is not a lot of inventory to choose from in North Bend, so when a well priced home shows up it tends to move, as the 22 day median days on market reflects. Homes are closing at 98.4% of list on average, meaning significant discounts are uncommon but not impossible depending on the property. The median price of $1.20 million is down from $1.32 million in the same window last year, which is worth noting, though with only 36 sales the numbers can swing a lot and that gap may not hold as more data comes in.
 
 Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value

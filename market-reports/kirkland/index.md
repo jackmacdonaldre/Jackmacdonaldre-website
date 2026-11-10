@@ -1,24 +1,24 @@
-# Kirkland Home Values & Market Report | Updated October 2026
+# Kirkland Home Values & Market Report | Updated November 2026
 
 Web page: https://jackmacdonaldre.com/market-reports/kirkland/
-Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+Updated: November 2026. Data window: August to October 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
 
-Kirkland's median single family sale price was $1.37 million for July to September 2026, down 14.1% from the same months last year. 254 single family homes sold (10.9% more than a year ago), and the median home spent 23 days on the market.
+Kirkland single family home sales over the August to October 2026 period show a median sale price of $1.27 million, down 19.3% from the same 3 month window last year when the median was $1.57 million. Volume picked up, with 252 homes sold compared to 227 a year ago. Homes are sitting longer too, a median of 27 days on market versus 13 days last year, and supply has grown to 2.9 months from 2.0 months.
 
-| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| Metric | Aug to Oct 2026 | Last month's window | Last year | Change vs last year |
 | --- | --- | --- | --- | --- |
-| Median sale price | $1,374,452 | $1,505,000 | $1,600,000 | Down 14.1% |
-| Homes sold | 254 | 257 | 229 | Up 10.9% |
-| Median days on market | 23 days | 20 days | 14 days | Up 9 days |
-| Average sale to list price | 97.8% | 97.8% | 98.6% | Down 0.8 pts |
-| Months of supply | 3.2 | 3.1 | 2.4 | Up 0.8 |
+| Median sale price | $1,271,775 | $1,375,000 | $1,575,000 | Down 19.3% |
+| Homes sold | 252 | 250 | 227 | Up 11.0% |
+| Median days on market | 27 days | 23 days | 13 days | Up 14 days |
+| Average sale to list price | 97.5% | 97.8% | 98.6% | Down 1.1 pts |
+| Months of supply | 2.9 | 3.2 | 2.0 | Up 0.9 |
 
 ## What this means if you're selling
 
-At 3.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.8% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (23 days at the median versus 14), so build that into your timeline.
+Sellers are working with a meaningfully lower price point than a year ago, so pricing honestly from the start matters more than ever. The good news is that buyers are out there, 252 sales over this 3 month stretch is real activity. Homes closing at 97.5% of list price tells you the market is still transacting, but there is not much room to test a high number and wait. At 27 median days on market, well priced homes are moving, but sellers should expect a longer process than the sprint conditions of a year ago.
 
 ## What this means if you're buying
 
-At 3.2 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.8% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.
+With 2.9 months of supply and homes averaging 97.5% of list price, Kirkland is not a one sided market right now, but it is not wide open either. You have more time to think than buyers did a year ago when the median was 13 days on market. The median sale price of $1.27 million reflects real transactions across 252 sales, so it is a reasonably solid benchmark to anchor your offer strategy. A little patience and a grounded offer are both more viable tools than they were during the same stretch last year.
 
 Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value

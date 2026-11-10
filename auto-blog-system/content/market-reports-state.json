@@ -1,190 +1,190 @@
 {
   "areas": {
     "bellevue": {
-      "title": "Bellevue Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-12",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Bellevue Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Bellevue's median single family sale price was $1.84 million for July to September 2026, up 2.3% from the same months last year. 266 single family homes sold (15.6% fewer than a year ago), and the median home spent 20 days on the market.",
-        "selling": "At 3.1 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.4% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (20 days at the median versus 8), so build that into your timeline.",
-        "buying": "At 3.1 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.4% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are higher than a year ago, so waiting has not been cheaper lately.",
-        "method": "template"
+        "summary": "Bellevue single family homes sold at a median price of $1.72 million over the August through October 2026 period, down 2.9% from $1.77 million the same stretch last year. Fewer homes traded hands too, 253 sales compared to 314 a year ago, a drop of 19.4%. Supply has grown to 3.0 months and the median time on market has stretched to 27 days, up from 8 days a year ago.",
+        "selling": "The days of a home going under contract in a week are largely behind us for now, with 27 median days on market telling you that buyers are taking their time. At 96.9% of list price on average, sellers are still getting close to asking, but pricing accurately from the start matters more than it did when supply was at 1.7 months. With 3.0 months of supply, buyers have real choices, so a home that is priced or presented poorly will sit while better positioned listings move.",
+        "buying": "Three months of supply gives you something you did not have a year ago: room to think. The median sale price of $1.72 million and an average sale to list ratio of 96.9% suggest that modest negotiation is possible, though sellers are not giving things away. With 27 median days on market, the urgency to write an offer the same afternoon you tour is largely gone, and that is a meaningful shift from the 8 day pace of a year ago.",
+        "method": "ai"
       }
     },
     "redmond": {
-      "title": "Redmond Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-12",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Redmond Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Redmond's median single family sale price was $1.54 million for July to September 2026, down 2.4% from the same months last year. 93 single family homes sold (23.1% fewer than a year ago), and the median home spent 28 days on the market.",
-        "selling": "At 3.1 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.8% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (28 days at the median versus 14), so build that into your timeline.",
-        "buying": "At 3.1 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.8% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Redmond single family homes sold at a median price of $1.52 million over the August to October 2026 period, down 10.3% from $1.70 million in the same 3 month window last year. Volume fell too, with 91 homes sold compared to 113 a year ago. Supply has grown to 3.0 months and the median days on market stretched to 28 days, up from 20 last year.",
+        "selling": "A year ago Redmond sellers had 1.7 months of supply working in their favor; now there is 3.0 months of inventory, which means buyers have more choices and less urgency. Homes are still selling, but the average sale came in at 97.3% of list price, so aggressive pricing tends to leave money on the table rather than spark a bidding war. With 28 days as the median time to an accepted offer, sellers should expect to be patient and price carefully from day one.",
+        "buying": "More supply and a 10.3% drop in median price compared to last year means Redmond is a more workable market for buyers than it was in 2025. At 3.0 months of supply you are not in a rush the way you would have been at 1.7 months, and the typical home is selling at 97.3% of list, so there is some room to negotiate. Twenty eight days on market as a median tells you most homes are not flying off in a weekend, which gives you time to do proper due diligence.",
+        "method": "ai"
       }
     },
     "kirkland": {
-      "title": "Kirkland Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-12",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Kirkland Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Kirkland's median single family sale price was $1.37 million for July to September 2026, down 14.1% from the same months last year. 254 single family homes sold (10.9% more than a year ago), and the median home spent 23 days on the market.",
-        "selling": "At 3.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.8% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (23 days at the median versus 14), so build that into your timeline.",
-        "buying": "At 3.2 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.8% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Kirkland single family home sales over the August to October 2026 period show a median sale price of $1.27 million, down 19.3% from the same 3 month window last year when the median was $1.57 million. Volume picked up, with 252 homes sold compared to 227 a year ago. Homes are sitting longer too, a median of 27 days on market versus 13 days last year, and supply has grown to 2.9 months from 2.0 months.",
+        "selling": "Sellers are working with a meaningfully lower price point than a year ago, so pricing honestly from the start matters more than ever. The good news is that buyers are out there, 252 sales over this 3 month stretch is real activity. Homes closing at 97.5% of list price tells you the market is still transacting, but there is not much room to test a high number and wait. At 27 median days on market, well priced homes are moving, but sellers should expect a longer process than the sprint conditions of a year ago.",
+        "buying": "With 2.9 months of supply and homes averaging 97.5% of list price, Kirkland is not a one sided market right now, but it is not wide open either. You have more time to think than buyers did a year ago when the median was 13 days on market. The median sale price of $1.27 million reflects real transactions across 252 sales, so it is a reasonably solid benchmark to anchor your offer strategy. A little patience and a grounded offer are both more viable tools than they were during the same stretch last year.",
+        "method": "ai"
       }
     },
     "issaquah": {
-      "title": "Issaquah Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-12",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Issaquah Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Issaquah's median single family sale price was $1.64 million for July to September 2026, up 9.0% from the same months last year. 61 single family homes sold (11.6% fewer than a year ago), and the median home spent 15 days on the market.",
-        "selling": "At 2.9 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.8% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions.",
-        "buying": "At 2.9 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.8% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are higher than a year ago, so waiting has not been cheaper lately.",
-        "method": "template"
+        "summary": "Issaquah single family homes sold at a median price of $1.62 million over the August through October 2026 window, up 8.8% from the same stretch last year when the median was $1.49 million. Fifty four homes sold, a modest dip from 58 the year before, and the typical home found a buyer in 14 days. Supply has loosened a bit, with months of supply now at 3.1 compared to 2.0 a year ago.",
+        "selling": "Sellers are still getting strong prices here, with homes closing at an average of 98.3% of list price, which means buyers are not paying much above ask but sellers are not leaving much on the table either. Fourteen days to a sale is fast enough that well priced homes are not sitting. The uptick in supply to 3.1 months does give buyers a little more room to breathe than they had last year, so pricing carefully from the start matters more than it did in 2025.",
+        "buying": "With 3.1 months of supply on the market, Issaquah is not as tight as it was a year ago when supply sat at 2.0 months, and that extra inventory gives you more options and a bit more negotiating room. That said, homes are still moving in a median of 14 days, so you cannot take a slow approach if something fits. The median sale price of $1.62 million reflects where this market is sitting right now, and homes are generally closing very close to list, so lowball offers are unlikely to land.",
+        "method": "ai"
       }
     },
     "north-bend": {
-      "title": "North Bend Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-12",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "North Bend Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "North Bend's median single family sale price was $1.30 million for July to September 2026, down 1.6% from the same months last year. 34 single family homes sold (15.0% fewer than a year ago), and the median home spent 22 days on the market. North Bend is a small market, so a few sales can move these numbers a lot.",
-        "selling": "With 1.9 months of supply, there still aren't many homes for buyers to choose from, and that works in your favor. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are selling faster than a year ago (22 days at the median versus 26).",
-        "buying": "Inventory is thin at 1.9 months of supply, so the good homes don't wait long. Have your financing settled before you start touring, not after. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "In North Bend, the median sale price for single family homes was $1.20 million over the August to October 2026 window, down from $1.32 million in the same 3 month period last year. 36 homes sold, the same count as a year ago, and homes spent a median of 22 days on market compared to 30 days last year. With only 36 sales in this window, the numbers can swing a lot from month to month, so take any single figure as a snapshot rather than a firm direction.",
+        "selling": "Homes that sold closed at 98.4% of list price on average, which means pricing accurately matters more than ever. The median price is running below where it was a year ago, so sellers who anchor to 2025 comps may find themselves sitting longer than the 22 day median suggests. Supply sits at 1.7 months, which is still a relatively thin inventory, but buyers here are clearly paying attention to value. Because this is a small market, one or two outlier sales can move the median noticeably in either direction.",
+        "buying": "At 1.7 months of supply, there is not a lot of inventory to choose from in North Bend, so when a well priced home shows up it tends to move, as the 22 day median days on market reflects. Homes are closing at 98.4% of list on average, meaning significant discounts are uncommon but not impossible depending on the property. The median price of $1.20 million is down from $1.32 million in the same window last year, which is worth noting, though with only 36 sales the numbers can swing a lot and that gap may not hold as more data comes in.",
+        "method": "ai"
       }
     },
     "fall-city": {
-      "title": "Fall City Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-12",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Fall City Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Fall City's median single family sale price was $732,000 for July to September 2026. 6 single family homes sold, and the median home spent 22 days on the market. With this few sales, one or two homes can swing the median a long way, so read it as a rough guide, not a trend.",
-        "selling": "At 2.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 96.5% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (22 days at the median versus 15), so build that into your timeline.",
-        "buying": "At 2.7 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.5% of list price, so there is room to negotiate, especially on homes that have been on the market a while.",
-        "method": "template"
+        "summary": "Six single family homes sold in Fall City over the August to October 2026 window, with a median sale price of $924,000 and a median of 63 days on market. That median price is down 10.0% from the same 3 month window last year, when the median was $1.03 million across just 4 sales. With only 6 homes in the sample, any one sale can move these numbers considerably, so treat them as a snapshot rather than a firm signal.",
+        "selling": "Homes that sold closed at 97.2% of list price on average, which means most sellers gave up a little ground but not a lot. The months of supply sits at 2.7, down from 5.4 a year ago, so there is less competition among listings than there was then. That said, 63 days on market is a real stretch of time, and the median price is notably lower than last year. Pricing carefully from the start will matter more than it might in a busier part of the county.",
+        "buying": "Supply has tightened considerably compared to a year ago, dropping from 5.4 months to 2.7 months, so you have fewer homes to choose from. At the same time, the median sale price of $924,000 is down 10.0% from a year ago, which suggests sellers have been adjusting. Homes are still sitting for about 63 days on average, so you generally have time to think rather than feeling forced to decide overnight. Because only 6 homes sold in this window, one or two unusual sales can skew everything, so look at each property on its own merits.",
+        "method": "ai"
       }
     },
     "sammamish": {
-      "title": "Sammamish Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Sammamish Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Sammamish's median single family sale price was $1.60 million for July to September 2026, down 3.1% from the same months last year. 158 single family homes sold (13.2% fewer than a year ago), and the median home spent 24 days on the market.",
-        "selling": "At 3.7 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 96.6% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions.",
-        "buying": "At 3.7 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 96.6% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Sammamish single family home sales from August through October 2026 show a median sale price of $1.48 million, down 10.2% from the same 3 month window last year when the median was $1.65 million. 155 homes sold over the period, compared to 173 a year ago. Supply has grown notably, with months of supply at 2.9 versus 1.3 last year, and homes are sitting about a month before selling.",
+        "selling": "Sellers in Sammamish are working with less leverage than they had a year ago. The average home is selling at 96.7% of list price, so pricing accurately from the start matters more than it used to. With 32 median days on market and more competition from other listings, a home that is overpriced will sit and go stale before buyers come back around.",
+        "buying": "Buyers have more room to work with here than they did a year ago. Supply at 2.9 months is still not a lot, but it is more than double what it was in the same period last year, which means you are less likely to be rushed into a decision. Homes are generally closing near 96.7% of list price, so there is some negotiating room, though well priced properties are still moving within about a month.",
+        "method": "ai"
       }
     },
     "woodinville": {
-      "title": "Woodinville Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Woodinville Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Woodinville's median single family sale price was $1.45 million for July to September 2026, up 18.0% from the same months last year. 18 single family homes sold (41.9% fewer than a year ago), and the median home spent 14 days on the market. Woodinville is a small market, so a few sales can move these numbers a lot.",
-        "selling": "At 4.7 months of supply, this is closer to a balanced market. Buyers compare, so condition and price have to hold up next to the other homes they toured that weekend. Sellers averaged 99.1% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (14 days at the median versus 8), so build that into your timeline.",
-        "buying": "At 4.7 months of supply you have real choices. Take the time to compare, and use inspection and price to negotiate where it's warranted. Homes averaged 99.1% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are higher than a year ago, so waiting has not been cheaper lately.",
-        "method": "template"
+        "summary": "Woodinville single family homes sold at a median price of $1.27 million from August through October 2026, up 2.4% from the same 3 month window last year. Only 20 homes sold compared to 28 a year ago, and supply rose to 3.9 months from 2.6. With a market this size, any one month can move the numbers around, so take these figures as a snapshot rather than a firm direction.",
+        "selling": "Homes that sold closed at 98.8% of list price on average, which means pricing accurately still matters. The median days on market was 18, up from 12 a year ago, so sellers should expect a little more patience from buyers before getting to the table. With only 20 sales over the 3 month window, one or two outlier sales can shift the median noticeably, so your specific street and condition will carry a lot of weight in how your home gets priced.",
+        "buying": "At 3.9 months of supply there is more inventory relative to demand than a year ago, which gives buyers a bit more room to breathe than they had in the same period last year. Homes are still closing near asking at 98.8%, so well priced homes are not sitting and waiting for lowball offers. The pool of recent sales is small at 20 homes, so comparable sales can be thin and appraisals and negotiations may feel less clear cut than in a higher volume market.",
+        "method": "ai"
       }
     },
     "bothell": {
-      "title": "Bothell Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Bothell Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Bothell's median single family sale price was $1.12 million for July to September 2026, down 5.9% from the same months last year. 98 single family homes sold (18.1% more than a year ago), and the median home spent 28 days on the market.",
-        "selling": "At 4.0 months of supply, this is closer to a balanced market. Buyers compare, so condition and price have to hold up next to the other homes they toured that weekend. Sellers averaged 98.6% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (28 days at the median versus 21), so build that into your timeline.",
-        "buying": "At 4.0 months of supply you have real choices. Take the time to compare, and use inspection and price to negotiate where it's warranted. Homes averaged 98.6% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Bothell single family home sales from August through October 2026 show a median sale price of $1.13 million, essentially flat from $1.14 million over the same 3 month stretch last year. Eighty one homes sold, nearly identical to the 82 sold a year ago, and homes averaged 33 days on market compared to 29 days last year. The bigger shift is in supply: months of supply has grown from 2.1 to 4.5, giving buyers noticeably more room than they had twelve months ago.",
+        "selling": "With homes selling at 98.8% of list price, serious buyers are still showing up, but they are taking longer to decide. Thirty three days on market versus 29 last year is not dramatic, but it reflects a more patient pool of buyers. Pricing accurately from the start matters more now than it did a year ago, when supply was much tighter.",
+        "buying": "Four and a half months of supply means you have real choices in Bothell right now, which is a different situation than the 2.1 months available a year ago. Sellers are landing about 98.8% of their asking price on average, so well priced homes are still moving, but you have more time to think and compare. Median prices have held steady around $1.13 million, so the market has not softened dramatically, it has just become more balanced.",
+        "method": "ai"
       }
     },
     "kenmore": {
-      "title": "Kenmore Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Kenmore Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Kenmore's median single family sale price was $1.03 million for July to September 2026, down 12.6% from the same months last year. 53 single family homes sold (11.7% fewer than a year ago), and the median home spent 22 days on the market.",
-        "selling": "At 3.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.5% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (22 days at the median versus 19), so build that into your timeline.",
-        "buying": "At 3.2 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.5% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Kenmore single family homes sold at a median price of $1.09 million over the August to October 2026 period, down from $1.17 million during the same 3 month window last year. Forty three homes changed hands, compared to 59 a year ago, and supply has grown to 3.6 months from 2.3 months. Homes are still moving in a median of 20 days, and sellers are getting 98.2% of their list price on average.",
+        "selling": "Prices in Kenmore are off about 6.8% from where they were a year ago, so setting the right list price matters more than it did. Buyers have more choices now, with 3.6 months of supply versus 2.3 months last fall, which means overpriced listings are easier to overlook. The good news is that homes priced well are still selling in around 20 days and landing close to full asking at 98.2% of list.",
+        "buying": "More supply and softer prices give buyers in Kenmore a bit more room than they had a year ago. With 3.6 months of inventory, you are less likely to face the same urgency that defined this area in prior years. That said, well priced homes are still going under contract in about 20 days, so being prepared to move is still important.",
+        "method": "ai"
       }
     },
     "newcastle": {
-      "title": "Newcastle Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Newcastle Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Newcastle's median single family sale price was $1.73 million for July to September 2026, down 2.8% from the same months last year. 40 single family homes sold (18.4% fewer than a year ago), and the median home spent 29 days on the market.",
-        "selling": "At 2.6 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 97.6% of list price, so buyers are negotiating. Pricing right from day one protects you from a string of reductions. Homes are taking longer to sell than a year ago (29 days at the median versus 24), so build that into your timeline.",
-        "buying": "At 2.6 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 97.6% of list price, so there is room to negotiate, especially on homes that have been on the market a while. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Newcastle single family home sales ran 27 transactions over the August through October 2026 period, down from 54 in the same 3 month window last year. The median sale price came in at $1.55 million, about 2.7% below the $1.59 million recorded a year ago. Homes averaged 35 days on market, and months of supply has grown to 3.1, up from 1.6 last year.",
+        "selling": "With twice the inventory relative to demand compared to a year ago, buyers have more options and less urgency, which shows up in that modest price dip. Homes are still selling close to list at 98.7%, so realistic pricing is getting rewarded. If you price to where the market actually is rather than where it was in 2025, you can still move a home in roughly 35 days.",
+        "buying": "Newcastle has shifted meaningfully toward buyers over this 3 month period, with 3.1 months of supply giving you more room to be selective than the 1.6 months buyers faced a year ago. Sellers are landing at 98.7% of list on average, so deep discounts are not the norm, but you are not fighting the same competition either. This is a good window to take your time and negotiate thoughtfully.",
+        "method": "ai"
       }
     },
     "renton": {
-      "title": "Renton Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Renton Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Renton's median single family sale price was $730,000 for July to September 2026, down 4.0% from the same months last year. 161 single family homes sold (17.0% fewer than a year ago), and the median home spent 26 days on the market.",
-        "selling": "At 3.1 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (26 days at the median versus 15), so build that into your timeline.",
-        "buying": "At 3.1 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Over the August to October 2026 period, 160 single family homes sold in Renton at a median price of $716,000, down 5.2% from $755,000 during the same 3 month window last year. Homes are sitting on the market longer too, with the median days on market at 34 compared to 17 a year ago. Supply has grown to 2.8 months, up from 1.8 months last year, and the number of sales dropped 12.1%.",
+        "selling": "Sellers in Renton are getting 97.9% of their list price on average, so well priced homes are still closing close to asking. That said, the days on market have doubled year over year, which means buyers are taking more time to decide. With 2.8 months of supply and fewer sales than last year, pricing carefully from day one matters more than it did a year ago.",
+        "buying": "Buyers have more room to breathe here than they did a year ago. Supply is up to 2.8 months and homes are averaging 34 days on market, so there is less pressure to decide in a weekend. Prices have come down 5.2% year over year to a median of $716,000, and sellers are still closing at 97.9% of list, so lowball offers are not really the story, but the leverage has shifted a bit toward buyers.",
+        "method": "ai"
       }
     },
     "carnation": {
-      "title": "Carnation Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Carnation Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Carnation's median single family sale price was $1.15 million for July to September 2026, down 5.3% from the same months last year. 15 single family homes sold, and the median home spent 32 days on the market. Carnation is a small market, so a few sales can move these numbers a lot.",
-        "selling": "At 2.2 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.9% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (32 days at the median versus 25), so build that into your timeline.",
-        "buying": "At 2.2 months of supply you have some room to look. That's less choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.9% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Carnation saw 17 single family homes sell over the August through October 2026 window, with a median sale price of $1.09 million, down from $1.20 million in the same 3 month window last year. Homes averaged 32 days on market and sold at 98.7% of list price, with 2.3 months of supply available. That said, with a small pool of sales like this, one or two outlier transactions can move the numbers considerably, so take any year over year comparison with some caution.",
+        "selling": "Sellers got 98.7% of list price on average, which means pricing accurately matters more than ever here. At 32 days on market, homes are not flying off the shelf, so patience and realistic expectations are part of the picture. The median sale price of $1.09 million is running below where it was a year ago, so sellers who anchor their price to older comps may find themselves sitting longer than they want.",
+        "buying": "With 2.3 months of supply and homes selling close to list at 98.7%, there is not a lot of room to lowball, but you are also not in a situation where everything is gone the first weekend. At 32 days on market on average, you generally have a little time to do your homework before making a move. Volume picked up meaningfully compared to last year, with 17 sales versus 11, so more activity is happening, though in a market this size that can reflect just a handful more transactions rather than a broad shift.",
+        "method": "ai"
       }
     },
     "shoreline": {
-      "title": "Shoreline Home Values & Market Report | Updated October 2026",
-      "updatedDate": "2026-10-13",
-      "updatedMonth": "October 2026",
-      "dataEnd": "2026-09-30",
-      "window": "July to September 2026",
+      "title": "Shoreline Home Values & Market Report | Updated November 2026",
+      "updatedDate": "2026-11-10",
+      "updatedMonth": "November 2026",
+      "dataEnd": "2026-10-31",
+      "window": "August to October 2026",
       "commentary": {
-        "summary": "Shoreline's median single family sale price was $850,000 for July to September 2026, down 4.5% from the same months last year. 102 single family homes sold (4.7% fewer than a year ago), and the median home spent 9 days on the market.",
-        "selling": "At 3.0 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 99.6% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are selling faster than a year ago (9 days at the median versus 12).",
-        "buying": "At 3.0 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 99.6% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.",
-        "method": "template"
+        "summary": "Over the August through October 2026 window, 84 single family homes sold in Shoreline at a median price of $805,000, down 8.1% from $875,000 during the same stretch last year. Homes are sitting on the market a little longer too, with a median of 14 days compared to 17 a year ago, and supply has grown from 1.7 months to 3.6 months. Fewer homes are changing hands overall, with sales volume down 22.2% from the 108 that sold in the same 3 month window last year.",
+        "selling": "Prices are softer than they were a year ago, so sellers who bought on the assumption that last year's numbers would hold may need to recalibrate their expectations. At 3.6 months of supply, buyers have more options than they did at this time last year, which puts a little more weight on the buyer's side of the table. That said, homes that are priced right are still selling, and the 98.8% average sale to list ratio shows that well positioned listings are not giving away a lot at the negotiating stage.",
+        "buying": "With 3.6 months of supply and a median sale price of $805,000, Shoreline is a more balanced place to buy single family homes than it was a year ago when supply sat at just 1.7 months. Sellers are getting 98.8% of their list price on average, so there is not a lot of room to lowball, but you are also not in a situation where every offer needs to be significantly over asking. Homes are moving in a median of 14 days, so you still want to be prepared to act without dragging your feet.",
+        "method": "ai"
       }
     }
   },
-  "redfinLastUpdated": "2026-10-07",
-  "lastRun": "2026-10-12",
-  "lastPostsMonth": "2026-10",
-  "dataEnd": "2026-09-30"
+  "redfinLastUpdated": "2026-11-03",
+  "lastRun": "2026-11-10",
+  "lastPostsMonth": "2026-11",
+  "dataEnd": "2026-10-31"
 }

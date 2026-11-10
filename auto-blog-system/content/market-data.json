@@ -2,8 +2,8 @@
  "source": "Redfin Data Center",
  "sourceUrl": "https://www.redfin.com/news/data-center/",
  "downloadUrl": "https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_data_center/property_types/monthly/all_cities.csv",
- "redfinLastUpdated": "2026-10-07",
- "fetchedAt": "2026-11-03T20:47:54.343Z",
+ "redfinLastUpdated": "2026-11-03",
+ "fetchedAt": "2026-11-10T21:15:39.120Z",
  "areas": {
   "bellevue": {
    "name": "Bellevue",
@@ -11,19 +11,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 252,
-      "medianSalePrice": 1750000,
-      "medianDom": 5,
-      "saleToList": 100.72,
-      "soldAboveList": 34.92,
-      "monthsOfSupply": 1.3,
-      "newListings": 308,
-      "inventory": 108,
-      "medianPpsf": 649.88
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -436,8 +423,8 @@
       "saleToList": 98.8,
       "soldAboveList": 10.75,
       "monthsOfSupply": 2.5,
-      "newListings": 251,
-      "inventory": 154,
+      "newListings": 253,
+      "inventory": 156,
       "medianPpsf": 733.2
      },
      {
@@ -449,8 +436,8 @@
       "saleToList": 99.82,
       "soldAboveList": 23.74,
       "monthsOfSupply": 2.7,
-      "newListings": 366,
-      "inventory": 178,
+      "newListings": 368,
+      "inventory": 180,
       "medianPpsf": 735.4
      },
      {
@@ -462,8 +449,8 @@
       "saleToList": 100.25,
       "soldAboveList": 28.57,
       "monthsOfSupply": 3.1,
-      "newListings": 448,
-      "inventory": 257,
+      "newListings": 450,
+      "inventory": 259,
       "medianPpsf": 714.12
      },
      {
@@ -475,8 +462,8 @@
       "saleToList": 100.13,
       "soldAboveList": 29.96,
       "monthsOfSupply": 3.6,
-      "newListings": 528,
-      "inventory": 311,
+      "newListings": 527,
+      "inventory": 312,
       "medianPpsf": 701.61
      },
      {
@@ -487,9 +474,9 @@
       "medianDom": 9,
       "saleToList": 99.13,
       "soldAboveList": 20.27,
-      "monthsOfSupply": 2.9,
-      "newListings": 508,
-      "inventory": 291,
+      "monthsOfSupply": 3,
+      "newListings": 506,
+      "inventory": 293,
       "medianPpsf": 701.36
      },
      {
@@ -501,51 +488,51 @@
       "saleToList": 98.43,
       "soldAboveList": 13.96,
       "monthsOfSupply": 3,
-      "newListings": 458,
-      "inventory": 297,
+      "newListings": 456,
+      "inventory": 302,
       "medianPpsf": 693.17
      },
      {
       "begin": "2026-06-01",
       "end": "2026-08-31",
-      "homesSold": 303,
-      "medianSalePrice": 1775000,
+      "homesSold": 304,
+      "medianSalePrice": 1773250,
       "medianDom": 16,
-      "saleToList": 97.78,
-      "soldAboveList": 11.55,
-      "monthsOfSupply": 2.8,
-      "newListings": 372,
-      "inventory": 277,
-      "medianPpsf": 687.29
+      "saleToList": 97.79,
+      "soldAboveList": 11.51,
+      "monthsOfSupply": 2.9,
+      "newListings": 371,
+      "inventory": 285,
+      "medianPpsf": 688.39
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 266,
-      "medianSalePrice": 1841766,
+      "homesSold": 263,
+      "medianSalePrice": 1830000,
       "medianDom": 20,
-      "saleToList": 97.39,
-      "soldAboveList": 12.21,
-      "monthsOfSupply": 3.1,
-      "newListings": 361,
-      "inventory": 266,
-      "medianPpsf": 683.07
+      "saleToList": 97.38,
+      "soldAboveList": 12.17,
+      "monthsOfSupply": 3.2,
+      "newListings": 356,
+      "inventory": 271,
+      "medianPpsf": 683.8
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 253,
+      "medianSalePrice": 1724017,
+      "medianDom": 27,
+      "saleToList": 96.88,
+      "soldAboveList": 11.33,
+      "monthsOfSupply": 3,
+      "newListings": 319,
+      "inventory": 250,
+      "medianPpsf": 658.45
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 101,
-      "medianSalePrice": 639990,
-      "medianDom": 9,
-      "saleToList": 99.66,
-      "soldAboveList": 27.72,
-      "monthsOfSupply": 1.7,
-      "newListings": 119,
-      "inventory": 56,
-      "medianPpsf": 585.29
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -957,9 +944,9 @@
       "medianDom": 68,
       "saleToList": 97.36,
       "soldAboveList": 5.56,
-      "monthsOfSupply": 6.3,
-      "newListings": 112,
-      "inventory": 113,
+      "monthsOfSupply": 6.2,
+      "newListings": 111,
+      "inventory": 112,
       "medianPpsf": 604.22
      },
      {
@@ -971,8 +958,8 @@
       "saleToList": 97.34,
       "soldAboveList": 1.54,
       "monthsOfSupply": 6,
-      "newListings": 157,
-      "inventory": 130,
+      "newListings": 156,
+      "inventory": 129,
       "medianPpsf": 611.65
      },
      {
@@ -984,8 +971,8 @@
       "saleToList": 97.18,
       "soldAboveList": 1.32,
       "monthsOfSupply": 5.4,
-      "newListings": 169,
-      "inventory": 139,
+      "newListings": 168,
+      "inventory": 138,
       "medianPpsf": 604.79
      },
      {
@@ -998,7 +985,7 @@
       "soldAboveList": 2.2,
       "monthsOfSupply": 6,
       "newListings": 195,
-      "inventory": 179,
+      "inventory": 178,
       "medianPpsf": 598.8
      },
      {
@@ -1009,9 +996,9 @@
       "medianDom": 18,
       "saleToList": 97.5,
       "soldAboveList": 6.33,
-      "monthsOfSupply": 7.1,
+      "monthsOfSupply": 7,
       "newListings": 199,
-      "inventory": 184,
+      "inventory": 183,
       "medianPpsf": 609.97
      },
      {
@@ -1023,8 +1010,8 @@
       "saleToList": 97.47,
       "soldAboveList": 9.41,
       "monthsOfSupply": 7.1,
-      "newListings": 210,
-      "inventory": 198,
+      "newListings": 209,
+      "inventory": 196,
       "medianPpsf": 598.8
      },
      {
@@ -1035,39 +1022,39 @@
       "medianDom": 31,
       "saleToList": 97.07,
       "soldAboveList": 7.06,
-      "monthsOfSupply": 6.5,
-      "newListings": 169,
-      "inventory": 179,
+      "monthsOfSupply": 6.4,
+      "newListings": 168,
+      "inventory": 178,
       "medianPpsf": 541.33
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 93,
-      "medianSalePrice": 549943,
-      "medianDom": 42,
-      "saleToList": 96.63,
-      "soldAboveList": 3.29,
-      "monthsOfSupply": 5.6,
-      "newListings": 163,
-      "inventory": 170,
-      "medianPpsf": 518.22
+      "homesSold": 92,
+      "medianSalePrice": 545000,
+      "medianDom": 43,
+      "saleToList": 96.35,
+      "soldAboveList": 3.26,
+      "monthsOfSupply": 5.4,
+      "newListings": 159,
+      "inventory": 163,
+      "medianPpsf": 507.06
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 80,
+      "medianSalePrice": 544852,
+      "medianDom": 45,
+      "saleToList": 95.78,
+      "soldAboveList": 0,
+      "monthsOfSupply": 6.2,
+      "newListings": 141,
+      "inventory": 163,
+      "medianPpsf": 537.12
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 42,
-      "medianSalePrice": 816000,
-      "medianDom": 6,
-      "saleToList": 99.33,
-      "soldAboveList": 23.81,
-      "monthsOfSupply": 1.1,
-      "newListings": 43,
-      "inventory": 15,
-      "medianPpsf": 518.46
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -1544,9 +1531,9 @@
       "medianDom": 31,
       "saleToList": 97.03,
       "soldAboveList": 7.5,
-      "monthsOfSupply": 4.5,
-      "newListings": 68,
-      "inventory": 59,
+      "monthsOfSupply": 4.6,
+      "newListings": 69,
+      "inventory": 60,
       "medianPpsf": 517.57
      },
      {
@@ -1557,23 +1544,36 @@
       "medianDom": 28,
       "saleToList": 96.91,
       "soldAboveList": 12.12,
-      "monthsOfSupply": 5.1,
-      "newListings": 53,
-      "inventory": 55,
+      "monthsOfSupply": 5.2,
+      "newListings": 54,
+      "inventory": 56,
       "medianPpsf": 508.41
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 31,
-      "medianSalePrice": 862510,
+      "homesSold": 30,
+      "medianSalePrice": 862500,
       "medianDom": 31,
       "saleToList": 97.47,
-      "soldAboveList": 9.97,
+      "soldAboveList": 10,
       "monthsOfSupply": 6.3,
-      "newListings": 60,
-      "inventory": 63,
-      "medianPpsf": 516.11
+      "newListings": 61,
+      "inventory": 62,
+      "medianPpsf": 516.19
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 26,
+      "medianSalePrice": 903944,
+      "medianDom": 24,
+      "saleToList": 97.94,
+      "soldAboveList": 11.95,
+      "monthsOfSupply": 7.3,
+      "newListings": 51,
+      "inventory": 62,
+      "medianPpsf": 549.63
      }
     ]
    }
@@ -1584,19 +1584,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 86,
-      "medianSalePrice": 1401975,
-      "medianDom": 5,
-      "saleToList": 102.7,
-      "soldAboveList": 50,
-      "monthsOfSupply": 1.2,
-      "newListings": 121,
-      "inventory": 33,
-      "medianPpsf": 616.38
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -1710,7 +1697,7 @@
       "saleToList": 106.11,
       "soldAboveList": 50.91,
       "monthsOfSupply": 1.2,
-      "newListings": 91,
+      "newListings": 92,
       "inventory": 21,
       "medianPpsf": 722.6
      },
@@ -1723,7 +1710,7 @@
       "saleToList": 106.96,
       "soldAboveList": 57.69,
       "monthsOfSupply": 0.5,
-      "newListings": 113,
+      "newListings": 114,
       "inventory": 13,
       "medianPpsf": 723.15
      },
@@ -1736,7 +1723,7 @@
       "saleToList": 107.32,
       "soldAboveList": 64.91,
       "monthsOfSupply": 0.8,
-      "newListings": 133,
+      "newListings": 134,
       "inventory": 29,
       "medianPpsf": 727.24
      },
@@ -1795,41 +1782,41 @@
      {
       "begin": "2024-08-01",
       "end": "2024-10-31",
-      "homesSold": 114,
-      "medianSalePrice": 1612500,
+      "homesSold": 115,
+      "medianSalePrice": 1620000,
       "medianDom": 6,
-      "saleToList": 102.08,
-      "soldAboveList": 45.61,
+      "saleToList": 102.07,
+      "soldAboveList": 45.22,
       "monthsOfSupply": 0.5,
       "newListings": 99,
       "inventory": 20,
-      "medianPpsf": 691.25
+      "medianPpsf": 691.26
      },
      {
       "begin": "2024-09-01",
       "end": "2024-11-30",
-      "homesSold": 96,
-      "medianSalePrice": 1590500,
+      "homesSold": 97,
+      "medianSalePrice": 1600000,
       "medianDom": 6,
-      "saleToList": 101.45,
-      "soldAboveList": 38.54,
+      "saleToList": 101.43,
+      "soldAboveList": 38.14,
       "monthsOfSupply": 0.5,
       "newListings": 96,
       "inventory": 16,
-      "medianPpsf": 692.27
+      "medianPpsf": 694.17
      },
      {
       "begin": "2024-10-01",
       "end": "2024-12-31",
-      "homesSold": 92,
-      "medianSalePrice": 1590500,
+      "homesSold": 93,
+      "medianSalePrice": 1600000,
       "medianDom": 6,
-      "saleToList": 101.57,
-      "soldAboveList": 36.96,
+      "saleToList": 101.55,
+      "soldAboveList": 36.56,
       "monthsOfSupply": 0.3,
       "newListings": 57,
       "inventory": 10,
-      "medianPpsf": 694.22
+      "medianPpsf": 694.27
      },
      {
       "begin": "2024-11-01",
@@ -2062,7 +2049,7 @@
       "soldAboveList": 18.63,
       "monthsOfSupply": 2.7,
       "newListings": 145,
-      "inventory": 90,
+      "inventory": 91,
       "medianPpsf": 697.97
      },
      {
@@ -2094,31 +2081,31 @@
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 93,
-      "medianSalePrice": 1541885,
+      "homesSold": 92,
+      "medianSalePrice": 1542500,
       "medianDom": 28,
-      "saleToList": 97.84,
+      "saleToList": 97.85,
       "soldAboveList": 10.87,
       "monthsOfSupply": 3.1,
-      "newListings": 134,
-      "inventory": 95,
-      "medianPpsf": 674.24
+      "newListings": 132,
+      "inventory": 92,
+      "medianPpsf": 674.44
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 91,
+      "medianSalePrice": 1524131,
+      "medianDom": 28,
+      "saleToList": 97.27,
+      "soldAboveList": 8.99,
+      "monthsOfSupply": 3,
+      "newListings": 122,
+      "inventory": 89,
+      "medianPpsf": 666.38
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 35,
-      "medianSalePrice": 500000,
-      "medianDom": 7,
-      "saleToList": 100.1,
-      "soldAboveList": 42.86,
-      "monthsOfSupply": 0.9,
-      "newListings": 37,
-      "inventory": 10,
-      "medianPpsf": 517.6
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -2556,9 +2543,9 @@
       "medianDom": 26,
       "saleToList": 99.02,
       "soldAboveList": 5.88,
-      "monthsOfSupply": 4.7,
+      "monthsOfSupply": 4.8,
       "newListings": 66,
-      "inventory": 54,
+      "inventory": 55,
       "medianPpsf": 517.24
      },
      {
@@ -2608,39 +2595,39 @@
       "medianDom": 59,
       "saleToList": 96.42,
       "soldAboveList": 0,
-      "monthsOfSupply": 6.6,
-      "newListings": 61,
-      "inventory": 52,
+      "monthsOfSupply": 6.8,
+      "newListings": 62,
+      "inventory": 53,
       "medianPpsf": 474.1
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 32,
-      "medianSalePrice": 406958,
-      "medianDom": 81,
+      "homesSold": 31,
+      "medianSalePrice": 407000,
+      "medianDom": 80,
       "saleToList": 96.68,
-      "soldAboveList": 3.22,
-      "monthsOfSupply": 4.5,
-      "newListings": 52,
+      "soldAboveList": 3.23,
+      "monthsOfSupply": 4.6,
+      "newListings": 53,
       "inventory": 46,
-      "medianPpsf": 428.22
+      "medianPpsf": 428.24
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 31,
+      "medianSalePrice": 410888,
+      "medianDom": 82,
+      "saleToList": 96.74,
+      "soldAboveList": 6.65,
+      "monthsOfSupply": 4.5,
+      "newListings": 41,
+      "inventory": 45,
+      "medianPpsf": 435.06
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 28,
-      "medianSalePrice": 844975,
-      "medianDom": 8,
-      "saleToList": 100.35,
-      "soldAboveList": 32.14,
-      "monthsOfSupply": 0.6,
-      "newListings": 34,
-      "inventory": 6,
-      "medianPpsf": 594.14
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -3104,9 +3091,9 @@
       "medianDom": 40,
       "saleToList": 98.09,
       "soldAboveList": 7.14,
-      "monthsOfSupply": 3.1,
+      "monthsOfSupply": 3.2,
       "newListings": 44,
-      "inventory": 29,
+      "inventory": 30,
       "medianPpsf": 561.68
      },
      {
@@ -3117,9 +3104,9 @@
       "medianDom": 28,
       "saleToList": 97.97,
       "soldAboveList": 0,
-      "monthsOfSupply": 6.4,
+      "monthsOfSupply": 6.6,
       "newListings": 47,
-      "inventory": 44,
+      "inventory": 45,
       "medianPpsf": 553.16
      },
      {
@@ -3131,7 +3118,7 @@
       "saleToList": 97.23,
       "soldAboveList": 0,
       "monthsOfSupply": 10.1,
-      "newListings": 44,
+      "newListings": 43,
       "inventory": 43,
       "medianPpsf": 570.27
      },
@@ -3139,14 +3126,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 19,
-      "medianSalePrice": 875010,
+      "medianSalePrice": 875000,
       "medianDom": 29,
-      "saleToList": 96.55,
+      "saleToList": 96.54,
       "soldAboveList": 0,
-      "monthsOfSupply": 6.7,
-      "newListings": 47,
-      "inventory": 43,
-      "medianPpsf": 556.35
+      "monthsOfSupply": 6.6,
+      "newListings": 46,
+      "inventory": 41,
+      "medianPpsf": 556.44
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 25,
+      "medianSalePrice": 866447,
+      "medianDom": 30,
+      "saleToList": 95.99,
+      "soldAboveList": 0,
+      "monthsOfSupply": 4.6,
+      "newListings": 31,
+      "inventory": 37,
+      "medianPpsf": 524.44
      }
     ]
    }
@@ -3158,19 +3158,6 @@
    "series": {
     "sfr": [
      {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 240,
-      "medianSalePrice": 1465000,
-      "medianDom": 5,
-      "saleToList": 101.23,
-      "soldAboveList": 38.33,
-      "monthsOfSupply": 0.8,
-      "newListings": 268,
-      "inventory": 65,
-      "medianPpsf": 683.58
-     },
-     {
       "begin": "2023-05-01",
       "end": "2023-07-31",
       "homesSold": 237,
@@ -3179,8 +3166,8 @@
       "saleToList": 101.43,
       "soldAboveList": 39.24,
       "monthsOfSupply": 1,
-      "newListings": 266,
-      "inventory": 79,
+      "newListings": 265,
+      "inventory": 78,
       "medianPpsf": 687.13
      },
      {
@@ -3193,7 +3180,7 @@
       "soldAboveList": 39.81,
       "monthsOfSupply": 1.1,
       "newListings": 249,
-      "inventory": 78,
+      "inventory": 77,
       "medianPpsf": 656.5
      },
      {
@@ -3283,7 +3270,7 @@
       "saleToList": 103.94,
       "soldAboveList": 45.24,
       "monthsOfSupply": 0.8,
-      "newListings": 248,
+      "newListings": 247,
       "inventory": 46,
       "medianPpsf": 739.48
      },
@@ -3296,7 +3283,7 @@
       "saleToList": 104.84,
       "soldAboveList": 49.78,
       "monthsOfSupply": 0.9,
-      "newListings": 293,
+      "newListings": 292,
       "inventory": 68,
       "medianPpsf": 774.41
      },
@@ -3309,7 +3296,7 @@
       "saleToList": 105.08,
       "soldAboveList": 51.88,
       "monthsOfSupply": 1.1,
-      "newListings": 347,
+      "newListings": 346,
       "inventory": 98,
       "medianPpsf": 784.65
      },
@@ -3368,41 +3355,41 @@
      {
       "begin": "2024-08-01",
       "end": "2024-10-31",
-      "homesSold": 236,
-      "medianSalePrice": 1567500,
+      "homesSold": 235,
+      "medianSalePrice": 1560000,
       "medianDom": 6,
       "saleToList": 100.95,
-      "soldAboveList": 36.44,
+      "soldAboveList": 36.6,
       "monthsOfSupply": 1.1,
       "newListings": 274,
       "inventory": 87,
-      "medianPpsf": 745.63
+      "medianPpsf": 744.68
      },
      {
       "begin": "2024-09-01",
       "end": "2024-11-30",
-      "homesSold": 223,
-      "medianSalePrice": 1592000,
+      "homesSold": 222,
+      "medianSalePrice": 1586000,
       "medianDom": 6,
       "saleToList": 100.83,
-      "soldAboveList": 34.98,
+      "soldAboveList": 35.14,
       "monthsOfSupply": 0.9,
       "newListings": 222,
       "inventory": 64,
-      "medianPpsf": 768.89
+      "medianPpsf": 767.76
      },
      {
       "begin": "2024-10-01",
       "end": "2024-12-31",
-      "homesSold": 220,
-      "medianSalePrice": 1570000,
+      "homesSold": 219,
+      "medianSalePrice": 1560000,
       "medianDom": 6,
       "saleToList": 101.15,
-      "soldAboveList": 33.18,
+      "soldAboveList": 33.33,
       "monthsOfSupply": 0.7,
       "newListings": 167,
       "inventory": 52,
-      "medianPpsf": 766.57
+      "medianPpsf": 764.25
      },
      {
       "begin": "2024-11-01",
@@ -3602,41 +3589,41 @@
      {
       "begin": "2026-02-01",
       "end": "2026-04-30",
-      "homesSold": 178,
-      "medianSalePrice": 1520000,
-      "medianDom": 10,
-      "saleToList": 99.08,
-      "soldAboveList": 17.42,
+      "homesSold": 177,
+      "medianSalePrice": 1515000,
+      "medianDom": 11,
+      "saleToList": 99.07,
+      "soldAboveList": 17.51,
       "monthsOfSupply": 4,
-      "newListings": 383,
+      "newListings": 382,
       "inventory": 239,
-      "medianPpsf": 729.51
+      "medianPpsf": 727.27
      },
      {
       "begin": "2026-03-01",
       "end": "2026-05-31",
-      "homesSold": 211,
-      "medianSalePrice": 1550000,
-      "medianDom": 9,
-      "saleToList": 99.13,
-      "soldAboveList": 21.33,
-      "monthsOfSupply": 3.6,
-      "newListings": 418,
+      "homesSold": 210,
+      "medianSalePrice": 1541500,
+      "medianDom": 10,
+      "saleToList": 99.12,
+      "soldAboveList": 21.43,
+      "monthsOfSupply": 3.7,
+      "newListings": 417,
       "inventory": 251,
-      "medianPpsf": 725.04
+      "medianPpsf": 723.36
      },
      {
       "begin": "2026-04-01",
       "end": "2026-06-30",
-      "homesSold": 246,
+      "homesSold": 245,
       "medianSalePrice": 1600000,
       "medianDom": 14,
-      "saleToList": 98.44,
-      "soldAboveList": 17.07,
+      "saleToList": 98.43,
+      "soldAboveList": 17.14,
       "monthsOfSupply": 3.4,
-      "newListings": 415,
-      "inventory": 276,
-      "medianPpsf": 714.77
+      "newListings": 414,
+      "inventory": 277,
+      "medianPpsf": 712.79
      },
      {
       "begin": "2026-05-01",
@@ -3648,7 +3635,7 @@
       "soldAboveList": 17,
       "monthsOfSupply": 3.4,
       "newListings": 389,
-      "inventory": 279,
+      "inventory": 280,
       "medianPpsf": 684.08
      },
      {
@@ -3661,37 +3648,37 @@
       "soldAboveList": 10.51,
       "monthsOfSupply": 3.1,
       "newListings": 369,
-      "inventory": 262,
+      "inventory": 263,
       "medianPpsf": 676.91
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 254,
-      "medianSalePrice": 1374452,
+      "homesSold": 250,
+      "medianSalePrice": 1375000,
       "medianDom": 23,
       "saleToList": 97.85,
       "soldAboveList": 9.6,
       "monthsOfSupply": 3.2,
-      "newListings": 369,
-      "inventory": 266,
-      "medianPpsf": 652
+      "newListings": 366,
+      "inventory": 259,
+      "medianPpsf": 652.2
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 252,
+      "medianSalePrice": 1271775,
+      "medianDom": 27,
+      "saleToList": 97.5,
+      "soldAboveList": 8.13,
+      "monthsOfSupply": 2.9,
+      "newListings": 323,
+      "inventory": 237,
+      "medianPpsf": 643.49
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 93,
-      "medianSalePrice": 501000,
-      "medianDom": 6,
-      "saleToList": 100.78,
-      "soldAboveList": 38.71,
-      "monthsOfSupply": 1.1,
-      "newListings": 126,
-      "inventory": 35,
-      "medianPpsf": 535.95
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -3805,7 +3792,7 @@
       "saleToList": 99.92,
       "soldAboveList": 24.49,
       "monthsOfSupply": 0.9,
-      "newListings": 110,
+      "newListings": 109,
       "inventory": 29,
       "medianPpsf": 611.7
      },
@@ -3818,48 +3805,48 @@
       "saleToList": 100.11,
       "soldAboveList": 26.45,
       "monthsOfSupply": 1,
-      "newListings": 137,
+      "newListings": 136,
       "inventory": 41,
       "medianPpsf": 582.1
      },
      {
       "begin": "2024-03-01",
       "end": "2024-05-31",
-      "homesSold": 123,
-      "medianSalePrice": 579000,
+      "homesSold": 122,
+      "medianSalePrice": 577000,
       "medianDom": 6,
       "saleToList": 100.07,
-      "soldAboveList": 26.02,
+      "soldAboveList": 26.23,
       "monthsOfSupply": 1.6,
-      "newListings": 155,
+      "newListings": 154,
       "inventory": 64,
-      "medianPpsf": 560.98
+      "medianPpsf": 559.6
      },
      {
       "begin": "2024-04-01",
       "end": "2024-06-30",
-      "homesSold": 108,
-      "medianSalePrice": 567500,
+      "homesSold": 107,
+      "medianSalePrice": 560000,
       "medianDom": 7,
       "saleToList": 99.68,
-      "soldAboveList": 26.85,
+      "soldAboveList": 27.1,
       "monthsOfSupply": 2.1,
       "newListings": 161,
       "inventory": 74,
-      "medianPpsf": 584.17
+      "medianPpsf": 582.57
      },
      {
       "begin": "2024-05-01",
       "end": "2024-07-31",
-      "homesSold": 105,
-      "medianSalePrice": 587000,
-      "medianDom": 7,
-      "saleToList": 99.46,
-      "soldAboveList": 24.76,
+      "homesSold": 104,
+      "medianSalePrice": 586000,
+      "medianDom": 8,
+      "saleToList": 99.45,
+      "soldAboveList": 25,
       "monthsOfSupply": 2.2,
       "newListings": 148,
       "inventory": 76,
-      "medianPpsf": 593.22
+      "medianPpsf": 592.16
      },
      {
       "begin": "2024-06-01",
@@ -4155,9 +4142,9 @@
       "medianDom": 27,
       "saleToList": 98.15,
       "soldAboveList": 5,
-      "monthsOfSupply": 4.5,
+      "monthsOfSupply": 4.6,
       "newListings": 152,
-      "inventory": 120,
+      "inventory": 121,
       "medianPpsf": 514.89
      },
      {
@@ -4170,7 +4157,7 @@
       "soldAboveList": 8.75,
       "monthsOfSupply": 4.6,
       "newListings": 140,
-      "inventory": 119,
+      "inventory": 120,
       "medianPpsf": 540.64
      },
      {
@@ -4181,39 +4168,39 @@
       "medianDom": 30,
       "saleToList": 97.58,
       "soldAboveList": 9.88,
-      "monthsOfSupply": 4.2,
+      "monthsOfSupply": 4.3,
       "newListings": 138,
-      "inventory": 111,
+      "inventory": 113,
       "medianPpsf": 544.76
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 84,
-      "medianSalePrice": 514447,
+      "homesSold": 82,
+      "medianSalePrice": 514500,
       "medianDom": 37,
       "saleToList": 97.36,
-      "soldAboveList": 10.96,
-      "monthsOfSupply": 3.9,
-      "newListings": 125,
+      "soldAboveList": 10.98,
+      "monthsOfSupply": 4,
+      "newListings": 124,
       "inventory": 107,
-      "medianPpsf": 522.44
+      "medianPpsf": 522.47
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 76,
+      "medianSalePrice": 474371,
+      "medianDom": 37,
+      "saleToList": 96.93,
+      "soldAboveList": 6.74,
+      "monthsOfSupply": 3.6,
+      "newListings": 97,
+      "inventory": 90,
+      "medianPpsf": 493.5
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 29,
-      "medianSalePrice": 920000,
-      "medianDom": 5,
-      "saleToList": 101.3,
-      "soldAboveList": 34.48,
-      "monthsOfSupply": 1,
-      "newListings": 33,
-      "inventory": 10,
-      "medianPpsf": 595.24
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -4327,7 +4314,7 @@
       "saleToList": 100.21,
       "soldAboveList": 28.57,
       "monthsOfSupply": 1.7,
-      "newListings": 32,
+      "newListings": 33,
       "inventory": 12,
       "medianPpsf": 582.61
      },
@@ -4340,48 +4327,48 @@
       "saleToList": 101.72,
       "soldAboveList": 44.44,
       "monthsOfSupply": 0.7,
-      "newListings": 39,
+      "newListings": 40,
       "inventory": 8,
       "medianPpsf": 672.32
      },
      {
       "begin": "2024-03-01",
       "end": "2024-05-31",
-      "homesSold": 44,
-      "medianSalePrice": 999950,
+      "homesSold": 45,
+      "medianSalePrice": 1000000,
       "medianDom": 7,
-      "saleToList": 101.45,
-      "soldAboveList": 38.64,
+      "saleToList": 101.42,
+      "soldAboveList": 37.78,
       "monthsOfSupply": 1,
-      "newListings": 47,
+      "newListings": 48,
       "inventory": 15,
-      "medianPpsf": 651.63
+      "medianPpsf": 651.99
      },
      {
       "begin": "2024-04-01",
       "end": "2024-06-30",
-      "homesSold": 43,
+      "homesSold": 44,
       "medianSalePrice": 999900,
       "medianDom": 6,
-      "saleToList": 101.45,
-      "soldAboveList": 37.21,
+      "saleToList": 101.42,
+      "soldAboveList": 36.36,
       "monthsOfSupply": 1.3,
       "newListings": 50,
       "inventory": 19,
-      "medianPpsf": 666.67
+      "medianPpsf": 672.32
      },
      {
       "begin": "2024-05-01",
       "end": "2024-07-31",
-      "homesSold": 39,
-      "medianSalePrice": 1000000,
+      "homesSold": 40,
+      "medianSalePrice": 1035000,
       "medianDom": 6,
-      "saleToList": 100.69,
-      "soldAboveList": 25.64,
-      "monthsOfSupply": 1.7,
+      "saleToList": 100.67,
+      "soldAboveList": 25,
+      "monthsOfSupply": 1.6,
       "newListings": 58,
       "inventory": 21,
-      "medianPpsf": 686.27
+      "medianPpsf": 692.06
      },
      {
       "begin": "2024-06-01",
@@ -4703,23 +4690,36 @@
       "medianDom": 57,
       "saleToList": 98.48,
       "soldAboveList": 14.29,
-      "monthsOfSupply": 4.8,
+      "monthsOfSupply": 4.9,
       "newListings": 51,
-      "inventory": 44,
+      "inventory": 45,
       "medianPpsf": 640.98
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 27,
-      "medianSalePrice": 1104513,
+      "homesSold": 26,
+      "medianSalePrice": 1104500,
       "medianDom": 75,
       "saleToList": 97.84,
-      "soldAboveList": 11.5,
-      "monthsOfSupply": 5.6,
-      "newListings": 48,
-      "inventory": 49,
-      "medianPpsf": 584.6
+      "soldAboveList": 11.54,
+      "monthsOfSupply": 5.5,
+      "newListings": 47,
+      "inventory": 47,
+      "medianPpsf": 584.69
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 29,
+      "medianSalePrice": 1148929,
+      "medianDom": 84,
+      "saleToList": 97.6,
+      "soldAboveList": 3.56,
+      "monthsOfSupply": 4.5,
+      "newListings": 40,
+      "inventory": 43,
+      "medianPpsf": 523.23
      }
     ]
    }
@@ -4730,19 +4730,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 77,
-      "medianSalePrice": 1604500,
-      "medianDom": 7,
-      "saleToList": 100.1,
-      "soldAboveList": 28.57,
-      "monthsOfSupply": 0.6,
-      "newListings": 74,
-      "inventory": 15,
-      "medianPpsf": 556.36
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -5241,30 +5228,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 61,
-      "medianSalePrice": 1635598,
-      "medianDom": 15,
-      "saleToList": 97.83,
-      "soldAboveList": 13.33,
+      "medianSalePrice": 1642500,
+      "medianDom": 14,
+      "saleToList": 97.87,
+      "soldAboveList": 13.11,
       "monthsOfSupply": 2.9,
-      "newListings": 77,
-      "inventory": 57,
-      "medianPpsf": 577.26
+      "newListings": 78,
+      "inventory": 58,
+      "medianPpsf": 578.01
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 54,
+      "medianSalePrice": 1619076,
+      "medianDom": 14,
+      "saleToList": 98.28,
+      "soldAboveList": 15.09,
+      "monthsOfSupply": 3.1,
+      "newListings": 75,
+      "inventory": 55,
+      "medianPpsf": 589.96
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 51,
-      "medianSalePrice": 500000,
-      "medianDom": 5,
-      "saleToList": 101.05,
-      "soldAboveList": 39.22,
-      "monthsOfSupply": 0.6,
-      "newListings": 58,
-      "inventory": 10,
-      "medianPpsf": 452
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -5762,31 +5749,31 @@
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 37,
-      "medianSalePrice": 424956,
+      "homesSold": 36,
+      "medianSalePrice": 425000,
       "medianDom": 58,
       "saleToList": 97.09,
-      "soldAboveList": 5.55,
+      "soldAboveList": 5.56,
       "monthsOfSupply": 4.3,
       "newListings": 43,
       "inventory": 51,
-      "medianPpsf": 393.39
+      "medianPpsf": 393.41
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 33,
+      "medianSalePrice": 439381,
+      "medianDom": 73,
+      "saleToList": 95.98,
+      "soldAboveList": 3.12,
+      "monthsOfSupply": 4.3,
+      "newListings": 41,
+      "inventory": 46,
+      "medianPpsf": 376.46
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 38,
-      "medianSalePrice": 945444,
-      "medianDom": 20,
-      "saleToList": 99.19,
-      "soldAboveList": 23.68,
-      "monthsOfSupply": 0.2,
-      "newListings": 27,
-      "inventory": 3,
-      "medianPpsf": 541.99
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -6263,9 +6250,9 @@
       "medianDom": 22,
       "saleToList": 98.03,
       "soldAboveList": 16.13,
-      "monthsOfSupply": 4,
+      "monthsOfSupply": 3.9,
       "newListings": 51,
-      "inventory": 40,
+      "inventory": 39,
       "medianPpsf": 485.85
      },
      {
@@ -6277,22 +6264,35 @@
       "saleToList": 97.82,
       "soldAboveList": 9.68,
       "monthsOfSupply": 4,
-      "newListings": 42,
+      "newListings": 43,
       "inventory": 40,
       "medianPpsf": 493.51
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 30,
-      "medianSalePrice": 755009,
+      "homesSold": 29,
+      "medianSalePrice": 755000,
       "medianDom": 35,
       "saleToList": 98.06,
-      "soldAboveList": 13.75,
+      "soldAboveList": 13.79,
+      "monthsOfSupply": 3.9,
+      "newListings": 41,
+      "inventory": 37,
+      "medianPpsf": 484.78
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 21,
+      "medianSalePrice": 752454,
+      "medianDom": 40,
+      "saleToList": 98.6,
+      "soldAboveList": 9.95,
       "monthsOfSupply": 4.1,
-      "newListings": 40,
-      "inventory": 39,
-      "medianPpsf": 484.7
+      "newListings": 24,
+      "inventory": 28,
+      "medianPpsf": 487.37
      }
     ]
    }
@@ -6303,19 +6303,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 175,
-      "medianSalePrice": 1625000,
-      "medianDom": 5,
-      "saleToList": 101.25,
-      "soldAboveList": 46.86,
-      "monthsOfSupply": 1.1,
-      "newListings": 198,
-      "inventory": 64,
-      "medianPpsf": 578.91
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -6768,7 +6755,7 @@
       "soldAboveList": 30.73,
       "monthsOfSupply": 3,
       "newListings": 328,
-      "inventory": 174,
+      "inventory": 176,
       "medianPpsf": 613.64
      },
      {
@@ -6779,9 +6766,9 @@
       "medianDom": 8,
       "saleToList": 98.81,
       "soldAboveList": 23.78,
-      "monthsOfSupply": 3,
+      "monthsOfSupply": 3.1,
       "newListings": 324,
-      "inventory": 186,
+      "inventory": 189,
       "medianPpsf": 598.81
      },
      {
@@ -6794,7 +6781,7 @@
       "soldAboveList": 15.2,
       "monthsOfSupply": 3.9,
       "newListings": 303,
-      "inventory": 215,
+      "inventory": 218,
       "medianPpsf": 590.41
      },
      {
@@ -6805,39 +6792,39 @@
       "medianDom": 20,
       "saleToList": 97.28,
       "soldAboveList": 12.05,
-      "monthsOfSupply": 3.7,
+      "monthsOfSupply": 3.8,
       "newListings": 256,
-      "inventory": 199,
+      "inventory": 203,
       "medianPpsf": 571.78
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 158,
-      "medianSalePrice": 1599362,
-      "medianDom": 24,
-      "saleToList": 96.62,
-      "soldAboveList": 8.97,
+      "medianSalePrice": 1600000,
+      "medianDom": 25,
+      "saleToList": 96.59,
+      "soldAboveList": 8.86,
       "monthsOfSupply": 3.7,
-      "newListings": 239,
-      "inventory": 189,
-      "medianPpsf": 561.48
+      "newListings": 236,
+      "inventory": 191,
+      "medianPpsf": 560.54
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 155,
+      "medianSalePrice": 1481655,
+      "medianDom": 32,
+      "saleToList": 96.72,
+      "soldAboveList": 9.27,
+      "monthsOfSupply": 2.9,
+      "newListings": 174,
+      "inventory": 147,
+      "medianPpsf": 551.61
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 6,
-      "medianSalePrice": 512500,
-      "medianDom": 6,
-      "saleToList": 103.32,
-      "soldAboveList": 66.67,
-      "monthsOfSupply": 0.5,
-      "newListings": 11,
-      "inventory": 1,
-      "medianPpsf": 534.05
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -7336,30 +7323,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 11,
-      "medianSalePrice": 515947,
+      "medianSalePrice": 516000,
       "medianDom": 47,
       "saleToList": 97.06,
       "soldAboveList": 0,
-      "monthsOfSupply": 2.9,
-      "newListings": 12,
-      "inventory": 10,
-      "medianPpsf": 473.62
+      "monthsOfSupply": 2.5,
+      "newListings": 11,
+      "inventory": 9,
+      "medianPpsf": 473.64
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 11,
+      "medianSalePrice": 514860,
+      "medianDom": 68,
+      "saleToList": 96.56,
+      "soldAboveList": 0,
+      "monthsOfSupply": 3.7,
+      "newListings": 9,
+      "inventory": 14,
+      "medianPpsf": 473.29
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 13,
-      "medianSalePrice": 750000,
-      "medianDom": 12,
-      "saleToList": 98.58,
-      "soldAboveList": 7.69,
-      "monthsOfSupply": 0.2,
-      "newListings": 12,
-      "inventory": 1,
-      "medianPpsf": 501.71
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -7849,23 +7836,36 @@
       "medianDom": 34,
       "saleToList": 97.93,
       "soldAboveList": 0,
-      "monthsOfSupply": 3.8,
+      "monthsOfSupply": 4.2,
       "newListings": 15,
-      "inventory": 10,
+      "inventory": 11,
       "medianPpsf": 478.2
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 8,
-      "medianSalePrice": 778009,
+      "medianSalePrice": 778000,
       "medianDom": 44,
       "saleToList": 98.45,
       "soldAboveList": 0,
-      "monthsOfSupply": 3.6,
+      "monthsOfSupply": 3.8,
       "newListings": 11,
       "inventory": 10,
-      "medianPpsf": 478.12
+      "medianPpsf": 478.2
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 5,
+      "medianSalePrice": 769953,
+      "medianDom": 71,
+      "saleToList": 99.09,
+      "soldAboveList": 0,
+      "monthsOfSupply": 5.1,
+      "newListings": 11,
+      "inventory": 9,
+      "medianPpsf": 473.66
      }
     ]
    }
@@ -7876,19 +7876,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 27,
-      "medianSalePrice": 1240000,
-      "medianDom": 5,
-      "saleToList": 101.38,
-      "soldAboveList": 51.85,
-      "monthsOfSupply": 0.6,
-      "newListings": 26,
-      "inventory": 5,
-      "medianPpsf": 480
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -8387,30 +8374,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 18,
-      "medianSalePrice": 1449422,
+      "medianSalePrice": 1450000,
       "medianDom": 14,
       "saleToList": 99.14,
-      "soldAboveList": 16.66,
-      "monthsOfSupply": 4.7,
-      "newListings": 37,
-      "inventory": 28,
-      "medianPpsf": 542.49
+      "soldAboveList": 16.67,
+      "monthsOfSupply": 4.3,
+      "newListings": 36,
+      "inventory": 25,
+      "medianPpsf": 542.65
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 20,
+      "medianSalePrice": 1274273,
+      "medianDom": 18,
+      "saleToList": 98.8,
+      "soldAboveList": 14.99,
+      "monthsOfSupply": 3.9,
+      "newListings": 33,
+      "inventory": 26,
+      "medianPpsf": 518.84
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 10,
-      "medianSalePrice": 447500,
-      "medianDom": 9,
-      "saleToList": 100.62,
-      "soldAboveList": 20,
-      "monthsOfSupply": 0.6,
-      "newListings": 8,
-      "inventory": 2,
-      "medianPpsf": 501.64
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -8874,9 +8861,9 @@
       "medianDom": 25,
       "saleToList": 99.92,
       "soldAboveList": 16.67,
-      "monthsOfSupply": 4,
+      "monthsOfSupply": 4.5,
       "newListings": 10,
-      "inventory": 8,
+      "inventory": 9,
       "medianPpsf": 480.14
      },
      {
@@ -8909,30 +8896,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 3,
-      "medianSalePrice": 391460,
-      "medianDom": 82,
+      "medianSalePrice": 391500,
+      "medianDom": 81,
       "saleToList": 99.34,
-      "soldAboveList": 33.29,
-      "monthsOfSupply": 4.2,
+      "soldAboveList": 33.33,
+      "monthsOfSupply": 4.1,
       "newListings": 4,
       "inventory": 4,
-      "medianPpsf": 423.31
+      "medianPpsf": 423.33
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 2,
+      "medianSalePrice": 316914,
+      "medianDom": 56,
+      "saleToList": 99.06,
+      "soldAboveList": 0,
+      "monthsOfSupply": 6.3,
+      "newListings": 8,
+      "inventory": 4,
+      "medianPpsf": 412.32
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 5,
-      "medianSalePrice": 800000,
-      "medianDom": 5,
-      "saleToList": 99.63,
-      "soldAboveList": 20,
-      "monthsOfSupply": 0.6,
-      "newListings": 4,
-      "inventory": 1,
-      "medianPpsf": 504.59
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -9431,14 +9418,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 8,
-      "medianSalePrice": 1250050,
+      "medianSalePrice": 1250035,
       "medianDom": 74,
       "saleToList": 101.35,
-      "soldAboveList": 12.46,
-      "monthsOfSupply": 6.8,
+      "soldAboveList": 12.5,
+      "monthsOfSupply": 6.5,
       "newListings": 20,
+      "inventory": 17,
+      "medianPpsf": 584.9
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 4,
+      "medianSalePrice": 1548789,
+      "medianDom": 67,
+      "saleToList": 103.02,
+      "soldAboveList": 24.89,
+      "monthsOfSupply": 13.4,
+      "newListings": 15,
       "inventory": 18,
-      "medianPpsf": 584.8
+      "medianPpsf": 686.62
      }
     ]
    }
@@ -9449,19 +9449,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 128,
-      "medianSalePrice": 1247475,
-      "medianDom": 6,
-      "saleToList": 101.72,
-      "soldAboveList": 44.53,
-      "monthsOfSupply": 0.6,
-      "newListings": 134,
-      "inventory": 26,
-      "medianPpsf": 494.61
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -9783,48 +9770,48 @@
       "saleToList": 99.53,
       "soldAboveList": 27.84,
       "monthsOfSupply": 2.1,
-      "newListings": 140,
+      "newListings": 139,
       "inventory": 66,
       "medianPpsf": 541.31
      },
      {
       "begin": "2025-06-01",
       "end": "2025-08-31",
-      "homesSold": 95,
-      "medianSalePrice": 1250500,
+      "homesSold": 94,
+      "medianSalePrice": 1250000,
       "medianDom": 13,
-      "saleToList": 99.36,
-      "soldAboveList": 27.37,
+      "saleToList": 99.3,
+      "soldAboveList": 26.6,
       "monthsOfSupply": 2.1,
-      "newListings": 111,
+      "newListings": 110,
       "inventory": 64,
-      "medianPpsf": 538.71
+      "medianPpsf": 538.57
      },
      {
       "begin": "2025-07-01",
       "end": "2025-09-30",
-      "homesSold": 83,
-      "medianSalePrice": 1190000,
-      "medianDom": 21,
-      "saleToList": 99.06,
-      "soldAboveList": 25.3,
+      "homesSold": 82,
+      "medianSalePrice": 1185000,
+      "medianDom": 22,
+      "saleToList": 98.98,
+      "soldAboveList": 24.39,
       "monthsOfSupply": 2.2,
-      "newListings": 107,
+      "newListings": 106,
       "inventory": 59,
-      "medianPpsf": 532.34
+      "medianPpsf": 530.56
      },
      {
       "begin": "2025-08-01",
       "end": "2025-10-31",
-      "homesSold": 83,
-      "medianSalePrice": 1150000,
+      "homesSold": 82,
+      "medianSalePrice": 1144500,
       "medianDom": 29,
-      "saleToList": 98.8,
-      "soldAboveList": 20.48,
+      "saleToList": 98.71,
+      "soldAboveList": 19.51,
       "monthsOfSupply": 2.1,
       "newListings": 98,
       "inventory": 57,
-      "medianPpsf": 524.39
+      "medianPpsf": 519.06
      },
      {
       "begin": "2025-09-01",
@@ -9861,8 +9848,8 @@
       "saleToList": 97.88,
       "soldAboveList": 11.94,
       "monthsOfSupply": 1.7,
-      "newListings": 61,
-      "inventory": 38,
+      "newListings": 60,
+      "inventory": 37,
       "medianPpsf": 502.04
      },
      {
@@ -9874,7 +9861,7 @@
       "saleToList": 98.94,
       "soldAboveList": 13.56,
       "monthsOfSupply": 2.5,
-      "newListings": 77,
+      "newListings": 76,
       "inventory": 50,
       "medianPpsf": 510.39
      },
@@ -9887,8 +9874,8 @@
       "saleToList": 99.61,
       "soldAboveList": 23.19,
       "monthsOfSupply": 2.9,
-      "newListings": 115,
-      "inventory": 67,
+      "newListings": 113,
+      "inventory": 66,
       "medianPpsf": 542.74
      },
      {
@@ -9899,9 +9886,9 @@
       "medianDom": 8,
       "saleToList": 100.17,
       "soldAboveList": 28.38,
-      "monthsOfSupply": 3.6,
-      "newListings": 149,
-      "inventory": 89,
+      "monthsOfSupply": 3.5,
+      "newListings": 148,
+      "inventory": 88,
       "medianPpsf": 550.32
      },
      {
@@ -9913,8 +9900,8 @@
       "saleToList": 100.69,
       "soldAboveList": 32.18,
       "monthsOfSupply": 3.7,
-      "newListings": 169,
-      "inventory": 106,
+      "newListings": 168,
+      "inventory": 105,
       "medianPpsf": 546.24
      },
      {
@@ -9925,9 +9912,9 @@
       "medianDom": 12,
       "saleToList": 100.1,
       "soldAboveList": 29.35,
-      "monthsOfSupply": 3.7,
-      "newListings": 180,
-      "inventory": 112,
+      "monthsOfSupply": 3.6,
+      "newListings": 179,
+      "inventory": 110,
       "medianPpsf": 533.09
      },
      {
@@ -9939,8 +9926,8 @@
       "saleToList": 99.47,
       "soldAboveList": 21.82,
       "monthsOfSupply": 3.5,
-      "newListings": 175,
-      "inventory": 126,
+      "newListings": 174,
+      "inventory": 124,
       "medianPpsf": 504.21
      },
      {
@@ -9952,38 +9939,38 @@
       "saleToList": 98.72,
       "soldAboveList": 18.45,
       "monthsOfSupply": 3.8,
-      "newListings": 156,
-      "inventory": 129,
+      "newListings": 155,
+      "inventory": 127,
       "medianPpsf": 487.89
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 98,
-      "medianSalePrice": 1119554,
+      "homesSold": 96,
+      "medianSalePrice": 1120000,
       "medianDom": 28,
       "saleToList": 98.62,
       "soldAboveList": 13.54,
       "monthsOfSupply": 4,
-      "newListings": 139,
-      "inventory": 128,
-      "medianPpsf": 480.57
+      "newListings": 137,
+      "inventory": 126,
+      "medianPpsf": 480.71
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 81,
+      "medianSalePrice": 1129356,
+      "medianDom": 33,
+      "saleToList": 98.84,
+      "soldAboveList": 20.24,
+      "monthsOfSupply": 4.5,
+      "newListings": 118,
+      "inventory": 119,
+      "medianPpsf": 462.76
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 27,
-      "medianSalePrice": 480000,
-      "medianDom": 5,
-      "saleToList": 101.79,
-      "soldAboveList": 48.15,
-      "monthsOfSupply": 0.4,
-      "newListings": 23,
-      "inventory": 4,
-      "medianPpsf": 470.46
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -10421,9 +10408,9 @@
       "medianDom": 21,
       "saleToList": 98.9,
       "soldAboveList": 12.5,
-      "monthsOfSupply": 3.3,
+      "monthsOfSupply": 3.5,
       "newListings": 36,
-      "inventory": 27,
+      "inventory": 28,
       "medianPpsf": 452.77
      },
      {
@@ -10434,9 +10421,9 @@
       "medianDom": 27,
       "saleToList": 98.9,
       "soldAboveList": 11.54,
-      "monthsOfSupply": 3.7,
+      "monthsOfSupply": 3.8,
       "newListings": 35,
-      "inventory": 31,
+      "inventory": 32,
       "medianPpsf": 450.2
      },
      {
@@ -10482,30 +10469,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 18,
-      "medianSalePrice": 489950,
+      "medianSalePrice": 490000,
       "medianDom": 53,
       "saleToList": 98.44,
       "soldAboveList": 0,
-      "monthsOfSupply": 5.6,
+      "monthsOfSupply": 5.5,
       "newListings": 29,
-      "inventory": 34,
-      "medianPpsf": 452.16
+      "inventory": 32,
+      "medianPpsf": 452.19
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 19,
+      "medianSalePrice": 452852,
+      "medianDom": 70,
+      "saleToList": 97.99,
+      "soldAboveList": 5.54,
+      "monthsOfSupply": 3.7,
+      "newListings": 25,
+      "inventory": 22,
+      "medianPpsf": 411.8
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 31,
-      "medianSalePrice": 769990,
-      "medianDom": 5,
-      "saleToList": 99.57,
-      "soldAboveList": 22.58,
-      "monthsOfSupply": 1.3,
-      "newListings": 33,
-      "inventory": 13,
-      "medianPpsf": 454
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -10904,9 +10891,9 @@
       "medianDom": 23,
       "saleToList": 98.42,
       "soldAboveList": 11.54,
-      "monthsOfSupply": 2.1,
-      "newListings": 19,
-      "inventory": 18,
+      "monthsOfSupply": 2.2,
+      "newListings": 20,
+      "inventory": 19,
       "medianPpsf": 509.3
      },
      {
@@ -10918,8 +10905,8 @@
       "saleToList": 98.48,
       "soldAboveList": 12.12,
       "monthsOfSupply": 1.5,
-      "newListings": 21,
-      "inventory": 16,
+      "newListings": 22,
+      "inventory": 17,
       "medianPpsf": 510.14
      },
      {
@@ -10930,9 +10917,9 @@
       "medianDom": 18,
       "saleToList": 98.95,
       "soldAboveList": 20.69,
-      "monthsOfSupply": 2.6,
-      "newListings": 37,
-      "inventory": 25,
+      "monthsOfSupply": 2.8,
+      "newListings": 39,
+      "inventory": 27,
       "medianPpsf": 489.65
      },
      {
@@ -10943,9 +10930,9 @@
       "medianDom": 12,
       "saleToList": 99.11,
       "soldAboveList": 17.24,
-      "monthsOfSupply": 3.7,
-      "newListings": 43,
-      "inventory": 36,
+      "monthsOfSupply": 3.9,
+      "newListings": 44,
+      "inventory": 38,
       "medianPpsf": 498.43
      },
      {
@@ -10956,9 +10943,9 @@
       "medianDom": 12,
       "saleToList": 99.15,
       "soldAboveList": 12,
-      "monthsOfSupply": 4,
-      "newListings": 41,
-      "inventory": 33,
+      "monthsOfSupply": 4.3,
+      "newListings": 42,
+      "inventory": 35,
       "medianPpsf": 462.33
      },
      {
@@ -10969,9 +10956,9 @@
       "medianDom": 22,
       "saleToList": 98.32,
       "soldAboveList": 5,
-      "monthsOfSupply": 5.6,
-      "newListings": 38,
-      "inventory": 37,
+      "monthsOfSupply": 6.1,
+      "newListings": 39,
+      "inventory": 40,
       "medianPpsf": 475.88
      },
      {
@@ -10982,9 +10969,9 @@
       "medianDom": 47,
       "saleToList": 98.84,
       "soldAboveList": 5,
-      "monthsOfSupply": 5.5,
-      "newListings": 32,
-      "inventory": 36,
+      "monthsOfSupply": 6,
+      "newListings": 33,
+      "inventory": 39,
       "medianPpsf": 478.99
      },
      {
@@ -10995,23 +10982,36 @@
       "medianDom": 47,
       "saleToList": 98.79,
       "soldAboveList": 5,
-      "monthsOfSupply": 5.1,
-      "newListings": 34,
-      "inventory": 33,
+      "monthsOfSupply": 5.5,
+      "newListings": 35,
+      "inventory": 36,
       "medianPpsf": 488.2
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 19,
-      "medianSalePrice": 975012,
+      "medianSalePrice": 975000,
       "medianDom": 71,
       "saleToList": 98.99,
-      "soldAboveList": 10.49,
-      "monthsOfSupply": 5.4,
-      "newListings": 30,
-      "inventory": 34,
-      "medianPpsf": 467.77
+      "soldAboveList": 10.53,
+      "monthsOfSupply": 6,
+      "newListings": 31,
+      "inventory": 37,
+      "medianPpsf": 467.85
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 20,
+      "medianSalePrice": 814950,
+      "medianDom": 71,
+      "saleToList": 98.3,
+      "soldAboveList": 5.24,
+      "monthsOfSupply": 5.8,
+      "newListings": 32,
+      "inventory": 37,
+      "medianPpsf": 449.18
      }
     ]
    }
@@ -11022,19 +11022,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 56,
-      "medianSalePrice": 1102450,
-      "medianDom": 6,
-      "saleToList": 103.39,
-      "soldAboveList": 48.21,
-      "monthsOfSupply": 0.8,
-      "newListings": 63,
-      "inventory": 15,
-      "medianPpsf": 477.9
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -11532,31 +11519,31 @@
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 53,
-      "medianSalePrice": 1027091,
-      "medianDom": 22,
-      "saleToList": 98.51,
+      "homesSold": 52,
+      "medianSalePrice": 1027500,
+      "medianDom": 18,
+      "saleToList": 98.57,
       "soldAboveList": 21.15,
-      "monthsOfSupply": 3.2,
+      "monthsOfSupply": 3.1,
       "newListings": 70,
-      "inventory": 56,
-      "medianPpsf": 480.55
+      "inventory": 53,
+      "medianPpsf": 480.69
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 43,
+      "medianSalePrice": 1089379,
+      "medianDom": 20,
+      "saleToList": 98.2,
+      "soldAboveList": 19.04,
+      "monthsOfSupply": 3.6,
+      "newListings": 66,
+      "inventory": 50,
+      "medianPpsf": 462.09
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 14,
-      "medianSalePrice": 460000,
-      "medianDom": 10,
-      "saleToList": 100.29,
-      "soldAboveList": 42.86,
-      "monthsOfSupply": 0.6,
-      "newListings": 13,
-      "inventory": 3,
-      "medianPpsf": 431.07
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -12046,39 +12033,39 @@
       "medianDom": 21,
       "saleToList": 98.46,
       "soldAboveList": 0,
-      "monthsOfSupply": 7,
+      "monthsOfSupply": 7.2,
       "newListings": 25,
-      "inventory": 34,
+      "inventory": 35,
       "medianPpsf": 445.03
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 9,
-      "medianSalePrice": 559932,
+      "medianSalePrice": 559990,
       "medianDom": 36,
       "saleToList": 99.3,
       "soldAboveList": 0,
-      "monthsOfSupply": 9.1,
+      "monthsOfSupply": 9.2,
       "newListings": 21,
       "inventory": 27,
-      "medianPpsf": 439.17
+      "medianPpsf": 439.19
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 8,
+      "medianSalePrice": 572340,
+      "medianDom": 38,
+      "saleToList": 99.01,
+      "soldAboveList": 0,
+      "monthsOfSupply": 10.6,
+      "newListings": 19,
+      "inventory": 28,
+      "medianPpsf": 468.22
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 28,
-      "medianSalePrice": 802400,
-      "medianDom": 26,
-      "saleToList": 100.1,
-      "soldAboveList": 25,
-      "monthsOfSupply": 0.5,
-      "newListings": 20,
-      "inventory": 5,
-      "medianPpsf": 443.72
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -12577,14 +12564,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 5,
-      "medianSalePrice": 575007,
+      "medianSalePrice": 575000,
       "medianDom": 20,
-      "saleToList": 99.41,
+      "saleToList": 99.4,
       "soldAboveList": 0,
-      "monthsOfSupply": 10.2,
+      "monthsOfSupply": 10.4,
       "newListings": 19,
       "inventory": 17,
-      "medianPpsf": 444.71
+      "medianPpsf": 444.79
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 5,
+      "medianSalePrice": 778952,
+      "medianDom": 8,
+      "saleToList": 98.46,
+      "soldAboveList": 0,
+      "monthsOfSupply": 13.9,
+      "newListings": 20,
+      "inventory": 24,
+      "medianPpsf": 454.83
      }
     ]
    }
@@ -12595,19 +12595,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 30,
-      "medianSalePrice": 1306500,
-      "medianDom": 5,
-      "saleToList": 102.15,
-      "soldAboveList": 53.33,
-      "monthsOfSupply": 1.5,
-      "newListings": 40,
-      "inventory": 15,
-      "medianPpsf": 566.93
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -12785,9 +12772,9 @@
       "medianDom": 8,
       "saleToList": 100.86,
       "soldAboveList": 43.18,
-      "monthsOfSupply": 1.2,
-      "newListings": 48,
-      "inventory": 17,
+      "monthsOfSupply": 1.1,
+      "newListings": 47,
+      "inventory": 16,
       "medianPpsf": 564.13
      },
      {
@@ -12798,9 +12785,9 @@
       "medianDom": 6,
       "saleToList": 100.57,
       "soldAboveList": 44.19,
-      "monthsOfSupply": 1.8,
-      "newListings": 55,
-      "inventory": 25,
+      "monthsOfSupply": 1.7,
+      "newListings": 54,
+      "inventory": 24,
       "medianPpsf": 556.25
      },
      {
@@ -12811,9 +12798,9 @@
       "medianDom": 8,
       "saleToList": 100.31,
       "soldAboveList": 45.45,
-      "monthsOfSupply": 1.8,
-      "newListings": 50,
-      "inventory": 26,
+      "monthsOfSupply": 1.7,
+      "newListings": 49,
+      "inventory": 25,
       "medianPpsf": 575.07
      },
      {
@@ -12824,9 +12811,9 @@
       "medianDom": 17,
       "saleToList": 100.03,
       "soldAboveList": 41.94,
-      "monthsOfSupply": 2.4,
+      "monthsOfSupply": 2.3,
       "newListings": 42,
-      "inventory": 25,
+      "inventory": 24,
       "medianPpsf": 600
      },
      {
@@ -12837,9 +12824,9 @@
       "medianDom": 26,
       "saleToList": 98.51,
       "soldAboveList": 30.77,
-      "monthsOfSupply": 2.2,
+      "monthsOfSupply": 2.1,
       "newListings": 25,
-      "inventory": 19,
+      "inventory": 18,
       "medianPpsf": 592.36
      },
      {
@@ -12850,9 +12837,9 @@
       "medianDom": 26,
       "saleToList": 98.77,
       "soldAboveList": 32.14,
-      "monthsOfSupply": 2.3,
+      "monthsOfSupply": 2.2,
       "newListings": 23,
-      "inventory": 21,
+      "inventory": 20,
       "medianPpsf": 577.46
      },
      {
@@ -12863,9 +12850,9 @@
       "medianDom": 13,
       "saleToList": 99.74,
       "soldAboveList": 42.31,
-      "monthsOfSupply": 2.8,
+      "monthsOfSupply": 2.7,
       "newListings": 22,
-      "inventory": 24,
+      "inventory": 23,
       "medianPpsf": 567.13
      },
      {
@@ -12876,9 +12863,9 @@
       "medianDom": 7,
       "saleToList": 100.96,
       "soldAboveList": 46.15,
-      "monthsOfSupply": 3.7,
+      "monthsOfSupply": 3.6,
       "newListings": 45,
-      "inventory": 32,
+      "inventory": 31,
       "medianPpsf": 567.13
      },
      {
@@ -12889,9 +12876,9 @@
       "medianDom": 5,
       "saleToList": 101.81,
       "soldAboveList": 55.56,
-      "monthsOfSupply": 3.8,
+      "monthsOfSupply": 3.7,
       "newListings": 62,
-      "inventory": 35,
+      "inventory": 34,
       "medianPpsf": 582.01
      },
      {
@@ -12902,9 +12889,9 @@
       "medianDom": 6,
       "saleToList": 101.01,
       "soldAboveList": 41.86,
-      "monthsOfSupply": 2.9,
+      "monthsOfSupply": 2.8,
       "newListings": 74,
-      "inventory": 40,
+      "inventory": 39,
       "medianPpsf": 594.53
      },
      {
@@ -12917,7 +12904,7 @@
       "soldAboveList": 40.43,
       "monthsOfSupply": 3.5,
       "newListings": 75,
-      "inventory": 55,
+      "inventory": 54,
       "medianPpsf": 614.44
      },
      {
@@ -12928,9 +12915,9 @@
       "medianDom": 12,
       "saleToList": 100.76,
       "soldAboveList": 29.79,
-      "monthsOfSupply": 3.1,
+      "monthsOfSupply": 3,
       "newListings": 62,
-      "inventory": 47,
+      "inventory": 46,
       "medianPpsf": 603.61
      },
      {
@@ -13019,9 +13006,9 @@
       "medianDom": 25,
       "saleToList": 100.24,
       "soldAboveList": 30.77,
-      "monthsOfSupply": 2.1,
+      "monthsOfSupply": 2.2,
       "newListings": 44,
-      "inventory": 27,
+      "inventory": 28,
       "medianPpsf": 589.08
      },
      {
@@ -13032,9 +13019,9 @@
       "medianDom": 16,
       "saleToList": 100.53,
       "soldAboveList": 23.68,
-      "monthsOfSupply": 3,
+      "monthsOfSupply": 3.1,
       "newListings": 56,
-      "inventory": 38,
+      "inventory": 39,
       "medianPpsf": 596.15
      },
      {
@@ -13047,7 +13034,7 @@
       "soldAboveList": 30,
       "monthsOfSupply": 3,
       "newListings": 58,
-      "inventory": 40,
+      "inventory": 41,
       "medianPpsf": 608.65
      },
      {
@@ -13058,9 +13045,9 @@
       "medianDom": 14,
       "saleToList": 100.85,
       "soldAboveList": 37.78,
-      "monthsOfSupply": 3,
+      "monthsOfSupply": 3.1,
       "newListings": 59,
-      "inventory": 44,
+      "inventory": 45,
       "medianPpsf": 605.5
      },
      {
@@ -13073,7 +13060,7 @@
       "soldAboveList": 35.14,
       "monthsOfSupply": 3,
       "newListings": 54,
-      "inventory": 36,
+      "inventory": 37,
       "medianPpsf": 583.76
      },
      {
@@ -13084,9 +13071,9 @@
       "medianDom": 26,
       "saleToList": 98.82,
       "soldAboveList": 25,
-      "monthsOfSupply": 2.3,
+      "monthsOfSupply": 2.4,
       "newListings": 49,
-      "inventory": 36,
+      "inventory": 37,
       "medianPpsf": 555.56
      },
      {
@@ -13097,39 +13084,39 @@
       "medianDom": 26,
       "saleToList": 97.62,
       "soldAboveList": 12.5,
-      "monthsOfSupply": 2.7,
+      "monthsOfSupply": 2.8,
       "newListings": 38,
-      "inventory": 35,
+      "inventory": 37,
       "medianPpsf": 560.95
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 40,
-      "medianSalePrice": 1729311,
+      "medianSalePrice": 1782500,
       "medianDom": 29,
-      "saleToList": 97.63,
-      "soldAboveList": 10.26,
-      "monthsOfSupply": 2.6,
-      "newListings": 35,
-      "inventory": 34,
-      "medianPpsf": 555.2
+      "saleToList": 97.7,
+      "soldAboveList": 12.5,
+      "monthsOfSupply": 2.8,
+      "newListings": 36,
+      "inventory": 37,
+      "medianPpsf": 556.85
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 27,
+      "medianSalePrice": 1549114,
+      "medianDom": 35,
+      "saleToList": 98.68,
+      "soldAboveList": 23.07,
+      "monthsOfSupply": 3.1,
+      "newListings": 27,
+      "inventory": 27,
+      "medianPpsf": 553.76
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 7,
-      "medianSalePrice": 425700,
-      "medianDom": 27,
-      "saleToList": 98.93,
-      "soldAboveList": 28.57,
-      "monthsOfSupply": 1.7,
-      "newListings": 9,
-      "inventory": 4,
-      "medianPpsf": 480.42
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -13628,30 +13615,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 5,
-      "medianSalePrice": 519947,
-      "medianDom": 89,
+      "medianSalePrice": 520000,
+      "medianDom": 88,
       "saleToList": 98.64,
       "soldAboveList": 0,
-      "monthsOfSupply": 5,
+      "monthsOfSupply": 4.9,
       "newListings": 6,
       "inventory": 8,
-      "medianPpsf": 416.28
+      "medianPpsf": 416.3
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 7,
+      "medianSalePrice": 454876,
+      "medianDom": 95,
+      "saleToList": 98.31,
+      "soldAboveList": 14.26,
+      "monthsOfSupply": 2.7,
+      "newListings": 7,
+      "inventory": 6,
+      "medianPpsf": 416.25
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-03-01",
-      "end": "2023-05-31",
-      "homesSold": 1,
-      "medianSalePrice": 1225000,
-      "medianDom": 5,
-      "saleToList": 100,
-      "soldAboveList": 0,
-      "monthsOfSupply": null,
-      "newListings": 1,
-      "inventory": null,
-      "medianPpsf": 612.81
-     },
      {
       "begin": "2023-04-01",
       "end": "2023-06-30",
@@ -14150,14 +14137,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 2,
-      "medianSalePrice": 992512,
+      "medianSalePrice": 992500,
       "medianDom": 112,
       "saleToList": 97.56,
       "soldAboveList": 0,
-      "monthsOfSupply": 3.2,
+      "monthsOfSupply": 3.1,
       "newListings": 1,
       "inventory": 2,
-      "medianPpsf": 612.04
+      "medianPpsf": 612.14
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 2,
+      "medianSalePrice": 992439,
+      "medianDom": 112,
+      "saleToList": 97.56,
+      "soldAboveList": 0,
+      "monthsOfSupply": 6.3,
+      "newListings": 4,
+      "inventory": 4,
+      "medianPpsf": 611.9
      }
     ]
    }
@@ -14168,19 +14168,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 183,
-      "medianSalePrice": 770000,
-      "medianDom": 6,
-      "saleToList": 101.71,
-      "soldAboveList": 51.91,
-      "monthsOfSupply": 1.2,
-      "newListings": 223,
-      "inventory": 75,
-      "medianPpsf": 400.57
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -14639,70 +14626,70 @@
      {
       "begin": "2026-04-01",
       "end": "2026-06-30",
-      "homesSold": 163,
+      "homesSold": 162,
       "medianSalePrice": 750000,
       "medianDom": 10,
-      "saleToList": 99.25,
-      "soldAboveList": 22.09,
-      "monthsOfSupply": 2.9,
+      "saleToList": 99.38,
+      "soldAboveList": 22.22,
+      "monthsOfSupply": 3,
       "newListings": 250,
       "inventory": 158,
-      "medianPpsf": 416.67
+      "medianPpsf": 417.55
      },
      {
       "begin": "2026-05-01",
       "end": "2026-07-31",
-      "homesSold": 152,
-      "medianSalePrice": 754000,
+      "homesSold": 151,
+      "medianSalePrice": 758000,
       "medianDom": 13,
-      "saleToList": 98.9,
-      "soldAboveList": 21.05,
+      "saleToList": 99.04,
+      "soldAboveList": 21.19,
       "monthsOfSupply": 3.4,
       "newListings": 251,
       "inventory": 168,
-      "medianPpsf": 424.09
+      "medianPpsf": 425.65
      },
      {
       "begin": "2026-06-01",
       "end": "2026-08-31",
-      "homesSold": 160,
-      "medianSalePrice": 734750,
+      "homesSold": 159,
+      "medianSalePrice": 739500,
       "medianDom": 19,
-      "saleToList": 98.41,
-      "soldAboveList": 16.25,
-      "monthsOfSupply": 3.2,
-      "newListings": 228,
-      "inventory": 167,
-      "medianPpsf": 415.85
+      "saleToList": 98.54,
+      "soldAboveList": 16.35,
+      "monthsOfSupply": 3.3,
+      "newListings": 230,
+      "inventory": 170,
+      "medianPpsf": 418.56
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 161,
-      "medianSalePrice": 729709,
+      "homesSold": 159,
+      "medianSalePrice": 730000,
       "medianDom": 26,
       "saleToList": 98.17,
       "soldAboveList": 15.09,
       "monthsOfSupply": 3.1,
-      "newListings": 218,
-      "inventory": 166,
-      "medianPpsf": 406.07
+      "newListings": 217,
+      "inventory": 160,
+      "medianPpsf": 406.19
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 160,
+      "medianSalePrice": 715842,
+      "medianDom": 34,
+      "saleToList": 97.89,
+      "soldAboveList": 15.38,
+      "monthsOfSupply": 2.8,
+      "newListings": 198,
+      "inventory": 145,
+      "medianPpsf": 392.17
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 47,
-      "medianSalePrice": 340000,
-      "medianDom": 5,
-      "saleToList": 102,
-      "soldAboveList": 48.94,
-      "monthsOfSupply": 0.8,
-      "newListings": 50,
-      "inventory": 12,
-      "medianPpsf": 376.19
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -15179,9 +15166,9 @@
       "medianDom": 27,
       "saleToList": 99.85,
       "soldAboveList": 14.71,
-      "monthsOfSupply": 5.3,
-      "newListings": 59,
-      "inventory": 59,
+      "monthsOfSupply": 5.2,
+      "newListings": 58,
+      "inventory": 58,
       "medianPpsf": 328.05
      },
      {
@@ -15192,39 +15179,39 @@
       "medianDom": 29,
       "saleToList": 99.96,
       "soldAboveList": 17.24,
-      "monthsOfSupply": 5.6,
-      "newListings": 50,
-      "inventory": 53,
+      "monthsOfSupply": 5.5,
+      "newListings": 49,
+      "inventory": 52,
       "medianPpsf": 338.07
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 22,
-      "medianSalePrice": 369962,
+      "medianSalePrice": 370000,
       "medianDom": 33,
       "saleToList": 98.16,
-      "soldAboveList": 9.08,
-      "monthsOfSupply": 7.9,
-      "newListings": 43,
-      "inventory": 58,
-      "medianPpsf": 340.31
+      "soldAboveList": 9.09,
+      "monthsOfSupply": 7.7,
+      "newListings": 42,
+      "inventory": 55,
+      "medianPpsf": 340.33
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 20,
+      "medianSalePrice": 303518,
+      "medianDom": 43,
+      "saleToList": 98.62,
+      "soldAboveList": 15.76,
+      "monthsOfSupply": 8.1,
+      "newListings": 41,
+      "inventory": 52,
+      "medianPpsf": 330.75
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 20,
-      "medianSalePrice": 562000,
-      "medianDom": 7,
-      "saleToList": 100.64,
-      "soldAboveList": 50,
-      "monthsOfSupply": 1.2,
-      "newListings": 29,
-      "inventory": 8,
-      "medianPpsf": 388.23
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -15701,9 +15688,9 @@
       "medianDom": 43,
       "saleToList": 98.11,
       "soldAboveList": 11.11,
-      "monthsOfSupply": 5.6,
-      "newListings": 36,
-      "inventory": 33,
+      "monthsOfSupply": 5.8,
+      "newListings": 37,
+      "inventory": 34,
       "medianPpsf": 362.76
      },
      {
@@ -15714,23 +15701,36 @@
       "medianDom": 46,
       "saleToList": 98.27,
       "soldAboveList": 13.64,
-      "monthsOfSupply": 5.3,
-      "newListings": 39,
-      "inventory": 38,
+      "monthsOfSupply": 5.4,
+      "newListings": 40,
+      "inventory": 39,
       "medianPpsf": 353.77
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 21,
-      "medianSalePrice": 507506,
+      "homesSold": 20,
+      "medianSalePrice": 507500,
       "medianDom": 43,
       "saleToList": 98.41,
-      "soldAboveList": 14.96,
-      "monthsOfSupply": 5.1,
-      "newListings": 35,
-      "inventory": 34,
-      "medianPpsf": 355.31
+      "soldAboveList": 15,
+      "monthsOfSupply": 5.4,
+      "newListings": 36,
+      "inventory": 35,
+      "medianPpsf": 355.37
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 20,
+      "medianSalePrice": 496919,
+      "medianDom": 32,
+      "saleToList": 98.08,
+      "soldAboveList": 5.24,
+      "monthsOfSupply": 5.2,
+      "newListings": 26,
+      "inventory": 33,
+      "medianPpsf": 341.7
      }
     ]
    }
@@ -15741,19 +15741,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 38,
-      "medianSalePrice": 1167500,
-      "medianDom": 5,
-      "saleToList": 100.84,
-      "soldAboveList": 44.74,
-      "monthsOfSupply": 0.4,
-      "newListings": 24,
-      "inventory": 5,
-      "medianPpsf": 447.43
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -16251,31 +16238,31 @@
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 34,
-      "medianSalePrice": 1299482,
+      "homesSold": 33,
+      "medianSalePrice": 1300000,
       "medianDom": 22,
       "saleToList": 98.16,
       "soldAboveList": 12.12,
-      "monthsOfSupply": 1.9,
+      "monthsOfSupply": 1.8,
       "newListings": 29,
-      "inventory": 20,
-      "medianPpsf": 466.56
+      "inventory": 19,
+      "medianPpsf": 466.7
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 36,
+      "medianSalePrice": 1199316,
+      "medianDom": 22,
+      "saleToList": 98.4,
+      "soldAboveList": 17.14,
+      "monthsOfSupply": 1.7,
+      "newListings": 26,
+      "inventory": 19,
+      "medianPpsf": 461.21
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 6,
-      "medianSalePrice": 868390,
-      "medianDom": 29,
-      "saleToList": 100.32,
-      "soldAboveList": 33.33,
-      "monthsOfSupply": 1,
-      "newListings": 1,
-      "inventory": 2,
-      "medianPpsf": 455.32
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -16774,30 +16761,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 4,
-      "medianSalePrice": 699828,
+      "medianSalePrice": 699900,
       "medianDom": 90,
       "saleToList": 100.63,
       "soldAboveList": 0,
-      "monthsOfSupply": 4.7,
+      "monthsOfSupply": 4.6,
       "newListings": 4,
       "inventory": 6,
-      "medianPpsf": 502.85
+      "medianPpsf": 502.88
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 4,
+      "medianSalePrice": 657272,
+      "medianDom": 172,
+      "saleToList": 99.16,
+      "soldAboveList": 0,
+      "monthsOfSupply": 3.1,
+      "newListings": 3,
+      "inventory": 4,
+      "medianPpsf": 502.82
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 1,
-      "medianSalePrice": 779184,
-      "medianDom": 0,
-      "saleToList": 100,
-      "soldAboveList": 0,
-      "monthsOfSupply": 9.1,
-      "newListings": 5,
-      "inventory": 3,
-      "medianPpsf": 543.36
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -17296,14 +17283,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 1,
-      "medianSalePrice": 975012,
+      "medianSalePrice": 975000,
       "medianDom": 40,
       "saleToList": 100,
       "soldAboveList": 0,
-      "monthsOfSupply": 15.9,
+      "monthsOfSupply": 15.3,
       "newListings": 7,
       "inventory": 5,
-      "medianPpsf": 529.52
+      "medianPpsf": 529.6
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 3,
+      "medianSalePrice": 784852,
+      "medianDom": 40,
+      "saleToList": 100,
+      "soldAboveList": 0,
+      "monthsOfSupply": 6.3,
+      "newListings": 6,
+      "inventory": 6,
+      "medianPpsf": 529.4
      }
     ]
    }
@@ -17314,19 +17314,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 15,
-      "medianSalePrice": 945000,
-      "medianDom": 5,
-      "saleToList": 97.84,
-      "soldAboveList": 13.33,
-      "monthsOfSupply": null,
-      "newListings": 12,
-      "inventory": null,
-      "medianPpsf": 553.85
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -17825,14 +17812,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 6,
-      "medianSalePrice": 732208,
+      "medianSalePrice": 732500,
       "medianDom": 22,
-      "saleToList": 96.55,
-      "soldAboveList": 16.66,
-      "monthsOfSupply": 2.7,
+      "saleToList": 96.56,
+      "soldAboveList": 16.67,
+      "monthsOfSupply": 2.6,
       "newListings": 5,
       "inventory": 5,
-      "medianPpsf": 466.65
+      "medianPpsf": 466.79
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 6,
+      "medianSalePrice": 924473,
+      "medianDom": 63,
+      "saleToList": 97.18,
+      "soldAboveList": 16.66,
+      "monthsOfSupply": 2.7,
+      "newListings": 4,
+      "inventory": 5,
+      "medianPpsf": 453.31
      }
     ]
    }
@@ -17843,19 +17843,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 7,
-      "medianSalePrice": 1000000,
-      "medianDom": 19,
-      "saleToList": 97.34,
-      "soldAboveList": 0,
-      "monthsOfSupply": 1.3,
-      "newListings": 8,
-      "inventory": 3,
-      "medianPpsf": 388.72
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -18280,9 +18267,9 @@
       "medianDom": 176,
       "saleToList": 98.85,
       "soldAboveList": 25,
-      "monthsOfSupply": 3.8,
-      "newListings": 8,
-      "inventory": 10,
+      "monthsOfSupply": 4.1,
+      "newListings": 9,
+      "inventory": 11,
       "medianPpsf": 415.31
      },
      {
@@ -18293,9 +18280,9 @@
       "medianDom": 50,
       "saleToList": 96.83,
       "soldAboveList": 14.29,
-      "monthsOfSupply": 5.1,
-      "newListings": 11,
-      "inventory": 12,
+      "monthsOfSupply": 5.5,
+      "newListings": 12,
+      "inventory": 13,
       "medianPpsf": 435.78
      },
      {
@@ -18306,9 +18293,9 @@
       "medianDom": 135,
       "saleToList": 97.47,
       "soldAboveList": 14.29,
-      "monthsOfSupply": 4.4,
-      "newListings": 11,
-      "inventory": 10,
+      "monthsOfSupply": 4.8,
+      "newListings": 12,
+      "inventory": 11,
       "medianPpsf": 423.02
      },
      {
@@ -18319,9 +18306,9 @@
       "medianDom": 7,
       "saleToList": 96.97,
       "soldAboveList": 0,
-      "monthsOfSupply": 4,
+      "monthsOfSupply": 4.5,
       "newListings": 9,
-      "inventory": 8,
+      "inventory": 9,
       "medianPpsf": 462.44
      },
      {
@@ -18332,9 +18319,9 @@
       "medianDom": 32,
       "saleToList": 98.38,
       "soldAboveList": 0,
-      "monthsOfSupply": 3.7,
+      "monthsOfSupply": 4.3,
       "newListings": 9,
-      "inventory": 6,
+      "inventory": 7,
       "medianPpsf": 392.98
      },
      {
@@ -18345,23 +18332,36 @@
       "medianDom": 24,
       "saleToList": 98.11,
       "soldAboveList": 7.69,
-      "monthsOfSupply": 2.1,
+      "monthsOfSupply": 2.4,
       "newListings": 12,
-      "inventory": 9,
+      "inventory": 10,
       "medianPpsf": 389.99
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 15,
-      "medianSalePrice": 1147543,
+      "medianSalePrice": 1148000,
       "medianDom": 32,
-      "saleToList": 98.9,
+      "saleToList": 98.91,
       "soldAboveList": 13.33,
       "monthsOfSupply": 2.2,
       "newListings": 12,
       "inventory": 11,
-      "medianPpsf": 389.87
+      "medianPpsf": 389.99
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 17,
+      "medianSalePrice": 1094376,
+      "medianDom": 32,
+      "saleToList": 98.72,
+      "soldAboveList": 11.76,
+      "monthsOfSupply": 2.3,
+      "newListings": 8,
+      "inventory": 13,
+      "medianPpsf": 391.68
      }
     ],
     "townhouse": [
@@ -18681,14 +18681,27 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 10,
-      "medianSalePrice": 552497,
+      "medianSalePrice": 552490,
       "medianDom": 90,
-      "saleToList": 96.98,
+      "saleToList": 96.97,
       "soldAboveList": 0,
-      "monthsOfSupply": 2.2,
+      "monthsOfSupply": 2.1,
       "newListings": 2,
       "inventory": 7,
-      "medianPpsf": 412.63
+      "medianPpsf": 412.7
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 12,
+      "medianSalePrice": 552456,
+      "medianDom": 106,
+      "saleToList": 97.65,
+      "soldAboveList": 0,
+      "monthsOfSupply": 1.6,
+      "newListings": 2,
+      "inventory": 6,
+      "medianPpsf": 409.89
      }
     ]
    }
@@ -18699,19 +18712,6 @@
    "frequency": "Rolling 3 Months",
    "series": {
     "sfr": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 121,
-      "medianSalePrice": 810000,
-      "medianDom": 6,
-      "saleToList": 102.43,
-      "soldAboveList": 40.5,
-      "monthsOfSupply": 1.2,
-      "newListings": 166,
-      "inventory": 47,
-      "medianPpsf": 496.32
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -19176,7 +19176,7 @@
       "saleToList": 100.92,
       "soldAboveList": 39.42,
       "monthsOfSupply": 1.6,
-      "newListings": 172,
+      "newListings": 171,
       "inventory": 73,
       "medianPpsf": 517.12
      },
@@ -19189,7 +19189,7 @@
       "saleToList": 101.25,
       "soldAboveList": 40.52,
       "monthsOfSupply": 2.1,
-      "newListings": 167,
+      "newListings": 166,
       "inventory": 80,
       "medianPpsf": 520.19
      },
@@ -19202,38 +19202,38 @@
       "saleToList": 100.74,
       "soldAboveList": 40,
       "monthsOfSupply": 2.1,
-      "newListings": 141,
-      "inventory": 75,
+      "newListings": 140,
+      "inventory": 77,
       "medianPpsf": 503.13
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
-      "homesSold": 102,
-      "medianSalePrice": 849661,
+      "homesSold": 100,
+      "medianSalePrice": 850000,
       "medianDom": 9,
-      "saleToList": 99.58,
+      "saleToList": 99.59,
       "soldAboveList": 29,
-      "monthsOfSupply": 3,
-      "newListings": 151,
-      "inventory": 100,
-      "medianPpsf": 491.48
+      "monthsOfSupply": 3.1,
+      "newListings": 149,
+      "inventory": 101,
+      "medianPpsf": 491.62
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 84,
+      "medianSalePrice": 804541,
+      "medianDom": 14,
+      "saleToList": 98.77,
+      "soldAboveList": 20.72,
+      "monthsOfSupply": 3.6,
+      "newListings": 138,
+      "inventory": 99,
+      "medianPpsf": 458.03
      }
     ],
     "condo": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 21,
-      "medianSalePrice": 380000,
-      "medianDom": 5,
-      "saleToList": 101.57,
-      "soldAboveList": 52.38,
-      "monthsOfSupply": 1.7,
-      "newListings": 22,
-      "inventory": 12,
-      "medianPpsf": 437.69
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -19732,30 +19732,30 @@
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 12,
-      "medianSalePrice": 389960,
+      "medianSalePrice": 390000,
       "medianDom": 60,
       "saleToList": 98.95,
-      "soldAboveList": 8.32,
-      "monthsOfSupply": 3.9,
+      "soldAboveList": 8.33,
+      "monthsOfSupply": 4.1,
       "newListings": 15,
       "inventory": 16,
-      "medianPpsf": 398.07
+      "medianPpsf": 398.09
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 9,
+      "medianSalePrice": 327911,
+      "medianDom": 58,
+      "saleToList": 98.57,
+      "soldAboveList": 11.09,
+      "monthsOfSupply": 7,
+      "newListings": 18,
+      "inventory": 21,
+      "medianPpsf": 402.56
      }
     ],
     "townhouse": [
-     {
-      "begin": "2023-04-01",
-      "end": "2023-06-30",
-      "homesSold": 41,
-      "medianSalePrice": 740000,
-      "medianDom": 22,
-      "saleToList": 99.59,
-      "soldAboveList": 17.07,
-      "monthsOfSupply": 1.1,
-      "newListings": 36,
-      "inventory": 15,
-      "medianPpsf": 427.56
-     },
      {
       "begin": "2023-05-01",
       "end": "2023-07-31",
@@ -20219,9 +20219,9 @@
       "medianDom": 47,
       "saleToList": 98.34,
       "soldAboveList": 10,
-      "monthsOfSupply": 4.9,
-      "newListings": 20,
-      "inventory": 16,
+      "monthsOfSupply": 5.2,
+      "newListings": 21,
+      "inventory": 17,
       "medianPpsf": 416.32
      },
      {
@@ -20232,9 +20232,9 @@
       "medianDom": 39,
       "saleToList": 97.95,
       "soldAboveList": 7.69,
-      "monthsOfSupply": 3.3,
-      "newListings": 22,
-      "inventory": 14,
+      "monthsOfSupply": 3.8,
+      "newListings": 24,
+      "inventory": 16,
       "medianPpsf": 402.3
      },
      {
@@ -20245,23 +20245,36 @@
       "medianDom": 43,
       "saleToList": 98.15,
       "soldAboveList": 7.14,
-      "monthsOfSupply": 3.9,
-      "newListings": 24,
-      "inventory": 18,
+      "monthsOfSupply": 4.4,
+      "newListings": 26,
+      "inventory": 20,
       "medianPpsf": 405.3
      },
      {
       "begin": "2026-07-01",
       "end": "2026-09-30",
       "homesSold": 13,
-      "medianSalePrice": 629007,
+      "medianSalePrice": 629000,
       "medianDom": 39,
       "saleToList": 98.16,
-      "soldAboveList": 15.34,
-      "monthsOfSupply": 4.2,
-      "newListings": 21,
-      "inventory": 18,
-      "medianPpsf": 396.23
+      "soldAboveList": 15.38,
+      "monthsOfSupply": 4.5,
+      "newListings": 22,
+      "inventory": 19,
+      "medianPpsf": 396.3
+     },
+     {
+      "begin": "2026-08-01",
+      "end": "2026-10-31",
+      "homesSold": 7,
+      "medianSalePrice": 659909,
+      "medianDom": 30,
+      "saleToList": 99.43,
+      "soldAboveList": 14.22,
+      "monthsOfSupply": 7.2,
+      "newListings": 19,
+      "inventory": 17,
+      "medianPpsf": 438.38
      }
     ]
    }

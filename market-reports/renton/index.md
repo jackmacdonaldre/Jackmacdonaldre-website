@@ -1,24 +1,24 @@
-# Renton Home Values & Market Report | Updated October 2026
+# Renton Home Values & Market Report | Updated November 2026
 
 Web page: https://jackmacdonaldre.com/market-reports/renton/
-Updated: October 2026. Data window: July to September 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
+Updated: November 2026. Data window: August to October 2026 (rolling 3 months, single family homes). Source: Redfin Data Center.
 
-Renton's median single family sale price was $730,000 for July to September 2026, down 4.0% from the same months last year. 161 single family homes sold (17.0% fewer than a year ago), and the median home spent 26 days on the market.
+Over the August to October 2026 period, 160 single family homes sold in Renton at a median price of $716,000, down 5.2% from $755,000 during the same 3 month window last year. Homes are sitting on the market longer too, with the median days on market at 34 compared to 17 a year ago. Supply has grown to 2.8 months, up from 1.8 months last year, and the number of sales dropped 12.1%.
 
-| Metric | Jul to Sep 2026 | Last month's window | Last year | Change vs last year |
+| Metric | Aug to Oct 2026 | Last month's window | Last year | Change vs last year |
 | --- | --- | --- | --- | --- |
-| Median sale price | $729,709 | $734,750 | $760,000 | Down 4.0% |
-| Homes sold | 161 | 160 | 194 | Down 17.0% |
-| Median days on market | 26 days | 19 days | 15 days | Up 11 days |
-| Average sale to list price | 98.2% | 98.4% | 98.6% | Down 0.4 pts |
-| Months of supply | 3.1 | 3.2 | 1.7 | Up 1.4 |
+| Median sale price | $715,842 | $730,000 | $755,000 | Down 5.2% |
+| Homes sold | 160 | 159 | 182 | Down 12.1% |
+| Median days on market | 34 days | 26 days | 17 days | Up 17 days |
+| Average sale to list price | 97.9% | 98.2% | 98.5% | Down 0.6 pts |
+| Months of supply | 2.8 | 3.1 | 1.8 | Up 1.0 |
 
 ## What this means if you're selling
 
-At 3.1 months of supply, buyers have some choice but not a lot. Homes that are prepared and priced right still move; homes priced on hope tend to sit. Sellers averaged 98.2% of list price. Most homes are selling close to asking, which tells me the pricing, not the market, decides the result. Homes are taking longer to sell than a year ago (26 days at the median versus 15), so build that into your timeline.
+Sellers in Renton are getting 97.9% of their list price on average, so well priced homes are still closing close to asking. That said, the days on market have doubled year over year, which means buyers are taking more time to decide. With 2.8 months of supply and fewer sales than last year, pricing carefully from day one matters more than it did a year ago.
 
 ## What this means if you're buying
 
-At 3.1 months of supply you have some room to look. That's more choice than a year ago, but well priced homes in the best locations draw competition. Homes averaged 98.2% of list price, so there is usually a little room to negotiate, but not much on the best homes. Prices are softer than a year ago, which is worth knowing when you write an offer.
+Buyers have more room to breathe here than they did a year ago. Supply is up to 2.8 months and homes are averaging 34 days on market, so there is less pressure to decide in a weekend. Prices have come down 5.2% year over year to a median of $716,000, and sellers are still closing at 97.9% of list, so lowball offers are not really the story, but the leverage has shifted a bit toward buyers.
 
 Curious what your home would sell for right now? https://jackmacdonaldre.com/contact/?interest=home-value
