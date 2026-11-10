@@ -707,7 +707,9 @@
       "topic": "Kirkland vs Redmond: Which Eastside City Fits You?",
       "city": "Kirkland",
       "type": "comparison",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "kirkland-vs-redmond-which-eastside-city-fits-you",
+      "published_date": "2026-11-10"
     },
     {
       "topic": "Selling on Education Hill Redmond: What Sellers Should Know",
