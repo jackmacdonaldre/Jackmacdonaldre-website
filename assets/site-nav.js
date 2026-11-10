@@ -65,3 +65,15 @@
   hideTeam();
   new MutationObserver(hideTeam).observe(document.documentElement, { childList: true, subtree: true });
 })();
+
+// LinkedIn profile URL changed (Oct 2026): point old links at the new profile
+(function () {
+  function fixLinkedIn() {
+    document.querySelectorAll('a[href*="linkedin.com/in/jack-macdonald-992878180"]').forEach(function (a) {
+      a.setAttribute('href', 'https://www.linkedin.com/in/jackmacdonaldrealestate/');
+    });
+  }
+  fixLinkedIn();
+  document.addEventListener('DOMContentLoaded', fixLinkedIn);
+  window.addEventListener('load', fixLinkedIn);
+})();
