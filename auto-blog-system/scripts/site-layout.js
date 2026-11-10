@@ -49,7 +49,7 @@ const AGENT = {
   worksFor: { "@type": "RealEstateOrganization", name: "Macdonald Group of Compass" },
   sameAs: [
     "https://www.instagram.com/jackmacdonaldre/",
-    "https://www.linkedin.com/in/jack-macdonald-992878180/",
+    "https://www.linkedin.com/in/jackmacdonaldrealestate/",
     "https://www.compass.com/agents/jack-macdonald/",
     "https://www.facebook.com/jack.macdonald.31521301/",
     "https://www.google.com/maps/place/Jack+Macdonald+%7C+Macdonald+Group+Real+Estate/@47.6166486,-122.1928063,17z/data=!3m1!4b1!4m6!3m5!1s0x54906d61bd1d56c5:0xebb1ed7e3100a46d",
@@ -145,7 +145,7 @@ function footer() {
 <a href="/blog/" style="font-size: 12px; color: var(--color-neutral-300);">Blog</a>
 <a href="/contact/" style="font-size: 12px; color: var(--color-neutral-300);">Contact</a>
 <a href="https://www.instagram.com/jackmacdonaldre/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Instagram</a>
-<a href="https://www.linkedin.com/in/jack-macdonald-992878180/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">LinkedIn</a>
+<a href="https://www.linkedin.com/in/jackmacdonaldrealestate/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">LinkedIn</a>
 <a href="https://www.compass.com/agents/jack-macdonald/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Compass</a>
 <a href="https://www.facebook.com/jack.macdonald.31521301/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; color: var(--color-neutral-300);">Facebook</a>
 <a href="/dmca.html" style="font-size: 12px; color: var(--color-neutral-300);">DMCA Notice</a>
