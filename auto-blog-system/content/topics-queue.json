@@ -726,7 +726,9 @@
       "city": "Kirkland",
       "neighborhood": "Totem Lake",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "totem-lake-kirkland-homes-and-condos-what-buyers-should-know",
+      "published_date": "2026-11-11"
     },
     {
       "topic": "How Long It Takes to Sell a Home in Redmond",
