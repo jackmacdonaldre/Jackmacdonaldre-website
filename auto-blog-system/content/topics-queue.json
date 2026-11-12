@@ -743,7 +743,9 @@
       "topic": "Moving to Kirkland: A Practical Relocation Guide",
       "city": "Kirkland",
       "type": "relocation_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "moving-to-kirkland-a-practical-relocation-guide",
+      "published_date": "2026-11-12"
     },
     {
       "topic": "Selling a Townhome or Condo in Issaquah",
