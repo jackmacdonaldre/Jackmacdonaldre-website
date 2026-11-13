@@ -760,7 +760,9 @@
       "topic": "How Property Taxes Work in King County for Eastside Homeowners",
       "city": "Bellevue",
       "type": "buyer_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "how-property-taxes-work-in-king-county-for-eastside-homeowners",
+      "published_date": "2026-11-13"
     },
     {
       "topic": "Selling a Home in Carnation: What Rural Buyers Look For",
