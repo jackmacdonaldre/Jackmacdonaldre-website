@@ -1,7 +1,320 @@
 {
-  "generatedAt": "2026-11-13T09:46:31.504Z",
-  "count": 121,
+  "generatedAt": "2026-11-13T17:54:36.052Z",
+  "count": 122,
   "listings": [
+    {
+      "acres": "0.236",
+      "address": "3204 72nd Avenue SE",
+      "advanced": {
+        "roof": [
+          "Composition"
+        ],
+        "view": [
+          "Lake",
+          "Mountains",
+          "Territorial"
+        ],
+        "block": "4",
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "Two"
+        ],
+        "offers": "Seller intends to review offers upon receipt",
+        "cooling": [
+          "Ductless",
+          "Forced Air"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Ductless",
+          "Forced Air",
+          "Radiant"
+        ],
+        "taxYear": 2026,
+        "aduCount": "0",
+        "basement": [
+          "Finished"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Hardwood",
+          "Slate",
+          "Travertine",
+          "Vinyl Plank"
+        ],
+        "saleType": "MLS",
+        "bathrooms": "3.75",
+        "lotNumber": "37",
+        "styleCode": "18 - 2 Stories w/Bsmnt",
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Double Oven",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer"
+        ],
+        "gasCompany": "PSE",
+        "highSchool": [
+          "Mercer Isl High"
+        ],
+        "inclusions": [
+          "Dishwasher(s)",
+          "Double Oven",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "livingArea": 4187,
+        "possession": [
+          "Closing"
+        ],
+        "topography": "Level",
+        "vegetation": [
+          "Garden Space"
+        ],
+        "lotFeatures": [
+          "Corner Lot",
+          "Paved"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Square Feet"
+        ],
+        "mlsAreaMajor": "510 - Mercer Island",
+        "onMarketDate": "2026-09-18T00:00:00+00:00",
+        "parkingTotal": 10,
+        "powerCompany": "PSE",
+        "sewerCompany": "City of Mercer Island",
+        "siteFeatures": [
+          "Cable TV",
+          "Deck",
+          "Fenced-Partially",
+          "Gas Available",
+          "High Speed Internet",
+          "Patio",
+          "RV Parking",
+          "Shop",
+          "Sprinkler System"
+        ],
+        "titleCompany": "Chicago Title",
+        "waterCompany": "City of Mercer Island",
+        "waterfrontYN": "no",
+        "bathsFullMain": "1",
+        "bathsHalfMain": "0",
+        "bedroomsLower": "1",
+        "bedroomsUpper": "1",
+        "busLineNearby": "yes",
+        "coveredSpaces": 3,
+        "entryLocation": "Main",
+        "structureType": [
+          "House"
+        ],
+        "associationFee": 0,
+        "bathsFullLower": "1",
+        "bathsFullUpper": "1",
+        "bathsHalfLower": "0",
+        "bathsHalfUpper": "0",
+        "elevationUnits": [
+          "Feet"
+        ],
+        "fireplacesMain": "1",
+        "listAgentEmail": "stephen@stephenmacdonald.com",
+        "standardStatus": "Closed",
+        "bathsFullGarage": "0",
+        "bathsHalfGarage": "0",
+        "excludedItemsYN": "no",
+        "fireplacesLower": "1",
+        "fireplacesTotal": 2,
+        "listOfficeEmail": "contractsseattle@compass.com",
+        "numberOfShowers": "2",
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "Off Street",
+          "RV Parking"
+        ],
+        "seniorExemption": "no",
+        "taxAnnualAmount": 16435.44,
+        "waterHeaterType": "gas",
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "West Mercer Elem"
+        ],
+        "exteriorFeatures": [
+          "Stone",
+          "Stucco"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Ceiling Fan(s)",
+          "Dbl Pane/Storm Window",
+          "Dining Room",
+          "Fireplace",
+          "French Doors",
+          "High Tech Cabling",
+          "Security System",
+          "Skylight(s)",
+          "Vaulted Ceiling(s)",
+          "Walk-In Closet(s)",
+          "Water Heater",
+          "Wine/Beverage Refrigerator",
+          "Wired for Generator"
+        ],
+        "mlsLotSizeSource": "Realist",
+        "numberOfBathtubs": "3",
+        "sellerDisclosure": "Provided",
+        "buildingAreaTotal": 4187,
+        "buildingAreaUnits": [
+          "Square Feet"
+        ],
+        "fireplaceFeatures": [
+          "Wood Burning"
+        ],
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "lotSizeSquareFeet": 10272,
+        "mainLevelBedrooms": 2,
+        "propertyCondition": [
+          "Very Good"
+        ],
+        "appliancesIncluded": [
+          "Dishwasher(s)",
+          "Double Oven",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Stove(s)/Range(s)",
+          "Washer(s)"
+        ],
+        "highSchoolDistrict": [
+          "Mercer Island"
+        ],
+        "yearBuiltEffective": 2026,
+        "zoningJurisdiction": "City",
+        "buildingInformation": [
+          "Built On Lot"
+        ],
+        "firstRightOfRefusal": "no",
+        "powerProductionType": [
+          "Electric",
+          "Natural Gas"
+        ],
+        "waterHeaterLocation": "lower level",
+        "allowedUseCaseGroups": [
+          "IDX"
+        ],
+        "middleOrJuniorSchool": [
+          "Islander Mid"
+        ],
+        "bathsThreeQuarterMain": "1",
+        "bathsThreeQuarterLower": "0",
+        "bathsThreeQuarterUpper": "0",
+        "garbageServiceProvider": "Recology",
+        "mlsSquareFootageSource": "Realist",
+        "bathsThreeQuarterGarage": "0",
+        "calculatedSquareFootage": "4187",
+        "listAgentPreferredPhone": "425-242-6440",
+        "preliminaryTitleOrdered": "yes",
+        "squareFootageUnfinished": "0",
+        "effectiveYearBuiltSource": "Public Records",
+        "specialListingConditions": [
+          "None"
+        ],
+        "commonInterestCommunityYN": "no"
+      },
+      "bedrooms": 4,
+      "cityID": 29741,
+      "cityName": "Mercer Island",
+      "coListingAgentID": "100048876",
+      "coListingOfficeID": "91866779",
+      "countyID": 406,
+      "countyName": "King",
+      "dateAdded": "2026-09-23T07:34:16+00:00",
+      "dateModified": "2026-11-13T16:01:12+00:00",
+      "detailsURL": "b045/2577547",
+      "detailsUrlSlug": "3204-72nd-Avenue-SE-Mercer-Island-98040",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 3,
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2577547/3204-72nd-Avenue-SE-Mercer-Island-98040",
+      "halfBaths": 0,
+      "idxID": "b045",
+      "idxPropType": "Residential",
+      "idxStatus": "sold",
+      "image": {
+        "0": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/576c/c67555affda5ce35cc0ad3eb8b38c9d3/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 1
+      },
+      "latitude": 47.581613,
+      "listingAgentID": "1186410",
+      "listingID": "2577547",
+      "listingOfficeID": "91866779",
+      "listingPrice": "$3,350,888",
+      "longitude": -122.242836,
+      "mediaData": [],
+      "mlsPhotoCount": 40,
+      "mlsPtID": 1,
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 3350888,
+      "priceBeforeReduction": 3499888,
+      "priceData": {
+        "value": {
+          "raw": 3150000,
+          "formatted": "$3,150,000"
+        },
+        "type": "sold",
+        "label": "Sold For",
+        "field": "soldPrice"
+      },
+      "priceReductionDate": "2026-09-23T23:45:24+00:00",
+      "propStatus": "Sold",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Meticulously renovated and beautifully appointed, this exceptional home is set on a level, landscaped corner lot in Mercer Island’s coveted First Hill neighborhood. The dramatic main-level great room features soaring beamed ceilings and heated travertine floors, flowing seamlessly between the chef’s kitchen, dining area and family room. The impressive kitchen offers an entertainment-sized island, 6-burner gas range, dual dishwashers, beverage cooler and ice maker, while a gracious formal living room with fireplace adds timeless elegance with the versatility to serve beautifully as an executive office.  Upstairs, the private primary retreat captures spectacular west-facing views of Lake Washington and the Olympic Mountains from its charming deck. Hardwood floors and vaulted ceilings complement a spa-inspired bath with soaking tub, oversized shower, heated floors and skylights, plus a generous walk-in closet with laundry.  The lower level offers a bedroom, full bath, media and rec rooms, flex space and separate entry. Outside, enjoy manicured grounds, an expansive patio and outdoor kitchen. A 3-car tandem garage, radiant heat, security and designer lighting complete this remarkable home, moments to parks and I-90 with easy access to Seattle and Bellevue.",
+      "rntLse": "neither",
+      "rntLsePrice": 3350888,
+      "sellingAgentID": "109900144",
+      "sellingOfficeID": "91866779",
+      "soldDate": "2026-11-12T00:00:00+00:00",
+      "soldPrice": 3150000,
+      "sqFt": "4,187",
+      "state": "Washington",
+      "streetName": "72nd Avenue SE",
+      "streetNumber": "3204",
+      "subdivision": "First Hill",
+      "threeQuarterBaths": 1,
+      "totalBaths": 4,
+      "viewCount": 35,
+      "vtCount": 0,
+      "yearBuilt": 1955,
+      "zipcode": "98040",
+      "attribution": {
+        "firm": "Compass",
+        "agentName": "Stephen Macdonald, Managing Broker",
+        "agentPhone": "425.941.7325"
+      }
+    },
     {
       "acres": "0.029",
       "address": "3513 SW Austin Street",
@@ -4651,7 +4964,7 @@
       "subdivision": "Lake Hills",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 46,
+      "viewCount": 48,
       "vtCount": 0,
       "yearBuilt": 1957,
       "zip4": "4949",
