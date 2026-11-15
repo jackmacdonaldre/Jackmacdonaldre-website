@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T01:59:26.936Z",
+  "generatedAt": "2026-11-15T09:37:55.333Z",
   "count": 7,
   "listings": [
     {
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 243,
+      "viewCount": 244,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -728,19 +728,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "162991429",
-            "text": "",
-            "starts": "2026-11-14T13:00:00+00:00",
-            "expires": "2026-11-14T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-13T20:25:10+00:00",
-            "freeFormDate": "November 14th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2528070",
-            "startTime": 1794661200
-          },
-          {
             "id": "164136088",
             "text": "Clothing drive! We are accepting new or gently used winter clothing, including coats, jackets, fleeces, warm socks (new only - please!), gloves, beanies, and scarves. Thank you for helping those in need stay warm this season!",
             "starts": "2026-11-21T13:00:00+00:00",
@@ -757,7 +744,7 @@
       },
       "mlsPhotoCount": 38,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1149800,
@@ -1213,19 +1200,6 @@
       "mediaData": {
         "oh": [
           {
-            "id": "163999406",
-            "text": "",
-            "starts": "2026-11-14T13:00:00+00:00",
-            "expires": "2026-11-14T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-13T20:25:13+00:00",
-            "freeFormDate": "November 14th, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2601370",
-            "startTime": 1794661200
-          },
-          {
             "id": "164135992",
             "text": "Clothing drive! We are accepting new or gently used winter clothing, including coats, jackets, fleeces, warm socks (new only - please!), gloves, beanies, and scarves. Thank you for helping those in need stay warm this season!",
             "starts": "2026-11-21T13:00:00+00:00",
@@ -1250,7 +1224,7 @@
       },
       "mlsPhotoCount": 33,
       "mlsPtID": 1,
-      "ohCount": 2,
+      "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 2,
       "price": 1049800,
