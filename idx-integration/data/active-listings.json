@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:50:57.360Z",
+  "generatedAt": "2026-11-16T18:42:17.279Z",
   "count": 7,
   "listings": [
     {
@@ -773,7 +773,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 53,
+      "viewCount": 54,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -1937,7 +1937,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-09-10T23:49:57+00:00",
-      "dateModified": "2026-11-15T00:05:11+00:00",
+      "dateModified": "2026-11-16T17:25:12+00:00",
       "detailsURL": "b045/2577976",
       "detailsUrlSlug": "28132-227th-Place-SE-Maple-Valley-98038",
       "displayAddress": "y",
@@ -2137,15 +2137,15 @@
           {
             "id": "162788469",
             "text": "",
-            "starts": "2026-11-15T13:00:00+00:00",
-            "expires": "2026-11-15T15:00:00+00:00",
+            "starts": "2026-11-22T13:00:00+00:00",
+            "expires": "2026-11-22T16:00:00+00:00",
             "virtualLink": null,
             "virtualText": null,
-            "dateModified": "2026-11-13T20:25:09+00:00",
-            "freeFormDate": "November 15th, 2026",
-            "freeFormTime": "1:00 pm to 3:00 pm",
+            "dateModified": "2026-11-16T17:40:09+00:00",
+            "freeFormDate": "November 22nd, 2026",
+            "freeFormTime": "1:00 pm to 4:00 pm",
             "listingID": "2577976",
-            "startTime": 1794747600
+            "startTime": 1795352400
           }
         ]
       },
@@ -2992,7 +2992,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 24,
+      "viewCount": 25,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
