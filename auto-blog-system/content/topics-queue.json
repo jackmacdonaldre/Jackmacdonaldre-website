@@ -778,7 +778,9 @@
       "city": "Kirkland",
       "neighborhood": "Norkirk",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "market-street-and-norkirk-kirkland-living-near-downtown-kirkland",
+      "published_date": "2026-11-16"
     },
     {
       "topic": "Questions to Ask Before You Hire a Listing Agent on the Eastside",
