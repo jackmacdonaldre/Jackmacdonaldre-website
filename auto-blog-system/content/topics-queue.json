@@ -795,7 +795,9 @@
       "topic": "Issaquah vs Sammamish: Comparing Two Eastside Cities",
       "city": "Issaquah",
       "type": "comparison",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "issaquah-vs-sammamish-comparing-two-eastside-cities",
+      "published_date": "2026-11-17"
     },
     {
       "topic": "Overlake and Grass Lawn Redmond: Neighborhood Guide",
