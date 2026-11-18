@@ -804,7 +804,9 @@
       "city": "Redmond",
       "neighborhood": "Overlake",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "overlake-and-grass-lawn-redmond-neighborhood-guide",
+      "published_date": "2026-11-18"
     },
     {
       "topic": "What Happens After Your Offer Is Accepted in Washington State",
