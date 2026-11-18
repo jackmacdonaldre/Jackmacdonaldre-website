@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T07:43:55.899Z",
+  "generatedAt": "2026-11-18T17:22:36.818Z",
   "count": 7,
   "listings": [
     {
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 247,
+      "viewCount": 250,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -773,7 +773,7 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 54,
+      "viewCount": 55,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -2592,7 +2592,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 15,
+      "viewCount": 16,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
