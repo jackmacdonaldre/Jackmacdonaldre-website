@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T00:33:14.956Z",
+  "generatedAt": "2026-11-19T10:30:56.870Z",
   "count": 7,
   "listings": [
     {
@@ -368,18 +368,18 @@
         ],
         "listingTerms": [
           "Cash",
-          "Conventional"
+          "Conventional",
+          "See Remarks"
         ],
         "lotSizeUnits": [
           "Square Feet"
         ],
         "mlsAreaMajor": "340 - Renton/Benson Hill",
-        "onMarketDate": "2026-06-25T00:00:00+00:00",
+        "onMarketDate": "2026-11-18T00:00:00+00:00",
         "parkingTotal": 4,
         "powerCompany": "Puget Sound Energy",
         "sewerCompany": "Soos Creek",
         "siteFeatures": [
-          "Electric Car Charging",
           "Fenced-Fully"
         ],
         "titleCompany": "Stewart Title",
@@ -499,7 +499,7 @@
         ],
         "bathsThreeQuarterGarage": "0",
         "calculatedSquareFootage": "3110",
-        "listAgentPreferredPhone": "425-941-7325",
+        "listAgentPreferredPhone": "425-242-6440",
         "preliminaryTitleOrdered": "yes",
         "squareFootageUnfinished": "0",
         "specialListingConditions": [
@@ -514,231 +514,239 @@
       "coListingOfficeID": "91866779",
       "countyID": 406,
       "countyName": "King",
-      "dateAdded": "2026-06-26T00:04:11+00:00",
-      "dateModified": "2026-11-18T21:50:10+00:00",
-      "detailsURL": "b045/2528070",
+      "dateAdded": "2026-11-19T01:12:56+00:00",
+      "dateModified": "2026-11-19T00:28:16+00:00",
+      "detailsURL": "b045/2604821",
       "detailsUrlSlug": "10668-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
       "featured": "y",
       "fullBaths": 1,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2528070/10668-SE-170th-Place-Renton-98055",
+      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2604821/10668-SE-170th-Place-Renton-98055",
       "halfBaths": 1,
       "idxID": "b045",
       "idxPropType": "Residential",
       "idxStatus": "active",
       "image": {
         "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c468/864c06c3fe0981fa0514f611a3b7fc0c/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3de3/3ed3b81f03420c1f40be1ae280abc39e/b045",
           "sizes": [],
           "caption": "Modern Craftsman Home in Renton, WA — Newly built 4-bed, 3-bath, 3,110 sq. ft. home featuring rich exterior detailing, a two-car attached garage, and charming front porch."
         },
         "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3533/33536a62932a157cadd5a0d2c4c64f91/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/34c0/0c43fa26dff82337a59a4b3823eeef74/b045",
           "sizes": [],
           "caption": "Inviting entryway with crisp architectural trim, durable cement plank siding, and ample space for outdoor seating."
         },
         "2": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ee61/16eefca3cdbf2982bf4395cd23220dd4/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3d4d/d4d3681db0781a3c9e6eed5d720a498b/b045",
           "sizes": [],
-          "caption": "Grand Front Entrance — Elegant front door with glass transom panels leading into a bright, welcoming foyer."
+          "caption": "Elegant front door with glass transom panels leading into a bright, welcoming foyer."
         },
         "3": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f93b/b39fa2739405625dd19abee25a3cca49/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3acd/dca3d44b5fdda8e2787052c9cc3824e0/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Light-filled office by the entry is the perfect work-from-home space."
         },
         "4": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/912d/d219aec105e4e72b92c0b98d99df42fe/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4234/43241c4dac0321a0376115e0a3937e27/b045",
           "sizes": [],
           "caption": "Beautiful living room feature fireplace with a clean tile surround and mantle, perfect for Pacific Northwest winter evenings."
         },
         "5": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/78e7/7e870cec37e3e543d0515a14df5ce3fc/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9daa/aad9e61d30111049f52f65d54779d628/b045",
           "sizes": [],
           "caption": "Main-level family room anchored by a sleek fireplace surround and hearth mantle."
         },
         "6": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8c37/73c8aee0eed1efc3eb682b0e420b149b/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b488/884b040bdacebe9db4fc0c4a2d212970/b045",
           "sizes": [],
           "caption": "Bright main living area featuring wide-plank flooring, large windows, and open sightlines."
         },
         "7": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cbf3/3fbc7d27a62a369e8662fefb492c9337/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/cc47/74cc200815f1ed29c59d30cb16742903/b045",
           "sizes": [],
           "caption": "Formal dining room adjacent to the living room."
         },
         "8": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1a84/48a1dc93c7fae382afa64c51420cf551/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f9c3/3c9f55251bfbe033aac6ed1cdb712295/b045",
           "sizes": [],
           "caption": ""
         },
         "9": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f187/781fb72689de95681ef215133c38b2ec/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0021/12003757029776ad0b55c87990ce6d88/b045",
           "sizes": [],
           "caption": "Flexible dining zone with direct access to the covered back patio."
         },
         "10": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3bba/abb35e3e755f773809310858c17e092c/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4a7f/f7a43edc03ba4613f5ed0fba041b609f/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Enjoy your covered porch in all weather."
         },
         "11": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9c58/85c9da084d884c482d8d5ece2417ebc7/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b911/119ba235d888b372d0a709bf3ee23df6/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Fully enclosed level lawn ideal for outdoor play, gardening, and pets."
         },
         "12": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2cb0/0bc24a0be247abbd3ea81846174fe26b/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a6d1/1d6abd1221d6a5f3815564fd466e9bf7/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Possibilities to expand the grass, curate a garden, build a larger patio, and so much more!"
         },
         "13": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/94d6/6d490a98b3e7bef0ed4007e755bc99d9/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1a69/96a11b516b13f0e358f2759ab8ca96f9/b045",
           "sizes": [],
           "caption": "Open layout connecting the family room directly to the dining space and gourmet kitchen."
         },
         "14": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0498/8940bfc53827403b049dfc67d938e735/b045",
-          "sizes": [],
-          "caption": ""
-        },
-        "15": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/24bd/db425514c27c9e3b5b02f4067a145c3e/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/699f/f99699f4b2b640d5af742eb6969b3e6c/b045",
           "sizes": [],
           "caption": "Gourmet Chef's Kitchen — Quartz countertops, soft-close cabinetry, custom tile splash, and high-end stainless steel appliances."
         },
+        "15": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4404/4044ffa77e6318703b54ca2d112854f0/b045",
+          "sizes": [],
+          "caption": ""
+        },
         "16": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/e6a6/6a6e46b7b10ad1f9fac0e9b2526d519e/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bdda/addb5853833486856e3669a45b97f22d/b045",
           "sizes": [],
           "caption": "Built-in wall oven/microwave setup and gas cooktop with canopy hood vent."
         },
         "17": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/762e/e267ba5681f8999198c7a2aa636ee9ec/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ae8b/b8ea93d4561129de24f37271fe62f7d7/b045",
           "sizes": [],
           "caption": ""
         },
         "18": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/7a09/90a725df3252f02a66b023091e3e6e56/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ca74/47acceb9b85caf108f4fad564a587e3b/b045",
           "sizes": [],
           "caption": ""
         },
         "19": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/00cf/fc0045c066ad0d5010affd12c9154277/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2376/673285baab7eafbc0997ac7de9ebd8e1/b045",
           "sizes": [],
           "caption": "Floor-to-ceiling built-in shelving designed for maximum grocery and appliance storage."
         },
         "20": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0038/830045a2dee1a1cf65dfd410cd29e29e/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1637/736175d99a2bccd01612b69cece47d53/b045",
           "sizes": [],
           "caption": "Guest bathroom featuring quartz vanity counters."
         },
         "21": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/33a7/7a3356b17f5320f1a63f3e77f6d3155d/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/1fab/baf1857e5b3b9ce9b4df7f496897d930/b045",
           "sizes": [],
           "caption": "Functional Garage Mudroom — Smart entryway drop-zone off the garage door for coats, bags, and footwear."
         },
         "22": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4952/259448aca0a2a994bc94425b4f2452db/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ea19/91ae46679d5a9a5f2026df7b44a35bc7/b045",
           "sizes": [],
           "caption": "Spacious primary retreat with large windows, quiet neighborhood views, and plush carpeting."
         },
         "23": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0026/62007e36ef46f66cc453945913e93222/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ee0b/b0ee098747c6757c799e5a7987118a16/b045",
           "sizes": [],
           "caption": ""
         },
         "24": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/ead3/3dae7acf15b94ca01f8d09f96b650e7a/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4470/074415754870647b15d5b49c9f8cb24d/b045",
           "sizes": [],
           "caption": ""
         },
         "25": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/0c7d/d7c08f1e08ea721cc2e5f3d18c5ab062/b045",
-          "sizes": [],
-          "caption": "Massive closet space outfitted with built-in organizer shelving."
-        },
-        "26": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/55cf/fc55a556ce08174533ec00361e853834/b045",
-          "sizes": [],
-          "caption": "Secondary bedroom with plush carpet, walk-in closet, and easy access to full hall bath."
-        },
-        "27": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4cd3/3dc45923018cb875a0f2e1bf049c6f95/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8e28/82e8d0d9216fb0e8c962b136726ca8b2/b045",
           "sizes": [],
           "caption": ""
         },
+        "26": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bce8/8ecb7a911f24e14a1e7713805e52b710/b045",
+          "sizes": [],
+          "caption": "Massive closet space outfitted with built-in organizer shelving."
+        },
+        "27": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/40e7/7e04896cab8e18ee63d2ffcbec420449/b045",
+          "sizes": [],
+          "caption": "Secondary bedroom with plush carpet, walk-in closet, and easy access to full hall bath."
+        },
         "28": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/fc79/97cf4a2a3c6a4b60d9ae1799cd8e46cd/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8122/22186be36718a8f486db7b2d62460435/b045",
           "sizes": [],
           "caption": "Comfortable upstairs bedroom with plush carpet and easy access to full hall bath."
         },
         "29": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/f750/057f921364cf8ae76f3ac3371557514c/b045",
-          "sizes": [],
-          "caption": "Well-proportioned bedroom ideal for children, guests, or a hobby room."
-        },
-        "30": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/bb20/02bbbc1cd914ab157cedee25bef837a5/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/12c1/1c21f5b583b03a229f8e7f8aec1e8658/b045",
           "sizes": [],
           "caption": "Second-floor full bathroom featuring double sinks and tub/shower combo."
         },
+        "30": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/d5a7/7a5d440de1f90498fd019a23ed1b1f04/b045",
+          "sizes": [],
+          "caption": "Well-proportioned bedroom ideal for children, guests, or a hobby room."
+        },
         "31": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a07f/f70a2801cc5eda8c6f72ad2d49ec8cd6/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9dfb/bfd976a017c2a4e9ea314bc64b57a74b/b045",
           "sizes": [],
           "caption": "Large secondary living area perfect for a media room, game room, or play space."
         },
         "32": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2434/434267692fd955b5228fcf504bd8a520/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/c9c2/2c9cc27c8a8a4706581efe9f8a3c641d/b045",
           "sizes": [],
           "caption": "Utility room equipped with built-in sink, quartz counter space, and storage cabinets."
         },
         "33": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4897/798411d352fce5ebd07e90fd75cec46c/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/293d/d3920c0ac2f6b7ece95a131ad7950fcf/b045",
           "sizes": [],
           "caption": "Prime dead-end street location with quick access to schools, parks, and major commutes (I-405, Bellevue, Seattle)."
         },
         "34": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a196/691a75d3dbd9b89b8be0ba05eebacaa7/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/28f4/4f8256f2d7957b9c8e37101489003861/b045",
           "sizes": [],
           "caption": ""
         },
         "35": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/6a60/06a67c65bc4f4fb7e7563d98c0d86e64/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/8b04/40b804531df91a4473e4b6ec7a61417e/b045",
           "sizes": [],
-          "caption": "Fully enclosed level lawn ideal for outdoor play, gardening, and pets."
+          "caption": ""
         },
         "36": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/10a8/8a010d6f6693d9d780b6e3f2a1773815/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/a972/279a892d0c8ea6be43c17a79f6165ec6/b045",
           "sizes": [],
           "caption": ""
         },
         "37": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/9fd2/2df92dee32adf2a7b9841409e2c68890/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/2bd9/9db2e4e5393f275abdb14dee9d28f82f/b045",
           "sizes": [],
-          "caption": ""
+          "caption": "Welcome Home!"
         },
         "totalCount": 38
       },
       "latitude": 47.450219,
       "listingAgentID": "1186410",
-      "listingID": "2528070",
+      "listingID": "2604821",
       "listingOfficeID": "91866779",
-      "listingPrice": "$1,149,800",
+      "listingPrice": "$1,059,800",
       "longitude": -122.198721,
       "mediaData": {
         "oh": [
           {
-            "id": "164136088",
+            "id": "164202087",
             "text": "Clothing drive! We are accepting new or gently used winter clothing, including coats, jackets, fleeces, warm socks (new only - please!), gloves, beanies, and scarves. Thank you for helping those in need stay warm this season!",
             "starts": "2026-11-21T13:00:00+00:00",
             "expires": "2026-11-21T16:00:00+00:00",
             "virtualLink": null,
             "virtualText": null,
-            "dateModified": "2026-11-13T20:25:16+00:00",
+            "dateModified": "2026-11-19T00:25:16+00:00",
             "freeFormDate": "November 21st, 2026",
             "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2528070",
+            "listingID": "2604821",
             "startTime": 1795266000
+          }
+        ],
+        "vt": [
+          {
+            "id": "vtURL",
+            "url": "https://www.instagram.com/p/DcwtBMrBKs0/",
+            "text": "",
+            "listingID": "2604821"
           }
         ]
       },
@@ -747,24 +755,22 @@
       "ohCount": 1,
       "parentPtID": 1,
       "partialBaths": 2,
-      "price": 1149800,
-      "priceBeforeReduction": 1189800,
+      "price": 1059800,
       "priceData": {
         "value": {
-          "raw": 1149800,
-          "formatted": "$1,149,800"
+          "raw": 1059800,
+          "formatted": "$1,059,800"
         },
         "type": "active",
         "label": "Price",
         "field": "listingPrice"
       },
-      "priceReductionDate": "2026-09-18T20:02:17+00:00",
       "propStatus": "Active",
       "propSubType": "Single Family Residence",
       "propType": "Residential",
-      "remarksConcat": "Autumn Offer: $50k Buyer Bonus available for a limited time. Quality craftsmanship meets thoughtful modern design in this exceptional new construction home. A bright, open great room anchored by a striking tiled fireplace with custom built-ins creates an inviting focal point, while a dedicated main-floor office and mudroom add everyday functionality. The chef’s kitchen impresses with warm custom cabinetry, an oversized island, and a walk-in pantry. Upstairs, a versatile bonus room, three additional bedrooms, and a serene primary suite offer flexible, comfortable living. Complete with central A/C, designer finishes throughout, and a fully fenced low-maintenance yard, this home blends style and livability with ease. Ideally located with quick access to shopping, dining, SeaTac, and major employers including Boeing.",
+      "remarksConcat": "Quality craftsmanship meets thoughtful modern design in this exceptional new construction home. A bright, open great room anchored by a striking tiled fireplace with custom built-ins creates an inviting focal point, while a dedicated main-floor office and mudroom add everyday functionality. The chef’s kitchen impresses with warm custom cabinetry, an oversized island, and a walk-in pantry. Upstairs, a versatile bonus room, three additional bedrooms, and a serene primary suite offer flexible, comfortable living. Complete with central A/C, designer finishes throughout, and a fully fenced low-maintenance yard, this home blends style and livability with ease. Ideally located with quick access to shopping, dining, SeaTac, and major employers including Boeing.",
       "rntLse": "neither",
-      "rntLsePrice": 1149800,
+      "rntLsePrice": 1059800,
       "sqFt": "3,110",
       "state": "Washington",
       "streetDirection": "SE",
@@ -773,8 +779,8 @@
       "subdivision": "Benson Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 3,
-      "viewCount": 55,
-      "vtCount": 0,
+      "viewCount": 0,
+      "vtCount": 1,
       "yearBuilt": 2026,
       "zipcode": "98055",
       "attribution": {
@@ -2592,7 +2598,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 16,
+      "viewCount": 17,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
