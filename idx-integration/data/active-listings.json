@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T10:30:56.870Z",
+  "generatedAt": "2026-11-19T20:50:01.699Z",
   "count": 7,
   "listings": [
     {
@@ -515,7 +515,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-11-19T01:12:56+00:00",
-      "dateModified": "2026-11-19T00:28:16+00:00",
+      "dateModified": "2026-11-19T13:04:29+00:00",
       "detailsURL": "b045/2604821",
       "detailsUrlSlug": "10668-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -744,7 +744,7 @@
         "vt": [
           {
             "id": "vtURL",
-            "url": "https://www.instagram.com/p/DcwtBMrBKs0/",
+            "url": "https://www.instagram.com/p/Df3JcX1hYZU/",
             "text": "",
             "listingID": "2604821"
           }
@@ -2998,7 +2998,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 28,
+      "viewCount": 29,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
