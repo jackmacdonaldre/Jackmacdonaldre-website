@@ -812,7 +812,9 @@
       "topic": "What Happens After Your Offer Is Accepted in Washington State",
       "city": "Bellevue",
       "type": "buyer_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "what-happens-after-your-offer-is-accepted-in-washington-state",
+      "published_date": "2026-11-19"
     },
     {
       "topic": "Should You Buy Before You Sell on the Eastside?",
