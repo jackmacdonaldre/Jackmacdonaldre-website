@@ -820,7 +820,9 @@
       "topic": "Should You Buy Before You Sell on the Eastside?",
       "city": "Bellevue",
       "type": "seller_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "should-you-buy-before-you-sell-on-the-eastside",
+      "published_date": "2026-11-20"
     },
     {
       "topic": "Kingsgate Kirkland Homes for Sale: Neighborhood Guide",
