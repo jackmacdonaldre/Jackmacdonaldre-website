@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:50:01.699Z",
+  "generatedAt": "2026-11-20T03:34:42.772Z",
   "count": 7,
   "listings": [
     {
@@ -515,7 +515,7 @@
       "countyID": 406,
       "countyName": "King",
       "dateAdded": "2026-11-19T01:12:56+00:00",
-      "dateModified": "2026-11-19T13:04:29+00:00",
+      "dateModified": "2026-11-19T23:32:10+00:00",
       "detailsURL": "b045/2604821",
       "detailsUrlSlug": "10668-SE-170th-Place-Renton-98055",
       "displayAddress": "y",
@@ -528,12 +528,12 @@
       "idxStatus": "active",
       "image": {
         "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/3de3/3ed3b81f03420c1f40be1ae280abc39e/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/826d/d628586d8c3d023196e70b1769077914/b045",
           "sizes": [],
           "caption": "Modern Craftsman Home in Renton, WA — Newly built 4-bed, 3-bath, 3,110 sq. ft. home featuring rich exterior detailing, a two-car attached garage, and charming front porch."
         },
         "1": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/34c0/0c43fa26dff82337a59a4b3823eeef74/b045",
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/abe2/2eba7e4d760d547d233f68475852ca80/b045",
           "sizes": [],
           "caption": "Inviting entryway with crisp architectural trim, durable cement plank siding, and ample space for outdoor seating."
         },
@@ -717,7 +717,12 @@
           "sizes": [],
           "caption": "Welcome Home!"
         },
-        "totalCount": 38
+        "38": {
+          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/4a10/01a4e8560178f1927c9ff2207ac30d73/b045",
+          "sizes": [],
+          "caption": ""
+        },
+        "totalCount": 39
       },
       "latitude": 47.450219,
       "listingAgentID": "1186410",
@@ -750,7 +755,7 @@
           }
         ]
       },
-      "mlsPhotoCount": 38,
+      "mlsPhotoCount": 39,
       "mlsPtID": 1,
       "ohCount": 1,
       "parentPtID": 1,
@@ -1705,7 +1710,7 @@
       "subdivision": "Bryant",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 25,
+      "viewCount": 26,
       "vtCount": 1,
       "yearBuilt": 1928,
       "zipcode": "98115",
