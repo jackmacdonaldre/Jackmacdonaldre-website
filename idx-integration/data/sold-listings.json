@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T03:35:01.351Z",
-  "count": 120,
+  "generatedAt": "2026-11-20T13:16:18.284Z",
+  "count": 119,
   "listings": [
     {
       "acres": "0.236",
@@ -305,7 +305,7 @@
       "subdivision": "First Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 40,
+      "viewCount": 41,
       "vtCount": 0,
       "yearBuilt": 1955,
       "zipcode": "98040",
@@ -1136,7 +1136,7 @@
       "subdivision": "Arrowhead",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 48,
+      "viewCount": 49,
       "vtCount": 0,
       "yearBuilt": 1956,
       "zipcode": "98028",
@@ -1407,7 +1407,7 @@
       "subdivision": "Redmond",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 31,
+      "viewCount": 33,
       "vtCount": 0,
       "yearBuilt": 1975,
       "zipcode": "98052",
@@ -32212,249 +32212,6 @@
       "vtCount": 0,
       "yearBuilt": 2023,
       "zipcode": "98168",
-      "attribution": {
-        "firm": "Compass",
-        "agentName": "Stephen Macdonald, Managing Broker",
-        "agentPhone": "425.941.7325"
-      }
-    },
-    {
-      "acres": "0.922",
-      "address": "14401 260th Avenue SE",
-      "advanced": {
-        "coOp": "no",
-        "roof": [
-          "Composition"
-        ],
-        "levels": [
-          "Two"
-        ],
-        "offers": "Seller intends to review offers upon receipt",
-        "cooling": [
-          "Forced Air"
-        ],
-        "country": [
-          "US"
-        ],
-        "heating": [
-          "Forced Air"
-        ],
-        "taxYear": 2023,
-        "flooring": [
-          "Ceramic Tile",
-          "Laminate",
-          "Vinyl Plank"
-        ],
-        "saleType": "MLS",
-        "bathrooms": "4",
-        "mlsStatus": [
-          "Sold"
-        ],
-        "styleCode": "31 - Condo (2 Levels)",
-        "appliances": [
-          "Dishwasher",
-          "Microwave",
-          "Refrigerator",
-          "Stove/Range"
-        ],
-        "highSchool": [
-          "Buyer To Verify"
-        ],
-        "inclusions": [
-          "Dishwasher",
-          "Microwave",
-          "Refrigerator",
-          "StoveRange"
-        ],
-        "livingArea": 0,
-        "possession": [
-          "Closing"
-        ],
-        "lotFeatures": [
-          "Secluded"
-        ],
-        "petsAllowed": [
-          "Subj to Restrictions"
-        ],
-        "dwellingType": "Detached",
-        "lotSizeUnits": [
-          "Square Feet"
-        ],
-        "mlsAreaMajor": "500 - East Side/South of I-90",
-        "onMarketDate": "2023-10-09T00:00:00+00:00",
-        "parkingTotal": 4,
-        "storiesTotal": 2,
-        "titleCompany": "Chicago Title & Escrow - Bridgett Markille",
-        "waterfrontYN": "no",
-        "bathsFullMain": "2",
-        "bathsHalfMain": "0",
-        "bedroomsLower": "2",
-        "bedroomsUpper": "0",
-        "entryLocation": "Main",
-        "structureType": [
-          "Multi Family"
-        ],
-        "associationFee": 5,
-        "bathsFullLower": "2",
-        "bathsFullUpper": "0",
-        "bathsHalfLower": "0",
-        "bathsHalfUpper": "0",
-        "buyerFinancing": [
-          "Conventional"
-        ],
-        "commonInterest": [
-          "Condominium"
-        ],
-        "elevationUnits": [
-          "Feet"
-        ],
-        "bathsFullGarage": "0",
-        "bathsHalfGarage": "0",
-        "livingAreaUnits": [
-          "Square Feet"
-        ],
-        "parkingFeatures": [
-          "Uncovered"
-        ],
-        "seniorExemption": "no",
-        "taxAnnualAmount": 0,
-        "bedroomsPossible": 5,
-        "elementarySchool": [
-          "Buyer To Verify"
-        ],
-        "exteriorFeatures": [
-          "Wood"
-        ],
-        "interiorFeatures": [
-          "Ceramic Tile",
-          "Laminate"
-        ],
-        "mlsLotSizeSource": "Public Records",
-        "numberOfBathtubs": "4",
-        "sellerDisclosure": "Provided",
-        "buildingAreaTotal": 3660,
-        "buildingAreaUnits": [
-          "Square Feet"
-        ],
-        "floorNumberOfUnit": "1",
-        "lotSizeSquareFeet": 40168,
-        "mainLevelBedrooms": 3,
-        "openParkingSpaces": 4,
-        "otherDuesOrFeesYN": "no",
-        "specialAssessment": "no",
-        "appliancesIncluded": [
-          "Dishwasher",
-          "Microwave",
-          "Refrigerator",
-          "Stove/Range"
-        ],
-        "highSchoolDistrict": [
-          "Issaquah"
-        ],
-        "yearBuiltEffective": 1998,
-        "firstRightOfRefusal": "no",
-        "powerProductionType": [
-          "Electric",
-          "Natural Gas"
-        ],
-        "allowedUseCaseGroups": [
-          "IDX"
-        ],
-        "middleOrJuniorSchool": [
-          "Buyer To Verify"
-        ],
-        "numberOfAccessStairs": "0",
-        "unitsInBuildingTotal": "1",
-        "bathsThreeQuarterMain": "0",
-        "associationFeeIncludes": [
-          "Road Maintenance"
-        ],
-        "bathsThreeQuarterLower": "0",
-        "bathsThreeQuarterUpper": "0",
-        "mlsSquareFootageSource": "Public Records",
-        "associationFeeFrequency": [
-          "Monthly"
-        ],
-        "bathsThreeQuarterGarage": "0",
-        "calculatedSquareFootage": "3660",
-        "preliminaryTitleOrdered": "yes",
-        "squareFootageUnfinished": "0",
-        "effectiveYearBuiltSource": "Public Records",
-        "numberOfUnitsInCommunity": 2,
-        "specialListingConditions": [
-          "None"
-        ]
-      },
-      "bedrooms": 5,
-      "cityID": 22860,
-      "cityName": "Issaquah",
-      "coListingAgentID": "100048876",
-      "coListingOfficeID": "91866779",
-      "countyID": 406,
-      "countyName": "King",
-      "dateAdded": "2023-10-10T17:24:58+00:00",
-      "dateModified": "2023-11-21T00:31:11+00:00",
-      "detailsURL": "b045/2169052",
-      "detailsUrlSlug": "14401-260th-Avenue-SE-Issaquah-98027",
-      "displayAddress": "y",
-      "featured": "y",
-      "fullBaths": 4,
-      "fullDetailsURL": "https://jackmacdonaldre.idxbroker.com/idx/details/listing/b045/2169052/14401-260th-Avenue-SE-Issaquah-98027",
-      "halfBaths": 0,
-      "idxID": "b045",
-      "idxPropType": "Residential",
-      "idxStatus": "sold",
-      "image": {
-        "0": {
-          "url": "https://s3.amazonaws.com/mlsphotos.idxbroker.com/photos/b446/644b2e35c8e3156d75384ece51c5f9c6/b045",
-          "sizes": [],
-          "caption": "Duplex Style Home on shy acre"
-        },
-        "totalCount": 1
-      },
-      "latitude": 47.472727,
-      "listingAgentID": "1186410",
-      "listingID": "2169052",
-      "listingOfficeID": "91866779",
-      "listingPrice": "$899,000",
-      "longitude": -121.994226,
-      "mediaData": [],
-      "mlsPhotoCount": 40,
-      "mlsPtID": 1,
-      "ohCount": 0,
-      "parentPtID": 1,
-      "partialBaths": 0,
-      "price": 899000,
-      "priceData": {
-        "value": {
-          "raw": 880000,
-          "formatted": "$880,000"
-        },
-        "type": "sold",
-        "label": "Sold For",
-        "field": "soldPrice"
-      },
-      "propStatus": "Sold",
-      "propSubType": "Condominium",
-      "propType": "Residential",
-      "remarksConcat": "Beautifully remodeled 5 bed, 4 bath duplex style home in a tranquil setting! The stylish 3 bed, 2 bath, 1930 SF upper unit is well appointed with solid LVP hardwood floors, updated kitchen and baths, generous living and dining areas, including a main floor primary en-suite and refined finishes throughout. The lower separate entranced 1790 SF unit includes an additional primary en-suite, a second bedroom, full bath, den, spacious kitchen, family & living room for personal relaxation or entertaining, LVP flooring and updated finishes throughout. The secluded yard is just under an acre of serenity with plenty of free range space to utilize as needed. Two driveways, close to trails, and part of the coveted Issaquah SD.",
-      "rntLse": "neither",
-      "rntLsePrice": 899000,
-      "sellingAgentID": "121205615",
-      "sellingOfficeID": "80367526",
-      "soldDate": "2023-11-20T00:00:00+00:00",
-      "soldPrice": 880000,
-      "sqFt": 0,
-      "state": "Washington",
-      "streetName": "260th Avenue SE",
-      "streetNumber": "14401",
-      "subdivision": "Tiger Mountain",
-      "threeQuarterBaths": 0,
-      "totalBaths": 4,
-      "viewCount": 2,
-      "vtCount": 0,
-      "yearBuilt": 1998,
-      "zipcode": "98027",
       "attribution": {
         "firm": "Compass",
         "agentName": "Stephen Macdonald, Managing Broker",
