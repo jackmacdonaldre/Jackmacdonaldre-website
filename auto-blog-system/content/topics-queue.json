@@ -891,6 +891,120 @@
       "added": "2026-10-20",
       "note": "Jack reviews and adds photos before this publishes (2026-10-20).",
       "slug": "selling-a-probate-home-in-king-county"
+    },
+    {
+      "topic": "What Is My Home Worth in Newcastle WA? How Eastside Homes Get Priced",
+      "city": "Newcastle",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Newcastle vs Renton Highlands: Comparing Two South Eastside Neighbors",
+      "city": "Newcastle",
+      "type": "comparison",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Kenmore Home Values: What Drives Price on the North End of Lake Washington",
+      "city": "Kenmore",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Selling a Home in Sammamish: What Buyers Pay More For",
+      "city": "Sammamish",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Renton Home Values: What Sellers in the Highlands and Kennydale Should Know",
+      "city": "Renton",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "An Executor's First 30 Days: Getting a Washington House Ready to Sell",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Issaquah Home Values: How Location Inside Issaquah Changes Price",
+      "city": "Issaquah",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Selling Your Home in Winter on the Eastside: What Actually Works",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20",
+      "areas": [
+        "eastside"
+      ]
+    },
+    {
+      "topic": "Bothell Home Values: Why Two Similar Houses Sell for Different Prices",
+      "city": "Bothell",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "When Siblings Inherit a House Together: How to Decide What to Do With It",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20",
+      "areas": [
+        "eastside"
+      ]
+    },
+    {
+      "topic": "Selling an Older Eastside Home As Is or Updating First: How to Decide",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20",
+      "areas": [
+        "eastside"
+      ]
+    },
+    {
+      "topic": "Bellevue Home Values: What Makes One Neighborhood Sell for More Than Another",
+      "city": "Bellevue",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Kenmore WA Neighborhood Guide: An Honest Look for Buyers",
+      "city": "Kenmore",
+      "type": "neighborhood_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Selling a Home in Newcastle WA: What Buyers Look For",
+      "city": "Newcastle",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
+    },
+    {
+      "topic": "Selling a Kirkland Home Before Retirement: Timing and Next Steps",
+      "city": "Kirkland",
+      "type": "seller_guide",
+      "status": "queued",
+      "added": "2026-11-20"
     }
   ]
 }
