@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T07:54:56.845Z",
+  "generatedAt": "2026-11-23T20:23:38.779Z",
   "count": 119,
   "listings": [
     {
@@ -305,7 +305,7 @@
       "subdivision": "First Hill",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 45,
+      "viewCount": 49,
       "vtCount": 0,
       "yearBuilt": 1955,
       "zipcode": "98040",
@@ -2290,7 +2290,7 @@
       "subdivision": "Green Lake",
       "threeQuarterBaths": 1,
       "totalBaths": 4,
-      "viewCount": 124,
+      "viewCount": 127,
       "vtCount": 0,
       "yearBuilt": 1997,
       "zip4": "5402",
@@ -6080,7 +6080,7 @@
       "subdivision": "Leschi",
       "threeQuarterBaths": 2,
       "totalBaths": 4,
-      "viewCount": 113,
+      "viewCount": 114,
       "vtCount": 0,
       "yearBuilt": 1907,
       "zip4": "6439",
@@ -31233,7 +31233,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 4,
       "unitNumber": "2",
-      "viewCount": 9,
+      "viewCount": 10,
       "vtCount": 0,
       "yearBuilt": 2023,
       "zipcode": "98166",

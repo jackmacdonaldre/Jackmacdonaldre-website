@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T07:54:38.605Z",
+  "generatedAt": "2026-11-23T20:23:20.699Z",
   "count": 7,
   "listings": [
     {
@@ -1232,7 +1232,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 4,
+      "viewCount": 5,
       "vtCount": 1,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -2113,26 +2113,10 @@
       "listingOfficeID": "91866779",
       "listingPrice": "$750,000",
       "longitude": -122.038167,
-      "mediaData": {
-        "oh": [
-          {
-            "id": "162788469",
-            "text": "",
-            "starts": "2026-11-22T13:00:00+00:00",
-            "expires": "2026-11-22T16:00:00+00:00",
-            "virtualLink": null,
-            "virtualText": null,
-            "dateModified": "2026-11-16T17:40:09+00:00",
-            "freeFormDate": "November 22nd, 2026",
-            "freeFormTime": "1:00 pm to 4:00 pm",
-            "listingID": "2577976",
-            "startTime": 1795352400
-          }
-        ]
-      },
+      "mediaData": [],
       "mlsPhotoCount": 35,
       "mlsPtID": 1,
-      "ohCount": 1,
+      "ohCount": 0,
       "parentPtID": 1,
       "partialBaths": 1,
       "price": 750000,
@@ -2973,7 +2957,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 17,
+      "viewCount": 18,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
