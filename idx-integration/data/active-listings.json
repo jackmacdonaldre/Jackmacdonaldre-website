@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T02:38:03.908Z",
+  "generatedAt": "2026-11-25T14:40:02.003Z",
   "count": 7,
   "listings": [
     {
@@ -283,7 +283,7 @@
       "threeQuarterBaths": 1,
       "totalBaths": 5,
       "unitNumber": "C",
-      "viewCount": 251,
+      "viewCount": 252,
       "vtCount": 0,
       "yearBuilt": 2026,
       "zipcode": "98027",
@@ -1232,7 +1232,7 @@
       "subdivision": "Renton",
       "threeQuarterBaths": 2,
       "totalBaths": 3,
-      "viewCount": 5,
+      "viewCount": 7,
       "vtCount": 1,
       "yearBuilt": 2026,
       "zipcode": "98055",
@@ -1680,7 +1680,7 @@
       "subdivision": "Bryant",
       "threeQuarterBaths": 0,
       "totalBaths": 2,
-      "viewCount": 26,
+      "viewCount": 27,
       "vtCount": 1,
       "yearBuilt": 1928,
       "zipcode": "98115",
@@ -2557,7 +2557,7 @@
       "subdivision": "Gatewood",
       "threeQuarterBaths": 1,
       "totalBaths": 2,
-      "viewCount": 21,
+      "viewCount": 22,
       "vtCount": 0,
       "yearBuilt": 1924,
       "zipcode": "98126",
