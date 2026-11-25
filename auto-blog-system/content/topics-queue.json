@@ -837,7 +837,9 @@
       "topic": "Moving to Redmond: A Practical Relocation Guide",
       "city": "Redmond",
       "type": "relocation_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "moving-to-redmond-a-practical-relocation-guide",
+      "published_date": "2026-11-25"
     },
     {
       "topic": "Trossachs and Sahalee: Sammamish Neighborhoods for Larger Lots",

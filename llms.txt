@@ -100,6 +100,7 @@ Neighborhood guides:
 
 Relocation:
 
+* [Moving to Redmond WA: What You Actually Need to Know](https://jackmacdonaldre.com/blog/moving-to-redmond-a-practical-relocation-guide/index.md): Thinking about moving to Redmond, WA? A local agent breaks down neighborhoods, commutes, schools, and what the housing market actually looks like.
 * [Best Neighborhoods Near Microsoft Redmond Campus](https://jackmacdonaldre.com/blog/living-near-microsoft-redmond-campus-best-nearby-neighborhoods/index.md): Relocating for Microsoft in Redmond? Here are the neighborhoods worth looking at, with real tradeoffs on commute, housing, and lifestyle.
 
 Schools and family:
