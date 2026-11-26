@@ -846,7 +846,9 @@
       "city": "Sammamish",
       "neighborhood": "Sahalee",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "trossachs-and-sahalee-sammamish-neighborhoods-for-larger-lots",
+      "published_date": "2026-11-26"
     },
     {
       "topic": "Best Neighborhoods in Redmond for Families",
