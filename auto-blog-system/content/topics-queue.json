@@ -854,7 +854,9 @@
       "topic": "Best Neighborhoods in Redmond for Families",
       "city": "Redmond",
       "type": "neighborhood_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "best-neighborhoods-in-redmond-for-families",
+      "published_date": "2026-11-27"
     },
     {
       "topic": "Selling a House With Tenants in Washington State: What Owners Should Know",
