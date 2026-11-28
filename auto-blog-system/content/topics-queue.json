@@ -862,7 +862,9 @@
       "topic": "Selling a House With Tenants in Washington State: What Owners Should Know",
       "city": "Bellevue",
       "type": "seller_guide",
-      "status": "queued"
+      "status": "published",
+      "published_slug": "selling-a-house-with-tenants-in-washington-state-what-owners-should-know",
+      "published_date": "2026-11-28"
     },
     {
       "topic": "Best Neighborhoods in Kirkland for Families",
